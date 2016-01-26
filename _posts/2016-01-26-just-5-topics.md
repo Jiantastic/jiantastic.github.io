@@ -1,7 +1,6 @@
-I am getting back into blogging after a hiatus of 6 years. For 2016, I plan to write 5 blog posts on topics that I have thought a lot about over the years. The ideas outlined here have significantly shaped my worldview and form the underlying motivation behind my every single action. I hope that you will enjoy it.
+I am getting back into blogging after a hiatus of 6 years. My old gaming blog, [BioFission](http://biofission.blogspot.co.uk/) is amazingly still alive on Blogspot! For 2016, I plan to write 5 blog posts on topics that I have thought a lot about over the years. The ideas outlined here have significantly shaped my worldview and form the underlying motivation behind my every single action. I hope that you will enjoy it.
 
 ## 1. Evolution, human behavioral patterns and the next step in natural selection
-
 
 * Evolution has its basis in natural selection, here is a classic example. Zebras are trying to outrun a lion, but zebras aren't faster than lions are they? Well, they don't have to be faster than lions to survive. **All they have to do is to be faster than the slowest zebra.**
 
