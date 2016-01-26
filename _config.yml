@@ -17,8 +17,6 @@ markdown:           rdiscount
 nav:
   - name:           "About"
     href:           "//jiantastic.github.io/about"
-  - name:           "Download"
-    href:           "//jiantastic.github.io"
 
 # Sass
 sass:
