@@ -1,24 +1,21 @@
-## Installation & Usage
+# Kiko
 
-    bundle install
-    bundle exec jekyll serve
+[Kiko](http://github.com/gfjaru/Kiko) is a theme for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@gfjaru](https://twitter.com/gfjaru).
 
-## Publish to Github Pages
+[See it live](https://kiko.gfjaru.com/)
 
-    JEKYLL_ENV=production bundle exec rake site:publish
+## Get Started
 
-## Thanks
+1. Fork this repository
+2. Clone the repository to your computer.<br />`git clone https://github.com/YOURUSERNAME/Kiko`  
+3. Run it.<br />`jekyll serve`
+4. Go to http://127.0.0.1:4000.
 
-This blog was forked from https://github.com/kippt/jekyll-incorporated. Originally built for
-[sendtoinc.com](https://sendtoinc.com), your workspace for sharing and organizing knowledge.
-Original template built by:
+## Make it yours
 
-**Karri Saarinen**
+1. Change name and add/remove nav at `_config.yml`.
+2. Change `about.md`.
 
-+ [http://twitter.com/karrisaarinen](http://twitter.com/karrisaarinen)
-+ [http://github.com/ksaa](http://github.com/ksaa)
+## License
 
-**Jori Lallo**
-
-+ [http://twitter.com/jorilallo](http://twitter.com/jorilallo)
-+ [http://github.com/jorde](http://github.com/jorilallo)
+This theme is released under MIT License.
