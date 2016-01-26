@@ -2,9 +2,10 @@ I am getting back into blogging after a hiatus of 6 years. For 2016, I plan to w
 
 ### 1. Evolution, human behavioral patterns and the next step in natural selection
 
+
 * Evolution has its basis in natural selection, here is a classic example. Zebras are trying to outrun a lion, but zebras aren't faster than lions are they? Well, they don't have to be faster than lions to survive. **All they have to do is to be faster than the slowest zebra.**
 
-* Why do people like people who look gorgeous? Why is it that people treat beautiful people better than others? Some people say that it is from our evolutionary roots whereby good looks are a sign of health, such as how big hips signify great ability to carry a baby ( lower probability to suffer from miscarriage ). This however is increasingly less relevant with the advent of modern medicine. Another reason is that we know that good looking people are more likely to receive more attention / better treatment from the general populace thus it is evolutionary more favorable to marry good looking people due to these benefits, given that all things are equal.
+* Why do people like beautiful people? Why is it that people treat beautiful people better than others? Some people say that it is from our evolutionary roots whereby good looks are a sign of health, such as how big hips signify great ability to carry a baby ( lower probability to suffer from miscarriage ). This however is increasingly less relevant with the advent of modern medicine. Another reason is that we know that good looking people are more likely to receive more attention / better treatment from the general populace thus it is evolutionary more favorable to marry good looking people due to these benefits, given that all things are equal.
 
 * One constant of evolution is change. For the fundamental tenet of evolution is simply to survive. Whoever possesses the characteristics which promote survival in the current environment is more likely to procreate and thus pass that particular variant of the gene to the next generation. In the future, I see evolution not as something that gradually happens naturally over the year but rather a self-driven evolution using technology and human augmentation. 
 
