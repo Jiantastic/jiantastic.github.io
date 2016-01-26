@@ -1,5 +1,3 @@
-# Just 5 topics
-
 I am getting back into blogging after a hiatus of 6 years. For 2016, I plan to write 5 blog posts on topics that I have thought a lot about over the years. The ideas outlined here have significantly shaped my worldview and form the underlying motivation behind my every single action. I hope that you will enjoy it.
 
 ### 1. Evolution, human behavioral patterns and the next step in natural selection
@@ -52,7 +50,6 @@ What Automation will achieve, 3 links for reference.
 
 ### 5. TBD ( Religion potentially? )
 
-The date is 25th of January, 2016. I am currently 21 years old. We shall see how much I have accomplished by the end of the year :)
 
+The date is 26th of January, 2016. I am currently 21 years old. We shall see how much I have accomplished by the end of the year :)
 
-Credits to  [https://github.com/willkoehler](Will Koehler) for the amazing theme
