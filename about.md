@@ -3,7 +3,7 @@ title: About
 permalink: /about/
 ---
 
-Someone bored out of their mind. Say hello :)
+Someone bored out of their mind. Say hello on Twitter :)
 
 Twitter - [https://twitter.com/srswwj](https://twitter.com/srswwj)
 
