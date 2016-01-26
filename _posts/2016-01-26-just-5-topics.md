@@ -41,14 +41,16 @@ Throughout history, technology has played a central role in shaping historical e
 
 What Automation will achieve, 3 links for reference.
 
-* Humans Need Not Apply - https://youtu.be/7Pq-S557XQU
+* Humans Need Not Apply - [https://youtu.be/7Pq-S557XQU](https://youtu.be/7Pq-S557XQU)
 
-* Finland considers basic income to reform welfare system - http://www.bbc.co.uk/news/world-europe-33977636
+* Finland considers basic income to reform welfare system - [http://www.bbc.co.uk/news/world-europe-33977636](http://www.bbc.co.uk/news/world-europe-33977636)
 
-* London Tube Strike - http://www.ibtimes.co.uk/london-tube-strike-why-do-we-even-need-drivers-1514238
+* London Tube Strike - [http://www.ibtimes.co.uk/london-tube-strike-why-do-we-even-need-drivers-1514238](http://www.ibtimes.co.uk/london-tube-strike-why-do-we-even-need-drivers-1514238)
 
 
 ### 5. TBD ( Religion potentially? )
+
+No clue what this will be. 11 months to figure it out!
 
 
 The date is 26th of January, 2016. I am currently 21 years old. We shall see how much I have accomplished by the end of the year :)
