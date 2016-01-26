@@ -1,6 +1,6 @@
 I am getting back into blogging after a hiatus of 6 years. For 2016, I plan to write 5 blog posts on topics that I have thought a lot about over the years. The ideas outlined here have significantly shaped my worldview and form the underlying motivation behind my every single action. I hope that you will enjoy it.
 
-### 1. Evolution, human behavioral patterns and the next step in natural selection
+## 1. Evolution, human behavioral patterns and the next step in natural selection
 
 
 * Evolution has its basis in natural selection, here is a classic example. Zebras are trying to outrun a lion, but zebras aren't faster than lions are they? Well, they don't have to be faster than lions to survive. **All they have to do is to be faster than the slowest zebra.**
@@ -11,7 +11,7 @@ I am getting back into blogging after a hiatus of 6 years. For 2016, I plan to w
 
 * The evolutionary ideal for humanity would be twofold, the first would be to conquer the stars and spread ourselves over multiple planets to reduce the risk of extinction given an unexpected event ( Meteor strike, the Sun dies an early death etc ). The second would be to conquer mortality, either by modification of the human genetic code ( lengthening telomeres, overcoming the Hayflick Limit etc ). If humanity is capable of achieving this within the next 100 years or so, fun times would begin :)
 
-### 2. The relationship between human progress and technology
+## 2. The relationship between human progress and technology
 
 Throughout history, technology has played a central role in shaping historical events, I'll outline a few examples below :
 
@@ -24,7 +24,7 @@ Throughout history, technology has played a central role in shaping historical e
 * It's not just warfare. Think agriculture technology ( and thus being able to feed an increasingly large population ), advancement in medicine technology ( and thus humans live longer lives and contribute more to society and human wellbeing ), the Internet ( global communications and collaborations ). Technology has an incredibly intimate relationship with human progress, more needs to be done to promote and facilitate global technological growth and advancement. 
 
 
-### 3. Inequality, Nature vs Nurture and Luck
+## 3. Inequality, Nature vs Nurture and Luck
 
 * How much of nature and nurture do we actually control?
 
@@ -38,7 +38,7 @@ Throughout history, technology has played a central role in shaping historical e
 
 * If we agree that the world is simply the interaction between numerous events such that each had a probability of occuring, anyone who has the exact probabilistic data on every single event in the Universe can predict anything with probabilitic accuracy.
 
-### 4. Automation, Jobs and Welfare
+## 4. Automation, Jobs and Welfare
 
 What Automation will achieve, 3 links for reference.
 
@@ -49,7 +49,7 @@ What Automation will achieve, 3 links for reference.
 * London Tube Strike - [http://www.ibtimes.co.uk/london-tube-strike-why-do-we-even-need-drivers-1514238](http://www.ibtimes.co.uk/london-tube-strike-why-do-we-even-need-drivers-1514238)
 
 
-### 5. TBD ( Religion potentially? )
+## 5. TBD ( Religion potentially? )
 
 No clue what this will be. 11 months to figure it out!
 
