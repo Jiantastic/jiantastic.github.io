@@ -1,31 +1,58 @@
----
-layout: default
----
-<header class="masthead">
-  <h1 class="masthead-title">
-    <a href="{{ site.baseurl }}/">Wei Jian Wong - Life, tech and the future</a>
-  </h1>
-  <h1>My <a href="https://www.linkedin.com/in/wei-jian-wong-91ab4695">LinkedIn</a></h1>
-  <h1>My <a href="https://twitter.com/realWeiJianWong">Twitter</a></h1>
-  <nav class="masthead-nav">
-    {% for nav in site.nav %}
-    <a href="{{ nav.href }}">{{ nav.name }}</a>
-    {% endfor %}
-  </nav>
-</header>
-<div class="content list">
-{% if site.posts.size == 0 %}
-  <h2>No post found</h2>
-{% else %}
-{% for post in site.posts %}
-  <div class="list-item">
-    <h2 class="list-post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
-    <div class="list-post-date">
-      <time>{{ post.date | date_to_string }}</time>
-    </div>
-  </div>
-{% endfor %}
-{% endif %}
-</div>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The personal website of the one and only Wei Jian Wong. Also known as Wei Wong or Jian Wong or Wong Wei Jian">
+  <meta name="author" content="">
+  <title>Vital Tri-Link | Energy Saving Solutions for Malaysia and Singapore</title>
+  <link href="/VTL.ico" rel="shortcut icon">
+  <link rel="stylesheet" type="text/css" href="complete.css">
+  <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+
+  <body>
+    <h1>Wei Jian Wong</h1>
+    <h2>Also known as Wei Wong or Jian Wong or Wong Wei Jian</h2>
+    <h1> My <a href="https://www.linkedin.com/in/wei-jian-wong-91ab4695">LinkedIn</a></h1>
+    <h1> My <a href="https://twitter.com/realWeiJianWong">Twitter</a></h1>
+
+    <p>Software engineer by trade, have worked in a wide variety of different industries such as travel, consulting and finance. I have worked with all sorts of technology across the entire spectrum(list to follow). Do enjoy breaking down immensely complex problems into simple tasks understood by a 5 year old. I derive great pleasure in developing user and business focused software solutions with automation being one of my specialties. My CV will eventually make its way here. Reserving my domain name so domain squatters can't rip me off later. In the age of information, it is important to have technically literate individuals in your organization. Please contact me on LinkedIn or Twitter if you have a business problem that you think technology could solve :) </p>
+
+    <h2>Some stuff I have worked with</h2>
+    <ul>
+      <li>FPGA development of a proprietary digital signal processing algorithm that aims to help individuals sleep better by analysing their brain waves in real-time</li>
+      <li>Variety of production grade projects within the Internet-of-Things embedded system space.</li>
+      <li>Building a compiler from scratch, converts C code into MIPS assembly</li>
+      <li>Technology infrastructure automation, container technology such as Docker, general DevOps and streamlining continuous integration processes</li>
+      <li>Cloud technology capable along the likes of Amazon Web Services, Azure and Google Cloud</li>
+      <li>Financial reporting automation with Python, bash scripts and cron jobs</li>
+      <li>Excel add-in for financial applications</li>
+      <li>Machine learning, neural networks and all that jazz in tandem with financial modelling</li>
+      <li>Everything you need to create a web application, both front-end technology(HTML, CSS, JavaScript) and back-end(Python, Java, JavaScript). Integrating C++ algorithms with a user-friendly REST APIs in a highly performant manner</li>
+    </ul>
+
+
+    <h2>Some random thoughts and ramblings</h2>
+    <h3>Evolution, human behavioral patterns and the next step in natural selection</h3>
+    <h3>The relationship between human progress and technology</h3>
+    <h3>Inequality, Nature vs Nurture and Luck</h3>
+    <h3>Automation, Jobs and Welfare</h3>
+    <h3>The game that is life and how I intend to play it</h3>
+
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-53965395-2', 'auto');
+      ga('send', 'pageview');
+    
+      </script>
+  </body>
+</html>
