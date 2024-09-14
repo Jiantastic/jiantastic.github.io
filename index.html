@@ -16,10 +16,29 @@
             font-size: 2em;
             margin-bottom: 15px;
             text-align: center;
+            transition: opacity 0.3s ease;
+        }
+        .gallery-selector {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .gallery-button {
+            padding: 10px 15px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .gallery-button.active {
+            background-color: #555;
         }
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             gap: 10px;
             padding: 10px 0;
         }
@@ -68,7 +87,7 @@
                 margin-bottom: 20px;
             }
             .grid-container {
-                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                grid-template-columns: repeat(3, 1fr);
                 gap: 20px;
                 padding: 20px 0;
             }
@@ -79,7 +98,12 @@
     </style>
 </head>
 <body>
-    <h1>Showcase</h1>
+    <h1 id="galleryTitle">Crimson Oni</h1>
+    <div class="gallery-selector">
+        <button class="gallery-button active" data-gallery="crimsonOni">Crimson Oni</button>
+        <button class="gallery-button" data-gallery="chaoscanvas">Chaos Canvas</button>
+        <!-- <button class="gallery-button" data-gallery="emeraldTanuki">Emerald Tanuki</button> -->
+    </div>
     <div id="gridContainer" class="grid-container">
         <!-- Grid items will be dynamically inserted here -->
     </div>
@@ -90,7 +114,39 @@
     </div>
 
     <script>
-        function createGridItems(count) {
+        const galleries = {
+            crimsonOni: {
+                title: "Crimson Oni",
+                imageCount: 9
+            },
+            chaoscanvas: {
+                title: "Chaos Canvas",
+                imageCount: 15
+            },
+            emeraldTanuki: {
+                title: "Untamed Dreamscape",
+                imageCount: 18
+            }
+        };
+
+        let currentGallery = null;
+
+        function selectGallery(galleryName) {
+            currentGallery = galleries[galleryName];
+            document.getElementById('galleryTitle').textContent = currentGallery.title;
+            document.getElementById('galleryTitle').style.opacity = 1;
+            createGridItems(currentGallery.imageCount, galleryName);
+
+            // Update active button
+            document.querySelectorAll('.gallery-button').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.gallery === galleryName) {
+                    btn.classList.add('active');
+                }
+            });
+        }
+
+        function createGridItems(count, galleryName) {
             const container = document.getElementById('gridContainer');
             container.innerHTML = ''; // Clear existing items
 
@@ -99,8 +155,8 @@
                 gridItem.className = 'grid-item';
                 
                 const img = document.createElement('img');
-                img.src = `./images/genimage-${i}.png`; // Assumes .jpg extension
-                img.alt = `Generated Image ${i}`;
+                img.src = `./images/${galleryName}-${i}.png`; // Assumes .png extension
+                img.alt = `${currentGallery.title} Image ${i}`;
                 img.loading = 'lazy';
                 
                 img.onerror = function() {
@@ -129,8 +185,15 @@
             document.getElementById('imageModal').style.display = 'none';
         }
 
-        // Call this function with the number of images you want to display
-        createGridItems(20);
+        // Set up gallery selection buttons
+        document.querySelectorAll('.gallery-button').forEach(button => {
+            button.addEventListener('click', function() {
+                selectGallery(this.dataset.gallery);
+            });
+        });
+
+        // Initialize with Crimson Oni gallery
+        selectGallery('crimsonOni');
     </script>
 </body>
 </html>
