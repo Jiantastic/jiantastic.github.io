@@ -3,6 +3,7 @@ title: Wei Wong
 description: SaaS sales rep, software engineer, and aspiring polymath. Interested in technology as a function to drive change in the world.
 url: "https://jiantastic.github.io"
 baseurl: ""
+image: /images/chaoscanvas-1.png
 
 # Author
 author:
@@ -17,6 +18,7 @@ substack_url: https://weiwong.substack.com/
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # SEO
 twitter:
