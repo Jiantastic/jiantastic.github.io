@@ -1,0 +1,30 @@
+# Site settings
+title: Wei Wong
+description: SaaS sales rep, software engineer, and aspiring polymath. Interested in technology as a function to drive change in the world.
+url: "https://jiantastic.github.io"
+baseurl: ""
+
+# Author
+author:
+  name: Wei Wong
+  twitter: weijwong
+
+# Social links
+twitter_username: weijwong
+substack_url: https://weiwong.substack.com/
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+# SEO
+twitter:
+  username: weijwong
+  card: summary_large_image
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

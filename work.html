@@ -1,0 +1,133 @@
+---
+layout: default
+title: Work
+description: Projects and creations by Wei Wong
+---
+
+<header class="page-header">
+  <h1 class="page-title">Work</h1>
+  <p class="page-desc">Projects and creations I'm working on.</p>
+</header>
+
+<section class="section">
+  <h2 class="section-title">Projects</h2>
+  <div class="project-grid">
+    <a
+      href="https://battleroyale.pages.dev"
+      target="_blank"
+      rel="noopener"
+      class="project-card"
+    >
+      <div
+        class="project-thumb"
+        style="
+          background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 3rem;
+        "
+      >
+        🎮
+      </div>
+      <div class="project-info">
+        <h3>3D Battle Royale</h3>
+        <p>
+          A flying 3D DOOM-style game built with Three.js and deployed on
+          Cloudflare Pages.
+        </p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="section gallery-section" id="galleries">
+  <h2 class="section-title">Art Galleries</h2>
+  <div class="gallery-buttons">
+    <button
+      class="gallery-btn active"
+      data-gallery="crimsonOni"
+      id="btn-crimsonOni"
+    >
+      Crimson Oni
+    </button>
+    <button class="gallery-btn" data-gallery="chaoscanvas" id="btn-chaoscanvas">
+      Chaos Canvas
+    </button>
+  </div>
+  <div id="gallery-grid" class="gallery-grid">
+    <!-- Gallery images loaded dynamically -->
+  </div>
+</section>
+
+<div id="modal" class="modal">
+  <button class="modal-close">&times;</button>
+  <img id="modal-img" src="" alt="Expanded image" />
+</div>
+
+<script>
+  const galleries = {
+    crimsonOni: { title: "Crimson Oni", count: 9 },
+    chaoscanvas: { title: "Chaos Canvas", count: 18 },
+  };
+
+  let currentGallery = "chaoscanvas";
+
+  function loadGallery(name) {
+    currentGallery = name;
+    const gallery = galleries[name];
+    const grid = document.getElementById("gallery-grid");
+    grid.innerHTML = "";
+
+    // Update buttons
+    document.querySelectorAll(".gallery-btn").forEach((btn) => {
+      btn.classList.toggle("active", btn.dataset.gallery === name);
+    });
+
+    // Load images
+    for (let i = 1; i <= gallery.count; i++) {
+      const img = document.createElement("img");
+      img.src = `/images/${name}-${i}.png`;
+      img.alt = `${gallery.title} ${i}`;
+      img.loading = "lazy";
+      img.onerror = function () {
+        this.remove();
+      };
+      img.onclick = function () {
+        openModal(this.src);
+      };
+      grid.appendChild(img);
+    }
+  }
+
+  function openModal(src) {
+    const modal = document.getElementById("modal");
+    document.getElementById("modal-img").src = src;
+    modal.classList.add("active");
+  }
+
+  function closeModal() {
+    document.getElementById("modal").classList.remove("active");
+  }
+
+  // Event listeners
+  document.querySelectorAll(".gallery-btn").forEach((btn) => {
+    btn.addEventListener("click", () => loadGallery(btn.dataset.gallery));
+  });
+
+  document.getElementById("modal").addEventListener("click", closeModal);
+  document.querySelector(".modal-close").addEventListener("click", closeModal);
+
+  // Handle hash navigation
+  function checkHash() {
+    const hash = window.location.hash.replace("#", "");
+    if (galleries[hash]) {
+      loadGallery(hash);
+    } else {
+      loadGallery("chaoscanvas");
+    }
+  }
+
+  window.addEventListener("hashchange", checkHash);
+  checkHash();
+</script>
