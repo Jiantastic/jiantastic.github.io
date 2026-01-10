@@ -1,0 +1,46 @@
+---
+layout: default
+title: Living Matrix Prototype
+description: Matrix rain meets Game of Life and evolving glitch agents.
+permalink: /matrix-evolution/
+---
+
+<link rel="stylesheet" href="/matrix-evolution/style.css" />
+
+<div class="matrix-page">
+  <header class="page-header">
+    <div>
+      <p class="eyebrow">Prototype</p>
+      <h1>Living Matrix</h1>
+      <p class="lede">Matrix rain + Game of Life + Glitch Agents (mobile-friendly).</p>
+    </div>
+    <div class="controls">
+      <div class="control">
+        <label for="speedRange">Sim speed</label>
+        <input type="range" id="speedRange" min="0.25" max="2" step="0.05" value="1" />
+      </div>
+      <div class="control">
+        <label for="foodRange">Food density</label>
+        <input type="range" id="foodRange" min="0.05" max="0.6" step="0.01" value="0.22" />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="canvas-container" aria-label="Matrix evolution simulation" role="img"></div>
+    <section class="info">
+      <div>
+        <h2>What you are seeing</h2>
+        <ul>
+          <li>Green = food (Game of Life style growth)</li>
+          <li>Blue = pheromone trails</li>
+          <li>Red = Glitch agents seeking food to survive</li>
+        </ul>
+      </div>
+      <div class="stats" id="stats"></div>
+    </section>
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@7.x/dist/pixi.min.js" integrity="sha384-wHIqBb6yAzT5bOEHz7uRj2DqG7cdzDp1U0yL66H26fK3P7Na1UThG6TB2eB6GJm3" crossorigin="anonymous"></script>
+<script type="module" src="/matrix-evolution/app.js"></script>
