@@ -11,39 +11,32 @@
   --very-low: #e07b39;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Inter", system-ui, -apple-system, sans-serif;
-  color: var(--text);
+.alphafold-page {
   background: var(--bg);
-  overflow-x: hidden;
+  color: var(--text);
+  padding-bottom: 2rem;
 }
 
-.container {
+.alphafold-page .container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 1.5rem;
 }
 
-.site-header {
-  background: var(--panel);
-  border-bottom: 1px solid var(--border);
+.alphafold-page .page-header {
+  padding: 1.5rem 0 1rem;
 }
 
-.site-header h1 {
-  margin: 0 0 0.5rem 0;
+.alphafold-page .page-title {
+  margin: 0 0 0.35rem 0;
 }
 
-.lead {
+.alphafold-page .page-desc {
   margin: 0;
   color: var(--muted);
 }
 
-.panel {
+.alphafold-page .panel {
   background: var(--panel);
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -52,19 +45,19 @@ body {
   box-shadow: 0 6px 20px rgba(15, 23, 42, 0.05);
 }
 
-.search-grid {
+.alphafold-page .search-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
 }
 
-.search-row {
+.alphafold-page .search-row {
   display: flex;
   gap: 0.5rem;
 }
 
-input,
-textarea {
+.alphafold-page input,
+.alphafold-page textarea {
   width: 100%;
   padding: 0.6rem 0.8rem;
   border-radius: 8px;
@@ -72,7 +65,7 @@ textarea {
   font-size: 1rem;
 }
 
-button {
+.alphafold-page button {
   background: var(--primary);
   color: white;
   border: none;
@@ -82,7 +75,7 @@ button {
   font-weight: 600;
 }
 
-button.example {
+.alphafold-page button.example {
   background: #eef2ff;
   color: #1e3a8a;
   border: 1px solid #c7d2fe;
@@ -90,27 +83,36 @@ button.example {
   margin-top: 0.5rem;
 }
 
-.hint,
-.status {
+.alphafold-page .hint,
+.alphafold-page .status {
   color: var(--muted);
   margin-top: 0.5rem;
 }
 
-.viewer-grid {
+.alphafold-page .viewer-grid {
   display: grid;
   grid-template-columns: 1.6fr 1fr;
   gap: 1.5rem;
 }
 
-.viewer {
+.alphafold-page .viewer {
+  position: relative;
   width: 100%;
   height: 480px;
   background: #ffffff;
   border-radius: 10px;
   border: 1px solid var(--border);
+  overflow: hidden;
 }
 
-.legend {
+.alphafold-page .viewer canvas {
+  position: absolute !important;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.alphafold-page .legend {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
@@ -118,7 +120,7 @@ button.example {
   font-size: 0.9rem;
 }
 
-.swatch {
+.alphafold-page .swatch {
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -126,43 +128,43 @@ button.example {
   margin-right: 0.3rem;
 }
 
-.swatch.very-high {
+.alphafold-page .swatch.very-high {
   background: var(--very-high);
 }
 
-.swatch.confident {
+.alphafold-page .swatch.confident {
   background: var(--confident);
 }
 
-.swatch.low {
+.alphafold-page .swatch.low {
   background: var(--low);
 }
 
-.swatch.very-low {
+.alphafold-page .swatch.very-low {
   background: var(--very-low);
 }
 
-.metric {
+.alphafold-page .metric {
   margin-bottom: 0.5rem;
 }
 
-.bars {
+.alphafold-page .bars {
   display: grid;
   gap: 0.4rem;
 }
 
-.bar {
+.alphafold-page .bar {
   display: flex;
   align-items: center;
   gap: 0.6rem;
 }
 
-.bar span {
+.alphafold-page .bar span {
   min-width: 110px;
   font-size: 0.9rem;
 }
 
-.bar .fill {
+.alphafold-page .bar .fill {
   height: 10px;
   border-radius: 6px;
   background: var(--border);
@@ -171,7 +173,7 @@ button.example {
   overflow: hidden;
 }
 
-.bar .fill::after {
+.alphafold-page .bar .fill::after {
   content: "";
   position: absolute;
   left: 0;
@@ -181,30 +183,30 @@ button.example {
   background: var(--color, #999);
 }
 
-.pae {
+.alphafold-page .pae {
   width: 100%;
   border-radius: 10px;
   border: 1px solid var(--border);
   margin-top: 0.5rem;
 }
 
-.steps {
+.alphafold-page .steps {
   margin: 0;
   padding-left: 1.4rem;
   color: var(--text);
 }
 
-.bullets {
+.alphafold-page .bullets {
   margin: 0;
   padding-left: 1.2rem;
   color: var(--text);
 }
 
-.example-row {
+.alphafold-page .example-row {
   margin-top: 0.5rem;
 }
 
-.viewer.fallback {
+.alphafold-page .viewer.fallback {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -212,17 +214,17 @@ button.example {
   background: #f8fafc;
 }
 
-.api-list {
+.alphafold-page .api-list {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
 
-.api-list li {
+.alphafold-page .api-list li {
   margin-bottom: 0.75rem;
 }
 
-code {
+.alphafold-page code {
   background: #f3f4f6;
   padding: 0.2rem 0.4rem;
   border-radius: 6px;
@@ -231,7 +233,7 @@ code {
   overflow-wrap: anywhere;
 }
 
-.site-footer {
+.alphafold-page .site-footer {
   margin-top: 2rem;
   padding: 1.5rem 0;
   text-align: center;
@@ -239,7 +241,7 @@ code {
 }
 
 @media (max-width: 900px) {
-  .viewer-grid {
+  .alphafold-page .viewer-grid {
     grid-template-columns: 1fr;
   }
 }

@@ -287,6 +287,13 @@ const initApp = () => {
   initDom();
   initViewer();
   bindEvents();
+
+  const defaultId = "P69905";
+  if (dom.uniprotInput) {
+    dom.uniprotInput.value = defaultId;
+    setStatus("Loading default model...");
+    handleUniProtSearch(defaultId);
+  }
 };
 
 if (typeof document !== "undefined") {
