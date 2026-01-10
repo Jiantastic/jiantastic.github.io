@@ -1,0 +1,12 @@
+{
+  "name": "jiantastic.github.io",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "jsdom": "^23.0.1",
+    "vitest": "^1.2.2"
+  }
+}

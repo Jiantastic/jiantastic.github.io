@@ -25,6 +25,13 @@ serve .
 # then open http://localhost:3000/matrix-evolution/
 ```
 
+### Tests
+The core simulation logic lives in `sim-core.js` and is covered by Vitest. From repo root:
+```bash
+npm install
+npm test
+```
+
 ## Troubleshooting
 - **PIXI undefined / integrity blocked**: Ensure `matrix-evolution/index.html` loads Pixi.js without a mismatched SRI hash. Current script tag uses jsDelivr and omits integrity to avoid hash drift.
 - **Canvas sizing**: The scene auto-resizes to the container; if embedding elsewhere, keep the container visible and sized.
