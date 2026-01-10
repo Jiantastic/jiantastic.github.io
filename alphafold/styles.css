@@ -11,6 +11,13 @@
   --very-low: #e07b39;
 }
 
+/* Expand main container for this page (stylesheet only loaded here) */
+.main {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0;
+}
+
 .alphafold-page {
   background: var(--bg);
   color: var(--text);
