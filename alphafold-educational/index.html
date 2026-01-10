@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AlphaFold Educational Viewer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.0.4/3Dmol-min.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>AlphaFold Educational Viewer</h1>
+        <p class="lead">
+          Explore protein structures in your browser and learn how AlphaFold
+          estimates confidence and uncertainty.
+        </p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="panel">
+        <h2>Start Here (2–3 minutes)</h2>
+        <ol class="steps">
+          <li>Pick an example or enter a UniProt ID.</li>
+          <li>Rotate the protein and notice the color bands.</li>
+          <li>Compare the confidence bars and PAE image.</li>
+          <li>Read the “What it means” notes on the right.</li>
+        </ol>
+      </section>
+
+      <section class="panel">
+        <h2>Find a Protein</h2>
+        <div class="search-grid">
+          <div>
+            <label for="uniprot-input">UniProt ID</label>
+            <div class="search-row">
+              <input
+                id="uniprot-input"
+                type="text"
+                placeholder="Example: P69905"
+                autocomplete="off"
+              />
+              <button id="uniprot-search">Load</button>
+            </div>
+            <div class="example-row">
+              <span>Examples:</span>
+              <button class="example" data-id="P69905">Hemoglobin (P69905)</button>
+              <button class="example" data-id="P04637">TP53 (P04637)</button>
+              <button class="example" data-id="Q96PD7">DGAT2 (Q96PD7)</button>
+            </div>
+          </div>
+          <div>
+            <label for="sequence-input">Sequence (optional)</label>
+            <textarea
+              id="sequence-input"
+              rows="4"
+              placeholder="Paste amino-acid sequence to resolve a UniProt match"
+            ></textarea>
+            <button id="sequence-search">Resolve by sequence</button>
+            <p class="hint">
+              Sequence search depends on the AlphaFold API and may return multiple
+              candidates.
+            </p>
+          </div>
+        </div>
+        <p id="status" class="status"></p>
+      </section>
+
+      <section class="viewer-grid">
+        <div class="panel">
+          <h2>3D Structure</h2>
+          <div id="viewer" class="viewer"></div>
+          <div class="legend">
+            <span><span class="swatch very-high"></span> Very high (&ge; 90)</span>
+            <span><span class="swatch confident"></span> Confident (70–89)</span>
+            <span><span class="swatch low"></span> Low (50–69)</span>
+            <span><span class="swatch very-low"></span> Very low (&lt; 50)</span>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>Confidence &amp; PAE</h2>
+          <div class="metric">
+            <strong>UniProt ID:</strong> <span id="uniprot-id">—</span>
+          </div>
+          <div class="metric">
+            <strong>Protein name:</strong> <span id="protein-name">—</span>
+          </div>
+          <div class="metric">
+            <strong>Average pLDDT:</strong> <span id="avg-plddt">—</span>
+          </div>
+          <div class="metric">
+            <strong>Sequence length:</strong> <span id="sequence-length">—</span>
+          </div>
+          <div class="metric">
+            <strong>Model file:</strong>
+            <a id="model-link" href="#" target="_blank" rel="noreferrer">—</a>
+          </div>
+
+          <h3>Confidence breakdown</h3>
+          <div class="bars" id="plddt-bars"></div>
+
+          <h3>Predicted Aligned Error (PAE)</h3>
+          <p class="hint">
+            Low PAE means the relative positions of two regions are trusted. High
+            PAE means the model is uncertain about their relationship.
+          </p>
+          <img id="pae-image" class="pae" alt="PAE heatmap" />
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Protein Folding Basics</h2>
+        <ul class="bullets">
+          <li>Proteins start as a chain of amino acids.</li>
+          <li>The chain folds into a 3D shape that enables function.</li>
+          <li>Folding depends on chemistry, environment, and interactions.</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h2>How to Read the Model</h2>
+        <ol class="steps">
+          <li><strong>Shape:</strong> Proteins fold into 3D shapes that control function.</li>
+          <li><strong>Color:</strong> Colors show AlphaFold confidence (pLDDT).</li>
+          <li><strong>PAE:</strong> The heatmap shows uncertainty between regions.</li>
+          <li><strong>Disorder:</strong> Long low-confidence regions may be flexible.</li>
+        </ol>
+      </section>
+
+      <section class="panel">
+        <h2>Try the API (Copy &amp; Paste)</h2>
+        <ul class="api-list">
+          <li>
+            Prediction JSON:
+            <code>https://alphafold.ebi.ac.uk/api/prediction/P69905</code>
+          </li>
+          <li>
+            UniProt summary:
+            <code>https://alphafold.ebi.ac.uk/api/uniprot/summary/P69905.json</code>
+          </li>
+          <li>
+            Sequence search:
+            <code>https://alphafold.ebi.ac.uk/api/sequence/summary?id=MVLSPADKTNVKAAW&type=sequence</code>
+          </li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h2>Common Misconceptions</h2>
+        <ul class="bullets">
+          <li>AlphaFold predicts structure; it does not simulate folding physics.</li>
+          <li>Low confidence does not mean wrong sequence; it means uncertainty.</li>
+          <li>Some proteins only fold when bound to partners.</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h2>About the Data</h2>
+        <p>
+          This tool uses the AlphaFold Protein Structure Database API and is
+          read-only. Data is provided under CC-BY-4.0 and requires attribution to
+          AlphaFold DB and the original papers.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          Built for education. Data: AlphaFold Protein Structure Database
+          (EMBL-EBI &amp; Google DeepMind).
+        </p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
