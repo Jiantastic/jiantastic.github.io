@@ -17,12 +17,50 @@ permalink: /alphafold/
     </header>
 
     <section class="panel">
+      <h2>What is a protein?</h2>
+      <p>
+        Proteins are chains of amino acids that fold into 3D machines. Their shape lets them
+        grab oxygen, copy DNA, digest food, signal cells, or move muscles. Shape comes from
+        chemistry and environment; misfolds can drive disease.
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2>What problem does AlphaFold solve?</h2>
+      <ul class="bullets">
+        <li>Experimental structures are slow and expensive; many proteins had no structure.</li>
+        <li>AlphaFold predicts 3D shape from sequence and estimates its own confidence.</li>
+        <li>It points to regions that are solid vs. uncertain, so researchers know what to trust.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Why this matters to humanity</h2>
+      <ul class="bullets">
+        <li>Speeds drug discovery: pick better targets, design antibodies, reduce lab cycles.</li>
+        <li>Helps rare/orphan proteins: gives first structural clues where no data existed.</li>
+        <li>Enables greener chemistry: design enzymes for materials, food, and energy.</li>
+        <li>Democratizes access: anyone can inspect structures without a wet lab.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Key terms (light on jargon)</h2>
+      <ul class="bullets">
+        <li><strong>Sequence:</strong> the amino-acid letters (A, C, D...).</li>
+        <li><strong>Structure:</strong> the folded 3D shape that controls function.</li>
+        <li><strong>pLDDT:</strong> per-residue confidence (0–100). Higher = model trusts local shape.</li>
+        <li><strong>PAE:</strong> predicted aligned error between two regions. Low = confident about their relative position; high = uncertain.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
       <h2>Start Here (2–3 minutes)</h2>
       <ol class="steps">
-        <li>Pick an example or enter a UniProt ID.</li>
-        <li>Rotate the protein and notice the color bands.</li>
-        <li>Compare the confidence bars and PAE image.</li>
-        <li>Read the “What it means” notes on the right.</li>
+        <li>Pick an example below or enter a UniProt ID.</li>
+        <li>Rotate the protein and notice the color bands (confidence).</li>
+        <li>Compare the confidence bars and PAE heatmap.</li>
+        <li>Skim the notes at right to interpret what high/low confidence means.</li>
       </ol>
     </section>
 
@@ -45,7 +83,20 @@ permalink: /alphafold/
             <button class="example" data-id="P69905">Hemoglobin (P69905)</button>
             <button class="example" data-id="P04637">TP53 (P04637)</button>
             <button class="example" data-id="Q96PD7">DGAT2 (Q96PD7)</button>
+            <button class="example" data-id="P28482">MAPK1 / ERK2 (P28482)</button>
+            <button class="example" data-id="O15552">FFAR2 / GPR43 (O15552)</button>
+            <button class="example" data-id="AT1G58602">AT1G58602 (Arabidopsis)</button>
+            <button class="example" data-id="Q5VSL9">E. coli membrane protein (Q5VSL9)</button>
           </div>
+          <ul class="bullets">
+            <li>Hemoglobin: carries oxygen; mostly very high confidence.</li>
+            <li>TP53: genome guardian; flexible tail is low-confidence (likely disordered).</li>
+            <li>DGAT2: builds triglycerides (fat storage); membrane enzyme.</li>
+            <li>MAPK1 / ERK2: relays growth signals (starts with “MENFQKVEKIGEGTYGV…”).</li>
+            <li>FFAR2 / GPR43: senses gut microbe fatty acids; a GPCR.</li>
+            <li>AT1G58602: plant receptor-like kinase; growth/stress signaling.</li>
+            <li>Q5VSL9: E. coli membrane/transport-associated protein; prokaryotic example.</li>
+          </ul>
         </div>
         <div>
           <label for="sequence-input">Sequence (optional)</label>
@@ -73,6 +124,7 @@ permalink: /alphafold/
           <span><span class="swatch low"></span> Low (50–69)</span>
           <span><span class="swatch very-low"></span> Very low (&lt; 50)</span>
         </div>
+        <p class="hint">Colors map to pLDDT confidence: blue = trusted shape; orange = uncertain/flexible.</p>
       </div>
       <div class="panel">
         <h2>Confidence &amp; PAE</h2>
@@ -116,10 +168,10 @@ permalink: /alphafold/
     <section class="panel">
       <h2>How to Read the Model</h2>
       <ol class="steps">
-        <li><strong>Shape:</strong> Proteins fold into 3D shapes that control function.</li>
-        <li><strong>Color:</strong> Colors show AlphaFold confidence (pLDDT).</li>
-        <li><strong>PAE:</strong> The heatmap shows uncertainty between regions.</li>
-        <li><strong>Disorder:</strong> Long low-confidence regions may be flexible.</li>
+        <li><strong>Shape:</strong> The cartoon shows the folded 3D form that drives function.</li>
+        <li><strong>Color (pLDDT):</strong> Blue = high confidence in local shape; orange = low, likely flexible.</li>
+        <li><strong>PAE heatmap:</strong> Low PAE = two regions are placed confidently; high PAE = their relative position is uncertain.</li>
+        <li><strong>Disorder:</strong> Long low-confidence stretches often mean natural flexibility, not an error.</li>
       </ol>
     </section>
 
@@ -139,12 +191,14 @@ permalink: /alphafold/
           <code>https://alphafold.ebi.ac.uk/api/sequence/summary?id=MVLSPADKTNVKAAW&type=sequence</code>
         </li>
       </ul>
+      <p class="hint">Data: AlphaFold Protein Structure Database (CC-BY-4.0); please attribute the DB and original papers.</p>
     </section>
 
     <section class="panel">
       <h2>Common Misconceptions</h2>
       <ul class="bullets">
         <li>AlphaFold predicts structure; it does not simulate folding physics.</li>
+        <li>Predictions still need experimental validation in the lab.</li>
         <li>Low confidence does not mean wrong sequence; it means uncertainty.</li>
         <li>Some proteins only fold when bound to partners.</li>
       </ul>

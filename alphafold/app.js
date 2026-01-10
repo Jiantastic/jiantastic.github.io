@@ -149,6 +149,14 @@ const getSequenceLength = (model, summary) => {
   );
 };
 
+const getSummaryQualifier = (model, qualifier) => {
+  return (
+    model?.uniprotAccession ||
+    model?.entryId ||
+    qualifier
+  );
+};
+
 const updatePanels = (model, summary, qualifier) => {
   if (!model) return;
   if (dom.uniprotId) dom.uniprotId.textContent = getUniProtId(model, qualifier);
@@ -179,7 +187,7 @@ const fetchPrediction = async (qualifier) => {
   if (cached) {
     updatePanels(cached, null, qualifier);
     await loadModel(cached);
-    const summary = await fetchSummary(cached.uniprotId || qualifier);
+    const summary = await fetchSummary(getSummaryQualifier(cached, qualifier));
     if (summary) {
       updatePanels(cached, summary, qualifier);
     }
@@ -199,7 +207,7 @@ const fetchPrediction = async (qualifier) => {
   setCachedPrediction(qualifier, model);
   updatePanels(model, null, qualifier);
   await loadModel(model);
-  const summary = await fetchSummary(model.uniprotId || qualifier);
+  const summary = await fetchSummary(getSummaryQualifier(model, qualifier));
   if (summary) {
     updatePanels(model, summary, qualifier);
   }
