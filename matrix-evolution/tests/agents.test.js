@@ -10,6 +10,8 @@ import {
 
 const fixedNoise = () => 0.5;
 const fixedRng = () => 0.5;
+const zeroRng = () => 0;
+const evoNoRepro = { minAgents: 0, reproduceChance: 0 };
 
 function makeDecider(outputsArray) {
   const out = new Float32Array(outputsArray);
@@ -18,7 +20,7 @@ function makeDecider(outputsArray) {
 
 describe('agents', () => {
   it('clamps movement inside bounds', () => {
-    const state = createState({ width: 5, height: 5 });
+    const state = createState({ width: 5, height: 5, evo: evoNoRepro });
     initAgents(state, 1, fixedRng);
     const agent = state.agents[0];
     agent.x = 0.1;
@@ -30,7 +32,7 @@ describe('agents', () => {
   });
 
   it('eats food and gains energy up to cap', () => {
-    const state = createState({ width: 5, height: 5 });
+    const state = createState({ width: 5, height: 5, evo: evoNoRepro });
     initAgents(state, 1, fixedRng);
     const agent = state.agents[0];
     agent.energy = MAX_ENERGY - 10;
@@ -44,7 +46,7 @@ describe('agents', () => {
   });
 
   it('emits pheromone when output exceeds threshold and charges energy', () => {
-    const state = createState({ width: 5, height: 5 });
+    const state = createState({ width: 5, height: 5, evo: evoNoRepro });
     initAgents(state, 1, fixedRng);
     const agent = state.agents[0];
     const cellX = Math.floor(agent.x);
@@ -56,14 +58,35 @@ describe('agents', () => {
     expect(agent.energy).toBeCloseTo(startEnergy - EMIT_COST - ENERGY_DECAY, 5);
   });
 
-  it('respawns when energy depletes', () => {
-    const state = createState({ width: 5, height: 5 });
+  it('removes agents when energy depletes', () => {
+    const state = createState({ width: 5, height: 5, evo: evoNoRepro });
     initAgents(state, 1, fixedRng);
     const agent = state.agents[0];
     agent.energy = 0.05;
 
     updateAgents(state, 1, { decide: makeDecider([0, 0, 0, 0]), noiseFn: fixedNoise, rng: fixedRng });
-    expect(agent.energy).toBeGreaterThan(0);
-    expect(agent.age).toBe(0);
+    expect(state.agents.length).toBe(0);
+    expect(state.deaths).toBe(1);
+  });
+
+  it('spawns offspring when energy is high', () => {
+    const state = createState({
+      width: 5,
+      height: 5,
+      evo: {
+        minAgents: 0,
+        reproduceChance: 1,
+        reproduceEnergy: 10,
+        reproduceCooldown: 0,
+        childEnergyShare: 0.5,
+        mutationRate: 1,
+      },
+    });
+    initAgents(state, 1, zeroRng);
+    state.agents[0].energy = MAX_ENERGY;
+
+    updateAgents(state, 1, { decide: makeDecider([0, 0, 0, 0]), noiseFn: fixedNoise, rng: zeroRng });
+    expect(state.agents.length).toBe(2);
+    expect(state.births).toBe(1);
   });
 });

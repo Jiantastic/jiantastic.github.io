@@ -9,17 +9,36 @@ import {
   stepLife,
   decayPheromone,
   updateAgents,
+  advanceGeneration,
 } from './sim-core.js';
 
 const containerEl = document.getElementById('canvas-container');
 const statsEl = document.getElementById('stats');
 const speedInput = document.getElementById('speedRange');
 const foodInput = document.getElementById('foodRange');
+const mutationRateInput = document.getElementById('mutationRateRange');
+const mutationStrengthInput = document.getElementById('mutationStrengthRange');
+const reproduceChanceInput = document.getElementById('reproduceChanceRange');
+const reproduceEnergyInput = document.getElementById('reproduceEnergyRange');
+const popCapInput = document.getElementById('populationCapRange');
 
 let simSpeed = parseFloat(speedInput.value);
 let targetFoodDensity = parseFloat(foodInput.value);
 
-const state = createState({ simSpeed, targetFoodDensity });
+function computeMinAgents(cap) {
+  return Math.max(10, Math.floor(cap * 0.25));
+}
+
+const evoConfig = {
+  mutationRate: parseFloat(mutationRateInput.value),
+  mutationStrength: parseFloat(mutationStrengthInput.value),
+  reproduceChance: parseFloat(reproduceChanceInput.value),
+  reproduceEnergy: parseFloat(reproduceEnergyInput.value),
+  maxAgents: parseInt(popCapInput.value, 10),
+};
+evoConfig.minAgents = computeMinAgents(evoConfig.maxAgents);
+
+const state = createState({ simSpeed, targetFoodDensity, evo: evoConfig });
 
 // PIXI setup
 const app = new PIXI.Application({
@@ -88,11 +107,11 @@ function render() {
     }
   }
 
-  g.beginFill(0xff4d6d, 0.95);
   for (const agent of state.agents) {
+    g.beginFill(agent.color ?? 0xff4d6d, 0.95);
     g.drawRect(agent.x - 0.35, agent.y - 0.35, 0.7, 0.7);
+    g.endFill();
   }
-  g.endFill();
 }
 
 function computeCellSize() {
@@ -117,10 +136,19 @@ function updateStats() {
   const alive = state.agents.length;
   let avgEnergy = 0;
   for (const a of state.agents) avgEnergy += a.energy;
-  avgEnergy = (avgEnergy / alive).toFixed(1);
+  avgEnergy = alive > 0 ? (avgEnergy / alive).toFixed(1) : '0.0';
+  const genProgress = state.evo.generationLength > 0
+    ? Math.min(100, (state.generationProgress / state.evo.generationLength) * 100)
+    : 0;
   statsEl.innerHTML = `
     <div class="stat-line"><span>Agents</span><span>${alive}</span></div>
+    <div class="stat-line"><span>Generation</span><span>${state.generation}</span></div>
+    <div class="stat-line"><span>Gen progress</span><span>${genProgress.toFixed(0)}%</span></div>
+    <div class="stat-line"><span>Last survivors</span><span>${state.lastSurvivors}</span></div>
+    <div class="stat-line"><span>Births</span><span>${state.births}</span></div>
+    <div class="stat-line"><span>Deaths</span><span>${state.deaths}</span></div>
     <div class="stat-line"><span>Avg energy</span><span>${avgEnergy}</span></div>
+    <div class="stat-line"><span>Avg fitness</span><span>${state.lastAvgFitness.toFixed(2)}</span></div>
     <div class="stat-line"><span>Food density</span><span>${targetFoodDensity.toFixed(2)}</span></div>
     <div class="stat-line"><span>FPS</span><span>${fps.toFixed(0)}</span></div>
   `;
@@ -134,6 +162,7 @@ function loop(delta) {
   stepLifeWrapped();
   decayPheromoneWrapped();
   updateAgentsWrapped(delta * state.simSpeed);
+  advanceGeneration(state, delta * state.simSpeed, { rng: Math.random });
   render();
 
   const now = performance.now();
@@ -154,6 +183,28 @@ speedInput.addEventListener('input', (e) => {
 foodInput.addEventListener('input', (e) => {
   targetFoodDensity = parseFloat(e.target.value);
   state.targetFoodDensity = targetFoodDensity;
+});
+
+mutationRateInput.addEventListener('input', (e) => {
+  state.evo.mutationRate = parseFloat(e.target.value);
+});
+
+mutationStrengthInput.addEventListener('input', (e) => {
+  state.evo.mutationStrength = parseFloat(e.target.value);
+});
+
+reproduceChanceInput.addEventListener('input', (e) => {
+  state.evo.reproduceChance = parseFloat(e.target.value);
+});
+
+reproduceEnergyInput.addEventListener('input', (e) => {
+  state.evo.reproduceEnergy = parseFloat(e.target.value);
+});
+
+popCapInput.addEventListener('input', (e) => {
+  const cap = parseInt(e.target.value, 10);
+  state.evo.maxAgents = cap;
+  state.evo.minAgents = Math.min(computeMinAgents(cap), cap);
 });
 
 init();

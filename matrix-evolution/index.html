@@ -23,6 +23,26 @@ permalink: /matrix-evolution/
         <label for="foodRange">Food density</label>
         <input type="range" id="foodRange" min="0.05" max="0.6" step="0.01" value="0.22" />
       </div>
+      <div class="control">
+        <label for="mutationRateRange">Mutation rate</label>
+        <input type="range" id="mutationRateRange" min="0" max="0.3" step="0.01" value="0.08" />
+      </div>
+      <div class="control">
+        <label for="mutationStrengthRange">Mutation strength</label>
+        <input type="range" id="mutationStrengthRange" min="0.05" max="1" step="0.05" value="0.35" />
+      </div>
+      <div class="control">
+        <label for="reproduceChanceRange">Reproduction chance</label>
+        <input type="range" id="reproduceChanceRange" min="0" max="0.7" step="0.05" value="0.35" />
+      </div>
+      <div class="control">
+        <label for="reproduceEnergyRange">Reproduction energy</label>
+        <input type="range" id="reproduceEnergyRange" min="30" max="120" step="5" value="90" />
+      </div>
+      <div class="control">
+        <label for="populationCapRange">Population cap</label>
+        <input type="range" id="populationCapRange" min="40" max="220" step="10" value="140" />
+      </div>
     </div>
   </header>
 
@@ -34,7 +54,16 @@ permalink: /matrix-evolution/
         <ul>
           <li>Green = food (Game of Life style growth)</li>
           <li>Blue = pheromone trails</li>
-          <li>Red = Glitch agents seeking food to survive</li>
+          <li>Color = evolving agents (lineage + mutation)</li>
+          <li>Generations = periodic culls that respawn the population from survivors</li>
+        </ul>
+      </div>
+      <div>
+        <h2>How to explore</h2>
+        <ul>
+          <li>Raise mutation to see rapid color drift and new behaviors</li>
+          <li>Lower food to force harsher selection and extinctions</li>
+          <li>Watch "Last survivors" to see selection pressure at work</li>
         </ul>
       </div>
       <div class="stats" id="stats"></div>

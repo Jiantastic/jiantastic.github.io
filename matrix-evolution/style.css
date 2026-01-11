@@ -52,6 +52,7 @@ h1 {
 
 .controls {
   display: flex;
+  flex-wrap: wrap;
   gap: 12px;
   background: var(--panel);
   border: 1px solid var(--border);
