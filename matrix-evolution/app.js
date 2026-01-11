@@ -64,7 +64,7 @@ function clamp(v, lo, hi) {
 
 function init() {
   seedFood(state, targetFoodDensity);
-  initAgents(state, INITIAL_AGENT_COUNT);
+  initAgents(state, state.evo.maxAgents);
   resize();
   app.ticker.maxFPS = 60;
   app.ticker.add(loop);
@@ -137,13 +137,28 @@ function updateStats() {
   let avgEnergy = 0;
   for (const a of state.agents) avgEnergy += a.energy;
   avgEnergy = alive > 0 ? (avgEnergy / alive).toFixed(1) : '0.0';
-  const genProgress = state.evo.generationLength > 0
-    ? Math.min(100, (state.generationProgress / state.evo.generationLength) * 100)
-    : 0;
+  let genProgress = 0;
+  if (state.generationPhase === 'reset') {
+    const recovery = state.evo.generationRecovery || 0;
+    genProgress = recovery > 0
+      ? Math.min(100, (1 - state.generationCooldown / recovery) * 100)
+      : 100;
+  } else {
+    genProgress = state.evo.generationLength > 0
+      ? Math.min(100, (state.generationProgress / state.evo.generationLength) * 100)
+      : 0;
+  }
+  const phaseLabel = state.generationPhase === 'reset' ? 'Reset' : 'Run';
+  const resetLabel = state.generationPhase === 'reset' ? 'Respawn in' : 'Next reset';
+  const resetIn = state.generationPhase === 'reset'
+    ? Math.max(0, state.generationCooldown).toFixed(0)
+    : Math.max(0, state.evo.generationLength - state.generationProgress).toFixed(0);
   statsEl.innerHTML = `
     <div class="stat-line"><span>Agents</span><span>${alive}</span></div>
     <div class="stat-line"><span>Generation</span><span>${state.generation}</span></div>
     <div class="stat-line"><span>Gen progress</span><span>${genProgress.toFixed(0)}%</span></div>
+    <div class="stat-line"><span>Phase</span><span>${phaseLabel}</span></div>
+    <div class="stat-line"><span>${resetLabel}</span><span>${resetIn}</span></div>
     <div class="stat-line"><span>Last survivors</span><span>${state.lastSurvivors}</span></div>
     <div class="stat-line"><span>Births</span><span>${state.births}</span></div>
     <div class="stat-line"><span>Deaths</span><span>${state.deaths}</span></div>

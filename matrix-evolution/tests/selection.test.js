@@ -10,7 +10,7 @@ import {
 const fixedRng = () => 0.5;
 
 describe('selection', () => {
-  it('respawns population at cap and tracks survivors', () => {
+  it('culls to survivors and enters reset phase', () => {
     const state = createState({
       width: 5,
       height: 5,
@@ -22,6 +22,7 @@ describe('selection', () => {
         mutationRate: 0,
         mutationStrength: 0,
         colorMutation: 0,
+        generationRecovery: 5,
       },
     });
     state.agents = [
@@ -36,16 +37,18 @@ describe('selection', () => {
     state.agents[3].energy = 5;
 
     runSelection(state, fixedRng);
-    expect(state.agents.length).toBe(4);
+    expect(state.agents.length).toBe(2);
     expect(state.lastSurvivors).toBe(2);
+    expect(state.generationPhase).toBe('reset');
   });
 
-  it('advances generation when progress exceeds length', () => {
+  it('advances generation and respawns when recovery is zero', () => {
     const state = createState({
       width: 5,
       height: 5,
       evo: {
         generationLength: 1,
+        generationRecovery: 0,
         maxAgents: 2,
         minAgents: 0,
         survivorFraction: 1,

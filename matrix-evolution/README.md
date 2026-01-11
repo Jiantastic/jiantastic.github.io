@@ -22,12 +22,15 @@ An educational, mobile-friendly simulation that blends **Matrix rain aesthetics*
 - **Selection**: A top slice of survivors becomes parents; they are picked by fitness-weighted roulette.
 - **Respawn**: The next generation is rebuilt from parent genomes (brains + colors), with mutation applied.
 - **Lineage colors**: Agent color is inherited and slightly mutated, making family clusters visible.
+The cull phase briefly drops the population before repopulating, so you can see selection in action.
 Default generation length is tuned in `sim-core.js` (see `GENERATION_TICKS`) if you want shorter or longer cycles.
 
 ## How to read the UI
 - **Agents**: Total living population right now.
 - **Generation**: Current generation index; it increments after each cull/respawn.
 - **Gen progress**: How far the current generation has advanced toward the next reset.
+- **Phase**: Running or Reset (cull/respawn window).
+- **Respawn in**: Ticks remaining before the next population rebuild.
 - **Last survivors**: How many agents were kept as parents in the previous selection round.
 - **Avg fitness**: Average fitness score of those parent candidates.
 - **Births/Deaths**: Cumulative count of spawned and removed agents (includes generational resets).

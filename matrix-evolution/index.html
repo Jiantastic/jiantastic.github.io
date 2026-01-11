@@ -68,6 +68,24 @@ permalink: /matrix-evolution/
       </div>
       <div class="stats" id="stats"></div>
     </section>
+    <section class="explain">
+      <h2>How it works (from zero)</h2>
+      <div class="explain-grid">
+        <div class="explain-card">
+          <h3>1) The environment</h3>
+          <p>Each green cell is food. A Game of Life rule grows and removes food, creating a shifting landscape.</p>
+        </div>
+        <div class="explain-card">
+          <h3>2) The agents</h3>
+          <p>Each square has a tiny neural net that senses nearby food, pheromones, walls, and energy. It moves, eats, and leaves blue trails.</p>
+        </div>
+        <div class="explain-card">
+          <h3>3) The evolution loop</h3>
+          <p>Every generation, most agents are culled. The survivors become parents, and the world is repopulated with mutated offspring.</p>
+        </div>
+      </div>
+      <p class="explain-note">Think of colors as families. Each reset briefly drops the population, then refills with offspring from the best survivors.</p>
+    </section>
   </main>
 </div>
 

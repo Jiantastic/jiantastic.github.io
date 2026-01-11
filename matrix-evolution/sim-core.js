@@ -19,6 +19,7 @@ export const MUTATION_RATE = 0.08;
 export const MUTATION_STRENGTH = 0.35;
 export const COLOR_MUTATION = 0.08;
 export const GENERATION_TICKS = 520;
+export const GENERATION_RECOVERY = 60;
 export const SURVIVOR_FRACTION = 0.35;
 export const ELITE_FRACTION = 0.08;
 export const SELECTION_POWER = 1.3;
@@ -40,6 +41,7 @@ export const DEFAULT_EVO = {
   mutationStrength: MUTATION_STRENGTH,
   colorMutation: COLOR_MUTATION,
   generationLength: GENERATION_TICKS,
+  generationRecovery: GENERATION_RECOVERY,
   survivorFraction: SURVIVOR_FRACTION,
   eliteFraction: ELITE_FRACTION,
   selectionPower: SELECTION_POWER,
@@ -113,6 +115,9 @@ export function createState({
     tick: 0,
     generation: 1,
     generationProgress: 0,
+    generationPhase: 'run',
+    generationCooldown: 0,
+    pendingParents: null,
     lastSurvivors: 0,
     lastAvgFitness: 0,
     lastBestFitness: 0,
@@ -354,6 +359,7 @@ export function updateAgents(state, delta, {
     if (agent.reproCooldown > 0) {
       agent.reproCooldown = Math.max(0, agent.reproCooldown - delta);
     }
+    const allowReproduction = state.generationPhase === 'run';
     const prevX = agent.x;
     const prevY = agent.y;
     const inputs = sense(state, agent, { noiseFn });
@@ -383,6 +389,7 @@ export function updateAgents(state, delta, {
 
     const popCount = survivors.length + newborns.length + 1;
     if (
+      allowReproduction &&
       agent.energy >= evo.reproduceEnergy &&
       agent.reproCooldown <= 0 &&
       popCount < evo.maxAgents
@@ -420,7 +427,7 @@ export function updateAgents(state, delta, {
   }
 
   state.agents = survivors.concat(newborns);
-  if (state.agents.length < evo.minAgents) {
+  if (state.generationPhase === 'run' && state.agents.length < evo.minAgents) {
     const needed = evo.minAgents - state.agents.length;
     for (let i = 0; i < needed; i++) state.agents.push(createAgent(state, rng));
   }
@@ -474,16 +481,20 @@ function pickByFitness(scored, wheel, rng = Math.random) {
 export function runSelection(state, rng = Math.random) {
   const evo = state.evo || DEFAULT_EVO;
   const alive = state.agents.filter((agent) => agent.alive);
-  const targetPop = Math.max(evo.minAgents, evo.maxAgents);
 
   if (alive.length === 0) {
     state.deaths += state.agents.length;
     state.agents = [];
-    for (let i = 0; i < targetPop; i++) state.agents.push(createAgent(state, rng));
-    state.births += targetPop;
+    state.pendingParents = [];
     state.lastSurvivors = 0;
     state.lastAvgFitness = 0;
     state.lastBestFitness = 0;
+    state.generationPhase = 'reset';
+    state.generationCooldown = evo.generationRecovery ?? 0;
+    state.generationProgress = 0;
+    if (state.generationCooldown <= 0) {
+      respawnFromParents(state, rng);
+    }
     return;
   }
 
@@ -495,17 +506,29 @@ export function runSelection(state, rng = Math.random) {
     Math.floor(alive.length * clamp(evo.survivorFraction, 0.05, 1)),
   );
   const parents = scored.slice(0, survivorCount);
-  const eliteCount = Math.min(
-    parents.length,
-    Math.floor(targetPop * clamp(evo.eliteFraction, 0, 0.5)),
-  );
 
   const avgFitness = parents.reduce((sum, p) => sum + p.fitness, 0) / parents.length;
   state.lastSurvivors = parents.length;
   state.lastAvgFitness = avgFitness;
   state.lastBestFitness = parents[0]?.fitness ?? 0;
 
-  const wheel = buildRouletteWheel(parents, evo.selectionPower || SELECTION_POWER);
+  const prevCount = state.agents.length;
+  state.agents = parents.map((p) => p.agent);
+  state.deaths += Math.max(0, prevCount - state.agents.length);
+  state.pendingParents = parents;
+  state.generationPhase = 'reset';
+  state.generationCooldown = evo.generationRecovery ?? 0;
+  state.generationProgress = 0;
+
+  if (state.generationCooldown <= 0) {
+    respawnFromParents(state, rng);
+  }
+}
+
+export function respawnFromParents(state, rng = Math.random) {
+  const evo = state.evo || DEFAULT_EVO;
+  const parents = state.pendingParents || [];
+  const targetPop = Math.max(evo.minAgents, evo.maxAgents);
   const nextGen = [];
   const makeChild = (parent) => createAgent(state, rng, {
     brain: mutateBrain(parent.brain, rng, evo),
@@ -515,23 +538,41 @@ export function runSelection(state, rng = Math.random) {
     y: Math.floor(rng() * state.height) + 0.5,
   });
 
-  for (let i = 0; i < eliteCount; i++) {
-    nextGen.push(makeChild(parents[i].agent));
-  }
+  if (parents.length === 0) {
+    for (let i = 0; i < targetPop; i++) nextGen.push(createAgent(state, rng));
+  } else {
+    const eliteCount = Math.min(
+      parents.length,
+      Math.floor(targetPop * clamp(evo.eliteFraction, 0, 0.5)),
+    );
+    const wheel = buildRouletteWheel(parents, evo.selectionPower || SELECTION_POWER);
 
-  while (nextGen.length < targetPop) {
-    const picked = pickByFitness(parents, wheel, rng).agent;
-    nextGen.push(makeChild(picked));
+    for (let i = 0; i < eliteCount; i++) {
+      nextGen.push(makeChild(parents[i].agent));
+    }
+    while (nextGen.length < targetPop) {
+      const picked = pickByFitness(parents, wheel, rng).agent;
+      nextGen.push(makeChild(picked));
+    }
   }
 
   state.deaths += state.agents.length;
   state.births += nextGen.length;
   state.agents = nextGen;
+  state.pendingParents = null;
+  state.generationPhase = 'run';
 }
 
 export function advanceGeneration(state, delta, { rng = Math.random } = {}) {
   const evo = state.evo || DEFAULT_EVO;
   if (!evo.generationLength || evo.generationLength <= 0) return false;
+  if (state.generationPhase === 'reset') {
+    state.generationCooldown -= delta;
+    if (state.generationCooldown <= 0) {
+      respawnFromParents(state, rng);
+    }
+    return false;
+  }
   state.generationProgress += delta;
   let advanced = false;
   while (state.generationProgress >= evo.generationLength) {
@@ -539,6 +580,7 @@ export function advanceGeneration(state, delta, { rng = Math.random } = {}) {
     state.generation += 1;
     runSelection(state, rng);
     advanced = true;
+    if (state.generationPhase === 'reset') break;
   }
   return advanced;
 }
