@@ -1,0 +1,64 @@
+---
+layout: default
+title: Poddy Summaries
+description: Summaries and transcripts for the Acquired podcast.
+permalink: /poddy-summaries/
+---
+
+<link rel="stylesheet" href="./styles.css" />
+
+<div class="poddy-page">
+  <header class="page-header">
+    <div>
+      <p class="eyebrow">Podcast automation</p>
+      <h1>Poddy Summaries</h1>
+      <p class="lede">
+        CLI-only pipeline for Acquired: RSS + MLX Whisper + Claude summaries.
+        Stream audio, skim bullets with timestamps, and read full transcripts.
+      </p>
+    </div>
+    <div class="meta">
+      <div class="pill">Feed: Acquired</div>
+      <div class="pill">Model: mlx-community/whisper-large-v3-turbo</div>
+      <div class="pill">LLM: claude -p</div>
+    </div>
+  </header>
+
+  <section class="panel">
+    <div class="panel-header">
+      <div>
+        <p class="eyebrow">Select episode</p>
+        <h2 id="episode-title">No episodes yet</h2>
+        <p id="episode-date" class="muted">Add an episode to view details.</p>
+      </div>
+      <div class="controls">
+        <label for="episode-select" class="muted">Episode</label>
+        <select id="episode-select" aria-label="Choose an episode"></select>
+      </div>
+    </div>
+
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-tab="summary" role="tab">Summary</button>
+      <button class="tab" data-tab="audio" role="tab">Audio</button>
+      <button class="tab" data-tab="transcript" role="tab">Transcript</button>
+    </div>
+
+    <div class="tab-content" id="tab-summary" role="tabpanel">
+      <ul id="bullet-list" class="bullets"></ul>
+      <p id="summary-empty" class="muted">Summary not available.</p>
+    </div>
+
+    <div class="tab-content hidden" id="tab-audio" role="tabpanel">
+      <audio id="audio-player" controls preload="metadata"></audio>
+      <p id="audio-hint" class="muted">
+        Click a timestamp in the summary to jump here.
+      </p>
+    </div>
+
+    <div class="tab-content hidden" id="tab-transcript" role="tabpanel">
+      <div class="transcript-box" id="transcript-box" aria-live="polite"></div>
+    </div>
+  </section>
+</div>
+
+<script type="module" src="./app.js"></script>

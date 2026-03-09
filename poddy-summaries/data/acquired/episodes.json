@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "10-years-of-acquired-with-michael-lewis",
+    "guid": "c9b69067-78a8-43f4-9a12-b4522af47d1b",
+    "title": "10 Years of Acquired (with Michael Lewis)",
+    "pubDate": "Sun, 14 Dec 2025 20:19:45 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/0f470567/18269289.mp3",
+    "duration": "10057",
+    "summaryPath": "summaries/10-years-of-acquired-with-michael-lewis.json",
+    "transcriptPath": "transcripts/10-years-of-acquired-with-michael-lewis.txt",
+    "bullets": [
+      {
+        "fact": "Hosts celebrate 10th anniversary of Acquired",
+        "quote": "Happy 10 year anniversary, Ben",
+        "timestamp": "00:01",
+        "speaker": ""
+      },
+      {
+        "fact": "They’re recording a special episode in Silicon Valley",
+        "quote": "brought you down here to Silicon Valley to record our 10 year anniversary holiday special",
+        "timestamp": "00:08",
+        "speaker": "Ben Gilbert"
+      },
+      {
+        "fact": "Recording set in Google’s original garage office",
+        "quote": "This is Google's first office right here. They gave it to us for the day",
+        "timestamp": "00:24",
+        "speaker": "Ben Gilbert"
+      },
+      {
+        "fact": "Episode will analyze why Acquired succeeded where most podcasts don’t",
+        "quote": "to unpack why Acquired worked when 99% of podcasts do not",
+        "timestamp": "00:40",
+        "speaker": "Ben Gilbert"
+      },
+      {
+        "fact": "They brought in Michael Lewis to dissect the show’s mechanics",
+        "quote": "Someone who distills complexity into simplicity… Michael Lewis",
+        "timestamp": "00:55",
+        "speaker": "Ben Gilbert"
+      }
+    ]
+  }
+]

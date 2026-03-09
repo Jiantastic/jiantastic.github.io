@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 :root {
   color-scheme: dark;
@@ -12,10 +12,16 @@
   --border: #1d2721;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
   background: radial-gradient(circle at 20% 20%, #0b1c10 0%, #050505 45%);
   color: var(--text);
   min-height: 100vh;
@@ -68,8 +74,13 @@ h1 {
   min-width: 140px;
 }
 
-label { font-size: 12px; color: var(--muted); }
-input[type="range"] { width: 100%; }
+label {
+  font-size: 12px;
+  color: var(--muted);
+}
+input[type="range"] {
+  width: 100%;
+}
 
 main {
   flex: 1;
@@ -124,8 +135,8 @@ main {
 }
 
 .explain-card {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 10px;
   padding: 12px 14px;
 }
@@ -165,16 +176,32 @@ ul {
   display: flex;
   justify-content: space-between;
   padding: 6px 8px;
-  background: rgba(255,255,255,0.03);
+  background: rgba(255, 255, 255, 0.03);
   border-radius: 8px;
 }
 
 @media (max-width: 960px) {
-  .controls { grid-template-columns: repeat(2, minmax(140px, 1fr)); }
+  .controls {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+  }
 }
 
 @media (max-width: 640px) {
-  .controls { width: 100%; }
-  .controls { grid-template-columns: 1fr; }
-  #canvas-container { height: 62vh; }
+  .controls {
+    width: 100%;
+  }
+  .controls {
+    grid-template-columns: 1fr;
+  }
+  #canvas-container {
+    height: 62vh;
+  }
+}
+
+#sim-canvas {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  display: block;
+  width: 100%;
+  height: 100%;
 }

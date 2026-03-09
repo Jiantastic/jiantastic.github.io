@@ -1,86 +1,64 @@
-# Living Matrix Prototype (matrix-evolution)
+# Matrix Evolution (`matrix-evolution`)
 
-An educational, mobile-friendly simulation that blends **Matrix rain aesthetics**, **Conway's Game of Life** food field, **pheromone trails**, and lightweight **glitch agents** driven by tiny neural nets. Rendering is done with Pixi.js on a single canvas for performance. This project is inspired by https://github.com/davidrmiller/biosim4.
+Browser implementation of the 2D BFF spatial soup from _Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction_.
 
-## What you see
-- **Green cells**: Food grown by a Life-like CA (B3/S23 with gentle regrowth).
-- **Blue overlay**: Pheromone trails agents emit; they decay over time.
-- **Multicolor blocks**: Agents that move, sense, eat food, and burn energy. Color reflects lineage traits.
+This directory is the web-facing counterpart to [`artificial-life/main.py`](../artificial-life/main.py), which remains the semantic reference implementation. The browser version keeps the paper's 2D BFF interaction model and default parameters, but uses a compressed visualization so it stays usable in a single page.
 
-## Controls (UI)
-- **Sim speed**: Scales tick rate.
-- **Food density**: Adjusts probability of regrowth to sustain the field.
-- **Mutation rate**: How often neural weights and lineage colors mutate in offspring.
-- **Mutation strength**: How large each mutation step is when it happens.
-- **Reproduction chance**: Probability an energized agent produces a child (within a generation).
-- **Reproduction energy**: Energy threshold required to attempt reproduction.
-- **Population cap**: Target size of the population after each generational reset.
+## What it implements
 
-## Evolution loop (biosim4-inspired)
-- **Generations**: The sim runs for a fixed number of ticks, then the population is culled and respawned.
-- **Fitness scoring**: Survivors are scored by a blend of energy, food eaten, and distance traveled.
-- **Selection**: A top slice of survivors becomes parents; they are picked by fitness-weighted roulette.
-- **Respawn**: The next generation is rebuilt from parent genomes (brains + colors), with mutation applied.
-- **Lineage colors**: Agent color is inherited and slightly mutated, making family clusters visible.
-The cull phase briefly drops the population before repopulating, so you can see selection in action.
-Default generation length is tuned in `sim-core.js` (see `GENERATION_TICKS`) if you want shorter or longer cycles.
+- A `240 x 135` grid of programs.
+- `64` bytes per program tape.
+- Chebyshev-radius-2 spatial pairing.
+- Greedy "both untaken" matching within each epoch.
+- Concatenate two tapes, execute BFF on the combined tape, then split back.
+- Background mutation after pair interactions at `0.024%` (`0.00024`).
+- Up to `2^13` (`8192`) instruction steps per interaction.
 
-## How to read the UI
-- **Agents**: Total living population right now.
-- **Generation**: Current generation index; it increments after each cull/respawn.
-- **Gen progress**: How far the current generation has advanced toward the next reset.
-- **Phase**: Running or Reset (cull/respawn window).
-- **Respawn in**: Ticks remaining before the next population rebuild.
-- **Last survivors**: How many agents were kept as parents in the previous selection round.
-- **Avg fitness**: Average fitness score of those parent candidates.
-- **Births/Deaths**: Cumulative count of spawned and removed agents (includes generational resets).
+## Browser-specific adaptation
 
-## How it works (brief)
-- Grid: `72 x 48` cells stored in typed arrays.
-- Game of Life step each tick + low-probability regrowth seeded by the slider target.
-- Agents: small neural net (12 inputs → hidden → 4 outputs) with energy decay, eat to replenish, optional pheromone emit, and reproduction with mutation + genetic colors.
-- Generations: periodic selection and respawn phases, inspired by biosim4.
+The browser page is paper-faithful in semantics and defaults, but not in visualization:
 
-## Detailed breakdown
-- **Environment update**: Each tick runs a Life-like rule (B3/S23) plus light regrowth to keep food available.
-- **Sensing**: Agents sample local food, pheromone gradients, proximity to other agents, wall distance, energy level, and a simple oscillator + noise input.
-- **Decision**: A tiny neural net maps 12 inputs to 4 outputs (dx, dy, eat, emit).
-- **Actions**: Movement costs energy; eating converts food cells into energy; emitting leaves a decaying pheromone trail.
-- **Within-generation reproduction**: Energetic agents can spawn children; offspring inherit brains/colors with mutation.
-- **Selection phase**: Every generation, survivors are scored (energy + food + travel), then parents are chosen by fitness-weighted roulette.
-- **Respawn**: The next generation is rebuilt from parents, letting lineages drift and adapt over time.
+- The simulation runs in [`sim-worker.js`](./sim-worker.js) so the UI stays responsive.
+- The canvas draws one pixel per tape, colored by that tape's dominant opcode.
+- It does not render all 64 bytes of every tape as an `8x8` tile the way the Python GIF renderer can.
 
-## How to think about it
-- **Food is the environment**: High density favors exploration; low density increases selection pressure.
-- **Colors are families**: Clusters of similar colors often share a successful behavioral niche.
-- **Fitness is emergent**: No explicit goal is coded; survival and reproduction define success.
-- **Selection is the reset**: Generational culls are where evolution shows up most clearly.
-- Rendering: Pixi `Graphics` draws food, pheromone alpha, and agents every frame with devicePixelRatio caps for mobile.
+## Controls
+
+- `Mutation rate`: background mutation probability per byte after each epoch.
+- `Max iterations`: instruction budget per concatenated interaction.
+- `Epochs / tick`: how many epochs the worker advances before yielding again.
+- `Randomize`: rebuilds the soup with fresh random programs while preserving controls.
+
+## Files
+
+- [`bff-core.js`](./bff-core.js): pure simulation logic shared by tests, the page, and the worker.
+- [`sim-worker.js`](./sim-worker.js): background execution loop and snapshot generation.
+- [`app.js`](./app.js): main-thread canvas renderer and control wiring.
+- [`index.html`](./index.html): page markup and explanatory copy.
+- [`tests/bff-core.test.js`](./tests/bff-core.test.js): unit coverage for core semantics and defaults.
 
 ## Running locally
-No build step needed. With any static server from repo root:
+
+Serve the repo with any static server from the project root:
+
 ```bash
-npm install -g serve  # if you don't have a static server
-serve .
+python -m http.server 3000
 # then open http://localhost:3000/matrix-evolution/
 ```
 
-### Tests
-The core simulation logic lives in `sim-core.js` and is covered by Vitest. From repo root:
+Use a server rather than `file://`, because module workers require an HTTP origin.
+
+## Tests
+
+From the repo root:
+
 ```bash
 npm install
-npm test
+npm test -- --run matrix-evolution/tests/bff-core.test.js
 ```
 
-## Troubleshooting
-- **PIXI undefined / integrity blocked**: Ensure `matrix-evolution/index.html` loads Pixi.js without a mismatched SRI hash. Current script tag uses jsDelivr and omits integrity to avoid hash drift.
-- **Canvas sizing**: The scene auto-resizes to the container; if embedding elsewhere, keep the container visible and sized.
-- **Performance tips**: Lower food density or agent count in `app.js` if targeting very low-end devices.
+## Notes on fidelity
 
-## Files
-- `index.html` – page scaffold and controls.
-- `style.css` – dark UI styling for the prototype.
-- `app.js` – simulation logic, agent brain, rendering loop.
-
-## Inspiration
-- Matrix rain shaders, Conway's Game of Life, and evolutionary sims like biosim4 (https://github.com/davidrmiller/biosim4).
+- Source of truth for semantics: the paper and [`artificial-life/main.py`](../artificial-life/main.py).
+- Source of truth for browser architecture: this directory.
+- If browser constraints force future deviation, document it here and in [`CLAUDE.md`](../CLAUDE.md) instead of leaving the relationship implicit.
