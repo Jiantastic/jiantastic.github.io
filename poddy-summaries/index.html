@@ -10,17 +10,17 @@ permalink: /poddy-summaries/
 <div class="poddy-page">
   <header class="page-header">
     <div>
-      <p class="eyebrow">Podcast automation</p>
+      <p class="eyebrow">Audio field station</p>
       <h1>Poddy Summaries</h1>
       <p class="lede">
-        CLI-only pipeline for Acquired: RSS + MLX Whisper + Claude summaries.
-        Stream audio, skim bullets with timestamps, and read full transcripts.
+        A listening companion for the Acquired podcast. Stream an episode,
+        skim timestamped highlights, or settle in with the full transcript.
       </p>
     </div>
     <div class="meta">
-      <div class="pill">Feed: Acquired</div>
-      <div class="pill">Model: mlx-community/whisper-large-v3-turbo</div>
-      <div class="pill">LLM: claude -p</div>
+      <div class="pill">Feed · Acquired</div>
+      <div class="pill">Local transcription</div>
+      <div class="pill">Timestamped notes</div>
     </div>
   </header>
 
@@ -38,24 +38,24 @@ permalink: /poddy-summaries/
     </div>
 
     <div class="tabs" role="tablist">
-      <button class="tab active" data-tab="summary" role="tab">Summary</button>
-      <button class="tab" data-tab="audio" role="tab">Audio</button>
-      <button class="tab" data-tab="transcript" role="tab">Transcript</button>
+      <button class="tab active" id="summary-tab" data-tab="summary" role="tab" aria-controls="tab-summary" aria-selected="true">Summary</button>
+      <button class="tab" id="audio-tab" data-tab="audio" role="tab" aria-controls="tab-audio" aria-selected="false" tabindex="-1">Audio</button>
+      <button class="tab" id="transcript-tab" data-tab="transcript" role="tab" aria-controls="tab-transcript" aria-selected="false" tabindex="-1">Transcript</button>
     </div>
 
-    <div class="tab-content" id="tab-summary" role="tabpanel">
+    <div class="tab-content" id="tab-summary" role="tabpanel" aria-labelledby="summary-tab">
       <ul id="bullet-list" class="bullets"></ul>
       <p id="summary-empty" class="muted">Summary not available.</p>
     </div>
 
-    <div class="tab-content hidden" id="tab-audio" role="tabpanel">
+    <div class="tab-content hidden" id="tab-audio" role="tabpanel" aria-labelledby="audio-tab" hidden>
       <audio id="audio-player" controls preload="metadata"></audio>
       <p id="audio-hint" class="muted">
         Click a timestamp in the summary to jump here.
       </p>
     </div>
 
-    <div class="tab-content hidden" id="tab-transcript" role="tabpanel">
+    <div class="tab-content hidden" id="tab-transcript" role="tabpanel" aria-labelledby="transcript-tab" hidden>
       <div class="transcript-box" id="transcript-box" aria-live="polite"></div>
     </div>
   </section>

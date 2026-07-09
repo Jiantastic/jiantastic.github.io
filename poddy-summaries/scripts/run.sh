@@ -38,22 +38,31 @@ while [ "$#" -gt 0 ]; do
   esac
 done
 
+if ! [[ "$LIMIT" =~ ^[1-9][0-9]*$ ]]; then
+  echo "--limit must be a positive integer" >&2
+  exit 1
+fi
+
 require_cmd python3
 require_cmd jq
-require_cmd ffmpeg
-require_cmd curl
-require_cmd claude
-
-mkdir -p "$DATA" "$DATA/transcripts" "$DATA/summaries"
-
-if [ ! -f "$STATE" ]; then
-  echo '{"processed":[]}' > "$STATE"
+if [ "$DRY_RUN" -eq 0 ]; then
+  require_cmd ffmpeg
+  require_cmd curl
+  require_cmd claude
+  mkdir -p "$DATA" "$DATA/transcripts" "$DATA/summaries"
+  if [ ! -f "$STATE" ]; then
+    echo '{"processed":[]}' > "$STATE"
+  fi
 fi
 
 log "Fetching feed: $FEED"
 feed_json=$(python3 "$DIR/feed_fetch.py" --feed "$FEED")
 
-processed_list=$(jq '.processed' "$STATE")
+if [ -f "$STATE" ]; then
+  processed_list=$(jq '.processed' "$STATE")
+else
+  processed_list='[]'
+fi
 new_eps=$(jq -c --argjson processed "$processed_list" '.episodes | map(select((.guid|tostring) as $g | ($processed|index($g)|not)))' <<<"$feed_json")
 
 count=$(jq 'length' <<<"$new_eps")
@@ -80,14 +89,18 @@ while IFS= read -r ep; do
   audio_url=$(jq -r '.audioUrl' <<<"$ep")
   log "[$index] ${title}"
 
+  if [ "$DRY_RUN" -eq 1 ]; then
+    log "Dry-run: would download, transcribe, and summarize $guid"
+    continue
+  fi
+
   temp_audio=$(mktemp /tmp/poddy-audio-XXXXXX.mp3)
   log "Downloading audio -> $temp_audio"
   curl -L --fail --retry 3 --retry-delay 2 -o "$temp_audio" "$audio_url"
 
-  if [ "$DRY_RUN" -eq 0 ]; then
-    python3 "$DIR/transcribe.py" --audio "$temp_audio" --slug "$slug" --title "$title" --data-dir "$DATA"
+  python3 "$DIR/transcribe.py" --audio "$temp_audio" --slug "$slug" --title "$title" --data-dir "$DATA"
 
-    IFS= read -r -d '' prompt <<'EOF'
+  IFS= read -r -d '' prompt <<'EOF' || true
 You are producing concise podcast summary bullets.
 The transcript below has inline timestamps in [MM:SS] format.
 Return JSON with a `bullets` array of 5-8 items.
@@ -101,16 +114,13 @@ Only output valid JSON matching: {"bullets": [ ... ]}
 Transcript:
 EOF
 
-    summary_path="$DATA/summaries/$slug.json"
-    timed_transcript="$DATA/transcripts/$slug-timed.txt"
-    log "Summarizing via claude -p -> $summary_path"
-    {
-      printf '%s\n' "$prompt"
-      cat "$timed_transcript"
-    } | claude -p --output-format json > "$summary_path"
-  else
-    log "Dry-run: skipping transcribe + summarize"
-  fi
+  summary_path="$DATA/summaries/$slug.json"
+  timed_transcript="$DATA/transcripts/$slug-timed.txt"
+  log "Summarizing via claude -p -> $summary_path"
+  {
+    printf '%s\n' "$prompt"
+    cat "$timed_transcript"
+  } | claude -p --output-format json > "$summary_path"
 
   log "Updating state"
   tmp_state=$(mktemp /tmp/poddy-state-XXXXXX.json)

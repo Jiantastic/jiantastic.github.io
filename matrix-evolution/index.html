@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Matrix Evolution
+title: BFF Primordial Soup
 description: Browser implementation of the paper's 2D BFF spatial soup.
 permalink: /matrix-evolution/
 ---
@@ -10,8 +10,8 @@ permalink: /matrix-evolution/
 <div class="matrix-page">
   <header class="page-header">
     <div>
-      <p class="eyebrow">Prototype</p>
-      <h1>Matrix Evolution</h1>
+      <p class="eyebrow">Artificial life field station</p>
+      <h1>BFF Primordial Soup</h1>
       <p class="lede">
         Browser implementation of the paper's 2D BFF spatial soup, with worker
         execution and compressed visualization.
@@ -19,18 +19,18 @@ permalink: /matrix-evolution/
     </div>
     <div class="controls">
       <div class="control">
-        <label for="mutationRange">Mutation rate</label>
+        <label for="mutationRange">Mutation rate <output id="mutationValue" for="mutationRange">0.00024</output></label>
         <input
           type="range"
           id="mutationRange"
           min="0"
           max="0.002"
-          step="0.00005"
+          step="0.00001"
           value="0.00024"
         />
       </div>
       <div class="control">
-        <label for="maxItersRange">Max iterations</label>
+        <label for="maxItersRange">Max iterations <output id="maxItersValue" for="maxItersRange">8192</output></label>
         <input
           type="range"
           id="maxItersRange"
@@ -41,7 +41,7 @@ permalink: /matrix-evolution/
         />
       </div>
       <div class="control">
-        <label for="epochSpeedRange">Epochs / tick</label>
+        <label for="epochSpeedRange">Epochs / tick <output id="epochSpeedValue" for="epochSpeedRange">1</output></label>
         <input
           type="range"
           id="epochSpeedRange"
@@ -51,36 +51,24 @@ permalink: /matrix-evolution/
           value="1"
         />
       </div>
-      <div class="control" style="justify-content: flex-end">
-        <button
-          id="resetBtn"
-          style="
-            padding: 6px 14px;
-            background: var(--panel);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            color: var(--text);
-            cursor: pointer;
-            font-size: 13px;
-          "
-        >
-          Randomize
-        </button>
+      <div class="control control-actions">
+        <button id="pauseBtn" type="button" aria-pressed="false">Pause</button>
+        <button id="resetBtn" type="button">Randomize</button>
       </div>
     </div>
   </header>
 
-  <main>
+  <div class="simulation-main">
     <div
       id="canvas-container"
       aria-label="BFF primordial soup simulation"
       role="img"
     >
-      <canvas id="sim-canvas"></canvas>
+      <canvas id="sim-canvas" aria-describedby="simulation-description"></canvas>
     </div>
     <section class="info">
       <div>
-        <h2>What you are seeing</h2>
+        <h2 id="simulation-description">What you are seeing</h2>
         <ul>
           <li>Each cell holds a 64-byte BFF program (tape)</li>
           <li>
@@ -111,7 +99,7 @@ permalink: /matrix-evolution/
           <li>Randomize resets the soup while keeping the current controls</li>
         </ul>
       </div>
-      <div class="stats" id="stats"></div>
+      <div class="stats" id="stats" aria-live="polite"></div>
     </section>
     <section class="explain">
       <h2>How it works</h2>
@@ -153,7 +141,7 @@ permalink: /matrix-evolution/
         fitness.
       </p>
     </section>
-  </main>
+  </div>
 </div>
 
 <script type="module" src="/matrix-evolution/app.js"></script>

@@ -42,6 +42,8 @@ def main():
         slug = ep.get("slug") or ""
         summary_path = summaries_dir / f"{slug}.json"
         transcript_txt_path = transcripts_dir / f"{slug}.txt"
+        if not summary_path.exists() or not transcript_txt_path.exists():
+            continue
         summary = load_json(summary_path, {})
 
         episodes_out.append(
@@ -52,13 +54,16 @@ def main():
                 "pubDate": ep.get("pubDate"),
                 "audioUrl": ep.get("audioUrl"),
                 "duration": ep.get("duration"),
+                "publishedTs": ep.get("published_ts", 0),
                 "summaryPath": str(summary_path.relative_to(data_dir)),
                 "transcriptPath": str(transcript_txt_path.relative_to(data_dir)),
                 "bullets": summary.get("bullets") or summary.get("summary") or [],
             }
         )
 
-    episodes_out.sort(key=lambda e: e.get("pubDate") or "", reverse=True)
+    episodes_out.sort(key=lambda e: e.get("publishedTs", 0), reverse=True)
+    for episode in episodes_out:
+        episode.pop("publishedTs", None)
     episodes_path.write_text(json.dumps(episodes_out, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Wrote {episodes_path} with {len(episodes_out)} episodes")
 

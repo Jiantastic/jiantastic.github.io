@@ -39,11 +39,13 @@
     <link rel="stylesheet" href="/assets/css/main.css" />
     {% seo %}
   </head>
-  <body>
+  <body class="page-{{ page.title | default: 'site' | slugify }}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
     {% include nav.html %}
 
-    <main class="main">{{ content }}</main>
+    <main class="main" id="main-content">{{ content }}</main>
 
     {% include footer.html %}
+    <script src="/assets/js/site.js" defer></script>
   </body>
 </html>

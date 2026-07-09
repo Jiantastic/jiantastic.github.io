@@ -94,6 +94,16 @@ self.onmessage = (event) => {
 
   if (!state) return;
 
+  if (data.type === "pause") {
+    running = false;
+    return;
+  }
+
+  if (data.type === "resume") {
+    start();
+    return;
+  }
+
   if (data.type === "update") {
     if (typeof data.epochsPerTick === "number") {
       epochsPerTick = data.epochsPerTick;

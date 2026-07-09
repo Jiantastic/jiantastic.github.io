@@ -39,6 +39,10 @@ const mutationInput = document.getElementById("mutationRange");
 const maxItersInput = document.getElementById("maxItersRange");
 const epochSpeedInput = document.getElementById("epochSpeedRange");
 const resetBtn = document.getElementById("resetBtn");
+const pauseBtn = document.getElementById("pauseBtn");
+const mutationValue = document.getElementById("mutationValue");
+const maxItersValue = document.getElementById("maxItersValue");
+const epochSpeedValue = document.getElementById("epochSpeedValue");
 
 canvas.width = GRID_W;
 canvas.height = GRID_H;
@@ -56,6 +60,8 @@ let snapshotCount = 0;
 let currentEpoch = 0;
 let opcodePercent = 0;
 let uniquePrograms = 0;
+let userPaused = false;
+let pausedForVisibility = false;
 
 function renderSoup(dominantOpcodes) {
   for (let cellY = 0; cellY < GRID_H; cellY++) {
@@ -86,6 +92,9 @@ function updateStats() {
 }
 
 function syncControls() {
+  mutationValue.textContent = Number(mutationInput.value).toFixed(5);
+  maxItersValue.textContent = maxItersInput.value;
+  epochSpeedValue.textContent = epochSpeedInput.value;
   worker.postMessage({
     type: "update",
     mutationRate: parseFloat(mutationInput.value),
@@ -125,6 +134,27 @@ resetBtn.addEventListener("click", () => {
   worker.postMessage({ type: "reset" });
 });
 
+function setPaused(paused) {
+  worker.postMessage({ type: paused ? "pause" : "resume" });
+  pauseBtn.textContent = paused ? "Resume" : "Pause";
+  pauseBtn.setAttribute("aria-pressed", String(paused));
+}
+
+pauseBtn.addEventListener("click", () => {
+  userPaused = !userPaused;
+  setPaused(userPaused);
+});
+
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden && !userPaused) {
+    pausedForVisibility = true;
+    worker.postMessage({ type: "pause" });
+  } else if (!document.hidden && pausedForVisibility) {
+    pausedForVisibility = false;
+    worker.postMessage({ type: "resume" });
+  }
+});
+
 statsEl.textContent = "Starting worker...";
 const initialMutationRate = parseFloat(mutationInput.value);
 const initialMaxIters = parseInt(maxItersInput.value, 10);
@@ -136,3 +166,4 @@ worker.postMessage({
   maxIters: Number.isFinite(initialMaxIters) ? initialMaxIters : MAX_ITERS,
   epochsPerTick: parseInt(epochSpeedInput.value, 10),
 });
+syncControls();

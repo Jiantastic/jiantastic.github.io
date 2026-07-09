@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Alphafold Made Simple
+title: AlphaFold Made Simple
 description: Explore protein structures and learn how AlphaFold estimates confidence.
 permalink: /alphafold/
 ---
@@ -10,7 +10,8 @@ permalink: /alphafold/
 <div class="alphafold-page">
   <div class="container">
     <header class="page-header">
-      <h1 class="page-title">Alphafold Made Simple</h1>
+      <p class="eyebrow">Biology field station</p>
+      <h1 class="page-title">AlphaFold Made Simple</h1>
       <p class="page-desc">
         Explore protein structures in your browser and learn how AlphaFold estimates confidence and uncertainty.
       </p>
@@ -111,7 +112,7 @@ permalink: /alphafold/
           </p>
         </div>
       </div>
-      <p id="status" class="status"></p>
+      <p id="status" class="status" role="status" aria-live="polite"></p>
     </section>
 
     <section class="viewer-grid">
@@ -213,5 +214,5 @@ permalink: /alphafold/
   </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.0.4/3Dmol-min.js"></script>
-<script src="/alphafold/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.5.3/3Dmol-min.js"></script>
+<script type="module" src="/alphafold/app.js"></script>

@@ -15,6 +15,8 @@ def slugify(text: str) -> str:
 
 def parse_feed(url: str):
     feed = feedparser.parse(url)
+    if feed.bozo and not feed.entries:
+        raise RuntimeError(f"Unable to parse podcast feed: {feed.bozo_exception}")
     episodes = []
     for entry in feed.entries:
         guid = entry.get("id") or entry.get("guid") or entry.get("link") or ""

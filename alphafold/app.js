@@ -43,7 +43,12 @@ const cacheKey = (qualifier) => `alphafold-prediction:${qualifier}`;
 
 const getCachedPrediction = (qualifier) => {
   if (typeof localStorage === "undefined") return null;
-  const cached = localStorage.getItem(cacheKey(qualifier));
+  let cached;
+  try {
+    cached = localStorage.getItem(cacheKey(qualifier));
+  } catch (error) {
+    return null;
+  }
   if (!cached) return null;
   try {
     return JSON.parse(cached);
@@ -54,7 +59,11 @@ const getCachedPrediction = (qualifier) => {
 
 const setCachedPrediction = (qualifier, data) => {
   if (typeof localStorage === "undefined") return;
-  localStorage.setItem(cacheKey(qualifier), JSON.stringify(data));
+  try {
+    localStorage.setItem(cacheKey(qualifier), JSON.stringify(data));
+  } catch (error) {
+    // Storage may be disabled or full; the live request still succeeded.
+  }
 };
 
 const clearViewer = () => {
@@ -66,13 +75,13 @@ const clearViewer = () => {
 
 const initViewer = () => {
   if (!dom.viewer) return;
-  if (!window.WebGLRenderingContext) {
+  if (!window.WebGLRenderingContext || !window.$3Dmol) {
     dom.viewer.classList.add("fallback");
-    dom.viewer.textContent = "WebGL not available. Viewer disabled.";
-    setStatus("WebGL not available. Viewer disabled.", true);
+    dom.viewer.textContent = "The 3D viewer is unavailable on this device.";
+    setStatus("The 3D viewer is unavailable; model details are still available.", true);
     return;
   }
-  viewer = $3Dmol.createViewer(dom.viewer, { backgroundColor: "white" });
+  viewer = window.$3Dmol.createViewer(dom.viewer, { backgroundColor: "#f7f2dd" });
 };
 
 const updateConfidenceBars = (model) => {
@@ -107,6 +116,7 @@ const loadModel = async (model) => {
   }
 
   applyModelLinks(modelSource);
+  if (!viewer) return;
   const response = await fetch(modelSource.url);
   if (!response.ok) {
     throw new Error("Unable to download model file.");
@@ -115,7 +125,6 @@ const loadModel = async (model) => {
   const data = await response.text();
   clearViewer();
 
-  if (!viewer) return;
   viewer.addModel(data, modelSource.format);
   viewer.setStyle({}, {
     cartoon: {
@@ -137,7 +146,7 @@ const getProteinName = (model, summary) => {
 };
 
 const getUniProtId = (model, qualifier) => {
-  return model?.uniprotId || model?.entryId || qualifier || "—";
+  return model?.uniprotAccession || model?.uniprotId || qualifier || "—";
 };
 
 const getSequenceLength = (model, summary) => {
@@ -162,7 +171,7 @@ const updatePanels = (model, summary, qualifier) => {
   if (dom.uniprotId) dom.uniprotId.textContent = getUniProtId(model, qualifier);
   if (dom.proteinName) dom.proteinName.textContent = getProteinName(model, summary);
   if (dom.avgPlddt) {
-    dom.avgPlddt.textContent = model.globalMetricValue
+    dom.avgPlddt.textContent = Number.isFinite(model.globalMetricValue)
       ? model.globalMetricValue.toFixed(1)
       : "—";
   }
@@ -176,9 +185,13 @@ const updatePanels = (model, summary, qualifier) => {
 
 const fetchSummary = async (qualifier) => {
   if (!qualifier) return null;
-  const response = await fetch(`${API_BASE}/uniprot/summary/${qualifier}.json`);
-  if (!response.ok) return null;
-  return response.json();
+  try {
+    const response = await fetch(`${API_BASE}/uniprot/summary/${encodeURIComponent(qualifier)}.json`);
+    if (!response.ok) return null;
+    return response.json();
+  } catch (error) {
+    return null;
+  }
 };
 
 const fetchPrediction = async (qualifier) => {
@@ -195,7 +208,7 @@ const fetchPrediction = async (qualifier) => {
     return;
   }
 
-  const response = await fetch(`${API_BASE}/prediction/${qualifier}`);
+  const response = await fetch(`${API_BASE}/prediction/${encodeURIComponent(qualifier)}`);
   if (!response.ok) {
     throw new Error("Prediction not found.");
   }
@@ -214,21 +227,43 @@ const fetchPrediction = async (qualifier) => {
   setStatus("Loaded model successfully.");
 };
 
+const getSequenceMatchId = (data) => {
+  const directMatch = data?.results?.[0] || data?.entries?.[0] || data?.[0];
+  const directId =
+    directMatch?.uniprotId ||
+    directMatch?.uniprotAccession ||
+    directMatch?.entryId ||
+    directMatch?.id;
+  if (directId) return directId;
+
+  const monomer = data?.structures?.find(
+    (structure) => structure?.summary?.oligomeric_state === "MONOMER",
+  );
+  const firstStructure = monomer || data?.structures?.[0];
+  return firstStructure?.summary?.entities?.find(
+    (entity) => entity?.identifier_category === "UNIPROT",
+  )?.identifier || null;
+};
+
 const resolveSequence = async (sequence) => {
   setStatus("Resolving sequence...");
+  const normalized = normalizeSequence(sequence);
+  if (normalized.length < 20 || !/^[ACDEFGHIKLMNPQRSTVWY]+$/.test(normalized)) {
+    throw new Error("Use at least 20 standard amino-acid letters.");
+  }
   const url = `${API_BASE}/sequence/summary?id=${encodeURIComponent(
-    normalizeSequence(sequence)
+    normalized
   )}&type=sequence`;
   const response = await fetch(url);
   if (!response.ok) {
     throw new Error("Sequence lookup failed.");
   }
   const data = await response.json();
-  const match = data?.results?.[0] || data?.entries?.[0] || data?.[0];
-  if (!match) {
+  const id = getSequenceMatchId(data);
+  if (!id) {
     throw new Error("No UniProt match found for sequence.");
   }
-  return match.uniprotId || match.uniprotAccession || match.entryId || match.id;
+  return id;
 };
 
 const handleUniProtSearch = async (id) => {
@@ -237,7 +272,7 @@ const handleUniProtSearch = async (id) => {
     return;
   }
   try {
-    await fetchPrediction(id.trim());
+    await fetchPrediction(id.trim().toUpperCase());
   } catch (error) {
     setStatus(error.message, true);
   }
@@ -260,6 +295,10 @@ const bindEvents = () => {
   if (!dom.uniprotSearch) return;
   dom.uniprotSearch.addEventListener("click", () => {
     handleUniProtSearch(dom.uniprotInput.value);
+  });
+
+  dom.uniprotInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") handleUniProtSearch(dom.uniprotInput.value);
   });
 
   dom.sequenceSearch.addEventListener("click", () => {
@@ -308,11 +347,12 @@ if (typeof document !== "undefined") {
   initApp();
 }
 
-if (typeof module !== "undefined" && module.exports) {
-  module.exports = {
-    buildConfidenceBars,
-    colorForPlddt,
-    getModelSource,
-    normalizeSequence,
-  };
-}
+export {
+  buildConfidenceBars,
+  colorForPlddt,
+  formatPercent,
+  getModelSource,
+  getSequenceMatchId,
+  getUniProtId,
+  normalizeSequence,
+};

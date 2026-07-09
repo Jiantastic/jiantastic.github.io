@@ -27,6 +27,7 @@ The browser page is paper-faithful in semantics and defaults, but not in visuali
 - `Mutation rate`: background mutation probability per byte after each epoch.
 - `Max iterations`: instruction budget per concatenated interaction.
 - `Epochs / tick`: how many epochs the worker advances before yielding again.
+- `Pause`: stops background work without resetting the current soup.
 - `Randomize`: rebuilds the soup with fresh random programs while preserving controls.
 
 ## Files

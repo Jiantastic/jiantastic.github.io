@@ -1,94 +1,69 @@
 ---
 layout: default
-title: Work
-description: Projects and creations by Wei Wong
+title: Projects
+description: Interactive projects and digital art by Wei Wong.
 ---
 
 <header class="page-header">
-  <h1 class="page-title">Work</h1>
-  <p class="page-desc">Projects and creations I'm working on.</p>
+  <p class="eyebrow">Field guide / 2026</p>
+  <h1 class="page-title">Projects</h1>
+  <p class="page-desc">
+    Working prototypes, visual experiments, and other things made to be explored rather than merely observed.
+  </p>
 </header>
 
-<section class="section">
-  <h2 class="section-title">Projects</h2>
+<section class="section" aria-labelledby="project-heading">
+  <div class="section-heading">
+    <h2 class="section-title" id="project-heading">Interactive work</h2>
+    <p class="section-kicker">Tools and worlds built for the browser.</p>
+  </div>
   <div class="project-grid">
-    <a
-      href="https://weijwong.com/alphafold"
-      target="_blank"
-      rel="noopener"
-      class="project-card"
-    >
-      <div
-        class="project-thumb"
-        style="
-          background: linear-gradient(135deg, #0f766e 0%, #134e4a 100%);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 3rem;
-        "
-      >
-        🧬
-      </div>
+    <a href="/alphafold/" class="project-card">
+      <div class="project-thumb project-thumb--protein">Biology / Live API</div>
       <div class="project-info">
-        <h3>Alphafold Made Simple</h3>
-        <p>
-          An educational viewer that visualizes protein folding and explains
-          AlphaFold predictions for everyday learners.
-        </p>
+        <h3>AlphaFold Made Simple</h3>
+        <p>Explore predicted protein structures in 3D and learn what their confidence scores actually mean.</p>
       </div>
     </a>
-    <a
-      href="https://battleroyale.pages.dev"
-      target="_blank"
-      rel="noopener"
-      class="project-card"
-    >
-      <div
-        class="project-thumb"
-        style="
-          background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 3rem;
-        "
-      >
-        🎮
+    <a href="/matrix-evolution/" class="project-card">
+      <div class="project-thumb project-thumb--soup">Artificial life / Simulation</div>
+      <div class="project-info">
+        <h3>BFF Primordial Soup</h3>
+        <p>A paper-scale browser simulation where random programs interact, mutate, and sometimes self-replicate.</p>
       </div>
+    </a>
+    <a href="/poddy-summaries/" class="project-card">
+      <div class="project-thumb project-thumb--poddy">Audio / ML Pipeline</div>
+      <div class="project-info">
+        <h3>Poddy Summaries</h3>
+        <p>A timestamped guide to long-form Acquired episodes, backed by local transcription and summarization.</p>
+      </div>
+    </a>
+    <a href="https://battleroyale.pages.dev" target="_blank" rel="noopener" class="project-card">
+      <div class="project-thumb project-thumb--game">Game / WebGL</div>
       <div class="project-info">
         <h3>3D Battle Royale</h3>
-        <p>
-          A flying 3D DOOM-style game built with Three.js and deployed on
-          Cloudflare Pages.
-        </p>
+        <p>A flying, DOOM-inspired game built with Three.js and deployed on Cloudflare Pages.</p>
       </div>
     </a>
   </div>
 </section>
 
-<section class="section gallery-section" id="galleries">
-  <h2 class="section-title">Art Galleries</h2>
-  <div class="gallery-buttons">
-    <button
-      class="gallery-btn active"
-      data-gallery="crimsonOni"
-      id="btn-crimsonOni"
-    >
-      Crimson Oni
-    </button>
-    <button class="gallery-btn" data-gallery="chaoscanvas" id="btn-chaoscanvas">
-      Chaos Canvas
-    </button>
+<section class="section gallery-section" id="galleries" aria-labelledby="gallery-heading">
+  <div class="section-heading">
+    <h2 class="section-title" id="gallery-heading">Art galleries</h2>
+    <p class="section-kicker">Two visual trails, twenty-seven stops.</p>
   </div>
-  <div id="gallery-grid" class="gallery-grid">
-    <!-- Gallery images loaded dynamically -->
+  <div class="gallery-buttons" role="group" aria-label="Choose a gallery">
+    <button class="gallery-btn" data-gallery="crimsonOni" id="btn-crimsonOni" aria-pressed="false">Crimson Oni</button>
+    <button class="gallery-btn" data-gallery="chaoscanvas" id="btn-chaoscanvas" aria-pressed="false">Chaos Canvas</button>
   </div>
+  <div id="gallery-grid" class="gallery-grid" aria-live="polite"></div>
 </section>
 
-<div id="modal" class="modal">
-  <button class="modal-close">&times;</button>
-  <img id="modal-img" src="" alt="Expanded image" />
+<div id="modal" class="modal" role="dialog" aria-modal="true" aria-label="Expanded artwork" aria-hidden="true">
+  <button class="modal-close" type="button" aria-label="Close expanded artwork">&times;</button>
+  <img id="modal-img" src="" alt="" />
 </div>
 
 <script>
@@ -97,61 +72,82 @@ description: Projects and creations by Wei Wong
     chaoscanvas: { title: "Chaos Canvas", count: 18 },
   };
 
-  let currentGallery = "chaoscanvas";
+  const modal = document.getElementById("modal");
+  const modalImage = document.getElementById("modal-img");
+  const closeButton = modal.querySelector(".modal-close");
+  let lastFocusedElement = null;
 
   function loadGallery(name) {
-    currentGallery = name;
-    const gallery = galleries[name];
+    const gallery = galleries[name] || galleries.chaoscanvas;
+    const selectedName = galleries[name] ? name : "chaoscanvas";
     const grid = document.getElementById("gallery-grid");
-    grid.innerHTML = "";
+    grid.replaceChildren();
 
-    // Update buttons
-    document.querySelectorAll(".gallery-btn").forEach((btn) => {
-      btn.classList.toggle("active", btn.dataset.gallery === name);
+    document.querySelectorAll(".gallery-btn").forEach((button) => {
+      const active = button.dataset.gallery === selectedName;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
     });
 
-    // Load images
-    for (let i = 1; i <= gallery.count; i++) {
-      const img = document.createElement("img");
-      img.src = `/images/${name}-${i}.png`;
-      img.alt = `${gallery.title} ${i}`;
-      img.loading = "lazy";
-      img.onerror = function () {
-        this.remove();
-      };
-      img.onclick = function () {
-        openModal(this.src);
-      };
-      grid.appendChild(img);
+    for (let index = 1; index <= gallery.count; index += 1) {
+      const button = document.createElement("button");
+      const image = document.createElement("img");
+      const alt = `${gallery.title}, artwork ${index} of ${gallery.count}`;
+      button.type = "button";
+      button.setAttribute("aria-label", `Expand ${alt}`);
+      image.src = `/images/${selectedName}-${index}.png`;
+      image.alt = alt;
+      image.loading = index > 4 ? "lazy" : "eager";
+      image.decoding = "async";
+      image.addEventListener("error", () => button.remove());
+      button.addEventListener("click", () => openModal(image.src, alt, button));
+      button.appendChild(image);
+      grid.appendChild(button);
     }
   }
 
-  function openModal(src) {
-    const modal = document.getElementById("modal");
-    document.getElementById("modal-img").src = src;
+  function openModal(src, alt, trigger) {
+    lastFocusedElement = trigger;
+    modalImage.src = src;
+    modalImage.alt = alt;
     modal.classList.add("active");
+    modal.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+    closeButton.focus();
   }
 
   function closeModal() {
-    document.getElementById("modal").classList.remove("active");
+    if (!modal.classList.contains("active")) return;
+    modal.classList.remove("active");
+    modal.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+    modalImage.src = "";
+    lastFocusedElement?.focus();
   }
 
-  // Event listeners
-  document.querySelectorAll(".gallery-btn").forEach((btn) => {
-    btn.addEventListener("click", () => loadGallery(btn.dataset.gallery));
+  document.querySelectorAll(".gallery-btn").forEach((button) => {
+    button.addEventListener("click", () => {
+      const name = button.dataset.gallery;
+      history.replaceState(null, "", `#${name}`);
+      loadGallery(name);
+    });
   });
 
-  document.getElementById("modal").addEventListener("click", closeModal);
-  document.querySelector(".modal-close").addEventListener("click", closeModal);
-
-  // Handle hash navigation
-  function checkHash() {
-    const hash = window.location.hash.replace("#", "");
-    if (galleries[hash]) {
-      loadGallery(hash);
-    } else {
-      loadGallery("chaoscanvas");
+  modal.addEventListener("click", (event) => {
+    if (event.target === modal) closeModal();
+  });
+  closeButton.addEventListener("click", closeModal);
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeModal();
+    if (event.key === "Tab" && modal.classList.contains("active")) {
+      event.preventDefault();
+      closeButton.focus();
     }
+  });
+
+  function checkHash() {
+    const name = window.location.hash.slice(1);
+    loadGallery(galleries[name] ? name : "chaoscanvas");
   }
 
   window.addEventListener("hashchange", checkHash);

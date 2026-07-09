@@ -1,27 +1,24 @@
-:root {
-  --bg: #f6f7fb;
-  --text: #1f2937;
-  --muted: #6b7280;
-  --panel: #ffffff;
-  --border: #e5e7eb;
-  --primary: #2563eb;
+.alphafold-page {
+  --bg: #e7ead6;
+  --text: #17271d;
+  --muted: #56665a;
+  --panel: #f7f2dd;
+  --border: rgba(23, 39, 29, 0.18);
+  --primary: #245f45;
   --very-high: #1f77b4;
   --confident: #76b7b2;
   --low: #f1ce63;
   --very-low: #e07b39;
 }
 
-/* Expand main container for this page (stylesheet only loaded here) */
-.main {
-  max-width: 1200px;
-  width: 100%;
-  padding: 0;
-}
-
 .alphafold-page {
   background: var(--bg);
   color: var(--text);
-  padding-bottom: 2rem;
+  padding: 0 0 2rem;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 24px 70px rgba(31, 49, 36, 0.12);
 }
 
 .alphafold-page .container {
@@ -31,11 +28,15 @@
 }
 
 .alphafold-page .page-header {
-  padding: 1.5rem 0 1rem;
+  padding: clamp(2rem, 5vw, 4rem) 0 2rem;
+  margin: 0 0 1.5rem;
+  border-bottom: 1px solid var(--border);
 }
 
 .alphafold-page .page-title {
   margin: 0 0 0.35rem 0;
+  font-size: clamp(3rem, 8vw, 6.6rem);
+  max-width: 850px;
 }
 
 .alphafold-page .page-desc {
@@ -49,7 +50,7 @@
   border-radius: 12px;
   padding: 1.5rem;
   margin: 1.5rem 0;
-  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.05);
+  box-shadow: 0 8px 26px rgba(31, 49, 36, 0.055);
 }
 
 .alphafold-page .search-grid {
@@ -70,6 +71,8 @@
   border-radius: 8px;
   border: 1px solid var(--border);
   font-size: 1rem;
+  background: #fffdf4;
+  color: var(--text);
 }
 
 .alphafold-page button {
@@ -83,9 +86,9 @@
 }
 
 .alphafold-page button.example {
-  background: #eef2ff;
-  color: #1e3a8a;
-  border: 1px solid #c7d2fe;
+  background: #e4ead9;
+  color: #244b36;
+  border: 1px solid #b9c6ae;
   margin-right: 0.5rem;
   margin-top: 0.5rem;
 }
@@ -106,7 +109,7 @@
   position: relative;
   width: 100%;
   height: 480px;
-  background: #ffffff;
+  background: #f7f2dd;
   border-radius: 10px;
   border: 1px solid var(--border);
   overflow: hidden;
@@ -218,7 +221,7 @@
   align-items: center;
   justify-content: center;
   color: var(--muted);
-  background: #f8fafc;
+  background: #eef0df;
 }
 
 .alphafold-page .api-list {
@@ -232,7 +235,7 @@
 }
 
 .alphafold-page code {
-  background: #f3f4f6;
+  background: #ece8d5;
   padding: 0.2rem 0.4rem;
   border-radius: 6px;
   font-size: 0.9rem;
@@ -251,4 +254,16 @@
   .alphafold-page .viewer-grid {
     grid-template-columns: 1fr;
   }
+}
+
+@media (max-width: 600px) {
+  .alphafold-page { border-radius: 18px; }
+  .alphafold-page .container { padding: 0.9rem; }
+  .alphafold-page .panel { padding: 1rem; margin: 1rem 0; border-radius: 10px; }
+  .alphafold-page .search-row { flex-direction: column; }
+  .alphafold-page .search-row button,
+  .alphafold-page #sequence-search { width: 100%; min-height: 44px; }
+  .alphafold-page .viewer { height: min(420px, 62svh); }
+  .alphafold-page .bar { align-items: flex-start; flex-direction: column; gap: .25rem; }
+  .alphafold-page .bar .fill { width: 100%; flex: none; }
 }

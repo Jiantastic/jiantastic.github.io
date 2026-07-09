@@ -1,11 +1,20 @@
-<nav class="nav">
-  <a href="/" class="nav-logo">Wei Wong</a>
-  <div class="nav-links">
-    <a href="/work.html">Work</a>
-    <a href="/blog.html">Blog</a>
-     <a href="/store.html">Store</a>
-     <a href="/matrix-evolution/">Matrix Evolution</a>
-     <a href="/poddy-summaries/">Poddy Summaries</a>
-
+<nav class="site-nav" aria-label="Primary navigation">
+  <a href="/" class="nav-brand" aria-label="Wei Wong — home">
+    <span class="brand-mark" aria-hidden="true">WW</span>
+    <span>Wei Wong</span>
+  </a>
+  <button
+    class="nav-toggle"
+    type="button"
+    aria-expanded="false"
+    aria-controls="site-nav-links"
+  >
+    <span>Explore</span>
+    <span class="nav-toggle-icon" aria-hidden="true"></span>
+  </button>
+  <div class="nav-links" id="site-nav-links">
+    <a href="/work.html"{% if page.url == '/work.html' %} aria-current="page"{% endif %}>Projects</a>
+    <a href="/blog.html"{% if page.url == '/blog.html' %} aria-current="page"{% endif %}>Field Notes</a>
+    <a href="/store.html"{% if page.url == '/store.html' %} aria-current="page"{% endif %}>Outpost</a>
   </div>
 </nav>

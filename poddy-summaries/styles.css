@@ -1,193 +1,68 @@
 .poddy-page {
-  max-width: 960px;
+  --poddy-ink: #17271d;
+  --poddy-muted: #5f6c62;
+  --poddy-panel: #f8f3df;
+  --poddy-line: rgba(23, 39, 29, 0.18);
+  --poddy-rust: #9d4e32;
+  max-width: 980px;
   margin: 0 auto;
-  padding: 2rem 1.25rem 4rem;
-  color: #0f172a;
+  padding: 0 0 4rem;
+  color: var(--poddy-ink);
 }
 
-.page-header {
+.poddy-page .page-header {
   display: flex;
   justify-content: space-between;
-  gap: 1.5rem;
-  align-items: flex-start;
-  margin-bottom: 1.5rem;
+  gap: 2rem;
+  align-items: flex-end;
+  margin-bottom: 2rem;
 }
 
-.eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.8rem;
-  color: #64748b;
-  margin-bottom: 0.25rem;
+.poddy-page .page-header h1 {
+  margin: .35rem 0 .6rem;
+  font: 400 clamp(3.2rem, 9vw, 7rem)/.95 Georgia, "Times New Roman", serif;
+  letter-spacing: -.045em;
 }
 
-.lede {
-  color: #334155;
-  margin-top: 0.35rem;
+.poddy-page .eyebrow { color: var(--poddy-rust); }
+.poddy-page .lede { color: var(--poddy-muted); margin: 0; max-width: 600px; }
+.poddy-page .meta { display: flex; flex-direction: column; align-items: flex-end; gap: .45rem; }
+.poddy-page .pill { display: inline-flex; padding: .35rem .7rem; border: 1px solid var(--poddy-line); border-radius: 999px; font-size: .72rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; white-space: nowrap; }
+
+.poddy-page .panel {
+  background: var(--poddy-panel);
+  border: 1px solid var(--poddy-line);
+  border-radius: 20px;
+  padding: clamp(1rem, 4vw, 2rem);
+  box-shadow: 0 22px 60px rgba(31, 49, 36, .1);
 }
 
-.meta {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
+.poddy-page .panel-header { display: flex; justify-content: space-between; gap: 1.5rem; align-items: flex-start; padding-bottom: 1.5rem; border-bottom: 1px solid var(--poddy-line); }
+.poddy-page .panel-header h2 { margin: .25rem 0; font: 400 clamp(1.65rem, 4vw, 2.5rem)/1.08 Georgia, "Times New Roman", serif; }
+.poddy-page .controls { display: flex; flex-direction: column; gap: .35rem; min-width: min(280px, 100%); }
+.poddy-page select { width: 100%; padding: .65rem .75rem; border-radius: 9px; border: 1px solid var(--poddy-line); background: #fffdf4; color: var(--poddy-ink); }
 
-.pill {
-  display: inline-flex;
-  padding: 0.4rem 0.75rem;
-  border-radius: 999px;
-  background: #e2e8f0;
-  color: #0f172a;
-  font-size: 0.9rem;
-}
-
-.panel {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  padding: 1.5rem;
-  margin-bottom: 1rem;
-  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
-}
-
-.panel-header {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  align-items: flex-start;
-  margin-bottom: 1rem;
-}
-
-.controls {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-}
-
-select {
-  padding: 0.5rem 0.75rem;
-  border-radius: 8px;
-  border: 1px solid #cbd5e1;
-  min-width: 220px;
-}
-
-.tabs {
-  display: inline-flex;
-  border: 1px solid #e2e8f0;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-bottom: 1rem;
-}
-
-.tab {
-  background: #f8fafc;
-  border: none;
-  padding: 0.65rem 1.1rem;
-  cursor: pointer;
-  color: #475569;
-  font-weight: 600;
-}
-
-.tab + .tab {
-  border-left: 1px solid #e2e8f0;
-}
-
-.tab.active {
-  background: #0f172a;
-  color: #ffffff;
-}
-
-.tab-content {
-  margin-top: 0.5rem;
-}
-
-.hidden {
-  display: none;
-}
-
-.bullets {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.bullet-card {
-  border: 1px solid #e2e8f0;
-  border-radius: 10px;
-  padding: 0.85rem 1rem;
-  background: #f8fafc;
-}
-
-.bullet-top {
-  display: flex;
-  justify-content: space-between;
-  gap: 0.75rem;
-  align-items: baseline;
-}
-
-.bullet-title {
-  font-weight: 700;
-  color: #0f172a;
-}
-
-.timestamp {
-  font-family: monospace;
-  color: #0f172a;
-  background: #e2e8f0;
-  padding: 0.2rem 0.45rem;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.quote {
-  margin-top: 0.4rem;
-  color: #334155;
-}
-
-.muted {
-  color: #94a3b8;
-}
-
-audio {
-  width: 100%;
-}
-
-.transcript-box {
-  min-height: 220px;
-  max-height: 460px;
-  overflow: auto;
-  padding: 1rem;
-  border: 1px solid #e2e8f0;
-  border-radius: 10px;
-  background: #f8fafc;
-  color: #0f172a;
-  white-space: pre-wrap;
-  line-height: 1.45;
-}
-
-.steps {
-  margin: 0;
-  padding-left: 1.1rem;
-  color: #0f172a;
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-}
+.poddy-page .tabs { display: inline-flex; border: 1px solid var(--poddy-line); border-radius: 999px; overflow: hidden; margin: 1.4rem 0 1rem; }
+.poddy-page .tab { min-height: 44px; background: transparent; border: 0; padding: .65rem 1.1rem; cursor: pointer; color: var(--poddy-muted); font-weight: 800; }
+.poddy-page .tab + .tab { border-left: 1px solid var(--poddy-line); }
+.poddy-page .tab.active { background: #183f2b; color: #f4efd9; }
+.poddy-page .tab-content { margin-top: .5rem; }
+.poddy-page .hidden { display: none; }
+.poddy-page .bullets { list-style: none; padding: 0; margin: 0; display: grid; gap: .75rem; }
+.poddy-page .bullet-card { border: 1px solid var(--poddy-line); border-radius: 12px; padding: 1rem; background: rgba(255,253,244,.7); }
+.poddy-page .bullet-top { display: flex; justify-content: space-between; gap: .75rem; align-items: baseline; }
+.poddy-page .bullet-title { font-weight: 800; }
+.poddy-page .timestamp { flex: 0 0 auto; border: 1px solid var(--poddy-line); color: var(--poddy-ink); background: #e7e6d2; padding: .3rem .5rem; border-radius: 7px; cursor: pointer; font: 700 .8rem/1 ui-monospace, monospace; }
+.poddy-page .quote { margin: .5rem 0 0; color: var(--poddy-muted); font-family: Georgia, "Times New Roman", serif; font-size: 1.05rem; }
+.poddy-page .muted { color: var(--poddy-muted); }
+.poddy-page audio { width: 100%; }
+.poddy-page .transcript-box { min-height: 240px; max-height: 520px; overflow: auto; padding: 1rem; border: 1px solid var(--poddy-line); border-radius: 12px; background: #fffdf4; white-space: pre-wrap; line-height: 1.65; }
 
 @media (max-width: 720px) {
-  .page-header,
-  .panel-header {
-    flex-direction: column;
-  }
-
-  .tabs {
-    width: 100%;
-  }
-
-  select {
-    width: 100%;
-  }
+  .poddy-page .page-header,
+  .poddy-page .panel-header { flex-direction: column; align-items: stretch; }
+  .poddy-page .meta { align-items: flex-start; flex-direction: row; flex-wrap: wrap; }
+  .poddy-page .tabs { display: flex; width: 100%; }
+  .poddy-page .tab { flex: 1; padding-inline: .5rem; }
+  .poddy-page .bullet-top { align-items: flex-start; }
 }

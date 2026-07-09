@@ -1,9 +1,8 @@
 # Site settings
 title: Wei Wong
-description: SaaS sales rep, software engineer, and aspiring polymath. Interested in technology as a function to drive change in the world.
+description: Playful experiments at the intersection of technology, science, and art by Wei Wong.
 url: "https://weijwong.com"
 baseurl: ""
-image: /images/chaoscanvas-1.png
 
 # Author
 author:

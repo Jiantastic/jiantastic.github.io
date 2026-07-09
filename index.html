@@ -1,113 +1,128 @@
 ---
 layout: default
 title: Home
+description: Wei Wong builds playful experiments at the intersection of technology, science, and art.
 ---
 
-<section class="hero">
-  <h1 class="hero-title">Wei Wong</h1>
-  <p class="hero-subtitle">
-    I'm Wei — a SaaS sales rep, software engineer, and aspiring polymath. I'm
-    interested in technology as a function to drive change in the world. I've
-    lived all over Asia, Europe, and the United States.
-  </p>
-</section>
-
-<section class="section">
-  <h2 class="section-title">Creating</h2>
-  <div class="link-list">
-    <a
-      href="https://weijwong.com/alphafold"
-      target="_blank"
-      rel="noopener"
-      class="link-item"
-    >
-      <div class="link-item-content">
-        <span class="link-item-title">Alphafold Made Simple</span>
-        <span class="link-item-desc"
-          >An educational viewer for learning protein folding and AlphaFold basics</span
-        >
-      </div>
-      <span class="link-arrow">→</span>
-    </a>
-    <a href="/matrix-evolution/" class="link-item">
-      <div class="link-item-content">
-        <span class="link-item-title">Matrix Evolution Sim</span>
-        <span class="link-item-desc">New: Interactive Matrix rain + Game of Life + evolving agents (Pixi.js, mobile-friendly)</span>
-      </div>
-      <span class="link-arrow">→</span>
-    </a>
-    <a href="/poddy-summaries/" class="link-item">
-      <div class="link-item-content">
-        <span class="link-item-title">Poddy Summaries</span>
-        <span class="link-item-desc">Acquired podcast: audio player, summaries with quotes + timestamps, full transcripts</span>
-      </div>
-      <span class="link-arrow">→</span>
-    </a>
-    <a
-      href="https://battleroyale.pages.dev"
-      target="_blank"
-      rel="noopener"
-      class="link-item"
-    >
-      <div class="link-item-content">
-        <span class="link-item-title">3D Battle Royale Game</span>
-        <span class="link-item-desc"
-          >A flying 3D DOOM-style game built with Three.js</span
-        >
-      </div>
-      <span class="link-arrow">→</span>
-    </a>
-    <a href="/work.html" class="link-item">
-      <div class="link-item-content">
-        <span class="link-item-title">Art Collections</span>
-        <span class="link-item-desc">Crimson Oni, Chaos Canvas, and more</span>
-      </div>
-      <span class="link-arrow">→</span>
-    </a>
-    <a
-      href="https://weiwong.substack.com/"
-      target="_blank"
-      rel="noopener"
-      class="link-item"
-    >
-      <div class="link-item-content">
-        <span class="link-item-title">Newsletter</span>
-        <span class="link-item-desc"
-          >Thoughts on tech, AI, and rabbit holes I've fallen into</span
-        >
-      </div>
-      <span class="link-arrow">→</span>
-    </a>
+<section class="home-hero" aria-labelledby="home-title">
+  <div class="hero-fallback-ridges" aria-hidden="true"></div>
+  <canvas class="park-canvas" id="park-canvas" aria-hidden="true"></canvas>
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="hero-badge" aria-hidden="true">Est. on the<br />internet<br />1990s</div>
+  <div class="hero-content">
+    <p class="eyebrow">Welcome to the trailhead</p>
+    <h1 class="hero-title" id="home-title">Wei<br />Wong</h1>
+    <p class="hero-subtitle">
+      I build small, curious worlds across software, science, and art—places
+      designed to reward wandering off the marked trail.
+    </p>
+    <div class="hero-actions">
+      <a class="button" href="#projects">Explore the projects <span aria-hidden="true">↓</span></a>
+      <a class="button button--ghost" href="/work.html">View the field guide</a>
+    </div>
   </div>
+  <span class="scroll-cue" aria-hidden="true">Scroll to explore</span>
 </section>
 
-<section class="section">
-  <h2 class="section-title">Other Stuff</h2>
-  <div class="link-list">
-    <a href="/work.html#crimsonOni" class="link-item">
-      <div class="link-item-content">
-        <span class="link-item-title">Crimson Oni Gallery</span>
-        <span class="link-item-desc">Digital art collection</span>
-      </div>
-      <span class="link-arrow">→</span>
-    </a>
-    <a href="/work.html#chaoscanvas" class="link-item">
-      <div class="link-item-content">
-        <span class="link-item-title">Chaos Canvas Gallery</span>
-        <span class="link-item-desc">Abstract digital art</span>
-      </div>
-      <span class="link-arrow">→</span>
-    </a>
-  </div>
-</section>
-
-<div class="newsletter-cta">
-  <h3>Stay in the loop</h3>
+<section class="intro-strip" aria-label="About Wei">
+  <p class="eyebrow">About this place</p>
   <p>
-    Thoughts on AI, LLMs, tech deep dives, and the random rabbit holes I fall
-    into — from astrophotography to tarot cards.
+    Part software engineer, part SaaS operator, full-time student of whatever
+    looks interesting. I’ve lived across Asia, Europe, and the United States
+    and bring that wide-angle view to everything I make.
   </p>
-  <a href="https://weiwong.substack.com/" target="_blank" rel="noopener"
-    >Subscribe on Substack</a
-  >
-</div>
+</section>
+
+<section class="section" id="projects">
+  <div class="section-heading">
+    <h2 class="section-title">Choose a trail</h2>
+    <p class="section-kicker">Four experiments, each with its own terrain.</p>
+  </div>
+
+  <div class="project-trail">
+    <a href="/alphafold/" class="trail-card">
+      <span class="trail-number" aria-hidden="true">01</span>
+      <div>
+        <h3>AlphaFold Made Simple</h3>
+        <p>Turn a protein ID into an explorable 3D structure, confidence map, and plain-language field guide.</p>
+        <div class="trail-meta"><span>Biology</span><span>3D viewer</span><span>Live data</span></div>
+      </div>
+      <span class="trail-arrow" aria-hidden="true">↗</span>
+    </a>
+
+    <a href="/matrix-evolution/" class="trail-card">
+      <span class="trail-number" aria-hidden="true">02</span>
+      <div>
+        <h3>BFF Primordial Soup</h3>
+        <p>Watch tiny programs mutate, interact, and occasionally discover self-replication in a browser-sized ecosystem.</p>
+        <div class="trail-meta"><span>Artificial life</span><span>Simulation</span><span>Web Worker</span></div>
+      </div>
+      <span class="trail-arrow" aria-hidden="true">↗</span>
+    </a>
+
+    <a href="/poddy-summaries/" class="trail-card">
+      <span class="trail-number" aria-hidden="true">03</span>
+      <div>
+        <h3>Poddy Summaries</h3>
+        <p>A timestamped listening companion for long-form Acquired episodes, built from a local transcription pipeline.</p>
+        <div class="trail-meta"><span>Audio</span><span>ML pipeline</span><span>Transcripts</span></div>
+      </div>
+      <span class="trail-arrow" aria-hidden="true">↗</span>
+    </a>
+
+    <a href="https://battleroyale.pages.dev" target="_blank" rel="noopener" class="trail-card">
+      <span class="trail-number" aria-hidden="true">04</span>
+      <div>
+        <h3>3D Battle Royale</h3>
+        <p>A flying, DOOM-flavored browser game built with Three.js. Best explored with a keyboard and a little nerve.</p>
+        <div class="trail-meta"><span>Game</span><span>Three.js</span><span>WebGL</span></div>
+      </div>
+      <span class="trail-arrow" aria-hidden="true">↗</span>
+    </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-heading">
+    <h2 class="section-title">Basecamp</h2>
+    <p class="section-kicker">A few more places to wander.</p>
+  </div>
+  <div class="field-grid">
+    <article class="field-card">
+      <p class="eyebrow">Gallery</p>
+      <div>
+        <h3>Crimson Oni</h3>
+        <p>Nine saturated character studies from a digital art series.</p>
+      </div>
+      <a href="/work.html#crimsonOni">Enter the gallery →</a>
+    </article>
+    <article class="field-card">
+      <p class="eyebrow">Gallery</p>
+      <div>
+        <h3>Chaos Canvas</h3>
+        <p>Abstract forms, loud color, and a little controlled weather.</p>
+      </div>
+      <a href="/work.html#chaoscanvas">See the collection →</a>
+    </article>
+    <article class="field-card">
+      <p class="eyebrow">Field notes</p>
+      <div>
+        <h3>Rabbit holes, documented.</h3>
+        <p>Writing about AI, biology, astrophotography, and whatever comes next.</p>
+      </div>
+      <a href="https://weiwong.substack.com/" target="_blank" rel="noopener">Read on Substack →</a>
+    </article>
+  </div>
+</section>
+
+<aside class="newsletter-cta">
+  <p class="eyebrow">Postcards from the trail</p>
+  <h3>Stay curious.</h3>
+  <p>
+    Occasional notes on AI, strange technologies, and the useful ideas found by
+    taking the long way around.
+  </p>
+  <a href="https://weiwong.substack.com/" target="_blank" rel="noopener">Subscribe on Substack</a>
+</aside>
+
+<script type="module" src="/assets/js/park-scene.js"></script>
