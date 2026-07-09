@@ -1,141 +1,132 @@
+// Progressive WebGL hero: a real photo is always present in CSS; WebGL adds
+// low-cost depth, pointer parallax, water movement, and atmospheric shading.
 const canvas = document.getElementById("park-canvas");
+const hero = canvas?.closest(".home-hero");
 
-if (canvas) {
+if (canvas && hero) {
   const gl = canvas.getContext("webgl", {
     alpha: true,
     antialias: false,
+    depth: false,
     powerPreference: "low-power",
   });
 
-  if (gl) {
-    const vertexSource = `
-      attribute vec3 a_position;
-      attribute vec3 a_color;
-      uniform vec2 u_shift;
-      uniform float u_aspect;
-      varying vec3 v_color;
-      varying float v_depth;
+  const vertexSource = `
+    attribute vec2 a_position;
+    attribute vec2 a_uv;
+    varying vec2 v_uv;
 
-      void main() {
-        float depth = clamp((-a_position.z) / 16.0, 0.0, 1.0);
-        float perspective = 1.0 / (1.0 + (-a_position.z) * 0.035);
-        vec2 position = a_position.xy;
-        position.x += u_shift.x * (1.0 - depth) * 0.75;
-        position.y += u_shift.y * (1.0 - depth) * 0.35;
-        position.x = position.x * perspective / u_aspect;
-        position.y = position.y * perspective;
-        gl_Position = vec4(position.x, position.y, depth * 2.0 - 1.0, 1.0);
-        v_color = a_color;
-        v_depth = depth;
+    void main() {
+      v_uv = a_uv;
+      gl_Position = vec4(a_position, 0.0, 1.0);
+    }
+  `;
+
+  const fragmentSource = `
+    precision mediump float;
+    uniform sampler2D u_photo;
+    uniform vec2 u_pointer;
+    uniform vec2 u_resolution;
+    uniform float u_image_aspect;
+    uniform float u_focus_x;
+    uniform float u_time;
+    varying vec2 v_uv;
+
+    vec2 coverUv(vec2 screenUv) {
+      float canvasAspect = u_resolution.x / max(u_resolution.y, 1.0);
+      vec2 uv = screenUv;
+      if (canvasAspect > u_image_aspect) {
+        float visibleHeight = u_image_aspect / canvasAspect;
+        uv.y = (uv.y - 0.5) * visibleHeight + 0.5;
+      } else {
+        float visibleWidth = canvasAspect / u_image_aspect;
+        uv.x = (uv.x - 0.5) * visibleWidth + u_focus_x;
       }
-    `;
-
-    const fragmentSource = `
-      precision mediump float;
-      varying vec3 v_color;
-      varying float v_depth;
-
-      void main() {
-        vec3 haze = vec3(0.59, 0.73, 0.69);
-        float fog = smoothstep(0.38, 1.0, v_depth) * 0.48;
-        gl_FragColor = vec4(mix(v_color, haze, fog), 1.0);
-      }
-    `;
-
-    function shader(type, source) {
-      const result = gl.createShader(type);
-      gl.shaderSource(result, source);
-      gl.compileShader(result);
-      if (!gl.getShaderParameter(result, gl.COMPILE_STATUS)) {
-        gl.deleteShader(result);
-        return null;
-      }
-      return result;
+      return uv;
     }
 
-    const vertexShader = shader(gl.VERTEX_SHADER, vertexSource);
-    const fragmentShader = shader(gl.FRAGMENT_SHADER, fragmentSource);
+    void main() {
+      vec2 uv = coverUv(v_uv);
+
+      // Foreground shifts most, mountains least: a restrained 2.5D depth cue.
+      float foreground = pow(1.0 - v_uv.y, 2.1);
+      float midground = smoothstep(0.18, 0.68, 1.0 - v_uv.y);
+      uv += u_pointer * (0.003 + foreground * 0.014 + midground * 0.003);
+
+      // Only the lake region receives a minute animated refraction.
+      float waterX = smoothstep(0.40, 0.62, v_uv.x);
+      float waterY = smoothstep(0.14, 0.27, v_uv.y) * (1.0 - smoothstep(0.55, 0.68, v_uv.y));
+      float waterMask = waterX * waterY;
+      uv.x += sin(u_time * 0.75 + uv.y * 90.0) * 0.0007 * waterMask;
+      uv.y += sin(u_time * 0.52 + uv.x * 72.0) * 0.00045 * waterMask;
+
+      vec3 color = texture2D(u_photo, clamp(uv, 0.001, 0.999)).rgb;
+
+      // Naturalistic depth haze and a subtle optical vignette.
+      float distanceHaze = smoothstep(0.56, 1.0, v_uv.y) * 0.09;
+      color = mix(color, vec3(0.70, 0.79, 0.80), distanceHaze);
+      float edge = smoothstep(0.92, 0.28, distance(v_uv, vec2(0.5)));
+      color *= mix(0.88, 1.03, edge);
+      gl_FragColor = vec4(color, 1.0);
+    }
+  `;
+
+  function compile(type, source) {
+    const shader = gl?.createShader(type);
+    if (!shader) return null;
+    gl.shaderSource(shader, source);
+    gl.compileShader(shader);
+    if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+      gl.deleteShader(shader);
+      return null;
+    }
+    return shader;
+  }
+
+  if (gl) {
+    const vertexShader = compile(gl.VERTEX_SHADER, vertexSource);
+    const fragmentShader = compile(gl.FRAGMENT_SHADER, fragmentSource);
     const program = gl.createProgram();
 
-    if (vertexShader && fragmentShader) {
+    if (vertexShader && fragmentShader && program) {
       gl.attachShader(program, vertexShader);
       gl.attachShader(program, fragmentShader);
       gl.linkProgram(program);
 
       if (gl.getProgramParameter(program, gl.LINK_STATUS)) {
-        const vertices = [];
-
-        function triangle(points, color) {
-          for (const [x, y, z] of points) vertices.push(x, y, z, ...color);
-        }
-
-        function quad(a, b, c, d, color) {
-          triangle([a, b, c], color);
-          triangle([a, c, d], color);
-        }
-
-        // Mountain ridgelines, ordered back to front.
-        const ridges = [
-          { z: -15, base: -0.62, color: [0.42, 0.54, 0.46], peaks: [[-1.4, 0.2], [-0.85, 0.5], [-0.25, 0.02], [0.28, 0.64], [0.88, 0.08], [1.35, 0.38]] },
-          { z: -10, base: -0.72, color: [0.25, 0.39, 0.29], peaks: [[-1.4, -0.05], [-0.95, 0.46], [-0.45, -0.03], [0.05, 0.35], [0.48, -0.1], [0.96, 0.28], [1.4, -0.02]] },
-          { z: -5, base: -0.86, color: [0.10, 0.25, 0.17], peaks: [[-1.45, -0.22], [-1.05, 0.12], [-0.65, -0.12], [-0.18, 0.18], [0.22, -0.12], [0.72, 0.16], [1.45, -0.18]] },
-        ];
-
-        for (const ridge of ridges) {
-          const points = ridge.peaks;
-          for (let i = 0; i < points.length - 1; i++) {
-            triangle([
-              [points[i][0], ridge.base, ridge.z],
-              [points[i][0], points[i][1], ridge.z],
-              [points[i + 1][0], points[i + 1][1], ridge.z],
-            ], ridge.color);
-            triangle([
-              [points[i][0], ridge.base, ridge.z],
-              [points[i + 1][0], points[i + 1][1], ridge.z],
-              [points[i + 1][0], ridge.base, ridge.z],
-            ], ridge.color);
-          }
-        }
-
-        // Valley floor and a strip of glacial water.
-        quad([-1.5, -0.62, -7], [1.5, -0.62, -7], [1.5, -1.2, 1], [-1.5, -1.2, 1], [0.12, 0.27, 0.17]);
-        quad([-0.16, -0.64, -7], [0.15, -0.64, -7], [0.52, -1.2, 1], [-0.48, -1.2, 1], [0.27, 0.55, 0.59]);
-
-        // Simple triangular evergreens create foreground depth without textures.
-        const trees = [
-          [-1.2, -0.58, -4, 0.3], [-0.96, -0.62, -3, 0.24], [-0.72, -0.68, -2, 0.2],
-          [1.18, -0.6, -4, 0.32], [0.94, -0.66, -3, 0.25], [0.74, -0.72, -2, 0.2],
-          [-1.38, -0.72, -1, 0.27], [1.4, -0.72, -1, 0.28],
-        ];
-
-        for (const [x, y, z, size] of trees) {
-          const green = z < -2 ? [0.09, 0.25, 0.16] : [0.055, 0.18, 0.11];
-          triangle([[x - size, y, z], [x, y + size * 2.5, z], [x + size, y, z]], green);
-          triangle([[x - size * 0.78, y + size * 0.45, z - 0.01], [x, y + size * 3.2, z - 0.01], [x + size * 0.78, y + size * 0.45, z - 0.01]], green);
-        }
-
-        const data = new Float32Array(vertices);
+        const geometry = new Float32Array([
+          -1, -1, 0, 0,
+           1, -1, 1, 0,
+          -1,  1, 0, 1,
+          -1,  1, 0, 1,
+           1, -1, 1, 0,
+           1,  1, 1, 1,
+        ]);
         const buffer = gl.createBuffer();
         gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
-        gl.bufferData(gl.ARRAY_BUFFER, data, gl.STATIC_DRAW);
+        gl.bufferData(gl.ARRAY_BUFFER, geometry, gl.STATIC_DRAW);
         gl.useProgram(program);
 
-        const stride = 6 * Float32Array.BYTES_PER_ELEMENT;
+        const stride = 4 * Float32Array.BYTES_PER_ELEMENT;
         const positionLocation = gl.getAttribLocation(program, "a_position");
-        const colorLocation = gl.getAttribLocation(program, "a_color");
-        const shiftLocation = gl.getUniformLocation(program, "u_shift");
-        const aspectLocation = gl.getUniformLocation(program, "u_aspect");
+        const uvLocation = gl.getAttribLocation(program, "a_uv");
         gl.enableVertexAttribArray(positionLocation);
-        gl.vertexAttribPointer(positionLocation, 3, gl.FLOAT, false, stride, 0);
-        gl.enableVertexAttribArray(colorLocation);
-        gl.vertexAttribPointer(colorLocation, 3, gl.FLOAT, false, stride, 3 * Float32Array.BYTES_PER_ELEMENT);
-        gl.enable(gl.DEPTH_TEST);
-        gl.clearColor(0, 0, 0, 0);
+        gl.vertexAttribPointer(positionLocation, 2, gl.FLOAT, false, stride, 0);
+        gl.enableVertexAttribArray(uvLocation);
+        gl.vertexAttribPointer(uvLocation, 2, gl.FLOAT, false, stride, 2 * Float32Array.BYTES_PER_ELEMENT);
 
-        const pointer = { x: 0, y: 0, targetX: 0, targetY: 0 };
-        let frame = 0;
-        let visible = true;
+        const pointerLocation = gl.getUniformLocation(program, "u_pointer");
+        const resolutionLocation = gl.getUniformLocation(program, "u_resolution");
+        const imageAspectLocation = gl.getUniformLocation(program, "u_image_aspect");
+        const focusLocation = gl.getUniformLocation(program, "u_focus_x");
+        const timeLocation = gl.getUniformLocation(program, "u_time");
+        const texture = gl.createTexture();
+        const photo = new Image();
         const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+        const pointer = { x: 0, y: 0, targetX: 0, targetY: 0 };
+        let visible = !document.hidden;
+        let animationFrame = 0;
+        let lastFrameAt = 0;
 
         function resize() {
           const ratio = Math.min(window.devicePixelRatio || 1, 1.5);
@@ -146,40 +137,63 @@ if (canvas) {
             canvas.height = height;
           }
           gl.viewport(0, 0, width, height);
+          gl.uniform2f(resolutionLocation, width, height);
+          gl.uniform1f(focusLocation, width / height < 0.8 ? 0.57 : 0.5);
         }
 
-        function draw() {
+        function draw(timestamp = 0) {
+          if (!visible) return;
+          if (!reducedMotion.matches && timestamp - lastFrameAt < 32) {
+            animationFrame = requestAnimationFrame(draw);
+            return;
+          }
+          lastFrameAt = timestamp;
           resize();
-          pointer.x += (pointer.targetX - pointer.x) * 0.045;
-          pointer.y += (pointer.targetY - pointer.y) * 0.045;
-          gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
-          gl.uniform2f(shiftLocation, pointer.x, pointer.y);
-          gl.uniform1f(aspectLocation, Math.max(0.68, canvas.width / canvas.height));
-          gl.drawArrays(gl.TRIANGLES, 0, data.length / 6);
-          if (visible && !reducedMotion.matches) frame = requestAnimationFrame(draw);
+          pointer.x += (pointer.targetX - pointer.x) * 0.075;
+          pointer.y += (pointer.targetY - pointer.y) * 0.075;
+          gl.uniform2f(pointerLocation, pointer.x, pointer.y);
+          gl.uniform1f(timeLocation, reducedMotion.matches ? 0 : timestamp / 1000);
+          gl.drawArrays(gl.TRIANGLES, 0, 6);
+          if (!reducedMotion.matches) animationFrame = requestAnimationFrame(draw);
         }
 
-        canvas.addEventListener("pointermove", (event) => {
-          const bounds = canvas.getBoundingClientRect();
-          pointer.targetX = ((event.clientX - bounds.left) / bounds.width - 0.5) * 0.12;
-          pointer.targetY = (0.5 - (event.clientY - bounds.top) / bounds.height) * 0.08;
+        photo.decoding = "async";
+        photo.src = "/images/national-park-hero.webp";
+        photo.addEventListener("load", () => {
+          gl.bindTexture(gl.TEXTURE_2D, texture);
+          gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+          gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, gl.RGB, gl.UNSIGNED_BYTE, photo);
+          gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+          gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+          gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+          gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+          gl.uniform1f(imageAspectLocation, photo.naturalWidth / photo.naturalHeight);
+          draw();
+          document.documentElement.classList.add("has-webgl");
+        }, { once: true });
+
+        hero.addEventListener("pointermove", (event) => {
+          if (event.pointerType === "touch") return;
+          const bounds = hero.getBoundingClientRect();
+          pointer.targetX = ((event.clientX - bounds.left) / bounds.width - 0.5) * 1.2;
+          pointer.targetY = (0.5 - (event.clientY - bounds.top) / bounds.height) * 0.9;
         }, { passive: true });
-        canvas.addEventListener("pointerleave", () => {
+        hero.addEventListener("pointerleave", () => {
           pointer.targetX = 0;
           pointer.targetY = 0;
         });
 
         document.addEventListener("visibilitychange", () => {
           visible = !document.hidden;
-          if (visible && !reducedMotion.matches) {
-            cancelAnimationFrame(frame);
-            draw();
-          }
+          cancelAnimationFrame(animationFrame);
+          if (visible) animationFrame = requestAnimationFrame(draw);
         });
 
-        if (reducedMotion.matches) draw();
-        else frame = requestAnimationFrame(draw);
-        document.documentElement.classList.add("has-webgl");
+        canvas.addEventListener("webglcontextlost", (event) => {
+          event.preventDefault();
+          document.documentElement.classList.remove("has-webgl");
+          cancelAnimationFrame(animationFrame);
+        });
       }
     }
   }

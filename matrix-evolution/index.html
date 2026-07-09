@@ -87,13 +87,14 @@ permalink: /matrix-evolution/
             <span style="color: #ff595e">]</span>)
           </li>
           <li>Dark cells contain no opcode bytes</li>
-          <li>Uniform-color waves = self-replicating programs spreading</li>
+          <li>Falling entropy means the byte population is becoming less random</li>
+          <li>Uniform-color waves can signal an emerging replicator, but the image alone is not proof of replication</li>
         </ul>
       </div>
       <div>
         <h2>How to explore</h2>
         <ul>
-          <li>Lower mutation to let dominant replicators stabilize</li>
+          <li>Lower mutation to let persistent structures stabilize</li>
           <li>Raise mutation to keep the soup turbulent</li>
           <li>Lower max steps to speed up the run at the cost of fidelity</li>
           <li>Randomize resets the soup while keeping the current controls</li>
@@ -129,6 +130,16 @@ permalink: /matrix-evolution/
           </p>
         </div>
       </div>
+      <aside class="evidence-note">
+        <strong>What this demo can—and cannot—claim</strong>
+        <p>
+          The interaction rules, 240×135 neighborhood, 64-byte tapes, and
+          8192-step budget match the paper’s BFF setup. This compressed canvas
+          is an observation tool, not a self-replication detector. A colored
+          wave is evidence of population-level structure; proving replication
+          requires tracing copied bytes or ancestry across interactions.
+        </p>
+      </aside>
       <p class="explain-note">
         Inspired by
         <a
@@ -138,10 +149,11 @@ permalink: /matrix-evolution/
           ><em>Computational Life</em> (Agüera y Arcas et al., 2024)</a
         >
         — self-replication from random initial conditions with no designed
-        fitness.
+        fitness. Interpreter semantics were checked against the authors’
+        <a href="https://github.com/paradigms-of-intelligence/cubff" target="_blank" rel="noopener">CuBFF reference implementation</a>.
       </p>
     </section>
   </div>
 </div>
 
-<script type="module" src="/matrix-evolution/app.js"></script>
+<script type="module" src="/matrix-evolution/app.js?v=20260709b"></script>

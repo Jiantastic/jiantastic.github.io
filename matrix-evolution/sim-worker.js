@@ -6,12 +6,11 @@ import {
   DEFAULT_MUTATION_RATE,
   createSoupState,
   runEpoch,
-  computeOpcodePercent,
-  computeUniqueFingerprints,
+  computePopulationMetrics,
   computeDominantOpcodes,
-} from "./bff-core.js";
+} from "./bff-core.js?v=20260709b";
 
-const SNAPSHOT_INTERVAL_MS = 200;
+const SNAPSHOT_INTERVAL_MS = 320;
 
 let state = null;
 let running = false;
@@ -34,6 +33,7 @@ function postSnapshot(force = false) {
   lastSnapshotAt = now;
 
   const dominantOpcodes = computeDominantOpcodes(state);
+  const metrics = computePopulationMetrics(state);
   self.postMessage(
     {
       type: "snapshot",
@@ -43,8 +43,8 @@ function postSnapshot(force = false) {
       tapeSize: state.tapeSize,
       maxIters: state.maxIters,
       mutationRate: state.mutationRate,
-      opcodePercent: computeOpcodePercent(state),
-      uniquePrograms: computeUniqueFingerprints(state),
+      opcodePercent: metrics.opcodePercent,
+      entropy: metrics.entropy,
       dominantOpcodes,
     },
     [dominantOpcodes.buffer],

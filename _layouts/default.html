@@ -36,6 +36,9 @@
     />
 
     <link rel="icon" href="/favicon.ico" />
+    {% if page.hero_image %}
+    <link rel="preload" as="image" href="{{ page.hero_image }}" fetchpriority="high" />
+    {% endif %}
     <link rel="stylesheet" href="/assets/css/main.css" />
     {% seo %}
   </head>

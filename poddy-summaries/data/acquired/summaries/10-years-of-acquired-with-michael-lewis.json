@@ -1,1 +1,66 @@
-{"bullets":[{"fact":"Hosts celebrate 10th anniversary of Acquired","quote":"Happy 10 year anniversary, Ben","timestamp":"00:01","speaker":""},{"fact":"They’re recording a special episode in Silicon Valley","quote":"brought you down here to Silicon Valley to record our 10 year anniversary holiday special","timestamp":"00:08","speaker":"Ben Gilbert"},{"fact":"Recording set in Google’s original garage office","quote":"This is Google's first office right here. They gave it to us for the day","timestamp":"00:24","speaker":"Ben Gilbert"},{"fact":"Episode will analyze why Acquired succeeded where most podcasts don’t","quote":"to unpack why Acquired worked when 99% of podcasts do not","timestamp":"00:40","speaker":"Ben Gilbert"},{"fact":"They brought in Michael Lewis to dissect the show’s mechanics","quote":"Someone who distills complexity into simplicity… Michael Lewis","timestamp":"00:55","speaker":"Ben Gilbert"}]}
+{
+  "overview": "Michael Lewis joins Ben Gilbert and David Rosenthal in Google’s original garage to examine why Acquired survived ten years while most podcasts disappear. The conversation moves beyond an anniversary retrospective into a practical study of craft: how the show found its real subject, rebuilt its business after a sudden revenue drop, researches company histories, cuts hours of recorded material, and deliberately resists the pressure to become a conventional media company. The result is less a victory lap than a field guide to making unusually deep work sustainable.",
+  "takeaways": [
+    "Acquired found its audience when it stopped treating acquisitions as the product and recognized that listeners wanted story and strategy.",
+    "A 40% revenue drop forced a better model: fewer episodes, far more preparation, and sponsors that value a concentrated audience.",
+    "Research quality comes from triangulating books and archives with dozens of background calls—and publishing corrections when the record is wrong.",
+    "The signature sound is created in the edit: multiple passes remove roughly an hour, including anything that feels slow even after enormous research effort.",
+    "The hosts chose creative freedom over building a larger media enterprise, treating independence and repeatable process as strategic advantages."
+  ],
+  "chapters": [
+    {
+      "title": "Why this podcast made it to ten",
+      "summary": "From Google’s first garage office, the hosts bring in Michael Lewis to reverse-engineer why Acquired endured when nearly every podcast does not.",
+      "quote": "Why Acquired worked when 99% of podcasts do not",
+      "timestamp": "0:40"
+    },
+    {
+      "title": "The early show was a different creature",
+      "summary": "Lewis listens back to the first episodes and pushes the hosts to name what they learned as the format grew beyond acquisition scorecards.",
+      "quote": "That first episode, you're almost like different people",
+      "timestamp": "18:38"
+    },
+    {
+      "title": "The audience wanted story and strategy",
+      "summary": "A painful revenue shock and repeated listener feedback reveal the real product: deeply reported narratives about important companies and the choices that shaped them.",
+      "quote": "They want to hear the story and strategy",
+      "timestamp": "37:17"
+    },
+    {
+      "title": "Research means correcting the record",
+      "summary": "Books remain the foundation, but background interviews become essential for finding misunderstood events, challenging inherited errors, and publishing errata.",
+      "quote": "What incorrect stories are out there?",
+      "timestamp": "55:57"
+    },
+    {
+      "title": "The edit is where the show becomes Acquired",
+      "summary": "After recording, the team makes hundreds of additional cuts over several days. Listening at normal speed exposes drag that a transcript alone cannot reveal.",
+      "quote": "You have to feel where you get bored",
+      "timestamp": "1:13:55"
+    },
+    {
+      "title": "Avoiding a successful prison",
+      "summary": "The hosts question whether they should build a larger media company. Advice from a renowned investor reframes restraint as an achievement rather than a lack of ambition.",
+      "quote": "Founders become trapped in prisons of their own making",
+      "timestamp": "1:32:36"
+    },
+    {
+      "title": "The Costco lesson: find the right source",
+      "summary": "After over-researching Nike, the Costco episode succeeds with one strong book and an extraordinary primary-source meeting—proof that volume is not the same as insight.",
+      "quote": "Let's find the one book—the right book",
+      "timestamp": "1:50:26"
+    },
+    {
+      "title": "Process power is the hidden moat",
+      "summary": "Applying the Seven Powers framework to Acquired surfaces a less visible advantage: a production process that is hard to describe, repeat, or copy quickly.",
+      "quote": "We kind of fail to articulate how an episode comes together",
+      "timestamp": "2:09:26"
+    },
+    {
+      "title": "Why long audio becomes place-specific memory",
+      "summary": "The final stretch turns to listening habits and the intimacy of podcasts—the peculiar way a long episode becomes tied to where the listener heard it.",
+      "quote": "You remember a place",
+      "timestamp": "2:27:28"
+    }
+  ]
+}

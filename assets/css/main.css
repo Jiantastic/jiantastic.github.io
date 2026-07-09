@@ -274,15 +274,15 @@ a {
   display: flex;
   align-items: flex-end;
   isolation: isolate;
-  background:
-    radial-gradient(circle at 72% 18%, rgba(255, 225, 153, 0.92) 0 5%, transparent 5.3%),
-    linear-gradient(#8fc4d1 0%, #d9e4cf 48%, #496a54 100%);
+  background-color: #244733;
+  background-image: url("/images/national-park-hero.webp");
+  background-position: center center;
+  background-size: cover;
   color: var(--snow);
   box-shadow: var(--shadow);
 }
 
 .park-canvas,
-.hero-fallback-ridges,
 .hero-shade {
   position: absolute;
   inset: 0;
@@ -290,30 +290,14 @@ a {
   height: 100%;
 }
 
-.park-canvas { z-index: -2; touch-action: pan-y; }
-
-.hero-fallback-ridges {
-  z-index: -3;
-  overflow: hidden;
-}
-
-.hero-fallback-ridges::before,
-.hero-fallback-ridges::after {
-  content: "";
-  position: absolute;
-  left: -8%;
-  width: 116%;
-  clip-path: polygon(0 100%, 0 67%, 9% 51%, 18% 69%, 29% 28%, 37% 61%, 51% 19%, 61% 65%, 73% 37%, 83% 66%, 93% 45%, 100% 63%, 100% 100%);
-}
-
-.hero-fallback-ridges::before { bottom: 17%; height: 58%; background: #54725d; opacity: .9; }
-.hero-fallback-ridges::after { bottom: 0; height: 57%; background: #244733; transform: scaleX(-1); }
+.park-canvas { z-index: -2; touch-action: pan-y; opacity: 0; transition: opacity 650ms ease; }
+.has-webgl .park-canvas { opacity: 1; }
 
 .hero-shade {
   z-index: -1;
   background:
-    linear-gradient(90deg, rgba(6, 25, 17, 0.76) 0%, rgba(6, 25, 17, 0.28) 58%, transparent 100%),
-    linear-gradient(0deg, rgba(6, 25, 17, 0.72) 0%, transparent 52%);
+    linear-gradient(90deg, rgba(6, 25, 17, 0.8) 0%, rgba(6, 25, 17, 0.34) 50%, rgba(6,25,17,.06) 82%),
+    linear-gradient(0deg, rgba(6, 25, 17, 0.76) 0%, rgba(6,25,17,.08) 62%);
 }
 
 .hero-content {
@@ -435,6 +419,7 @@ a {
   .nav-links.is-open { display: flex; }
   .nav-links a { padding: .75rem .9rem; }
   .home-hero { min-height: calc(100svh - 84px); border-radius: 20px; }
+  .home-hero { background-position: 57% center; }
   .hero-badge { width: 88px; font-size: .52rem; }
   .scroll-cue { display: none; }
   .intro-strip { grid-template-columns: 1fr; gap: 1.2rem; }

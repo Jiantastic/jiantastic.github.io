@@ -5,7 +5,7 @@ import {
   TAPE_SIZE,
   MAX_ITERS,
   DEFAULT_MUTATION_RATE,
-} from "./bff-core.js";
+} from "./bff-core.js?v=20260709b";
 
 // Color LUT: maps byte value → RGBA (matching main.py palette)
 const PALETTE = {
@@ -50,16 +50,16 @@ canvas.height = GRID_H;
 const imgData = ctx.createImageData(GRID_W, GRID_H);
 const pixels = imgData.data;
 
-const worker = new Worker(new URL("./sim-worker.js", import.meta.url), {
+const worker = new Worker(new URL("./sim-worker.js?v=20260709b", import.meta.url), {
   type: "module",
 });
 
-let updatesPerSecond = 0;
-let lastSnapshotTime = performance.now();
-let snapshotCount = 0;
+let epochsPerSecond = 0;
+let lastRateTime = performance.now();
+let lastRateEpoch = 0;
 let currentEpoch = 0;
 let opcodePercent = 0;
-let uniquePrograms = 0;
+let byteEntropy = 0;
 let userPaused = false;
 let pausedForVisibility = false;
 
@@ -84,8 +84,8 @@ function updateStats() {
   statsEl.innerHTML = `
     <div class="stat-line"><span>Epoch</span><span>${currentEpoch}</span></div>
     <div class="stat-line"><span>Opcode %</span><span>${opcodePercent.toFixed(1)}%</span></div>
-    <div class="stat-line"><span>Unique programs</span><span>${uniquePrograms}</span></div>
-    <div class="stat-line"><span>Updates/s</span><span>${updatesPerSecond.toFixed(1)}</span></div>
+    <div class="stat-line"><span>Entropy</span><span>${byteEntropy.toFixed(2)} bits</span></div>
+    <div class="stat-line"><span>Epochs/s</span><span>${epochsPerSecond.toFixed(1)}</span></div>
     <div class="stat-line"><span>Tape bytes</span><span>${TAPE_SIZE}</span></div>
     <div class="stat-line"><span>Max steps</span><span>${parseInt(maxItersInput.value, 10)}</span></div>
   `;
@@ -108,15 +108,14 @@ worker.addEventListener("message", (event) => {
 
   currentEpoch = event.data.epoch;
   opcodePercent = event.data.opcodePercent;
-  uniquePrograms = event.data.uniquePrograms;
+  byteEntropy = event.data.entropy;
   renderSoup(event.data.dominantOpcodes);
 
-  snapshotCount++;
   const now = performance.now();
-  if (now - lastSnapshotTime >= 500) {
-    updatesPerSecond = snapshotCount / ((now - lastSnapshotTime) / 1000);
-    snapshotCount = 0;
-    lastSnapshotTime = now;
+  if (now - lastRateTime >= 500) {
+    epochsPerSecond = (currentEpoch - lastRateEpoch) / ((now - lastRateTime) / 1000);
+    lastRateEpoch = currentEpoch;
+    lastRateTime = now;
   }
 
   updateStats();
@@ -131,11 +130,17 @@ maxItersInput.addEventListener("input", syncControls);
 epochSpeedInput.addEventListener("input", syncControls);
 
 resetBtn.addEventListener("click", () => {
+  lastRateEpoch = 0;
+  epochsPerSecond = 0;
   worker.postMessage({ type: "reset" });
 });
 
 function setPaused(paused) {
   worker.postMessage({ type: paused ? "pause" : "resume" });
+  if (!paused) {
+    lastRateTime = performance.now();
+    lastRateEpoch = currentEpoch;
+  }
   pauseBtn.textContent = paused ? "Resume" : "Pause";
   pauseBtn.setAttribute("aria-pressed", String(paused));
 }

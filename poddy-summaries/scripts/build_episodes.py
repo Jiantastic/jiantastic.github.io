@@ -42,6 +42,7 @@ def main():
         slug = ep.get("slug") or ""
         summary_path = summaries_dir / f"{slug}.json"
         transcript_txt_path = transcripts_dir / f"{slug}.txt"
+        transcript_json_path = transcripts_dir / f"{slug}.json"
         if not summary_path.exists() or not transcript_txt_path.exists():
             continue
         summary = load_json(summary_path, {})
@@ -57,7 +58,11 @@ def main():
                 "publishedTs": ep.get("published_ts", 0),
                 "summaryPath": str(summary_path.relative_to(data_dir)),
                 "transcriptPath": str(transcript_txt_path.relative_to(data_dir)),
-                "bullets": summary.get("bullets") or summary.get("summary") or [],
+                "transcriptJsonPath": str(transcript_json_path.relative_to(data_dir)),
+                "overview": summary.get("overview") or "",
+                "takeaways": summary.get("takeaways") or [],
+                "chapters": summary.get("chapters") or summary.get("bullets") or [],
+                "bullets": summary.get("bullets") or summary.get("chapters") or [],
             }
         )
 

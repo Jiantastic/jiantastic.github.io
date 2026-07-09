@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Poddy Summaries
-description: Summaries and transcripts for the Acquired podcast.
+description: A chaptered listening companion for the Acquired podcast.
 permalink: /poddy-summaries/
 ---
 
@@ -11,52 +11,102 @@ permalink: /poddy-summaries/
   <header class="page-header">
     <div>
       <p class="eyebrow">Audio field station</p>
-      <h1>Poddy Summaries</h1>
+      <h1>Poddy<br />Summaries</h1>
       <p class="lede">
-        A listening companion for the Acquired podcast. Stream an episode,
-        skim timestamped highlights, or settle in with the full transcript.
+        Long-form podcasts, mapped. Listen with a chapter guide, scan the real
+        takeaways, or search the full timestamped transcript.
       </p>
     </div>
-    <div class="meta">
+    <div class="meta" aria-label="Project features">
       <div class="pill">Feed · Acquired</div>
       <div class="pill">Local transcription</div>
-      <div class="pill">Timestamped notes</div>
+      <div class="pill">Full-episode chapters</div>
     </div>
   </header>
 
-  <section class="panel">
-    <div class="panel-header">
+  <section class="episode-shell" aria-labelledby="episode-title">
+    <div class="episode-header">
       <div>
-        <p class="eyebrow">Select episode</p>
-        <h2 id="episode-title">No episodes yet</h2>
-        <p id="episode-date" class="muted">Add an episode to view details.</p>
+        <p class="eyebrow">Now at the listening lodge</p>
+        <h2 id="episode-title">Loading episodes…</h2>
+        <p class="episode-byline">
+          <span id="episode-date"></span>
+          <span aria-hidden="true">·</span>
+          <span id="episode-duration"></span>
+        </p>
       </div>
-      <div class="controls">
-        <label for="episode-select" class="muted">Episode</label>
-        <select id="episode-select" aria-label="Choose an episode"></select>
+      <div class="episode-picker">
+        <label for="episode-select">Choose episode</label>
+        <select id="episode-select"></select>
       </div>
     </div>
 
-    <div class="tabs" role="tablist">
-      <button class="tab active" id="summary-tab" data-tab="summary" role="tab" aria-controls="tab-summary" aria-selected="true">Summary</button>
-      <button class="tab" id="audio-tab" data-tab="audio" role="tab" aria-controls="tab-audio" aria-selected="false" tabindex="-1">Audio</button>
+    <div class="audio-deck" aria-label="Audio player">
+      <div class="audio-title">
+        <span class="audio-pulse" aria-hidden="true"></span>
+        <div>
+          <span class="audio-label">Listen to the episode</span>
+          <strong id="audio-title">Waiting for episode</strong>
+        </div>
+      </div>
+      <div class="transport">
+        <button id="skip-back" class="transport-small" type="button" aria-label="Skip back 15 seconds">−15</button>
+        <button id="play-toggle" class="play-toggle" type="button" aria-label="Play episode">▶</button>
+        <button id="skip-forward" class="transport-small" type="button" aria-label="Skip forward 15 seconds">+15</button>
+      </div>
+      <div class="timeline">
+        <span id="audio-current">0:00</span>
+        <label class="visually-hidden" for="audio-progress">Episode position</label>
+        <input id="audio-progress" type="range" min="0" max="1000" step="1" value="0" />
+        <span id="audio-total">0:00</span>
+      </div>
+      <label class="speed-control" for="playback-rate">
+        <span>Speed</span>
+        <select id="playback-rate">
+          <option value="0.75">0.75×</option>
+          <option value="1" selected>1×</option>
+          <option value="1.25">1.25×</option>
+          <option value="1.5">1.5×</option>
+          <option value="2">2×</option>
+        </select>
+      </label>
+      <audio id="audio-player" preload="metadata"></audio>
+      <p id="audio-status" class="audio-status" role="status" aria-live="polite"></p>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Episode guide">
+      <button class="tab active" id="overview-tab" data-tab="overview" role="tab" aria-controls="tab-overview" aria-selected="true">Overview</button>
+      <button class="tab" id="chapters-tab" data-tab="chapters" role="tab" aria-controls="tab-chapters" aria-selected="false" tabindex="-1">Chapters</button>
       <button class="tab" id="transcript-tab" data-tab="transcript" role="tab" aria-controls="tab-transcript" aria-selected="false" tabindex="-1">Transcript</button>
     </div>
 
-    <div class="tab-content" id="tab-summary" role="tabpanel" aria-labelledby="summary-tab">
-      <ul id="bullet-list" class="bullets"></ul>
-      <p id="summary-empty" class="muted">Summary not available.</p>
+    <div class="tab-content" id="tab-overview" role="tabpanel" aria-labelledby="overview-tab">
+      <p class="summary-lead" id="summary-overview"></p>
+      <h3 class="content-label">Five things worth remembering</h3>
+      <ol class="takeaway-list" id="takeaway-list"></ol>
     </div>
 
-    <div class="tab-content hidden" id="tab-audio" role="tabpanel" aria-labelledby="audio-tab" hidden>
-      <audio id="audio-player" controls preload="metadata"></audio>
-      <p id="audio-hint" class="muted">
-        Click a timestamp in the summary to jump here.
-      </p>
+    <div class="tab-content hidden" id="tab-chapters" role="tabpanel" aria-labelledby="chapters-tab" hidden>
+      <div class="chapter-intro">
+        <div>
+          <p class="eyebrow">Full-episode map</p>
+          <h3>Jump to the part you came for.</h3>
+        </div>
+        <p>Every chapter starts the player at that moment. The guide spans the beginning, middle, and end—not just the opening minute.</p>
+      </div>
+      <ol class="chapter-list" id="chapter-list"></ol>
     </div>
 
     <div class="tab-content hidden" id="tab-transcript" role="tabpanel" aria-labelledby="transcript-tab" hidden>
-      <div class="transcript-box" id="transcript-box" aria-live="polite"></div>
+      <div class="transcript-tools">
+        <div>
+          <label for="transcript-search">Search this episode</label>
+          <input id="transcript-search" type="search" placeholder="Try “Costco”, “editing”, or “Berkshire”" autocomplete="off" />
+        </div>
+        <p id="transcript-status" role="status" aria-live="polite">Open this tab to load the transcript.</p>
+      </div>
+      <div class="transcript-box" id="transcript-box"></div>
+      <button id="transcript-more" class="load-more" type="button" hidden>Load more transcript</button>
     </div>
   </section>
 </div>

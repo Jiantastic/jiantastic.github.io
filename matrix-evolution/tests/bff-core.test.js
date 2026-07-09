@@ -4,6 +4,7 @@ import {
   seekMatch,
   runEpoch,
   computeOpcodePercent,
+  computePopulationMetrics,
   computeDominantOpcodes,
   getDominantOpcode,
   buildNeighborhood,
@@ -124,6 +125,22 @@ describe("computeOpcodePercent", () => {
     const state = createSoupState({ gridW: 2, gridH: 2, tapeSize: 4 });
     state.programs.fill(43); // '+' = 43, a valid opcode
     expect(computeOpcodePercent(state)).toBe(100);
+  });
+});
+
+describe("computePopulationMetrics", () => {
+  it("reports zero entropy for a uniform byte population", () => {
+    const state = createSoupState({ gridW: 2, gridH: 1, tapeSize: 4 });
+    state.programs.fill(43);
+    expect(computePopulationMetrics(state)).toEqual({ opcodePercent: 100, entropy: 0 });
+  });
+
+  it("reports one bit of entropy for an even two-byte population", () => {
+    const state = createSoupState({ gridW: 2, gridH: 1, tapeSize: 4 });
+    state.programs.set([0, 0, 0, 0, 43, 43, 43, 43]);
+    const metrics = computePopulationMetrics(state);
+    expect(metrics.opcodePercent).toBe(50);
+    expect(metrics.entropy).toBeCloseTo(1, 8);
   });
 });
 

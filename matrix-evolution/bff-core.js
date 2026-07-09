@@ -214,13 +214,31 @@ export function runEpoch(state) {
   state.epoch++;
 }
 
-export function computeOpcodePercent(state) {
+const _byteCounts = new Uint32Array(256);
+
+export function computePopulationMetrics(state) {
   const { programs } = state;
-  let count = 0;
+  _byteCounts.fill(0);
+  let opcodeCount = 0;
   for (let i = 0; i < programs.length; i++) {
-    if (OPCODE_SET[programs[i]]) count++;
+    const byte = programs[i];
+    _byteCounts[byte]++;
+    if (OPCODE_SET[byte]) opcodeCount++;
   }
-  return (count / programs.length) * 100;
+  let entropy = 0;
+  for (let byte = 0; byte < 256; byte++) {
+    if (_byteCounts[byte] === 0) continue;
+    const probability = _byteCounts[byte] / programs.length;
+    entropy -= probability * Math.log2(probability);
+  }
+  return {
+    opcodePercent: (opcodeCount / programs.length) * 100,
+    entropy,
+  };
+}
+
+export function computeOpcodePercent(state) {
+  return computePopulationMetrics(state).opcodePercent;
 }
 
 // FNV-1a fingerprint per tape → count unique programs

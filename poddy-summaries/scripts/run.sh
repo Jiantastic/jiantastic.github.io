@@ -75,8 +75,10 @@ process_list=$(jq -c --argjson limit "$LIMIT" '.[0:$limit]' <<<"$new_eps")
 log "Processing $(jq 'length' <<<"$process_list") episode(s)"
 
 temp_audio=""
+temp_summary=""
 cleanup() {
   if [ -n "$temp_audio" ] && [ -f "$temp_audio" ]; then rm -f "$temp_audio"; fi
+  if [ -n "$temp_summary" ] && [ -f "$temp_summary" ]; then rm -f "$temp_summary"; fi
 }
 trap cleanup EXIT
 
@@ -101,15 +103,18 @@ while IFS= read -r ep; do
   python3 "$DIR/transcribe.py" --audio "$temp_audio" --slug "$slug" --title "$title" --data-dir "$DATA"
 
   IFS= read -r -d '' prompt <<'EOF' || true
-You are producing concise podcast summary bullets.
+You are producing a useful full-episode listening guide.
 The transcript below has inline timestamps in [MM:SS] format.
-Return JSON with a `bullets` array of 5-8 items.
-Each bullet: {"fact":"","quote":"","timestamp":"MM:SS","speaker":""}
-- `fact`: concise takeaway.
-- `quote`: short verbatim snippet (keep punctuation).
-- `timestamp`: use the [MM:SS] timestamp immediately before the quote in the transcript.
-- `speaker`: name if clear, else "".
-Only output valid JSON matching: {"bullets": [ ... ]}
+Return JSON with:
+- `overview`: one accurate paragraph, under 120 words.
+- `takeaways`: exactly five durable insights, each one sentence.
+- `chapters`: 8-12 items distributed across the entire runtime, including the beginning, middle, and final quarter. Do not cluster chapters in the introduction.
+Each chapter: {"title":"","summary":"","quote":"","timestamp":"H:MM:SS"}
+- `title`: a specific, useful chapter heading.
+- `summary`: 1-2 sentences explaining why the section matters.
+- `quote`: a short verbatim snippet, no more than 14 words.
+- `timestamp`: use the transcript timestamp immediately before the quoted moment. MM:SS is acceptable before one hour.
+Only output valid JSON with no commentary or markdown fences.
 
 Transcript:
 EOF
@@ -117,10 +122,28 @@ EOF
   summary_path="$DATA/summaries/$slug.json"
   timed_transcript="$DATA/transcripts/$slug-timed.txt"
   log "Summarizing via claude -p -> $summary_path"
+  temp_summary=$(mktemp /tmp/poddy-summary-XXXXXX.json)
   {
     printf '%s\n' "$prompt"
     cat "$timed_transcript"
-  } | claude -p --output-format json > "$summary_path"
+  } | claude -p --output-format text > "$temp_summary"
+
+  if ! jq -e '
+    type == "object" and
+    (.overview | type == "string" and length > 0) and
+    (.takeaways | type == "array" and length == 5 and all(.[]; type == "string" and length > 0)) and
+    (.chapters | type == "array" and length >= 8 and length <= 12 and all(.[];
+      (.title | type == "string" and length > 0) and
+      (.summary | type == "string" and length > 0) and
+      (.quote | type == "string") and
+      (.timestamp | type == "string" and test("^([0-9]+:)?[0-5]?[0-9]:[0-5][0-9]$"))
+    ))
+  ' "$temp_summary" >/dev/null; then
+    echo "Claude returned an invalid episode summary for $slug; leaving existing data unchanged." >&2
+    exit 1
+  fi
+  mv "$temp_summary" "$summary_path"
+  temp_summary=""
 
   log "Updating state"
   tmp_state=$(mktemp /tmp/poddy-state-XXXXXX.json)
@@ -129,6 +152,7 @@ EOF
 
   cleanup
   temp_audio=""
+  temp_summary=""
 done < <(jq -c '.[]' <<<"$process_list")
 
 log "Rebuilding episodes.json"

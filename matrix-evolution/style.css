@@ -40,6 +40,9 @@
 .matrix-page .explain-card h3 { margin: 0 0 .35rem; font-size: .83rem; }
 .matrix-page .explain-card p, .matrix-page .explain-note { margin: 0; color: var(--matrix-muted); line-height: 1.5; font-size: .84rem; }
 .matrix-page .explain-note { margin-top: .9rem; }
+.matrix-page .evidence-note { display: grid; grid-template-columns: minmax(150px,.6fr) 2fr; gap: 1rem; margin-top: 1rem; padding: 1rem; border: 1px solid rgba(185,203,131,.26); border-radius: 10px; background: rgba(185,203,131,.055); }
+.matrix-page .evidence-note strong { color: #c8d99a; font: 400 1.08rem/1.15 Georgia, serif; }
+.matrix-page .evidence-note p { margin: 0; color: var(--matrix-muted); font-size: .84rem; line-height: 1.55; }
 .matrix-page a { color: var(--matrix-text); }
 
 @media (max-width: 680px) {
@@ -47,4 +50,5 @@
   .matrix-page .controls { grid-template-columns: 1fr; }
   .matrix-page #canvas-container { height: min(54svh, 460px); }
   .matrix-page .info { grid-template-columns: 1fr; }
+  .matrix-page .evidence-note { grid-template-columns: 1fr; }
 }
