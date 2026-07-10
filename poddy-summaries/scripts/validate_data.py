@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import html
 import json
 from pathlib import Path
 
@@ -134,7 +135,10 @@ def main():
             errors.append(f"{slug}: permanent episode page is missing")
         else:
             page = page_path.read_text(encoding="utf-8")
-            if "PodcastEpisode" not in page or str(episode.get("title")) not in page:
+            if (
+                "PodcastEpisode" not in page
+                or str(episode.get("title")) not in html.unescape(page)
+            ):
                 errors.append(f"{slug}: permanent page lacks structured episode content")
 
     if errors:
