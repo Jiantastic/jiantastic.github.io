@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Meituan grew from Wang Xing's fourth major American-inspired startup into China's dominant platform for local services. A Groupon clone survived 5,000 rivals by expanding beyond elite coastal cities, then used its merchant footprint to enter food delivery. Its 2015 merger with restaurant-review pioneer Dianping combined operational aggression with an 18-year data asset covering restaurants, dishes, prices, and transactions. Food became the high-frequency wedge for hotels, travel, movies, groceries, merchant software, advertising, lending, and other offline spending.",
+    "The combined company demonstrates how scale changes delivery economics. Customer acquisition can be amortized across many services, logistics density reduces cost, and merchant demand produces high-margin ads, SaaS, and finance revenue. In 2019 Meituan generated roughly $15 billion of net revenue and $1 billion of operating cash flow, with about 67% food-delivery share by the episode's account. Its advantages remain entangled with Tencent traffic, government tolerance, labor and merchant outcomes, and the need to defend each new frontier."
+  ],
+  "takeaways": [
+    {
+      "title": "Persistence can outgrow original invention",
+      "detail": "Wang Xing repeatedly adapted proven Western concepts, sold the service that became Renren too early, and lost his Twitter clone to regulation and better-capitalized rivals. Those failures built networks, operating judgment, and credibility that mattered when Meituan entered a brutally competitive market."
+    },
+    {
+      "title": "Data compounds beyond transaction volume",
+      "detail": "Dianping's durable asset was not a delivery fleet but years of structured knowledge about merchants, individual dishes, prices, photos, service, and consumer intent. Joining that discovery layer to ordering and fulfillment turned a review database into both conversion infrastructure and a defensible demand source."
+    },
+    {
+      "title": "Merge before subsidies destroy everyone",
+      "detail": "Meituan, Dianping, and Ele.me used strategic capital to fund a price war with no natural stopping point. The Meituan-Dianping merger removed one combatant, transferred Dianping's product advantage, and made rational economics possible while forcing Alibaba to spend billions defending Ele.me."
+    },
+    {
+      "title": "High frequency enables consumer expansion",
+      "detail": "Food delivery creates repeated visits, merchant relationships, payments, and logistics density. Meituan can then cross-sell lower-frequency, higher-margin services without reacquiring the customer, applying the enterprise land-and-expand model to consumers and turning one acquisition cost into many revenue streams."
+    },
+    {
+      "title": "Strategic capital carries hidden dependencies",
+      "detail": "Tencent contributed money and WeChat distribution, while Alibaba's investment created strategic conflict once Meituan merged with Tencent-backed Dianping. Half of customers using a mini program illustrates the bargain: subsidized traffic accelerates scale, but the platform supplying it retains meaningful leverage."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "A super app defies Western categories",
+      "summary": "Meituan combines delivery, reviews, ride sharing, groceries, merchant analytics, lending, travel, and tickets. Founded much later than Alibaba and Tencent, it rises into China's top tier by digitizing real-world services rather than fitting one product category.",
+      "quote": "what people have dubbed a super app",
+      "timestamp": "0:41"
+    },
+    {
+      "title": "Wang Xing learns through repeated clones",
+      "summary": "After early exposure to computers and Chinese bulletin boards, Wang leaves graduate school to reproduce Friendster, Facebook, and Twitter. The Facebook clone becomes Renren after he sells for $2 million; regulation stalls his successful microblog.",
+      "quote": "I'm going to go recreate this in China",
+      "timestamp": "13:21"
+    },
+    {
+      "title": "Five thousand Groupons enter one war",
+      "summary": "Meituan launches in 2010 with Sequoia and Alibaba backing as thousands of low-tech competitors hire local sales armies. Wang targets tier-two and tier-three cities adopting mobile, allowing Meituan to survive where each new market otherwise resets the battle.",
+      "quote": "There were 5,000 companies at one point",
+      "timestamp": "23:02"
+    },
+    {
+      "title": "Dianping builds the durable information layer",
+      "summary": "Tao Zhang creates online restaurant and dish reviews before Yelp, adding category ratings, actual check prices, photos, reservations, ordering, and discounts. This internet-native database becomes a high-margin discovery asset with years of accumulated consumer intent.",
+      "quote": "Yelp was the Dianping for the US",
+      "timestamp": "34:16"
+    },
+    {
+      "title": "Group buying pivots into delivery",
+      "summary": "As Groupon economics collapse, Meituan and Dianping recognize that their restaurant relationships can support organized last-mile food delivery. Expansion into smaller cities supplies demand and merchant reach beyond the coastal markets where delivery was already familiar.",
+      "quote": "We have all these restaurant customers",
+      "timestamp": "47:46"
+    },
+    {
+      "title": "Strategic investors construct opposing camps",
+      "summary": "Alibaba funds Meituan's rollout across 100 cities; Tencent backs Dianping, which integrates delivery pioneer Ele.me. Sequoia holds stakes across the battlefield as capital, WeChat traffic, merchants, and couriers become weapons in a proxy war.",
+      "quote": "now we got Tencent backing Dianping",
+      "timestamp": "53:34"
+    },
+    {
+      "title": "The merger changes every alliance",
+      "summary": "With each delivery camp near 30% share and more than a billion dollars recently raised, Meituan and Dianping merge in October 2015. Ele.me loses its discovery partner overnight, while Tencent becomes a major owner of the combined company.",
+      "quote": "Meituan and Dianping announced that they're merging",
+      "timestamp": "1:02:57"
+    },
+    {
+      "title": "Alibaba buys the remaining defense",
+      "summary": "Alibaba exits Meituan-Dianping, invests $1.25 billion in Ele.me, adds Baidu's delivery operation, and ultimately acquires Ele.me for $9.5 billion. What began as a local-service adjacency becomes a strategic defense of commerce and rapid fulfillment.",
+      "quote": "enemy of my enemy is now my friend",
+      "timestamp": "1:06:27"
+    },
+    {
+      "title": "One platform layers profitable adjacencies",
+      "summary": "Delivery scale supports travel, ticketing, groceries, local retail, advertising, merchant software, and lending. In 2019 Meituan records about $15 billion in net revenue and $1 billion in operating cash flow, far beyond Western delivery peers.",
+      "quote": "this company is a monster",
+      "timestamp": "1:33:22"
+    },
+    {
+      "title": "Community commerce opens another front",
+      "summary": "Neighborhood leaders aggregate grocery demand and connect consumers directly with producers, pushing Meituan against Pinduoduo. Existing customers and capital reduce entry cost, but constant expansion creates a king-of-the-hill obligation to keep winning.",
+      "quote": "disintermediating the whole grocery store value chain",
+      "timestamp": "1:39:48"
+    },
+    {
+      "title": "Scale and reviews create the power",
+      "summary": "Hundreds of millions of customers let Meituan amortize new services broadly and cross-sell without fresh acquisition expense. Dianping's historical reviews and merchant coverage add switching costs and a unique asset, even without a classic social network effect.",
+      "quote": "the power of the review database",
+      "timestamp": "1:42:53"
+    },
+    {
+      "title": "Everything offline can move online",
+      "summary": "Only 5% of real-world services were digitized in 2017, leaving far more headroom than established e-commerce. The integrated experience also exposes fragmented Western discovery, reservation, ordering, payment, and delivery, while highlighting Tencent and regulatory dependency.",
+      "quote": "It can all be on the platform",
+      "timestamp": "1:49:48"
+    }
+  ],
+  "title": "Meituan: Food Delivery, Dianping, Super-App Economics, and China's O2O War"
+}

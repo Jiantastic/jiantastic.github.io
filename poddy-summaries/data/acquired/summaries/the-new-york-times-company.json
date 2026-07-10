@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "The New York Times Company traces a 170-year institution from local newspaper economics to a global digital subscription business. Adolph Ochs rescues a bankrupt paper in 1896 by pairing non-sensational journalism with aggressive positioning, distribution, and pricing, then places control in a family trust. Five generations later, that stewardship preserves editorial investment through technological mistakes, costly diversification, collapsing print advertising, and a 2009 liquidity crisis severe enough to require 14% debt and a headquarters sale-leaseback.",
+    "The recovery begins by shedding noncore assets, introducing a metered paywall, and confronting the newsroom's separation from product and distribution. A.G. Sulzberger's 2014 Innovation Report reframes publishing as the start of audience work, while Cooking, Games, The Daily, and Wirecutter extend subscriptions and reach. By 2020 digital revenue exceeds print, digital news subscriptions surpass five million, and subscription revenue triples advertising. The Times survives the internet's media barbell by choosing global scale without abandoning original reporting."
+  ],
+  "takeaways": [
+    {
+      "title": "Mission and marketing can reinforce",
+      "detail": "Ochs differentiated the Times through impartiality while cutting price, expanding circulation, staging public spectacles, and inventing enduring brand rituals. Editorial integrity did not require commercial passivity; its survival depended on translating trust into distinctive positioning and broad distribution."
+    },
+    {
+      "title": "Control protects long-duration quality",
+      "detail": "The Ochs-Sulzberger trust prevents ordinary shareholders from replacing family control, enabling investment through decades when journalism economics deteriorate. That conservatism also slows adaptation, but it stops short-term market pressure from converting the core product into cheap aggregation or clickbait."
+    },
+    {
+      "title": "Distribution belongs inside the product",
+      "detail": "The Innovation Report rejects the belief that a journalist's job ends at publication. Product, engineering, analytics, audience development, and editorial judgment must jointly decide how work is packaged and discovered without letting traffic incentives dictate what deserves reporting."
+    },
+    {
+      "title": "Subscriptions change editorial incentives",
+      "detail": "A metered paywall converts trust into recurring revenue and reduces dependence on internet advertising captured by Google and Facebook. It also creates pressure to deepen affinity with paying audiences, raising a continuing tension between broad civic reach, neutrality, and subscriber retention."
+    },
+    {
+      "title": "Internet media rewards strategic extremes",
+      "detail": "Digital distribution supports a few expensive global brands and many low-cost niches, while hollowing out the middle. The Times chooses the scale end: more reporters, international reach, high-quality original work, multiple formats, and enough subscription economics to acquire exceptional talent."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "A newspaper monopoly meets the internet",
+      "summary": "For a century newspapers combine local distribution monopolies, advertising, subscriptions, and low marginal printing cost. The Times later falls far enough to sell part of its headquarters, then emerges with more digital subscribers than it ever had in print.",
+      "quote": "an incredibly dramatic fall, and then rise",
+      "timestamp": "0:00"
+    },
+    {
+      "title": "Raymond and Jones establish the institution",
+      "summary": "Henry Jarvis Raymond and George Jones launch the New-York Daily Times in 1851 with $100,000 and a restrained editorial position. Circulation reaches 75,000 by the Civil War, when Raymond arms the building against rioters.",
+      "quote": "founded over 170 years ago",
+      "timestamp": "6:53"
+    },
+    {
+      "title": "Ochs acquires a bankrupt national brand",
+      "summary": "After reviving the Chattanooga Times, Adolph Ochs uses borrowed money, creditor notes, and a presidential endorsement to take over the failing New York Times. Profitability for 36 consecutive months will unlock his controlling shares.",
+      "quote": "believe me I can do this",
+      "timestamp": "23:03"
+    },
+    {
+      "title": "Trust becomes a commercial position",
+      "summary": "Against Pulitzer and Hearst's yellow journalism, Ochs promises news without fear or favor, cuts the paper from three cents to one, and grows circulation and advertising together. Times Square and its New Year's ball turn the institution into civic spectacle.",
+      "quote": "when your back is against the wall",
+      "timestamp": "40:03"
+    },
+    {
+      "title": "A family trust preserves editorial control",
+      "summary": "Ochs transfers stewardship through his daughter Iphigene and son-in-law Arthur Hays Sulzberger, creating a lineage that eventually uses dual-class shares and a family trust. Business leadership remains separated from newsroom editorial authority.",
+      "quote": "the fifth generation publisher",
+      "timestamp": "57:30"
+    },
+    {
+      "title": "Diversification misses the richest medium",
+      "summary": "The company buys regional papers, magazines, television stations, the Boston Globe, About.com, and other assets, yet misses cable news. The portfolio consumes capital while the internet begins undermining classifieds, circulation, and print advertising.",
+      "quote": "they got completely blindsided by what's coming",
+      "timestamp": "1:20:00"
+    },
+    {
+      "title": "Digital arrives outside the institutional core",
+      "summary": "The Times experiments with AOL and nytimes.com but gives away archive rights, trains readers to expect free content, and keeps digital product staff culturally apart from journalists. Internet distribution is treated as an adjunct instead of the newspaper's new operating system.",
+      "quote": "we got to build an audience",
+      "timestamp": "1:21:29"
+    },
+    {
+      "title": "The financial crisis exposes every mistake",
+      "summary": "Revenue collapses after an expensive headquarters and years of acquisitions and buybacks. Carlos Slim provides $250 million at 14% interest plus warrants; the Times ends its dividend, sells assets, and leases back part of its new building to survive.",
+      "quote": "in 2009 is when the shoe drops",
+      "timestamp": "1:39:52"
+    },
+    {
+      "title": "A metered paywall rebuilds recurring revenue",
+      "summary": "The company divests nearly everything except its namesake property and launches a 20-article meter in 2011. Traffic halves, but paid digital subscriptions grow from roughly 400,000 in year one toward one million, establishing an alternative to collapsing ads.",
+      "quote": "you're gonna charge for content on the internet",
+      "timestamp": "1:47:32"
+    },
+    {
+      "title": "The Innovation Report rewires publishing",
+      "summary": "A.G. Sulzberger's team concludes that no single new product will fix the company. The newsroom must integrate product, technology, marketing, analytics, and distribution, treating publication as the beginning rather than the end of reaching readers.",
+      "quote": "we need to completely change the way",
+      "timestamp": "1:51:37"
+    },
+    {
+      "title": "New formats expand reach and revenue",
+      "summary": "Cooking and Crossword become high-margin subscription products, while The Daily reaches younger listeners and a billion downloads. Subscriber growth accelerates through the Trump presidency and pandemic until digital revenue exceeds print and the balance sheet becomes debt-free.",
+      "quote": "they figured it out and just at the right time",
+      "timestamp": "1:57:08"
+    },
+    {
+      "title": "Scale wins the internet media barbell",
+      "summary": "The web supports global scale players and inexpensive niches but little middle ground. The Times commits to original reporting, international coverage, digital presentation, dual revenue streams, and adjacent brands such as Wirecutter rather than competing through lower-cost aggregation.",
+      "quote": "you need to escape to one side or the other",
+      "timestamp": "2:37:04"
+    }
+  ],
+  "title": "The New York Times Company: Family Control, the Paywall, and Digital Reinvention"
+}

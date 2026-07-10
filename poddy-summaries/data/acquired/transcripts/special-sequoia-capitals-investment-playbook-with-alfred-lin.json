@@ -1,0 +1,4054 @@
+{
+  "title": "Special: Sequoia Capital's Investment Playbook (with Alfred Lin)",
+  "slug": "special-sequoia-capitals-investment-playbook-with-alfred-lin",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.04,
+      "end": 5.0,
+      "text": " I'm Ben Gilbert, and I am the co-founder of Pioneer Square Labs, a startup studio and"
+    },
+    {
+      "start": 5.0,
+      "end": 6.58,
+      "text": " venture capital firm in Seattle."
+    },
+    {
+      "start": 7.5,
+      "end": 9.74,
+      "text": " Oh, that's me."
+    },
+    {
+      "start": 9.92,
+      "end": 10.1,
+      "text": " David."
+    },
+    {
+      "start": 10.34,
+      "end": 11.66,
+      "text": " And I'm David Rosenthal."
+    },
+    {
+      "start": 22.400000000000002,
+      "end": 27.64,
+      "text": " Welcome to this special episode of Acquired, the podcast about great technology companies"
+    },
+    {
+      "start": 27.64,
+      "end": 29.94,
+      "text": " and the stories and playbooks behind them."
+    },
+    {
+      "start": 30.5,
+      "end": 34.58,
+      "text": " I'm Ben Gilbert, and I'm the co-founder of Pioneer Square Labs, a startup studio and"
+    },
+    {
+      "start": 34.58,
+      "end": 36.24,
+      "text": " venture capital firm in Seattle."
+    },
+    {
+      "start": 36.88,
+      "end": 41.6,
+      "text": " And I'm David Rosenthal, and I am an angel investor based in San Francisco."
+    },
+    {
+      "start": 42.1,
+      "end": 43.66,
+      "text": " And we are your hosts."
+    },
+    {
+      "start": 44.66,
+      "end": 47.480000000000004,
+      "text": " Sequoia Capital needs almost no introduction."
+    },
+    {
+      "start": 48.08,
+      "end": 52.82,
+      "text": " When we did the comprehensive two-part series on their history, we noted that they had invested"
+    },
+    {
+      "start": 52.82,
+      "end": 57.24,
+      "text": " early in companies that went on to be worth over $3.3 trillion."
+    },
+    {
+      "start": 57.24,
+      "end": 62.08,
+      "text": " At the time, the market cap of the entire NASDAQ was about $10 trillion."
+    },
+    {
+      "start": 62.7,
+      "end": 67.64,
+      "text": " I'm sure both of these numbers are dramatically higher right now as we record this in January"
+    },
+    {
+      "start": 67.64,
+      "end": 68.54,
+      "text": " of 2021."
+    },
+    {
+      "start": 69.16,
+      "end": 75.28,
+      "text": " At the end of last year, we saw a Sequoia doubleheader in the two enormous IPOs of DoorDash and Airbnb."
+    },
+    {
+      "start": 75.28,
+      "end": 80.68,
+      "text": " Alfred Lin, a partner at Sequoia, sits on not one, but both of these boards."
+    },
+    {
+      "start": 81.06,
+      "end": 86.84,
+      "text": " And as pointed out by Dan Primack at Axios, these were his first two IPOs after his decade"
+    },
+    {
+      "start": 86.84,
+      "end": 87.62,
+      "text": " at Sequoia."
+    },
+    {
+      "start": 87.82000000000001,
+      "end": 89.72,
+      "text": " It certainly pays to be patient."
+    },
+    {
+      "start": 89.72,
+      "end": 94.0,
+      "text": " So after that, we couldn't help ourselves but reach out to Alfred to have him back on"
+    },
+    {
+      "start": 94.0,
+      "end": 95.34,
+      "text": " Acquired and ask the questions."
+    },
+    {
+      "start": 95.9,
+      "end": 98.42,
+      "text": " How does Sequoia identify these investment opportunities?"
+    },
+    {
+      "start": 99.02,
+      "end": 103.46,
+      "text": " What is the internal playbook for creating their famous prepared mind to evaluate such"
+    },
+    {
+      "start": 103.46,
+      "end": 104.72,
+      "text": " opportunities when they come along?"
+    },
+    {
+      "start": 105.34,
+      "end": 110.88,
+      "text": " And today, we dive into what this all means in practice at Sequoia, and we take a few lessons"
+    },
+    {
+      "start": 110.88,
+      "end": 116.82,
+      "text": " from what they've learned in over 49 years of finding and building great companies."
+    },
+    {
+      "start": 117.42,
+      "end": 118.88,
+      "text": " So David, who is Alfred?"
+    },
+    {
+      "start": 118.88,
+      "end": 120.67999999999999,
+      "text": " 49 years."
+    },
+    {
+      "start": 121.03999999999999,
+      "end": 121.56,
+      "text": " It's incredible."
+    },
+    {
+      "start": 122.47999999999999,
+      "end": 130.18,
+      "text": " So Alfred, as we covered with you on our Zappos episode, Alfred, you are the CFO of Link Exchange"
+    },
+    {
+      "start": 130.18,
+      "end": 136.82,
+      "text": " and Tell Me Networks, the co-founder of Venture Frogs with Tony Hsieh, and then of course,"
+    },
+    {
+      "start": 137.26,
+      "end": 141.48,
+      "text": " the COO and chairman of Zappos until its sale to Amazon."
+    },
+    {
+      "start": 142.14,
+      "end": 147.68,
+      "text": " Today, Alfred is a partner at Sequoia, where he manages the early stage business in the US"
+    },
+    {
+      "start": 147.68,
+      "end": 155.04000000000002,
+      "text": " and sits on the boards of Airbnb, DoorDash, Fair, House, Instacart, Reddit, Zipline, and"
+    },
+    {
+      "start": 155.04000000000002,
+      "end": 155.44,
+      "text": " more."
+    },
+    {
+      "start": 155.96,
+      "end": 160.34,
+      "text": " And of course, I know, Alfred, you're going to shrug this off and use the Robert Louis"
+    },
+    {
+      "start": 160.34,
+      "end": 165.22,
+      "text": " Stevenson quote that you love about judging each day by the seeds you plant, not the harvest"
+    },
+    {
+      "start": 165.22,
+      "end": 165.68,
+      "text": " you reap."
+    },
+    {
+      "start": 165.68,
+      "end": 171.72,
+      "text": " But we have to congratulate you on those two IPOs, DoorDash and Airbnb, last month."
+    },
+    {
+      "start": 172.06,
+      "end": 172.72,
+      "text": " Truly amazing."
+    },
+    {
+      "start": 173.04000000000002,
+      "end": 173.96,
+      "text": " Well, thank you."
+    },
+    {
+      "start": 174.02,
+      "end": 175.5,
+      "text": " And thank you for having me on the show."
+    },
+    {
+      "start": 175.74,
+      "end": 178.18,
+      "text": " I would point out that this is a team effort."
+    },
+    {
+      "start": 178.18,
+      "end": 184.3,
+      "text": " Many of the companies that we work with, I may represent Sequoia on the board, but it is"
+    },
+    {
+      "start": 184.3,
+      "end": 189.9,
+      "text": " the whole partnership that brings the weight of Sequoia to the table and helps those companies"
+    },
+    {
+      "start": 189.9,
+      "end": 191.6,
+      "text": " become legendary companies."
+    },
+    {
+      "start": 191.6,
+      "end": 196.3,
+      "text": " And we couldn't have done that without the spectacular founders that we partner with."
+    },
+    {
+      "start": 196.48000000000002,
+      "end": 201.08,
+      "text": " So the kudos goes to them for having the courage to start those companies and wanting to put"
+    },
+    {
+      "start": 201.08,
+      "end": 202.5,
+      "text": " a ding in the universe."
+    },
+    {
+      "start": 203.02,
+      "end": 203.20000000000002,
+      "text": " Love it."
+    },
+    {
+      "start": 203.32,
+      "end": 206.72,
+      "text": " Well, that is everything that we are going to talk about here today."
+    },
+    {
+      "start": 206.72,
+      "end": 213.54,
+      "text": " All right, listeners, now is a great time to talk about a new partner of ours here on"
+    },
+    {
+      "start": 213.54,
+      "end": 219.72,
+      "text": " Acquired, Lagora, the agentic operating system that is redefining how the world's best legal"
+    },
+    {
+      "start": 219.72,
+      "end": 220.44,
+      "text": " teams work."
+    },
+    {
+      "start": 220.56,
+      "end": 221.04,
+      "text": " Yep."
+    },
+    {
+      "start": 221.16,
+      "end": 225.26,
+      "text": " It's sort of obvious that AI is going to completely change the legal industry."
+    },
+    {
+      "start": 225.48,
+      "end": 230.0,
+      "text": " I bet most of you listening have dropped a contract into some sort of AI chatbot out there."
+    },
+    {
+      "start": 230.2,
+      "end": 234.42,
+      "text": " Lagora took that insight and asked the question, what if you really built something with that"
+    },
+    {
+      "start": 234.42,
+      "end": 237.04,
+      "text": " power from the ground up for the legal industry?"
+    },
+    {
+      "start": 237.04,
+      "end": 243.64,
+      "text": " So the founders did exactly what great founders do, operate with obsessive customer focus."
+    },
+    {
+      "start": 243.83999999999997,
+      "end": 248.0,
+      "text": " They embedded inside a massive law firm for months."
+    },
+    {
+      "start": 248.22,
+      "end": 252.16,
+      "text": " They sat with the lawyers just watching how the work really gets done."
+    },
+    {
+      "start": 252.57999999999998,
+      "end": 257.08,
+      "text": " And that's how you get features that customers love, like tabular review, where you drop in"
+    },
+    {
+      "start": 257.08,
+      "end": 261.94,
+      "text": " a folder of hundreds of contracts and it pulls every key term into a grid a lawyer can actually"
+    },
+    {
+      "start": 261.94,
+      "end": 262.53999999999996,
+      "text": " work with."
+    },
+    {
+      "start": 262.85999999999996,
+      "end": 263.94,
+      "text": " Lagora's bet here is interesting."
+    },
+    {
+      "start": 264.18,
+      "end": 269.91999999999996,
+      "text": " Since it lets each lawyer handle more complexity, any given person can increase the quality of"
+    },
+    {
+      "start": 269.91999999999996,
+      "end": 271.9,
+      "text": " their work and do higher value work."
+    },
+    {
+      "start": 272.12,
+      "end": 276.12,
+      "text": " And this means that the pie can grow even as each individual task takes less time."
+    },
+    {
+      "start": 276.5,
+      "end": 280.52,
+      "text": " And they recently launched Lagora Agent, offering greater intelligence and performance."
+    },
+    {
+      "start": 280.52,
+      "end": 283.32,
+      "text": " The agent lets lawyers set an objective."
+    },
+    {
+      "start": 283.96,
+      "end": 289.03999999999996,
+      "text": " Then it can handle the planning and the execution and delivery of the final product."
+    },
+    {
+      "start": 289.4,
+      "end": 293.94,
+      "text": " Legal teams get to maintain full control and transparency since they're still involved where"
+    },
+    {
+      "start": 293.94,
+      "end": 295.0,
+      "text": " judgment is required."
+    },
+    {
+      "start": 295.5,
+      "end": 297.82,
+      "text": " And Lagora works where you already work."
+    },
+    {
+      "start": 297.97999999999996,
+      "end": 301.18,
+      "text": " You can use it within Microsoft Word while redlining or drafting."
+    },
+    {
+      "start": 301.44,
+      "end": 304.76,
+      "text": " The early Lagora numbers essentially speak for themselves."
+    },
+    {
+      "start": 304.94,
+      "end": 309.64,
+      "text": " When they have a head-to-head pilot with their top competitor, they win 70% of the time."
+    },
+    {
+      "start": 309.64,
+      "end": 317.18,
+      "text": " Lagora now has over 100,000 lawyers on the platform from 1,200 legal teams in 50 countries."
+    },
+    {
+      "start": 317.78,
+      "end": 324.4,
+      "text": " And crazily, they went from 1 million to 100 million in ARR in about 18 months."
+    },
+    {
+      "start": 325.28,
+      "end": 326.84,
+      "text": " Truly insane numbers."
+    },
+    {
+      "start": 327.2,
+      "end": 328.44,
+      "text": " And that is the real test."
+    },
+    {
+      "start": 328.78,
+      "end": 332.88,
+      "text": " Plenty of things demo well, but the question is whether a busy associate actually reaches"
+    },
+    {
+      "start": 332.88,
+      "end": 337.21999999999997,
+      "text": " for it during crunch time or whether a partner trusts it before going into a conversation with"
+    },
+    {
+      "start": 337.21999999999997,
+      "end": 337.94,
+      "text": " a major client."
+    },
+    {
+      "start": 337.94,
+      "end": 342.76,
+      "text": " If your legal team wants to check it out, whether you're a law firm or you're in-house at a company,"
+    },
+    {
+      "start": 342.9,
+      "end": 349.34,
+      "text": " you can learn more at lagora.com slash acquired and just tell them that Ben and David sent you."
+    },
+    {
+      "start": 350.22,
+      "end": 351.62,
+      "text": " David, take us in."
+    },
+    {
+      "start": 352.3,
+      "end": 357.48,
+      "text": " So, Alfred, to kick things off, can you give us a little bit of the just sort of history of how"
+    },
+    {
+      "start": 357.48,
+      "end": 364.78,
+      "text": " this idea at Sequoia of wanting to have a prepared mind going into markets and investments"
+    },
+    {
+      "start": 364.78,
+      "end": 366.76,
+      "text": " and meeting teams came to be?"
+    },
+    {
+      "start": 366.76,
+      "end": 369.92,
+      "text": " Well, I think it all started with Don thinking about the market."
+    },
+    {
+      "start": 370.09999999999997,
+      "end": 375.7,
+      "text": " I think the thing that we look for is a combination of great founding team and a great market."
+    },
+    {
+      "start": 376.0,
+      "end": 380.82,
+      "text": " And great founding teams find great markets or they find a wedge into that market or they"
+    },
+    {
+      "start": 380.82,
+      "end": 383.02,
+      "text": " find what's wrong with the market."
+    },
+    {
+      "start": 383.21999999999997,
+      "end": 387.24,
+      "text": " And then they discover that there's a problem that the world has gotten wrong."
+    },
+    {
+      "start": 387.24,
+      "end": 388.90000000000003,
+      "text": " And they want to go fix that problem."
+    },
+    {
+      "start": 388.90000000000003,
+      "end": 396.6,
+      "text": " And we've always had to sort of listen to founders because they come from the problem of solving their own pain."
+    },
+    {
+      "start": 396.92,
+      "end": 399.58,
+      "text": " And they may not be thinking about the market per se."
+    },
+    {
+      "start": 399.98,
+      "end": 401.94,
+      "text": " They're thinking about the problem that they have."
+    },
+    {
+      "start": 401.94,
+      "end": 408.54,
+      "text": " And so to pair up and to work with and partner with these great founders, we had to come prepared,"
+    },
+    {
+      "start": 409.18,
+      "end": 413.66,
+      "text": " thinking about the market and thinking about what the market can become."
+    },
+    {
+      "start": 413.66,
+      "end": 423.22,
+      "text": " Because nobody's going to sort of wake up one day and suddenly know, oh, yeah, lots of people are going to share their bedrooms or their couches with a total stranger."
+    },
+    {
+      "start": 423.22,
+      "end": 430.62,
+      "text": " Nobody's going to think that if you don't have density in the suburbs that you can actually make a delivery service work."
+    },
+    {
+      "start": 430.70000000000005,
+      "end": 440.54,
+      "text": " But you do have to sort of think about this from a sort of perspective of being prepared and thinking about both the market and the ability of the market to grow and change."
+    },
+    {
+      "start": 440.54,
+      "end": 447.44000000000005,
+      "text": " We often talk a lot about prepared mind because chance favors the prepared mind, as Louis Prestor would say."
+    },
+    {
+      "start": 447.44,
+      "end": 453.92,
+      "text": " And when Jim gets joined Sequoia, he had identified a lot of interesting areas to invest in."
+    },
+    {
+      "start": 454.12,
+      "end": 464.54,
+      "text": " And he pioneered some of our thinking of having landscapes and having a prepared mind for the mobile landscape, for the rise of the developer."
+    },
+    {
+      "start": 465.2,
+      "end": 469.18,
+      "text": " And he would work and try to understand the landscape of what was possible."
+    },
+    {
+      "start": 469.32,
+      "end": 470.42,
+      "text": " Where were the white spaces?"
+    },
+    {
+      "start": 470.42,
+      "end": 480.64000000000004,
+      "text": " Where were the places that you can actually build a company because the incumbents, the legendary companies of the past, were not so much focused on those areas?"
+    },
+    {
+      "start": 481.02000000000004,
+      "end": 488.66,
+      "text": " If you wanted to sort of think about in Airbnb's case, Greg McAdoo had been thinking about timeshares and vacation rentals for a long time."
+    },
+    {
+      "start": 488.66,
+      "end": 499.04,
+      "text": " Because it was kind of weird that hotels were slowly being aggregated and they were sort of being aggregated onto global online travel platforms."
+    },
+    {
+      "start": 499.22,
+      "end": 503.66,
+      "text": " But that wasn't quite true with timeshares and vacation rentals to the same extent."
+    },
+    {
+      "start": 503.66,
+      "end": 520.08,
+      "text": " And it didn't lead necessarily immediately to an investment, but it gave us a sort of prepared mind on localized listings didn't really exist, BRBOs and HomeAway, which made most of its revenue was from advertising rather than booking and the transaction itself."
+    },
+    {
+      "start": 520.5,
+      "end": 526.82,
+      "text": " So when we saw Airbnb, it's like a completely different vector and a different way of thinking about the business."
+    },
+    {
+      "start": 526.82,
+      "end": 539.6600000000001,
+      "text": " And in DoorDash's case, since you asked about DoorDash, between 2011 and 2013, with the rise of the on-demand economy, we actually evaluated a variety of investments, opportunities in this space."
+    },
+    {
+      "start": 539.74,
+      "end": 540.8000000000001,
+      "text": " And we met with Grubhub."
+    },
+    {
+      "start": 540.9200000000001,
+      "end": 541.9000000000001,
+      "text": " We met with Caviar."
+    },
+    {
+      "start": 542.08,
+      "end": 543.24,
+      "text": " We met with Postmates."
+    },
+    {
+      "start": 543.5600000000001,
+      "end": 553.7,
+      "text": " And each time we passed, not because we were uncertain about the market size, we were actually, we noticed that this required a very, very operational founder."
+    },
+    {
+      "start": 553.7,
+      "end": 563.74,
+      "text": " This business is going to be won by both having a differentiated strategy, but also a person and a team that was going to be very, very focused on operations."
+    },
+    {
+      "start": 563.96,
+      "end": 566.88,
+      "text": " And when we met Tony, that was the combination we saw."
+    },
+    {
+      "start": 567.0600000000001,
+      "end": 569.6400000000001,
+      "text": " He had a differentiated approach."
+    },
+    {
+      "start": 570.22,
+      "end": 577.1,
+      "text": " And the differentiation for him was the strategy of focusing on the merchants and in the suburbs."
+    },
+    {
+      "start": 577.5400000000001,
+      "end": 581.5600000000001,
+      "text": " And the thing that he also brought was his keen eye for operations."
+    },
+    {
+      "start": 581.56,
+      "end": 586.5999999999999,
+      "text": " And so we unfortunately decided to pass on the seed."
+    },
+    {
+      "start": 587.0,
+      "end": 588.3399999999999,
+      "text": " And that's my fault."
+    },
+    {
+      "start": 588.5,
+      "end": 592.5,
+      "text": " It took time for us to sort of understand that Tony was a different character."
+    },
+    {
+      "start": 592.78,
+      "end": 599.8399999999999,
+      "text": " He had both the strategy side as well as the operational side that brought what we consider founder market fit."
+    },
+    {
+      "start": 599.9599999999999,
+      "end": 604.0999999999999,
+      "text": " And we invested in their Series A in every single round after that."
+    },
+    {
+      "start": 604.1,
+      "end": 615.08,
+      "text": " And as you think about the way that you had previously thought about this food delivery market, the way that, you know, Greg had been thinking about the timeshare market and all that was wrong with it and aggregating it."
+    },
+    {
+      "start": 615.24,
+      "end": 625.12,
+      "text": " How does something bubble up within Sequoia from someone's sort of personal fascination with something to doing proactive work to come with a prepared mind when you do start to see pitches?"
+    },
+    {
+      "start": 625.12,
+      "end": 630.4,
+      "text": " Yeah, so I think the answer, the simple answer is there's no straight formula for any of this."
+    },
+    {
+      "start": 630.54,
+      "end": 638.0600000000001,
+      "text": " I think the way that it has bubbled up has come through because we identify a trend through just reading."
+    },
+    {
+      "start": 638.32,
+      "end": 641.04,
+      "text": " We're curious about vacation rentals."
+    },
+    {
+      "start": 641.12,
+      "end": 642.08,
+      "text": " We start reading about it."
+    },
+    {
+      "start": 642.14,
+      "end": 643.28,
+      "text": " We start digging into it."
+    },
+    {
+      "start": 643.28,
+      "end": 647.4599999999999,
+      "text": " And nothing may come out of it for that particular point in time."
+    },
+    {
+      "start": 647.4599999999999,
+      "end": 649.8199999999999,
+      "text": " And then later on, it becomes more important."
+    },
+    {
+      "start": 650.26,
+      "end": 658.66,
+      "text": " It can be a full-blown landscape that you sort of plot out and write up a memo about exactly what's going on in the landscape."
+    },
+    {
+      "start": 658.66,
+      "end": 659.62,
+      "text": " Who are the players?"
+    },
+    {
+      "start": 659.92,
+      "end": 660.74,
+      "text": " What's going on?"
+    },
+    {
+      "start": 661.04,
+      "end": 662.28,
+      "text": " Where do we see white space?"
+    },
+    {
+      "start": 662.88,
+      "end": 664.3199999999999,
+      "text": " And it could be anywhere in between."
+    },
+    {
+      "start": 664.5,
+      "end": 665.52,
+      "text": " Mention it to your partners."
+    },
+    {
+      "start": 665.6999999999999,
+      "end": 667.0,
+      "text": " What do you think about this idea?"
+    },
+    {
+      "start": 667.16,
+      "end": 668.36,
+      "text": " What do you think about that idea?"
+    },
+    {
+      "start": 668.36,
+      "end": 673.76,
+      "text": " We have blue sky sessions every quarter where we sort of just try to dream."
+    },
+    {
+      "start": 674.04,
+      "end": 679.58,
+      "text": " This business is about inspiration just as much as about perspiration."
+    },
+    {
+      "start": 679.96,
+      "end": 686.98,
+      "text": " We need to both hustle, but at the same time, we need to be able to sort of think and be inspired about the world."
+    },
+    {
+      "start": 687.5600000000001,
+      "end": 691.78,
+      "text": " And some of it comes from reading and some of it comes from just talking to founders."
+    },
+    {
+      "start": 692.38,
+      "end": 697.48,
+      "text": " Other landscapes have started because we met an interesting founder with an interesting idea."
+    },
+    {
+      "start": 697.48,
+      "end": 707.62,
+      "text": " They're actually still riffing on the idea with us, and we go deep with them as well as go deep with other founders who are in that space trying to sort of make sense of what's going on."
+    },
+    {
+      "start": 708.24,
+      "end": 718.74,
+      "text": " And so I think the sort of the ways that this has come about has come from complete randomness and serendipity to very, very structured thinking."
+    },
+    {
+      "start": 718.74,
+      "end": 727.6800000000001,
+      "text": " The great part about Sequoia is we have a partnership and we have people who love to be proactive and think structurally."
+    },
+    {
+      "start": 727.9,
+      "end": 740.08,
+      "text": " And we have partners who love to be in the ecosystems, meeting lots of people and riffing ideas with lots of people in an imaginary way and dream up ideas with others."
+    },
+    {
+      "start": 740.3,
+      "end": 747.14,
+      "text": " So this is a business that you can do well with both someone who's an introvert as well as someone who's an extrovert."
+    },
+    {
+      "start": 747.14,
+      "end": 763.02,
+      "text": " But when you get to the landscape stage, whether that's as you're looking at a space as part of a team at the firm or maybe you're looking at a specific investment and you're doing diligence on that investment, what are the key things you're trying to understand?"
+    },
+    {
+      "start": 763.02,
+      "end": 778.98,
+      "text": " I mean, you know, Don in some of the old talk at GSB and the oral history with him, you know, he talks about needing to understand what the change is that's occurring in the market, needing to have a very specific problem that the company is solving, needing the timing to be right."
+    },
+    {
+      "start": 779.18,
+      "end": 781.34,
+      "text": " What are these key features that you guys are focused on?"
+    },
+    {
+      "start": 781.9,
+      "end": 784.96,
+      "text": " The simple questions are you've heard before."
+    },
+    {
+      "start": 784.96,
+      "end": 785.96,
+      "text": " Why now?"
+    },
+    {
+      "start": 785.96,
+      "end": 786.2800000000001,
+      "text": " Why now?"
+    },
+    {
+      "start": 786.48,
+      "end": 790.1,
+      "text": " What many of these ideas have people have thought of in the past."
+    },
+    {
+      "start": 790.1800000000001,
+      "end": 794.46,
+      "text": " It's not the first time that someone has decided that we should deliver food there."
+    },
+    {
+      "start": 794.6,
+      "end": 798.34,
+      "text": " In 1999, there was a company called Cosmo that opened up in New York."
+    },
+    {
+      "start": 798.5600000000001,
+      "end": 800.58,
+      "text": " So that didn't work."
+    },
+    {
+      "start": 800.96,
+      "end": 808.2,
+      "text": " Why is Instacart in a much better position today than they were when Webvan started and Webvan didn't work?"
+    },
+    {
+      "start": 808.62,
+      "end": 811.4200000000001,
+      "text": " I think there are specific good reasons for why now."
+    },
+    {
+      "start": 811.48,
+      "end": 813.6,
+      "text": " And then there are times when there's not a good why now."
+    },
+    {
+      "start": 813.6,
+      "end": 821.88,
+      "text": " And in Instacart's case or in DoorDash's case, the why now has a lot to do with mobile and the on-demand economy."
+    },
+    {
+      "start": 822.1800000000001,
+      "end": 824.4200000000001,
+      "text": " People have always wanted instant gratification."
+    },
+    {
+      "start": 825.08,
+      "end": 834.32,
+      "text": " But the ability to get a sort of a on-demand workforce was not available in 1999 because not everybody was carrying a mobile phone."
+    },
+    {
+      "start": 835.0600000000001,
+      "end": 842.4,
+      "text": " So there are sort of situations where you have good why nows for a particular company to be able to sort of take off."
+    },
+    {
+      "start": 842.4,
+      "end": 847.6999999999999,
+      "text": " The other question we ask all the time is, in 10 years, who cares about this company?"
+    },
+    {
+      "start": 847.9399999999999,
+      "end": 849.54,
+      "text": " Don used to ask, who cares?"
+    },
+    {
+      "start": 850.3,
+      "end": 861.76,
+      "text": " And it applies to who cares today, but it also, because we're investing early and we partner early, we partner at the idea stage, at the seed stage, and the venture stage at the Series A."
+    },
+    {
+      "start": 861.76,
+      "end": 865.68,
+      "text": " The company has to be an important company 10 years from now."
+    },
+    {
+      "start": 865.8,
+      "end": 867.36,
+      "text": " So who cares 10 years from now?"
+    },
+    {
+      "start": 867.66,
+      "end": 870.16,
+      "text": " And what does this company become 10 years from now?"
+    },
+    {
+      "start": 870.58,
+      "end": 877.04,
+      "text": " So imagination about that and what happens when everything goes right is really important."
+    },
+    {
+      "start": 877.74,
+      "end": 881.9399999999999,
+      "text": " So we do ask, if everything goes right, what does this company become?"
+    },
+    {
+      "start": 881.94,
+      "end": 885.5600000000001,
+      "text": " In the early stages, it's easy to spot why the company may fail."
+    },
+    {
+      "start": 885.84,
+      "end": 889.98,
+      "text": " And it's quite easy to write the pre-mortem of a company."
+    },
+    {
+      "start": 890.2,
+      "end": 891.34,
+      "text": " What will go wrong?"
+    },
+    {
+      "start": 891.44,
+      "end": 892.5400000000001,
+      "text": " What are the major risks?"
+    },
+    {
+      "start": 893.1800000000001,
+      "end": 898.9200000000001,
+      "text": " It sometimes is very hard to really write about what this company can become."
+    },
+    {
+      "start": 899.5,
+      "end": 902.46,
+      "text": " Do you find that founders know this at the seed stage?"
+    },
+    {
+      "start": 902.5600000000001,
+      "end": 909.7,
+      "text": " I mean, David and I know this from meeting with very early stage founders that so much is going to change in the dynamic market over the next 10 years."
+    },
+    {
+      "start": 909.7,
+      "end": 914.1800000000001,
+      "text": " Do great founders know what could go right picture looks like?"
+    },
+    {
+      "start": 914.26,
+      "end": 918.46,
+      "text": " Does the Brian Chesky of today, are they able to fully articulate that they'll overtake hotels?"
+    },
+    {
+      "start": 918.98,
+      "end": 922.2800000000001,
+      "text": " I think it's easy to sort of look back from now and it was obvious."
+    },
+    {
+      "start": 922.48,
+      "end": 924.32,
+      "text": " At the time, it was not always obvious."
+    },
+    {
+      "start": 924.86,
+      "end": 930.32,
+      "text": " And I think what they will articulate is that people should do this this way."
+    },
+    {
+      "start": 930.7,
+      "end": 934.7800000000001,
+      "text": " The way I view the future is a far superior future."
+    },
+    {
+      "start": 934.88,
+      "end": 938.12,
+      "text": " And I think that that's the dream that you have to be able to riff on."
+    },
+    {
+      "start": 938.12,
+      "end": 941.38,
+      "text": " And if that's the future, can you build a really large company?"
+    },
+    {
+      "start": 941.7,
+      "end": 946.12,
+      "text": " And in some cases, it's more obvious because the market is so large."
+    },
+    {
+      "start": 946.12,
+      "end": 950.28,
+      "text": " If you get just even a slice of the market, you'll be in good position."
+    },
+    {
+      "start": 950.5,
+      "end": 956.14,
+      "text": " In other cases, it's less easy because you actually have to dream that the market gets bigger."
+    },
+    {
+      "start": 956.42,
+      "end": 958.14,
+      "text": " That you're going to change behavior."
+    },
+    {
+      "start": 958.54,
+      "end": 962.14,
+      "text": " You're going to take away from a different way that people used to do something."
+    },
+    {
+      "start": 962.14,
+      "end": 963.3199999999999,
+      "text": " And both can happen."
+    },
+    {
+      "start": 963.58,
+      "end": 974.24,
+      "text": " And we generally like the more non-obvious markets where there are good tailwinds and the markets could be small at the beginning and it can grow over time."
+    },
+    {
+      "start": 974.74,
+      "end": 976.84,
+      "text": " Everybody knows where all the large markets are."
+    },
+    {
+      "start": 977.06,
+      "end": 981.02,
+      "text": " And it's generally a bloodbath when you enter those markets."
+    },
+    {
+      "start": 981.02,
+      "end": 988.8199999999999,
+      "text": " And so, you know, I'm not saying that, you know, competition is not going to happen in any company."
+    },
+    {
+      "start": 989.14,
+      "end": 996.92,
+      "text": " Like in every company, if you're afraid of competition, you should just get up because if you're at all successful, someone's going to come after you."
+    },
+    {
+      "start": 996.92,
+      "end": 1001.8199999999999,
+      "text": " But I think for a startup, you kind of want some air cover at the beginning."
+    },
+    {
+      "start": 1002.28,
+      "end": 1008.5,
+      "text": " You don't want to go into a competitive market and go head on with a large competitor on day one because they'll just crush you."
+    },
+    {
+      "start": 1009.06,
+      "end": 1011.9599999999999,
+      "text": " And so you need areas of white space."
+    },
+    {
+      "start": 1012.0799999999999,
+      "end": 1018.38,
+      "text": " You need a market entry strategy where people think, you know, that's that little company."
+    },
+    {
+      "start": 1018.5999999999999,
+      "end": 1019.06,
+      "text": " Oh, wow."
+    },
+    {
+      "start": 1019.38,
+      "end": 1020.8,
+      "text": " You know, that's kind of cute."
+    },
+    {
+      "start": 1021.16,
+      "end": 1021.8399999999999,
+      "text": " Go ahead."
+    },
+    {
+      "start": 1021.9599999999999,
+      "end": 1022.92,
+      "text": " You can take that."
+    },
+    {
+      "start": 1022.92,
+      "end": 1026.96,
+      "text": " But, you know, in Innovator's Dilemma, they talk about all the low margin stuff."
+    },
+    {
+      "start": 1027.1399999999999,
+      "end": 1033.36,
+      "text": " The big companies always give the low margin stuff to the startups because the startups, yeah, who cares?"
+    },
+    {
+      "start": 1033.48,
+      "end": 1034.6,
+      "text": " There's not a lot of margin in that."
+    },
+    {
+      "start": 1034.84,
+      "end": 1042.52,
+      "text": " They get really, really good at that because they figured out how to make money with low margin and they go up market to the higher margin stuff."
+    },
+    {
+      "start": 1042.58,
+      "end": 1044.84,
+      "text": " And then eventually they overtake the industry."
+    },
+    {
+      "start": 1045.18,
+      "end": 1048.3,
+      "text": " That is one way, obviously, of entering a market."
+    },
+    {
+      "start": 1048.3,
+      "end": 1051.62,
+      "text": " There are other ways of entering the market just with a superior product."
+    },
+    {
+      "start": 1051.62,
+      "end": 1055.1399999999999,
+      "text": " So you get more and more people to sort of talk about you."
+    },
+    {
+      "start": 1055.3999999999999,
+      "end": 1062.82,
+      "text": " And, you know, if it's 10 times or 20 times better product, then everybody's going to talk about you and will migrate to you."
+    },
+    {
+      "start": 1062.9199999999998,
+      "end": 1065.6799999999998,
+      "text": " There are other ways by having a completely different strategy."
+    },
+    {
+      "start": 1066.3,
+      "end": 1070.3999999999999,
+      "text": " If you think everybody thinks this is a feature, it may be someone else's bug."
+    },
+    {
+      "start": 1070.9399999999998,
+      "end": 1072.4399999999998,
+      "text": " Not everybody is the same."
+    },
+    {
+      "start": 1072.54,
+      "end": 1076.1399999999999,
+      "text": " You're not going to capture 100% of the market in something as big as travel."
+    },
+    {
+      "start": 1076.14,
+      "end": 1082.8000000000002,
+      "text": " But it's the ability to differentiate yourself from a current trend sometimes that makes you successful."
+    },
+    {
+      "start": 1083.1200000000001,
+      "end": 1088.74,
+      "text": " And I think in both Airbnb's case and DoorDash's case, that is exactly what happened."
+    },
+    {
+      "start": 1089.18,
+      "end": 1092.48,
+      "text": " I'm super curious, and I'm sure everybody listening is too right now."
+    },
+    {
+      "start": 1092.48,
+      "end": 1100.9,
+      "text": " When you're debating that question within Sequoia, like, is Brian right?"
+    },
+    {
+      "start": 1101.18,
+      "end": 1104.2,
+      "text": " Is this going to move beyond airbeds?"
+    },
+    {
+      "start": 1104.3600000000001,
+      "end": 1108.02,
+      "text": " Like, when the conventional wisdom is, this is cute."
+    },
+    {
+      "start": 1108.32,
+      "end": 1112.1200000000001,
+      "text": " And you're debating, is this going to be more than cute?"
+    },
+    {
+      "start": 1112.46,
+      "end": 1114.52,
+      "text": " What does that look like inside the firm?"
+    },
+    {
+      "start": 1114.52,
+      "end": 1130.76,
+      "text": " It has a lot to do with the sponsor in Airbnb's case, Greg, and in DoorDash's case, me sort of painting a picture of the world that and showing the conviction of why you believe that this is going to be the case."
+    },
+    {
+      "start": 1131.1,
+      "end": 1133.68,
+      "text": " And it happens over and over again, right?"
+    },
+    {
+      "start": 1133.72,
+      "end": 1142.2,
+      "text": " Like, if you might be an investor in the seed like we were in Airbnb, and then in the A, you still have to sort of paint the picture again."
+    },
+    {
+      "start": 1142.34,
+      "end": 1143.72,
+      "text": " And maybe, is it bigger?"
+    },
+    {
+      "start": 1143.72,
+      "end": 1153.84,
+      "text": " Sometimes these companies, it's easy to dream with them because they, every single point along the way, they've outstripped everybody's expectations."
+    },
+    {
+      "start": 1153.84,
+      "end": 1165.16,
+      "text": " Not just because there's more usage or more revenue, but the sort of the way the world has reacted to the company is just phenomenal."
+    },
+    {
+      "start": 1165.58,
+      "end": 1170.22,
+      "text": " You know, we just, Doug Leone used to always say, don't fight the tape."
+    },
+    {
+      "start": 1170.22,
+      "end": 1174.46,
+      "text": " And sometimes the evidence is just in the tape where, like, they just keep growing."
+    },
+    {
+      "start": 1174.66,
+      "end": 1175.52,
+      "text": " They keep doing well."
+    },
+    {
+      "start": 1175.58,
+      "end": 1176.84,
+      "text": " They attract great talent."
+    },
+    {
+      "start": 1177.1000000000001,
+      "end": 1178.46,
+      "text": " People love the service."
+    },
+    {
+      "start": 1178.92,
+      "end": 1181.5,
+      "text": " And they continue to sort of broaden their vision."
+    },
+    {
+      "start": 1181.76,
+      "end": 1183.78,
+      "text": " Every single one of these companies had challenges."
+    },
+    {
+      "start": 1184.28,
+      "end": 1186.68,
+      "text": " Airbnb had a PR crisis with EJ."
+    },
+    {
+      "start": 1186.68,
+      "end": 1195.38,
+      "text": " They also had a crisis where people were fighting tooth and nail with them and copying every single pixel of their website in Europe."
+    },
+    {
+      "start": 1195.74,
+      "end": 1199.44,
+      "text": " And they decided that they wanted to win Europe."
+    },
+    {
+      "start": 1199.44,
+      "end": 1209.8400000000001,
+      "text": " And they were either going to potentially buy Wimdo or merge with them or have to go down the path of a pretty expensive ground war."
+    },
+    {
+      "start": 1210.02,
+      "end": 1211.64,
+      "text": " They decided to do that and won."
+    },
+    {
+      "start": 1211.64,
+      "end": 1220.72,
+      "text": " And so, like, some of these things have to do with just being crafty and being smart about exactly how you go about winning and coming out on top."
+    },
+    {
+      "start": 1221.24,
+      "end": 1223.98,
+      "text": " I'm curious to dive in on that a little bit."
+    },
+    {
+      "start": 1224.0600000000002,
+      "end": 1227.5800000000002,
+      "text": " So they decided to do the very expensive ground war with Wimdo."
+    },
+    {
+      "start": 1228.0,
+      "end": 1230.46,
+      "text": " And, you know, part of that financing came from you."
+    },
+    {
+      "start": 1230.6200000000001,
+      "end": 1239.68,
+      "text": " How did you think about evaluating whether that was a good use of capital versus any other place that you could place that marginal dollar as Sequoia?"
+    },
+    {
+      "start": 1239.68,
+      "end": 1245.7,
+      "text": " It's always easy to say in retrospect that it was obvious and everybody talks about that."
+    },
+    {
+      "start": 1245.92,
+      "end": 1251.8400000000001,
+      "text": " But what's obvious at the time is that travel is a global network effects business."
+    },
+    {
+      "start": 1252.0600000000002,
+      "end": 1254.22,
+      "text": " And maybe not today during the pandemic."
+    },
+    {
+      "start": 1254.6000000000001,
+      "end": 1255.88,
+      "text": " It's more localized."
+    },
+    {
+      "start": 1256.3,
+      "end": 1258.72,
+      "text": " But we're going to get past the pandemic."
+    },
+    {
+      "start": 1258.72,
+      "end": 1260.5,
+      "text": " We're all going to get vaccinated."
+    },
+    {
+      "start": 1260.64,
+      "end": 1261.8400000000001,
+      "text": " People will go back to traveling."
+    },
+    {
+      "start": 1261.96,
+      "end": 1263.76,
+      "text": " Traveling won't be the same as before."
+    },
+    {
+      "start": 1264.16,
+      "end": 1266.66,
+      "text": " But we all love visiting different parts of the world."
+    },
+    {
+      "start": 1266.66,
+      "end": 1274.14,
+      "text": " And what is true is that you want to travel to different parts of the world and more than you do locally."
+    },
+    {
+      "start": 1274.52,
+      "end": 1281.5600000000002,
+      "text": " And if you win that, if you win the supply, you will most likely get all the demand."
+    },
+    {
+      "start": 1281.94,
+      "end": 1287.16,
+      "text": " And that was the reason why we had conviction on investing more in later rounds."
+    },
+    {
+      "start": 1287.78,
+      "end": 1288.0600000000002,
+      "text": " Makes sense."
+    },
+    {
+      "start": 1288.06,
+      "end": 1295.8999999999999,
+      "text": " I'm curious in that specific case with Airbnb, you know, of course, we've covered it so many times on this show, the Airbnb episode, many others."
+    },
+    {
+      "start": 1296.2,
+      "end": 1299.34,
+      "text": " That global network effect is so powerful."
+    },
+    {
+      "start": 1299.74,
+      "end": 1307.86,
+      "text": " You know, one of the reasons why Airbnb has, you know, been able to build so much power in the Hamilton Helmer sense over the years."
+    },
+    {
+      "start": 1307.86,
+      "end": 1310.12,
+      "text": " When did you guys realize that at Sequoia?"
+    },
+    {
+      "start": 1310.2199999999998,
+      "end": 1311.76,
+      "text": " Like, was that part of the thesis going in?"
+    },
+    {
+      "start": 1311.82,
+      "end": 1318.1599999999999,
+      "text": " Like, if this works, if we can build up supply and demand globally, like there is an opportunity for a global network effect here."
+    },
+    {
+      "start": 1318.32,
+      "end": 1322.4399999999998,
+      "text": " Or is that something that revealed itself over time, as you were saying?"
+    },
+    {
+      "start": 1322.76,
+      "end": 1326.2199999999998,
+      "text": " I think part of dreaming is that you can create one."
+    },
+    {
+      "start": 1326.34,
+      "end": 1331.86,
+      "text": " It's not that we, it's not that it got realized on the first, on our seed investment."
+    },
+    {
+      "start": 1332.26,
+      "end": 1334.6399999999999,
+      "text": " At the seed investment, they had a listing service, right?"
+    },
+    {
+      "start": 1334.64,
+      "end": 1338.22,
+      "text": " They had 2,000 or so listings."
+    },
+    {
+      "start": 1338.72,
+      "end": 1339.96,
+      "text": " They had a few transactions."
+    },
+    {
+      "start": 1340.2,
+      "end": 1343.2,
+      "text": " It was definitely not a network effects business at that time."
+    },
+    {
+      "start": 1343.72,
+      "end": 1349.18,
+      "text": " But you have to dream that if you get enough of the supply, it should be a network effects business."
+    },
+    {
+      "start": 1349.42,
+      "end": 1351.44,
+      "text": " That's part of having a prepared mind."
+    },
+    {
+      "start": 1351.74,
+      "end": 1358.26,
+      "text": " The sort of concept of a marketplace has been around for a while, pioneered by eBay on the internet."
+    },
+    {
+      "start": 1358.6200000000001,
+      "end": 1360.6000000000001,
+      "text": " But it wasn't the only marketplace."
+    },
+    {
+      "start": 1360.6,
+      "end": 1365.06,
+      "text": " We've had other marketplaces and a stock exchange as a marketplace."
+    },
+    {
+      "start": 1365.6599999999999,
+      "end": 1376.12,
+      "text": " And so having a prepared mind allows you to think about these conceptually into the future, even though it may not ring true the day you make the investment."
+    },
+    {
+      "start": 1376.12,
+      "end": 1377.1799999999998,
+      "text": " That's great."
+    },
+    {
+      "start": 1377.6799999999998,
+      "end": 1378.8799999999999,
+      "text": " All right, listeners."
+    },
+    {
+      "start": 1379.3,
+      "end": 1383.1599999999999,
+      "text": " Now is a great time to tell you about a longtime friend of the show, Vanta."
+    },
+    {
+      "start": 1383.78,
+      "end": 1386.4399999999998,
+      "text": " AI has scrambled the whole security picture."
+    },
+    {
+      "start": 1386.9799999999998,
+      "end": 1391.1799999999998,
+      "text": " It used to be that you proved that you were secure once a year on audit or a static PDF."
+    },
+    {
+      "start": 1391.58,
+      "end": 1393.32,
+      "text": " Then everyone would nod and you're done."
+    },
+    {
+      "start": 1393.82,
+      "end": 1396.7199999999998,
+      "text": " But in an AI-first world, that doesn't hold up anymore."
+    },
+    {
+      "start": 1397.1399999999999,
+      "end": 1397.34,
+      "text": " Yep."
+    },
+    {
+      "start": 1397.5,
+      "end": 1399.78,
+      "text": " Your risk surface changes every week now."
+    },
+    {
+      "start": 1399.78,
+      "end": 1409.06,
+      "text": " A vendor turns on an AI feature or someone writes in a new model without telling IT, and your posture is different than it was last week, let alone at your last audit."
+    },
+    {
+      "start": 1409.62,
+      "end": 1417.8,
+      "text": " Vanta's own research found that around 70% of companies have this quote-unquote shadow AI running with no security review at all."
+    },
+    {
+      "start": 1418.08,
+      "end": 1418.32,
+      "text": " Right."
+    },
+    {
+      "start": 1418.66,
+      "end": 1419.84,
+      "text": " And that's where Vanta comes in."
+    },
+    {
+      "start": 1420.16,
+      "end": 1424.76,
+      "text": " They're the leading agentic trust platform, meaning they've built the thing that closes the gap."
+    },
+    {
+      "start": 1424.8799999999999,
+      "end": 1427.52,
+      "text": " And the way that they close that gap is Vanta Agent."
+    },
+    {
+      "start": 1427.52,
+      "end": 1434.22,
+      "text": " Think of it as a GRC engineer, that's governance, risk, and compliance, except that it's software and it doesn't sleep."
+    },
+    {
+      "start": 1434.48,
+      "end": 1439.56,
+      "text": " It finds the issues, drafts the fixes, and cuts the time that you'd spend on vendor assessments in half."
+    },
+    {
+      "start": 1439.84,
+      "end": 1440.66,
+      "text": " In half!"
+    },
+    {
+      "start": 1441.1,
+      "end": 1446.72,
+      "text": " Which is exactly why more than 16,000 companies today run on Vanta."
+    },
+    {
+      "start": 1447.12,
+      "end": 1455.02,
+      "text": " Companies like Ramp, Cursor, and Snowflake all stay audit-ready and catch the risks that crop up between audits across every vendor,"
+    },
+    {
+      "start": 1455.02,
+      "end": 1457.7,
+      "text": " every AI tool, the whole environment."
+    },
+    {
+      "start": 1458.22,
+      "end": 1459.24,
+      "text": " And that's the real value."
+    },
+    {
+      "start": 1459.56,
+      "end": 1463.82,
+      "text": " Trust has to be continuous now, which is why Vanta automates your security, your compliance,"
+    },
+    {
+      "start": 1464.16,
+      "end": 1466.32,
+      "text": " and the work to earn and prove trust."
+    },
+    {
+      "start": 1466.66,
+      "end": 1470.7,
+      "text": " We're huge fans of Vanta over here, and literally hundreds of acquired listeners"
+    },
+    {
+      "start": 1470.7,
+      "end": 1473.6399999999999,
+      "text": " have become Vanta customers at their companies over the years."
+    },
+    {
+      "start": 1473.96,
+      "end": 1477.68,
+      "text": " So you can get $1,000 off Vanta at vanta.com slash acquired."
+    },
+    {
+      "start": 1477.68,
+      "end": 1484.78,
+      "text": " That's V-A-N-T-A dot com slash acquired for $1,000 off, and just tell them that Ben and David sent you."
+    },
+    {
+      "start": 1485.94,
+      "end": 1492.0,
+      "text": " I want to switch gears a little bit here and talk about market size, which for any early stage entrepreneurs listening"
+    },
+    {
+      "start": 1492.0,
+      "end": 1497.3200000000002,
+      "text": " who are currently in a small market but are dreaming, as the way you put it, Alfred, could be a big market,"
+    },
+    {
+      "start": 1497.64,
+      "end": 1502.14,
+      "text": " they've encountered the experience of banging their head against a wall because they keep getting these pass emails"
+    },
+    {
+      "start": 1502.14,
+      "end": 1505.5,
+      "text": " from venture capitalists that say, market's too small, market's too small, market's too small."
+    },
+    {
+      "start": 1505.8600000000001,
+      "end": 1512.96,
+      "text": " How do you think about, as a great investor, whether the market is small today and will stay small,"
+    },
+    {
+      "start": 1513.26,
+      "end": 1516.44,
+      "text": " or whether the market 5, 10 years from now could be enormous?"
+    },
+    {
+      "start": 1516.7,
+      "end": 1518.5200000000002,
+      "text": " And how do you work that into your investment decision?"
+    },
+    {
+      "start": 1519.0600000000002,
+      "end": 1519.8400000000001,
+      "text": " That's a great question."
+    },
+    {
+      "start": 1520.0,
+      "end": 1524.16,
+      "text": " I think the reason why there's a lot of passes on market size is,"
+    },
+    {
+      "start": 1524.4,
+      "end": 1526.0400000000002,
+      "text": " Warren Buffett famously said,"
+    },
+    {
+      "start": 1526.04,
+      "end": 1532.48,
+      "text": " when a management team with a reputation for brilliance tackles a business with a reputation for bad economics,"
+    },
+    {
+      "start": 1532.48,
+      "end": 1536.52,
+      "text": " it is the reputation of the business that remains intact."
+    },
+    {
+      "start": 1537.0,
+      "end": 1543.26,
+      "text": " And it is good advice, and it's not advice that I often talk about with founders,"
+    },
+    {
+      "start": 1543.26,
+      "end": 1551.5,
+      "text": " because I think the one thing that is a little different at the early stages is that you're going after non-obvious markets."
+    },
+    {
+      "start": 1551.5,
+      "end": 1557.06,
+      "text": " So if you go after an obvious market, as we talked about, and it's a very large market,"
+    },
+    {
+      "start": 1557.46,
+      "end": 1560.24,
+      "text": " there's intense competition because it's obvious."
+    },
+    {
+      "start": 1560.88,
+      "end": 1566.68,
+      "text": " And then if you go after a small market, and it's obviously a small market, that's also a bad idea."
+    },
+    {
+      "start": 1567.04,
+      "end": 1571.76,
+      "text": " The question is, are you actually in a small market that looks small today,"
+    },
+    {
+      "start": 1571.78,
+      "end": 1573.98,
+      "text": " but it's actually going to be a big market in the future?"
+    },
+    {
+      "start": 1574.14,
+      "end": 1577.84,
+      "text": " And that's how I kind of would like to have that conversation with the founder."
+    },
+    {
+      "start": 1578.02,
+      "end": 1580.26,
+      "text": " Why is this market going to be large in the future?"
+    },
+    {
+      "start": 1580.26,
+      "end": 1584.36,
+      "text": " And there's a bit of the founder doing some work."
+    },
+    {
+      "start": 1584.48,
+      "end": 1586.48,
+      "text": " There's a bit of the investor doing some work."
+    },
+    {
+      "start": 1586.54,
+      "end": 1588.66,
+      "text": " And we certainly do our own work at Sequoia."
+    },
+    {
+      "start": 1588.9,
+      "end": 1591.52,
+      "text": " And then we work with the founders to think about it."
+    },
+    {
+      "start": 1591.64,
+      "end": 1596.34,
+      "text": " And some of it has to do with what are the trends that are carrying you in this business?"
+    },
+    {
+      "start": 1596.46,
+      "end": 1602.6,
+      "text": " It's not hard to know that mobile is going to be a big trend back when mobile was a big thing."
+    },
+    {
+      "start": 1602.6,
+      "end": 1604.8799999999999,
+      "text": " But mobile had some fits and starts as well."
+    },
+    {
+      "start": 1605.0,
+      "end": 1608.58,
+      "text": " We thought we could build mobile just on a StarTac phone."
+    },
+    {
+      "start": 1608.58,
+      "end": 1610.78,
+      "text": " But the user experience wasn't great."
+    },
+    {
+      "start": 1611.1,
+      "end": 1615.76,
+      "text": " And so mobile really started to take off because the smartphone started to take off."
+    },
+    {
+      "start": 1616.0,
+      "end": 1618.58,
+      "text": " And it was a full-functioning computer."
+    },
+    {
+      "start": 1618.84,
+      "end": 1622.78,
+      "text": " That sort of was what carried mobile through for many, many years."
+    },
+    {
+      "start": 1623.1399999999999,
+      "end": 1627.28,
+      "text": " The move to SaaS was actually identified way before this current wave."
+    },
+    {
+      "start": 1627.28,
+      "end": 1637.58,
+      "text": " Because as soon as you saw people moving racks into co-location spaces, you could kind of see that more and more software is going to be written and put in the cloud."
+    },
+    {
+      "start": 1637.94,
+      "end": 1647.96,
+      "text": " You know, it took AWS coming around where developers are starting to build for the first time right straight into someone else's racks, not your own."
+    },
+    {
+      "start": 1647.96,
+      "end": 1656.1000000000001,
+      "text": " That you're like, okay, well, this is going to carry for a long period of time because, you know what, it lowered the cost of starting a company."
+    },
+    {
+      "start": 1656.1000000000001,
+      "end": 1667.68,
+      "text": " A developer, Jim Goetz, who talked about having a prepared mind, he talked about the rise of the developer as a landscape because developers didn't have to rack their own racks anymore."
+    },
+    {
+      "start": 1668.06,
+      "end": 1673.28,
+      "text": " They didn't have to sort of go raise a bunch of money to buy the servers and put it in their own colo."
+    },
+    {
+      "start": 1673.28,
+      "end": 1680.12,
+      "text": " What they needed was just be able to have a credit card and start coding and put it on AWS."
+    },
+    {
+      "start": 1680.56,
+      "end": 1684.24,
+      "text": " And so you could see that that was going to be a trend for some period of time."
+    },
+    {
+      "start": 1684.42,
+      "end": 1698.84,
+      "text": " There's that amazing moment that we talked about in the Airbnb episode where the YC startup school where Bezos sort of launched AWS to startups was the startup school that Brian, Nate, and Joe went and attended before they did YC."
+    },
+    {
+      "start": 1698.84,
+      "end": 1708.4199999999998,
+      "text": " Yeah, and again, those are the type of things that, you know, these little things happen and then you realize it's going to unlock an explosion."
+    },
+    {
+      "start": 1709.1599999999999,
+      "end": 1713.58,
+      "text": " Because otherwise, Brian, Joe, and Nate would have had to rack their own servers, right?"
+    },
+    {
+      "start": 1713.6599999999999,
+      "end": 1719.3,
+      "text": " Like that's, for them, that's no fun because they're two designers and someone who wrote code."
+    },
+    {
+      "start": 1719.3,
+      "end": 1728.84,
+      "text": " And I don't think Brian or Joe, maybe Nate would be okay with going into a colo and racking racks, but I don't think Brian or Joe are particularly happy doing that."
+    },
+    {
+      "start": 1729.04,
+      "end": 1730.3999999999999,
+      "text": " They want to dream about what they're doing."
+    },
+    {
+      "start": 1730.46,
+      "end": 1733.8799999999999,
+      "text": " But yeah, the company might have been like DOA if they had to do that."
+    },
+    {
+      "start": 1734.12,
+      "end": 1735.46,
+      "text": " Yeah, exactly."
+    },
+    {
+      "start": 1735.8,
+      "end": 1738.96,
+      "text": " Those trends that carry you are quite important."
+    },
+    {
+      "start": 1738.96,
+      "end": 1750.26,
+      "text": " You know, I often talk about there are three components of a pitch and some founders do all three well and most founders do the first one well, which is like what's your vision of the world?"
+    },
+    {
+      "start": 1750.64,
+      "end": 1755.6000000000001,
+      "text": " And so the beginning is you paint this picture of what you want the world to become."
+    },
+    {
+      "start": 1755.9,
+      "end": 1759.92,
+      "text": " You've experienced personal pain that this is not the right way to do this."
+    },
+    {
+      "start": 1760.3600000000001,
+      "end": 1762.1200000000001,
+      "text": " You show how passionate you are."
+    },
+    {
+      "start": 1762.54,
+      "end": 1766.08,
+      "text": " You have a vision of the future of how the world's going to be different."
+    },
+    {
+      "start": 1766.08,
+      "end": 1769.1399999999999,
+      "text": " Then you have the realities of today."
+    },
+    {
+      "start": 1769.5,
+      "end": 1779.8999999999999,
+      "text": " Paint the pictures of what's going on and why this is broken, how you can fix it, how many customers you think you can get because they face the same pain that you do."
+    },
+    {
+      "start": 1779.8999999999999,
+      "end": 1791.1999999999998,
+      "text": " And then to connect the dots between those two worlds, you kind of have to sort of, you won't have to paint the whole picture, the whole path of how you get from where you are today into the future."
+    },
+    {
+      "start": 1791.2,
+      "end": 1800.1000000000001,
+      "text": " But you do have to sort of show us like how exactly you're going to get from a few thousand listings at Airbnb to more than that."
+    },
+    {
+      "start": 1800.3400000000001,
+      "end": 1809.16,
+      "text": " You do have to sort of talk about, okay, well, if you're not going to focus on the cities where all the volume is and all the density is, how do you win in the suburbs?"
+    },
+    {
+      "start": 1809.4,
+      "end": 1813.2,
+      "text": " If you want us to believe in the suburb strategy, how do you win the suburbs?"
+    },
+    {
+      "start": 1813.2,
+      "end": 1817.6200000000001,
+      "text": " And in both cases, they had very good answers to these questions."
+    },
+    {
+      "start": 1817.9,
+      "end": 1824.28,
+      "text": " The sort of notion was it didn't work outside of New York City because the only reason it worked in New York City was because of the density."
+    },
+    {
+      "start": 1824.56,
+      "end": 1827.1000000000001,
+      "text": " And that was a false assumption."
+    },
+    {
+      "start": 1827.54,
+      "end": 1829.1000000000001,
+      "text": " It was not backed up in fact."
+    },
+    {
+      "start": 1829.74,
+      "end": 1832.02,
+      "text": " And Tony was very, very good at like pushing on that."
+    },
+    {
+      "start": 1832.1000000000001,
+      "end": 1835.98,
+      "text": " It's like, does it only really work in New York City or does it work elsewhere?"
+    },
+    {
+      "start": 1836.78,
+      "end": 1838.76,
+      "text": " And how can it work elsewhere?"
+    },
+    {
+      "start": 1838.76,
+      "end": 1839.24,
+      "text": " Right."
+    },
+    {
+      "start": 1840.44,
+      "end": 1840.82,
+      "text": " Well, it's funny."
+    },
+    {
+      "start": 1840.9,
+      "end": 1849.0,
+      "text": " We've danced from this idea, this question around market size to this topic in unit economics of, you know, will it work in a given market?"
+    },
+    {
+      "start": 1849.56,
+      "end": 1864.76,
+      "text": " And, you know, Don, among only a few other factors, early Sequoia days would say that the very important things in evaluating an opportunity are the market size, because no one ever started a huge business in a small market, and the potential for large gross margins."
+    },
+    {
+      "start": 1864.76,
+      "end": 1875.04,
+      "text": " And I'm curious, as you come with this proactive stance and a prepared mind when you're meeting with entrepreneurs, how do you apply that thinking in unit economics?"
+    },
+    {
+      "start": 1875.28,
+      "end": 1882.18,
+      "text": " And is it still important today to be able to start a business with high gross margin ability in sort of your eyes?"
+    },
+    {
+      "start": 1882.54,
+      "end": 1883.76,
+      "text": " The answer is nuance."
+    },
+    {
+      "start": 1884.5,
+      "end": 1888.9,
+      "text": " I think high gross margin, as Bezos would say, it's not about margin percent."
+    },
+    {
+      "start": 1889.1,
+      "end": 1890.46,
+      "text": " It's about margin dollars."
+    },
+    {
+      "start": 1890.46,
+      "end": 1898.52,
+      "text": " If you have large margin dollars, that can be okay, even though the gross margin percent is not as high."
+    },
+    {
+      "start": 1898.88,
+      "end": 1905.76,
+      "text": " If you're going after a low gross margin percent business, you just need a ton of volume."
+    },
+    {
+      "start": 1906.06,
+      "end": 1907.8400000000001,
+      "text": " So you need high repeatability."
+    },
+    {
+      "start": 1908.56,
+      "end": 1911.98,
+      "text": " And the notion of gross margin is a strange thing."
+    },
+    {
+      "start": 1911.98,
+      "end": 1918.8600000000001,
+      "text": " If you look at DoorDash from a GMV standpoint, then their gross margin is really low."
+    },
+    {
+      "start": 1919.34,
+      "end": 1924.48,
+      "text": " But if you just look at their take, if you net out everything else, then their margins are decent."
+    },
+    {
+      "start": 1924.94,
+      "end": 1926.3600000000001,
+      "text": " And the same is true with Airbnb."
+    },
+    {
+      "start": 1926.94,
+      "end": 1931.68,
+      "text": " People don't think about this, but nobody measures Airbnb's margins off of their GMV."
+    },
+    {
+      "start": 1931.92,
+      "end": 1933.9,
+      "text": " They measure it off of their take rate."
+    },
+    {
+      "start": 1934.1200000000001,
+      "end": 1937.26,
+      "text": " And so some of this stuff is a little more nuanced than that."
+    },
+    {
+      "start": 1937.66,
+      "end": 1940.58,
+      "text": " Software businesses, you're paying for just the software."
+    },
+    {
+      "start": 1940.58,
+      "end": 1944.1799999999998,
+      "text": " You're not looking at all the sort of transactions that happen on the software."
+    },
+    {
+      "start": 1944.72,
+      "end": 1949.72,
+      "text": " The reason why United Economics is important is because eventually this has to be a business."
+    },
+    {
+      "start": 1950.08,
+      "end": 1955.8799999999999,
+      "text": " To be able to be valued highly, eventually you'll be valued off of your profits and a multiple off of your profits."
+    },
+    {
+      "start": 1956.1999999999998,
+      "end": 1960.06,
+      "text": " And the confusion, I think, is the availability of capital."
+    },
+    {
+      "start": 1960.46,
+      "end": 1964.48,
+      "text": " In the last few years, a lot of people have complained there's too much capital in the system."
+    },
+    {
+      "start": 1964.96,
+      "end": 1966.82,
+      "text": " There's always been too much capital in the system."
+    },
+    {
+      "start": 1966.9199999999998,
+      "end": 1970.12,
+      "text": " When I started 10 years ago, I was frustrated there was too much capital in the system."
+    },
+    {
+      "start": 1970.12,
+      "end": 1977.12,
+      "text": " I remember sitting, my desk was right next to Mike Moritz's, and I said, hey, there's just too much money in the venture ecosystem."
+    },
+    {
+      "start": 1977.86,
+      "end": 1979.7399999999998,
+      "text": " He was like, yeah, thanks for observing that."
+    },
+    {
+      "start": 1979.9199999999998,
+      "end": 1983.3799999999999,
+      "text": " Go back to work and your job is to figure that out."
+    },
+    {
+      "start": 1984.0,
+      "end": 1986.06,
+      "text": " And I was like, that's not a satisfying answer."
+    },
+    {
+      "start": 1986.1799999999998,
+      "end": 1988.3999999999999,
+      "text": " And he's like, well, there's too much capital in the system."
+    },
+    {
+      "start": 1988.4799999999998,
+      "end": 1989.1399999999999,
+      "text": " I agree with you."
+    },
+    {
+      "start": 1989.54,
+      "end": 1990.1799999999998,
+      "text": " Well, you know what?"
+    },
+    {
+      "start": 1990.3,
+      "end": 1992.4399999999998,
+      "text": " 10 years before you, there was too much capital."
+    },
+    {
+      "start": 1992.58,
+      "end": 1997.6,
+      "text": " And 20 years before you, when I started in the venture business, there was too much money in the system."
+    },
+    {
+      "start": 1997.6,
+      "end": 1999.52,
+      "text": " There'll always be too much money in the system."
+    },
+    {
+      "start": 1999.82,
+      "end": 2008.12,
+      "text": " And the thing that we've learned over time is that the winners get a disproportionate amount of the market cap."
+    },
+    {
+      "start": 2008.58,
+      "end": 2016.4399999999998,
+      "text": " And if that's true, then they also will, by just simple logic, investors then want to invest in the winners."
+    },
+    {
+      "start": 2016.7199999999998,
+      "end": 2019.4399999999998,
+      "text": " And so the winners get more and more of the capital."
+    },
+    {
+      "start": 2019.44,
+      "end": 2024.88,
+      "text": " And if there's more money in the system today, the winners will get more money."
+    },
+    {
+      "start": 2025.14,
+      "end": 2028.18,
+      "text": " And that allows them to do things slightly differently."
+    },
+    {
+      "start": 2028.52,
+      "end": 2040.38,
+      "text": " And I use the sort of case where in e-commerce, when I was at Zappos, we needed to make sure that the payback on the CAC was on the first order."
+    },
+    {
+      "start": 2040.38,
+      "end": 2044.3400000000001,
+      "text": " Well, I don't think any company today in e-commerce does that."
+    },
+    {
+      "start": 2044.5200000000002,
+      "end": 2057.56,
+      "text": " If you have more capital, if you know it works on the first order, then if I give you a little bit more capital, maybe you can extend it to seven days or a month or six months or a year."
+    },
+    {
+      "start": 2057.92,
+      "end": 2061.52,
+      "text": " I do think that this transitive property doesn't always work."
+    },
+    {
+      "start": 2061.52,
+      "end": 2069.18,
+      "text": " If it works with zero cap, you can do it for a year, two years, three years, four years."
+    },
+    {
+      "start": 2069.58,
+      "end": 2075.5,
+      "text": " At some point, it breaks because at some point, you won't be able to raise enough capital to keep you afloat."
+    },
+    {
+      "start": 2075.5,
+      "end": 2085.14,
+      "text": " But I do think there is more willingness to see unit economics pay back over a longer period of time if the market is large."
+    },
+    {
+      "start": 2085.82,
+      "end": 2086.82,
+      "text": " Yeah, that makes total sense."
+    },
+    {
+      "start": 2086.82,
+      "end": 2104.5,
+      "text": " So, you know, unlike the early days of Sequoia, for sure, you have different entry points where you can partner with companies now, whether it's dreaming with the entrepreneur at a seed stage or partnering at the growth stage with more established companies that have already answered some of these questions."
+    },
+    {
+      "start": 2104.5,
+      "end": 2114.7,
+      "text": " As you're thinking about a given market, how do you decide what the right, you know, is that winner that you mentioned that's going to get the lion's share of the market cap in a space?"
+    },
+    {
+      "start": 2115.14,
+      "end": 2121.32,
+      "text": " How do you decide if it already exists and you should go invest at the growth stage or there's still an opportunity for a new entrant at the seed stage?"
+    },
+    {
+      "start": 2121.32,
+      "end": 2128.6800000000003,
+      "text": " I think the simple answer is that we at Sequoia want to identify the most important companies of tomorrow as early as possible."
+    },
+    {
+      "start": 2128.84,
+      "end": 2136.6800000000003,
+      "text": " So we do want to partner with them at the seed stage and be there for them from idea to IPO and beyond."
+    },
+    {
+      "start": 2136.84,
+      "end": 2140.32,
+      "text": " I would point out that there's so much going on in the world."
+    },
+    {
+      "start": 2140.44,
+      "end": 2145.1800000000003,
+      "text": " There's so much innovation that we're not going to get to every great company at the seed stage."
+    },
+    {
+      "start": 2145.18,
+      "end": 2150.48,
+      "text": " And so there are going to be companies that we miss at the seed that we'll do at the A."
+    },
+    {
+      "start": 2150.6,
+      "end": 2153.66,
+      "text": " There are companies that we miss at the A that hopefully we do at the B."
+    },
+    {
+      "start": 2154.24,
+      "end": 2157.94,
+      "text": " And companies that we miss at the B that hopefully we pick up at a growth round."
+    },
+    {
+      "start": 2158.5,
+      "end": 2162.74,
+      "text": " So in some sense, we can enter at many different levels."
+    },
+    {
+      "start": 2162.8799999999997,
+      "end": 2169.62,
+      "text": " But also what's an interesting company at the seed is going to look very different than a company at the A or the company at a growth round."
+    },
+    {
+      "start": 2169.62,
+      "end": 2175.3399999999997,
+      "text": " You know, just a simple sort of idea like what's happening at the seed, identifying new markets."
+    },
+    {
+      "start": 2175.52,
+      "end": 2182.08,
+      "text": " You have this view that the market will be very, very different a few years from now is different than a growth round."
+    },
+    {
+      "start": 2182.2,
+      "end": 2190.7,
+      "text": " You may be looking for a developing market that continues to grow, but it is somewhat established, if not already developed when you make an investment at the growth round."
+    },
+    {
+      "start": 2190.7799999999997,
+      "end": 2192.02,
+      "text": " That makes total sense."
+    },
+    {
+      "start": 2192.18,
+      "end": 2195.48,
+      "text": " That also brings up a question I've been dying to ask you guys."
+    },
+    {
+      "start": 2195.48,
+      "end": 2202.92,
+      "text": " The other dimension that's changed over the years at Sequoia is not just stage at which you invest, but geography too."
+    },
+    {
+      "start": 2203.66,
+      "end": 2209.52,
+      "text": " And obviously you have a very robust practice in China and India, and now you're building one in Europe, everywhere around the globe."
+    },
+    {
+      "start": 2209.82,
+      "end": 2218.16,
+      "text": " How do insights and learnings from each of those geographies influence your thinking back here in the U.S. and each other?"
+    },
+    {
+      "start": 2218.16,
+      "end": 2229.2,
+      "text": " Well, I think the fact of the matter is you can start a company almost anywhere in the world, and talent is evenly distributed and opportunity is not, is a quote that lots of people have said."
+    },
+    {
+      "start": 2229.3399999999997,
+      "end": 2235.96,
+      "text": " We're doing this, we're sort of expanding around the world because we want to be a global partnership, and we do learn from each other."
+    },
+    {
+      "start": 2236.48,
+      "end": 2240.72,
+      "text": " And so their observations around the world are that people are pretty similar."
+    },
+    {
+      "start": 2240.72,
+      "end": 2248.08,
+      "text": " They do things slightly differently because of cultural reasons or how they grow up, but we kind of want similar things."
+    },
+    {
+      "start": 2248.2799999999997,
+      "end": 2258.98,
+      "text": " From a consumer standpoint, if something works in one geo, it's likely to work, maybe not the same exact sort of formation, but it's likely to work somewhere else and vice versa."
+    },
+    {
+      "start": 2258.98,
+      "end": 2270.52,
+      "text": " And if you come up with a great, interesting, sort of efficient way of doing things on the enterprise side, it's probably going to be wanted in different parts of the region."
+    },
+    {
+      "start": 2271.3,
+      "end": 2286.94,
+      "text": " And just as an example, with DoorDash, we are investors in Meituan in China, and there are a lot of learnings back and forth about what works, what doesn't, how much market share you need to get, how much the unit economics changes when you get to scale, etc."
+    },
+    {
+      "start": 2286.94,
+      "end": 2294.84,
+      "text": " So the growth path, the sort of viability of the business, those things can be learned across the world."
+    },
+    {
+      "start": 2295.06,
+      "end": 2298.86,
+      "text": " And then the other thing related to the pandemic, I think there was a lot of learning."
+    },
+    {
+      "start": 2299.04,
+      "end": 2310.04,
+      "text": " China faced this virus first, and so Tony called up people around the world that were facing the same issues, and Tony realized the most important thing was to keep the restaurants open."
+    },
+    {
+      "start": 2310.5,
+      "end": 2312.58,
+      "text": " There are parts of the world where the restaurants are closed."
+    },
+    {
+      "start": 2312.58,
+      "end": 2317.3199999999997,
+      "text": " So long as you keep the restaurant open, then you can fix some of the other issues."
+    },
+    {
+      "start": 2317.46,
+      "end": 2320.3199999999997,
+      "text": " So they onboarded restaurants as much as they could."
+    },
+    {
+      "start": 2320.66,
+      "end": 2325.04,
+      "text": " Once you did that, then you needed to solve the issue related to drivers."
+    },
+    {
+      "start": 2325.2599999999998,
+      "end": 2331.02,
+      "text": " We provided them with masks and PPE and also worked on contact list deliveries."
+    },
+    {
+      "start": 2331.22,
+      "end": 2336.94,
+      "text": " And if you did that and you got the food safely to the customer, the customers obviously wanted to order."
+    },
+    {
+      "start": 2336.94,
+      "end": 2341.96,
+      "text": " Yeah, I'm curious, you brought up this idea that we keep in touch and we learn from each other around the world."
+    },
+    {
+      "start": 2341.96,
+      "end": 2351.04,
+      "text": " As Sequoia grew from a few partners to, you know, several pieces of a larger partnership in these global offices, obviously you increase the overhead."
+    },
+    {
+      "start": 2351.56,
+      "end": 2353.8,
+      "text": " You could spend all your time communicating with each other."
+    },
+    {
+      "start": 2354.14,
+      "end": 2357.96,
+      "text": " You know, it's a large organization with sort of communication networks like any other."
+    },
+    {
+      "start": 2358.12,
+      "end": 2360.7400000000002,
+      "text": " So how do you find that fine line?"
+    },
+    {
+      "start": 2360.94,
+      "end": 2367.64,
+      "text": " Like, I'm curious if you have a meeting cadence or anything like that where you do get to learn from each other, but you're not spending all your time communicating with each other."
+    },
+    {
+      "start": 2367.64,
+      "end": 2372.16,
+      "text": " No, it's very lightweight. Sequoia is structured in a very decentralized way."
+    },
+    {
+      "start": 2372.4,
+      "end": 2374.58,
+      "text": " Each group makes their own investment decisions."
+    },
+    {
+      "start": 2374.74,
+      "end": 2376.52,
+      "text": " Each geo makes their own investment decisions."
+    },
+    {
+      "start": 2377.02,
+      "end": 2384.2799999999997,
+      "text": " And we do that on purpose because what's on the ground is way more important than the global themes and the global trends."
+    },
+    {
+      "start": 2384.52,
+      "end": 2391.08,
+      "text": " You can think about the global themes and the global trends on a quarterly basis, but you're acting locally every single day."
+    },
+    {
+      "start": 2391.2,
+      "end": 2394.2599999999998,
+      "text": " So we try to think globally, but act locally."
+    },
+    {
+      "start": 2394.96,
+      "end": 2397.2999999999997,
+      "text": " And that's the mantra that we have inside of Sequoia."
+    },
+    {
+      "start": 2397.3,
+      "end": 2400.32,
+      "text": " What are the different operating teams sort of look like?"
+    },
+    {
+      "start": 2400.38,
+      "end": 2402.54,
+      "text": " Just so people get a sense of scale."
+    },
+    {
+      "start": 2402.76,
+      "end": 2404.5600000000004,
+      "text": " I mean, they're not very large, right?"
+    },
+    {
+      "start": 2404.9,
+      "end": 2408.6400000000003,
+      "text": " Like you're like, how big is the U.S. early stage practice?"
+    },
+    {
+      "start": 2408.84,
+      "end": 2411.4,
+      "text": " The early stage team is about 15 people."
+    },
+    {
+      "start": 2411.92,
+      "end": 2413.0600000000004,
+      "text": " It's just not a big team."
+    },
+    {
+      "start": 2413.2400000000002,
+      "end": 2423.6800000000003,
+      "text": " But the way we think about it is while there's a lot of opportunity, each one of us are only going to make one or two seed investments or one or two venture investments a year."
+    },
+    {
+      "start": 2423.68,
+      "end": 2433.6,
+      "text": " And the reason we keep it small is because what we enjoy is to partner with the founders as early as possible and help them and their companies reach their full potential."
+    },
+    {
+      "start": 2433.98,
+      "end": 2436.58,
+      "text": " And that is an enormous amount of work."
+    },
+    {
+      "start": 2436.58,
+      "end": 2443.56,
+      "text": " And we enjoy that part just as much as meeting new founders and thinking about the future."
+    },
+    {
+      "start": 2443.7799999999997,
+      "end": 2447.7,
+      "text": " But once we make an investment, we want to bring the future to fruition."
+    },
+    {
+      "start": 2448.0,
+      "end": 2449.98,
+      "text": " It's not just about making the investment."
+    },
+    {
+      "start": 2450.16,
+      "end": 2452.22,
+      "text": " We don't really think about buying low and selling high."
+    },
+    {
+      "start": 2452.3199999999997,
+      "end": 2455.02,
+      "text": " We think about helping founders reach their full potential."
+    },
+    {
+      "start": 2455.58,
+      "end": 2459.2,
+      "text": " Bring the future that they envision to reality."
+    },
+    {
+      "start": 2459.2,
+      "end": 2467.04,
+      "text": " The next thing I wanted to ask, in many ways, it's Sequoia's history that has sparked me thinking a lot about this over the past year."
+    },
+    {
+      "start": 2467.5,
+      "end": 2478.5,
+      "text": " And the Apple investment that we've covered so many times of, you know, that was an early example of, I think, buying low and selling high that in the long run probably served Sequoia not nearly as well as it could have."
+    },
+    {
+      "start": 2478.58,
+      "end": 2484.3399999999997,
+      "text": " I think you guys made $6 million in net profit on the early pre-IPO Apple investment."
+    },
+    {
+      "start": 2484.8799999999997,
+      "end": 2487.4199999999996,
+      "text": " How do you guys think about Time Horizon?"
+    },
+    {
+      "start": 2487.42,
+      "end": 2491.42,
+      "text": " And like, obviously, you need a long time horizon as you're talking about."
+    },
+    {
+      "start": 2491.5,
+      "end": 2493.56,
+      "text": " And that's the way to compound capital."
+    },
+    {
+      "start": 2493.9,
+      "end": 2497.64,
+      "text": " At the same time, you are a fund structure, a series of funds."
+    },
+    {
+      "start": 2497.7200000000003,
+      "end": 2498.62,
+      "text": " You have limited partners."
+    },
+    {
+      "start": 2499.0,
+      "end": 2501.04,
+      "text": " They want distributions at some point."
+    },
+    {
+      "start": 2501.36,
+      "end": 2506.4,
+      "text": " When do you guys think about the right time to start to distribute out your investments?"
+    },
+    {
+      "start": 2506.96,
+      "end": 2512.1800000000003,
+      "text": " We think about whether the company has brighter prospects in the future than they do today."
+    },
+    {
+      "start": 2512.4,
+      "end": 2515.7200000000003,
+      "text": " And if that's the case, then we continue to hold."
+    },
+    {
+      "start": 2515.72,
+      "end": 2521.2999999999997,
+      "text": " We don't actively think about distributions from an IRR or money-on-money perspective."
+    },
+    {
+      "start": 2521.58,
+      "end": 2524.7599999999998,
+      "text": " Yes, obviously, we are a fund and we get measured that way."
+    },
+    {
+      "start": 2524.8999999999996,
+      "end": 2533.7799999999997,
+      "text": " But we're very proud of the fact that our as-held multiples are higher than our net multiples of the stock that we distribute."
+    },
+    {
+      "start": 2533.78,
+      "end": 2536.2400000000002,
+      "text": " It's a deliberate strategy that that's the case."
+    },
+    {
+      "start": 2536.36,
+      "end": 2546.6200000000003,
+      "text": " And so the reason that that is, is because we both pick the right founders who want to build long-lasting companies and we help them focus on what's enduring about their business."
+    },
+    {
+      "start": 2546.62,
+      "end": 2554.64,
+      "text": " You know, you're just a lot better off focusing on the long run than on any short-run swings up or down in the market."
+    },
+    {
+      "start": 2554.98,
+      "end": 2559.3199999999997,
+      "text": " And so when we distribute, it's, yes, it's because it's maybe the end of the life of a fund."
+    },
+    {
+      "start": 2559.48,
+      "end": 2568.96,
+      "text": " But it's more about even when we distribute, we hope that the company has much longer prospects than when we, the day we sort of send the shares to our LPs."
+    },
+    {
+      "start": 2568.96,
+      "end": 2572.86,
+      "text": " We distribute shares and let our LPs decide whether they want to sell or not."
+    },
+    {
+      "start": 2572.98,
+      "end": 2574.42,
+      "text": " We generally don't sell the stock."
+    },
+    {
+      "start": 2575.08,
+      "end": 2575.36,
+      "text": " It's funny."
+    },
+    {
+      "start": 2575.44,
+      "end": 2579.5,
+      "text": " It's a nice thing to say, to say, you know, we're long-run focused over short-term focused."
+    },
+    {
+      "start": 2579.68,
+      "end": 2591.12,
+      "text": " But in the business that we're in, it's quite literally and mathematically just a much, much better strategy given how much of the area under the curve of a compounding returns business shows up in those later years."
+    },
+    {
+      "start": 2591.12,
+      "end": 2600.92,
+      "text": " I mean, I think I heard a stat recently that was Amazon made more money in its 21st year after IPO than in the entirety of the 20 cents IPO."
+    },
+    {
+      "start": 2601.48,
+      "end": 2604.18,
+      "text": " And so it's just funny to think about these businesses that we're in."
+    },
+    {
+      "start": 2604.68,
+      "end": 2610.7,
+      "text": " Like, the opportunity to invest where you're investing does come early, but the real returns do come much, much, much later."
+    },
+    {
+      "start": 2611.16,
+      "end": 2612.96,
+      "text": " It's a testament to compounding."
+    },
+    {
+      "start": 2612.96,
+      "end": 2622.98,
+      "text": " The thing that people don't get right, and it's hard for us to understand compounding because we're human and we like linear projections as opposed to exponential projections."
+    },
+    {
+      "start": 2623.48,
+      "end": 2625.38,
+      "text": " We get it wrong in the beginning and in the end."
+    },
+    {
+      "start": 2625.76,
+      "end": 2630.0,
+      "text": " I think the things you get wrong at the beginning is it looks linear."
+    },
+    {
+      "start": 2630.2200000000003,
+      "end": 2632.48,
+      "text": " It's not, it doesn't look like it's compounding."
+    },
+    {
+      "start": 2632.56,
+      "end": 2635.56,
+      "text": " Well, actually, early years of compounding look very linear."
+    },
+    {
+      "start": 2635.56,
+      "end": 2644.2999999999997,
+      "text": " And in fact, at any single point in time, at any point, compounding, it still looks linear exactly where you are."
+    },
+    {
+      "start": 2644.66,
+      "end": 2645.4,
+      "text": " Well, a tangent, yeah."
+    },
+    {
+      "start": 2646.0,
+      "end": 2650.9,
+      "text": " The tangent of it looks very linear, and it's not that far off from being linear, or you draw the line wrong."
+    },
+    {
+      "start": 2651.44,
+      "end": 2656.66,
+      "text": " It's almost always more obvious after the fact that you're in a compounding situation."
+    },
+    {
+      "start": 2656.66,
+      "end": 2664.5,
+      "text": " I hope that people understand that more given what's happened with the pandemic, because that is also an exponential growth sort of situation."
+    },
+    {
+      "start": 2664.5,
+      "end": 2669.8,
+      "text": " And we always get surprised, and then we clamp down after the fact."
+    },
+    {
+      "start": 2669.84,
+      "end": 2681.44,
+      "text": " And we still continue to see cases after people take more precautions over a longer period of time, because compounding sticks, it's a hard thing to reverse."
+    },
+    {
+      "start": 2682.0,
+      "end": 2682.36,
+      "text": " Mm-hmm."
+    },
+    {
+      "start": 2682.66,
+      "end": 2683.58,
+      "text": " That's such a good point."
+    },
+    {
+      "start": 2684.02,
+      "end": 2685.28,
+      "text": " All right, listeners."
+    },
+    {
+      "start": 2685.86,
+      "end": 2690.1,
+      "text": " Now is a great time to thank our longtime friend of the show, ServiceNow."
+    },
+    {
+      "start": 2690.1,
+      "end": 2698.18,
+      "text": " If you are running a large enterprise, AI agents are likely spread across every team, and deploying them is no longer the hard part."
+    },
+    {
+      "start": 2698.5,
+      "end": 2698.56,
+      "text": " Yeah."
+    },
+    {
+      "start": 2698.72,
+      "end": 2705.74,
+      "text": " The hard part is knowing what permissions they have, what employees are using them for, or what decisions AI is making."
+    },
+    {
+      "start": 2706.2,
+      "end": 2710.2799999999997,
+      "text": " AI security for an enterprise at scale is not a small concern."
+    },
+    {
+      "start": 2710.52,
+      "end": 2712.02,
+      "text": " Like, the risks are real."
+    },
+    {
+      "start": 2712.02,
+      "end": 2712.62,
+      "text": " Exactly."
+    },
+    {
+      "start": 2712.96,
+      "end": 2718.68,
+      "text": " And the challenge with AI is governing it, securing it, measuring it, and making sure that it actually delivers value."
+    },
+    {
+      "start": 2718.88,
+      "end": 2722.0,
+      "text": " That is why ServiceNow built the AI Control Tower."
+    },
+    {
+      "start": 2722.34,
+      "end": 2722.5,
+      "text": " Yep."
+    },
+    {
+      "start": 2722.62,
+      "end": 2729.88,
+      "text": " AI Control Tower gives enterprises a single place to see, manage, govern, and optimize AI across the entire business."
+    },
+    {
+      "start": 2730.02,
+      "end": 2732.64,
+      "text": " And it works with any AI, not just theirs."
+    },
+    {
+      "start": 2733.12,
+      "end": 2739.52,
+      "text": " Every device on your network, every permission across every system, every AI agent visible and secure in one place."
+    },
+    {
+      "start": 2739.52,
+      "end": 2746.48,
+      "text": " And ServiceNow can do this because they've spent more than 20 years building the operational backbone of the enterprise."
+    },
+    {
+      "start": 2746.82,
+      "end": 2755.8,
+      "text": " The workflows, governance, approvals, security controls, and institutional knowledge that power how work actually gets done across IT, HR, customer service, finance, and security."
+    },
+    {
+      "start": 2756.02,
+      "end": 2765.54,
+      "text": " ServiceNow already runs more than 100 billion workflows annually, and trillions of transactions for more than 85% of the Fortune 500."
+    },
+    {
+      "start": 2765.54,
+      "end": 2772.44,
+      "text": " So when companies need a place to govern AI at enterprise scale, they're building on a platform at the center of how their business already operates."
+    },
+    {
+      "start": 2772.84,
+      "end": 2779.12,
+      "text": " And in a future that isn't going to be one AI, it's going to be thousands of AI agents working across every function of the company."
+    },
+    {
+      "start": 2779.44,
+      "end": 2781.64,
+      "text": " But the question is, who's managing them all?"
+    },
+    {
+      "start": 2781.84,
+      "end": 2791.8,
+      "text": " So if you're trying to turn AI ambition into real business outcomes and make it work safely, securely, at scale, go check out ServiceNow.com slash acquired and tell them that Ben and David sent you."
+    },
+    {
+      "start": 2791.8,
+      "end": 2797.6200000000003,
+      "text": " Well, I have one more sort of structural question here before we start to wind toward the end of our episode."
+    },
+    {
+      "start": 2797.88,
+      "end": 2819.6000000000004,
+      "text": " So a lot of people who are building firms or building enduring institutions of any type look to Sequoia as an example of 49 years high performance at almost every, if not every stage along the journey, building from a small group of people into a globally distributed team that runs like a well-oiled machine, at least perception from the outside."
+    },
+    {
+      "start": 2819.6,
+      "end": 2832.12,
+      "text": " And I'm curious, what are some of the practices that have contributed to allowing you to learn and get better and become that enduring institution instead of something that flames out at some point?"
+    },
+    {
+      "start": 2832.48,
+      "end": 2834.74,
+      "text": " And I'm thinking, you know, do you do postmortems?"
+    },
+    {
+      "start": 2834.86,
+      "end": 2838.64,
+      "text": " How do you think about learning from your mistakes, learning from your successes?"
+    },
+    {
+      "start": 2839.12,
+      "end": 2840.4,
+      "text": " How does that all happen?"
+    },
+    {
+      "start": 2840.4,
+      "end": 2849.26,
+      "text": " Well, this is going to sound trite, but it had to do with Don starting out and calling it Sequoia Capital instead of Valentine Capital."
+    },
+    {
+      "start": 2849.64,
+      "end": 2851.62,
+      "text": " He had set the culture right at the beginning."
+    },
+    {
+      "start": 2851.92,
+      "end": 2853.82,
+      "text": " And this is a people business."
+    },
+    {
+      "start": 2854.08,
+      "end": 2857.82,
+      "text": " We hire partners that then interface with our founders."
+    },
+    {
+      "start": 2858.52,
+      "end": 2861.1,
+      "text": " There's very little secret sauce in this business."
+    },
+    {
+      "start": 2861.1,
+      "end": 2871.08,
+      "text": " And the simple fact of basically calling it Sequoia Capital because he wanted to build the tallest tree inside of venture capital makes a statement."
+    },
+    {
+      "start": 2871.24,
+      "end": 2879.98,
+      "text": " It also makes a statement that the firm is not his, that he's around to start the firm and then he's going to hand it over to Mike and Doug."
+    },
+    {
+      "start": 2880.2799999999997,
+      "end": 2883.56,
+      "text": " And it's their job to sort of keep Sequoia going."
+    },
+    {
+      "start": 2883.7599999999998,
+      "end": 2889.7599999999998,
+      "text": " And at some point they're going to go and they're going to hand it off to the next generation and the next generation after that."
+    },
+    {
+      "start": 2889.76,
+      "end": 2896.5400000000004,
+      "text": " And you're pointing out that he didn't put some high value on the management company because it had been so successful to sell to the next generation."
+    },
+    {
+      "start": 2896.7000000000003,
+      "end": 2899.6000000000004,
+      "text": " He literally just said, you now own the management company, right?"
+    },
+    {
+      "start": 2899.7400000000002,
+      "end": 2899.92,
+      "text": " Yeah."
+    },
+    {
+      "start": 2900.0400000000004,
+      "end": 2902.6600000000003,
+      "text": " And nobody owns a management company at Sequoia."
+    },
+    {
+      "start": 2902.78,
+      "end": 2905.6400000000003,
+      "text": " The GPs sort of manage the management company."
+    },
+    {
+      "start": 2905.82,
+      "end": 2907.98,
+      "text": " And we don't view it as owning it."
+    },
+    {
+      "start": 2908.1000000000004,
+      "end": 2912.26,
+      "text": " We view it as we inherited it from the last generation."
+    },
+    {
+      "start": 2912.26,
+      "end": 2917.7000000000003,
+      "text": " And it's our job to make sure that we pass it on to the next generation in better hands."
+    },
+    {
+      "start": 2917.7,
+      "end": 2922.02,
+      "text": " All of us come to Sequoia being able to stand on the shoulder of giants."
+    },
+    {
+      "start": 2922.3799999999997,
+      "end": 2926.18,
+      "text": " And we want to make sure that this place is better off for the next generation."
+    },
+    {
+      "start": 2927.1,
+      "end": 2933.16,
+      "text": " And just coming off of that is a huge base to be able to build upon."
+    },
+    {
+      "start": 2933.46,
+      "end": 2938.9399999999996,
+      "text": " In terms of like constant learning, this business, you need three key ingredients."
+    },
+    {
+      "start": 2938.94,
+      "end": 2945.9,
+      "text": " And I think I've said this before, which is you need high IQ, high EQ, and high hustle."
+    },
+    {
+      "start": 2946.12,
+      "end": 2947.7000000000003,
+      "text": " And then you need to apply it appropriately."
+    },
+    {
+      "start": 2948.12,
+      "end": 2958.98,
+      "text": " If you're just super smart, but you can't influence your founders or have them influence their management team to do the right things, that's not really going to work."
+    },
+    {
+      "start": 2958.98,
+      "end": 2964.82,
+      "text": " Just because you can identify something wrong with the company, this is a business of influence."
+    },
+    {
+      "start": 2964.94,
+      "end": 2969.4,
+      "text": " You've got to influence people to take your money because your money is just as green as everybody else's."
+    },
+    {
+      "start": 2969.8,
+      "end": 2978.98,
+      "text": " But more importantly, after you make the investment and you become partners with the founders, you have to influence them to do a bunch of things that they may not like."
+    },
+    {
+      "start": 2978.98,
+      "end": 2990.2,
+      "text": " Because most founders that have strengths and have weaknesses and they're really good at certain areas, and then you have to influence them to sort of round out and build a company and not just a product or a feature."
+    },
+    {
+      "start": 2990.38,
+      "end": 2992.02,
+      "text": " And this business is high hustle."
+    },
+    {
+      "start": 2992.2400000000002,
+      "end": 2995.92,
+      "text": " You hustle every single day going after a theme or a trend."
+    },
+    {
+      "start": 2995.92,
+      "end": 3006.68,
+      "text": " How do I think about that and turn it into understanding the whole landscape of what's going on and then picking the right founder to partner with to build a company in that space?"
+    },
+    {
+      "start": 3006.68,
+      "end": 3010.18,
+      "text": " Those things require an enormous amount of effort and time."
+    },
+    {
+      "start": 3010.68,
+      "end": 3014.02,
+      "text": " It requires being both a skeptic about what's going to go wrong."
+    },
+    {
+      "start": 3014.12,
+      "end": 3017.6,
+      "text": " It also requires a lot of imagination for what can go right."
+    },
+    {
+      "start": 3018.0,
+      "end": 3024.24,
+      "text": " And back to there's no secret sauce is if you want to be good at this business, you don't have to be a constant learning machine."
+    },
+    {
+      "start": 3024.44,
+      "end": 3028.18,
+      "text": " You've got to think about every single day what you can improve for the next day."
+    },
+    {
+      "start": 3028.52,
+      "end": 3032.16,
+      "text": " In terms of compounding, that's probably the most important thing."
+    },
+    {
+      "start": 3032.24,
+      "end": 3034.8199999999997,
+      "text": " If you can just improve a little bit every single day."
+    },
+    {
+      "start": 3034.82,
+      "end": 3040.5,
+      "text": " I mean, you want to suck less tomorrow is the way, sort of one way to think about it."
+    },
+    {
+      "start": 3040.7400000000002,
+      "end": 3042.0800000000004,
+      "text": " And this is a humbling business."
+    },
+    {
+      "start": 3042.2400000000002,
+      "end": 3046.36,
+      "text": " When I joined, I remember Mike saying a line which was like jarring."
+    },
+    {
+      "start": 3046.54,
+      "end": 3052.38,
+      "text": " That this is a humbling business because you can make money even if you got the investment thesis wrong,"
+    },
+    {
+      "start": 3052.44,
+      "end": 3055.96,
+      "text": " and you can lose money even though if you got the investment thesis right."
+    },
+    {
+      "start": 3055.96,
+      "end": 3065.34,
+      "text": " If you don't get cognitive dissonance hearing that, you have to be both excited by that and also know that you're not going to get things right every single day."
+    },
+    {
+      "start": 3065.7200000000003,
+      "end": 3070.02,
+      "text": " And this is why people who are in this business for a long time continue to love it."
+    },
+    {
+      "start": 3070.62,
+      "end": 3075.88,
+      "text": " There's the element of meeting founders that they just, even if you don't agree with them,"
+    },
+    {
+      "start": 3075.88,
+      "end": 3083.08,
+      "text": " it's infectious to hear them speak because they're painting a future of the world that's just different."
+    },
+    {
+      "start": 3083.32,
+      "end": 3086.5,
+      "text": " And then there's the element of like, gosh, I got that wrong."
+    },
+    {
+      "start": 3086.62,
+      "end": 3088.0,
+      "text": " Gosh, I got this wrong."
+    },
+    {
+      "start": 3088.26,
+      "end": 3092.1800000000003,
+      "text": " Gosh, I made money on this, but I still got most of everything wrong."
+    },
+    {
+      "start": 3092.36,
+      "end": 3094.94,
+      "text": " Was I actually good or was I just lucky?"
+    },
+    {
+      "start": 3094.94,
+      "end": 3100.32,
+      "text": " I always tell people if they want to join venture capital, they're like, I'm going to try to convince you not to join."
+    },
+    {
+      "start": 3100.44,
+      "end": 3104.52,
+      "text": " And then after all of the reasons why you shouldn't join, you still want to join."
+    },
+    {
+      "start": 3104.6,
+      "end": 3112.46,
+      "text": " I'll tell you more about it because it will take a decade or longer for you to figure out whether you're good at this business or not."
+    },
+    {
+      "start": 3112.62,
+      "end": 3118.64,
+      "text": " Maybe you'll find out you're bad at it because you can't get in front of interesting opportunities."
+    },
+    {
+      "start": 3118.9,
+      "end": 3120.3,
+      "text": " You don't dream enough."
+    },
+    {
+      "start": 3120.3,
+      "end": 3126.02,
+      "text": " You can find that out relatively quickly, but you won't know that you're good at this for a long time."
+    },
+    {
+      "start": 3126.38,
+      "end": 3131.5,
+      "text": " You're now in a position where you're doing a lot of hiring, I assume, at Sequoia in a way that, you know,"
+    },
+    {
+      "start": 3131.54,
+      "end": 3138.2200000000003,
+      "text": " Don famously in the GSP view from the top lecture, he held up your resume than the day you joined Sequoia."
+    },
+    {
+      "start": 3138.48,
+      "end": 3145.7000000000003,
+      "text": " When you're evaluating people to join the firm, what qualities do you look for that give you an inkling that they might be good at this?"
+    },
+    {
+      "start": 3146.3,
+      "end": 3148.48,
+      "text": " High IQ, high EQ, and high hustle."
+    },
+    {
+      "start": 3150.3,
+      "end": 3152.0800000000004,
+      "text": " David, weren't you listening at all?"
+    },
+    {
+      "start": 3152.9,
+      "end": 3153.92,
+      "text": " Obviously not."
+    },
+    {
+      "start": 3154.54,
+      "end": 3157.2000000000003,
+      "text": " There are no real requirements for this job, right?"
+    },
+    {
+      "start": 3157.26,
+      "end": 3163.1800000000003,
+      "text": " Like you can put anybody's resume up and they can become a great venture capitalist."
+    },
+    {
+      "start": 3163.32,
+      "end": 3174.94,
+      "text": " There's an element of those raw ingredients and then there's an element of desire and sticking to a sort of business that pays you to be in it for the long run."
+    },
+    {
+      "start": 3174.94,
+      "end": 3179.4,
+      "text": " Like you're not going to get your biggest gains on day one."
+    },
+    {
+      "start": 3179.54,
+      "end": 3185.7000000000003,
+      "text": " You're going to see all your losses earlier in your career and your gains take a long time to develop."
+    },
+    {
+      "start": 3186.02,
+      "end": 3192.7000000000003,
+      "text": " So, you know, maybe the other element is just the focus on the enduring, which is one of our tenets."
+    },
+    {
+      "start": 3192.7,
+      "end": 3196.7599999999998,
+      "text": " Well, Alfred, I can't think of a better place than that to leave it."
+    },
+    {
+      "start": 3197.16,
+      "end": 3203.98,
+      "text": " I do want to give you the floor and say if founders are thinking about reaching out to you, who should reach out and how can they get in touch?"
+    },
+    {
+      "start": 3204.22,
+      "end": 3205.52,
+      "text": " Yeah, just simply email me."
+    },
+    {
+      "start": 3205.68,
+      "end": 3209.24,
+      "text": " I'm at lynn, L-I-N, at sequoiacap.com if they want to reach out to me."
+    },
+    {
+      "start": 3209.24,
+      "end": 3215.72,
+      "text": " Another word of encouragement for founders, you're doing good work and to keep at it."
+    },
+    {
+      "start": 3216.2,
+      "end": 3226.2599999999998,
+      "text": " Keep thinking about every single day about how you can build a sustainable business because your business model and your business plan is the strategic weapon."
+    },
+    {
+      "start": 3226.72,
+      "end": 3234.14,
+      "text": " We provide capital, which is fuel, but you need the strategic business plan first before you can do anything with that fuel."
+    },
+    {
+      "start": 3234.7799999999997,
+      "end": 3235.18,
+      "text": " I love it."
+    },
+    {
+      "start": 3235.4399999999996,
+      "end": 3237.24,
+      "text": " Well, Alfred, thank you so much for joining us."
+    },
+    {
+      "start": 3237.66,
+      "end": 3237.9599999999996,
+      "text": " All right."
+    },
+    {
+      "start": 3237.9599999999996,
+      "end": 3238.3799999999997,
+      "text": " Thank you."
+    },
+    {
+      "start": 3238.38,
+      "end": 3240.2400000000002,
+      "text": " All right, listeners."
+    },
+    {
+      "start": 3240.5,
+      "end": 3245.6800000000003,
+      "text": " Now is a great time to talk about one of our favorite companies, Statsig."
+    },
+    {
+      "start": 3245.94,
+      "end": 3248.28,
+      "text": " Yes, longtime acquired partner."
+    },
+    {
+      "start": 3248.86,
+      "end": 3263.7000000000003,
+      "text": " There is a reason why the best product teams at companies like OpenAI and Notion, Atlassian, Figma, Rippling, Brex, and more rely on Statsig, whether they are iterating on their core product features or shipping AI-powered experiences at scale."
+    },
+    {
+      "start": 3263.7000000000003,
+      "end": 3264.3,
+      "text": " Yep."
+    },
+    {
+      "start": 3264.3,
+      "end": 3270.1000000000004,
+      "text": " In the crazy speed of today's AI world, shipping fast is just table stakes now."
+    },
+    {
+      "start": 3270.1,
+      "end": 3274.18,
+      "text": " It's basically trivial to build and deploy your app constantly."
+    },
+    {
+      "start": 3274.18,
+      "end": 3284.08,
+      "text": " The real advantage is how quickly you learn what changes actually created value for customers and how fast you can use that signal to guide what you ship next."
+    },
+    {
+      "start": 3284.08,
+      "end": 3291.5,
+      "text": " Whether it's a feature tweak, a pricing change, a performance improvement, or an AI update like a model change or prompt adjustment."
+    },
+    {
+      "start": 3291.5,
+      "end": 3293.34,
+      "text": " They're not relying on instinct."
+    },
+    {
+      "start": 3293.78,
+      "end": 3297.98,
+      "text": " They're measuring what actually moved engagement, retention, and ultimately revenue."
+    },
+    {
+      "start": 3298.66,
+      "end": 3302.68,
+      "text": " And as more teams build with AI, that learning loop becomes even more important."
+    },
+    {
+      "start": 3303.24,
+      "end": 3307.28,
+      "text": " Building with LLMs introduces non-determinism into your product experience."
+    },
+    {
+      "start": 3307.28,
+      "end": 3313.52,
+      "text": " The same input doesn't always produce the same output, and behavior can shift in subtle ways in real-world use."
+    },
+    {
+      "start": 3314.2400000000002,
+      "end": 3325.6400000000003,
+      "text": " So doing offline evals will give you part of the picture, but you can really only understand the impact once your product is live with real users, and then you can measure how their behavior actually changes."
+    },
+    {
+      "start": 3325.8,
+      "end": 3333.48,
+      "text": " It's very different than the way that you would ship features in a pre-AI world where you knew exactly what the software was going to do in production."
+    },
+    {
+      "start": 3333.5600000000004,
+      "end": 3334.1600000000003,
+      "text": " Yeah, exactly."
+    },
+    {
+      "start": 3334.16,
+      "end": 3336.64,
+      "text": " So this is where Statsig comes in."
+    },
+    {
+      "start": 3336.8599999999997,
+      "end": 3347.74,
+      "text": " It brings experimentation, feature flags, and product analytics into one unified system so teams can ship safely, test rigorously, and directly link what they changed to how users actually behaved."
+    },
+    {
+      "start": 3347.92,
+      "end": 3354.2799999999997,
+      "text": " The result is a tighter feedback loop and learning that compounds over time so you don't just ship more, you ship better."
+    },
+    {
+      "start": 3354.28,
+      "end": 3365.1200000000003,
+      "text": " So if you want to make learning your competitive advantage, whether you're building new AI experiences or just evolving your existing core product, go to statsig.com slash acquired to get started."
+    },
+    {
+      "start": 3365.12,
+      "end": 3367.74,
+      "text": " Listeners, thank you for joining us."
+    },
+    {
+      "start": 3367.74,
+      "end": 3377.54,
+      "text": " For folks who don't know, we have started codifying the playbook from each episode in some written bullet points, which no doubt we will do for this playbook episode with Sequoia."
+    },
+    {
+      "start": 3377.7,
+      "end": 3385.3799999999997,
+      "text": " And we email those out after we post each episode, which is really great if you like consuming content in sort of that quick, easy way in written form."
+    },
+    {
+      "start": 3385.38,
+      "end": 3390.32,
+      "text": " So if this is something that you want, you can sign up to receive the playbooks at acquired.fm."
+    },
+    {
+      "start": 3390.32,
+      "end": 3398.1000000000004,
+      "text": " And if you join our community Slack at acquired.fm slash Slack, you will automatically also be signed up to receive the playbooks."
+    },
+    {
+      "start": 3398.44,
+      "end": 3404.2400000000002,
+      "text": " As always, if you love Acquired and you want to be a deeper part of what David and I do here, you should become a limited partner."
+    },
+    {
+      "start": 3404.56,
+      "end": 3412.52,
+      "text": " You'll get access to our library of over 50 interviews and deep dives on company building topics with more to come in the future, our monthly Zoom calls."
+    },
+    {
+      "start": 3412.52,
+      "end": 3421.3,
+      "text": " And this is new, live access to listen in while we record big events and emergency pods and our book club discussions with authors."
+    },
+    {
+      "start": 3421.56,
+      "end": 3426.7599999999998,
+      "text": " So if you aren't already in LP, you can click the link in the show notes or go to acquired.fm slash LP."
+    },
+    {
+      "start": 3427.04,
+      "end": 3428.92,
+      "text": " We can't wait to see you in there."
+    },
+    {
+      "start": 3429.36,
+      "end": 3435.34,
+      "text": " And lastly, if you are not subscribed and you liked this episode, you totally should click subscribe."
+    },
+    {
+      "start": 3435.56,
+      "end": 3438.22,
+      "text": " You can do that in the podcast player of your choice."
+    },
+    {
+      "start": 3438.22,
+      "end": 3447.1,
+      "text": " And if you like this episode and you have a friend that you think would like it too, you should share it with them personally or just shout it from your favorite local social media hilltop."
+    },
+    {
+      "start": 3447.7,
+      "end": 3451.68,
+      "text": " With that, thank you so much for listening and we will see you next time."
+    },
+    {
+      "start": 3451.9399999999996,
+      "end": 3452.8199999999997,
+      "text": " We'll see you next time."
+    },
+    {
+      "start": 3468.22,
+      "end": 3470.7799999999997,
+      "text": "遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣�"
+    }
+  ],
+  "paragraphs": [
+    {
+      "start": 0.04,
+      "end": 41.6,
+      "text": "I'm Ben Gilbert, and I am the co-founder of Pioneer Square Labs, a startup studio and venture capital firm in Seattle. Oh, that's me. David. And I'm David Rosenthal. Welcome to this special episode of Acquired, the podcast about great technology companies and the stories and playbooks behind them. I'm Ben Gilbert, and I'm the co-founder of Pioneer Square Labs, a startup studio and venture capital firm in Seattle. And I'm David Rosenthal, and I am an angel investor based in San Francisco."
+    },
+    {
+      "start": 42.1,
+      "end": 75.28,
+      "text": "And we are your hosts. Sequoia Capital needs almost no introduction. When we did the comprehensive two-part series on their history, we noted that they had invested early in companies that went on to be worth over $3.3 trillion. At the time, the market cap of the entire NASDAQ was about $10 trillion. I'm sure both of these numbers are dramatically higher right now as we record this in January of 2021. At the end of last year, we saw a Sequoia doubleheader in the two enormous IPOs of DoorDash and Airbnb."
+    },
+    {
+      "start": 75.28,
+      "end": 104.72,
+      "text": "Alfred Lin, a partner at Sequoia, sits on not one, but both of these boards. And as pointed out by Dan Primack at Axios, these were his first two IPOs after his decade at Sequoia. It certainly pays to be patient. So after that, we couldn't help ourselves but reach out to Alfred to have him back on Acquired and ask the questions. How does Sequoia identify these investment opportunities? What is the internal playbook for creating their famous prepared mind to evaluate such opportunities when they come along?"
+    },
+    {
+      "start": 105.34,
+      "end": 141.48,
+      "text": "And today, we dive into what this all means in practice at Sequoia, and we take a few lessons from what they've learned in over 49 years of finding and building great companies. So David, who is Alfred? 49 years. It's incredible. So Alfred, as we covered with you on our Zappos episode, Alfred, you are the CFO of Link Exchange and Tell Me Networks, the co-founder of Venture Frogs with Tony Hsieh, and then of course, the COO and chairman of Zappos until its sale to Amazon."
+    },
+    {
+      "start": 142.14,
+      "end": 171.72,
+      "text": "Today, Alfred is a partner at Sequoia, where he manages the early stage business in the US and sits on the boards of Airbnb, DoorDash, Fair, House, Instacart, Reddit, Zipline, and more. And of course, I know, Alfred, you're going to shrug this off and use the Robert Louis Stevenson quote that you love about judging each day by the seeds you plant, not the harvest you reap. But we have to congratulate you on those two IPOs, DoorDash and Airbnb, last month."
+    },
+    {
+      "start": 172.06,
+      "end": 202.5,
+      "text": "Truly amazing. Well, thank you. And thank you for having me on the show. I would point out that this is a team effort. Many of the companies that we work with, I may represent Sequoia on the board, but it is the whole partnership that brings the weight of Sequoia to the table and helps those companies become legendary companies. And we couldn't have done that without the spectacular founders that we partner with. So the kudos goes to them for having the courage to start those companies and wanting to put a ding in the universe."
+    },
+    {
+      "start": 203.02,
+      "end": 230.0,
+      "text": "Love it. Well, that is everything that we are going to talk about here today. All right, listeners, now is a great time to talk about a new partner of ours here on Acquired, Lagora, the agentic operating system that is redefining how the world's best legal teams work. Yep. It's sort of obvious that AI is going to completely change the legal industry. I bet most of you listening have dropped a contract into some sort of AI chatbot out there."
+    },
+    {
+      "start": 230.2,
+      "end": 262.53999999999996,
+      "text": "Lagora took that insight and asked the question, what if you really built something with that power from the ground up for the legal industry? So the founders did exactly what great founders do, operate with obsessive customer focus. They embedded inside a massive law firm for months. They sat with the lawyers just watching how the work really gets done. And that's how you get features that customers love, like tabular review, where you drop in a folder of hundreds of contracts and it pulls every key term into a grid a lawyer can actually work with."
+    },
+    {
+      "start": 262.85999999999996,
+      "end": 295.0,
+      "text": "Lagora's bet here is interesting. Since it lets each lawyer handle more complexity, any given person can increase the quality of their work and do higher value work. And this means that the pie can grow even as each individual task takes less time. And they recently launched Lagora Agent, offering greater intelligence and performance. The agent lets lawyers set an objective. Then it can handle the planning and the execution and delivery of the final product. Legal teams get to maintain full control and transparency since they're still involved where judgment is required."
+    },
+    {
+      "start": 295.5,
+      "end": 328.44,
+      "text": "And Lagora works where you already work. You can use it within Microsoft Word while redlining or drafting. The early Lagora numbers essentially speak for themselves. When they have a head-to-head pilot with their top competitor, they win 70% of the time. Lagora now has over 100,000 lawyers on the platform from 1,200 legal teams in 50 countries. And crazily, they went from 1 million to 100 million in ARR in about 18 months. Truly insane numbers. And that is the real test."
+    },
+    {
+      "start": 328.78,
+      "end": 366.76,
+      "text": "Plenty of things demo well, but the question is whether a busy associate actually reaches for it during crunch time or whether a partner trusts it before going into a conversation with a major client. If your legal team wants to check it out, whether you're a law firm or you're in-house at a company, you can learn more at lagora.com slash acquired and just tell them that Ben and David sent you. David, take us in. So, Alfred, to kick things off, can you give us a little bit of the just sort of history of how this idea at Sequoia of wanting to have a prepared mind going into markets and investments and meeting teams came to be?"
+    },
+    {
+      "start": 366.76,
+      "end": 396.6,
+      "text": "Well, I think it all started with Don thinking about the market. I think the thing that we look for is a combination of great founding team and a great market. And great founding teams find great markets or they find a wedge into that market or they find what's wrong with the market. And then they discover that there's a problem that the world has gotten wrong. And they want to go fix that problem. And we've always had to sort of listen to founders because they come from the problem of solving their own pain."
+    },
+    {
+      "start": 396.92,
+      "end": 423.22,
+      "text": "And they may not be thinking about the market per se. They're thinking about the problem that they have. And so to pair up and to work with and partner with these great founders, we had to come prepared, thinking about the market and thinking about what the market can become. Because nobody's going to sort of wake up one day and suddenly know, oh, yeah, lots of people are going to share their bedrooms or their couches with a total stranger."
+    },
+    {
+      "start": 423.22,
+      "end": 453.92,
+      "text": "Nobody's going to think that if you don't have density in the suburbs that you can actually make a delivery service work. But you do have to sort of think about this from a sort of perspective of being prepared and thinking about both the market and the ability of the market to grow and change. We often talk a lot about prepared mind because chance favors the prepared mind, as Louis Prestor would say. And when Jim gets joined Sequoia, he had identified a lot of interesting areas to invest in."
+    },
+    {
+      "start": 454.12,
+      "end": 488.66,
+      "text": "And he pioneered some of our thinking of having landscapes and having a prepared mind for the mobile landscape, for the rise of the developer. And he would work and try to understand the landscape of what was possible. Where were the white spaces? Where were the places that you can actually build a company because the incumbents, the legendary companies of the past, were not so much focused on those areas? If you wanted to sort of think about in Airbnb's case, Greg McAdoo had been thinking about timeshares and vacation rentals for a long time."
+    },
+    {
+      "start": 488.66,
+      "end": 520.08,
+      "text": "Because it was kind of weird that hotels were slowly being aggregated and they were sort of being aggregated onto global online travel platforms. But that wasn't quite true with timeshares and vacation rentals to the same extent. And it didn't lead necessarily immediately to an investment, but it gave us a sort of prepared mind on localized listings didn't really exist, BRBOs and HomeAway, which made most of its revenue was from advertising rather than booking and the transaction itself."
+    },
+    {
+      "start": 520.5,
+      "end": 553.7,
+      "text": "So when we saw Airbnb, it's like a completely different vector and a different way of thinking about the business. And in DoorDash's case, since you asked about DoorDash, between 2011 and 2013, with the rise of the on-demand economy, we actually evaluated a variety of investments, opportunities in this space. And we met with Grubhub. We met with Caviar. We met with Postmates. And each time we passed, not because we were uncertain about the market size, we were actually, we noticed that this required a very, very operational founder."
+    },
+    {
+      "start": 553.7,
+      "end": 586.5999999999999,
+      "text": "This business is going to be won by both having a differentiated strategy, but also a person and a team that was going to be very, very focused on operations. And when we met Tony, that was the combination we saw. He had a differentiated approach. And the differentiation for him was the strategy of focusing on the merchants and in the suburbs. And the thing that he also brought was his keen eye for operations. And so we unfortunately decided to pass on the seed."
+    },
+    {
+      "start": 587.0,
+      "end": 615.08,
+      "text": "And that's my fault. It took time for us to sort of understand that Tony was a different character. He had both the strategy side as well as the operational side that brought what we consider founder market fit. And we invested in their Series A in every single round after that. And as you think about the way that you had previously thought about this food delivery market, the way that, you know, Greg had been thinking about the timeshare market and all that was wrong with it and aggregating it."
+    },
+    {
+      "start": 615.24,
+      "end": 642.08,
+      "text": "How does something bubble up within Sequoia from someone's sort of personal fascination with something to doing proactive work to come with a prepared mind when you do start to see pitches? Yeah, so I think the answer, the simple answer is there's no straight formula for any of this. I think the way that it has bubbled up has come through because we identify a trend through just reading. We're curious about vacation rentals. We start reading about it."
+    },
+    {
+      "start": 642.14,
+      "end": 667.0,
+      "text": "We start digging into it. And nothing may come out of it for that particular point in time. And then later on, it becomes more important. It can be a full-blown landscape that you sort of plot out and write up a memo about exactly what's going on in the landscape. Who are the players? What's going on? Where do we see white space? And it could be anywhere in between. Mention it to your partners. What do you think about this idea?"
+    },
+    {
+      "start": 667.16,
+      "end": 697.48,
+      "text": "What do you think about that idea? We have blue sky sessions every quarter where we sort of just try to dream. This business is about inspiration just as much as about perspiration. We need to both hustle, but at the same time, we need to be able to sort of think and be inspired about the world. And some of it comes from reading and some of it comes from just talking to founders. Other landscapes have started because we met an interesting founder with an interesting idea."
+    },
+    {
+      "start": 697.48,
+      "end": 727.6800000000001,
+      "text": "They're actually still riffing on the idea with us, and we go deep with them as well as go deep with other founders who are in that space trying to sort of make sense of what's going on. And so I think the sort of the ways that this has come about has come from complete randomness and serendipity to very, very structured thinking. The great part about Sequoia is we have a partnership and we have people who love to be proactive and think structurally."
+    },
+    {
+      "start": 727.9,
+      "end": 763.02,
+      "text": "And we have partners who love to be in the ecosystems, meeting lots of people and riffing ideas with lots of people in an imaginary way and dream up ideas with others. So this is a business that you can do well with both someone who's an introvert as well as someone who's an extrovert. But when you get to the landscape stage, whether that's as you're looking at a space as part of a team at the firm or maybe you're looking at a specific investment and you're doing diligence on that investment, what are the key things you're trying to understand?"
+    },
+    {
+      "start": 763.02,
+      "end": 790.1,
+      "text": "I mean, you know, Don in some of the old talk at GSB and the oral history with him, you know, he talks about needing to understand what the change is that's occurring in the market, needing to have a very specific problem that the company is solving, needing the timing to be right. What are these key features that you guys are focused on? The simple questions are you've heard before. Why now? Why now? What many of these ideas have people have thought of in the past."
+    },
+    {
+      "start": 790.1800000000001,
+      "end": 821.88,
+      "text": "It's not the first time that someone has decided that we should deliver food there. In 1999, there was a company called Cosmo that opened up in New York. So that didn't work. Why is Instacart in a much better position today than they were when Webvan started and Webvan didn't work? I think there are specific good reasons for why now. And then there are times when there's not a good why now. And in Instacart's case or in DoorDash's case, the why now has a lot to do with mobile and the on-demand economy."
+    },
+    {
+      "start": 822.1800000000001,
+      "end": 861.76,
+      "text": "People have always wanted instant gratification. But the ability to get a sort of a on-demand workforce was not available in 1999 because not everybody was carrying a mobile phone. So there are sort of situations where you have good why nows for a particular company to be able to sort of take off. The other question we ask all the time is, in 10 years, who cares about this company? Don used to ask, who cares? And it applies to who cares today, but it also, because we're investing early and we partner early, we partner at the idea stage, at the seed stage, and the venture stage at the Series A."
+    },
+    {
+      "start": 861.76,
+      "end": 889.98,
+      "text": "The company has to be an important company 10 years from now. So who cares 10 years from now? And what does this company become 10 years from now? So imagination about that and what happens when everything goes right is really important. So we do ask, if everything goes right, what does this company become? In the early stages, it's easy to spot why the company may fail. And it's quite easy to write the pre-mortem of a company."
+    },
+    {
+      "start": 890.2,
+      "end": 918.46,
+      "text": "What will go wrong? What are the major risks? It sometimes is very hard to really write about what this company can become. Do you find that founders know this at the seed stage? I mean, David and I know this from meeting with very early stage founders that so much is going to change in the dynamic market over the next 10 years. Do great founders know what could go right picture looks like? Does the Brian Chesky of today, are they able to fully articulate that they'll overtake hotels?"
+    },
+    {
+      "start": 918.98,
+      "end": 946.12,
+      "text": "I think it's easy to sort of look back from now and it was obvious. At the time, it was not always obvious. And I think what they will articulate is that people should do this this way. The way I view the future is a far superior future. And I think that that's the dream that you have to be able to riff on. And if that's the future, can you build a really large company? And in some cases, it's more obvious because the market is so large."
+    },
+    {
+      "start": 946.12,
+      "end": 974.24,
+      "text": "If you get just even a slice of the market, you'll be in good position. In other cases, it's less easy because you actually have to dream that the market gets bigger. That you're going to change behavior. You're going to take away from a different way that people used to do something. And both can happen. And we generally like the more non-obvious markets where there are good tailwinds and the markets could be small at the beginning and it can grow over time."
+    },
+    {
+      "start": 974.74,
+      "end": 1008.5,
+      "text": "Everybody knows where all the large markets are. And it's generally a bloodbath when you enter those markets. And so, you know, I'm not saying that, you know, competition is not going to happen in any company. Like in every company, if you're afraid of competition, you should just get up because if you're at all successful, someone's going to come after you. But I think for a startup, you kind of want some air cover at the beginning. You don't want to go into a competitive market and go head on with a large competitor on day one because they'll just crush you."
+    },
+    {
+      "start": 1009.06,
+      "end": 1042.52,
+      "text": "And so you need areas of white space. You need a market entry strategy where people think, you know, that's that little company. Oh, wow. You know, that's kind of cute. Go ahead. You can take that. But, you know, in Innovator's Dilemma, they talk about all the low margin stuff. The big companies always give the low margin stuff to the startups because the startups, yeah, who cares? There's not a lot of margin in that. They get really, really good at that because they figured out how to make money with low margin and they go up market to the higher margin stuff."
+    },
+    {
+      "start": 1042.58,
+      "end": 1070.3999999999999,
+      "text": "And then eventually they overtake the industry. That is one way, obviously, of entering a market. There are other ways of entering the market just with a superior product. So you get more and more people to sort of talk about you. And, you know, if it's 10 times or 20 times better product, then everybody's going to talk about you and will migrate to you. There are other ways by having a completely different strategy. If you think everybody thinks this is a feature, it may be someone else's bug."
+    },
+    {
+      "start": 1070.9399999999998,
+      "end": 1104.2,
+      "text": "Not everybody is the same. You're not going to capture 100% of the market in something as big as travel. But it's the ability to differentiate yourself from a current trend sometimes that makes you successful. And I think in both Airbnb's case and DoorDash's case, that is exactly what happened. I'm super curious, and I'm sure everybody listening is too right now. When you're debating that question within Sequoia, like, is Brian right? Is this going to move beyond airbeds?"
+    },
+    {
+      "start": 1104.3600000000001,
+      "end": 1142.2,
+      "text": "Like, when the conventional wisdom is, this is cute. And you're debating, is this going to be more than cute? What does that look like inside the firm? It has a lot to do with the sponsor in Airbnb's case, Greg, and in DoorDash's case, me sort of painting a picture of the world that and showing the conviction of why you believe that this is going to be the case. And it happens over and over again, right? Like, if you might be an investor in the seed like we were in Airbnb, and then in the A, you still have to sort of paint the picture again."
+    },
+    {
+      "start": 1142.34,
+      "end": 1174.46,
+      "text": "And maybe, is it bigger? Sometimes these companies, it's easy to dream with them because they, every single point along the way, they've outstripped everybody's expectations. Not just because there's more usage or more revenue, but the sort of the way the world has reacted to the company is just phenomenal. You know, we just, Doug Leone used to always say, don't fight the tape. And sometimes the evidence is just in the tape where, like, they just keep growing."
+    },
+    {
+      "start": 1174.66,
+      "end": 1209.8400000000001,
+      "text": "They keep doing well. They attract great talent. People love the service. And they continue to sort of broaden their vision. Every single one of these companies had challenges. Airbnb had a PR crisis with EJ. They also had a crisis where people were fighting tooth and nail with them and copying every single pixel of their website in Europe. And they decided that they wanted to win Europe. And they were either going to potentially buy Wimdo or merge with them or have to go down the path of a pretty expensive ground war."
+    },
+    {
+      "start": 1210.02,
+      "end": 1239.68,
+      "text": "They decided to do that and won. And so, like, some of these things have to do with just being crafty and being smart about exactly how you go about winning and coming out on top. I'm curious to dive in on that a little bit. So they decided to do the very expensive ground war with Wimdo. And, you know, part of that financing came from you. How did you think about evaluating whether that was a good use of capital versus any other place that you could place that marginal dollar as Sequoia?"
+    },
+    {
+      "start": 1239.68,
+      "end": 1274.14,
+      "text": "It's always easy to say in retrospect that it was obvious and everybody talks about that. But what's obvious at the time is that travel is a global network effects business. And maybe not today during the pandemic. It's more localized. But we're going to get past the pandemic. We're all going to get vaccinated. People will go back to traveling. Traveling won't be the same as before. But we all love visiting different parts of the world. And what is true is that you want to travel to different parts of the world and more than you do locally."
+    },
+    {
+      "start": 1274.52,
+      "end": 1307.86,
+      "text": "And if you win that, if you win the supply, you will most likely get all the demand. And that was the reason why we had conviction on investing more in later rounds. Makes sense. I'm curious in that specific case with Airbnb, you know, of course, we've covered it so many times on this show, the Airbnb episode, many others. That global network effect is so powerful. You know, one of the reasons why Airbnb has, you know, been able to build so much power in the Hamilton Helmer sense over the years."
+    },
+    {
+      "start": 1307.86,
+      "end": 1331.86,
+      "text": "When did you guys realize that at Sequoia? Like, was that part of the thesis going in? Like, if this works, if we can build up supply and demand globally, like there is an opportunity for a global network effect here. Or is that something that revealed itself over time, as you were saying? I think part of dreaming is that you can create one. It's not that we, it's not that it got realized on the first, on our seed investment."
+    },
+    {
+      "start": 1332.26,
+      "end": 1360.6000000000001,
+      "text": "At the seed investment, they had a listing service, right? They had 2,000 or so listings. They had a few transactions. It was definitely not a network effects business at that time. But you have to dream that if you get enough of the supply, it should be a network effects business. That's part of having a prepared mind. The sort of concept of a marketplace has been around for a while, pioneered by eBay on the internet. But it wasn't the only marketplace."
+    },
+    {
+      "start": 1360.6,
+      "end": 1391.1799999999998,
+      "text": "We've had other marketplaces and a stock exchange as a marketplace. And so having a prepared mind allows you to think about these conceptually into the future, even though it may not ring true the day you make the investment. That's great. All right, listeners. Now is a great time to tell you about a longtime friend of the show, Vanta. AI has scrambled the whole security picture. It used to be that you proved that you were secure once a year on audit or a static PDF."
+    },
+    {
+      "start": 1391.58,
+      "end": 1418.32,
+      "text": "Then everyone would nod and you're done. But in an AI-first world, that doesn't hold up anymore. Yep. Your risk surface changes every week now. A vendor turns on an AI feature or someone writes in a new model without telling IT, and your posture is different than it was last week, let alone at your last audit. Vanta's own research found that around 70% of companies have this quote-unquote shadow AI running with no security review at all. Right."
+    },
+    {
+      "start": 1418.66,
+      "end": 1446.72,
+      "text": "And that's where Vanta comes in. They're the leading agentic trust platform, meaning they've built the thing that closes the gap. And the way that they close that gap is Vanta Agent. Think of it as a GRC engineer, that's governance, risk, and compliance, except that it's software and it doesn't sleep. It finds the issues, drafts the fixes, and cuts the time that you'd spend on vendor assessments in half. In half! Which is exactly why more than 16,000 companies today run on Vanta."
+    },
+    {
+      "start": 1447.12,
+      "end": 1477.68,
+      "text": "Companies like Ramp, Cursor, and Snowflake all stay audit-ready and catch the risks that crop up between audits across every vendor, every AI tool, the whole environment. And that's the real value. Trust has to be continuous now, which is why Vanta automates your security, your compliance, and the work to earn and prove trust. We're huge fans of Vanta over here, and literally hundreds of acquired listeners have become Vanta customers at their companies over the years. So you can get $1,000 off Vanta at vanta.com slash acquired."
+    },
+    {
+      "start": 1477.68,
+      "end": 1505.5,
+      "text": "That's V-A-N-T-A dot com slash acquired for $1,000 off, and just tell them that Ben and David sent you. I want to switch gears a little bit here and talk about market size, which for any early stage entrepreneurs listening who are currently in a small market but are dreaming, as the way you put it, Alfred, could be a big market, they've encountered the experience of banging their head against a wall because they keep getting these pass emails from venture capitalists that say, market's too small, market's too small, market's too small."
+    },
+    {
+      "start": 1505.8600000000001,
+      "end": 1536.52,
+      "text": "How do you think about, as a great investor, whether the market is small today and will stay small, or whether the market 5, 10 years from now could be enormous? And how do you work that into your investment decision? That's a great question. I think the reason why there's a lot of passes on market size is, Warren Buffett famously said, when a management team with a reputation for brilliance tackles a business with a reputation for bad economics, it is the reputation of the business that remains intact."
+    },
+    {
+      "start": 1537.0,
+      "end": 1566.68,
+      "text": "And it is good advice, and it's not advice that I often talk about with founders, because I think the one thing that is a little different at the early stages is that you're going after non-obvious markets. So if you go after an obvious market, as we talked about, and it's a very large market, there's intense competition because it's obvious. And then if you go after a small market, and it's obviously a small market, that's also a bad idea."
+    },
+    {
+      "start": 1567.04,
+      "end": 1588.66,
+      "text": "The question is, are you actually in a small market that looks small today, but it's actually going to be a big market in the future? And that's how I kind of would like to have that conversation with the founder. Why is this market going to be large in the future? And there's a bit of the founder doing some work. There's a bit of the investor doing some work. And we certainly do our own work at Sequoia."
+    },
+    {
+      "start": 1588.9,
+      "end": 1615.76,
+      "text": "And then we work with the founders to think about it. And some of it has to do with what are the trends that are carrying you in this business? It's not hard to know that mobile is going to be a big trend back when mobile was a big thing. But mobile had some fits and starts as well. We thought we could build mobile just on a StarTac phone. But the user experience wasn't great. And so mobile really started to take off because the smartphone started to take off."
+    },
+    {
+      "start": 1616.0,
+      "end": 1647.96,
+      "text": "And it was a full-functioning computer. That sort of was what carried mobile through for many, many years. The move to SaaS was actually identified way before this current wave. Because as soon as you saw people moving racks into co-location spaces, you could kind of see that more and more software is going to be written and put in the cloud. You know, it took AWS coming around where developers are starting to build for the first time right straight into someone else's racks, not your own."
+    },
+    {
+      "start": 1647.96,
+      "end": 1673.28,
+      "text": "That you're like, okay, well, this is going to carry for a long period of time because, you know what, it lowered the cost of starting a company. A developer, Jim Goetz, who talked about having a prepared mind, he talked about the rise of the developer as a landscape because developers didn't have to rack their own racks anymore. They didn't have to sort of go raise a bunch of money to buy the servers and put it in their own colo."
+    },
+    {
+      "start": 1673.28,
+      "end": 1708.4199999999998,
+      "text": "What they needed was just be able to have a credit card and start coding and put it on AWS. And so you could see that that was going to be a trend for some period of time. There's that amazing moment that we talked about in the Airbnb episode where the YC startup school where Bezos sort of launched AWS to startups was the startup school that Brian, Nate, and Joe went and attended before they did YC. Yeah, and again, those are the type of things that, you know, these little things happen and then you realize it's going to unlock an explosion."
+    },
+    {
+      "start": 1709.1599999999999,
+      "end": 1733.8799999999999,
+      "text": "Because otherwise, Brian, Joe, and Nate would have had to rack their own servers, right? Like that's, for them, that's no fun because they're two designers and someone who wrote code. And I don't think Brian or Joe, maybe Nate would be okay with going into a colo and racking racks, but I don't think Brian or Joe are particularly happy doing that. They want to dream about what they're doing. But yeah, the company might have been like DOA if they had to do that."
+    },
+    {
+      "start": 1734.12,
+      "end": 1762.1200000000001,
+      "text": "Yeah, exactly. Those trends that carry you are quite important. You know, I often talk about there are three components of a pitch and some founders do all three well and most founders do the first one well, which is like what's your vision of the world? And so the beginning is you paint this picture of what you want the world to become. You've experienced personal pain that this is not the right way to do this. You show how passionate you are."
+    },
+    {
+      "start": 1762.54,
+      "end": 1791.1999999999998,
+      "text": "You have a vision of the future of how the world's going to be different. Then you have the realities of today. Paint the pictures of what's going on and why this is broken, how you can fix it, how many customers you think you can get because they face the same pain that you do. And then to connect the dots between those two worlds, you kind of have to sort of, you won't have to paint the whole picture, the whole path of how you get from where you are today into the future."
+    },
+    {
+      "start": 1791.2,
+      "end": 1817.6200000000001,
+      "text": "But you do have to sort of show us like how exactly you're going to get from a few thousand listings at Airbnb to more than that. You do have to sort of talk about, okay, well, if you're not going to focus on the cities where all the volume is and all the density is, how do you win in the suburbs? If you want us to believe in the suburb strategy, how do you win the suburbs? And in both cases, they had very good answers to these questions."
+    },
+    {
+      "start": 1817.9,
+      "end": 1849.0,
+      "text": "The sort of notion was it didn't work outside of New York City because the only reason it worked in New York City was because of the density. And that was a false assumption. It was not backed up in fact. And Tony was very, very good at like pushing on that. It's like, does it only really work in New York City or does it work elsewhere? And how can it work elsewhere? Right. Well, it's funny. We've danced from this idea, this question around market size to this topic in unit economics of, you know, will it work in a given market?"
+    },
+    {
+      "start": 1849.56,
+      "end": 1882.18,
+      "text": "And, you know, Don, among only a few other factors, early Sequoia days would say that the very important things in evaluating an opportunity are the market size, because no one ever started a huge business in a small market, and the potential for large gross margins. And I'm curious, as you come with this proactive stance and a prepared mind when you're meeting with entrepreneurs, how do you apply that thinking in unit economics? And is it still important today to be able to start a business with high gross margin ability in sort of your eyes?"
+    },
+    {
+      "start": 1882.54,
+      "end": 1918.8600000000001,
+      "text": "The answer is nuance. I think high gross margin, as Bezos would say, it's not about margin percent. It's about margin dollars. If you have large margin dollars, that can be okay, even though the gross margin percent is not as high. If you're going after a low gross margin percent business, you just need a ton of volume. So you need high repeatability. And the notion of gross margin is a strange thing. If you look at DoorDash from a GMV standpoint, then their gross margin is really low."
+    },
+    {
+      "start": 1919.34,
+      "end": 1944.1799999999998,
+      "text": "But if you just look at their take, if you net out everything else, then their margins are decent. And the same is true with Airbnb. People don't think about this, but nobody measures Airbnb's margins off of their GMV. They measure it off of their take rate. And so some of this stuff is a little more nuanced than that. Software businesses, you're paying for just the software. You're not looking at all the sort of transactions that happen on the software."
+    },
+    {
+      "start": 1944.72,
+      "end": 1970.12,
+      "text": "The reason why United Economics is important is because eventually this has to be a business. To be able to be valued highly, eventually you'll be valued off of your profits and a multiple off of your profits. And the confusion, I think, is the availability of capital. In the last few years, a lot of people have complained there's too much capital in the system. There's always been too much capital in the system. When I started 10 years ago, I was frustrated there was too much capital in the system."
+    },
+    {
+      "start": 1970.12,
+      "end": 1992.4399999999998,
+      "text": "I remember sitting, my desk was right next to Mike Moritz's, and I said, hey, there's just too much money in the venture ecosystem. He was like, yeah, thanks for observing that. Go back to work and your job is to figure that out. And I was like, that's not a satisfying answer. And he's like, well, there's too much capital in the system. I agree with you. Well, you know what? 10 years before you, there was too much capital."
+    },
+    {
+      "start": 1992.58,
+      "end": 2019.4399999999998,
+      "text": "And 20 years before you, when I started in the venture business, there was too much money in the system. There'll always be too much money in the system. And the thing that we've learned over time is that the winners get a disproportionate amount of the market cap. And if that's true, then they also will, by just simple logic, investors then want to invest in the winners. And so the winners get more and more of the capital."
+    },
+    {
+      "start": 2019.44,
+      "end": 2057.56,
+      "text": "And if there's more money in the system today, the winners will get more money. And that allows them to do things slightly differently. And I use the sort of case where in e-commerce, when I was at Zappos, we needed to make sure that the payback on the CAC was on the first order. Well, I don't think any company today in e-commerce does that. If you have more capital, if you know it works on the first order, then if I give you a little bit more capital, maybe you can extend it to seven days or a month or six months or a year."
+    },
+    {
+      "start": 2057.92,
+      "end": 2086.82,
+      "text": "I do think that this transitive property doesn't always work. If it works with zero cap, you can do it for a year, two years, three years, four years. At some point, it breaks because at some point, you won't be able to raise enough capital to keep you afloat. But I do think there is more willingness to see unit economics pay back over a longer period of time if the market is large. Yeah, that makes total sense."
+    },
+    {
+      "start": 2086.82,
+      "end": 2114.7,
+      "text": "So, you know, unlike the early days of Sequoia, for sure, you have different entry points where you can partner with companies now, whether it's dreaming with the entrepreneur at a seed stage or partnering at the growth stage with more established companies that have already answered some of these questions. As you're thinking about a given market, how do you decide what the right, you know, is that winner that you mentioned that's going to get the lion's share of the market cap in a space?"
+    },
+    {
+      "start": 2115.14,
+      "end": 2140.32,
+      "text": "How do you decide if it already exists and you should go invest at the growth stage or there's still an opportunity for a new entrant at the seed stage? I think the simple answer is that we at Sequoia want to identify the most important companies of tomorrow as early as possible. So we do want to partner with them at the seed stage and be there for them from idea to IPO and beyond. I would point out that there's so much going on in the world."
+    },
+    {
+      "start": 2140.44,
+      "end": 2162.74,
+      "text": "There's so much innovation that we're not going to get to every great company at the seed stage. And so there are going to be companies that we miss at the seed that we'll do at the A. There are companies that we miss at the A that hopefully we do at the B. And companies that we miss at the B that hopefully we pick up at a growth round. So in some sense, we can enter at many different levels."
+    },
+    {
+      "start": 2162.8799999999997,
+      "end": 2190.7,
+      "text": "But also what's an interesting company at the seed is going to look very different than a company at the A or the company at a growth round. You know, just a simple sort of idea like what's happening at the seed, identifying new markets. You have this view that the market will be very, very different a few years from now is different than a growth round. You may be looking for a developing market that continues to grow, but it is somewhat established, if not already developed when you make an investment at the growth round."
+    },
+    {
+      "start": 2190.7799999999997,
+      "end": 2218.16,
+      "text": "That makes total sense. That also brings up a question I've been dying to ask you guys. The other dimension that's changed over the years at Sequoia is not just stage at which you invest, but geography too. And obviously you have a very robust practice in China and India, and now you're building one in Europe, everywhere around the globe. How do insights and learnings from each of those geographies influence your thinking back here in the U.S. and each other?"
+    },
+    {
+      "start": 2218.16,
+      "end": 2248.08,
+      "text": "Well, I think the fact of the matter is you can start a company almost anywhere in the world, and talent is evenly distributed and opportunity is not, is a quote that lots of people have said. We're doing this, we're sort of expanding around the world because we want to be a global partnership, and we do learn from each other. And so their observations around the world are that people are pretty similar. They do things slightly differently because of cultural reasons or how they grow up, but we kind of want similar things."
+    },
+    {
+      "start": 2248.2799999999997,
+      "end": 2286.94,
+      "text": "From a consumer standpoint, if something works in one geo, it's likely to work, maybe not the same exact sort of formation, but it's likely to work somewhere else and vice versa. And if you come up with a great, interesting, sort of efficient way of doing things on the enterprise side, it's probably going to be wanted in different parts of the region. And just as an example, with DoorDash, we are investors in Meituan in China, and there are a lot of learnings back and forth about what works, what doesn't, how much market share you need to get, how much the unit economics changes when you get to scale, etc."
+    },
+    {
+      "start": 2286.94,
+      "end": 2312.58,
+      "text": "So the growth path, the sort of viability of the business, those things can be learned across the world. And then the other thing related to the pandemic, I think there was a lot of learning. China faced this virus first, and so Tony called up people around the world that were facing the same issues, and Tony realized the most important thing was to keep the restaurants open. There are parts of the world where the restaurants are closed."
+    },
+    {
+      "start": 2312.58,
+      "end": 2341.96,
+      "text": "So long as you keep the restaurant open, then you can fix some of the other issues. So they onboarded restaurants as much as they could. Once you did that, then you needed to solve the issue related to drivers. We provided them with masks and PPE and also worked on contact list deliveries. And if you did that and you got the food safely to the customer, the customers obviously wanted to order. Yeah, I'm curious, you brought up this idea that we keep in touch and we learn from each other around the world."
+    },
+    {
+      "start": 2341.96,
+      "end": 2367.64,
+      "text": "As Sequoia grew from a few partners to, you know, several pieces of a larger partnership in these global offices, obviously you increase the overhead. You could spend all your time communicating with each other. You know, it's a large organization with sort of communication networks like any other. So how do you find that fine line? Like, I'm curious if you have a meeting cadence or anything like that where you do get to learn from each other, but you're not spending all your time communicating with each other."
+    },
+    {
+      "start": 2367.64,
+      "end": 2394.2599999999998,
+      "text": "No, it's very lightweight. Sequoia is structured in a very decentralized way. Each group makes their own investment decisions. Each geo makes their own investment decisions. And we do that on purpose because what's on the ground is way more important than the global themes and the global trends. You can think about the global themes and the global trends on a quarterly basis, but you're acting locally every single day. So we try to think globally, but act locally."
+    },
+    {
+      "start": 2394.96,
+      "end": 2423.6800000000003,
+      "text": "And that's the mantra that we have inside of Sequoia. What are the different operating teams sort of look like? Just so people get a sense of scale. I mean, they're not very large, right? Like you're like, how big is the U.S. early stage practice? The early stage team is about 15 people. It's just not a big team. But the way we think about it is while there's a lot of opportunity, each one of us are only going to make one or two seed investments or one or two venture investments a year."
+    },
+    {
+      "start": 2423.68,
+      "end": 2452.22,
+      "text": "And the reason we keep it small is because what we enjoy is to partner with the founders as early as possible and help them and their companies reach their full potential. And that is an enormous amount of work. And we enjoy that part just as much as meeting new founders and thinking about the future. But once we make an investment, we want to bring the future to fruition. It's not just about making the investment. We don't really think about buying low and selling high."
+    },
+    {
+      "start": 2452.3199999999997,
+      "end": 2478.5,
+      "text": "We think about helping founders reach their full potential. Bring the future that they envision to reality. The next thing I wanted to ask, in many ways, it's Sequoia's history that has sparked me thinking a lot about this over the past year. And the Apple investment that we've covered so many times of, you know, that was an early example of, I think, buying low and selling high that in the long run probably served Sequoia not nearly as well as it could have."
+    },
+    {
+      "start": 2478.58,
+      "end": 2506.4,
+      "text": "I think you guys made $6 million in net profit on the early pre-IPO Apple investment. How do you guys think about Time Horizon? And like, obviously, you need a long time horizon as you're talking about. And that's the way to compound capital. At the same time, you are a fund structure, a series of funds. You have limited partners. They want distributions at some point. When do you guys think about the right time to start to distribute out your investments?"
+    },
+    {
+      "start": 2506.96,
+      "end": 2536.2400000000002,
+      "text": "We think about whether the company has brighter prospects in the future than they do today. And if that's the case, then we continue to hold. We don't actively think about distributions from an IRR or money-on-money perspective. Yes, obviously, we are a fund and we get measured that way. But we're very proud of the fact that our as-held multiples are higher than our net multiples of the stock that we distribute. It's a deliberate strategy that that's the case."
+    },
+    {
+      "start": 2536.36,
+      "end": 2568.96,
+      "text": "And so the reason that that is, is because we both pick the right founders who want to build long-lasting companies and we help them focus on what's enduring about their business. You know, you're just a lot better off focusing on the long run than on any short-run swings up or down in the market. And so when we distribute, it's, yes, it's because it's maybe the end of the life of a fund. But it's more about even when we distribute, we hope that the company has much longer prospects than when we, the day we sort of send the shares to our LPs."
+    },
+    {
+      "start": 2568.96,
+      "end": 2600.92,
+      "text": "We distribute shares and let our LPs decide whether they want to sell or not. We generally don't sell the stock. It's funny. It's a nice thing to say, to say, you know, we're long-run focused over short-term focused. But in the business that we're in, it's quite literally and mathematically just a much, much better strategy given how much of the area under the curve of a compounding returns business shows up in those later years. I mean, I think I heard a stat recently that was Amazon made more money in its 21st year after IPO than in the entirety of the 20 cents IPO."
+    },
+    {
+      "start": 2601.48,
+      "end": 2630.0,
+      "text": "And so it's just funny to think about these businesses that we're in. Like, the opportunity to invest where you're investing does come early, but the real returns do come much, much, much later. It's a testament to compounding. The thing that people don't get right, and it's hard for us to understand compounding because we're human and we like linear projections as opposed to exponential projections. We get it wrong in the beginning and in the end. I think the things you get wrong at the beginning is it looks linear."
+    },
+    {
+      "start": 2630.2200000000003,
+      "end": 2664.5,
+      "text": "It's not, it doesn't look like it's compounding. Well, actually, early years of compounding look very linear. And in fact, at any single point in time, at any point, compounding, it still looks linear exactly where you are. Well, a tangent, yeah. The tangent of it looks very linear, and it's not that far off from being linear, or you draw the line wrong. It's almost always more obvious after the fact that you're in a compounding situation. I hope that people understand that more given what's happened with the pandemic, because that is also an exponential growth sort of situation."
+    },
+    {
+      "start": 2664.5,
+      "end": 2698.18,
+      "text": "And we always get surprised, and then we clamp down after the fact. And we still continue to see cases after people take more precautions over a longer period of time, because compounding sticks, it's a hard thing to reverse. Mm-hmm. That's such a good point. All right, listeners. Now is a great time to thank our longtime friend of the show, ServiceNow. If you are running a large enterprise, AI agents are likely spread across every team, and deploying them is no longer the hard part."
+    },
+    {
+      "start": 2698.5,
+      "end": 2729.88,
+      "text": "Yeah. The hard part is knowing what permissions they have, what employees are using them for, or what decisions AI is making. AI security for an enterprise at scale is not a small concern. Like, the risks are real. Exactly. And the challenge with AI is governing it, securing it, measuring it, and making sure that it actually delivers value. That is why ServiceNow built the AI Control Tower. Yep. AI Control Tower gives enterprises a single place to see, manage, govern, and optimize AI across the entire business."
+    },
+    {
+      "start": 2730.02,
+      "end": 2765.54,
+      "text": "And it works with any AI, not just theirs. Every device on your network, every permission across every system, every AI agent visible and secure in one place. And ServiceNow can do this because they've spent more than 20 years building the operational backbone of the enterprise. The workflows, governance, approvals, security controls, and institutional knowledge that power how work actually gets done across IT, HR, customer service, finance, and security. ServiceNow already runs more than 100 billion workflows annually, and trillions of transactions for more than 85% of the Fortune 500."
+    },
+    {
+      "start": 2765.54,
+      "end": 2791.8,
+      "text": "So when companies need a place to govern AI at enterprise scale, they're building on a platform at the center of how their business already operates. And in a future that isn't going to be one AI, it's going to be thousands of AI agents working across every function of the company. But the question is, who's managing them all? So if you're trying to turn AI ambition into real business outcomes and make it work safely, securely, at scale, go check out ServiceNow.com slash acquired and tell them that Ben and David sent you."
+    },
+    {
+      "start": 2791.8,
+      "end": 2819.6000000000004,
+      "text": "Well, I have one more sort of structural question here before we start to wind toward the end of our episode. So a lot of people who are building firms or building enduring institutions of any type look to Sequoia as an example of 49 years high performance at almost every, if not every stage along the journey, building from a small group of people into a globally distributed team that runs like a well-oiled machine, at least perception from the outside."
+    },
+    {
+      "start": 2819.6,
+      "end": 2849.26,
+      "text": "And I'm curious, what are some of the practices that have contributed to allowing you to learn and get better and become that enduring institution instead of something that flames out at some point? And I'm thinking, you know, do you do postmortems? How do you think about learning from your mistakes, learning from your successes? How does that all happen? Well, this is going to sound trite, but it had to do with Don starting out and calling it Sequoia Capital instead of Valentine Capital."
+    },
+    {
+      "start": 2849.64,
+      "end": 2879.98,
+      "text": "He had set the culture right at the beginning. And this is a people business. We hire partners that then interface with our founders. There's very little secret sauce in this business. And the simple fact of basically calling it Sequoia Capital because he wanted to build the tallest tree inside of venture capital makes a statement. It also makes a statement that the firm is not his, that he's around to start the firm and then he's going to hand it over to Mike and Doug."
+    },
+    {
+      "start": 2880.2799999999997,
+      "end": 2902.6600000000003,
+      "text": "And it's their job to sort of keep Sequoia going. And at some point they're going to go and they're going to hand it off to the next generation and the next generation after that. And you're pointing out that he didn't put some high value on the management company because it had been so successful to sell to the next generation. He literally just said, you now own the management company, right? Yeah. And nobody owns a management company at Sequoia."
+    },
+    {
+      "start": 2902.78,
+      "end": 2933.16,
+      "text": "The GPs sort of manage the management company. And we don't view it as owning it. We view it as we inherited it from the last generation. And it's our job to make sure that we pass it on to the next generation in better hands. All of us come to Sequoia being able to stand on the shoulder of giants. And we want to make sure that this place is better off for the next generation. And just coming off of that is a huge base to be able to build upon."
+    },
+    {
+      "start": 2933.46,
+      "end": 2964.82,
+      "text": "In terms of like constant learning, this business, you need three key ingredients. And I think I've said this before, which is you need high IQ, high EQ, and high hustle. And then you need to apply it appropriately. If you're just super smart, but you can't influence your founders or have them influence their management team to do the right things, that's not really going to work. Just because you can identify something wrong with the company, this is a business of influence."
+    },
+    {
+      "start": 2964.94,
+      "end": 2990.2,
+      "text": "You've got to influence people to take your money because your money is just as green as everybody else's. But more importantly, after you make the investment and you become partners with the founders, you have to influence them to do a bunch of things that they may not like. Because most founders that have strengths and have weaknesses and they're really good at certain areas, and then you have to influence them to sort of round out and build a company and not just a product or a feature."
+    },
+    {
+      "start": 2990.38,
+      "end": 3017.6,
+      "text": "And this business is high hustle. You hustle every single day going after a theme or a trend. How do I think about that and turn it into understanding the whole landscape of what's going on and then picking the right founder to partner with to build a company in that space? Those things require an enormous amount of effort and time. It requires being both a skeptic about what's going to go wrong. It also requires a lot of imagination for what can go right."
+    },
+    {
+      "start": 3018.0,
+      "end": 3040.5,
+      "text": "And back to there's no secret sauce is if you want to be good at this business, you don't have to be a constant learning machine. You've got to think about every single day what you can improve for the next day. In terms of compounding, that's probably the most important thing. If you can just improve a little bit every single day. I mean, you want to suck less tomorrow is the way, sort of one way to think about it."
+    },
+    {
+      "start": 3040.7400000000002,
+      "end": 3065.34,
+      "text": "And this is a humbling business. When I joined, I remember Mike saying a line which was like jarring. That this is a humbling business because you can make money even if you got the investment thesis wrong, and you can lose money even though if you got the investment thesis right. If you don't get cognitive dissonance hearing that, you have to be both excited by that and also know that you're not going to get things right every single day."
+    },
+    {
+      "start": 3065.7200000000003,
+      "end": 3092.1800000000003,
+      "text": "And this is why people who are in this business for a long time continue to love it. There's the element of meeting founders that they just, even if you don't agree with them, it's infectious to hear them speak because they're painting a future of the world that's just different. And then there's the element of like, gosh, I got that wrong. Gosh, I got this wrong. Gosh, I made money on this, but I still got most of everything wrong."
+    },
+    {
+      "start": 3092.36,
+      "end": 3118.64,
+      "text": "Was I actually good or was I just lucky? I always tell people if they want to join venture capital, they're like, I'm going to try to convince you not to join. And then after all of the reasons why you shouldn't join, you still want to join. I'll tell you more about it because it will take a decade or longer for you to figure out whether you're good at this business or not. Maybe you'll find out you're bad at it because you can't get in front of interesting opportunities."
+    },
+    {
+      "start": 3118.9,
+      "end": 3145.7000000000003,
+      "text": "You don't dream enough. You can find that out relatively quickly, but you won't know that you're good at this for a long time. You're now in a position where you're doing a lot of hiring, I assume, at Sequoia in a way that, you know, Don famously in the GSP view from the top lecture, he held up your resume than the day you joined Sequoia. When you're evaluating people to join the firm, what qualities do you look for that give you an inkling that they might be good at this?"
+    },
+    {
+      "start": 3146.3,
+      "end": 3179.4,
+      "text": "High IQ, high EQ, and high hustle. David, weren't you listening at all? Obviously not. There are no real requirements for this job, right? Like you can put anybody's resume up and they can become a great venture capitalist. There's an element of those raw ingredients and then there's an element of desire and sticking to a sort of business that pays you to be in it for the long run. Like you're not going to get your biggest gains on day one."
+    },
+    {
+      "start": 3179.54,
+      "end": 3203.98,
+      "text": "You're going to see all your losses earlier in your career and your gains take a long time to develop. So, you know, maybe the other element is just the focus on the enduring, which is one of our tenets. Well, Alfred, I can't think of a better place than that to leave it. I do want to give you the floor and say if founders are thinking about reaching out to you, who should reach out and how can they get in touch?"
+    },
+    {
+      "start": 3204.22,
+      "end": 3234.14,
+      "text": "Yeah, just simply email me. I'm at lynn, L-I-N, at sequoiacap.com if they want to reach out to me. Another word of encouragement for founders, you're doing good work and to keep at it. Keep thinking about every single day about how you can build a sustainable business because your business model and your business plan is the strategic weapon. We provide capital, which is fuel, but you need the strategic business plan first before you can do anything with that fuel."
+    },
+    {
+      "start": 3234.7799999999997,
+      "end": 3270.1000000000004,
+      "text": "I love it. Well, Alfred, thank you so much for joining us. All right. Thank you. All right, listeners. Now is a great time to talk about one of our favorite companies, Statsig. Yes, longtime acquired partner. There is a reason why the best product teams at companies like OpenAI and Notion, Atlassian, Figma, Rippling, Brex, and more rely on Statsig, whether they are iterating on their core product features or shipping AI-powered experiences at scale. Yep. In the crazy speed of today's AI world, shipping fast is just table stakes now."
+    },
+    {
+      "start": 3270.1,
+      "end": 3302.68,
+      "text": "It's basically trivial to build and deploy your app constantly. The real advantage is how quickly you learn what changes actually created value for customers and how fast you can use that signal to guide what you ship next. Whether it's a feature tweak, a pricing change, a performance improvement, or an AI update like a model change or prompt adjustment. They're not relying on instinct. They're measuring what actually moved engagement, retention, and ultimately revenue. And as more teams build with AI, that learning loop becomes even more important."
+    },
+    {
+      "start": 3303.24,
+      "end": 3333.48,
+      "text": "Building with LLMs introduces non-determinism into your product experience. The same input doesn't always produce the same output, and behavior can shift in subtle ways in real-world use. So doing offline evals will give you part of the picture, but you can really only understand the impact once your product is live with real users, and then you can measure how their behavior actually changes. It's very different than the way that you would ship features in a pre-AI world where you knew exactly what the software was going to do in production."
+    },
+    {
+      "start": 3333.5600000000004,
+      "end": 3365.1200000000003,
+      "text": "Yeah, exactly. So this is where Statsig comes in. It brings experimentation, feature flags, and product analytics into one unified system so teams can ship safely, test rigorously, and directly link what they changed to how users actually behaved. The result is a tighter feedback loop and learning that compounds over time so you don't just ship more, you ship better. So if you want to make learning your competitive advantage, whether you're building new AI experiences or just evolving your existing core product, go to statsig.com slash acquired to get started."
+    },
+    {
+      "start": 3365.12,
+      "end": 3390.32,
+      "text": "Listeners, thank you for joining us. For folks who don't know, we have started codifying the playbook from each episode in some written bullet points, which no doubt we will do for this playbook episode with Sequoia. And we email those out after we post each episode, which is really great if you like consuming content in sort of that quick, easy way in written form. So if this is something that you want, you can sign up to receive the playbooks at acquired.fm."
+    },
+    {
+      "start": 3390.32,
+      "end": 3421.3,
+      "text": "And if you join our community Slack at acquired.fm slash Slack, you will automatically also be signed up to receive the playbooks. As always, if you love Acquired and you want to be a deeper part of what David and I do here, you should become a limited partner. You'll get access to our library of over 50 interviews and deep dives on company building topics with more to come in the future, our monthly Zoom calls. And this is new, live access to listen in while we record big events and emergency pods and our book club discussions with authors."
+    },
+    {
+      "start": 3421.56,
+      "end": 3447.1,
+      "text": "So if you aren't already in LP, you can click the link in the show notes or go to acquired.fm slash LP. We can't wait to see you in there. And lastly, if you are not subscribed and you liked this episode, you totally should click subscribe. You can do that in the podcast player of your choice. And if you like this episode and you have a friend that you think would like it too, you should share it with them personally or just shout it from your favorite local social media hilltop."
+    },
+    {
+      "start": 3447.7,
+      "end": 3470.7799999999997,
+      "text": "With that, thank you so much for listening and we will see you next time. We'll see you next time. 遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣遣�"
+    }
+  ]
+}

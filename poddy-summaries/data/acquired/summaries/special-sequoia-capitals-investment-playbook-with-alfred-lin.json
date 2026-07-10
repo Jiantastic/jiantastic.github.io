@@ -1,0 +1,97 @@
+{
+  "overview": [
+    "Sequoia partner Alfred Lin explains the firm's prepared-mind discipline through Airbnb, DoorDash, Instacart, and decades of institutional learning. Investors study technological shifts, market structure, incumbents, and white space before a founder appears, then test why now, founder-market fit, entry strategy, and what the company could become in ten years. The work ranges from formal landscape memos to reading, quarterly blue-sky sessions, founder conversations, and serendipity; preparation supplies context without replacing openness to a surprising thesis.",
+    "Lin emphasizes imagination alongside skepticism. Non-obvious markets compound when tailwinds make old ideas newly viable, while low margin percentages can still create enormous margin dollars at scale. Sequoia keeps teams small, decisions locally decentralized, and partnerships concentrated so investors can help after investing. It holds companies while prospects remain bright and treats the management company as an intergenerational trust. Venture performance requires high IQ, EQ, and hustle—but outcomes remain noisy enough to demand continuous learning and humility."
+  ],
+  "takeaways": [
+    {
+      "title": "Preparation improves recognition, not prediction",
+      "detail": "A landscape clarifies market change, failed predecessors, incumbents, and possible white space. It does not produce the winning company mechanically. Its value is letting an investor recognize why a founder's unusual approach could work now and ask sharper questions before consensus forms."
+    },
+    {
+      "title": "Dream before writing the premortem",
+      "detail": "Early-stage failure modes are easy to enumerate and often obvious. The rarer skill is describing what happens if everything works: who cares in ten years, how behavior changes, where the market expands, and what strategic power can emerge from today's tiny wedge."
+    },
+    {
+      "title": "Founder-market fit includes operating style",
+      "detail": "Sequoia passed repeatedly on delivery despite believing in demand because the category required exceptional operational execution. Tony Xu combined suburban merchant strategy with operational intensity; that pairing, rather than market enthusiasm alone, changed the DoorDash decision."
+    },
+    {
+      "title": "Margin dollars outrank margin percentage",
+      "detail": "Marketplaces look low margin against gross merchandise value but can produce attractive economics on their take. A lower percentage is viable when repeatability and volume are enormous, provided capital extends a proven payback period rather than disguising permanently broken unit economics."
+    },
+    {
+      "title": "Institutions compound through stewardship",
+      "detail": "Don Valentine named Sequoia for an enduring tree, not himself, and passed the management company forward rather than monetizing it. Partners inherit responsibility to improve the firm for the next generation, aligning culture with the long holding periods needed for company and investor compounding."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Two IPOs reveal a patient process",
+      "summary": "Airbnb and DoorDash cap Alfred Lin's first decade at Sequoia with simultaneous public offerings. He frames the outcomes as partnership work and founder courage rather than individual harvesting, setting up an examination of how opportunities are recognized.",
+      "quote": "It certainly pays to be patient",
+      "timestamp": "0:42"
+    },
+    {
+      "title": "Prepared minds pair founders with markets",
+      "summary": "Sequoia studies what markets can become because founders often begin with personal pain rather than market maps. Landscapes identify shifts, incumbents, and white space so surprising models such as shared homes or suburban delivery can be evaluated in context.",
+      "quote": "chance favors the prepared mind",
+      "timestamp": "6:06"
+    },
+    {
+      "title": "DoorDash proves founder-market fit",
+      "summary": "After meeting Grubhub, Caviar, and Postmates, Sequoia concludes delivery needs differentiated strategy plus relentless operations. It passes on DoorDash's seed, then recognizes Tony Xu's merchant, suburban, and execution strengths and invests from Series A onward.",
+      "quote": "that's my fault",
+      "timestamp": "8:40"
+    },
+    {
+      "title": "Research ranges from structure to serendipity",
+      "summary": "Ideas emerge from reading, formal landscape memos, partner conversations, quarterly blue-sky sessions, and founders still refining a thesis. Different investor personalities contribute through structured analysis or ecosystem-driven imagination rather than one prescribed formula.",
+      "quote": "there's no straight formula",
+      "timestamp": "10:15"
+    },
+    {
+      "title": "Why now meets who cares",
+      "summary": "The first test explains what changed since prior failures; mobile labor makes on-demand delivery different from 1999. The second asks whether the company matters in ten years, requiring investors to imagine the outcome when everything goes right.",
+      "quote": "In 10 years, who cares about this company?",
+      "timestamp": "12:43"
+    },
+    {
+      "title": "White space protects non-obvious beginnings",
+      "summary": "Obvious large markets attract bloodbaths, while obviously small ones stay small. Strong startups enter a market that looks modest but rides durable tailwinds, starts where incumbents dismiss margins, or offers a product dramatically better than existing behavior.",
+      "quote": "you kind of want some air cover",
+      "timestamp": "15:46"
+    },
+    {
+      "title": "Future networks must be imagined early",
+      "summary": "Airbnb's seed-stage listings do not yet create a network effect, but concentrated global supply could eventually attract demand and strengthen the marketplace. Prepared thinking allows investors to underwrite power that current metrics cannot yet demonstrate.",
+      "quote": "you have to dream that if you get enough",
+      "timestamp": "21:14"
+    },
+    {
+      "title": "Tailwinds turn tiny markets into giants",
+      "summary": "Smartphones unlock mobile workforces, while AWS removes the need for founders to finance and rack servers. A persuasive pitch connects a superior future, today's broken reality, and a credible first path between them rather than asserting market size alone.",
+      "quote": "these little things happen and then you realize",
+      "timestamp": "24:37"
+    },
+    {
+      "title": "Unit economics survive abundant capital",
+      "summary": "Margin dollars matter more than percentage, but every company must ultimately earn profits. Capital can lengthen a demonstrated acquisition-payback window; it cannot safely turn one year into four indefinitely just because investors chase category winners.",
+      "quote": "eventually this has to be a business",
+      "timestamp": "30:49"
+    },
+    {
+      "title": "Small teams act locally and hold long",
+      "summary": "Sequoia shares global lessons while each geography makes its own decisions. A roughly 15-person early-stage team makes few investments to preserve founder support, and the firm distributes shares instead of selling while brighter prospects remain ahead.",
+      "quote": "think globally, but act locally",
+      "timestamp": "36:30"
+    },
+    {
+      "title": "Stewardship and humility sustain the firm",
+      "summary": "Partners inherit rather than own the management company and must pass it forward improved. High intelligence, empathy, and hustle enable influence and learning, yet good theses can lose and bad theses can profit, making venture a decade-long test of skill and luck.",
+      "quote": "you want to suck less tomorrow",
+      "timestamp": "46:31"
+    }
+  ],
+  "title": "Sequoia Capital's Investment Playbook: Prepared Minds, Market Timing, and Compounding"
+}
