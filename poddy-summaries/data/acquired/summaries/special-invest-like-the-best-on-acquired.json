@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Patrick O'Shaughnessy connects three businesses through one operating philosophy: disciplined quantitative investing, software-enabled portfolio customization, and learning in public. His father's microfiche research converts simple stock attributes into repeatable rules and builds an asset manager around open research. After spinning the firm out of Bear Stearns just before the financial crisis, Patrick learns the business through client pressure, eventually recognizes his own research ceiling, and uses conversations with exceptional investors and builders to find new ways to contribute.",
+    "Those conversations inspire Canvas, which exposes a decade of internal quantitative infrastructure through software so advisors can design tax-aware, client-specific portfolios while OSAM executes them. Invest Like the Best begins as a seven-episode experiment, finds a deep niche immediately, and becomes an unplanned brand and knowledge flywheel because curiosity remains separate from direct-response marketing. O'Shaughnessy's strategy emphasizes high-quality low-variance output, patient compounding, counter-positioning, near-term boss battles, and habits over brittle long-range goals."
+  ],
+  "takeaways": [
+    {
+      "title": "Data quality outranks modeling complexity",
+      "detail": "The firm's earliest edge comes from manually collecting long-run market history that few competitors possessed, then applying transparent rules. Differentiated, cleaned, normalized information plus discipline can outperform elaborate models built on widely available inputs."
+    },
+    {
+      "title": "Internal infrastructure can become the product",
+      "detail": "OSAM spends a decade replacing vendors with software for research, portfolio construction, trading, and reporting. Canvas gives advisors a front end to those same capabilities, resembling AWS's conversion of internal operating machinery into a customer platform."
+    },
+    {
+      "title": "Customization preserves the advisor relationship",
+      "detail": "Canvas does not sell a fixed fund or bypass advisors; it lets them encode each client's taxes, exclusions, existing exposures, risk, and desired factor tilts. OSAM handles implementation while advisors remain the trusted interface for wealth, estate, and life context."
+    },
+    {
+      "title": "Authentic learning compounds into distribution",
+      "detail": "Invest Like the Best was not designed to capture assets, and O'Shaughnessy avoids programming it around sales. Consistent niche quality attracts sophisticated listeners, who improve access to stronger guests, who create better episodes and further strengthen trust."
+    },
+    {
+      "title": "Habits outperform distant outcome goals",
+      "detail": "O'Shaughnessy declines to predict an ideal ten-year state because imagined endpoints can distort present decisions. He uses principles, repeatable habits, and the next concrete 'boss battle' to maintain direction while leaving room for unexpected opportunities such as the podcast and Canvas."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Open research precedes the asset manager",
+      "summary": "O'Shaughnessy Capital begins as a research firm in 1987 before managing assets. The enduring pattern is to publish ideas, test investment rules openly, and let valuable research create the commercial institution around it.",
+      "quote": "the combination of open research and open ideas",
+      "timestamp": "4:46"
+    },
+    {
+      "title": "Simple rules expose a neglected empirical edge",
+      "summary": "James O'Shaughnessy reconstructs Dow history from microfiche and tests a disciplined high-dividend strategy. The result suggests that collecting differentiated data and following explicit rules matter more than sophisticated-sounding theory.",
+      "quote": "shockingly simple",
+      "timestamp": "6:53"
+    },
+    {
+      "title": "Technology arrives before its market is ready",
+      "summary": "The late-1990s Netfolio project resembles a robo-advisor with active quantitative strategies and planned customization. Heavy consumer funding and premature timing prevent the vision from maturing, but technology and customization return later in Canvas.",
+      "quote": "inevitable, but just ultimately too early",
+      "timestamp": "11:04"
+    },
+    {
+      "title": "A crisis-era spinout becomes Patrick's apprenticeship",
+      "summary": "OSAM separates from Bear Stearns in July 2007 with dual employees preserving investment track records and thousands of accounts transferring. Fresh from college, Patrick learns operations and client service while establishing a sizable business as a new entity.",
+      "quote": "treat it like a brand new business",
+      "timestamp": "12:52"
+    },
+    {
+      "title": "Canvas turns internal tools into advisor infrastructure",
+      "summary": "After reaching his limits as a quantitative researcher, Patrick studies software businesses and recognizes an AWS-like opportunity. Canvas wraps OSAM's decade-built stack in a web portal for portfolio design, trading, implementation, and reporting.",
+      "quote": "our internal tools as a service",
+      "timestamp": "34:35"
+    },
+    {
+      "title": "Personal constraints replace menu-based products",
+      "summary": "Advisors specify each investor's tax needs, exclusions, concentrated exposure, desired risks, and stock preferences rather than choose fund A, B, or C. OSAM deliberately serves the advisor instead of competing for the end-client relationship.",
+      "quote": "design exactly the strategy that you want",
+      "timestamp": "38:08"
+    },
+    {
+      "title": "Seven episodes establish a lifelong habit",
+      "summary": "Invest Like the Best starts in 2016 as an audio companion to a friend's book. O'Shaughnessy commits to seven conversations, outsources editing immediately, finds product-market fit by episode two, and discovers a durable personal learning engine.",
+      "quote": "I'm going to do this the rest of my life",
+      "timestamp": "43:40"
+    },
+    {
+      "title": "Curiosity protects media from sales pressure",
+      "summary": "The podcast becomes a major brand asset without being designed to attract OSAM capital or Canvas customers. O'Shaughnessy argues that listeners detect instrumental marketing, so editorial choices must remain driven by genuine interest and a high quality floor.",
+      "quote": "the second people smell sales",
+      "timestamp": "48:00"
+    },
+    {
+      "title": "Trust, guests, and audience form a flywheel",
+      "summary": "Consistent high-quality episodes attract knowledgeable listeners who benefit guests, making future exceptional guests easier to recruit. Time and low-variance output become a brand barrier that a new show cannot reproduce through spending alone.",
+      "quote": "it's all compounding",
+      "timestamp": "1:06:05"
+    },
+    {
+      "title": "Counter-positioning protects the software strategy",
+      "summary": "Canvas needs sophisticated quantitative research and compute, but the firms most capable of copying it earn richer margins from proprietary hedge funds. OSAM accepts lower platform economics and pairs outside research partnerships with its public-learning brand.",
+      "quote": "very counter-positioned with Canvas",
+      "timestamp": "1:13:55"
+    },
+    {
+      "title": "Portable ideas become the media product",
+      "summary": "Guests supply operating heuristics: mature enterprise software with a few customers, use open source for distribution, hire in uncompetitive markets, personalize commerce, and extrapolate technology's directional arrows to their endpoints. Curation makes those lessons navigable.",
+      "quote": "trying to extract these ideas",
+      "timestamp": "1:25:49"
+    },
+    {
+      "title": "Boss battles replace ten-year forecasts",
+      "summary": "Canvas receives a tentative B+ because it can benefit from disruption but remains execution-dependent. O'Shaughnessy favors strong habits, public learning, customization, and the next immediate challenge over fixed long-term goals that could pull the organization off course.",
+      "quote": "growth without goals",
+      "timestamp": "1:35:20"
+    }
+  ],
+  "title": "Patrick O'Shaughnessy: Quant Investing, Canvas, Invest Like the Best, and Learning in Public"
+}

@@ -1,0 +1,3559 @@
+{
+  "title": "Special: Superhuman Part II - Designing Software to Feel like a Game (with Rahul Vohra)",
+  "slug": "special-superhuman-part-ii-designing-software-to-feel-like-a-game-with-rahul-vohra",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.12,
+      "text": " That gives you a lot of cred when you're building software like games."
+    },
+    {
+      "start": 4.26,
+      "end": 8.36,
+      "text": " It's like, yeah, yeah, yeah, okay, sure, everyone thinks they know about games, but RuneScape is OG."
+    },
+    {
+      "start": 18.92,
+      "end": 23.72,
+      "text": " Welcome to this special episode of Acquired, the podcast about great technology companies"
+    },
+    {
+      "start": 23.72,
+      "end": 25.94,
+      "text": " and the stories and playbooks behind them."
+    },
+    {
+      "start": 25.94,
+      "end": 30.840000000000003,
+      "text": " I'm Ben Gilbert, and I'm the co-founder of Pioneer Square Labs, a startup studio and"
+    },
+    {
+      "start": 30.840000000000003,
+      "end": 32.480000000000004,
+      "text": " venture capital firm in Seattle."
+    },
+    {
+      "start": 33.160000000000004,
+      "end": 37.52,
+      "text": " And I'm David Rosenthal, and I am an angel investor and independent advisor to startups"
+    },
+    {
+      "start": 37.52,
+      "end": 38.980000000000004,
+      "text": " based in San Francisco."
+    },
+    {
+      "start": 39.38,
+      "end": 41.18,
+      "text": " And we are your hosts."
+    },
+    {
+      "start": 41.68,
+      "end": 45.84,
+      "text": " Today, we have superstar repeat guest Rahul Vora."
+    },
+    {
+      "start": 46.36,
+      "end": 47.18000000000001,
+      "text": " Welcome, Rahul."
+    },
+    {
+      "start": 47.52,
+      "end": 47.88,
+      "text": " Awesome."
+    },
+    {
+      "start": 48.06,
+      "end": 49.06,
+      "text": " Thank you for having me back."
+    },
+    {
+      "start": 49.58,
+      "end": 54.64,
+      "text": " Rahul had probably, I don't know if it's exactly the most listened to episode of all time, but"
+    },
+    {
+      "start": 54.64,
+      "end": 58.7,
+      "text": " it was certainly a standout episode when we released it."
+    },
+    {
+      "start": 59.1,
+      "end": 59.88,
+      "text": " David, when was that?"
+    },
+    {
+      "start": 60.02,
+      "end": 60.54,
+      "text": " Last June?"
+    },
+    {
+      "start": 60.54,
+      "end": 61.660000000000004,
+      "text": " That was June."
+    },
+    {
+      "start": 62.18,
+      "end": 63.2,
+      "text": " Last June."
+    },
+    {
+      "start": 63.46,
+      "end": 63.68,
+      "text": " Yeah."
+    },
+    {
+      "start": 63.86,
+      "end": 64.08,
+      "text": " 2019."
+    },
+    {
+      "start": 64.08,
+      "end": 66.94,
+      "text": " I think it was the finale of season five."
+    },
+    {
+      "start": 67.42,
+      "end": 67.66,
+      "text": " Wow."
+    },
+    {
+      "start": 67.78,
+      "end": 68.72,
+      "text": " Another lifetime ago."
+    },
+    {
+      "start": 69.96000000000001,
+      "end": 70.4,
+      "text": " Truly."
+    },
+    {
+      "start": 70.9,
+      "end": 75.44,
+      "text": " Well, the last time Rahul was on our show, many of you knew him for being the founder"
+    },
+    {
+      "start": 75.44,
+      "end": 78.14,
+      "text": " of the innovative, fast email client, Superhuman."
+    },
+    {
+      "start": 78.14,
+      "end": 83.34,
+      "text": " His frameworks for finding product market fit and how they did it at Superhuman have since"
+    },
+    {
+      "start": 83.34,
+      "end": 84.86,
+      "text": " become quite famous."
+    },
+    {
+      "start": 85.34,
+      "end": 91.08,
+      "text": " This year, many of you may have heard Rahul speaking on Patrick's show or the A16Z Summit"
+    },
+    {
+      "start": 91.08,
+      "end": 96.88,
+      "text": " and elsewhere about a new concept, how they think at Superhuman about designing software"
+    },
+    {
+      "start": 96.88,
+      "end": 98.26,
+      "text": " like it is a game."
+    },
+    {
+      "start": 98.78,
+      "end": 104.14,
+      "text": " Today, in true acquired fashion, we are going to dive into the actual stories behind these"
+    },
+    {
+      "start": 104.14,
+      "end": 109.74,
+      "text": " concepts and how Rahul and the team at Superhuman have put them into practice as the product"
+    },
+    {
+      "start": 109.74,
+      "end": 114.0,
+      "text": " has matured from that initial product market fit that we talked about on the last episode"
+    },
+    {
+      "start": 114.0,
+      "end": 119.74,
+      "text": " to a professional or really even enterprise class suite of tools where they've rolled out"
+    },
+    {
+      "start": 119.74,
+      "end": 122.1,
+      "text": " some calendar functionality as well recently."
+    },
+    {
+      "start": 122.88,
+      "end": 125.76,
+      "text": " For ULPs, we have something special today."
+    },
+    {
+      "start": 125.76,
+      "end": 130.4,
+      "text": " When we finish up here on the main show, we are going to do an LP episode with Rahul,"
+    },
+    {
+      "start": 130.4,
+      "end": 137.68,
+      "text": " a masterclass on fundraising, which for anyone who doesn't know, not only has Rahul done this"
+    },
+    {
+      "start": 137.68,
+      "end": 143.72,
+      "text": " like a total pro with Superhuman, really being thoughtful about the process and employing every"
+    },
+    {
+      "start": 143.72,
+      "end": 148.3,
+      "text": " tactic in the book for building a great company and capitalizing it the best way he sees fit,"
+    },
+    {
+      "start": 148.4,
+      "end": 151.18,
+      "text": " but also with his previous companies with Reportive."
+    },
+    {
+      "start": 151.18,
+      "end": 156.70000000000002,
+      "text": " He actually also now has two funds of his own, the most recent being an AngelList rolling fund,"
+    },
+    {
+      "start": 156.7,
+      "end": 162.32,
+      "text": " and we will talk with him about that on the LP show, which you can get to by going to"
+    },
+    {
+      "start": 162.32,
+      "end": 166.04,
+      "text": " acquired.fm slash LP or clicking the link in the show notes."
+    },
+    {
+      "start": 166.72,
+      "end": 167.45999999999998,
+      "text": " Can't wait for that."
+    },
+    {
+      "start": 167.94,
+      "end": 168.14,
+      "text": " Yep."
+    },
+    {
+      "start": 168.83999999999997,
+      "end": 170.5,
+      "text": " All right, listeners."
+    },
+    {
+      "start": 170.85999999999999,
+      "end": 175.35999999999999,
+      "text": " Now is a great time to talk about a new partner of ours here on Acquired,"
+    },
+    {
+      "start": 175.66,
+      "end": 181.82,
+      "text": " Lagora, the agentic operating system that is redefining how the world's best legal teams work."
+    },
+    {
+      "start": 182.22,
+      "end": 182.44,
+      "text": " Yep."
+    },
+    {
+      "start": 182.44,
+      "end": 186.66,
+      "text": " It's sort of obvious that AI is going to completely change the legal industry."
+    },
+    {
+      "start": 186.88,
+      "end": 191.4,
+      "text": " I bet most of you listening have dropped a contract into some sort of AI chatbot out there."
+    },
+    {
+      "start": 191.6,
+      "end": 193.62,
+      "text": " Lagora took that insight and asked the question,"
+    },
+    {
+      "start": 193.84,
+      "end": 198.44,
+      "text": " what if you really built something with that power from the ground up for the legal industry?"
+    },
+    {
+      "start": 198.94,
+      "end": 205.02,
+      "text": " So the founders did exactly what great founders do, operate with obsessive customer focus."
+    },
+    {
+      "start": 205.22,
+      "end": 209.38,
+      "text": " They embedded inside a massive law firm for months."
+    },
+    {
+      "start": 209.38,
+      "end": 213.56,
+      "text": " They sat with the lawyers just watching how the work really gets done."
+    },
+    {
+      "start": 213.96,
+      "end": 218.57999999999998,
+      "text": " And that's how you get features that customers love, like tabular review, where you drop in a"
+    },
+    {
+      "start": 218.57999999999998,
+      "end": 223.62,
+      "text": " folder of hundreds of contracts and it pulls every key term into a grid a lawyer can actually work"
+    },
+    {
+      "start": 223.62,
+      "end": 228.56,
+      "text": " with. Lagora's bet here is interesting. Since it lets each lawyer handle more complexity,"
+    },
+    {
+      "start": 228.92,
+      "end": 234.24,
+      "text": " any given person can increase the quality of their work and do higher value work. And this means that"
+    },
+    {
+      "start": 234.24,
+      "end": 237.5,
+      "text": " the pie can grow even as each individual task takes less time."
+    },
+    {
+      "start": 237.5,
+      "end": 241.92,
+      "text": " And they recently launched Lagora Agent, offering greater intelligence and performance."
+    },
+    {
+      "start": 242.46,
+      "end": 249.04,
+      "text": " The agent lets lawyers set an objective. Then it can handle the planning and the execution and"
+    },
+    {
+      "start": 249.04,
+      "end": 253.3,
+      "text": " delivery of the final product. Legal teams get to maintain full control and transparency"
+    },
+    {
+      "start": 253.3,
+      "end": 256.38,
+      "text": " since they're still involved where judgment is required."
+    },
+    {
+      "start": 256.88,
+      "end": 262.28,
+      "text": " And Lagora works where you already work. You can use it within Microsoft Word while redlining or"
+    },
+    {
+      "start": 262.28,
+      "end": 266.14,
+      "text": " drafting. The early Lagora numbers essentially speak for themselves."
+    },
+    {
+      "start": 266.14,
+      "end": 271.06,
+      "text": " When they have a head-to-head pilot with their top competitor, they win 70% of the time."
+    },
+    {
+      "start": 271.47999999999996,
+      "end": 278.56,
+      "text": " Lagora now has over 100,000 lawyers on the platform from 1,200 legal teams in 50 countries."
+    },
+    {
+      "start": 279.18,
+      "end": 285.8,
+      "text": " And crazily, they went from 1 million to 100 million in ARR in about 18 months."
+    },
+    {
+      "start": 285.8,
+      "end": 292.24,
+      "text": " Truly insane numbers. And that is the real test. Plenty of things demo well, but the question is"
+    },
+    {
+      "start": 292.24,
+      "end": 297.04,
+      "text": " whether a busy associate actually reaches for it during crunch time or whether a partner trusts it"
+    },
+    {
+      "start": 297.04,
+      "end": 301.26,
+      "text": " before going into a conversation with a major client. If your legal team wants to check it out,"
+    },
+    {
+      "start": 301.42,
+      "end": 306.7,
+      "text": " whether you're a law firm or you're in-house at a company, you can learn more at lagora.com"
+    },
+    {
+      "start": 306.7,
+      "end": 310.72,
+      "text": " slash acquired and just tell them that Ben and David sent you."
+    },
+    {
+      "start": 310.72,
+      "end": 315.1,
+      "text": " All right, David, let's dive in to this episode with Rahul."
+    },
+    {
+      "start": 316.06,
+      "end": 321.92,
+      "text": " Indeed. So great to have you back. We were joking when we were preparing in a few minutes before this"
+    },
+    {
+      "start": 321.92,
+      "end": 327.46000000000004,
+      "text": " that you are now our gold standard for guests that we tell all our other guests in prep,"
+    },
+    {
+      "start": 327.64000000000004,
+      "end": 331.98,
+      "text": " you know, hey, go listen to our episode with Rahul. He is like the most thoughtfully prepared"
+    },
+    {
+      "start": 331.98,
+      "end": 338.0,
+      "text": " guest ever. So we're so excited to have you back and now adopt your playbook into acquired itself."
+    },
+    {
+      "start": 338.0,
+      "end": 340.64,
+      "text": " Oh gosh. Well, I hope I live up to my own standard."
+    },
+    {
+      "start": 342.38,
+      "end": 346.5,
+      "text": " I'm sure you will. Such a cool topic to be talking about. I mean, we've gone deep on"
+    },
+    {
+      "start": 346.5,
+      "end": 352.24,
+      "text": " gaming history in and of its own. So often here on acquired, I thought a good jumping off point"
+    },
+    {
+      "start": 352.24,
+      "end": 357.88,
+      "text": " before we get into your specific principles that you use at superhuman is let's talk about like,"
+    },
+    {
+      "start": 358.38,
+      "end": 363.5,
+      "text": " what is a game? It sounds like a simple question. Sometimes hard to define. There are"
+    },
+    {
+      "start": 363.5,
+      "end": 368.54,
+      "text": " no fewer than what we got here, like eight or nine definitions on Wikipedia. From your perspective,"
+    },
+    {
+      "start": 368.76,
+      "end": 376.52,
+      "text": " like how do you think about it? I like to use a definition that I came across in a book that is,"
+    },
+    {
+      "start": 376.7,
+      "end": 383.22,
+      "text": " by the way, the best on the topic, The Art of Game Design by Jesse Schell. And you can get really"
+    },
+    {
+      "start": 383.22,
+      "end": 391.24,
+      "text": " complicated. You can get really academic, even abstract about the definition of a game. But in my mind,"
+    },
+    {
+      "start": 391.24,
+      "end": 399.56,
+      "text": " Jesse puts it best, a game is simply something that you play. And this seems hard to argue with."
+    },
+    {
+      "start": 399.84000000000003,
+      "end": 403.6,
+      "text": " Now, there are all kinds of other definitions out there, but I always come back to this one."
+    },
+    {
+      "start": 403.7,
+      "end": 405.28000000000003,
+      "text": " A game is something that you play."
+    },
+    {
+      "start": 405.5,
+      "end": 409.34000000000003,
+      "text": " Wait, so let me push on that a little bit. Like, is guitar a game if I'm playing guitar,"
+    },
+    {
+      "start": 409.5,
+      "end": 411.44,
+      "text": " or is that sort of a different use of the word play?"
+    },
+    {
+      "start": 411.44,
+      "end": 418.24,
+      "text": " I think that's a somewhat different use of the word play. You don't play guitar with somebody else."
+    },
+    {
+      "start": 418.44,
+      "end": 424.06,
+      "text": " It doesn't engage you in the way that a game engages you. I think playing a musical instrument"
+    },
+    {
+      "start": 424.06,
+      "end": 430.32,
+      "text": " is a different form of play. But it's interesting etymology, as we'll dive into over the course of"
+    },
+    {
+      "start": 430.32,
+      "end": 436.38,
+      "text": " the episode, we'll see that it has a lot of the same properties of a game. And the way that I like to"
+    },
+    {
+      "start": 436.38,
+      "end": 444.96,
+      "text": " sort of chew on this topic is through the semantics. For example, a game versus a toy."
+    },
+    {
+      "start": 445.1,
+      "end": 452.18,
+      "text": " This is a common question in academic literature on gaming. We also play with toys. Does that mean"
+    },
+    {
+      "start": 452.18,
+      "end": 458.26,
+      "text": " that toys are the same as games? I would say no, in fact, they are different because we use a different"
+    },
+    {
+      "start": 458.26,
+      "end": 464.88,
+      "text": " language to describe them. A game is something you play, but a toy is something you play with."
+    },
+    {
+      "start": 464.88,
+      "end": 470.98,
+      "text": " Now, you could then go deeper and say, well, we play with our friends. Does that make them toys?"
+    },
+    {
+      "start": 472.64,
+      "end": 479.4,
+      "text": " Obviously, the answer is no. A toy is an object you play with. It's not a human being that you play"
+    },
+    {
+      "start": 479.4,
+      "end": 485.34,
+      "text": " with. And so this kind of introspective interrogation can lead you to a really good definition."
+    },
+    {
+      "start": 485.88,
+      "end": 490.21999999999997,
+      "text": " But you can go deeper still. So for example, I'm fiddling with a piece of paper right now."
+    },
+    {
+      "start": 490.22,
+      "end": 496.0,
+      "text": " I'm rolling it up and I'm unrolling it just in order to keep my nervousness down. Now, you could"
+    },
+    {
+      "start": 496.0,
+      "end": 503.0,
+      "text": " say I'm playing with it, but it's not a very fun toy. So you could also then observe that some toys"
+    },
+    {
+      "start": 503.0,
+      "end": 509.24,
+      "text": " are more fun than others. And then you start to get to a definition like a game is something you play."
+    },
+    {
+      "start": 509.76000000000005,
+      "end": 516.94,
+      "text": " A toy is an object you play with. But a good toy is an object that is fun to play with. And then you"
+    },
+    {
+      "start": 516.94,
+      "end": 521.6800000000001,
+      "text": " start to get to the heart of the matter, which is, well, what is fun anyway? And again, there's been"
+    },
+    {
+      "start": 521.6800000000001,
+      "end": 529.34,
+      "text": " a ton of research into what fun actually is. Some people would say, fun is just pleasure. To them,"
+    },
+    {
+      "start": 529.4000000000001,
+      "end": 537.1800000000001,
+      "text": " I would say, well, can you experience fun but not pleasure? And the answer seems, yeah, probably not."
+    },
+    {
+      "start": 537.2800000000001,
+      "end": 541.0600000000001,
+      "text": " It would be really hard to experience fun but not pleasure. I can't think of an example"
+    },
+    {
+      "start": 541.06,
+      "end": 547.8599999999999,
+      "text": " where that's the case. But the contrapositive is not true. There are plenty of pleasant experiences."
+    },
+    {
+      "start": 548.64,
+      "end": 555.16,
+      "text": " Imagine, for example, a relaxing head massage that few people would describe as fun. So it turns out"
+    },
+    {
+      "start": 555.16,
+      "end": 562.2199999999999,
+      "text": " that pleasure alone misses a certain something special. And the thing that it misses is surprise."
+    },
+    {
+      "start": 562.22,
+      "end": 569.62,
+      "text": " It turns out that fun needs surprise. And in fact, our brain is hardwired in a very neurological sense"
+    },
+    {
+      "start": 569.62,
+      "end": 576.1,
+      "text": " to enjoy surprise. So you end up with this stack of definitions. A game is something you play."
+    },
+    {
+      "start": 576.5600000000001,
+      "end": 582.2,
+      "text": " A good toy is an object that is fun to play with. And fun is pleasant surprise."
+    },
+    {
+      "start": 583.3000000000001,
+      "end": 588.8000000000001,
+      "text": " Aha. Well, perfect. That is exactly what our next question was going to be, which is,"
+    },
+    {
+      "start": 588.8,
+      "end": 596.38,
+      "text": " in some ways, I think the crux of the matter here, which is what is a good game? Of course,"
+    },
+    {
+      "start": 596.42,
+      "end": 600.7199999999999,
+      "text": " the classic definition on this is previous acquired guest, Nolan Bushnell from Atari,"
+    },
+    {
+      "start": 600.88,
+      "end": 607.8399999999999,
+      "text": " Bushnell's Law, that a good game is something that is easy to learn, but difficult to master."
+    },
+    {
+      "start": 608.3599999999999,
+      "end": 612.26,
+      "text": " How does that fit into your stack? There's a phrase for this. I think that is necessary,"
+    },
+    {
+      "start": 612.26,
+      "end": 618.18,
+      "text": " but not sufficient. There are plenty of other things that are required in order to make a good game."
+    },
+    {
+      "start": 618.18,
+      "end": 625.38,
+      "text": " And you could go so far as to list hundreds of attributes. There isn't really a minimal subset,"
+    },
+    {
+      "start": 626.1999999999999,
+      "end": 631.3599999999999,
+      "text": " but I think it does involve more than those two factors. So there are seven principles that we"
+    },
+    {
+      "start": 631.3599999999999,
+      "end": 636.88,
+      "text": " think of when it comes to what makes a good game at Superhuman. And those seven principles,"
+    },
+    {
+      "start": 637.02,
+      "end": 643.6999999999999,
+      "text": " we think of them across roughly five different factors. Things like goals, emotions, controls,"
+    },
+    {
+      "start": 643.7,
+      "end": 651.0200000000001,
+      "text": " toys, and flow. Bushnell's Law talks a bit about goals, and it talks a little bit about a related"
+    },
+    {
+      "start": 651.0200000000001,
+      "end": 657.0200000000001,
+      "text": " concept of mastery. But it doesn't talk about how you feel when you're going through a game. It doesn't"
+    },
+    {
+      "start": 657.0200000000001,
+      "end": 663.44,
+      "text": " talk about the nature of interaction with a game, whether it's truly a video game, or it's a board game,"
+    },
+    {
+      "start": 663.44,
+      "end": 668.26,
+      "text": " or it's a piece of software that is designed to feel like a game. It doesn't talk about the"
+    },
+    {
+      "start": 668.26,
+      "end": 674.48,
+      "text": " childlike sensation of wonder that you experience when you're playing with a toy. And it doesn't"
+    },
+    {
+      "start": 674.48,
+      "end": 679.88,
+      "text": " talk about the psychological phenomenon of flow, which I personally think is one of the most important"
+    },
+    {
+      "start": 679.88,
+      "end": 686.36,
+      "text": " factors of what makes for a good game. You really do have to draw upon the art and science of all kinds"
+    },
+    {
+      "start": 686.36,
+      "end": 692.38,
+      "text": " of fields, whether it's psychology, mathematics, storytelling, interaction design, when it comes to"
+    },
+    {
+      "start": 692.38,
+      "end": 698.4,
+      "text": " making a great game. You're obviously super well read on this front, but you have some serious cred"
+    },
+    {
+      "start": 698.4,
+      "end": 704.98,
+      "text": " too, which you don't often talk about. But you were a game designer before Superhuman and Reportive."
+    },
+    {
+      "start": 705.12,
+      "end": 712.68,
+      "text": " You were specifically a game designer at RuneScape, the legendary OG MMO. Is that where you kind of"
+    },
+    {
+      "start": 712.68,
+      "end": 720.18,
+      "text": " honed these principles? I think that was the first time I put it into professional practice. But I've"
+    },
+    {
+      "start": 720.18,
+      "end": 724.3,
+      "text": " really been obsessed with game design and the art of making games for my entire life."
+    },
+    {
+      "start": 724.76,
+      "end": 729.92,
+      "text": " In fact, the very reason I learned how to code, and I started when I was about eight years old,"
+    },
+    {
+      "start": 730.3399999999999,
+      "end": 735.7399999999999,
+      "text": " was just so that I could make games. I was finishing up a school day one day,"
+    },
+    {
+      "start": 736.04,
+      "end": 741.76,
+      "text": " and both my parents were doctors, and so they worked fairly late. And so I did what any self-respecting"
+    },
+    {
+      "start": 741.76,
+      "end": 746.4399999999999,
+      "text": " nerd would do, which is hang out in the school library. And once I'd finished reading all of the"
+    },
+    {
+      "start": 746.44,
+      "end": 751.72,
+      "text": " fiction books, I started on the nonfiction books, pretty quickly found the coding section,"
+    },
+    {
+      "start": 752.08,
+      "end": 756.5,
+      "text": " because the predominant computer at the time in the United Kingdom was the BBC microcomputer."
+    },
+    {
+      "start": 756.6600000000001,
+      "end": 760.62,
+      "text": " Fortunately, the word started with B, otherwise my life would have gone down a completely different"
+    },
+    {
+      "start": 760.62,
+      "end": 766.22,
+      "text": " direction. And I just read these books, and I taught myself how to code. And they were aimed for"
+    },
+    {
+      "start": 766.22,
+      "end": 772.5400000000001,
+      "text": " children. These books were written for kids. And so all of the motivating examples were designing"
+    },
+    {
+      "start": 772.54,
+      "end": 777.4599999999999,
+      "text": " your own games, whether it was an adventure game or some kind of action game. And so that brought me"
+    },
+    {
+      "start": 777.4599999999999,
+      "end": 783.64,
+      "text": " into this world. By the time I was about 18 years old, I don't know if folks still believe in Malcolm"
+    },
+    {
+      "start": 783.64,
+      "end": 790.3399999999999,
+      "text": " Gladwell's 10,000 hours, but I'd spent 10,000 hours programming, mostly around creating my own games."
+    },
+    {
+      "start": 790.3399999999999,
+      "end": 797.18,
+      "text": " And then I went to the University of Cambridge to study computer science. Once I left, that was when I"
+    },
+    {
+      "start": 797.18,
+      "end": 805.18,
+      "text": " joined Jagex, which some people will remember as the creator of RuneScape, which at the time was the"
+    },
+    {
+      "start": 805.18,
+      "end": 810.9399999999999,
+      "text": " world's largest online free role-playing game. And that was where I really cut my teeth professionally"
+    },
+    {
+      "start": 810.9399999999999,
+      "end": 818.56,
+      "text": " as a game designer. I took all the things I'd learned, both as a passionate fan and player of video games,"
+    },
+    {
+      "start": 818.56,
+      "end": 826.4399999999999,
+      "text": " as well as a hobbyist game programmer, to creating quests and content for the players of RuneScape."
+    },
+    {
+      "start": 826.44,
+      "end": 829.1400000000001,
+      "text": " And I can tell you it was one of the most fun jobs I've ever had."
+    },
+    {
+      "start": 829.6,
+      "end": 834.8800000000001,
+      "text": " And that was a crazy concept at the time, because if I'm remembering right, this was well before most free-to-play."
+    },
+    {
+      "start": 835.0200000000001,
+      "end": 841.32,
+      "text": " So this idea of a game that was free was wild. And wasn't it also browser-based? Like it was Flash in the"
+    },
+    {
+      "start": 841.32,
+      "end": 845.1800000000001,
+      "text": " browser and you didn't need to download some big heavy thing to run on your PC?"
+    },
+    {
+      "start": 845.9200000000001,
+      "end": 852.82,
+      "text": " It was in fact browser-based. And the clue is in the name. It was not in fact Flash. Few people know this,"
+    },
+    {
+      "start": 852.82,
+      "end": 855.84,
+      "text": " but Jagex stands for... Do you want to give it a go, David?"
+    },
+    {
+      "start": 855.84,
+      "end": 857.48,
+      "text": " Java game experts, right?"
+    },
+    {
+      "start": 857.88,
+      "end": 865.5600000000001,
+      "text": " That was the colloquial interpretation. The very original technical definition was Java graphical"
+    },
+    {
+      "start": 865.5600000000001,
+      "end": 873.1600000000001,
+      "text": " extensions. So Andrew Gower, who is resolutely a genius, he was an alumnus of the computer science"
+    },
+    {
+      "start": 873.1600000000001,
+      "end": 881.48,
+      "text": " laboratory where I studied many years ahead of me, had created an entire graphical game engine that was"
+    },
+    {
+      "start": 881.48,
+      "end": 887.0600000000001,
+      "text": " capable of doing what now would look like rudimentary 3D graphics. Imagine the PS1 area."
+    },
+    {
+      "start": 887.44,
+      "end": 894.1800000000001,
+      "text": " But it ran in the browser. It ran in every browser of every library of every school all across the world."
+    },
+    {
+      "start": 894.32,
+      "end": 899.08,
+      "text": " And that was all it had to do to capture that user base that it did."
+    },
+    {
+      "start": 899.76,
+      "end": 908.2,
+      "text": " He was incredible. I remember, to nerd out for just a second, for anyone who's programmed Java, there is of course an object model."
+    },
+    {
+      "start": 908.2,
+      "end": 914.24,
+      "text": " You don't have to define what an object is. It comes with it. And everything inherits of this object-oriented scheme."
+    },
+    {
+      "start": 914.88,
+      "end": 920.5200000000001,
+      "text": " Andrew said, no, this is too slow. Because we're trying to do real-time graphics in the browser,"
+    },
+    {
+      "start": 920.76,
+      "end": 924.12,
+      "text": " I'm going to create my own object model in Java."
+    },
+    {
+      "start": 924.24,
+      "end": 929.1800000000001,
+      "text": " So he took Java the language, but he completely threw away Java the framework, made his own."
+    },
+    {
+      "start": 929.6,
+      "end": 932.0,
+      "text": " And that was the thing upon which RuneScape was built."
+    },
+    {
+      "start": 932.0,
+      "end": 934.94,
+      "text": " It was a real technical marvel at the time."
+    },
+    {
+      "start": 935.88,
+      "end": 938.36,
+      "text": " Wow. So was that technically a Java applet then?"
+    },
+    {
+      "start": 939.4,
+      "end": 942.02,
+      "text": " Oh gosh, now you're questioning my own terminology."
+    },
+    {
+      "start": 942.44,
+      "end": 942.56,
+      "text": " All right, all right, all right."
+    },
+    {
+      "start": 942.56,
+      "end": 944.82,
+      "text": " Yes, I think it actually was at the time."
+    },
+    {
+      "start": 945.46,
+      "end": 950.82,
+      "text": " All right, listeners. Now is a great time to tell you about a longtime friend of the show, Vanta."
+    },
+    {
+      "start": 951.42,
+      "end": 954.08,
+      "text": " AI has scrambled the whole security picture."
+    },
+    {
+      "start": 954.56,
+      "end": 958.82,
+      "text": " It used to be that you proved that you were secure once a year, an audit or a static PDF."
+    },
+    {
+      "start": 958.82,
+      "end": 964.4000000000001,
+      "text": " Then everyone would nod and you're done. But in an AI-first world, that doesn't hold up anymore."
+    },
+    {
+      "start": 964.8000000000001,
+      "end": 970.5400000000001,
+      "text": " Yep. Your risk surface changes every week now. A vendor turns on an AI feature or someone writes"
+    },
+    {
+      "start": 970.5400000000001,
+      "end": 975.1600000000001,
+      "text": " in a new model without telling IT. And your posture is different than it was last week,"
+    },
+    {
+      "start": 975.2600000000001,
+      "end": 981.22,
+      "text": " let alone at your last audit. Vanta's own research found that around 70% of companies have this"
+    },
+    {
+      "start": 981.22,
+      "end": 985.4200000000001,
+      "text": " quote-unquote shadow AI running with no security review at all."
+    },
+    {
+      "start": 985.42,
+      "end": 990.04,
+      "text": " Right. And that's where Vanta comes in. They're the leading agentic trust platform,"
+    },
+    {
+      "start": 990.28,
+      "end": 994.1999999999999,
+      "text": " meaning they've built the thing that closes the gap. And the way that they close that gap"
+    },
+    {
+      "start": 994.1999999999999,
+      "end": 999.24,
+      "text": " is Vanta Agent. Think of it as a GRC engineer, that's governance, risk, and compliance,"
+    },
+    {
+      "start": 999.56,
+      "end": 1003.8399999999999,
+      "text": " except that it's software and it doesn't sleep. It finds the issues, drafts the fixes,"
+    },
+    {
+      "start": 1004.02,
+      "end": 1007.2199999999999,
+      "text": " and cuts the time that you'd spend on vendor assessments in half."
+    },
+    {
+      "start": 1007.22,
+      "end": 1015.32,
+      "text": " In half. Which is exactly why more than 16,000 companies today run on Vanta. Companies like"
+    },
+    {
+      "start": 1015.32,
+      "end": 1021.52,
+      "text": " Ramp, Cursor, and Snowflake all stay audit-ready and catch the risks that crop up between audits"
+    },
+    {
+      "start": 1021.52,
+      "end": 1025.34,
+      "text": " across every vendor, every AI tool, the whole environment."
+    },
+    {
+      "start": 1025.74,
+      "end": 1030.14,
+      "text": " And that's the real value. Trust has to be continuous now, which is why Vanta automates"
+    },
+    {
+      "start": 1030.14,
+      "end": 1036.06,
+      "text": " your security, your compliance, and the work to earn and prove trust. We're huge fans of Vanta over"
+    },
+    {
+      "start": 1036.06,
+      "end": 1040.6799999999998,
+      "text": " here. And literally hundreds of acquired listeners have become Vanta customers at their companies"
+    },
+    {
+      "start": 1040.6799999999998,
+      "end": 1047.52,
+      "text": " over the years. So you can get $1,000 off Vanta at vanta.com slash acquired. That's V-A-N-T-A.com"
+    },
+    {
+      "start": 1047.52,
+      "end": 1052.4199999999998,
+      "text": " slash acquired for $1,000 off. And just tell them that Ben and David sent you."
+    },
+    {
+      "start": 1053.6599999999999,
+      "end": 1057.12,
+      "text": " Well, this is a bit of a personal question for you, but you talked about the 10,000 hours"
+    },
+    {
+      "start": 1057.12,
+      "end": 1062.52,
+      "text": " of programming games. And earlier you mentioned flow. And it's funny, I was just having this"
+    },
+    {
+      "start": 1062.52,
+      "end": 1065.4199999999998,
+      "text": " conversation with a friend recently about flow. And I don't know what the technical"
+    },
+    {
+      "start": 1065.42,
+      "end": 1069.78,
+      "text": " definition is, but the way that I always think about it is when you're able to lose yourself,"
+    },
+    {
+      "start": 1069.78,
+      "end": 1075.14,
+      "text": " when hours can go by and you sort of come to and you don't realize that you've been doing"
+    },
+    {
+      "start": 1075.14,
+      "end": 1079.42,
+      "text": " the thing that you've been doing for hours and you have lost yourself. Obviously, this"
+    },
+    {
+      "start": 1079.42,
+      "end": 1083.94,
+      "text": " can happen playing games. And I'm curious for you, does this happen to you? Do you enter a"
+    },
+    {
+      "start": 1083.94,
+      "end": 1085.7,
+      "text": " flow state when you're programming?"
+    },
+    {
+      "start": 1086.1000000000001,
+      "end": 1093.5800000000002,
+      "text": " I do. Unfortunately, I have not been able to program recently that much at all. Our engineers"
+    },
+    {
+      "start": 1093.58,
+      "end": 1097.6599999999999,
+      "text": " probably wouldn't want me getting that close to the code base these days."
+    },
+    {
+      "start": 1098.5,
+      "end": 1103.8799999999999,
+      "text": " One of the things that I always ask people to do, if they're getting interested in this"
+    },
+    {
+      "start": 1103.8799999999999,
+      "end": 1110.1799999999998,
+      "text": " idea of game design, if they're trying to wrap their head around flow, is this notion of"
+    },
+    {
+      "start": 1110.1799999999998,
+      "end": 1116.96,
+      "text": " inspiration. What experience in your life would you most want to share with others? It's probably"
+    },
+    {
+      "start": 1116.96,
+      "end": 1122.84,
+      "text": " very unique. Very few other people will have access to it. And for me, it was one of those"
+    },
+    {
+      "start": 1122.84,
+      "end": 1129.56,
+      "text": " flow experiences. So as you know, I sold my last company, Reportive, to LinkedIn. And being at"
+    },
+    {
+      "start": 1129.56,
+      "end": 1137.52,
+      "text": " LinkedIn wasn't easy. Being acquired, so to speak, is rather hard. And as part of my retail therapy for"
+    },
+    {
+      "start": 1137.52,
+      "end": 1145.4599999999998,
+      "text": " myself, I acquired a rather special car. It was a Lamborghini Gallardo, a superleggera, 570 horsepower,"
+    },
+    {
+      "start": 1146.12,
+      "end": 1152.4599999999998,
+      "text": " zero to 60 in less than three seconds. Although without the sort of sterile way that a Tesla Roadster"
+    },
+    {
+      "start": 1152.46,
+      "end": 1158.52,
+      "text": " would get you there, this is the most angry, loud way that only a naturally aspirated V10 would get"
+    },
+    {
+      "start": 1158.52,
+      "end": 1158.8400000000001,
+      "text": " you there."
+    },
+    {
+      "start": 1159.52,
+      "end": 1165.1000000000001,
+      "text": " Oh, you got to hang out with Jan from WhatsApp. He's all about the naturally aspirated supercars,"
+    },
+    {
+      "start": 1165.42,
+      "end": 1166.26,
+      "text": " Porsches specifically."
+    },
+    {
+      "start": 1166.6000000000001,
+      "end": 1172.44,
+      "text": " He is a superhuman customer, so I will drop him a line. So you can imagine this car. It has gigantic"
+    },
+    {
+      "start": 1172.44,
+      "end": 1177.9,
+      "text": " air intakes at the front, a race wing at the back. Everything that could be made out of carbon was made"
+    },
+    {
+      "start": 1177.9,
+      "end": 1183.3400000000001,
+      "text": " out of carbon. And I used to race this car. These weren't sensible races on tracks. This was madness"
+    },
+    {
+      "start": 1183.3400000000001,
+      "end": 1191.98,
+      "text": " in mountains and canyons. And there is a certain speed where something magical happens. A speed where"
+    },
+    {
+      "start": 1191.98,
+      "end": 1196.24,
+      "text": " you stop thinking in words because words are too slow. Because by the time you've had that thought,"
+    },
+    {
+      "start": 1196.38,
+      "end": 1200.96,
+      "text": " you're already around the corner and through the next valley. And this is the speed where you and"
+    },
+    {
+      "start": 1200.96,
+      "end": 1205.74,
+      "text": " the car become one. The car is you. You are the car. It's like human and machine in full synchrony."
+    },
+    {
+      "start": 1205.74,
+      "end": 1212.22,
+      "text": " And a speed where every sense is at capacity. Because you see the landscape rip by, you hear"
+    },
+    {
+      "start": 1212.22,
+      "end": 1218.38,
+      "text": " the scream of the engine, you taste burning rubber, you can feel every imperfection. Now this is the"
+    },
+    {
+      "start": 1218.38,
+      "end": 1224.9,
+      "text": " most extreme flow I have ever experienced. And this is the experience that I most want to share with"
+    },
+    {
+      "start": 1224.9,
+      "end": 1231.66,
+      "text": " others. Now of course I can't literally recreate that sensation, but it was an underlying inspiration"
+    },
+    {
+      "start": 1231.66,
+      "end": 1238.5400000000002,
+      "text": " for why we built the fastest email experience in the world. It's why the unifying theme for everything"
+    },
+    {
+      "start": 1238.5400000000002,
+      "end": 1246.14,
+      "text": " that superhuman does is speed. And it's why we try so hard to engineer full flow. And it was my first"
+    },
+    {
+      "start": 1246.14,
+      "end": 1254.22,
+      "text": " real visceral experience of it. Now since then, I've gone deep into the academia behind it. You mentioned"
+    },
+    {
+      "start": 1254.22,
+      "end": 1262.9,
+      "text": " how our subjective experience of time changes. And it can either happen in both ways. It can stretch"
+    },
+    {
+      "start": 1262.9,
+      "end": 1270.16,
+      "text": " out forever, or it can flash by in an instant. Both are symptomatic of experiencing flow. And there"
+    },
+    {
+      "start": 1270.16,
+      "end": 1276.78,
+      "text": " are many other things that contribute to what flow is as well. Well, first of all, I have to tell you,"
+    },
+    {
+      "start": 1276.9,
+      "end": 1281.34,
+      "text": " if they ever remake Ford versus Ferrari, and they're looking for a new opener, they can just take"
+    },
+    {
+      "start": 1281.34,
+      "end": 1286.56,
+      "text": " your excerpt there. And is that directly as the voiceover? I started thinking about being in that"
+    },
+    {
+      "start": 1286.56,
+      "end": 1291.6999999999998,
+      "text": " car the way you're describing it. I think it's a great transition to some of these principles of"
+    },
+    {
+      "start": 1291.6999999999998,
+      "end": 1296.78,
+      "text": " game design and how you sort of are embodying them in superhuman. I don't want to be too"
+    },
+    {
+      "start": 1296.78,
+      "end": 1304.3,
+      "text": " dramatic here. But like, the closest I have ever come to being in flow while doing email has certainly"
+    },
+    {
+      "start": 1304.3,
+      "end": 1310.22,
+      "text": " been with superhuman. So, you know, props to you and the team for I think what you just mentioned,"
+    },
+    {
+      "start": 1310.22,
+      "end": 1315.58,
+      "text": " engineering for flow. And I may have mixed it up a little bit. But I initially brought up that"
+    },
+    {
+      "start": 1315.58,
+      "end": 1321.72,
+      "text": " programming point because I absolutely found flow when I used to do a lot of programming. And it is"
+    },
+    {
+      "start": 1321.72,
+      "end": 1326.92,
+      "text": " really rare to be able to find a sort of non engineering productivity app where you can feel"
+    },
+    {
+      "start": 1326.92,
+      "end": 1331.3600000000001,
+      "text": " that sense of sort of flying over the keyboard and losing yourself in the creative work."
+    },
+    {
+      "start": 1332.56,
+      "end": 1339.3,
+      "text": " There is, in fact, a reason for this. And this was my recruiting rant that I used to get my"
+    },
+    {
+      "start": 1339.3,
+      "end": 1344.54,
+      "text": " co-founder and CTO comrade Erwin, who was, by the way, the first employee that we hired at"
+    },
+    {
+      "start": 1344.54,
+      "end": 1353.18,
+      "text": " Reportive to join me at Superhuman. I still vividly remember this for those of us who have lived in or"
+    },
+    {
+      "start": 1353.18,
+      "end": 1357.98,
+      "text": " visited San Francisco. This took place at the local kitchen, which is a little pizzeria in South of"
+    },
+    {
+      "start": 1357.98,
+      "end": 1366.06,
+      "text": " the market. And we sat down and we ordered our pizza. And I said to comrade, has it ever occurred"
+    },
+    {
+      "start": 1366.06,
+      "end": 1374.66,
+      "text": " to you how unfair it is that we as programmers have the best tools in the world? And I could see the"
+    },
+    {
+      "start": 1374.66,
+      "end": 1381.1,
+      "text": " gears turning in his mind as he's munching this pizza increasingly slowly until his mouth grinds to"
+    },
+    {
+      "start": 1381.1,
+      "end": 1387.6399999999999,
+      "text": " halt. And he's like, yeah. And I said, well, there's a reason for this because we as programmers are the"
+    },
+    {
+      "start": 1387.6399999999999,
+      "end": 1395.6799999999998,
+      "text": " only profession in the world that gets to create our own software. How unfair is that? No wonder we"
+    },
+    {
+      "start": 1395.6799999999998,
+      "end": 1402.1599999999999,
+      "text": " have the best software. No wonder our fingers dance across the keyboard like we're playing a piano."
+    },
+    {
+      "start": 1402.56,
+      "end": 1407.98,
+      "text": " We wrote it ourselves. Of course, it's going to feel like an instrument. How about we do that?"
+    },
+    {
+      "start": 1407.98,
+      "end": 1412.06,
+      "text": " But for everybody else, let's take the things that we take for granted."
+    },
+    {
+      "start": 1412.74,
+      "end": 1418.88,
+      "text": " Hundred millisecond response times, instantaneous search, command palettes, keyboard shortcuts,"
+    },
+    {
+      "start": 1419.3600000000001,
+      "end": 1426.38,
+      "text": " beautiful layouts, typography as a first class citizen, design that reports separately and is"
+    },
+    {
+      "start": 1426.38,
+      "end": 1432.66,
+      "text": " a thing unto itself. Let's take all of these things and bring them to everybody. And that was when he"
+    },
+    {
+      "start": 1432.66,
+      "end": 1437.68,
+      "text": " said, yes, OK, I'll join you on this crazy idea of Superhuman. It's interesting to talk about"
+    },
+    {
+      "start": 1437.68,
+      "end": 1443.24,
+      "text": " the engineering behind games and specifically Superhuman as a game. I hadn't thought about this,"
+    },
+    {
+      "start": 1443.3200000000002,
+      "end": 1449.24,
+      "text": " but when you're talking about RuneScape and rewriting large parts of Java, just to get it to do what you"
+    },
+    {
+      "start": 1449.24,
+      "end": 1456.98,
+      "text": " want to push the bleeding edge of what the tools could do so that you could have this game experience."
+    },
+    {
+      "start": 1456.98,
+      "end": 1462.84,
+      "text": " And so many games do this. I mean, this is what Epic does. This is Fortnite. This is so much of"
+    },
+    {
+      "start": 1462.84,
+      "end": 1468.08,
+      "text": " the bleeding edge of tech gets pushed forward by gaming. You guys did the same thing with Superhuman"
+    },
+    {
+      "start": 1468.08,
+      "end": 1473.94,
+      "text": " in the early days, right? Like you you rewrote large parts of Chrome's scripting engines, right? Like"
+    },
+    {
+      "start": 1473.94,
+      "end": 1482.08,
+      "text": " all in pursuit of this speed concept. We did. And I can give two examples. One will be in pursuit of speed."
+    },
+    {
+      "start": 1482.08,
+      "end": 1491.1999999999998,
+      "text": " The other was more sort of in pursuit of beauty for the sake of beauty. We on the speed side had to"
+    },
+    {
+      "start": 1491.1999999999998,
+      "end": 1497.74,
+      "text": " figure out how to download, store and index pretty much all of your email in the browser itself."
+    },
+    {
+      "start": 1497.9399999999998,
+      "end": 1503.9199999999998,
+      "text": " Now you can use Superhuman in the browser. You can use Superhuman as a native app. Rather shockingly,"
+    },
+    {
+      "start": 1503.9199999999998,
+      "end": 1511.9399999999998,
+      "text": " the browser experience is no slower than any other experience. It is in fact faster than any native"
+    },
+    {
+      "start": 1511.94,
+      "end": 1518.0800000000002,
+      "text": " email experience. A core part. Do you use Electron for the native app? We do use Electron. Now,"
+    },
+    {
+      "start": 1518.98,
+      "end": 1525.54,
+      "text": " Electron by itself doesn't solve the problem. Electron by itself doesn't give you an easy way to do a"
+    },
+    {
+      "start": 1525.54,
+      "end": 1532.56,
+      "text": " full text search locally. And if you're trying to get faster than Google, one of the biggest companies"
+    },
+    {
+      "start": 1532.56,
+      "end": 1538.9,
+      "text": " of all time that has spent untold amounts of money to ensure that you are never more than two miles away"
+    },
+    {
+      "start": 1538.9,
+      "end": 1545.8600000000001,
+      "text": " from a server on their CDN. Well, how do you do it? If you're in the browser, a server on Amazon, let me tell you,"
+    },
+    {
+      "start": 1545.92,
+      "end": 1552.24,
+      "text": " isn't going to cut it. So we had to figure out how to work our magic. And we spent, no joke, this took nearly"
+    },
+    {
+      "start": 1552.24,
+      "end": 1560.24,
+      "text": " two years of time to figure out how to download, store and index the email in the browser such that when you"
+    },
+    {
+      "start": 1560.24,
+      "end": 1567.64,
+      "text": " search for an email, yes, it is searching remotely on your Gmail server, but it is also simultaneously"
+    },
+    {
+      "start": 1567.64,
+      "end": 1573.78,
+      "text": " searching in the browser and merging these search results in real time. Oh, I always wondered."
+    },
+    {
+      "start": 1574.8,
+      "end": 1580.3,
+      "text": " That's how it goes so fast. And that was an example of where we just had this insane speed"
+    },
+    {
+      "start": 1580.3,
+      "end": 1584.58,
+      "text": " requirements that required us to build an entirely new stack of technology."
+    },
+    {
+      "start": 1584.58,
+      "end": 1590.1599999999999,
+      "text": " Yeah. And for any of us that are formally from Outlook land, I think that the key concept that"
+    },
+    {
+      "start": 1590.1599999999999,
+      "end": 1594.24,
+      "text": " you just mentioned there is merging together. Like I've been a superhuman user for years now,"
+    },
+    {
+      "start": 1594.54,
+      "end": 1599.46,
+      "text": " did not realize you were doing that in an Outlook land. I mean, I would search and local search would"
+    },
+    {
+      "start": 1599.46,
+      "end": 1604.58,
+      "text": " be relatively fast. And then there would be another button I could click that's continue searching on"
+    },
+    {
+      "start": 1604.58,
+      "end": 1609.6399999999999,
+      "text": " server or something like that. And it always felt like I was thrust into this completely different new"
+    },
+    {
+      "start": 1609.6399999999999,
+      "end": 1614.3,
+      "text": " experience that, you know, okay, cool. I guess while that's searching, now I'll pop open my phone and do"
+    },
+    {
+      "start": 1614.3,
+      "end": 1617.8799999999999,
+      "text": " some tasks on there or switch open another application. Yeah. I never realized you were"
+    },
+    {
+      "start": 1617.8799999999999,
+      "end": 1622.58,
+      "text": " sort of doing both concurrently and stitching them together. And it does turn out to be this"
+    },
+    {
+      "start": 1622.58,
+      "end": 1629.82,
+      "text": " ridiculously hard problem. It's actually a computer science hard problem. How do you merge two infinite"
+    },
+    {
+      "start": 1629.82,
+      "end": 1636.04,
+      "text": " lists on the screen without having things like pop in? What if one email actually only exists in one"
+    },
+    {
+      "start": 1636.04,
+      "end": 1641.6399999999999,
+      "text": " of those lists? How do you stage them? It gets real gnarly, real fast. The other example,"
+    },
+    {
+      "start": 1641.64,
+      "end": 1646.24,
+      "text": " David, that you may have been referring to is actually to do with typography and fonts."
+    },
+    {
+      "start": 1647.16,
+      "end": 1656.9,
+      "text": " Now I'm a big typography nerd and I really wanted, I'll avoid using too much jargon as I go into this"
+    },
+    {
+      "start": 1656.9,
+      "end": 1664.3200000000002,
+      "text": " example, but I really wanted everything to line up with a vertical rhythm on the page. And this is"
+    },
+    {
+      "start": 1664.3200000000002,
+      "end": 1669.9,
+      "text": " really hard to do if you're just doing basic web programming. It is in fact impossible. If you have"
+    },
+    {
+      "start": 1669.9,
+      "end": 1675.14,
+      "text": " different fonts, you have graphical elements, things of different sizes to have everything line up on,"
+    },
+    {
+      "start": 1675.26,
+      "end": 1683.6000000000001,
+      "text": " let's say an eight pixel or a six pixel grid, but we figured out how to do it. We dove into the Chrome"
+    },
+    {
+      "start": 1683.6000000000001,
+      "end": 1690.8600000000001,
+      "text": " source code, reverse engineered the font layout engine, and then built our own layout framework,"
+    },
+    {
+      "start": 1691.0800000000002,
+      "end": 1697.18,
+      "text": " actually entirely in CSS, because we wanted this thing to be super fast as well. So now whenever we"
+    },
+    {
+      "start": 1697.18,
+      "end": 1702.88,
+      "text": " want to lay something out, we have a little tool that ingests the font. It spits out all the metrics."
+    },
+    {
+      "start": 1703.02,
+      "end": 1706.94,
+      "text": " This is the height of the ascender. This is the X height. This is the cap height. This is the length"
+    },
+    {
+      "start": 1706.94,
+      "end": 1713.8200000000002,
+      "text": " of the descender. And you are a typography nerd. It generates the CSS to automatically lay this stuff"
+    },
+    {
+      "start": 1713.8200000000002,
+      "end": 1721.0800000000002,
+      "text": " out so that it looks beautiful. A lot of the reason why the superhuman.com website and why the"
+    },
+    {
+      "start": 1721.08,
+      "end": 1729.9199999999998,
+      "text": " superhuman app looks the way it does is absolutely everything is on a sub pixel grid to perfection"
+    },
+    {
+      "start": 1729.9199999999998,
+      "end": 1735.02,
+      "text": " because of the CSS framework. And for superhuman customers who are listening, and maybe they're"
+    },
+    {
+      "start": 1735.02,
+      "end": 1741.22,
+      "text": " curious to actually see what I'm going on about. If they hit command K baseline, I believe this is an"
+    },
+    {
+      "start": 1741.22,
+      "end": 1747.9399999999998,
+      "text": " internal tool, but I think it is exposed to users. It will actually turn on a sub pixel grid and you can"
+    },
+    {
+      "start": 1747.94,
+      "end": 1755.8600000000001,
+      "text": " see everything layout on that on that frame. Can confirm it is in production. There we go."
+    },
+    {
+      "start": 1756.94,
+      "end": 1761.9,
+      "text": " That's so awesome. What great Easter egg to have in the product. All right. Speaking of Easter eggs,"
+    },
+    {
+      "start": 1761.94,
+      "end": 1766.66,
+      "text": " I'm going to take this opportunity to transition us, David. I'm working on my transitions here."
+    },
+    {
+      "start": 1766.9,
+      "end": 1770.1000000000001,
+      "text": " You're like Jcal. Just working on it. Becoming a pro."
+    },
+    {
+      "start": 1770.1,
+      "end": 1778.28,
+      "text": " So Rahul, I noticed one thing that you didn't do to try and give me flow while I'm working through"
+    },
+    {
+      "start": 1778.28,
+      "end": 1785.8,
+      "text": " my email is build a reward system where I'm earning points or badges as I'm working through my email"
+    },
+    {
+      "start": 1785.8,
+      "end": 1791.1,
+      "text": " and having a gamified experience. What is your framework to think about when that works? If"
+    },
+    {
+      "start": 1791.1,
+      "end": 1796.06,
+      "text": " that's a game, is that not a game? Why is that craze sort of less popular than it was in years past?"
+    },
+    {
+      "start": 1796.06,
+      "end": 1803.6599999999999,
+      "text": " So what we're really talking about here is gamification. And what we practice at Superhuman"
+    },
+    {
+      "start": 1803.6599999999999,
+      "end": 1811.54,
+      "text": " and where my passion lies is game design. Game design is not gamification. It is not simply"
+    },
+    {
+      "start": 1811.54,
+      "end": 1817.8,
+      "text": " taking your product and adding points, levels, trophies, or badges. And you kind of alluded to"
+    },
+    {
+      "start": 1817.8,
+      "end": 1825.94,
+      "text": " this, but it was a big deal 10 years ago and it's really faded away. And the reason is it didn't"
+    },
+    {
+      "start": 1825.94,
+      "end": 1832.38,
+      "text": " work. And to understand why we really have to understand human motivation and the difference"
+    },
+    {
+      "start": 1832.38,
+      "end": 1836.68,
+      "text": " between intrinsic motivation and extrinsic motivation."
+    },
+    {
+      "start": 1837.6000000000001,
+      "end": 1841.92,
+      "text": " Makes total sense. And without, you know, jumping to too many conclusions here, I'm just going to"
+    },
+    {
+      "start": 1841.92,
+      "end": 1848.8200000000002,
+      "text": " assume that me getting through my inbox on its own is an intrinsic motivation. Whereas you would be"
+    },
+    {
+      "start": 1848.8200000000002,
+      "end": 1853.8400000000001,
+      "text": " introducing extrinsic motivators if you introduce some kind of badging system or something. And that,"
+    },
+    {
+      "start": 1853.84,
+      "end": 1858.1399999999999,
+      "text": " I would guess, is just not as sort of sustainable, enduring, motivating."
+    },
+    {
+      "start": 1859.0,
+      "end": 1866.34,
+      "text": " Exactly. And the perhaps counterintuitive conclusion is that extrinsic motivation can"
+    },
+    {
+      "start": 1866.34,
+      "end": 1874.9199999999998,
+      "text": " actually undermine our intrinsic motivation. We can be less enthused to do a thing once we're being"
+    },
+    {
+      "start": 1874.9199999999998,
+      "end": 1880.1,
+      "text": " extrinsically motivated. This is why sometimes if you take someone who has a hobby and then you pay"
+    },
+    {
+      "start": 1880.1,
+      "end": 1885.9399999999998,
+      "text": " them to do it, they start to lose interest in the hobby. And there was this fascinating study that I"
+    },
+    {
+      "start": 1885.9399999999998,
+      "end": 1892.3999999999999,
+      "text": " think we should go into because it really outlines this in the clearest way possible back in the 1970s."
+    },
+    {
+      "start": 1892.8799999999999,
+      "end": 1897.3,
+      "text": " Researchers from Stanford, they recruited children. These were young kids. They were aged"
+    },
+    {
+      "start": 1897.3,
+      "end": 1904.7199999999998,
+      "text": " about three to four years old. Now, the thing that made all of these kids in common is that they were"
+    },
+    {
+      "start": 1904.72,
+      "end": 1910.76,
+      "text": " generally interested in drawing. And some of these kids were told they would get a reward,"
+    },
+    {
+      "start": 1911.06,
+      "end": 1915.22,
+      "text": " a certificate with a gold seal and a ribbon. And some of these kids were not told about"
+    },
+    {
+      "start": 1915.22,
+      "end": 1922.56,
+      "text": " any reward. And so they did not expect one or even know of one. Now, the researchers then invited all of"
+    },
+    {
+      "start": 1922.56,
+      "end": 1928.56,
+      "text": " these children into a separate room to draw for six minutes. And then afterwards, they would either"
+    },
+    {
+      "start": 1928.56,
+      "end": 1933.32,
+      "text": " get the reward or not, depending on which group they were in. And over the next few days,"
+    },
+    {
+      "start": 1933.32,
+      "end": 1938.28,
+      "text": " the children were observed to see how much they would continue to draw by themselves."
+    },
+    {
+      "start": 1939.24,
+      "end": 1948.1399999999999,
+      "text": " Now, here's the thing. The children with no reward spent 17% of their time drawing. But the children"
+    },
+    {
+      "start": 1948.1399999999999,
+      "end": 1956.9199999999998,
+      "text": " who expected a reward, the ones who had received compensation, so to speak, they only spent 8% of"
+    },
+    {
+      "start": 1956.92,
+      "end": 1963.6200000000001,
+      "text": " their time drawing. In other words, the extrinsic reward had literally halved their motivation."
+    },
+    {
+      "start": 1964.76,
+      "end": 1971.18,
+      "text": " So, you can back out of this into intrinsic motivation, into extrinsic motivation. And the definitions"
+    },
+    {
+      "start": 1971.18,
+      "end": 1976.88,
+      "text": " are as follows. With intrinsic motivation, we do things because they are inherently interesting and"
+    },
+    {
+      "start": 1976.88,
+      "end": 1984.78,
+      "text": " satisfying. With extrinsic motivation, we do things to earn rewards and achieve external goals."
+    },
+    {
+      "start": 1984.78,
+      "end": 1990.34,
+      "text": " And that's the problem with rewards. They massively undermine intrinsic motivation. And that's why"
+    },
+    {
+      "start": 1990.34,
+      "end": 1998.18,
+      "text": " gamification does not work. And when gamification does work, it is because the underlying experience"
+    },
+    {
+      "start": 1998.18,
+      "end": 2006.6399999999999,
+      "text": " was already a game. To go back to RuneScape, when getting that next piece of loot in Diablo fashion or"
+    },
+    {
+      "start": 2006.6399999999999,
+      "end": 2013.52,
+      "text": " leveling up in World of Warcraft fashion feels good, it's because you're actually playing a pretty decent"
+    },
+    {
+      "start": 2013.52,
+      "end": 2021.6399999999999,
+      "text": " game. In Superhuman, when you hit inbox zero and you feel that emotion of that joyous imagery,"
+    },
+    {
+      "start": 2022.22,
+      "end": 2029.06,
+      "text": " and that feels like gamification, and it works, it is because Superhuman itself was designed like a game,"
+    },
+    {
+      "start": 2029.34,
+      "end": 2032.34,
+      "text": " not because there was a game mechanic layered on top."
+    },
+    {
+      "start": 2033.08,
+      "end": 2037.76,
+      "text": " So, if I could sort of extrapolate this, and for founders out there listening, or product designers,"
+    },
+    {
+      "start": 2037.76,
+      "end": 2043.54,
+      "text": " or product managers who want to work this into their own product, is it basically find the opportunities"
+    },
+    {
+      "start": 2043.54,
+      "end": 2049.3,
+      "text": " where your product naturally delights someone or naturally makes someone feel a sense of accomplishment"
+    },
+    {
+      "start": 2049.3,
+      "end": 2052.1,
+      "text": " and find light touch ways to just amplify that?"
+    },
+    {
+      "start": 2052.8,
+      "end": 2059.82,
+      "text": " Yes. And zooming out, if what we're trying to do is sort of tie this up into a message for product"
+    },
+    {
+      "start": 2059.82,
+      "end": 2068.84,
+      "text": " designers for designers for product managers, I would say this. As an industry, and I was taught this way"
+    },
+    {
+      "start": 2068.84,
+      "end": 2079.42,
+      "text": " as well, we were brought up to obsess over what users want or over what users need. But if you think about"
+    },
+    {
+      "start": 2079.42,
+      "end": 2090.52,
+      "text": " a game, no one needs a game, there are no requirements other than be fun. And so I would really advise us"
+    },
+    {
+      "start": 2090.52,
+      "end": 2097.4,
+      "text": " as an industry to pull back from this obsession with user wants and user needs, and instead to design for"
+    },
+    {
+      "start": 2097.4,
+      "end": 2105.28,
+      "text": " fun. What do you want your players to feel? What is the emotional path for them to get there? And how does"
+    },
+    {
+      "start": 2105.28,
+      "end": 2111.36,
+      "text": " your software, your business product, if that's what you're building, take them along the path? And that's"
+    },
+    {
+      "start": 2111.36,
+      "end": 2119.2400000000002,
+      "text": " why one of the key principles that we think about at Superhuman isn't just goals, it isn't just toys,"
+    },
+    {
+      "start": 2119.5,
+      "end": 2128.7000000000003,
+      "text": " it isn't just flow, but it's also emotions. How can you design for the emotions that you want your users to"
+    },
+    {
+      "start": 2128.7000000000003,
+      "end": 2133.38,
+      "text": " feel? And this is another area where I've gone really deep. I mean, there are literally countless"
+    },
+    {
+      "start": 2133.38,
+      "end": 2140.12,
+      "text": " emotions and we get really nuanced at Superhuman. Is it inspiration? Is it triumph? Is it longing? Is"
+    },
+    {
+      "start": 2140.12,
+      "end": 2145.7400000000002,
+      "text": " it peacefulness? Is it tranquil? Is it sentimentality? Like there are so many different things people could"
+    },
+    {
+      "start": 2145.7400000000002,
+      "end": 2150.12,
+      "text": " feel. And how are you designing a journey so that people actually feel them?"
+    },
+    {
+      "start": 2150.92,
+      "end": 2156.82,
+      "text": " Three quick things. One, it feels like it's also kind of an element of like just respecting your users"
+    },
+    {
+      "start": 2156.82,
+      "end": 2163.0,
+      "text": " too and their intelligence, right? Like if you like the gamification style feels like a low respect for"
+    },
+    {
+      "start": 2163.0,
+      "end": 2167.54,
+      "text": " your users, like, Oh, I'm going to give you some flashy star for doing this thing. Good job. You"
+    },
+    {
+      "start": 2167.54,
+      "end": 2172.94,
+      "text": " know, it's like you're treating them like those elementary school kids, whereas give them awesome"
+    },
+    {
+      "start": 2172.94,
+      "end": 2178.78,
+      "text": " tools and then, you know, trust that they're like, they know their goals. If their goals line up with"
+    },
+    {
+      "start": 2178.78,
+      "end": 2184.48,
+      "text": " your goals, like they're going to use them well, just let them discover is kind of like trusting them,"
+    },
+    {
+      "start": 2184.48,
+      "end": 2190.9,
+      "text": " right? A hundred percent. And I don't mean that we shouldn't use techniques like points, levels,"
+    },
+    {
+      "start": 2191.02,
+      "end": 2198.02,
+      "text": " trophies, badges. These are very powerful techniques. They just can't be the only thing. They are a good"
+    },
+    {
+      "start": 2198.02,
+      "end": 2203.5,
+      "text": " addition to an already well-designed game. And we're in fact building this right now at Superhuman."
+    },
+    {
+      "start": 2203.86,
+      "end": 2210.36,
+      "text": " We are working on a streaks feature that should be out either next week or the week after just a few"
+    },
+    {
+      "start": 2210.36,
+      "end": 2217.02,
+      "text": " final polishing touches to put on it. And this is going to celebrate whenever you hit inbox zero."
+    },
+    {
+      "start": 2217.32,
+      "end": 2222.58,
+      "text": " And every week in which you hit inbox zero, that streak is going to count up. There'll be a little"
+    },
+    {
+      "start": 2222.58,
+      "end": 2227.44,
+      "text": " achievements area where you can go to, to see your all time streak and some other interesting statistics,"
+    },
+    {
+      "start": 2227.94,
+      "end": 2233.34,
+      "text": " like the achievements dialogue in World of Warcraft, if anyone's ever played that, how many things you've"
+    },
+    {
+      "start": 2233.34,
+      "end": 2238.6400000000003,
+      "text": " ever archived, how many emails you've ever sent in total. Cool. So yeah, I mean, like your initial"
+    },
+    {
+      "start": 2238.64,
+      "end": 2243.7599999999998,
+      "text": " reaction is cool because now you're kind of curious. You want to see. Yeah. Now it's not the point of"
+    },
+    {
+      "start": 2243.7599999999998,
+      "end": 2249.9,
+      "text": " Superhuman, but it's there and it adds this rich layer of depth and texture that will make the"
+    },
+    {
+      "start": 2249.9,
+      "end": 2255.08,
+      "text": " experience even more compelling and stoke even more curiosity. Listeners, David and I didn't know this"
+    },
+    {
+      "start": 2255.08,
+      "end": 2259.2999999999997,
+      "text": " going in, but now that, now that we've been told this information, we have to ask more questions about"
+    },
+    {
+      "start": 2259.2999999999997,
+      "end": 2265.42,
+      "text": " it. How did you decide that that was a good idea and not something that would do what the study did"
+    },
+    {
+      "start": 2265.42,
+      "end": 2270.32,
+      "text": " that you mentioned and make me less motivated to do the intrinsic stuff in Superhuman?"
+    },
+    {
+      "start": 2272.04,
+      "end": 2277.32,
+      "text": " We tested it in having, having just spent the last two minutes saying Silicon Valley does it wrong."
+    },
+    {
+      "start": 2277.4,
+      "end": 2283.02,
+      "text": " Let me share where Silicon Valley does it right. We tested it in good old fashioned product management"
+    },
+    {
+      "start": 2283.02,
+      "end": 2291.58,
+      "text": " style. We didn't write any feature code. What we did was we wrote a bunch of SQL scripts."
+    },
+    {
+      "start": 2291.58,
+      "end": 2299.62,
+      "text": " We then analyzed the metrics. We then created a little email feature. What does that mean? Well,"
+    },
+    {
+      "start": 2299.66,
+      "end": 2306.68,
+      "text": " we took a sample of the user base. We emailed them these insights for their own behavior when it comes"
+    },
+    {
+      "start": 2306.68,
+      "end": 2313.16,
+      "text": " to using Superhuman. And then we analyze the results that came back in. We did about three rounds of this"
+    },
+    {
+      "start": 2313.16,
+      "end": 2320.06,
+      "text": " switching up the stats that we would email, analyzing the sentiments, really digging in deep with the"
+    },
+    {
+      "start": 2320.06,
+      "end": 2325.7999999999997,
+      "text": " customers. As I've described on our previous show, as a long time listeners will know, I'm a huge advocate"
+    },
+    {
+      "start": 2325.7999999999997,
+      "end": 2331.34,
+      "text": " of interviewing thousands of people and really understanding what they're feeling. So we did all"
+    },
+    {
+      "start": 2331.34,
+      "end": 2338.0,
+      "text": " of that, the traditional product management stuff with this feature. And what we learned is that some"
+    },
+    {
+      "start": 2338.0,
+      "end": 2344.2799999999997,
+      "text": " stats aren't particularly compelling. Some stats are highly compelling. The streak stats in particular is"
+    },
+    {
+      "start": 2344.28,
+      "end": 2350.96,
+      "text": " one that people love to know about. And so we gained conviction that if we built this in, in the right"
+    },
+    {
+      "start": 2350.96,
+      "end": 2356.88,
+      "text": " way, and if it wasn't too front and center, but if it was a celebratory moment for the people who achieve"
+    },
+    {
+      "start": 2356.88,
+      "end": 2363.46,
+      "text": " it, it wouldn't actually undermine the intrinsic motivation. It would in fact reinforce it. And so"
+    },
+    {
+      "start": 2363.46,
+      "end": 2368.28,
+      "text": " the devil, as they say, is in the details, but we got to the level of conviction that we'd be able to do"
+    },
+    {
+      "start": 2368.28,
+      "end": 2375.1600000000003,
+      "text": " this without undermining any intrinsic motivation. All right, listeners, now is a great time to thank"
+    },
+    {
+      "start": 2375.1600000000003,
+      "end": 2381.2000000000003,
+      "text": " our longtime friend of the show, ServiceNow. If you are running a large enterprise, AI agents are likely"
+    },
+    {
+      "start": 2381.2000000000003,
+      "end": 2387.94,
+      "text": " spread across every team and deploying them is no longer the hard part. Yeah. The hard part is knowing"
+    },
+    {
+      "start": 2387.94,
+      "end": 2394.84,
+      "text": " what permissions they have, what employees are using them for, or what decisions AI is making. AI security for"
+    },
+    {
+      "start": 2394.84,
+      "end": 2401.4,
+      "text": " an enterprise at scale is not a small concern. Like the risks are real. Exactly. And the challenge with"
+    },
+    {
+      "start": 2401.4,
+      "end": 2406.84,
+      "text": " AI is governing it, securing it, measuring it, and making sure that it actually delivers value. That"
+    },
+    {
+      "start": 2406.84,
+      "end": 2413.9,
+      "text": " is why ServiceNow built the AI control tower. Yep. AI control tower gives enterprises a single place to see,"
+    },
+    {
+      "start": 2414.34,
+      "end": 2420.32,
+      "text": " manage, govern, and optimize AI across the entire business. And it works with any AI, not just theirs."
+    },
+    {
+      "start": 2420.32,
+      "end": 2426.06,
+      "text": " Every device on your network, every permission across every system, every AI agent visible and"
+    },
+    {
+      "start": 2426.06,
+      "end": 2431.78,
+      "text": " secure in one place. And ServiceNow can do this because they've spent more than 20 years building"
+    },
+    {
+      "start": 2431.78,
+      "end": 2436.98,
+      "text": " the operational backbone of the enterprise. The workflows, governance, approvals, security controls,"
+    },
+    {
+      "start": 2437.1000000000004,
+      "end": 2442.42,
+      "text": " and institutional knowledge that power how work actually gets done across IT, HR, customer service,"
+    },
+    {
+      "start": 2442.5800000000004,
+      "end": 2448.7200000000003,
+      "text": " finance, and security. ServiceNow already runs more than 100 billion workflows annually,"
+    },
+    {
+      "start": 2448.72,
+      "end": 2454.7999999999997,
+      "text": " and trillions of transactions for more than 85% of the Fortune 500. So when companies need a place to"
+    },
+    {
+      "start": 2454.7999999999997,
+      "end": 2459.18,
+      "text": " govern AI at enterprise scale, they're building on a platform at the center of how their business"
+    },
+    {
+      "start": 2459.18,
+      "end": 2464.9599999999996,
+      "text": " already operates. And in a future that isn't going to be one AI, it's going to be thousands of AI agents"
+    },
+    {
+      "start": 2464.9599999999996,
+      "end": 2469.3199999999997,
+      "text": " working across every function of the company. But the question is, who's managing them all?"
+    },
+    {
+      "start": 2469.3199999999997,
+      "end": 2474.16,
+      "text": " So if you're trying to turn AI ambition into real business outcomes and make it work safely,"
+    },
+    {
+      "start": 2474.16,
+      "end": 2479.5,
+      "text": " securely at scale, go check out ServiceNow.com slash acquired and tell them that Ben and David sent you."
+    },
+    {
+      "start": 2480.24,
+      "end": 2485.18,
+      "text": " What is the story of the Inbox Zero images? Because I would imagine some of the motivation"
+    },
+    {
+      "start": 2485.18,
+      "end": 2491.2999999999997,
+      "text": " behind that feature is the same. How did you guys come up with the idea and put it in the product?"
+    },
+    {
+      "start": 2492.12,
+      "end": 2500.2599999999998,
+      "text": " This comes back to our emotion pillar of game design and the principle of designing for"
+    },
+    {
+      "start": 2500.26,
+      "end": 2508.1400000000003,
+      "text": " nuanced emotions. Inbox Zero, we fairly quickly learned, I would say it took us about nine months"
+    },
+    {
+      "start": 2508.1400000000003,
+      "end": 2516.7200000000003,
+      "text": " to reach this realization, is one of the most emotionally resonant moments in someone's interaction"
+    },
+    {
+      "start": 2516.7200000000003,
+      "end": 2523.1800000000003,
+      "text": " with their inbox. And this is actually a good example of where my intuition was wrong. I did not"
+    },
+    {
+      "start": 2523.1800000000003,
+      "end": 2529.2200000000003,
+      "text": " know this as a founder going in, because as a founder starting the company, I so rarely hit Inbox Zero."
+    },
+    {
+      "start": 2529.22,
+      "end": 2535.48,
+      "text": " I receive thousands of emails every single day. In any given minute, I'm often receiving five or six"
+    },
+    {
+      "start": 2535.48,
+      "end": 2542.54,
+      "text": " emails. So before we'd invented Split Inbox, which took years to get to, it was an impossibility for"
+    },
+    {
+      "start": 2542.54,
+      "end": 2549.8999999999996,
+      "text": " me to actually hit Inbox Zero. So I simply didn't know. But in interacting with our earliest of customers,"
+    },
+    {
+      "start": 2550.5,
+      "end": 2557.52,
+      "text": " we quickly realized that Inbox Zero was one of the most emotionally resonant moments. And it was"
+    },
+    {
+      "start": 2557.52,
+      "end": 2563.56,
+      "text": " a point that we could reinforce with emotional design. So if you're designing for emotion,"
+    },
+    {
+      "start": 2563.92,
+      "end": 2570.24,
+      "text": " you have to figure out what kind of emotions you're going for. And there are many models of human"
+    },
+    {
+      "start": 2570.24,
+      "end": 2575.94,
+      "text": " emotion. The most famous is Plutchick's Wheel. If I were to magically flash up an image in people's"
+    },
+    {
+      "start": 2575.94,
+      "end": 2580.62,
+      "text": " minds, they would recognize it. But essentially, it has different emotions that are across from each"
+    },
+    {
+      "start": 2580.62,
+      "end": 2586.7999999999997,
+      "text": " other. For example, joy is the opposite of grief. And you can blend adjacent emotions to create more"
+    },
+    {
+      "start": 2586.7999999999997,
+      "end": 2593.7599999999998,
+      "text": " complex feelings. And it gets really cool. So when you combine joy and anticipation, you get optimism."
+    },
+    {
+      "start": 2593.7599999999998,
+      "end": 2601.54,
+      "text": " And when you combine joy and trust, you actually get love. But at Superhuman, we use a much richer"
+    },
+    {
+      "start": 2601.54,
+      "end": 2608.2599999999998,
+      "text": " vocabulary. We actually use the emotion wheel by the Hunto Institute for Entrepreneurial Leadership,"
+    },
+    {
+      "start": 2608.26,
+      "end": 2614.5200000000004,
+      "text": " because this emotion wheel has all of the nuance that I think a game designer needs in order to"
+    },
+    {
+      "start": 2614.5200000000004,
+      "end": 2622.0,
+      "text": " actually practice emotional design. And so at Superhuman, we care deeply about the emotion of joy."
+    },
+    {
+      "start": 2622.0,
+      "end": 2628.48,
+      "text": " And joy has many subfacets. We design for things like enthusiasm and excitement. Our users come to us"
+    },
+    {
+      "start": 2628.48,
+      "end": 2634.32,
+      "text": " super excited. We design for optimism and hopefulness. Our users want Superhuman to improve their lives."
+    },
+    {
+      "start": 2634.32,
+      "end": 2642.06,
+      "text": " And we design for pride and triumph. Because when you hit Inbox Zero, especially if it's the first time"
+    },
+    {
+      "start": 2642.06,
+      "end": 2647.84,
+      "text": " in years, you rightly feel like you accomplished something special. So when you do hit Inbox Zero,"
+    },
+    {
+      "start": 2648.0800000000004,
+      "end": 2654.7400000000002,
+      "text": " that's when we decided to show you this stunning and gorgeous imagery. And we do this specifically"
+    },
+    {
+      "start": 2654.7400000000002,
+      "end": 2664.02,
+      "text": " to widen the emotional repertoire beyond joy into love and surprise. So there are sub-emotions in love"
+    },
+    {
+      "start": 2664.02,
+      "end": 2672.08,
+      "text": " and surprise that we deliberately lean upon with our choice of Inbox Zero imagery. We pick images that"
+    },
+    {
+      "start": 2672.08,
+      "end": 2680.02,
+      "text": " are peaceful and tranquil. That's in the love end of the spectrum. We create images rather that create a"
+    },
+    {
+      "start": 2680.02,
+      "end": 2687.68,
+      "text": " sense of longing and sentimentality. That's also in the love end of the spectrum. Folks will remember the"
+    },
+    {
+      "start": 2687.68,
+      "end": 2694.66,
+      "text": " Arctic fox or the squirrel that just runs across the screen. Or there's one where you have almost"
+    },
+    {
+      "start": 2694.66,
+      "end": 2703.3799999999997,
+      "text": " natural geographic-esque images of the balloons over Myanmar. And we also push into surprise,"
+    },
+    {
+      "start": 2703.7799999999997,
+      "end": 2710.98,
+      "text": " images that amaze and inspire a sense of awe. A lot of our cityscapes are like this. Very high contrast,"
+    },
+    {
+      "start": 2710.98,
+      "end": 2719.48,
+      "text": " very high dynamic range, and designed to give you that sense of flying, almost of having superpowers"
+    },
+    {
+      "start": 2719.48,
+      "end": 2726.8,
+      "text": " over this entire cityscape. It's so funny how it can sound like it's a little highfalutin as we talk"
+    },
+    {
+      "start": 2726.8,
+      "end": 2732.66,
+      "text": " about it here on this show. But I'm reflecting back on if I had to really, really describe the"
+    },
+    {
+      "start": 2732.66,
+      "end": 2738.14,
+      "text": " split-second emotion that I feel when I see it when I do hit Inbox Zero in one of my inboxes."
+    },
+    {
+      "start": 2738.14,
+      "end": 2744.02,
+      "text": " Yeah, you're absolutely right. It is very nuanced. And I don't ever make the connection to,"
+    },
+    {
+      "start": 2744.16,
+      "end": 2748.62,
+      "text": " ooh, I'm flying over this city, but I certainly feel an amount of power, control, tranquility"
+    },
+    {
+      "start": 2748.62,
+      "end": 2751.62,
+      "text": " that I certainly didn't feel when I saw the full list."
+    },
+    {
+      "start": 2753.1,
+      "end": 2755.3799999999997,
+      "text": " That's the point. So I'm glad to hear it's working."
+    },
+    {
+      "start": 2756.24,
+      "end": 2760.16,
+      "text": " There's something that's been noodling in my mind the last couple of minutes as you've been talking."
+    },
+    {
+      "start": 2760.74,
+      "end": 2766.7599999999998,
+      "text": " And my question is, being someone who thinks so deeply about all these very nuanced emotions"
+    },
+    {
+      "start": 2766.76,
+      "end": 2772.42,
+      "text": " as you are designing the product, does it translate to your personal life? Like,"
+    },
+    {
+      "start": 2772.5,
+      "end": 2778.48,
+      "text": " do you notice that yourself as a human, by studying this stuff, that you are more aware"
+    },
+    {
+      "start": 2778.48,
+      "end": 2783.8,
+      "text": " of your nuanced emotions? Or are they totally separate? And this is more of an analytical skill"
+    },
+    {
+      "start": 2783.8,
+      "end": 2788.98,
+      "text": " versus something that would just sort of naturally start happening to you as a person?"
+    },
+    {
+      "start": 2788.98,
+      "end": 2795.4,
+      "text": " It's funny you should mention that because yes, it does definitely help in personal relationships,"
+    },
+    {
+      "start": 2795.4,
+      "end": 2802.9,
+      "text": " whether those are happening at work or at home. One of the things that I strongly advise any founder"
+    },
+    {
+      "start": 2802.9,
+      "end": 2808.98,
+      "text": " to go through is conflict training or training on how to give feedback or how to give difficult"
+    },
+    {
+      "start": 2808.98,
+      "end": 2816.84,
+      "text": " feedback or how to receive difficult feedback. And for customers of Superhuman, I have recently sent"
+    },
+    {
+      "start": 2816.84,
+      "end": 2826.8,
+      "text": " out a newsletter on just how to do this. And one of the things that I focus really hard on is separating"
+    },
+    {
+      "start": 2826.8,
+      "end": 2836.28,
+      "text": " the objective description of the behavior upon which I'm trying to give feedback. Hey, you turned up 45"
+    },
+    {
+      "start": 2836.28,
+      "end": 2843.2400000000002,
+      "text": " minutes late for our dinner reservation, let's say, or hey, this work had these specific issues of quality"
+    },
+    {
+      "start": 2843.24,
+      "end": 2852.68,
+      "text": " with it from how it made me feel. And it's very easy, especially in a non-work setting, when for"
+    },
+    {
+      "start": 2852.68,
+      "end": 2857.16,
+      "text": " whatever reason, most people don't hold themselves to the same level of accountability when it comes to"
+    },
+    {
+      "start": 2857.16,
+      "end": 2863.02,
+      "text": " communication that they do in a work setting. It's very easy to let those things blur into each other."
+    },
+    {
+      "start": 2863.8999999999996,
+      "end": 2871.64,
+      "text": " So if I'm having a disagreement with my significant other at home, I do force myself actually to use"
+    },
+    {
+      "start": 2871.64,
+      "end": 2879.9,
+      "text": " this formula. I say, here is the very specific thing that this is the behavior that I have issue"
+    },
+    {
+      "start": 2879.9,
+      "end": 2884.1,
+      "text": " with, which I'd like to talk about. And I try and describe it very dispassionately. You know,"
+    },
+    {
+      "start": 2884.1,
+      "end": 2890.8799999999997,
+      "text": " what a camera would be able to see is always my rule of thumb. And then I say, this is how it made me"
+    },
+    {
+      "start": 2890.8799999999997,
+      "end": 2899.2799999999997,
+      "text": " feel. Now here's the part where it gets really hard. It's very easy to start using passive words."
+    },
+    {
+      "start": 2899.28,
+      "end": 2909.34,
+      "text": " I feel attacked. I feel unsupported. I feel let down. Well, guess what? These aren't really emotions."
+    },
+    {
+      "start": 2909.92,
+      "end": 2917.34,
+      "text": " These are passive descriptions of what the other person might do, right? And it's really hard not to"
+    },
+    {
+      "start": 2917.34,
+      "end": 2924.3,
+      "text": " use these things because they're what we want to say, right? What we should actually say. And once again,"
+    },
+    {
+      "start": 2924.3,
+      "end": 2928.6600000000003,
+      "text": " I'm just going to give a big up to the Hunter Institute for entrepreneurial leadership, there's"
+    },
+    {
+      "start": 2928.6600000000003,
+      "end": 2933.92,
+      "text": " hundreds of emotions on that wheel. What we actually want to say is something like,"
+    },
+    {
+      "start": 2934.0,
+      "end": 2943.7200000000003,
+      "text": " I'm feeling lonely or I'm feeling disappointed or I'm feeling anguish or whatever it is. And you can go"
+    },
+    {
+      "start": 2943.7200000000003,
+      "end": 2948.7400000000002,
+      "text": " to the emotional wheel and look it up. And so in particularly difficult disagreements,"
+    },
+    {
+      "start": 2948.74,
+      "end": 2954.4799999999996,
+      "text": " I've actually just gone to the wheel. You know, I've said, what I want to say is I'm feeling"
+    },
+    {
+      "start": 2954.4799999999996,
+      "end": 2959.3999999999996,
+      "text": " attacked, but I don't want to, I know that's not your intention. So that's a very unfair word to use."
+    },
+    {
+      "start": 2959.52,
+      "end": 2964.66,
+      "text": " So what I'm instead going to do is I'm going to go to the wheel. I'm going to go into what is probably"
+    },
+    {
+      "start": 2964.66,
+      "end": 2972.62,
+      "text": " the anger section of the wheel and look up the appropriate emotion. And so bringing this full circle,"
+    },
+    {
+      "start": 2972.62,
+      "end": 2980.3199999999997,
+      "text": " Ben, absolutely. This kind of discipline that you get from being a game designer can also make you a"
+    },
+    {
+      "start": 2980.3199999999997,
+      "end": 2987.8599999999997,
+      "text": " better manager and can also make you a better partner. It's fascinating. Fascinating. We talked"
+    },
+    {
+      "start": 2987.8599999999997,
+      "end": 2993.0,
+      "text": " about a lot of these principles, the goals and rewards, emotion, touched on toys and fun and flow."
+    },
+    {
+      "start": 2993.16,
+      "end": 2997.8399999999997,
+      "text": " But this is really one that I don't think we sort of prepared for coming into this conversation, but"
+    },
+    {
+      "start": 2997.84,
+      "end": 3003.34,
+      "text": " I have certainly experienced in other areas of my life where being forced to study emotion and have"
+    },
+    {
+      "start": 3003.34,
+      "end": 3010.8,
+      "text": " a greater vocabulary around emotion really can help you in interactions with humans of any flavor in any,"
+    },
+    {
+      "start": 3011.04,
+      "end": 3016.56,
+      "text": " you know, in any setting to help you better articulate how you're feeling. So it's very"
+    },
+    {
+      "start": 3016.56,
+      "end": 3023.1400000000003,
+      "text": " cool to see you bring that to software. As we sort of work toward the end here, one big question I had"
+    },
+    {
+      "start": 3023.14,
+      "end": 3029.2599999999998,
+      "text": " is like, if you're listening to this podcast and you're not a product designer or a product manager"
+    },
+    {
+      "start": 3029.2599999999998,
+      "end": 3035.64,
+      "text": " or the CEO of an early stage product focus company, do these principles, how do you apply them outside"
+    },
+    {
+      "start": 3035.64,
+      "end": 3042.08,
+      "text": " of just a product role? And could they be interesting to people in other areas of company building?"
+    },
+    {
+      "start": 3043.16,
+      "end": 3052.8599999999997,
+      "text": " I think so. This set of principles across goals, emotions, controls, toys, and flow really is"
+    },
+    {
+      "start": 3052.86,
+      "end": 3059.1600000000003,
+      "text": " about experience design. So if you think about the onboarding experience of superhuman, there's not"
+    },
+    {
+      "start": 3059.1600000000003,
+      "end": 3067.2400000000002,
+      "text": " really much software in that experience, but we did look at the whole thing through these lenses."
+    },
+    {
+      "start": 3067.9,
+      "end": 3075.34,
+      "text": " If you didn't even work in technology, let's say that perhaps you were a realtor selling houses or"
+    },
+    {
+      "start": 3075.34,
+      "end": 3081.1600000000003,
+      "text": " getting folks to rent an apartment as you know, now many of us here in San Francisco are, I happen to"
+    },
+    {
+      "start": 3081.16,
+      "end": 3090.14,
+      "text": " own a condo just down the road. And I think about the experience of prospective tenants coming to look"
+    },
+    {
+      "start": 3090.14,
+      "end": 3097.96,
+      "text": " at my condo through these lenses of game design. What is their goal? What emotion do we want them to"
+    },
+    {
+      "start": 3097.96,
+      "end": 3106.3999999999996,
+      "text": " feel? How can I hit every single sense of their emotions as they come in? It sounds weird, but like,"
+    },
+    {
+      "start": 3106.4,
+      "end": 3113.06,
+      "text": " does it smell good? Does it look good? Does it feel good? Literally do the things that you touch feel"
+    },
+    {
+      "start": 3113.06,
+      "end": 3119.08,
+      "text": " good. And to double click on one of those, let's take the sensation of smell. And I've been renting"
+    },
+    {
+      "start": 3119.08,
+      "end": 3124.3,
+      "text": " out places for a long time. This is a trick that I've been using since I was in my early twenties."
+    },
+    {
+      "start": 3124.82,
+      "end": 3134.14,
+      "text": " When I read my first few sales books, I would put a vanilla scent in the kitchen to evoke memories of"
+    },
+    {
+      "start": 3134.14,
+      "end": 3138.94,
+      "text": " baked goods, perhaps when you were a child and, you know, your folks would bring back a little"
+    },
+    {
+      "start": 3138.94,
+      "end": 3147.08,
+      "text": " baked treats. I would put a lavender scent or a similar scent in the lounge to evoke perhaps being"
+    },
+    {
+      "start": 3147.08,
+      "end": 3152.7799999999997,
+      "text": " in a meadow or in some other really relaxing place. And so, yes, the point is that you can"
+    },
+    {
+      "start": 3152.7799999999997,
+      "end": 3159.3199999999997,
+      "text": " take all of these little tools that we have as game designers and apply them to any experience that"
+    },
+    {
+      "start": 3159.32,
+      "end": 3164.94,
+      "text": " you're trying to design. All right. So Rahul, you've talked about a lot of very nuanced and"
+    },
+    {
+      "start": 3164.94,
+      "end": 3169.3,
+      "text": " incredibly well thought out elements of the product here. Toward the end of the show, we always like to"
+    },
+    {
+      "start": 3169.3,
+      "end": 3174.8,
+      "text": " give guests an opportunity to talk about where people can go and check out the work of the person"
+    },
+    {
+      "start": 3174.8,
+      "end": 3179.6800000000003,
+      "text": " who's been interviewed. So what do you want to say to listeners? Well, thank you, Ben. What I would"
+    },
+    {
+      "start": 3179.6800000000003,
+      "end": 3185.88,
+      "text": " say is for folks who have listened to this, maybe they're excited to try superhuman or they have an email"
+    },
+    {
+      "start": 3185.88,
+      "end": 3189.94,
+      "text": " problem and they really wish that they could get through their inbox twice as fast as before,"
+    },
+    {
+      "start": 3190.56,
+      "end": 3198.6400000000003,
+      "text": " sustainably hit inbox zero, head to superhuman.com, sign up there. We do have a big waitlist. It's more"
+    },
+    {
+      "start": 3198.6400000000003,
+      "end": 3205.6600000000003,
+      "text": " than 350,000 people at this point. But what I shall say is that for listeners of this podcast,"
+    },
+    {
+      "start": 3205.9,
+      "end": 3212.7400000000002,
+      "text": " members of the acquired community, I would be more than happy to jump you to the front of the line"
+    },
+    {
+      "start": 3212.74,
+      "end": 3218.64,
+      "text": " when you sign up in the box where it says, how did you find out or hear about superhuman?"
+    },
+    {
+      "start": 3219.04,
+      "end": 3224.58,
+      "text": " Just enter the acquired podcast and we'll make sure that we skip you to the front of the line"
+    },
+    {
+      "start": 3224.58,
+      "end": 3228.02,
+      "text": " and get you onboarded as rapidly as we can."
+    },
+    {
+      "start": 3228.8599999999997,
+      "end": 3230.7999999999997,
+      "text": " Sweet. Love that, Rahul. Thank you."
+    },
+    {
+      "start": 3231.58,
+      "end": 3236.9799999999996,
+      "text": " All right, listeners. Now is a great time to talk about one of our favorite companies,"
+    },
+    {
+      "start": 3237.58,
+      "end": 3238.08,
+      "text": " Statsig."
+    },
+    {
+      "start": 3238.08,
+      "end": 3245.24,
+      "text": " Yes, long time acquired partner. There is a reason why the best product teams at companies like OpenAI"
+    },
+    {
+      "start": 3245.24,
+      "end": 3252.02,
+      "text": " and Notion, Atlassian, Figma, Rippling, Brex, and more rely on Statsig, whether they are iterating on"
+    },
+    {
+      "start": 3252.02,
+      "end": 3256.1,
+      "text": " their core product features or shipping AI-powered experiences at scale."
+    },
+    {
+      "start": 3256.56,
+      "end": 3263.44,
+      "text": " Yep. In the crazy speed of today's AI world, shipping fast is just table stakes now. It's basically"
+    },
+    {
+      "start": 3263.44,
+      "end": 3270.2400000000002,
+      "text": " trivial to build and deploy your app constantly. The real advantage is how quickly you learn what"
+    },
+    {
+      "start": 3270.2400000000002,
+      "end": 3275.82,
+      "text": " changes actually created value for customers and how fast you can use that signal to guide what you"
+    },
+    {
+      "start": 3275.82,
+      "end": 3282.04,
+      "text": " ship next. Whether it's a feature tweak, a pricing change, a performance improvement, or an AI update"
+    },
+    {
+      "start": 3282.04,
+      "end": 3287.16,
+      "text": " like a model change or prompt adjustment, they're not relying on instinct. They're measuring what"
+    },
+    {
+      "start": 3287.16,
+      "end": 3293.62,
+      "text": " actually moved engagement, retention, and ultimately revenue. And as more teams build with AI, that learning"
+    },
+    {
+      "start": 3293.62,
+      "end": 3299.1,
+      "text": " loop becomes even more important. Building with LLMs introduces non-determinism into your product"
+    },
+    {
+      "start": 3299.1,
+      "end": 3304.74,
+      "text": " experience. The same input doesn't always produce the same output, and behavior can shift in subtle ways"
+    },
+    {
+      "start": 3304.74,
+      "end": 3305.92,
+      "text": " in real-world use."
+    },
+    {
+      "start": 3305.92,
+      "end": 3312.26,
+      "text": " So doing offline evals will give you part of the picture, but you can really only understand the"
+    },
+    {
+      "start": 3312.26,
+      "end": 3317.62,
+      "text": " impact once your product is live with real users, and then you can measure how their behavior actually"
+    },
+    {
+      "start": 3317.62,
+      "end": 3322.62,
+      "text": " changes. It's very different than the way that you would ship features in a pre-AI world where you"
+    },
+    {
+      "start": 3322.62,
+      "end": 3325.88,
+      "text": " knew exactly what the software was going to do in production."
+    },
+    {
+      "start": 3325.96,
+      "end": 3326.56,
+      "text": " Yeah, exactly."
+    },
+    {
+      "start": 3327.1,
+      "end": 3332.06,
+      "text": " So this is where Statsig comes in. It brings experimentation, feature flags, and product analytics"
+    },
+    {
+      "start": 3332.06,
+      "end": 3337.74,
+      "text": " into one unified system so teams can ship safely, test rigorously, and directly link what they"
+    },
+    {
+      "start": 3337.74,
+      "end": 3343.22,
+      "text": " changed to how users actually behaved. The result is a tighter feedback loop and learning that"
+    },
+    {
+      "start": 3343.22,
+      "end": 3346.7,
+      "text": " compounds over time so you don't just ship more, you ship better."
+    },
+    {
+      "start": 3347.44,
+      "end": 3352.02,
+      "text": " So if you want to make learning your competitive advantage, whether you're building new AI experiences"
+    },
+    {
+      "start": 3352.02,
+      "end": 3357.52,
+      "text": " or just evolving your existing core product, go to statsig.com slash acquired to get started."
+    },
+    {
+      "start": 3357.52,
+      "end": 3364.0,
+      "text": " Well, LPs, you can join us on the other side. We're going to be talking through a masterclass"
+    },
+    {
+      "start": 3364.0,
+      "end": 3368.7,
+      "text": " on fundraising with Rahul. And for folks who aren't sort of as familiar with his background,"
+    },
+    {
+      "start": 3369.22,
+      "end": 3374.22,
+      "text": " he's literally the perfect person to tackle this critical topic. Since he's now started two companies,"
+    },
+    {
+      "start": 3374.38,
+      "end": 3379.8,
+      "text": " he's done YC, he's not done YC, he's had an exit, he's raised seed rounds, big growth rounds,"
+    },
+    {
+      "start": 3379.96,
+      "end": 3385.1,
+      "text": " funded the company himself for a period of time. He's running his own angel fund with Todd Goldberg,"
+    },
+    {
+      "start": 3385.1,
+      "end": 3391.18,
+      "text": " where they also just raised a rolling follow on fund via AngelList. Rahul has raised and not"
+    },
+    {
+      "start": 3391.18,
+      "end": 3395.86,
+      "text": " raised capital all across the spectrum. And we're really excited to dive in with him on that. So if"
+    },
+    {
+      "start": 3395.86,
+      "end": 3402.24,
+      "text": " you're not already an LP, click the link in the show notes or go to acquired.fm slash LP. So Rahul,"
+    },
+    {
+      "start": 3402.24,
+      "end": 3404.88,
+      "text": " thanks so much. And we'll see you on the other side. Thank you."
+    },
+    {
+      "start": 3415.1,
+      "end": 3419.44,
+      "text": " Thank you."
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3419.44,
+      "text": ""
+    },
+    {
+      "start": 3419.44,
+      "end": 3449.42,
+      "text": " Thank you."
+    }
+  ],
+  "paragraphs": [
+    {
+      "start": 0,
+      "end": 38.980000000000004,
+      "text": "That gives you a lot of cred when you're building software like games. It's like, yeah, yeah, yeah, okay, sure, everyone thinks they know about games, but RuneScape is OG. Welcome to this special episode of Acquired, the podcast about great technology companies and the stories and playbooks behind them. I'm Ben Gilbert, and I'm the co-founder of Pioneer Square Labs, a startup studio and venture capital firm in Seattle. And I'm David Rosenthal, and I am an angel investor and independent advisor to startups based in San Francisco."
+    },
+    {
+      "start": 39.38,
+      "end": 78.14,
+      "text": "And we are your hosts. Today, we have superstar repeat guest Rahul Vora. Welcome, Rahul. Awesome. Thank you for having me back. Rahul had probably, I don't know if it's exactly the most listened to episode of all time, but it was certainly a standout episode when we released it. David, when was that? Last June? That was June. Last June. Yeah. 2019. I think it was the finale of season five. Wow. Another lifetime ago. Truly. Well, the last time Rahul was on our show, many of you knew him for being the founder of the innovative, fast email client, Superhuman."
+    },
+    {
+      "start": 78.14,
+      "end": 122.1,
+      "text": "His frameworks for finding product market fit and how they did it at Superhuman have since become quite famous. This year, many of you may have heard Rahul speaking on Patrick's show or the A16Z Summit and elsewhere about a new concept, how they think at Superhuman about designing software like it is a game. Today, in true acquired fashion, we are going to dive into the actual stories behind these concepts and how Rahul and the team at Superhuman have put them into practice as the product has matured from that initial product market fit that we talked about on the last episode to a professional or really even enterprise class suite of tools where they've rolled out some calendar functionality as well recently."
+    },
+    {
+      "start": 122.88,
+      "end": 151.18,
+      "text": "For ULPs, we have something special today. When we finish up here on the main show, we are going to do an LP episode with Rahul, a masterclass on fundraising, which for anyone who doesn't know, not only has Rahul done this like a total pro with Superhuman, really being thoughtful about the process and employing every tactic in the book for building a great company and capitalizing it the best way he sees fit, but also with his previous companies with Reportive."
+    },
+    {
+      "start": 151.18,
+      "end": 181.82,
+      "text": "He actually also now has two funds of his own, the most recent being an AngelList rolling fund, and we will talk with him about that on the LP show, which you can get to by going to acquired.fm slash LP or clicking the link in the show notes. Can't wait for that. Yep. All right, listeners. Now is a great time to talk about a new partner of ours here on Acquired, Lagora, the agentic operating system that is redefining how the world's best legal teams work."
+    },
+    {
+      "start": 182.22,
+      "end": 209.38,
+      "text": "Yep. It's sort of obvious that AI is going to completely change the legal industry. I bet most of you listening have dropped a contract into some sort of AI chatbot out there. Lagora took that insight and asked the question, what if you really built something with that power from the ground up for the legal industry? So the founders did exactly what great founders do, operate with obsessive customer focus. They embedded inside a massive law firm for months."
+    },
+    {
+      "start": 209.38,
+      "end": 237.5,
+      "text": "They sat with the lawyers just watching how the work really gets done. And that's how you get features that customers love, like tabular review, where you drop in a folder of hundreds of contracts and it pulls every key term into a grid a lawyer can actually work with. Lagora's bet here is interesting. Since it lets each lawyer handle more complexity, any given person can increase the quality of their work and do higher value work. And this means that the pie can grow even as each individual task takes less time."
+    },
+    {
+      "start": 237.5,
+      "end": 271.06,
+      "text": "And they recently launched Lagora Agent, offering greater intelligence and performance. The agent lets lawyers set an objective. Then it can handle the planning and the execution and delivery of the final product. Legal teams get to maintain full control and transparency since they're still involved where judgment is required. And Lagora works where you already work. You can use it within Microsoft Word while redlining or drafting. The early Lagora numbers essentially speak for themselves. When they have a head-to-head pilot with their top competitor, they win 70% of the time."
+    },
+    {
+      "start": 271.47999999999996,
+      "end": 310.72,
+      "text": "Lagora now has over 100,000 lawyers on the platform from 1,200 legal teams in 50 countries. And crazily, they went from 1 million to 100 million in ARR in about 18 months. Truly insane numbers. And that is the real test. Plenty of things demo well, but the question is whether a busy associate actually reaches for it during crunch time or whether a partner trusts it before going into a conversation with a major client. If your legal team wants to check it out, whether you're a law firm or you're in-house at a company, you can learn more at lagora.com slash acquired and just tell them that Ben and David sent you."
+    },
+    {
+      "start": 310.72,
+      "end": 338.0,
+      "text": "All right, David, let's dive in to this episode with Rahul. Indeed. So great to have you back. We were joking when we were preparing in a few minutes before this that you are now our gold standard for guests that we tell all our other guests in prep, you know, hey, go listen to our episode with Rahul. He is like the most thoughtfully prepared guest ever. So we're so excited to have you back and now adopt your playbook into acquired itself."
+    },
+    {
+      "start": 338.0,
+      "end": 383.22,
+      "text": "Oh gosh. Well, I hope I live up to my own standard. I'm sure you will. Such a cool topic to be talking about. I mean, we've gone deep on gaming history in and of its own. So often here on acquired, I thought a good jumping off point before we get into your specific principles that you use at superhuman is let's talk about like, what is a game? It sounds like a simple question. Sometimes hard to define. There are no fewer than what we got here, like eight or nine definitions on Wikipedia. From your perspective, like how do you think about it? I like to use a definition that I came across in a book that is, by the way, the best on the topic, The Art of Game Design by Jesse Schell. And you can get really"
+    },
+    {
+      "start": 383.22,
+      "end": 411.44,
+      "text": "complicated. You can get really academic, even abstract about the definition of a game. But in my mind, Jesse puts it best, a game is simply something that you play. And this seems hard to argue with. Now, there are all kinds of other definitions out there, but I always come back to this one. A game is something that you play. Wait, so let me push on that a little bit. Like, is guitar a game if I'm playing guitar, or is that sort of a different use of the word play?"
+    },
+    {
+      "start": 411.44,
+      "end": 444.96,
+      "text": "I think that's a somewhat different use of the word play. You don't play guitar with somebody else. It doesn't engage you in the way that a game engages you. I think playing a musical instrument is a different form of play. But it's interesting etymology, as we'll dive into over the course of the episode, we'll see that it has a lot of the same properties of a game. And the way that I like to sort of chew on this topic is through the semantics. For example, a game versus a toy."
+    },
+    {
+      "start": 445.1,
+      "end": 485.34,
+      "text": "This is a common question in academic literature on gaming. We also play with toys. Does that mean that toys are the same as games? I would say no, in fact, they are different because we use a different language to describe them. A game is something you play, but a toy is something you play with. Now, you could then go deeper and say, well, we play with our friends. Does that make them toys? Obviously, the answer is no. A toy is an object you play with. It's not a human being that you play with. And so this kind of introspective interrogation can lead you to a really good definition."
+    },
+    {
+      "start": 485.88,
+      "end": 529.34,
+      "text": "But you can go deeper still. So for example, I'm fiddling with a piece of paper right now. I'm rolling it up and I'm unrolling it just in order to keep my nervousness down. Now, you could say I'm playing with it, but it's not a very fun toy. So you could also then observe that some toys are more fun than others. And then you start to get to a definition like a game is something you play. A toy is an object you play with. But a good toy is an object that is fun to play with. And then you start to get to the heart of the matter, which is, well, what is fun anyway? And again, there's been a ton of research into what fun actually is. Some people would say, fun is just pleasure. To them,"
+    },
+    {
+      "start": 529.4000000000001,
+      "end": 562.2199999999999,
+      "text": "I would say, well, can you experience fun but not pleasure? And the answer seems, yeah, probably not. It would be really hard to experience fun but not pleasure. I can't think of an example where that's the case. But the contrapositive is not true. There are plenty of pleasant experiences. Imagine, for example, a relaxing head massage that few people would describe as fun. So it turns out that pleasure alone misses a certain something special. And the thing that it misses is surprise."
+    },
+    {
+      "start": 562.22,
+      "end": 607.8399999999999,
+      "text": "It turns out that fun needs surprise. And in fact, our brain is hardwired in a very neurological sense to enjoy surprise. So you end up with this stack of definitions. A game is something you play. A good toy is an object that is fun to play with. And fun is pleasant surprise. Aha. Well, perfect. That is exactly what our next question was going to be, which is, in some ways, I think the crux of the matter here, which is what is a good game? Of course, the classic definition on this is previous acquired guest, Nolan Bushnell from Atari, Bushnell's Law, that a good game is something that is easy to learn, but difficult to master."
+    },
+    {
+      "start": 608.3599999999999,
+      "end": 657.0200000000001,
+      "text": "How does that fit into your stack? There's a phrase for this. I think that is necessary, but not sufficient. There are plenty of other things that are required in order to make a good game. And you could go so far as to list hundreds of attributes. There isn't really a minimal subset, but I think it does involve more than those two factors. So there are seven principles that we think of when it comes to what makes a good game at Superhuman. And those seven principles, we think of them across roughly five different factors. Things like goals, emotions, controls, toys, and flow. Bushnell's Law talks a bit about goals, and it talks a little bit about a related concept of mastery. But it doesn't talk about how you feel when you're going through a game. It doesn't"
+    },
+    {
+      "start": 657.0200000000001,
+      "end": 698.4,
+      "text": "talk about the nature of interaction with a game, whether it's truly a video game, or it's a board game, or it's a piece of software that is designed to feel like a game. It doesn't talk about the childlike sensation of wonder that you experience when you're playing with a toy. And it doesn't talk about the psychological phenomenon of flow, which I personally think is one of the most important factors of what makes for a good game. You really do have to draw upon the art and science of all kinds of fields, whether it's psychology, mathematics, storytelling, interaction design, when it comes to making a great game. You're obviously super well read on this front, but you have some serious cred"
+    },
+    {
+      "start": 698.4,
+      "end": 741.76,
+      "text": "too, which you don't often talk about. But you were a game designer before Superhuman and Reportive. You were specifically a game designer at RuneScape, the legendary OG MMO. Is that where you kind of honed these principles? I think that was the first time I put it into professional practice. But I've really been obsessed with game design and the art of making games for my entire life. In fact, the very reason I learned how to code, and I started when I was about eight years old, was just so that I could make games. I was finishing up a school day one day, and both my parents were doctors, and so they worked fairly late. And so I did what any self-respecting"
+    },
+    {
+      "start": 741.76,
+      "end": 783.64,
+      "text": "nerd would do, which is hang out in the school library. And once I'd finished reading all of the fiction books, I started on the nonfiction books, pretty quickly found the coding section, because the predominant computer at the time in the United Kingdom was the BBC microcomputer. Fortunately, the word started with B, otherwise my life would have gone down a completely different direction. And I just read these books, and I taught myself how to code. And they were aimed for children. These books were written for kids. And so all of the motivating examples were designing your own games, whether it was an adventure game or some kind of action game. And so that brought me into this world. By the time I was about 18 years old, I don't know if folks still believe in Malcolm"
+    },
+    {
+      "start": 783.64,
+      "end": 826.4399999999999,
+      "text": "Gladwell's 10,000 hours, but I'd spent 10,000 hours programming, mostly around creating my own games. And then I went to the University of Cambridge to study computer science. Once I left, that was when I joined Jagex, which some people will remember as the creator of RuneScape, which at the time was the world's largest online free role-playing game. And that was where I really cut my teeth professionally as a game designer. I took all the things I'd learned, both as a passionate fan and player of video games, as well as a hobbyist game programmer, to creating quests and content for the players of RuneScape."
+    },
+    {
+      "start": 826.44,
+      "end": 855.84,
+      "text": "And I can tell you it was one of the most fun jobs I've ever had. And that was a crazy concept at the time, because if I'm remembering right, this was well before most free-to-play. So this idea of a game that was free was wild. And wasn't it also browser-based? Like it was Flash in the browser and you didn't need to download some big heavy thing to run on your PC? It was in fact browser-based. And the clue is in the name. It was not in fact Flash. Few people know this, but Jagex stands for... Do you want to give it a go, David?"
+    },
+    {
+      "start": 855.84,
+      "end": 894.1800000000001,
+      "text": "Java game experts, right? That was the colloquial interpretation. The very original technical definition was Java graphical extensions. So Andrew Gower, who is resolutely a genius, he was an alumnus of the computer science laboratory where I studied many years ahead of me, had created an entire graphical game engine that was capable of doing what now would look like rudimentary 3D graphics. Imagine the PS1 area. But it ran in the browser. It ran in every browser of every library of every school all across the world."
+    },
+    {
+      "start": 894.32,
+      "end": 924.12,
+      "text": "And that was all it had to do to capture that user base that it did. He was incredible. I remember, to nerd out for just a second, for anyone who's programmed Java, there is of course an object model. You don't have to define what an object is. It comes with it. And everything inherits of this object-oriented scheme. Andrew said, no, this is too slow. Because we're trying to do real-time graphics in the browser, I'm going to create my own object model in Java."
+    },
+    {
+      "start": 924.24,
+      "end": 950.82,
+      "text": "So he took Java the language, but he completely threw away Java the framework, made his own. And that was the thing upon which RuneScape was built. It was a real technical marvel at the time. Wow. So was that technically a Java applet then? Oh gosh, now you're questioning my own terminology. All right, all right, all right. Yes, I think it actually was at the time. All right, listeners. Now is a great time to tell you about a longtime friend of the show, Vanta."
+    },
+    {
+      "start": 951.42,
+      "end": 985.4200000000001,
+      "text": "AI has scrambled the whole security picture. It used to be that you proved that you were secure once a year, an audit or a static PDF. Then everyone would nod and you're done. But in an AI-first world, that doesn't hold up anymore. Yep. Your risk surface changes every week now. A vendor turns on an AI feature or someone writes in a new model without telling IT. And your posture is different than it was last week, let alone at your last audit. Vanta's own research found that around 70% of companies have this quote-unquote shadow AI running with no security review at all."
+    },
+    {
+      "start": 985.42,
+      "end": 1025.34,
+      "text": "Right. And that's where Vanta comes in. They're the leading agentic trust platform, meaning they've built the thing that closes the gap. And the way that they close that gap is Vanta Agent. Think of it as a GRC engineer, that's governance, risk, and compliance, except that it's software and it doesn't sleep. It finds the issues, drafts the fixes, and cuts the time that you'd spend on vendor assessments in half. In half. Which is exactly why more than 16,000 companies today run on Vanta. Companies like Ramp, Cursor, and Snowflake all stay audit-ready and catch the risks that crop up between audits across every vendor, every AI tool, the whole environment."
+    },
+    {
+      "start": 1025.74,
+      "end": 1065.4199999999998,
+      "text": "And that's the real value. Trust has to be continuous now, which is why Vanta automates your security, your compliance, and the work to earn and prove trust. We're huge fans of Vanta over here. And literally hundreds of acquired listeners have become Vanta customers at their companies over the years. So you can get $1,000 off Vanta at vanta.com slash acquired. That's V-A-N-T-A.com slash acquired for $1,000 off. And just tell them that Ben and David sent you. Well, this is a bit of a personal question for you, but you talked about the 10,000 hours of programming games. And earlier you mentioned flow. And it's funny, I was just having this conversation with a friend recently about flow. And I don't know what the technical"
+    },
+    {
+      "start": 1065.42,
+      "end": 1097.6599999999999,
+      "text": "definition is, but the way that I always think about it is when you're able to lose yourself, when hours can go by and you sort of come to and you don't realize that you've been doing the thing that you've been doing for hours and you have lost yourself. Obviously, this can happen playing games. And I'm curious for you, does this happen to you? Do you enter a flow state when you're programming? I do. Unfortunately, I have not been able to program recently that much at all. Our engineers probably wouldn't want me getting that close to the code base these days."
+    },
+    {
+      "start": 1098.5,
+      "end": 1152.4599999999998,
+      "text": "One of the things that I always ask people to do, if they're getting interested in this idea of game design, if they're trying to wrap their head around flow, is this notion of inspiration. What experience in your life would you most want to share with others? It's probably very unique. Very few other people will have access to it. And for me, it was one of those flow experiences. So as you know, I sold my last company, Reportive, to LinkedIn. And being at LinkedIn wasn't easy. Being acquired, so to speak, is rather hard. And as part of my retail therapy for myself, I acquired a rather special car. It was a Lamborghini Gallardo, a superleggera, 570 horsepower, zero to 60 in less than three seconds. Although without the sort of sterile way that a Tesla Roadster"
+    },
+    {
+      "start": 1152.46,
+      "end": 1196.24,
+      "text": "would get you there, this is the most angry, loud way that only a naturally aspirated V10 would get you there. Oh, you got to hang out with Jan from WhatsApp. He's all about the naturally aspirated supercars, Porsches specifically. He is a superhuman customer, so I will drop him a line. So you can imagine this car. It has gigantic air intakes at the front, a race wing at the back. Everything that could be made out of carbon was made out of carbon. And I used to race this car. These weren't sensible races on tracks. This was madness in mountains and canyons. And there is a certain speed where something magical happens. A speed where you stop thinking in words because words are too slow. Because by the time you've had that thought,"
+    },
+    {
+      "start": 1196.38,
+      "end": 1238.5400000000002,
+      "text": "you're already around the corner and through the next valley. And this is the speed where you and the car become one. The car is you. You are the car. It's like human and machine in full synchrony. And a speed where every sense is at capacity. Because you see the landscape rip by, you hear the scream of the engine, you taste burning rubber, you can feel every imperfection. Now this is the most extreme flow I have ever experienced. And this is the experience that I most want to share with others. Now of course I can't literally recreate that sensation, but it was an underlying inspiration for why we built the fastest email experience in the world. It's why the unifying theme for everything"
+    },
+    {
+      "start": 1238.5400000000002,
+      "end": 1286.56,
+      "text": "that superhuman does is speed. And it's why we try so hard to engineer full flow. And it was my first real visceral experience of it. Now since then, I've gone deep into the academia behind it. You mentioned how our subjective experience of time changes. And it can either happen in both ways. It can stretch out forever, or it can flash by in an instant. Both are symptomatic of experiencing flow. And there are many other things that contribute to what flow is as well. Well, first of all, I have to tell you, if they ever remake Ford versus Ferrari, and they're looking for a new opener, they can just take your excerpt there. And is that directly as the voiceover? I started thinking about being in that"
+    },
+    {
+      "start": 1286.56,
+      "end": 1326.92,
+      "text": "car the way you're describing it. I think it's a great transition to some of these principles of game design and how you sort of are embodying them in superhuman. I don't want to be too dramatic here. But like, the closest I have ever come to being in flow while doing email has certainly been with superhuman. So, you know, props to you and the team for I think what you just mentioned, engineering for flow. And I may have mixed it up a little bit. But I initially brought up that programming point because I absolutely found flow when I used to do a lot of programming. And it is really rare to be able to find a sort of non engineering productivity app where you can feel"
+    },
+    {
+      "start": 1326.92,
+      "end": 1374.66,
+      "text": "that sense of sort of flying over the keyboard and losing yourself in the creative work. There is, in fact, a reason for this. And this was my recruiting rant that I used to get my co-founder and CTO comrade Erwin, who was, by the way, the first employee that we hired at Reportive to join me at Superhuman. I still vividly remember this for those of us who have lived in or visited San Francisco. This took place at the local kitchen, which is a little pizzeria in South of the market. And we sat down and we ordered our pizza. And I said to comrade, has it ever occurred to you how unfair it is that we as programmers have the best tools in the world? And I could see the"
+    },
+    {
+      "start": 1374.66,
+      "end": 1407.98,
+      "text": "gears turning in his mind as he's munching this pizza increasingly slowly until his mouth grinds to halt. And he's like, yeah. And I said, well, there's a reason for this because we as programmers are the only profession in the world that gets to create our own software. How unfair is that? No wonder we have the best software. No wonder our fingers dance across the keyboard like we're playing a piano. We wrote it ourselves. Of course, it's going to feel like an instrument. How about we do that?"
+    },
+    {
+      "start": 1407.98,
+      "end": 1456.98,
+      "text": "But for everybody else, let's take the things that we take for granted. Hundred millisecond response times, instantaneous search, command palettes, keyboard shortcuts, beautiful layouts, typography as a first class citizen, design that reports separately and is a thing unto itself. Let's take all of these things and bring them to everybody. And that was when he said, yes, OK, I'll join you on this crazy idea of Superhuman. It's interesting to talk about the engineering behind games and specifically Superhuman as a game. I hadn't thought about this, but when you're talking about RuneScape and rewriting large parts of Java, just to get it to do what you want to push the bleeding edge of what the tools could do so that you could have this game experience."
+    },
+    {
+      "start": 1456.98,
+      "end": 1497.74,
+      "text": "And so many games do this. I mean, this is what Epic does. This is Fortnite. This is so much of the bleeding edge of tech gets pushed forward by gaming. You guys did the same thing with Superhuman in the early days, right? Like you you rewrote large parts of Chrome's scripting engines, right? Like all in pursuit of this speed concept. We did. And I can give two examples. One will be in pursuit of speed. The other was more sort of in pursuit of beauty for the sake of beauty. We on the speed side had to figure out how to download, store and index pretty much all of your email in the browser itself."
+    },
+    {
+      "start": 1497.9399999999998,
+      "end": 1545.8600000000001,
+      "text": "Now you can use Superhuman in the browser. You can use Superhuman as a native app. Rather shockingly, the browser experience is no slower than any other experience. It is in fact faster than any native email experience. A core part. Do you use Electron for the native app? We do use Electron. Now, Electron by itself doesn't solve the problem. Electron by itself doesn't give you an easy way to do a full text search locally. And if you're trying to get faster than Google, one of the biggest companies of all time that has spent untold amounts of money to ensure that you are never more than two miles away from a server on their CDN. Well, how do you do it? If you're in the browser, a server on Amazon, let me tell you,"
+    },
+    {
+      "start": 1545.92,
+      "end": 1573.78,
+      "text": "isn't going to cut it. So we had to figure out how to work our magic. And we spent, no joke, this took nearly two years of time to figure out how to download, store and index the email in the browser such that when you search for an email, yes, it is searching remotely on your Gmail server, but it is also simultaneously searching in the browser and merging these search results in real time. Oh, I always wondered."
+    },
+    {
+      "start": 1574.8,
+      "end": 1614.3,
+      "text": "That's how it goes so fast. And that was an example of where we just had this insane speed requirements that required us to build an entirely new stack of technology. Yeah. And for any of us that are formally from Outlook land, I think that the key concept that you just mentioned there is merging together. Like I've been a superhuman user for years now, did not realize you were doing that in an Outlook land. I mean, I would search and local search would be relatively fast. And then there would be another button I could click that's continue searching on server or something like that. And it always felt like I was thrust into this completely different new experience that, you know, okay, cool. I guess while that's searching, now I'll pop open my phone and do"
+    },
+    {
+      "start": 1614.3,
+      "end": 1646.24,
+      "text": "some tasks on there or switch open another application. Yeah. I never realized you were sort of doing both concurrently and stitching them together. And it does turn out to be this ridiculously hard problem. It's actually a computer science hard problem. How do you merge two infinite lists on the screen without having things like pop in? What if one email actually only exists in one of those lists? How do you stage them? It gets real gnarly, real fast. The other example, David, that you may have been referring to is actually to do with typography and fonts."
+    },
+    {
+      "start": 1647.16,
+      "end": 1697.18,
+      "text": "Now I'm a big typography nerd and I really wanted, I'll avoid using too much jargon as I go into this example, but I really wanted everything to line up with a vertical rhythm on the page. And this is really hard to do if you're just doing basic web programming. It is in fact impossible. If you have different fonts, you have graphical elements, things of different sizes to have everything line up on, let's say an eight pixel or a six pixel grid, but we figured out how to do it. We dove into the Chrome source code, reverse engineered the font layout engine, and then built our own layout framework, actually entirely in CSS, because we wanted this thing to be super fast as well. So now whenever we"
+    },
+    {
+      "start": 1697.18,
+      "end": 1741.22,
+      "text": "want to lay something out, we have a little tool that ingests the font. It spits out all the metrics. This is the height of the ascender. This is the X height. This is the cap height. This is the length of the descender. And you are a typography nerd. It generates the CSS to automatically lay this stuff out so that it looks beautiful. A lot of the reason why the superhuman.com website and why the superhuman app looks the way it does is absolutely everything is on a sub pixel grid to perfection because of the CSS framework. And for superhuman customers who are listening, and maybe they're curious to actually see what I'm going on about. If they hit command K baseline, I believe this is an"
+    },
+    {
+      "start": 1741.22,
+      "end": 1770.1000000000001,
+      "text": "internal tool, but I think it is exposed to users. It will actually turn on a sub pixel grid and you can see everything layout on that on that frame. Can confirm it is in production. There we go. That's so awesome. What great Easter egg to have in the product. All right. Speaking of Easter eggs, I'm going to take this opportunity to transition us, David. I'm working on my transitions here. You're like Jcal. Just working on it. Becoming a pro."
+    },
+    {
+      "start": 1770.1,
+      "end": 1817.8,
+      "text": "So Rahul, I noticed one thing that you didn't do to try and give me flow while I'm working through my email is build a reward system where I'm earning points or badges as I'm working through my email and having a gamified experience. What is your framework to think about when that works? If that's a game, is that not a game? Why is that craze sort of less popular than it was in years past? So what we're really talking about here is gamification. And what we practice at Superhuman and where my passion lies is game design. Game design is not gamification. It is not simply taking your product and adding points, levels, trophies, or badges. And you kind of alluded to"
+    },
+    {
+      "start": 1817.8,
+      "end": 1858.1399999999999,
+      "text": "this, but it was a big deal 10 years ago and it's really faded away. And the reason is it didn't work. And to understand why we really have to understand human motivation and the difference between intrinsic motivation and extrinsic motivation. Makes total sense. And without, you know, jumping to too many conclusions here, I'm just going to assume that me getting through my inbox on its own is an intrinsic motivation. Whereas you would be introducing extrinsic motivators if you introduce some kind of badging system or something. And that, I would guess, is just not as sort of sustainable, enduring, motivating."
+    },
+    {
+      "start": 1859.0,
+      "end": 1892.3999999999999,
+      "text": "Exactly. And the perhaps counterintuitive conclusion is that extrinsic motivation can actually undermine our intrinsic motivation. We can be less enthused to do a thing once we're being extrinsically motivated. This is why sometimes if you take someone who has a hobby and then you pay them to do it, they start to lose interest in the hobby. And there was this fascinating study that I think we should go into because it really outlines this in the clearest way possible back in the 1970s."
+    },
+    {
+      "start": 1892.8799999999999,
+      "end": 1938.28,
+      "text": "Researchers from Stanford, they recruited children. These were young kids. They were aged about three to four years old. Now, the thing that made all of these kids in common is that they were generally interested in drawing. And some of these kids were told they would get a reward, a certificate with a gold seal and a ribbon. And some of these kids were not told about any reward. And so they did not expect one or even know of one. Now, the researchers then invited all of these children into a separate room to draw for six minutes. And then afterwards, they would either get the reward or not, depending on which group they were in. And over the next few days, the children were observed to see how much they would continue to draw by themselves."
+    },
+    {
+      "start": 1939.24,
+      "end": 1984.78,
+      "text": "Now, here's the thing. The children with no reward spent 17% of their time drawing. But the children who expected a reward, the ones who had received compensation, so to speak, they only spent 8% of their time drawing. In other words, the extrinsic reward had literally halved their motivation. So, you can back out of this into intrinsic motivation, into extrinsic motivation. And the definitions are as follows. With intrinsic motivation, we do things because they are inherently interesting and satisfying. With extrinsic motivation, we do things to earn rewards and achieve external goals."
+    },
+    {
+      "start": 1984.78,
+      "end": 2032.34,
+      "text": "And that's the problem with rewards. They massively undermine intrinsic motivation. And that's why gamification does not work. And when gamification does work, it is because the underlying experience was already a game. To go back to RuneScape, when getting that next piece of loot in Diablo fashion or leveling up in World of Warcraft fashion feels good, it's because you're actually playing a pretty decent game. In Superhuman, when you hit inbox zero and you feel that emotion of that joyous imagery, and that feels like gamification, and it works, it is because Superhuman itself was designed like a game, not because there was a game mechanic layered on top."
+    },
+    {
+      "start": 2033.08,
+      "end": 2090.52,
+      "text": "So, if I could sort of extrapolate this, and for founders out there listening, or product designers, or product managers who want to work this into their own product, is it basically find the opportunities where your product naturally delights someone or naturally makes someone feel a sense of accomplishment and find light touch ways to just amplify that? Yes. And zooming out, if what we're trying to do is sort of tie this up into a message for product designers for designers for product managers, I would say this. As an industry, and I was taught this way as well, we were brought up to obsess over what users want or over what users need. But if you think about a game, no one needs a game, there are no requirements other than be fun. And so I would really advise us"
+    },
+    {
+      "start": 2090.52,
+      "end": 2140.12,
+      "text": "as an industry to pull back from this obsession with user wants and user needs, and instead to design for fun. What do you want your players to feel? What is the emotional path for them to get there? And how does your software, your business product, if that's what you're building, take them along the path? And that's why one of the key principles that we think about at Superhuman isn't just goals, it isn't just toys, it isn't just flow, but it's also emotions. How can you design for the emotions that you want your users to feel? And this is another area where I've gone really deep. I mean, there are literally countless emotions and we get really nuanced at Superhuman. Is it inspiration? Is it triumph? Is it longing? Is"
+    },
+    {
+      "start": 2140.12,
+      "end": 2184.48,
+      "text": "it peacefulness? Is it tranquil? Is it sentimentality? Like there are so many different things people could feel. And how are you designing a journey so that people actually feel them? Three quick things. One, it feels like it's also kind of an element of like just respecting your users too and their intelligence, right? Like if you like the gamification style feels like a low respect for your users, like, Oh, I'm going to give you some flashy star for doing this thing. Good job. You know, it's like you're treating them like those elementary school kids, whereas give them awesome tools and then, you know, trust that they're like, they know their goals. If their goals line up with your goals, like they're going to use them well, just let them discover is kind of like trusting them,"
+    },
+    {
+      "start": 2184.48,
+      "end": 2217.02,
+      "text": "right? A hundred percent. And I don't mean that we shouldn't use techniques like points, levels, trophies, badges. These are very powerful techniques. They just can't be the only thing. They are a good addition to an already well-designed game. And we're in fact building this right now at Superhuman. We are working on a streaks feature that should be out either next week or the week after just a few final polishing touches to put on it. And this is going to celebrate whenever you hit inbox zero."
+    },
+    {
+      "start": 2217.32,
+      "end": 2255.08,
+      "text": "And every week in which you hit inbox zero, that streak is going to count up. There'll be a little achievements area where you can go to, to see your all time streak and some other interesting statistics, like the achievements dialogue in World of Warcraft, if anyone's ever played that, how many things you've ever archived, how many emails you've ever sent in total. Cool. So yeah, I mean, like your initial reaction is cool because now you're kind of curious. You want to see. Yeah. Now it's not the point of Superhuman, but it's there and it adds this rich layer of depth and texture that will make the experience even more compelling and stoke even more curiosity. Listeners, David and I didn't know this"
+    },
+    {
+      "start": 2255.08,
+      "end": 2291.58,
+      "text": "going in, but now that, now that we've been told this information, we have to ask more questions about it. How did you decide that that was a good idea and not something that would do what the study did that you mentioned and make me less motivated to do the intrinsic stuff in Superhuman? We tested it in having, having just spent the last two minutes saying Silicon Valley does it wrong. Let me share where Silicon Valley does it right. We tested it in good old fashioned product management style. We didn't write any feature code. What we did was we wrote a bunch of SQL scripts."
+    },
+    {
+      "start": 2291.58,
+      "end": 2338.0,
+      "text": "We then analyzed the metrics. We then created a little email feature. What does that mean? Well, we took a sample of the user base. We emailed them these insights for their own behavior when it comes to using Superhuman. And then we analyze the results that came back in. We did about three rounds of this switching up the stats that we would email, analyzing the sentiments, really digging in deep with the customers. As I've described on our previous show, as a long time listeners will know, I'm a huge advocate of interviewing thousands of people and really understanding what they're feeling. So we did all of that, the traditional product management stuff with this feature. And what we learned is that some"
+    },
+    {
+      "start": 2338.0,
+      "end": 2381.2000000000003,
+      "text": "stats aren't particularly compelling. Some stats are highly compelling. The streak stats in particular is one that people love to know about. And so we gained conviction that if we built this in, in the right way, and if it wasn't too front and center, but if it was a celebratory moment for the people who achieve it, it wouldn't actually undermine the intrinsic motivation. It would in fact reinforce it. And so the devil, as they say, is in the details, but we got to the level of conviction that we'd be able to do this without undermining any intrinsic motivation. All right, listeners, now is a great time to thank our longtime friend of the show, ServiceNow. If you are running a large enterprise, AI agents are likely"
+    },
+    {
+      "start": 2381.2000000000003,
+      "end": 2420.32,
+      "text": "spread across every team and deploying them is no longer the hard part. Yeah. The hard part is knowing what permissions they have, what employees are using them for, or what decisions AI is making. AI security for an enterprise at scale is not a small concern. Like the risks are real. Exactly. And the challenge with AI is governing it, securing it, measuring it, and making sure that it actually delivers value. That is why ServiceNow built the AI control tower. Yep. AI control tower gives enterprises a single place to see, manage, govern, and optimize AI across the entire business. And it works with any AI, not just theirs."
+    },
+    {
+      "start": 2420.32,
+      "end": 2464.9599999999996,
+      "text": "Every device on your network, every permission across every system, every AI agent visible and secure in one place. And ServiceNow can do this because they've spent more than 20 years building the operational backbone of the enterprise. The workflows, governance, approvals, security controls, and institutional knowledge that power how work actually gets done across IT, HR, customer service, finance, and security. ServiceNow already runs more than 100 billion workflows annually, and trillions of transactions for more than 85% of the Fortune 500. So when companies need a place to govern AI at enterprise scale, they're building on a platform at the center of how their business already operates. And in a future that isn't going to be one AI, it's going to be thousands of AI agents"
+    },
+    {
+      "start": 2464.9599999999996,
+      "end": 2491.2999999999997,
+      "text": "working across every function of the company. But the question is, who's managing them all? So if you're trying to turn AI ambition into real business outcomes and make it work safely, securely at scale, go check out ServiceNow.com slash acquired and tell them that Ben and David sent you. What is the story of the Inbox Zero images? Because I would imagine some of the motivation behind that feature is the same. How did you guys come up with the idea and put it in the product?"
+    },
+    {
+      "start": 2492.12,
+      "end": 2529.2200000000003,
+      "text": "This comes back to our emotion pillar of game design and the principle of designing for nuanced emotions. Inbox Zero, we fairly quickly learned, I would say it took us about nine months to reach this realization, is one of the most emotionally resonant moments in someone's interaction with their inbox. And this is actually a good example of where my intuition was wrong. I did not know this as a founder going in, because as a founder starting the company, I so rarely hit Inbox Zero."
+    },
+    {
+      "start": 2529.22,
+      "end": 2580.62,
+      "text": "I receive thousands of emails every single day. In any given minute, I'm often receiving five or six emails. So before we'd invented Split Inbox, which took years to get to, it was an impossibility for me to actually hit Inbox Zero. So I simply didn't know. But in interacting with our earliest of customers, we quickly realized that Inbox Zero was one of the most emotionally resonant moments. And it was a point that we could reinforce with emotional design. So if you're designing for emotion, you have to figure out what kind of emotions you're going for. And there are many models of human emotion. The most famous is Plutchick's Wheel. If I were to magically flash up an image in people's minds, they would recognize it. But essentially, it has different emotions that are across from each"
+    },
+    {
+      "start": 2580.62,
+      "end": 2622.0,
+      "text": "other. For example, joy is the opposite of grief. And you can blend adjacent emotions to create more complex feelings. And it gets really cool. So when you combine joy and anticipation, you get optimism. And when you combine joy and trust, you actually get love. But at Superhuman, we use a much richer vocabulary. We actually use the emotion wheel by the Hunto Institute for Entrepreneurial Leadership, because this emotion wheel has all of the nuance that I think a game designer needs in order to actually practice emotional design. And so at Superhuman, we care deeply about the emotion of joy."
+    },
+    {
+      "start": 2622.0,
+      "end": 2680.02,
+      "text": "And joy has many subfacets. We design for things like enthusiasm and excitement. Our users come to us super excited. We design for optimism and hopefulness. Our users want Superhuman to improve their lives. And we design for pride and triumph. Because when you hit Inbox Zero, especially if it's the first time in years, you rightly feel like you accomplished something special. So when you do hit Inbox Zero, that's when we decided to show you this stunning and gorgeous imagery. And we do this specifically to widen the emotional repertoire beyond joy into love and surprise. So there are sub-emotions in love and surprise that we deliberately lean upon with our choice of Inbox Zero imagery. We pick images that are peaceful and tranquil. That's in the love end of the spectrum. We create images rather that create a"
+    },
+    {
+      "start": 2680.02,
+      "end": 2732.66,
+      "text": "sense of longing and sentimentality. That's also in the love end of the spectrum. Folks will remember the Arctic fox or the squirrel that just runs across the screen. Or there's one where you have almost natural geographic-esque images of the balloons over Myanmar. And we also push into surprise, images that amaze and inspire a sense of awe. A lot of our cityscapes are like this. Very high contrast, very high dynamic range, and designed to give you that sense of flying, almost of having superpowers over this entire cityscape. It's so funny how it can sound like it's a little highfalutin as we talk about it here on this show. But I'm reflecting back on if I had to really, really describe the"
+    },
+    {
+      "start": 2732.66,
+      "end": 2760.16,
+      "text": "split-second emotion that I feel when I see it when I do hit Inbox Zero in one of my inboxes. Yeah, you're absolutely right. It is very nuanced. And I don't ever make the connection to, ooh, I'm flying over this city, but I certainly feel an amount of power, control, tranquility that I certainly didn't feel when I saw the full list. That's the point. So I'm glad to hear it's working. There's something that's been noodling in my mind the last couple of minutes as you've been talking."
+    },
+    {
+      "start": 2760.74,
+      "end": 2808.98,
+      "text": "And my question is, being someone who thinks so deeply about all these very nuanced emotions as you are designing the product, does it translate to your personal life? Like, do you notice that yourself as a human, by studying this stuff, that you are more aware of your nuanced emotions? Or are they totally separate? And this is more of an analytical skill versus something that would just sort of naturally start happening to you as a person? It's funny you should mention that because yes, it does definitely help in personal relationships, whether those are happening at work or at home. One of the things that I strongly advise any founder to go through is conflict training or training on how to give feedback or how to give difficult"
+    },
+    {
+      "start": 2808.98,
+      "end": 2863.02,
+      "text": "feedback or how to receive difficult feedback. And for customers of Superhuman, I have recently sent out a newsletter on just how to do this. And one of the things that I focus really hard on is separating the objective description of the behavior upon which I'm trying to give feedback. Hey, you turned up 45 minutes late for our dinner reservation, let's say, or hey, this work had these specific issues of quality with it from how it made me feel. And it's very easy, especially in a non-work setting, when for whatever reason, most people don't hold themselves to the same level of accountability when it comes to communication that they do in a work setting. It's very easy to let those things blur into each other."
+    },
+    {
+      "start": 2863.8999999999996,
+      "end": 2899.2799999999997,
+      "text": "So if I'm having a disagreement with my significant other at home, I do force myself actually to use this formula. I say, here is the very specific thing that this is the behavior that I have issue with, which I'd like to talk about. And I try and describe it very dispassionately. You know, what a camera would be able to see is always my rule of thumb. And then I say, this is how it made me feel. Now here's the part where it gets really hard. It's very easy to start using passive words."
+    },
+    {
+      "start": 2899.28,
+      "end": 2954.4799999999996,
+      "text": "I feel attacked. I feel unsupported. I feel let down. Well, guess what? These aren't really emotions. These are passive descriptions of what the other person might do, right? And it's really hard not to use these things because they're what we want to say, right? What we should actually say. And once again, I'm just going to give a big up to the Hunter Institute for entrepreneurial leadership, there's hundreds of emotions on that wheel. What we actually want to say is something like, I'm feeling lonely or I'm feeling disappointed or I'm feeling anguish or whatever it is. And you can go to the emotional wheel and look it up. And so in particularly difficult disagreements, I've actually just gone to the wheel. You know, I've said, what I want to say is I'm feeling"
+    },
+    {
+      "start": 2954.4799999999996,
+      "end": 2993.0,
+      "text": "attacked, but I don't want to, I know that's not your intention. So that's a very unfair word to use. So what I'm instead going to do is I'm going to go to the wheel. I'm going to go into what is probably the anger section of the wheel and look up the appropriate emotion. And so bringing this full circle, Ben, absolutely. This kind of discipline that you get from being a game designer can also make you a better manager and can also make you a better partner. It's fascinating. Fascinating. We talked about a lot of these principles, the goals and rewards, emotion, touched on toys and fun and flow."
+    },
+    {
+      "start": 2993.16,
+      "end": 3035.64,
+      "text": "But this is really one that I don't think we sort of prepared for coming into this conversation, but I have certainly experienced in other areas of my life where being forced to study emotion and have a greater vocabulary around emotion really can help you in interactions with humans of any flavor in any, you know, in any setting to help you better articulate how you're feeling. So it's very cool to see you bring that to software. As we sort of work toward the end here, one big question I had is like, if you're listening to this podcast and you're not a product designer or a product manager or the CEO of an early stage product focus company, do these principles, how do you apply them outside"
+    },
+    {
+      "start": 3035.64,
+      "end": 3097.96,
+      "text": "of just a product role? And could they be interesting to people in other areas of company building? I think so. This set of principles across goals, emotions, controls, toys, and flow really is about experience design. So if you think about the onboarding experience of superhuman, there's not really much software in that experience, but we did look at the whole thing through these lenses. If you didn't even work in technology, let's say that perhaps you were a realtor selling houses or getting folks to rent an apartment as you know, now many of us here in San Francisco are, I happen to own a condo just down the road. And I think about the experience of prospective tenants coming to look at my condo through these lenses of game design. What is their goal? What emotion do we want them to"
+    },
+    {
+      "start": 3097.96,
+      "end": 3124.3,
+      "text": "feel? How can I hit every single sense of their emotions as they come in? It sounds weird, but like, does it smell good? Does it look good? Does it feel good? Literally do the things that you touch feel good. And to double click on one of those, let's take the sensation of smell. And I've been renting out places for a long time. This is a trick that I've been using since I was in my early twenties."
+    },
+    {
+      "start": 3124.82,
+      "end": 3169.3,
+      "text": "When I read my first few sales books, I would put a vanilla scent in the kitchen to evoke memories of baked goods, perhaps when you were a child and, you know, your folks would bring back a little baked treats. I would put a lavender scent or a similar scent in the lounge to evoke perhaps being in a meadow or in some other really relaxing place. And so, yes, the point is that you can take all of these little tools that we have as game designers and apply them to any experience that you're trying to design. All right. So Rahul, you've talked about a lot of very nuanced and incredibly well thought out elements of the product here. Toward the end of the show, we always like to"
+    },
+    {
+      "start": 3169.3,
+      "end": 3212.7400000000002,
+      "text": "give guests an opportunity to talk about where people can go and check out the work of the person who's been interviewed. So what do you want to say to listeners? Well, thank you, Ben. What I would say is for folks who have listened to this, maybe they're excited to try superhuman or they have an email problem and they really wish that they could get through their inbox twice as fast as before, sustainably hit inbox zero, head to superhuman.com, sign up there. We do have a big waitlist. It's more than 350,000 people at this point. But what I shall say is that for listeners of this podcast, members of the acquired community, I would be more than happy to jump you to the front of the line"
+    },
+    {
+      "start": 3212.74,
+      "end": 3256.1,
+      "text": "when you sign up in the box where it says, how did you find out or hear about superhuman? Just enter the acquired podcast and we'll make sure that we skip you to the front of the line and get you onboarded as rapidly as we can. Sweet. Love that, Rahul. Thank you. All right, listeners. Now is a great time to talk about one of our favorite companies, Statsig. Yes, long time acquired partner. There is a reason why the best product teams at companies like OpenAI and Notion, Atlassian, Figma, Rippling, Brex, and more rely on Statsig, whether they are iterating on their core product features or shipping AI-powered experiences at scale."
+    },
+    {
+      "start": 3256.56,
+      "end": 3304.74,
+      "text": "Yep. In the crazy speed of today's AI world, shipping fast is just table stakes now. It's basically trivial to build and deploy your app constantly. The real advantage is how quickly you learn what changes actually created value for customers and how fast you can use that signal to guide what you ship next. Whether it's a feature tweak, a pricing change, a performance improvement, or an AI update like a model change or prompt adjustment, they're not relying on instinct. They're measuring what actually moved engagement, retention, and ultimately revenue. And as more teams build with AI, that learning loop becomes even more important. Building with LLMs introduces non-determinism into your product experience. The same input doesn't always produce the same output, and behavior can shift in subtle ways"
+    },
+    {
+      "start": 3304.74,
+      "end": 3346.7,
+      "text": "in real-world use. So doing offline evals will give you part of the picture, but you can really only understand the impact once your product is live with real users, and then you can measure how their behavior actually changes. It's very different than the way that you would ship features in a pre-AI world where you knew exactly what the software was going to do in production. Yeah, exactly. So this is where Statsig comes in. It brings experimentation, feature flags, and product analytics into one unified system so teams can ship safely, test rigorously, and directly link what they changed to how users actually behaved. The result is a tighter feedback loop and learning that compounds over time so you don't just ship more, you ship better."
+    },
+    {
+      "start": 3347.44,
+      "end": 3391.18,
+      "text": "So if you want to make learning your competitive advantage, whether you're building new AI experiences or just evolving your existing core product, go to statsig.com slash acquired to get started. Well, LPs, you can join us on the other side. We're going to be talking through a masterclass on fundraising with Rahul. And for folks who aren't sort of as familiar with his background, he's literally the perfect person to tackle this critical topic. Since he's now started two companies, he's done YC, he's not done YC, he's had an exit, he's raised seed rounds, big growth rounds, funded the company himself for a period of time. He's running his own angel fund with Todd Goldberg, where they also just raised a rolling follow on fund via AngelList. Rahul has raised and not"
+    },
+    {
+      "start": 3391.18,
+      "end": 3449.42,
+      "text": "raised capital all across the spectrum. And we're really excited to dive in with him on that. So if you're not already an LP, click the link in the show notes or go to acquired.fm slash LP. So Rahul, thanks so much. And we'll see you on the other side. Thank you. Thank you. Thank you."
+    }
+  ]
+}

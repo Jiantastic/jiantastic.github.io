@@ -19013,10 +19013,10 @@
         "timestamp": "1:47:14"
       },
       {
-        "title": "IPO scale still leaves narrow economics",
-        "summary": "Pandemic-era revenue accelerates toward $2 billion for nine months and shares open around a $70 billion valuation. Yet an illustrative $30 order yields roughly 80 cents after variable and marketing costs, and restaurants, dashers, and consumers already feel heavily charged.",
-        "quote": "contribution margin is about 80 cents",
-        "timestamp": "1:54:30"
+        "title": "A large outcome still demands durable profit",
+        "summary": "Pandemic-era revenue accelerates toward $2 billion for nine months and shares open near a $70 billion valuation, but an illustrative $30 order yields roughly 80 cents after variable and marketing costs. The closing grade separates stock appreciation from eventual cash flow: DoorDash may become an excellent food-delivery business, yet non-food adjacencies look narrower than its local-commerce ambition and restaurants must retain direct customer relationships.",
+        "quote": "will that eventually yield a very profitable business",
+        "timestamp": "2:43:15"
       }
     ]
   },
@@ -19379,6 +19379,941 @@
         "summary": "Five or six $250,000 passengers could yield $1.25 million per flight and projected 65% gross margins, while New Mexico absorbs the $200 million spaceport cost. The downside is continued dilution or a scattered services company that never establishes safe, frequent flights as its core engine.",
         "quote": "never build power as a business",
         "timestamp": "1:42:28"
+      }
+    ]
+  },
+  {
+    "slug": "special-superhuman-part-ii-designing-software-to-feel-like-a-game-with-rahul-vohra",
+    "guid": "904da83a-f3ba-479a-91cc-8bf48890d654",
+    "title": "Special: Superhuman Part II - Designing Software to Feel like a Game (with Rahul Vohra)",
+    "pubDate": "Thu, 12 Nov 2020 07:18:26 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/cc0da03f/0a043b89.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/special-superhuman-part-ii-designing-software-to-feel-like-a-game-with-rahul-vohra",
+    "duration": 3449,
+    "episodeUrl": "/poddy-summaries/episodes/special-superhuman-part-ii-designing-software-to-feel-like-a-game-with-rahul-vohra/",
+    "summaryPath": "summaries/special-superhuman-part-ii-designing-software-to-feel-like-a-game-with-rahul-vohra.json",
+    "transcriptPath": "transcripts/special-superhuman-part-ii-designing-software-to-feel-like-a-game-with-rahul-vohra.txt",
+    "transcriptJsonPath": "transcripts/special-superhuman-part-ii-designing-software-to-feel-like-a-game-with-rahul-vohra.json",
+    "overview": [
+      "Rahul Vohra argues that business software should borrow game design's deeper craft, not superficial gamification. A good product creates pleasant surprise, clear goals, nuanced emotions, expressive controls, playful discovery, and flow. Superhuman applies those ideas to email through sub-100-millisecond interactions, keyboard mastery, local-plus-remote search, exact typography, celebratory Inbox Zero imagery, and lightly placed achievements. The objective is not to distract users with rewards, but to make completing their own work intrinsically satisfying.",
+      "The distinction matters because extrinsic rewards can reduce the motivation they try to create. Superhuman tests streaks with behavioral data and customer interviews, keeping them subordinate to a compelling experience. Its engineering and emotional design reinforce the same promise: speed should make human and tool feel synchronized. Vohra extends the framework beyond software to any designed experience, asking what people want to accomplish, which precise emotions they should feel, and how every sensory or interactive detail supports that journey."
+    ],
+    "takeaways": [
+      {
+        "title": "Fun is pleasant surprise",
+        "detail": "Pleasure alone can be passive, while fun requires an expectation to be productively violated. Products can create this through discovery, responsiveness, beauty, and moments that exceed the user's mental model rather than through novelty detached from the task."
+      },
+      {
+        "title": "Flow begins with expressive controls",
+        "detail": "Programmers feel unusually fluent because they build tools for themselves. Superhuman brings instantaneous response, search, command palettes, shortcuts, and instrument-like controls to email so attention stays on the task instead of waiting for or negotiating with software."
+      },
+      {
+        "title": "Performance can require proprietary infrastructure",
+        "detail": "To beat server latency, Superhuman spent nearly two years downloading, indexing, and searching email locally while merging remote results. It also reverse-engineered Chrome font layout to create a precise CSS grid, treating speed and visual rhythm as core product capabilities."
+      },
+      {
+        "title": "Rewards can destroy genuine motivation",
+        "detail": "Children promised a drawing reward later drew about half as much as unrewarded peers. Points, badges, and streaks work only when they amplify satisfaction already produced by the activity; layered onto an uninvolving product, they convert intrinsic purpose into fragile external compliance."
+      },
+      {
+        "title": "Design an explicit emotional journey",
+        "detail": "Superhuman identifies precise target feelings such as triumph, tranquility, longing, optimism, and awe, then chooses imagery and interactions to evoke them. A richer emotional vocabulary improves products, management feedback, and personal conflict by separating observable behavior from how it actually made someone feel."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Business software adopts the craft of games",
+        "summary": "Vohra returns after Superhuman's product-market-fit discussion to explain how the company matures email into an experience designed around goals, emotions, controls, toys, and flow rather than conventional feature requirements.",
+        "quote": "designing software like it is a game",
+        "timestamp": "1:18"
+      },
+      {
+        "title": "Play and surprise define the design target",
+        "summary": "A game is something people play, while a toy is an object they play with. Fun adds the missing ingredient to mere pleasure—surprise—giving product teams a practical test for whether an interaction can genuinely delight.",
+        "quote": "fun is pleasant surprise",
+        "timestamp": "6:23"
+      },
+      {
+        "title": "Seven principles span five experience dimensions",
+        "summary": "Easy learning and difficult mastery are necessary but insufficient. Superhuman evaluates goals, emotions, controls, toys, and flow, combining psychology, storytelling, mathematics, and interaction design rather than reducing quality to a single engagement mechanic.",
+        "quote": "goals, emotions, controls, toys, and flow",
+        "timestamp": "10:08"
+      },
+      {
+        "title": "RuneScape turns lifelong interest into practice",
+        "summary": "Vohra learns programming at eight to build games, accumulates roughly 10,000 hours, and becomes a RuneScape designer. The browser-based Java engine demonstrates how technical constraints and universal distribution can jointly create a massive audience.",
+        "quote": "the world's largest online free role-playing game",
+        "timestamp": "11:38"
+      },
+      {
+        "title": "A racing experience inspires email flow",
+        "summary": "Driving a Lamborghini at the edge of perception gives Vohra his strongest experience of human-machine synchrony. Superhuman cannot reproduce the canyon, but it can use speed to eliminate verbal deliberation and keep users inside their work.",
+        "quote": "you and the car become one",
+        "timestamp": "18:18"
+      },
+      {
+        "title": "Programmer tools become a product blueprint",
+        "summary": "Vohra recruits cofounder Conrad Irwin with an observation: programmers enjoy the best software because they create it themselves. Superhuman offers everyone instantaneous search, shortcuts, command palettes, careful typography, and piano-like keyboard control.",
+        "quote": "our fingers dance across the keyboard",
+        "timestamp": "22:06"
+      },
+      {
+        "title": "Speed and beauty demand new infrastructure",
+        "summary": "Superhuman spends nearly two years building browser-local email storage and search that merges Gmail server results in real time. It separately reverse-engineers Chrome's font engine to generate a subpixel-aligned CSS layout system.",
+        "quote": "an entirely new stack of technology",
+        "timestamp": "24:16"
+      },
+      {
+        "title": "Gamification confuses rewards with game design",
+        "summary": "Points, levels, trophies, and badges do not make an experience inherently engaging. Research showing rewarded children later draw far less illustrates how external compensation can displace the intrinsic desire that a product should strengthen.",
+        "quote": "the extrinsic reward had literally halved their motivation",
+        "timestamp": "29:30"
+      },
+      {
+        "title": "Streaks earn a place through testing",
+        "summary": "Superhuman tests achievement statistics with SQL, targeted emails, sentiment analysis, and customer interviews before writing feature code. Users find Inbox Zero streaks compelling when presented as a quiet celebration rather than the product's purpose.",
+        "quote": "We didn't write any feature code",
+        "timestamp": "37:35"
+      },
+      {
+        "title": "Inbox Zero widens a moment of triumph",
+        "summary": "Customer observation reveals Inbox Zero as an emotionally resonant event that Vohra rarely experienced himself. Peaceful landscapes, nostalgic animals, and dramatic cityscapes extend pride into tranquility, longing, awe, and a sense of control.",
+        "quote": "designing for nuanced emotions",
+        "timestamp": "41:04"
+      },
+      {
+        "title": "Emotional vocabulary improves human feedback",
+        "summary": "Vohra separates camera-observable behavior from genuine feelings in difficult conversations. Replacing accusations such as 'attacked' with precise emotions such as loneliness, disappointment, or anguish reduces assumed intent and makes feedback more actionable.",
+        "quote": "what a camera would be able to see",
+        "timestamp": "46:48"
+      },
+      {
+        "title": "Experience design extends beyond software",
+        "summary": "The same framework can shape onboarding, real estate, retail, or hospitality. Goals and emotions guide the journey, while visual, tactile, and even scent details reinforce what a person should perceive and remember.",
+        "quote": "apply them to any experience",
+        "timestamp": "50:35"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Business software adopts the craft of games",
+        "summary": "Vohra returns after Superhuman's product-market-fit discussion to explain how the company matures email into an experience designed around goals, emotions, controls, toys, and flow rather than conventional feature requirements.",
+        "quote": "designing software like it is a game",
+        "timestamp": "1:18"
+      },
+      {
+        "title": "Play and surprise define the design target",
+        "summary": "A game is something people play, while a toy is an object they play with. Fun adds the missing ingredient to mere pleasure—surprise—giving product teams a practical test for whether an interaction can genuinely delight.",
+        "quote": "fun is pleasant surprise",
+        "timestamp": "6:23"
+      },
+      {
+        "title": "Seven principles span five experience dimensions",
+        "summary": "Easy learning and difficult mastery are necessary but insufficient. Superhuman evaluates goals, emotions, controls, toys, and flow, combining psychology, storytelling, mathematics, and interaction design rather than reducing quality to a single engagement mechanic.",
+        "quote": "goals, emotions, controls, toys, and flow",
+        "timestamp": "10:08"
+      },
+      {
+        "title": "RuneScape turns lifelong interest into practice",
+        "summary": "Vohra learns programming at eight to build games, accumulates roughly 10,000 hours, and becomes a RuneScape designer. The browser-based Java engine demonstrates how technical constraints and universal distribution can jointly create a massive audience.",
+        "quote": "the world's largest online free role-playing game",
+        "timestamp": "11:38"
+      },
+      {
+        "title": "A racing experience inspires email flow",
+        "summary": "Driving a Lamborghini at the edge of perception gives Vohra his strongest experience of human-machine synchrony. Superhuman cannot reproduce the canyon, but it can use speed to eliminate verbal deliberation and keep users inside their work.",
+        "quote": "you and the car become one",
+        "timestamp": "18:18"
+      },
+      {
+        "title": "Programmer tools become a product blueprint",
+        "summary": "Vohra recruits cofounder Conrad Irwin with an observation: programmers enjoy the best software because they create it themselves. Superhuman offers everyone instantaneous search, shortcuts, command palettes, careful typography, and piano-like keyboard control.",
+        "quote": "our fingers dance across the keyboard",
+        "timestamp": "22:06"
+      },
+      {
+        "title": "Speed and beauty demand new infrastructure",
+        "summary": "Superhuman spends nearly two years building browser-local email storage and search that merges Gmail server results in real time. It separately reverse-engineers Chrome's font engine to generate a subpixel-aligned CSS layout system.",
+        "quote": "an entirely new stack of technology",
+        "timestamp": "24:16"
+      },
+      {
+        "title": "Gamification confuses rewards with game design",
+        "summary": "Points, levels, trophies, and badges do not make an experience inherently engaging. Research showing rewarded children later draw far less illustrates how external compensation can displace the intrinsic desire that a product should strengthen.",
+        "quote": "the extrinsic reward had literally halved their motivation",
+        "timestamp": "29:30"
+      },
+      {
+        "title": "Streaks earn a place through testing",
+        "summary": "Superhuman tests achievement statistics with SQL, targeted emails, sentiment analysis, and customer interviews before writing feature code. Users find Inbox Zero streaks compelling when presented as a quiet celebration rather than the product's purpose.",
+        "quote": "We didn't write any feature code",
+        "timestamp": "37:35"
+      },
+      {
+        "title": "Inbox Zero widens a moment of triumph",
+        "summary": "Customer observation reveals Inbox Zero as an emotionally resonant event that Vohra rarely experienced himself. Peaceful landscapes, nostalgic animals, and dramatic cityscapes extend pride into tranquility, longing, awe, and a sense of control.",
+        "quote": "designing for nuanced emotions",
+        "timestamp": "41:04"
+      },
+      {
+        "title": "Emotional vocabulary improves human feedback",
+        "summary": "Vohra separates camera-observable behavior from genuine feelings in difficult conversations. Replacing accusations such as 'attacked' with precise emotions such as loneliness, disappointment, or anguish reduces assumed intent and makes feedback more actionable.",
+        "quote": "what a camera would be able to see",
+        "timestamp": "46:48"
+      },
+      {
+        "title": "Experience design extends beyond software",
+        "summary": "The same framework can shape onboarding, real estate, retail, or hospitality. Goals and emotions guide the journey, while visual, tactile, and even scent details reinforce what a person should perceive and remember.",
+        "quote": "apply them to any experience",
+        "timestamp": "50:35"
+      }
+    ]
+  },
+  {
+    "slug": "twitter-with-dick-costolo",
+    "guid": "779a9cc5-7338-4754-8986-375fb33790f9",
+    "title": "Twitter (with Dick Costolo)",
+    "pubDate": "Wed, 28 Oct 2020 09:28:49 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/38ada207/767a5382.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/twitter-with-dick-costolo",
+    "duration": 5103,
+    "episodeUrl": "/poddy-summaries/episodes/twitter-with-dick-costolo/",
+    "summaryPath": "summaries/twitter-with-dick-costolo.json",
+    "transcriptPath": "transcripts/twitter-with-dick-costolo.txt",
+    "transcriptJsonPath": "transcripts/twitter-with-dick-costolo.json",
+    "overview": [
+      "Twitter's Dick Costolo explains how an unreliable, unmonetized SMS-style network became a public advertising company. Fixed data deals with Google and Microsoft create the first revenue, but distributed consumption demands a scalable unit that travels anywhere tweets do. Promoted tweets and cost-per-engagement pioneer the feed ad, Adam Bain builds the sales machine, Google veterans construct the auction infrastructure, and painful backend refactoring supports growth from zero revenue to a $2 billion run rate in roughly six years.",
+      "The larger story is a fight against Facebook's scale. Twitter nearly buys Instagram, acquires Vine and Periscope before launch, and explores syndication where Facebook cannot compete, yet Facebook neutralizes those beachheads. Twitter's interest graph is difficult to build, making it resilient but hard for new users to understand and less targetable than Facebook's demographic graph. Costolo's retrospective is equally about governance: own the experience, communicate hard choices directly, prioritize leverage, and moderate harmful behavior before edge cases become excuses."
+    ],
+    "takeaways": [
+      {
+        "title": "Constraints can invent the business model",
+        "detail": "Twitter content appeared on its site, third-party clients, SMS, and publishers, so conventional display ads could not follow it. Making the advertisement itself a tweet created a native unit that traveled with the product and used familiar replies, likes, opens, and retweets for pricing."
+      },
+      {
+        "title": "Own experience before monetizing distribution",
+        "detail": "Twitter paid to operate, secure, support, and clean the network while independent clients captured users and could add their own ads. Acquiring clients and restricting the API were economically necessary, though Costolo believes evasive communication made the transition needlessly antagonistic."
+      },
+      {
+        "title": "Network structure creates asymmetric tradeoffs",
+        "detail": "Facebook can bootstrap a friend graph from phone or email contacts, while Twitter must teach each user whom they uniquely find interesting. That makes acquisition and activation harder, but the resulting interest graph is difficult for competitors to reconstruct and therefore unusually resilient."
+      },
+      {
+        "title": "Distribution scale crushes adjacent products",
+        "detail": "Vine and Periscope were insightful pre-launch acquisitions, yet Instagram video and Facebook Live could immediately reach enormous installed networks. A superior emerging format is not enough when an incumbent can copy it, bundle it cross-platform, and amplify it to hundreds of millions of users."
+      },
+      {
+        "title": "Leadership requires decisive boundary setting",
+        "detail": "Costolo regrets tiptoeing with developers and allowing abstract slippery-slope arguments to delay action against threats and abuse. Leaders must hear objections, define what the company will protect, act on obvious cases, and accept anger rather than hide necessary choices behind ambiguity."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Twitter's social importance outruns its economics",
+        "summary": "Twitter becomes society's real-time heartbeat yet remains far smaller than Facebook in users and revenue. Costolo frames a pivotal counterfactual: the company that commercialized tweets might also have owned Instagram and a much stronger mobile future.",
+        "quote": "it could have been Twitter that ended up owning Instagram",
+        "timestamp": "0:53"
+      },
+      {
+        "title": "Data deals buy time for scalable revenue",
+        "summary": "Within weeks of joining as COO, Costolo closes Twitter's first revenue agreements with Google and Microsoft. Because those contracts are fixed and temporary, the company immediately begins building an advertising model that can compound with usage.",
+        "quote": "we needed a more scalable strategy",
+        "timestamp": "16:33"
+      },
+      {
+        "title": "The tweet becomes the native advertisement",
+        "summary": "Tweets travel across Twitter, apps, SMS, and publisher sites, leaving no universal sidebar. Twitter makes ads into tweets and charges for observable engagement, pioneering the in-feed format later adopted throughout social media.",
+        "quote": "the one thing that can go anywhere",
+        "timestamp": "16:59"
+      },
+      {
+        "title": "An unconventional hire builds the sales engine",
+        "summary": "Costolo spends months recruiting Fox Interactive's Adam Bain despite a board inclined toward Google talent. Bain assembles a go-to-market organization that helps Twitter exceed $100 million in early ad revenue and grow toward a $2 billion run rate.",
+        "quote": "I got the perfect person",
+        "timestamp": "21:49"
+      },
+      {
+        "title": "Infrastructure debt blocks visible product progress",
+        "summary": "Google veterans supply auction and yield expertise, while engineers migrate Twitter from a fragile Ruby monolith toward services. The fail whale damages recruiting, and entire periods permit no new product work because reliability must be rebuilt underneath growth.",
+        "quote": "we couldn't do any new product work",
+        "timestamp": "27:52"
+      },
+      {
+        "title": "Advertising forces control of the user experience",
+        "summary": "Third-party clients consume Twitter's cleaned feed while owning users and potential monetization. Twitter acquires clients and redirects developers toward building into Twitter, reasoning that a company cannot fund the network while others capture its economics.",
+        "quote": "we had to own the user experience",
+        "timestamp": "31:39"
+      },
+      {
+        "title": "Instagram slips through Twitter's grasp",
+        "summary": "Twitter offers roughly $600 million and more than 10% of its company for the 30-million-user Instagram, viewing photos as its needed answer to Facebook. Instagram raises independently, then sells to Facebook, which removes embedded photos and exploits its graph advantage.",
+        "quote": "this will really give us a beachhead",
+        "timestamp": "36:56"
+      },
+      {
+        "title": "Vine proves insight cannot outrun scale",
+        "summary": "Twitter buys Vine before launch, and its looping short videos lead the iOS App Store for weeks. A late Android client gives Instagram's cross-platform video response room to take usage, demonstrating the incumbent's ability to distribute a copied format instantly.",
+        "quote": "Usage just started dropping off",
+        "timestamp": "44:23"
+      },
+      {
+        "title": "Syndication offers uncontested strategic terrain",
+        "summary": "Unlike Facebook, Twitter content already appears across the web. Costolo envisions Moments packaging live events into distributable bundles that could eventually carry ads, while Periscope attacks live video; neither receives enough protection from Facebook's counterattack.",
+        "quote": "Twitter's advantage or opportunity for a beachhead",
+        "timestamp": "47:08"
+      },
+      {
+        "title": "Public valuation separates from operating reality",
+        "summary": "Twitter prices at $26 after filing a $13–$16 range, opens far higher, and soon reaches $75. Costolo warns employees that daily stock movement does not measure their work, while investors nevertheless judge the company primarily by Facebook-like monthly-user growth.",
+        "quote": "you didn't do anything today",
+        "timestamp": "55:12"
+      },
+      {
+        "title": "A resilient graph remains difficult to activate",
+        "summary": "Twitter's interests cannot be imported from a contact list, making onboarding a slog but preventing rivals from quickly recreating its relationships. Facebook's demographic knowledge supports superior targeting, while Twitter knows what users care about without necessarily knowing who they are.",
+        "quote": "there is no starter kit for your graph",
+        "timestamp": "1:01:14"
+      },
+      {
+        "title": "Ambiguity weakens developer and safety decisions",
+        "summary": "Costolo regrets soft-pedaling API restrictions instead of plainly saying Twitter must own its experience. He also gives his tenure a C on abuse, arguing that platforms already moderate content and should address obvious harm before hypothetical edge cases become paralysis.",
+        "quote": "communicating by trying to not upset people is stupid",
+        "timestamp": "1:14:04"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Twitter's social importance outruns its economics",
+        "summary": "Twitter becomes society's real-time heartbeat yet remains far smaller than Facebook in users and revenue. Costolo frames a pivotal counterfactual: the company that commercialized tweets might also have owned Instagram and a much stronger mobile future.",
+        "quote": "it could have been Twitter that ended up owning Instagram",
+        "timestamp": "0:53"
+      },
+      {
+        "title": "Data deals buy time for scalable revenue",
+        "summary": "Within weeks of joining as COO, Costolo closes Twitter's first revenue agreements with Google and Microsoft. Because those contracts are fixed and temporary, the company immediately begins building an advertising model that can compound with usage.",
+        "quote": "we needed a more scalable strategy",
+        "timestamp": "16:33"
+      },
+      {
+        "title": "The tweet becomes the native advertisement",
+        "summary": "Tweets travel across Twitter, apps, SMS, and publisher sites, leaving no universal sidebar. Twitter makes ads into tweets and charges for observable engagement, pioneering the in-feed format later adopted throughout social media.",
+        "quote": "the one thing that can go anywhere",
+        "timestamp": "16:59"
+      },
+      {
+        "title": "An unconventional hire builds the sales engine",
+        "summary": "Costolo spends months recruiting Fox Interactive's Adam Bain despite a board inclined toward Google talent. Bain assembles a go-to-market organization that helps Twitter exceed $100 million in early ad revenue and grow toward a $2 billion run rate.",
+        "quote": "I got the perfect person",
+        "timestamp": "21:49"
+      },
+      {
+        "title": "Infrastructure debt blocks visible product progress",
+        "summary": "Google veterans supply auction and yield expertise, while engineers migrate Twitter from a fragile Ruby monolith toward services. The fail whale damages recruiting, and entire periods permit no new product work because reliability must be rebuilt underneath growth.",
+        "quote": "we couldn't do any new product work",
+        "timestamp": "27:52"
+      },
+      {
+        "title": "Advertising forces control of the user experience",
+        "summary": "Third-party clients consume Twitter's cleaned feed while owning users and potential monetization. Twitter acquires clients and redirects developers toward building into Twitter, reasoning that a company cannot fund the network while others capture its economics.",
+        "quote": "we had to own the user experience",
+        "timestamp": "31:39"
+      },
+      {
+        "title": "Instagram slips through Twitter's grasp",
+        "summary": "Twitter offers roughly $600 million and more than 10% of its company for the 30-million-user Instagram, viewing photos as its needed answer to Facebook. Instagram raises independently, then sells to Facebook, which removes embedded photos and exploits its graph advantage.",
+        "quote": "this will really give us a beachhead",
+        "timestamp": "36:56"
+      },
+      {
+        "title": "Vine proves insight cannot outrun scale",
+        "summary": "Twitter buys Vine before launch, and its looping short videos lead the iOS App Store for weeks. A late Android client gives Instagram's cross-platform video response room to take usage, demonstrating the incumbent's ability to distribute a copied format instantly.",
+        "quote": "Usage just started dropping off",
+        "timestamp": "44:23"
+      },
+      {
+        "title": "Syndication offers uncontested strategic terrain",
+        "summary": "Unlike Facebook, Twitter content already appears across the web. Costolo envisions Moments packaging live events into distributable bundles that could eventually carry ads, while Periscope attacks live video; neither receives enough protection from Facebook's counterattack.",
+        "quote": "Twitter's advantage or opportunity for a beachhead",
+        "timestamp": "47:08"
+      },
+      {
+        "title": "Public valuation separates from operating reality",
+        "summary": "Twitter prices at $26 after filing a $13–$16 range, opens far higher, and soon reaches $75. Costolo warns employees that daily stock movement does not measure their work, while investors nevertheless judge the company primarily by Facebook-like monthly-user growth.",
+        "quote": "you didn't do anything today",
+        "timestamp": "55:12"
+      },
+      {
+        "title": "A resilient graph remains difficult to activate",
+        "summary": "Twitter's interests cannot be imported from a contact list, making onboarding a slog but preventing rivals from quickly recreating its relationships. Facebook's demographic knowledge supports superior targeting, while Twitter knows what users care about without necessarily knowing who they are.",
+        "quote": "there is no starter kit for your graph",
+        "timestamp": "1:01:14"
+      },
+      {
+        "title": "Ambiguity weakens developer and safety decisions",
+        "summary": "Costolo regrets soft-pedaling API restrictions instead of plainly saying Twitter must own its experience. He also gives his tenure a C on abuse, arguing that platforms already moderate content and should address obvious harm before hypothetical edge cases become paralysis.",
+        "quote": "communicating by trying to not upset people is stupid",
+        "timestamp": "1:14:04"
+      }
+    ]
+  },
+  {
+    "slug": "special-invest-like-the-best-on-acquired",
+    "guid": "eb0d094e-84a2-4446-8fa3-73bf53ecd81d",
+    "title": "Special: Invest Like the Best on Acquired",
+    "pubDate": "Tue, 06 Oct 2020 19:49:25 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/f8ae3745/0d334546.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/special-invest-like-the-best-on-acquired",
+    "duration": 6598,
+    "episodeUrl": "/poddy-summaries/episodes/special-invest-like-the-best-on-acquired/",
+    "summaryPath": "summaries/special-invest-like-the-best-on-acquired.json",
+    "transcriptPath": "transcripts/special-invest-like-the-best-on-acquired.txt",
+    "transcriptJsonPath": "transcripts/special-invest-like-the-best-on-acquired.json",
+    "overview": [
+      "Patrick O'Shaughnessy connects three businesses through one operating philosophy: disciplined quantitative investing, software-enabled portfolio customization, and learning in public. His father's microfiche research converts simple stock attributes into repeatable rules and builds an asset manager around open research. After spinning the firm out of Bear Stearns just before the financial crisis, Patrick learns the business through client pressure, eventually recognizes his own research ceiling, and uses conversations with exceptional investors and builders to find new ways to contribute.",
+      "Those conversations inspire Canvas, which exposes a decade of internal quantitative infrastructure through software so advisors can design tax-aware, client-specific portfolios while OSAM executes them. Invest Like the Best begins as a seven-episode experiment, finds a deep niche immediately, and becomes an unplanned brand and knowledge flywheel because curiosity remains separate from direct-response marketing. O'Shaughnessy's strategy emphasizes high-quality low-variance output, patient compounding, counter-positioning, near-term boss battles, and habits over brittle long-range goals."
+    ],
+    "takeaways": [
+      {
+        "title": "Data quality outranks modeling complexity",
+        "detail": "The firm's earliest edge comes from manually collecting long-run market history that few competitors possessed, then applying transparent rules. Differentiated, cleaned, normalized information plus discipline can outperform elaborate models built on widely available inputs."
+      },
+      {
+        "title": "Internal infrastructure can become the product",
+        "detail": "OSAM spends a decade replacing vendors with software for research, portfolio construction, trading, and reporting. Canvas gives advisors a front end to those same capabilities, resembling AWS's conversion of internal operating machinery into a customer platform."
+      },
+      {
+        "title": "Customization preserves the advisor relationship",
+        "detail": "Canvas does not sell a fixed fund or bypass advisors; it lets them encode each client's taxes, exclusions, existing exposures, risk, and desired factor tilts. OSAM handles implementation while advisors remain the trusted interface for wealth, estate, and life context."
+      },
+      {
+        "title": "Authentic learning compounds into distribution",
+        "detail": "Invest Like the Best was not designed to capture assets, and O'Shaughnessy avoids programming it around sales. Consistent niche quality attracts sophisticated listeners, who improve access to stronger guests, who create better episodes and further strengthen trust."
+      },
+      {
+        "title": "Habits outperform distant outcome goals",
+        "detail": "O'Shaughnessy declines to predict an ideal ten-year state because imagined endpoints can distort present decisions. He uses principles, repeatable habits, and the next concrete 'boss battle' to maintain direction while leaving room for unexpected opportunities such as the podcast and Canvas."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Open research precedes the asset manager",
+        "summary": "O'Shaughnessy Capital begins as a research firm in 1987 before managing assets. The enduring pattern is to publish ideas, test investment rules openly, and let valuable research create the commercial institution around it.",
+        "quote": "the combination of open research and open ideas",
+        "timestamp": "4:46"
+      },
+      {
+        "title": "Simple rules expose a neglected empirical edge",
+        "summary": "James O'Shaughnessy reconstructs Dow history from microfiche and tests a disciplined high-dividend strategy. The result suggests that collecting differentiated data and following explicit rules matter more than sophisticated-sounding theory.",
+        "quote": "shockingly simple",
+        "timestamp": "6:53"
+      },
+      {
+        "title": "Technology arrives before its market is ready",
+        "summary": "The late-1990s Netfolio project resembles a robo-advisor with active quantitative strategies and planned customization. Heavy consumer funding and premature timing prevent the vision from maturing, but technology and customization return later in Canvas.",
+        "quote": "inevitable, but just ultimately too early",
+        "timestamp": "11:04"
+      },
+      {
+        "title": "A crisis-era spinout becomes Patrick's apprenticeship",
+        "summary": "OSAM separates from Bear Stearns in July 2007 with dual employees preserving investment track records and thousands of accounts transferring. Fresh from college, Patrick learns operations and client service while establishing a sizable business as a new entity.",
+        "quote": "treat it like a brand new business",
+        "timestamp": "12:52"
+      },
+      {
+        "title": "Canvas turns internal tools into advisor infrastructure",
+        "summary": "After reaching his limits as a quantitative researcher, Patrick studies software businesses and recognizes an AWS-like opportunity. Canvas wraps OSAM's decade-built stack in a web portal for portfolio design, trading, implementation, and reporting.",
+        "quote": "our internal tools as a service",
+        "timestamp": "34:35"
+      },
+      {
+        "title": "Personal constraints replace menu-based products",
+        "summary": "Advisors specify each investor's tax needs, exclusions, concentrated exposure, desired risks, and stock preferences rather than choose fund A, B, or C. OSAM deliberately serves the advisor instead of competing for the end-client relationship.",
+        "quote": "design exactly the strategy that you want",
+        "timestamp": "38:08"
+      },
+      {
+        "title": "Seven episodes establish a lifelong habit",
+        "summary": "Invest Like the Best starts in 2016 as an audio companion to a friend's book. O'Shaughnessy commits to seven conversations, outsources editing immediately, finds product-market fit by episode two, and discovers a durable personal learning engine.",
+        "quote": "I'm going to do this the rest of my life",
+        "timestamp": "43:40"
+      },
+      {
+        "title": "Curiosity protects media from sales pressure",
+        "summary": "The podcast becomes a major brand asset without being designed to attract OSAM capital or Canvas customers. O'Shaughnessy argues that listeners detect instrumental marketing, so editorial choices must remain driven by genuine interest and a high quality floor.",
+        "quote": "the second people smell sales",
+        "timestamp": "48:00"
+      },
+      {
+        "title": "Trust, guests, and audience form a flywheel",
+        "summary": "Consistent high-quality episodes attract knowledgeable listeners who benefit guests, making future exceptional guests easier to recruit. Time and low-variance output become a brand barrier that a new show cannot reproduce through spending alone.",
+        "quote": "it's all compounding",
+        "timestamp": "1:06:05"
+      },
+      {
+        "title": "Counter-positioning protects the software strategy",
+        "summary": "Canvas needs sophisticated quantitative research and compute, but the firms most capable of copying it earn richer margins from proprietary hedge funds. OSAM accepts lower platform economics and pairs outside research partnerships with its public-learning brand.",
+        "quote": "very counter-positioned with Canvas",
+        "timestamp": "1:13:55"
+      },
+      {
+        "title": "Portable ideas become the media product",
+        "summary": "Guests supply operating heuristics: mature enterprise software with a few customers, use open source for distribution, hire in uncompetitive markets, personalize commerce, and extrapolate technology's directional arrows to their endpoints. Curation makes those lessons navigable.",
+        "quote": "trying to extract these ideas",
+        "timestamp": "1:25:49"
+      },
+      {
+        "title": "Boss battles replace ten-year forecasts",
+        "summary": "Canvas receives a tentative B+ because it can benefit from disruption but remains execution-dependent. O'Shaughnessy favors strong habits, public learning, customization, and the next immediate challenge over fixed long-term goals that could pull the organization off course.",
+        "quote": "growth without goals",
+        "timestamp": "1:35:20"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Open research precedes the asset manager",
+        "summary": "O'Shaughnessy Capital begins as a research firm in 1987 before managing assets. The enduring pattern is to publish ideas, test investment rules openly, and let valuable research create the commercial institution around it.",
+        "quote": "the combination of open research and open ideas",
+        "timestamp": "4:46"
+      },
+      {
+        "title": "Simple rules expose a neglected empirical edge",
+        "summary": "James O'Shaughnessy reconstructs Dow history from microfiche and tests a disciplined high-dividend strategy. The result suggests that collecting differentiated data and following explicit rules matter more than sophisticated-sounding theory.",
+        "quote": "shockingly simple",
+        "timestamp": "6:53"
+      },
+      {
+        "title": "Technology arrives before its market is ready",
+        "summary": "The late-1990s Netfolio project resembles a robo-advisor with active quantitative strategies and planned customization. Heavy consumer funding and premature timing prevent the vision from maturing, but technology and customization return later in Canvas.",
+        "quote": "inevitable, but just ultimately too early",
+        "timestamp": "11:04"
+      },
+      {
+        "title": "A crisis-era spinout becomes Patrick's apprenticeship",
+        "summary": "OSAM separates from Bear Stearns in July 2007 with dual employees preserving investment track records and thousands of accounts transferring. Fresh from college, Patrick learns operations and client service while establishing a sizable business as a new entity.",
+        "quote": "treat it like a brand new business",
+        "timestamp": "12:52"
+      },
+      {
+        "title": "Canvas turns internal tools into advisor infrastructure",
+        "summary": "After reaching his limits as a quantitative researcher, Patrick studies software businesses and recognizes an AWS-like opportunity. Canvas wraps OSAM's decade-built stack in a web portal for portfolio design, trading, implementation, and reporting.",
+        "quote": "our internal tools as a service",
+        "timestamp": "34:35"
+      },
+      {
+        "title": "Personal constraints replace menu-based products",
+        "summary": "Advisors specify each investor's tax needs, exclusions, concentrated exposure, desired risks, and stock preferences rather than choose fund A, B, or C. OSAM deliberately serves the advisor instead of competing for the end-client relationship.",
+        "quote": "design exactly the strategy that you want",
+        "timestamp": "38:08"
+      },
+      {
+        "title": "Seven episodes establish a lifelong habit",
+        "summary": "Invest Like the Best starts in 2016 as an audio companion to a friend's book. O'Shaughnessy commits to seven conversations, outsources editing immediately, finds product-market fit by episode two, and discovers a durable personal learning engine.",
+        "quote": "I'm going to do this the rest of my life",
+        "timestamp": "43:40"
+      },
+      {
+        "title": "Curiosity protects media from sales pressure",
+        "summary": "The podcast becomes a major brand asset without being designed to attract OSAM capital or Canvas customers. O'Shaughnessy argues that listeners detect instrumental marketing, so editorial choices must remain driven by genuine interest and a high quality floor.",
+        "quote": "the second people smell sales",
+        "timestamp": "48:00"
+      },
+      {
+        "title": "Trust, guests, and audience form a flywheel",
+        "summary": "Consistent high-quality episodes attract knowledgeable listeners who benefit guests, making future exceptional guests easier to recruit. Time and low-variance output become a brand barrier that a new show cannot reproduce through spending alone.",
+        "quote": "it's all compounding",
+        "timestamp": "1:06:05"
+      },
+      {
+        "title": "Counter-positioning protects the software strategy",
+        "summary": "Canvas needs sophisticated quantitative research and compute, but the firms most capable of copying it earn richer margins from proprietary hedge funds. OSAM accepts lower platform economics and pairs outside research partnerships with its public-learning brand.",
+        "quote": "very counter-positioned with Canvas",
+        "timestamp": "1:13:55"
+      },
+      {
+        "title": "Portable ideas become the media product",
+        "summary": "Guests supply operating heuristics: mature enterprise software with a few customers, use open source for distribution, hire in uncompetitive markets, personalize commerce, and extrapolate technology's directional arrows to their endpoints. Curation makes those lessons navigable.",
+        "quote": "trying to extract these ideas",
+        "timestamp": "1:25:49"
+      },
+      {
+        "title": "Boss battles replace ten-year forecasts",
+        "summary": "Canvas receives a tentative B+ because it can benefit from disruption but remains execution-dependent. O'Shaughnessy favors strong habits, public learning, customization, and the next immediate challenge over fixed long-term goals that could pull the organization off course.",
+        "quote": "growth without goals",
+        "timestamp": "1:35:20"
+      }
+    ]
+  },
+  {
+    "slug": "the-nba",
+    "guid": "9737acd9-4f9b-488c-aba6-39d0bed28406",
+    "title": "The NBA",
+    "pubDate": "Wed, 30 Sep 2020 16:38:31 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/741a0c8f/c43df40b.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/the-nba",
+    "duration": 10071,
+    "episodeUrl": "/poddy-summaries/episodes/the-nba/",
+    "summaryPath": "summaries/the-nba.json",
+    "transcriptPath": "transcripts/the-nba.txt",
+    "transcriptJsonPath": "transcripts/the-nba.json",
+    "overview": [
+      "The NBA grows from an arena-filling side business into the world's second-most-popular sport by combining accessible gameplay, global distribution, television craft, labor partnership, and personality-driven entertainment. YMCAs carry James Naismith's invention to China before 1900; hockey-arena owners form the BAA in 1946; Black superstars modernize the league; and the rival ABA forces free agency plus innovations including the three-point line and dunk contest. Competition improves both the game and the players' economic power.",
+      "David Stern builds the modern flywheel: share roughly half of basketball revenue with players, restore competitive parity, sell larger media packages, make athletes the stars, and internationalize talent and fandom through the Dream Team, global offices, and the WNBA. Jordan proves an athlete can become an enduring media and consumer brand, while social platforms amplify later generations. The resulting $8.8 billion league has enormous growth runway, but player expression and expansion in China create a fundamental strategic collision."
+    ],
+    "takeaways": [
+      {
+        "title": "Distribution made basketball global first",
+        "detail": "Low equipment needs, limited contact, indoor play, and suitability for both sexes gave basketball strong product-market fit. YMCA missionaries then carried it internationally decades before a professional league existed, creating latent audiences the NBA could monetize much later."
+      },
+      {
+        "title": "Competition forced the best innovations",
+        "detail": "The ABA entered overlooked cities, recruited younger players, accelerated the game, introduced the three-point line, and created the slam dunk contest. Its pressure raised player salaries and helped secure free agency before four teams and its entertainment ideas joined the NBA."
+      },
+      {
+        "title": "Shared economics strengthen the whole league",
+        "detail": "Players receive roughly half of basketball-related income, while salary caps, luxury taxes, and team revenue sharing preserve enough parity for small markets to compete. Owners and labor can fight over allocation, but both benefit when compelling competition expands the common revenue pool."
+      },
+      {
+        "title": "Athletes are the distribution network",
+        "detail": "Stern and later Silver let stars retain personalities and build individual followings rather than subordinate every voice to team brands. Jordan, Magic, LeBron, and others carry the NBA into shoes, fashion, film, investing, and social media, continuously recruiting younger fans."
+      },
+      {
+        "title": "Global reach creates geopolitical dependence",
+        "detail": "China supplies hundreds of millions of fans, streaming revenue, and future talent, but rejects the open expression central to the NBA's player-led model. Daryl Morey's Hong Kong tweet reportedly cost about $400 million and exposed how one growth engine can directly contradict another."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "An underdog league reaches a global inflection",
+        "summary": "The NBA starts decades after baseball and football yet becomes the world's second-most-popular sport. Average franchise values rise sixfold in ten years as the league enters the COVID bubble and prepares to monetize a far larger international audience.",
+        "quote": "the second most popular sport in the world",
+        "timestamp": "0:30"
+      },
+      {
+        "title": "YMCA distribution outruns professional organization",
+        "summary": "Naismith invents a safe indoor winter game in 1891, and YMCA networks carry it through North America and into China before 1900. Women adopt it immediately, while professional leagues fail to take hold for another half-century.",
+        "quote": "distribution is the reason",
+        "timestamp": "9:50"
+      },
+      {
+        "title": "Empty hockey arenas create the BAA",
+        "summary": "Arena owners found the Basketball Association of America in 1946 to fill non-hockey nights. A 1949 merger with the NBL produces the NBA, while the shot clock later prevents leading teams from simply holding the ball.",
+        "quote": "wanted to make more money from their arenas",
+        "timestamp": "16:23"
+      },
+      {
+        "title": "Television and players begin shifting power",
+        "summary": "Bill Russell becomes the league's first Black modern superstar, and ABC producer Roone Arledge uses replay and close coverage to reveal basketball's grace and intensity. Players threaten the 1964 All-Star Game, winning a pension and establishing organized labor's leverage.",
+        "quote": "the cameras readily caught their pride",
+        "timestamp": "30:13"
+      },
+      {
+        "title": "The ABA counter-positions against a slow incumbent",
+        "summary": "The ABA enters cities the NBA neglected and openly seeks an eventual buyout. It recruits underclassmen, signs Dr. J, introduces the three-point line and dunk contest, and turns faster, skill-driven basketball into television spectacle.",
+        "quote": "force them to buy us and merge",
+        "timestamp": "38:13"
+      },
+      {
+        "title": "Merger litigation delivers player free agency",
+        "summary": "NBA players block the proposed merger because two leagues create a competitive labor market. The five-year antitrust fight ends in 1976 after the NBA abolishes the reserve clause, allowing contracts to expire into real free agency.",
+        "quote": "they sue to block the merger",
+        "timestamp": "47:15"
+      },
+      {
+        "title": "Stern aligns labor, parity, and media growth",
+        "summary": "A 1983 collective bargaining agreement gives players 53% of gross revenue and restores a salary cap. After becoming commissioner, Stern turns roughly $20 million of annual national broadcast rights into deals worth more than $200 million yearly within five years.",
+        "quote": "massively up levels the business",
+        "timestamp": "1:03:23"
+      },
+      {
+        "title": "The Dream Team globalizes the NBA product",
+        "summary": "Stern lobbies to let professionals enter Olympic basketball, making the 1992 Dream Team a worldwide showcase. The NBA opens offices across 14 countries for talent development and sales, then launches the WNBA after the 1996 Olympics.",
+        "quote": "there's a big opportunity for the NBA to go global",
+        "timestamp": "1:11:24"
+      },
+      {
+        "title": "Jordan becomes an enduring consumer platform",
+        "summary": "Drafted in Stern's first year, Michael Jordan signs with Nike despite preferring Adidas. His reported personal earnings from the partnership exceed $1.5 billion, while Jordan Brand still generates more than $3 billion annually decades later.",
+        "quote": "35 years after they signed the deal",
+        "timestamp": "1:15:26"
+      },
+      {
+        "title": "China collides with the freedom strategy",
+        "summary": "Daryl Morey's support for Hong Kong triggers canceled broadcasts, postponed games, and an estimated $400 million revenue loss. Silver ultimately refuses to regulate participant speech, revealing direct conflict between global expansion and individual expression.",
+        "quote": "their two strategies are directly at odds",
+        "timestamp": "1:53:12"
+      },
+      {
+        "title": "Shared revenue converts attention into franchise value",
+        "summary": "About $5 billion of $8.8 billion in league revenue comes from national and local television, with merchandising, tickets, and China adding major pillars. Half flows to players and teams redistribute substantial income, preserving parity while global media monetization remains underdeveloped.",
+        "quote": "every team pays into the league pool",
+        "timestamp": "2:01:39"
+      },
+      {
+        "title": "Youth and scale define the upside",
+        "summary": "Player influence, internationalization, technology, and young fans explain the decade's sixfold franchise appreciation. Scale blocks domestic upstarts, but a strengthened Chinese league could capture global attention if political conflict prevents the NBA from serving its largest future audience.",
+        "quote": "What seeds did they plant",
+        "timestamp": "2:23:02"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "An underdog league reaches a global inflection",
+        "summary": "The NBA starts decades after baseball and football yet becomes the world's second-most-popular sport. Average franchise values rise sixfold in ten years as the league enters the COVID bubble and prepares to monetize a far larger international audience.",
+        "quote": "the second most popular sport in the world",
+        "timestamp": "0:30"
+      },
+      {
+        "title": "YMCA distribution outruns professional organization",
+        "summary": "Naismith invents a safe indoor winter game in 1891, and YMCA networks carry it through North America and into China before 1900. Women adopt it immediately, while professional leagues fail to take hold for another half-century.",
+        "quote": "distribution is the reason",
+        "timestamp": "9:50"
+      },
+      {
+        "title": "Empty hockey arenas create the BAA",
+        "summary": "Arena owners found the Basketball Association of America in 1946 to fill non-hockey nights. A 1949 merger with the NBL produces the NBA, while the shot clock later prevents leading teams from simply holding the ball.",
+        "quote": "wanted to make more money from their arenas",
+        "timestamp": "16:23"
+      },
+      {
+        "title": "Television and players begin shifting power",
+        "summary": "Bill Russell becomes the league's first Black modern superstar, and ABC producer Roone Arledge uses replay and close coverage to reveal basketball's grace and intensity. Players threaten the 1964 All-Star Game, winning a pension and establishing organized labor's leverage.",
+        "quote": "the cameras readily caught their pride",
+        "timestamp": "30:13"
+      },
+      {
+        "title": "The ABA counter-positions against a slow incumbent",
+        "summary": "The ABA enters cities the NBA neglected and openly seeks an eventual buyout. It recruits underclassmen, signs Dr. J, introduces the three-point line and dunk contest, and turns faster, skill-driven basketball into television spectacle.",
+        "quote": "force them to buy us and merge",
+        "timestamp": "38:13"
+      },
+      {
+        "title": "Merger litigation delivers player free agency",
+        "summary": "NBA players block the proposed merger because two leagues create a competitive labor market. The five-year antitrust fight ends in 1976 after the NBA abolishes the reserve clause, allowing contracts to expire into real free agency.",
+        "quote": "they sue to block the merger",
+        "timestamp": "47:15"
+      },
+      {
+        "title": "Stern aligns labor, parity, and media growth",
+        "summary": "A 1983 collective bargaining agreement gives players 53% of gross revenue and restores a salary cap. After becoming commissioner, Stern turns roughly $20 million of annual national broadcast rights into deals worth more than $200 million yearly within five years.",
+        "quote": "massively up levels the business",
+        "timestamp": "1:03:23"
+      },
+      {
+        "title": "The Dream Team globalizes the NBA product",
+        "summary": "Stern lobbies to let professionals enter Olympic basketball, making the 1992 Dream Team a worldwide showcase. The NBA opens offices across 14 countries for talent development and sales, then launches the WNBA after the 1996 Olympics.",
+        "quote": "there's a big opportunity for the NBA to go global",
+        "timestamp": "1:11:24"
+      },
+      {
+        "title": "Jordan becomes an enduring consumer platform",
+        "summary": "Drafted in Stern's first year, Michael Jordan signs with Nike despite preferring Adidas. His reported personal earnings from the partnership exceed $1.5 billion, while Jordan Brand still generates more than $3 billion annually decades later.",
+        "quote": "35 years after they signed the deal",
+        "timestamp": "1:15:26"
+      },
+      {
+        "title": "China collides with the freedom strategy",
+        "summary": "Daryl Morey's support for Hong Kong triggers canceled broadcasts, postponed games, and an estimated $400 million revenue loss. Silver ultimately refuses to regulate participant speech, revealing direct conflict between global expansion and individual expression.",
+        "quote": "their two strategies are directly at odds",
+        "timestamp": "1:53:12"
+      },
+      {
+        "title": "Shared revenue converts attention into franchise value",
+        "summary": "About $5 billion of $8.8 billion in league revenue comes from national and local television, with merchandising, tickets, and China adding major pillars. Half flows to players and teams redistribute substantial income, preserving parity while global media monetization remains underdeveloped.",
+        "quote": "every team pays into the league pool",
+        "timestamp": "2:01:39"
+      },
+      {
+        "title": "Youth and scale define the upside",
+        "summary": "Player influence, internationalization, technology, and young fans explain the decade's sixfold franchise appreciation. Scale blocks domestic upstarts, but a strengthened Chinese league could capture global attention if political conflict prevents the NBA from serving its largest future audience.",
+        "quote": "What seeds did they plant",
+        "timestamp": "2:23:02"
+      }
+    ]
+  },
+  {
+    "slug": "special-acquired-x-my-first-million",
+    "guid": "5180c82e-a792-4e3c-87d6-e28994064250",
+    "title": "Special: Acquired x My First Million",
+    "pubDate": "Wed, 09 Sep 2020 09:01:59 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/4570d352/d3d47ee9.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/special-acquired-x-my-first-million",
+    "duration": 5759,
+    "episodeUrl": "/poddy-summaries/episodes/special-acquired-x-my-first-million/",
+    "summaryPath": "summaries/special-acquired-x-my-first-million.json",
+    "transcriptPath": "transcripts/special-acquired-x-my-first-million.txt",
+    "transcriptJsonPath": "transcripts/special-acquired-x-my-first-million.json",
+    "overview": [
+      "Shaan Puri's Bebo story shows how to recover value after a celebrated internet brand has already failed. Michael and Xochi Birch sell Bebo to AOL for $850 million, repurchase its bankrupt remnants for $1 million, and discover that the famous domain and 80-million-address email list matter less than expected. The team preserves SEO cheaply, uses self-aware nostalgia to attract one million fresh signups, tests multiple products sequentially, and turns live-streaming infrastructure into a high-school esports platform sold to Twitch.",
+      "The second half applies My First Million's opportunity-finding style. The hosts distinguish venture moonshots from cash-flow entrepreneurship, map founder personalities needed at successive stages, and brainstorm workation Wi-Fi data, a SPAC index, climate infrastructure, crypto services, solar financing, and small-business acquisition. The recurring method is to identify a newly acute need, start with a narrow wedge, exploit underused distribution or financing, and match one's existing skill—engineering, audience, growth, or operations—to a business where it creates asymmetric improvement."
+    ],
+    "takeaways": [
+      {
+        "title": "Distressed brands are option portfolios",
+        "detail": "Bebo's recognizable name, domain, search rankings, user data, code, and litigation rights each had different value and decay rates. The legal claim unexpectedly outperformed the email list, demonstrating why buyers should underwrite assets separately rather than rely on headline nostalgia."
+      },
+      {
+        "title": "Preserve attention while delaying the product bet",
+        "detail": "The team freezes profile pages to retain search traffic and launches a humorous founder-return video before knowing what Bebo will become. That creates one million permissioned new signups, which can be segmented into controlled product tests without maintaining the costly legacy network."
+      },
+      {
+        "title": "Usage intensity does not guarantee growth",
+        "detail": "Blab's casual users stayed for hours but came to make new friends, so they did not invite existing ones; celebrity broadcasters attracted audiences but appeared only weekly. Neither cohort supplied both habit and acquisition, making impressive engagement insufficient for a sustainable network."
+      },
+      {
+        "title": "Selling requires buyer discovery",
+        "detail": "Puri interviews potential acquirers about their top strategic priorities, then removes everything from Bebo's story except the relevant solution. Twitch needs scalable original esports content, an experienced leader, engineers, code, and accumulated learning immediately—assets that cannot simply be recruited one by one."
+      },
+      {
+        "title": "Buy where your skill changes outcomes",
+        "detail": "Profitable small businesses can use SBA and seller financing, avoiding the market-risk lottery of a new startup. A buyer with a proven acquisition channel, product expansion ability, or operational expertise can identify neglected assets and create value through concrete improvements rather than multiple expansion alone."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "A social-network winner becomes distressed inventory",
+        "summary": "Bebo grows larger than Google in markets such as Ireland before Michael and Xochi Birch recognize Facebook will win and sell to AOL for $850 million. AOL later writes it down, and the brand passes through private equity into bankruptcy.",
+        "quote": "built a social network called Bebo",
+        "timestamp": "5:35"
+      },
+      {
+        "title": "The founders repurchase an uncertain bundle",
+        "summary": "Puri's startup studio buys Bebo back for $1 million, receiving the brand, domain, surviving data, and an 80-million-address list dominated by stale Hotmail and AOL accounts. A separately purchased litigation right produces the clearer return.",
+        "quote": "sold for 850, bought it back for one",
+        "timestamp": "9:08"
+      },
+      {
+        "title": "Static pages preserve SEO without preserving cost",
+        "summary": "Rather than relaunch a losing social network, the team turns off its infrastructure while freezing indexable user profiles. A young engineer's simple approach cuts operating expense by roughly 100 times without discarding the brand's search footprint.",
+        "quote": "lower the cost by a hundred X",
+        "timestamp": "13:43"
+      },
+      {
+        "title": "Self-aware nostalgia rebuilds permissioned distribution",
+        "summary": "A weekend announcement video mocks Bebo's own history and goes viral. The unusable legacy mailing list matters less than one million people newly choosing to hear about the reboot, giving the team clean demand for experiments.",
+        "quote": "we got a million new people to sign up",
+        "timestamp": "14:46"
+      },
+      {
+        "title": "Sequential experiments protect focus and optionality",
+        "summary": "Small cohorts test an avatar messenger, public video chat, and eventually high-school esports. The studio runs each experiment all-in and closes it before the next, having learned that parallel entrepreneurship divides the attention needed to reach product truth.",
+        "quote": "splitting focus is very, very dangerous",
+        "timestamp": "15:56"
+      },
+      {
+        "title": "Esports creates value for a larger platform",
+        "summary": "Bebo's leagues introduce tens of thousands of teenagers to streaming while friends and families watch. Because most economic value accrues to the hosting platforms, Puri runs a 45-day sale process among Twitch, YouTube, Facebook, and others.",
+        "quote": "all the value is accruing to them",
+        "timestamp": "17:19"
+      },
+      {
+        "title": "Blab finds engagement without a growth loop",
+        "summary": "Blab combines Zoom, Twitch, and call-in radio, attracting ESPN, Tony Robbins, and highly active social rooms. Scheduled broadcasters lack frequency, while all-day users meet friends on-platform and therefore bring no existing graph; the two groups do not coexist.",
+        "quote": "those two groups did not coexist",
+        "timestamp": "18:39"
+      },
+      {
+        "title": "Buyer priorities shape the acquisition narrative",
+        "summary": "Twitch wants controllable original content and needs technology, engineers, and leadership faster than it can build them. Puri conducts buyer discovery, positions Bebo against those exact needs, and creates competition by showing rivals a route to challenge Twitch.",
+        "quote": "finding out what they already want to do",
+        "timestamp": "22:52"
+      },
+      {
+        "title": "Different stages require different founder archetypes",
+        "summary": "The entrepreneur imagines the opportunity, the producer translates it into action, the administrator creates repeatable organization, and the integrator aligns a growing team. Administration and integration matter after product-market fit and rising communication complexity.",
+        "quote": "every company needs these four personalities",
+        "timestamp": "41:40"
+      },
+      {
+        "title": "Remote work creates a Wi-Fi trust wedge",
+        "summary": "A simple database of verified rental speed tests could serve workations better than Airbnb's binary Wi-Fi field. Affiliate revenue, upgraded host equipment, outdoor work sites, or dedicated longer-stay inventory could expand the initial information utility into a marketplace.",
+        "quote": "I need great internet",
+        "timestamp": "47:10"
+      },
+      {
+        "title": "Solar finance can align taxes and infrastructure",
+        "summary": "A marketplace could match investors seeking tax credits and recurring income with schools, farms, and factories that want lower utility bills without funding installations upfront. The asset manager would handle sourcing, ownership, and operational complexity.",
+        "quote": "give me my tax credits back",
+        "timestamp": "1:21:12"
+      },
+      {
+        "title": "Acquisition replaces startup market risk",
+        "summary": "SBA debt and seller financing let operators buy profitable companies with limited equity, then improve ignored channels, products, SEO, or operations. The approach offers a more controllable path to wealth than undifferentiated seed investing or inventing demand from zero.",
+        "quote": "buy and then build",
+        "timestamp": "1:24:32"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "A social-network winner becomes distressed inventory",
+        "summary": "Bebo grows larger than Google in markets such as Ireland before Michael and Xochi Birch recognize Facebook will win and sell to AOL for $850 million. AOL later writes it down, and the brand passes through private equity into bankruptcy.",
+        "quote": "built a social network called Bebo",
+        "timestamp": "5:35"
+      },
+      {
+        "title": "The founders repurchase an uncertain bundle",
+        "summary": "Puri's startup studio buys Bebo back for $1 million, receiving the brand, domain, surviving data, and an 80-million-address list dominated by stale Hotmail and AOL accounts. A separately purchased litigation right produces the clearer return.",
+        "quote": "sold for 850, bought it back for one",
+        "timestamp": "9:08"
+      },
+      {
+        "title": "Static pages preserve SEO without preserving cost",
+        "summary": "Rather than relaunch a losing social network, the team turns off its infrastructure while freezing indexable user profiles. A young engineer's simple approach cuts operating expense by roughly 100 times without discarding the brand's search footprint.",
+        "quote": "lower the cost by a hundred X",
+        "timestamp": "13:43"
+      },
+      {
+        "title": "Self-aware nostalgia rebuilds permissioned distribution",
+        "summary": "A weekend announcement video mocks Bebo's own history and goes viral. The unusable legacy mailing list matters less than one million people newly choosing to hear about the reboot, giving the team clean demand for experiments.",
+        "quote": "we got a million new people to sign up",
+        "timestamp": "14:46"
+      },
+      {
+        "title": "Sequential experiments protect focus and optionality",
+        "summary": "Small cohorts test an avatar messenger, public video chat, and eventually high-school esports. The studio runs each experiment all-in and closes it before the next, having learned that parallel entrepreneurship divides the attention needed to reach product truth.",
+        "quote": "splitting focus is very, very dangerous",
+        "timestamp": "15:56"
+      },
+      {
+        "title": "Blab finds engagement without a growth loop",
+        "summary": "Blab combines Zoom, Twitch, and call-in radio, attracting ESPN, Tony Robbins, and highly active social rooms. Scheduled broadcasters lack frequency, while all-day users meet friends on-platform and therefore bring no existing graph; the two groups do not coexist.",
+        "quote": "those two groups did not coexist",
+        "timestamp": "18:39"
+      },
+      {
+        "title": "Esports creates value for a larger platform",
+        "summary": "Bebo's leagues introduce tens of thousands of teenagers to streaming while friends and families watch. Because most economic value accrues to the hosting platforms, Puri runs a 45-day sale process among Twitch, YouTube, Facebook, and others.",
+        "quote": "all the value is accruing to them",
+        "timestamp": "17:19"
+      },
+      {
+        "title": "Buyer priorities shape the acquisition narrative",
+        "summary": "Twitch wants controllable original content and needs technology, engineers, and leadership faster than it can build them. Puri conducts buyer discovery, positions Bebo against those exact needs, and creates competition by showing rivals a route to challenge Twitch.",
+        "quote": "finding out what they already want to do",
+        "timestamp": "22:52"
+      },
+      {
+        "title": "Different stages require different founder archetypes",
+        "summary": "The entrepreneur imagines the opportunity, the producer translates it into action, the administrator creates repeatable organization, and the integrator aligns a growing team. Administration and integration matter after product-market fit and rising communication complexity.",
+        "quote": "every company needs these four personalities",
+        "timestamp": "41:40"
+      },
+      {
+        "title": "Remote work creates a Wi-Fi trust wedge",
+        "summary": "A simple database of verified rental speed tests could serve workations better than Airbnb's binary Wi-Fi field. Affiliate revenue, upgraded host equipment, outdoor work sites, or dedicated longer-stay inventory could expand the initial information utility into a marketplace.",
+        "quote": "I need great internet",
+        "timestamp": "47:10"
+      },
+      {
+        "title": "Solar finance can align taxes and infrastructure",
+        "summary": "A marketplace could match investors seeking tax credits and recurring income with schools, farms, and factories that want lower utility bills without funding installations upfront. The asset manager would handle sourcing, ownership, and operational complexity.",
+        "quote": "give me my tax credits back",
+        "timestamp": "1:21:12"
+      },
+      {
+        "title": "Acquisition replaces startup market risk",
+        "summary": "SBA debt and seller financing let operators buy profitable companies with limited equity, then improve ignored channels, products, SEO, or operations. The approach offers a more controllable path to wealth than undifferentiated seed investing or inventing demand from zero.",
+        "quote": "buy and then build",
+        "timestamp": "1:24:32"
       }
     ]
   }

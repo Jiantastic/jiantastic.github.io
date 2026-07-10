@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Shaan Puri's Bebo story shows how to recover value after a celebrated internet brand has already failed. Michael and Xochi Birch sell Bebo to AOL for $850 million, repurchase its bankrupt remnants for $1 million, and discover that the famous domain and 80-million-address email list matter less than expected. The team preserves SEO cheaply, uses self-aware nostalgia to attract one million fresh signups, tests multiple products sequentially, and turns live-streaming infrastructure into a high-school esports platform sold to Twitch.",
+    "The second half applies My First Million's opportunity-finding style. The hosts distinguish venture moonshots from cash-flow entrepreneurship, map founder personalities needed at successive stages, and brainstorm workation Wi-Fi data, a SPAC index, climate infrastructure, crypto services, solar financing, and small-business acquisition. The recurring method is to identify a newly acute need, start with a narrow wedge, exploit underused distribution or financing, and match one's existing skill—engineering, audience, growth, or operations—to a business where it creates asymmetric improvement."
+  ],
+  "takeaways": [
+    {
+      "title": "Distressed brands are option portfolios",
+      "detail": "Bebo's recognizable name, domain, search rankings, user data, code, and litigation rights each had different value and decay rates. The legal claim unexpectedly outperformed the email list, demonstrating why buyers should underwrite assets separately rather than rely on headline nostalgia."
+    },
+    {
+      "title": "Preserve attention while delaying the product bet",
+      "detail": "The team freezes profile pages to retain search traffic and launches a humorous founder-return video before knowing what Bebo will become. That creates one million permissioned new signups, which can be segmented into controlled product tests without maintaining the costly legacy network."
+    },
+    {
+      "title": "Usage intensity does not guarantee growth",
+      "detail": "Blab's casual users stayed for hours but came to make new friends, so they did not invite existing ones; celebrity broadcasters attracted audiences but appeared only weekly. Neither cohort supplied both habit and acquisition, making impressive engagement insufficient for a sustainable network."
+    },
+    {
+      "title": "Selling requires buyer discovery",
+      "detail": "Puri interviews potential acquirers about their top strategic priorities, then removes everything from Bebo's story except the relevant solution. Twitch needs scalable original esports content, an experienced leader, engineers, code, and accumulated learning immediately—assets that cannot simply be recruited one by one."
+    },
+    {
+      "title": "Buy where your skill changes outcomes",
+      "detail": "Profitable small businesses can use SBA and seller financing, avoiding the market-risk lottery of a new startup. A buyer with a proven acquisition channel, product expansion ability, or operational expertise can identify neglected assets and create value through concrete improvements rather than multiple expansion alone."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "A social-network winner becomes distressed inventory",
+      "summary": "Bebo grows larger than Google in markets such as Ireland before Michael and Xochi Birch recognize Facebook will win and sell to AOL for $850 million. AOL later writes it down, and the brand passes through private equity into bankruptcy.",
+      "quote": "built a social network called Bebo",
+      "timestamp": "5:35"
+    },
+    {
+      "title": "The founders repurchase an uncertain bundle",
+      "summary": "Puri's startup studio buys Bebo back for $1 million, receiving the brand, domain, surviving data, and an 80-million-address list dominated by stale Hotmail and AOL accounts. A separately purchased litigation right produces the clearer return.",
+      "quote": "sold for 850, bought it back for one",
+      "timestamp": "9:08"
+    },
+    {
+      "title": "Static pages preserve SEO without preserving cost",
+      "summary": "Rather than relaunch a losing social network, the team turns off its infrastructure while freezing indexable user profiles. A young engineer's simple approach cuts operating expense by roughly 100 times without discarding the brand's search footprint.",
+      "quote": "lower the cost by a hundred X",
+      "timestamp": "13:43"
+    },
+    {
+      "title": "Self-aware nostalgia rebuilds permissioned distribution",
+      "summary": "A weekend announcement video mocks Bebo's own history and goes viral. The unusable legacy mailing list matters less than one million people newly choosing to hear about the reboot, giving the team clean demand for experiments.",
+      "quote": "we got a million new people to sign up",
+      "timestamp": "14:46"
+    },
+    {
+      "title": "Sequential experiments protect focus and optionality",
+      "summary": "Small cohorts test an avatar messenger, public video chat, and eventually high-school esports. The studio runs each experiment all-in and closes it before the next, having learned that parallel entrepreneurship divides the attention needed to reach product truth.",
+      "quote": "splitting focus is very, very dangerous",
+      "timestamp": "15:56"
+    },
+    {
+      "title": "Esports creates value for a larger platform",
+      "summary": "Bebo's leagues introduce tens of thousands of teenagers to streaming while friends and families watch. Because most economic value accrues to the hosting platforms, Puri runs a 45-day sale process among Twitch, YouTube, Facebook, and others.",
+      "quote": "all the value is accruing to them",
+      "timestamp": "17:19"
+    },
+    {
+      "title": "Blab finds engagement without a growth loop",
+      "summary": "Blab combines Zoom, Twitch, and call-in radio, attracting ESPN, Tony Robbins, and highly active social rooms. Scheduled broadcasters lack frequency, while all-day users meet friends on-platform and therefore bring no existing graph; the two groups do not coexist.",
+      "quote": "those two groups did not coexist",
+      "timestamp": "18:39"
+    },
+    {
+      "title": "Buyer priorities shape the acquisition narrative",
+      "summary": "Twitch wants controllable original content and needs technology, engineers, and leadership faster than it can build them. Puri conducts buyer discovery, positions Bebo against those exact needs, and creates competition by showing rivals a route to challenge Twitch.",
+      "quote": "finding out what they already want to do",
+      "timestamp": "22:52"
+    },
+    {
+      "title": "Different stages require different founder archetypes",
+      "summary": "The entrepreneur imagines the opportunity, the producer translates it into action, the administrator creates repeatable organization, and the integrator aligns a growing team. Administration and integration matter after product-market fit and rising communication complexity.",
+      "quote": "every company needs these four personalities",
+      "timestamp": "41:40"
+    },
+    {
+      "title": "Remote work creates a Wi-Fi trust wedge",
+      "summary": "A simple database of verified rental speed tests could serve workations better than Airbnb's binary Wi-Fi field. Affiliate revenue, upgraded host equipment, outdoor work sites, or dedicated longer-stay inventory could expand the initial information utility into a marketplace.",
+      "quote": "I need great internet",
+      "timestamp": "47:10"
+    },
+    {
+      "title": "Solar finance can align taxes and infrastructure",
+      "summary": "A marketplace could match investors seeking tax credits and recurring income with schools, farms, and factories that want lower utility bills without funding installations upfront. The asset manager would handle sourcing, ownership, and operational complexity.",
+      "quote": "give me my tax credits back",
+      "timestamp": "1:21:12"
+    },
+    {
+      "title": "Acquisition replaces startup market risk",
+      "summary": "SBA debt and seller financing let operators buy profitable companies with limited equity, then improve ignored channels, products, SEO, or operations. The approach offers a more controllable path to wealth than undifferentiated seed investing or inventing demand from zero.",
+      "quote": "buy and then build",
+      "timestamp": "1:24:32"
+    }
+  ],
+  "title": "Acquired x My First Million: Bebo's Second Exit, Buyer Discovery, and Business Idea Playbooks"
+}
