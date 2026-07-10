@@ -1,0 +1,102 @@
+{
+  "overview": [
+    "The familiar story — that Sega died from Japanese management blunders, the harebrained 32X, and a botched surprise Saturn launch — is incomplete. Ben and David argue Sega was fundamentally an arcade giant, and its console flailing was a panicked but semi-rational response to Sony's PlayStation, which simultaneously invaded the living room and destroyed the arcade business that was Sega's real profit engine.",
+    "The episode's arc is a deliberate retelling. First comes the Console Wars version, where a jealous Sega of Japan overrules Tom Kalinsky's winning Sega of America; then a more charitable one, where Virtua Fighter teaches Sony that 3D is the future, Namco ships PlayStation hardware into arcades as the System 11 board, and Steve Race's '$299' moment at E3 1995 collapses consumer, retailer, and developer confidence at once."
+  ],
+  "takeaways": [
+    {
+      "title": "Console add-ons guarantee a shrinking market",
+      "detail": "The console business is razor-and-blades: profits come from software amortized over the largest possible install base, but an add-on caps its market at existing owners. The Sega CD sold roughly 3 million units against 30 million Genesis consoles, so developers skipped it and the platform death-spiraled."
+    },
+    {
+      "title": "Sega was always an arcade company first",
+      "detail": "Home consoles were side projects; Sega dominated a global arcade industry then bigger than home gaming, selling cabinets and operating its own arcade chains. Its DNA of iterating proprietary hardware per cabinet explains the add-on obsession and reluctance to commit to five-year console platforms."
+    },
+    {
+      "title": "Virtua Fighter handed Sony the PlayStation blueprint",
+      "detail": "The 1993 3D fighter sold over 40,000 cabinets at $10,000-plus each — roughly half a billion dollars — and proved polygonal 3D games worked. Sony said it made the PlayStation's direction 'instantly clear' and built the console explicitly as an arcade killer."
+    },
+    {
+      "title": "Namco's System 11 put PlayStation inside arcades",
+      "detail": "Sony recruited Namco, Konami, and Midway — arcade makers with no competing console — and shipped PlayStation hardware as the Tekken arcade board in September 1994. Global arcade revenue fell from about $7 billion to $2 billion by decade's end, gutting Sega's cash engine."
+    },
+    {
+      "title": "One $299 announcement killed the Saturn instantly",
+      "detail": "After Sega's $399 surprise launch at E3 1995, ex-Sega marketer Steve Race walked to the podium for Sony and said only '$299.' Consumers waited four months for the superior machine, KB Toys dropped Sega entirely, and third-party developers canceled Saturn projects."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "The question left over from Nintendo Part 2",
+      "summary": "Ben frames the mystery driving this first Acquired short: how Sega fell from half the U.S. console market to exiting hardware entirely in a few years, and what a failure story can teach.",
+      "quote": "there is so much more to this story",
+      "timestamp": "1:01"
+    },
+    {
+      "title": "Genesis at its peak: the improbable 50%",
+      "summary": "Establishes the baseline Sega squandered — a startup-like challenger that fought Nintendo to a tie with 30 million units, Sonic, Madden, and the bloody Mortal Kombat.",
+      "quote": "Sega had no right to get to 50%",
+      "timestamp": "5:23"
+    },
+    {
+      "title": "The 32X: doubling down on failed add-ons",
+      "summary": "After the Sega CD flop demonstrates the add-on death spiral, Sega ships another Genesis add-on that sells under a million units while simultaneously rushing the Saturn — the moment the confusion becomes public.",
+      "quote": "One of the worst video game industry decisions of all time",
+      "timestamp": "13:55"
+    },
+    {
+      "title": "The Console Wars narrative: Japan versus America",
+      "summary": "The first version of Sega's death: a parent company jealous of Sega of America's success sabotages it, driving out Kalinsky and marketer Steve Race — who leaves for Sony.",
+      "quote": "Japan and America were sort of sibling markets",
+      "timestamp": "16:55"
+    },
+    {
+      "title": "The retelling begins: Sega the arcade OG",
+      "summary": "David restarts the story with the missing context — the Genesis was a side project of an arcade empire that standardized the quarter and predated Atari and home video games entirely.",
+      "quote": "nobody was bigger in the arcade industry than Sega",
+      "timestamp": "23:49"
+    },
+    {
+      "title": "From Gulf & Western to the $38M buyout",
+      "summary": "Sega's corporate history — Paramount ownership, Eisner and Diller on its board, and a post-crash management buyout financed by CSK that made Rosen and Nakayama's team owners at a fire-sale price.",
+      "quote": "This is the steal of the century",
+      "timestamp": "28:50"
+    },
+    {
+      "title": "Virtua Fighter proves 3D is the future",
+      "summary": "Sega's own arcade breakthrough — half a billion dollars in cabinet sales — becomes the demo that convinces Sony to center the PlayStation on polygonal 3D graphics.",
+      "quote": "3D polygonal games are the future",
+      "timestamp": "36:20"
+    },
+    {
+      "title": "Tekken and the System 11 Trojan horse",
+      "summary": "The knife in Sega's back: Sony and rival Namco ship PlayStation hardware as an arcade board, moving the industry's technological bleeding edge onto Sony's platform in both the arcade and the home.",
+      "quote": "This System 11 arcade board developed with Sony is the PlayStation",
+      "timestamp": "42:10"
+    },
+    {
+      "title": "E3 1995: the $299 moment",
+      "summary": "Steve Race's one-word Sony keynote undercuts the $399 Saturn hours after its surprise launch, and the hosts dissect how it destroyed all three constituencies — consumers, retailers, and developers — at once.",
+      "quote": "May 11th, 1995 is the death of Sega",
+      "timestamp": "47:13"
+    },
+    {
+      "title": "Okawa's gift and the retreat to software",
+      "summary": "Ben's PitchBook digging surfaces the untold bridge: CSK chairman Isao Okawa's forgiven loans and returned stock funded Sega's transition from console maker to third-party publisher before the Sammy merger.",
+      "quote": "forgave Sega's debts to him ahead of his death",
+      "timestamp": "51:42"
+    },
+    {
+      "title": "Why Sonic couldn't carry the company",
+      "summary": "The analysis section argues Sega's arcade DNA produced thrilling-for-five-minutes games rather than the durable, extensible IP that let Nintendo survive — dimming any LVMH-style takeover thesis for Sega Sammy.",
+      "quote": "it's super fun for five minutes",
+      "timestamp": "58:48"
+    },
+    {
+      "title": "The Jim Clark call that went to Nintendo",
+      "summary": "The what-could-have-saved-Sega counterfactual: Japan rejects Kalinsky's SGI partnership, so he points Jim Clark to Nintendo of America — seeding the N64 — a decision the retold story makes look rational, not just arrogant.",
+      "quote": "the chip is too big",
+      "timestamp": "1:00:52"
+    }
+  ]
+}
