@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Jason Calacanis traces a career built by repeatedly turning media access into entrepreneurial and investing leverage: Silicon Alley reporting created founder relationships, Weblogs produced an exit, This Week in Startups expanded his network, and Sequoia's scout program supplied the capital that led to Uber. His current system industrializes that advantage through podcasts, Founder University, a 11,000-member syndicate, public fundraising, and a team screening enough companies to reserve his attention for founders already demonstrating product velocity.",
+    "The investing lesson is more nuanced than the famous Uber return. Calacanis distinguishes riding an obvious winner from true angel intervention, using Calm — a near-shutdown company funded at a $4 million valuation — as the latter. His framework looks for positive signals such as world-class design and rapid shipping while maintaining an anti-list of failure risks. He also treats audience-building as an unmonetized trust asset: credibility compounds into deal flow, LP access, talent, and optionality worth more than near-term advertising."
+  ],
+  "takeaways": [
+    {
+      "title": "Media compounds into proprietary deal flow",
+      "detail": "Decades of interviewing builders give Calacanis continuous market intelligence, trusted founder relationships, and public proof of work. All-In may forgo direct revenue, but its reach lowers fundraising friction and expands the network supplying investments — an economic return that never appears on the podcast's income statement."
+    },
+    {
+      "title": "Filter talkers by observable product velocity",
+      "detail": "Founder University lets hundreds of aspiring entrepreneurs learn and build before Calacanis invests attention or capital. His team compares roadmaps and changelogs across meetings: a founder who reprioritizes on Sunday and ships repeatedly by next month demonstrates execution more reliably than a polished pitch."
+    },
+    {
+      "title": "Angel value is greatest near company death",
+      "detail": "Calacanis concedes Uber and Robinhood would have succeeded without him. Calm better represents angel investing: after roughly 40 rejections, the founders considered shutting down; his $370,000 syndicate investment bought about 6%, extended their runway, and helped them reach subscriptions and product-market fit."
+    },
+    {
+      "title": "Codify taste without pretending it is objective",
+      "detail": "Launch scores opportunities against nine positive factors and roughly fifteen red flags. Two disclosed positives are world-class design — truly best in category, not merely attractive — and product velocity. The framework teaches judgment and consistency while preserving room for exceptional founders."
+    },
+    {
+      "title": "External capital can sharpen personal meaning",
+      "detail": "A syndicate alone could provide simpler deal-by-deal economics, yet Calacanis chooses funds and broader LP participation because accountability raises his standard and returns can support pensions, universities, and medical institutions. The tension is preserving capital while still taking asymmetric early-stage risk."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Publishing creates an entry into technology",
+      "summary": "Calacanis's early reporting and conferences placed him inside New York's internet community before he understood venture capital, making information, relationships, and visibility his first entrepreneurial assets.",
+      "quote": "i don't even know what vc is",
+      "timestamp": "8:58"
+    },
+    {
+      "title": "All-In trades monetization for network value",
+      "summary": "The podcast's chemistry and debate generate a large, influential audience; even when controversy may repel some founders, recognition and trust widen the overall surface area for relationships and deals.",
+      "quote": "for every one of those there's 10 more",
+      "timestamp": "28:29"
+    },
+    {
+      "title": "Founder University makes action the admissions test",
+      "summary": "Participants pay a refundable commitment deposit, complete a 12-week company-building course, and may receive an initial check — creating an observable funnel from aspiration to execution.",
+      "quote": "we're investing 25k in some of those folks",
+      "timestamp": "39:51"
+    },
+    {
+      "title": "Traction replaces pedigree after the pandemic",
+      "summary": "From hundreds of investments, Calacanis argues that geography and elite-school credentials matter less than the product, team, skills, metrics, and growth a founder can show directly.",
+      "quote": "show me your metrics show me the product",
+      "timestamp": "40:24"
+    },
+    {
+      "title": "A small team scales a giant syndicate",
+      "summary": "Launch separates company sourcing, operations, fundraising, teaching, and media so Calacanis can concentrate on high-leverage founder decisions while deploying roughly $50 million annually.",
+      "quote": "11 000 angels in the syndicate",
+      "timestamp": "1:02:11"
+    },
+    {
+      "title": "Public fundraising converts audience into LP access",
+      "summary": "Using a 506(c) process, Calacanis openly markets his fourth fund through webinars, transforming years of free media and demonstrated activity into a lower-friction capital-raising channel.",
+      "quote": "you can raise in public",
+      "timestamp": "1:06:25"
+    },
+    {
+      "title": "Democratizing venture still requires proof of work",
+      "summary": "Internet distribution helps emerging managers find believers, but the prescription is demanding: publish, advise, meet investors relentlessly, and create evidence that other people can evaluate.",
+      "quote": "if you go do stuff",
+      "timestamp": "1:09:56"
+    },
+    {
+      "title": "Outside capital turns returns into responsibility",
+      "summary": "Sequoia showed founders which charitable and institutional LPs benefited from their work, reframing fund performance as stewardship rather than merely personal upside.",
+      "quote": "this is really important to preserve this capital",
+      "timestamp": "1:11:40"
+    },
+    {
+      "title": "Calm demonstrates genuine angel intervention",
+      "summary": "After dozens of investors declined, Calm debated closing; Calacanis's conviction supplied runway at a low valuation, and subscriptions turned the meditation product into a durable business.",
+      "quote": "we were going to shut the company down",
+      "timestamp": "1:19:54"
+    },
+    {
+      "title": "Pricing reframes meditation's delivered value",
+      "summary": "Comparing the app with recurring in-person classes revealed that $10 per year radically underpriced a daily practice, supporting a subscription that quickly improved the business model.",
+      "quote": "what if it was 10 a month",
+      "timestamp": "1:21:43"
+    },
+    {
+      "title": "Design and shipping become investable signals",
+      "summary": "Launch teaches scouts to distinguish category-leading product design from templates and to verify velocity through roadmaps and changelogs rather than trusting founders' descriptions of speed.",
+      "quote": "world-class design and... product velocity",
+      "timestamp": "1:24:32"
+    },
+    {
+      "title": "Legacy shifts from wealth to investing impact",
+      "summary": "Having achieved the recognition and financial security he once sought, Calacanis defines the next ambition as becoming a historically important investor — judged by company outcomes, influence on the craft, and sustained contribution rather than another dollar of personal wealth.",
+      "quote": "I want to be mount rushmore for all investors",
+      "timestamp": "1:48:37"
+    }
+  ],
+  "title": "Jason Calacanis on Angel Investing, Deal Flow, and Finding Outliers"
+}

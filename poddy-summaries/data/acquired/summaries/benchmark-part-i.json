@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Benchmark was founded as the anti-Kleiner Perkins: no star hierarchy, no junior investment ladder, and no permanent founder ownership of the management company. Bob Kagle, Bruce Dunlevie, Andy Rachleff, Kevin Harvey, and Val Vaden divided carry and control equally, charged an audacious 30% carry, and raised an $85 million first fund. After a rocky start, one unconventional $6.7 million eBay investment became worth roughly $4 billion and proved the small-team model could produce historic returns.",
+    "The firm's deeper achievement is regeneration. Benchmark briefly abandoned its architecture through a billion-dollar fund and international franchises, missed Google, Skype, and Facebook, then transferred economics cleanly to a new generation. Bill Gurley's analytical marketplace investing, Peter Fenton's enterprise range, Mitch Lasky's games expertise, and Matt Cohler's consumer instincts converged in Fund VII: Uber, Snap, Discord, Docker, Elastic, Nextdoor, and more drove a reported 25x gross multiple. Equality concentrates talent and attention, but makes every succession existential."
+  ],
+  "takeaways": [
+    {
+      "title": "Equality is an operating system, not compensation",
+      "detail": "Every active partner receives equal carry and owns an equal share of the management company without buying it from predecessors. That removes promotion politics and deal attribution, encourages cross-partner help, and keeps investors focused on selection and board work — but only if every member performs at an elite level."
+    },
+    {
+      "title": "Founder liquidity can preserve greater upside",
+      "detail": "eBay's founders had a credible $50 million acquisition offer. Benchmark's financing appears to have included some founder liquidity, reducing the pressure to sell while giving the firm more than 20% ownership. A modest secondary helped keep a profitable network marketplace independent long enough to become worth tens of billions."
+    },
+    {
+      "title": "Scaling the brand broke the architecture",
+      "detail": "After eBay, Benchmark raised a billion-dollar fund and added separate Europe and Israel partnerships that rented its brand and LP relationships. Attention fragmented, ownership incentives diverged, and the firm missed Google, Skype, and Facebook. The logical growth strategy undermined the small, single-table partnership that created the advantage."
+    },
+    {
+      "title": "AWS made Series A temporarily mispriced",
+      "detail": "Startups could reach product adoption with far less capital, so Benchmark shifted from pre-product seed bets toward Series A companies already showing extraordinary data. Investors still priced these as risky early ventures, allowing Benchmark to buy Uber at a $60 million post-money valuation after meaningful product-market evidence existed."
+    },
+    {
+      "title": "Succession requires surrendering real economics",
+      "detail": "The founding generation eventually left the management company and took no carry in new funds, retaining only legacy positions and LP investments. That clean handoff let incoming partners behave as founders rather than employees — a rare sacrifice that enabled the eBay franchise to become the Uber franchise."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Bob Kagle rebels against venture hierarchy",
+      "summary": "Older firms reserved governance and management-company ownership for founders while younger investors generated deals as employees; Kagle came to view anything short of equality as structurally and morally wrong.",
+      "quote": "anything other than an equal partnership was just morally wrong",
+      "timestamp": "24:31"
+    },
+    {
+      "title": "Benchmark gives ownership to active partners",
+      "summary": "Equality means more than splitting fund carry: each current GP receives management-company ownership without paying the retiring generation, aligning control, fees, and performance economics.",
+      "quote": "The management company is always just given",
+      "timestamp": "25:41"
+    },
+    {
+      "title": "Five founders price themselves as premium",
+      "summary": "The unproven firm named itself Benchmark, declared there was always room at the top, and asked LPs for 30% carry — converting its organizational thesis into an audacious market signal.",
+      "quote": "There is always room at the top.",
+      "timestamp": "41:39"
+    },
+    {
+      "title": "Horsley Bridge backs the $85 million experiment",
+      "summary": "While many institutions rejected Benchmark's economics and novelty, Horsley Bridge became an enduring anchor LP; Fund I would become an exceptional large-scale venture fund.",
+      "quote": "one of... the best performing venture fund in history",
+      "timestamp": "44:16"
+    },
+    {
+      "title": "eBay validates a non-consensus partnership",
+      "summary": "The entire team combined consumer judgment, recruiting help, and creative terms to invest $6.7 million at a $20 million pre-money valuation in an already profitable but unconventional auction community.",
+      "quote": "they're the only term sheet",
+      "timestamp": "1:22:21"
+    },
+    {
+      "title": "One investment returns roughly 47 funds",
+      "summary": "By the end of eBay's IPO lockup, Benchmark's stake was worth more than $4 billion, turning its first fund from a struggling new franchise into an enduring top-tier institution.",
+      "quote": "This alone 47X's their fund.",
+      "timestamp": "1:24:15"
+    },
+    {
+      "title": "Equal economics manufacture team trust",
+      "summary": "With no promotion race or proprietary deal credit, highly competitive partners can assist one another without weakening their own careers, producing cooperation that hierarchical firms struggle to replicate.",
+      "quote": "a culture of unbelievable trust",
+      "timestamp": "1:39:09"
+    },
+    {
+      "title": "Empire building creates three historic misses",
+      "summary": "A billion-dollar core fund and semi-independent international partnerships consumed attention and introduced conflicting claims to opportunities; Benchmark consequently failed to secure Google, Skype, and Facebook.",
+      "quote": "probably making the wrong architecture decisions",
+      "timestamp": "2:26:29"
+    },
+    {
+      "title": "The founders make a clean economic exit",
+      "summary": "Refocusing required senior partners to relinquish governance, management-company ownership, and future carry rather than collect a perpetual franchise tax, completing the transition they once demanded themselves.",
+      "quote": "they don't take tail economics",
+      "timestamp": "2:30:50"
+    },
+    {
+      "title": "The Fab Four sees the present clearly",
+      "summary": "AWS and mobile reduced the capital needed to reveal demand, letting Gurley, Fenton, Lasky, and Cohler combine data with judgment at a Series A stage the market had not yet priced efficiently.",
+      "quote": "not to see the future, but to see the present",
+      "timestamp": "2:42:00"
+    },
+    {
+      "title": "Fund VII captures the mobile decade",
+      "summary": "The $550 million 2011 fund paired complementary specialists with a favorably mispriced stage and produced Uber, Snap, Discord, Docker, Elastic, Nextdoor, WeWork, and other major outcomes.",
+      "quote": "a full-sized venture capital fund that 25x'd",
+      "timestamp": "2:49:08"
+    },
+    {
+      "title": "Uber ends one generation and tests another",
+      "summary": "Benchmark's decision to sue Travis Kalanick followed governance crises and protected a company larger than any single founder relationship, but it also fractured the celebrated partnership and accelerated succession.",
+      "quote": "this precipitates the end of the Fab Four era",
+      "timestamp": "3:08:42"
+    }
+  ],
+  "title": "Benchmark Part I: The Equal Partnership Behind eBay and Uber"
+}

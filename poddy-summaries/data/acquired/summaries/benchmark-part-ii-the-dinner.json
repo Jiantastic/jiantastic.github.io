@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Benchmark's partners describe a venture firm designed around one scarce resource: each partner's sustained attention to a very small number of founders. They avoid investment memos that can manufacture conviction, make only one or two new commitments per partner annually, keep a five-person equal partnership, and reject growth funds whose staffing, pipeline management, and follow-on checks would distract from early company-building. The model optimizes fund multiple and relationship depth rather than assets or fees.",
+    "The dinner also exposes the model's human operating system. Decisions begin with truth-seeking among equals, then become commitments to change a company's odds rather than passive bets. When founder, LP, and board interests diverge, partners orient around the company's purpose; vulnerability is the warning system for broken trust. Benchmark accepts intelligent failures, strange pivots, and concentrated risk because the few decade-defining outcomes require looking wrong before enough data exists to look right."
+  ],
+  "takeaways": [
+    {
+      "title": "Memos can conceal missing founder insight",
+      "detail": "Benchmark often prefers an unmediated founder conversation because a persuasive memo can fill gaps the entrepreneur never addressed and pre-sell colleagues before the meeting. The real test is 'treat seeking': whether the person has discovered an extraordinary, non-consensus insight worth pursuing together."
+    },
+    {
+      "title": "Commitments differ fundamentally from probabilistic bets",
+      "detail": "Each partner makes only one or two commitments a year. The investment decision is not merely a forecast of success; joining the board, helping recruit, making calls, and confronting pivotal moments can alter the probability distribution after the check is written."
+    },
+    {
+      "title": "Company purpose resolves competing loyalties",
+      "detail": "A partner owes duties to LPs and all company shareholders while also supporting a founder. Benchmark's answer is to look above each constituency toward the durable purpose of the company. If the founder, board member, or investor departs from that purpose, vulnerability and direct conversation restore accountability."
+    },
+    {
+      "title": "A growth fund would dilute the product",
+      "detail": "Benchmark could earn substantial fees and good returns in growth investing, but doing so would add staff, fundraising, valuation work, and pipeline management. With only five partners, that activity directly competes with finding unusual early founders and deeply supporting existing boards."
+    },
+    {
+      "title": "Fund multiple preserves venture asymmetry",
+      "detail": "The partnership defines its scoreboard as the possibility of a 20x or 50x fund, not maximum dollars under management. Larger late-stage checks may increase aggregate cash profit but mechanically lower returns and weaken the asymmetry that makes venture capital distinct."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Truth-seeking without an investment memo",
+      "summary": "Benchmark removes the pre-sell and lets the founder's own explanation carry the opportunity, arguing that written analysis can create apparent clarity by supplying what the entrepreneur did not say.",
+      "quote": "the memo is a crutch often",
+      "timestamp": "12:57"
+    },
+    {
+      "title": "Every partner must earn the inheritance",
+      "summary": "Joining a celebrated franchise creates the risk of feeling born on third base; new partners instead inherit an obligation to serve founders and find the next company worthy of Benchmark's history.",
+      "quote": "Don't fuck it up.",
+      "timestamp": "20:26"
+    },
+    {
+      "title": "The investor makes commitments, not bets",
+      "summary": "Benchmark rejects a purely probabilistic framing because an engaged board partner can help change the odds during a company's few decisive moments, making post-investment work part of the underwriting.",
+      "quote": "we don't want to make a good bet",
+      "timestamp": "33:03"
+    },
+    {
+      "title": "Vulnerability is the trust diagnostic",
+      "summary": "When a founder starts withholding difficult information or the relationship becomes 'you versus me,' the shared purpose has fractured; intimate, candid conversation is the mechanism for repairing it.",
+      "quote": "trust is fixed intimately one-on-one",
+      "timestamp": "37:49"
+    },
+    {
+      "title": "Docker tests permanent commitment",
+      "summary": "After hundreds of millions in capital and painful mistakes, Benchmark's partners did not treat Docker as a disposable failed bet; they reassessed the purpose and backed its next chapter.",
+      "quote": "Founders can't unfound a company.",
+      "timestamp": "41:43"
+    },
+    {
+      "title": "Benchmark refuses the growth-fund fee machine",
+      "summary": "The partners argue that many lifecycle firms expanded because abundant capital produced fees, whereas Benchmark's chosen work is early founder partnership, not managing a scaled institution.",
+      "quote": "there's a crap ton of fees to make",
+      "timestamp": "43:42"
+    },
+    {
+      "title": "Focus means refusing an attractive business",
+      "summary": "A Benchmark growth fund could likely perform well, but saying no protects Monday's open-ended curiosity and board attention from becoming valuation reviews and pipeline administration.",
+      "quote": "focus is when... you don't do it",
+      "timestamp": "49:38"
+    },
+    {
+      "title": "Asymmetry defines the fund's scoreboard",
+      "summary": "Benchmark prizes extraordinary cash-on-cash multiples rather than maximum deployed dollars, accepting that this makes the firm economically small to large LPs but uniquely valuable in their portfolios.",
+      "quote": "Asymmetry is a 20x, 50x, 100x fund.",
+      "timestamp": "54:16"
+    },
+    {
+      "title": "Fundraising creates mutual conviction",
+      "summary": "Diligence lasts only as long as needed, but the founder should use it to evaluate the future board member too — the product is a long relationship, not merely capital and terms.",
+      "quote": "a process of getting conviction on each other",
+      "timestamp": "1:13:28"
+    },
+    {
+      "title": "Good failures preserve ambitious experimentation",
+      "summary": "Some investments fail while remaining correct uses of venture capital: the pursuit was important, the founder deserved elite support, and avoiding every loss would eliminate the strange shots that generate outliers.",
+      "quote": "that was worth the shot",
+      "timestamp": "1:23:14"
+    },
+    {
+      "title": "Capital and partnership can be separated",
+      "summary": "The Tinder example shows Benchmark willing to earn equity through board-level contribution without supplying cash, sharpening the question of whether founders value the partnership more than its attached capital.",
+      "quote": "we want equity in Tinder",
+      "timestamp": "1:27:39"
+    },
+    {
+      "title": "A founder's unique insight outranks market consensus",
+      "summary": "The best early meetings turn when a founder voices something no market report or blog has articulated. Benchmark supplies company-building context while leaving product and technical invention to the entrepreneur.",
+      "quote": "three minutes in... it's an insight",
+      "timestamp": "1:44:24"
+    }
+  ],
+  "title": "Benchmark Part II: Inside the Dinner and the Equal Partnership"
+}

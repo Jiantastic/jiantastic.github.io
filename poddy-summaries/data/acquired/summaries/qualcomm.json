@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Qualcomm's history is a chain of improbable technical and business bets: Hedy Lamarr's frequency-hopping idea, Claude Shannon's information theory, Irwin Jacobs and Andrew Viterbi's communications expertise, and a seven-person startup convinced that CDMA could multiply scarce cellular capacity. Because carriers would not adopt an unsupported standard, Qualcomm temporarily built the entire stack — patents, chips, base stations, and handsets — then shed the capital-intensive pieces once the ecosystem became self-sustaining.",
+    "The resulting model pairs QCT's fabless chips with QTL's extraordinarily profitable patent licensing. Licensing cash funds frontier R&D; research produces standards-essential IP and differentiated silicon; global device volume spreads that cost. Yet Qualcomm's maximal value capture — royalties tied to handset price, supplier restrictions, and fees layered atop chip purchases — repeatedly provoked customers and regulators. Its enduring strategic problem is preserving enough leverage to fund invention without motivating Apple, Samsung, governments, and rivals to route around it."
+  ],
+  "takeaways": [
+    {
+      "title": "Standards windows create winner-take-most moments",
+      "detail": "Wireless generations arrive in discrete windows. Qualcomm used the US system's permission for alternatives to the preferred TDMA standard, proved CDMA in 1989, won South Korea, and secured official recognition in 1993. Missing that 2G window might have meant never surviving to dominate data-centric 3G."
+    },
+    {
+      "title": "Build complements until the ecosystem exists",
+      "detail": "Carriers could not choose CDMA without compatible towers, phones, and silicon. Qualcomm formed ventures with Nortel and Sony and made the missing products itself, not because vertical integration was the destination, but because saying yes to every adoption dependency was necessary to establish the standard."
+    },
+    {
+      "title": "Licensing and chips reinforce each other",
+      "detail": "QTL's predictable, high-margin royalties finance long-horizon R&D that ordinary chip margins might not support. That work yields new patents and stronger QCT products, while enormous shipment volume amortizes design cost — explaining why splitting the businesses could damage the innovation flywheel despite their very different economics."
+    },
+    {
+      "title": "Cornered resources invite ecosystem retaliation",
+      "detail": "Standards-essential patents let Qualcomm collect on nearly every smartphone and sometimes charge a percentage of the entire handset's price. The model produced exceptional returns, but its restrictions and layered fees pushed Apple toward Intel modems and internal development and triggered litigation across the US, China, Korea, Europe, and Taiwan."
+    },
+    {
+      "title": "Technical leadership must outlive each patent cycle",
+      "detail": "CDMA itself aged, so Qualcomm bought Flareon's 4G-essential portfolio, pivoted to OFDMA, built Snapdragon, and mastered the complex RF front end required by 5G's many spectrum bands. The franchise survives only if current engineering keeps renewing the leverage created by expiring inventions."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Hedy Lamarr invents frequency hopping",
+      "summary": "Lamarr and composer George Antheil patented a synchronized method for hopping among radio frequencies, using matching player-piano rolls to make wartime guidance signals harder to jam.",
+      "quote": "the origin of something called spread spectrum technology",
+      "timestamp": "12:48"
+    },
+    {
+      "title": "Hotel school shapes an engineering founder",
+      "summary": "Jacobs entered Cornell for hospitality, transferred into electrical engineering, studied in Shannon's orbit, and later credited his business coursework with helping him turn elite academic knowledge into companies.",
+      "quote": "he actually learned about business accounting",
+      "timestamp": "23:02"
+    },
+    {
+      "title": "Seven engineers found Quality Communications",
+      "summary": "Jacobs, Viterbi, and five Linkabit colleagues formed Qualcomm in 1985, seeing that analog cellular demand would overwhelm available spectrum even though the ecosystem was not ready for their solution.",
+      "quote": "they name it Qualcomm. Quality Communications.",
+      "timestamp": "43:22"
+    },
+    {
+      "title": "CDMA becomes a foundational patent",
+      "summary": "While pursuing satellite work, Qualcomm adapted spread spectrum so many users could share cellular spectrum simultaneously and patented terrestrial CDMA years before it had a carrier customer.",
+      "quote": "one of the most valuable patents in history",
+      "timestamp": "56:11"
+    },
+    {
+      "title": "The US leaves a standards escape hatch",
+      "summary": "Unlike Europe's mandatory GSM choice, the US published performance requirements but allowed carriers to deploy any technology that met them, giving Qualcomm a path around industry consensus.",
+      "quote": "if you want to do your own thing",
+      "timestamp": "1:13:00"
+    },
+    {
+      "title": "A refrigerator-sized phone proves CDMA",
+      "summary": "Qualcomm's 1989 San Diego demonstration used vans, a base station, and an enormous prototype handset to turn a disputed theory into a working system and win Pactel's commitment.",
+      "quote": "the cell phone that they build basically looks like a mini fridge",
+      "timestamp": "1:21:19"
+    },
+    {
+      "title": "South Korea supplies a clean-slate market",
+      "summary": "Blocked by incumbent dependencies elsewhere, Qualcomm found a country building next-generation networks from scratch; South Korea mandated CDMA and briefly generated close to 40% of company revenue.",
+      "quote": "All CDMA. All Qualcomm.",
+      "timestamp": "1:23:05"
+    },
+    {
+      "title": "Vertical integration bootstraps the standard",
+      "summary": "Qualcomm partnered with Nortel for base stations and Sony for phones, filling every missing complement so carriers could adopt CDMA without betting that an ecosystem might eventually appear.",
+      "quote": "you should feel safe adopting us",
+      "timestamp": "1:28:28"
+    },
+    {
+      "title": "Qualcomm sheds factories and keeps leverage",
+      "summary": "Once CDMA had momentum, Qualcomm sold infrastructure to Ericsson and handsets to Kyocera, concentrating on fabless chip designs and technology licensing rather than capital-intensive manufacturing.",
+      "quote": "we don't need to make our own base stations",
+      "timestamp": "1:34:52"
+    },
+    {
+      "title": "Snapdragon renews the smartphone position",
+      "summary": "After acquiring 4G-essential patents and pivoting beyond CDMA, Qualcomm assembled mobile systems-on-chip that became the default high-end Android platform alongside Apple's internally designed processors.",
+      "quote": "they start building the Snapdragon unit",
+      "timestamp": "1:42:30"
+    },
+    {
+      "title": "Apple attacks maximal royalty extraction",
+      "summary": "Apple alleged that Qualcomm abused standards-essential patents through high handset-based fees and supplier restrictions, but Intel fell behind in 5G and Apple settled rather than miss the transition.",
+      "quote": "there's no chance that Intel catches up",
+      "timestamp": "1:55:04"
+    },
+    {
+      "title": "Licensing revenue funds the next invention",
+      "summary": "The strategic defense of Qualcomm's combined structure closes the loop: durable licensing cash supports risky R&D, which produces both new products and new intellectual property for future generations.",
+      "quote": "The licensing business offers Qualcomm predictable high margin revenue",
+      "timestamp": "2:19:05"
+    }
+  ],
+  "title": "Qualcomm: CDMA, Snapdragon, and the Price of Wireless Power"
+}
