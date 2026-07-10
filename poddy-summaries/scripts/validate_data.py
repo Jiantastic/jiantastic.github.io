@@ -61,7 +61,9 @@ def main():
         duration = max(float(item.get("end") or 0) for item in segments)
         words = sum(len(str(item.get("text") or "").split()) for item in paragraphs)
         words_per_minute = words / (duration / 60) if duration else 0
-        if duration > 300 and not 90 <= words_per_minute <= 230:
+        # Fast, conversational episodes can legitimately approach 250 WPM.
+        # Keep the bound tight enough to catch clipped timing or duplicated text.
+        if duration > 300 and not 90 <= words_per_minute <= 260:
             errors.append(
                 f"{slug}: suspicious transcript rate ({words_per_minute:.1f} words/minute)"
             )
