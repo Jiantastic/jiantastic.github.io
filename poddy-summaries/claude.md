@@ -61,7 +61,7 @@ The pipeline requires exactly two overview paragraphs, five takeaways, and a dur
 
 Published duration uses the later of the RSS duration and the transcribed media end. This keeps chapter validation and structured data accurate when dynamically inserted ads make the downloaded audio longer than the feed metadata.
 
-Run `build_episodes.py --offline` to regenerate the static pages without fetching RSS. Jekyll's sitemap plugin includes every generated episode route automatically.
+Run `build_episodes.py --offline` to refresh `episodes.json` and regenerate the static pages from local summary/transcript artifacts without fetching RSS. Jekyll's sitemap plugin includes every generated episode route automatically.
 
 ## Commands
 
@@ -70,6 +70,13 @@ Run `build_episodes.py --offline` to regenerate the static pages without fetchin
 ./scripts/run.sh --dry-run --limit 1
 
 # Process five new episodes
+./scripts/run.sh --limit 5
+
+# Finish the next untranscribed batch without calling Claude or updating state;
+# already complete transcripts are skipped automatically
+./scripts/run.sh --limit 5 --transcribe-only
+
+# Resume later; completed transcripts are reused automatically
 ./scripts/run.sh --limit 5
 
 # Process every remaining episode, newest first; safe to resume after interruption
@@ -83,3 +90,5 @@ npm test -- --run poddy-summaries/app.test.js
 ```
 
 Requirements: Apple Silicon, `mlx-whisper`, `feedparser`, `ffmpeg`, `curl`, `jq`, and an authenticated Claude CLI.
+
+`validate_data.py` audits every local transcript set, including deferred `--transcribe-only` output, then validates each published guide and permanent page.

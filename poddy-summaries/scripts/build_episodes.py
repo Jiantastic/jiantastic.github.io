@@ -337,6 +337,24 @@ def write_static_pages(episodes, data_dir):
     return written, directory_path
 
 
+def refresh_existing_episodes(episodes, data_dir):
+    refreshed = []
+    for episode in episodes:
+        current = dict(episode)
+        summary = load_json(data_dir / str(current.get("summaryPath") or ""), {})
+        transcript = load_json(
+            data_dir / str(current.get("transcriptJsonPath") or ""), {}
+        )
+        if summary:
+            current["overview"] = summary.get("overview") or ""
+            current["takeaways"] = summary.get("takeaways") or []
+            current["chapters"] = summary.get("chapters") or []
+        if transcript:
+            current["duration"] = effective_duration(current.get("duration"), transcript)
+        refreshed.append(current)
+    return refreshed
+
+
 def main():
     parser = argparse.ArgumentParser(description="Rebuild episodes.json for UI")
     parser.add_argument("--feed", help="RSS feed URL")
@@ -359,9 +377,17 @@ def main():
     episodes_path = data_dir / "episodes.json"
 
     if args.offline:
-        existing_episodes = load_json(episodes_path, [])
+        existing_episodes = refresh_existing_episodes(
+            load_json(episodes_path, []), data_dir
+        )
+        episodes_path.write_text(
+            json.dumps(existing_episodes, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
         written, directory_path = write_static_pages(existing_episodes, data_dir)
-        print(f"Wrote {written} episode pages and {directory_path} from existing data")
+        print(
+            f"Refreshed {episodes_path}, {written} episode pages, and "
+            f"{directory_path} from existing data"
+        )
         return
     if not args.feed:
         parser.error("--feed is required unless --offline is used")

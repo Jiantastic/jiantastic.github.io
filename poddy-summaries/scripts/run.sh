@@ -9,6 +9,7 @@ FEED_DEFAULT="https://feeds.transistor.fm/acquired"
 LIMIT=1
 DRY_RUN=0
 VERBOSE=0
+TRANSCRIBE_ONLY=0
 FEED="$FEED_DEFAULT"
 
 log() {
@@ -73,6 +74,8 @@ while [ "$#" -gt 0 ]; do
       DRY_RUN=1; shift ;;
     --verbose)
       VERBOSE=1; shift ;;
+    --transcribe-only)
+      TRANSCRIBE_ONLY=1; shift ;;
     *)
       echo "Unknown option: $1" >&2
       exit 1 ;;
@@ -89,7 +92,9 @@ require_cmd jq
 if [ "$DRY_RUN" -eq 0 ]; then
   require_cmd ffmpeg
   require_cmd curl
-  require_cmd claude
+  if [ "$TRANSCRIBE_ONLY" -eq 0 ]; then
+    require_cmd claude
+  fi
   mkdir -p "$DATA" "$DATA/transcripts" "$DATA/summaries"
   if [ ! -f "$STATE" ]; then
     echo '{"processed":[]}' > "$STATE"
@@ -106,8 +111,32 @@ else
 fi
 new_eps=$(jq -c --argjson processed "$processed_list" '.episodes | map(select((.guid|tostring) as $g | ($processed|index($g)|not)))' <<<"$feed_json")
 
+if [ "$TRANSCRIBE_ONLY" -eq 1 ]; then
+  transcribed_list=$(python3 - "$DATA/transcripts" <<'PY'
+import json
+import sys
+from pathlib import Path
+
+root = Path(sys.argv[1])
+complete = [
+    path.stem
+    for path in root.glob("*.json")
+    if path.stat().st_size > 0
+    and (root / f"{path.stem}-timed.txt").is_file()
+    and (root / f"{path.stem}-timed.txt").stat().st_size > 0
+]
+print(json.dumps(complete))
+PY
+  )
+  new_eps=$(jq -c --argjson transcribed "$transcribed_list" 'map(select(.slug as $slug | ($transcribed | index($slug) | not)))' <<<"$new_eps")
+fi
+
 count=$(jq 'length' <<<"$new_eps")
 if [ "$count" -eq 0 ]; then
+  if [ "$DRY_RUN" -eq 0 ] && [ "$TRANSCRIBE_ONLY" -eq 0 ]; then
+    log "No new episodes; rebuilding published data from completed state"
+    python3 "$DIR/build_episodes.py" --feed "$FEED" --data-dir "$DATA"
+  fi
   log "No new episodes to process."
   exit 0
 fi
@@ -166,6 +195,11 @@ while IFS= read -r ep; do
     temp_audio=""
   fi
 
+  if [ "$TRANSCRIBE_ONLY" -eq 1 ]; then
+    log "Transcription-only: summary deferred for $slug"
+    continue
+  fi
+
   IFS= read -r -d '' prompt <<'EOF' || true
 You are producing a useful full-episode listening guide.
 The transcript below is grouped into timestamped paragraphs.
@@ -189,10 +223,16 @@ EOF
   else
     log "Summarizing via claude -p -> $summary_path"
     temp_summary=$(mktemp /tmp/poddy-summary-XXXXXX)
-    {
+    if ! {
       printf '%s\n' "$prompt"
       cat "$timed_transcript"
-    } | claude -p --output-format text > "$temp_summary"
+    } | claude -p --output-format text > "$temp_summary"; then
+      if [ -s "$temp_summary" ]; then
+        sed -n '1,8p' "$temp_summary" >&2
+      fi
+      echo "Claude CLI failed for $slug; the completed transcript is preserved for retry." >&2
+      exit 1
+    fi
 
     if ! valid_summary "$temp_summary" "$chapter_min" "$chapter_max"; then
       echo "Claude returned an invalid episode summary for $slug; leaving existing data unchanged." >&2
@@ -214,6 +254,11 @@ done < <(jq -c '.[]' <<<"$process_list")
 
 if [ "$DRY_RUN" -eq 1 ]; then
   log "Dry-run complete"
+  exit 0
+fi
+
+if [ "$TRANSCRIBE_ONLY" -eq 1 ]; then
+  log "Transcription-only pass complete; state and published data were not changed"
   exit 0
 fi
 

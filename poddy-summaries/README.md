@@ -16,18 +16,24 @@ RSS Feed → Download Audio → Transcribe (Whisper) → Summarize (Claude) → 
 ## Quick Start
 
 ```bash
-# Process latest episode
-cd scripts && ./run.sh --limit 1
+# From the repository root, process the latest episode
+./poddy-summaries/scripts/run.sh --limit 1
 
 # Resume the entire unprocessed archive, newest first
-./run.sh --all
+./poddy-summaries/scripts/run.sh --all
+
+# If the summarizer is unavailable, finish the next untranscribed batch now
+./poddy-summaries/scripts/run.sh --limit 5 --transcribe-only
 
 # View locally
 bundle exec jekyll serve
 # Open http://localhost:4000/poddy-summaries/
 
-# Validate summaries, timestamps, transcripts, and permanent pages
-python3 scripts/validate_data.py
+# Validate every local transcript plus published summaries, timestamps, and pages
+python3 poddy-summaries/scripts/validate_data.py
+
+# Test pipeline helpers
+python3 -m unittest discover poddy-summaries/scripts -p 'test_*.py'
 ```
 
 ## Output

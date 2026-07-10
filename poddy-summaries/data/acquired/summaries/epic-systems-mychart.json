@@ -1,0 +1,102 @@
+{
+  "overview": [
+    "Epic Systems — the private Verona, Wisconsin company behind MyChart — became the operating system of American healthcare by breaking every conventional rule: no venture capital, no sales or marketing, no acquisitions, no discounts, and not one customer lost in 47 years. Ben and David argue that Judith Faulkner's single-database architecture and programmer-run culture made Epic the default nervous system for U.S. hospitals, and made her arguably the most successful female entrepreneur in history.",
+    "The episode's key arc is that policy, not technology, built this market: WWII wage controls created employer insurance, Medicare made standardized documentation the price of getting paid, and 2009's HITECH Act pushed EHR adoption from 9% to 95% of hospitals — cementing Epic's dominance. The hosts sit with the resulting tension: a customer-obsessed, brilliantly run near-monopoly vendor inside a system that burns out doctors, resists interoperability, and consumes 18% of GDP."
+  ],
+  "takeaways": [
+    {
+      "title": "Epic raised just $140,000 in total capital",
+      "detail": "A $70,000 bank loan bought the Data General minicomputer and friends invested $70,000 at a $70,000 pre-money valuation in 1979. Those remain the only primary investors ever in a company now doing $5.7 billion in annual revenue, enabled by Faulkner being a generational programming talent."
+    },
+    {
+      "title": "A single database underpins Epic's entire moat",
+      "detail": "Every module — EpicCare, Resolute billing, MyChart, Cosmos — reads from the one Chronicles database Faulkner designed in the 1970s, so implementations ship on time and clinical data never desyncs from billing. Rivals like Cerner are dozens of acquired companies glued together, and Epic has never lost one of its 600-plus customers."
+    },
+    {
+      "title": "HITECH stimulus froze the competitive field",
+      "detail": "The 2009 act put $27–36 billion behind EHR adoption, pushing hospital penetration from 9% in 2009 to 95% by 2014. Because nearly every RFP was pulled forward to a single moment and switching costs are enormous, the existing leaders — above all the most reliable vendor, Epic — were locked in for decades."
+    },
+    {
+      "title": "Meaningful use digitized medicine without transforming it",
+      "detail": "By legally defining 'meaningful use,' Congress effectively specified software features and doctors' workflows, and a 2016 study found physicians spend two hours on EHR data entry per hour of hands-on care. As one CIO put it, HITECH wildly succeeded at digitization but did nothing on digital transformation."
+    },
+    {
+      "title": "A purpose trust makes Epic permanently unsellable",
+      "detail": "On Faulkner's death, her 100% voting control passes to a trust of family members, five longtime senior managers, and customer CEOs. Its bylaws forbid a sale or IPO forever and require every future CEO to be a longtime Epic employee and a software developer."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Cold open: the company that breaks every rule",
+      "summary": "The hosts frame Epic as a 47-year-old, ~$6B-revenue private company with no marketing, no VC, no acquisitions — and essentially zero customers ever lost — setting up the mystery of how it became so dominant.",
+      "quote": "They often say no to potential customers who approach them.",
+      "timestamp": "1:12"
+    },
+    {
+      "title": "Judy Greenfield, math prodigy turned programmer",
+      "summary": "Faulkner's origins — a Nobel Peace Prize-sharing mother, an entrepreneur father, and a summer physics lab job — establish the generational programming talent that later let Epic grow without outside capital.",
+      "quote": "Judy teaches herself Fortran in a week",
+      "timestamp": "8:57"
+    },
+    {
+      "title": "Why payers made electronic records existential",
+      "summary": "Once employer insurance, Medicare, and Medicaid meant someone else paid the bill, providers needed standardized, auditable documentation to get reimbursed — the true origin of the EMR-plus-billing market Epic would own.",
+      "quote": "you need documentation of what happened in order to get paid",
+      "timestamp": "25:05"
+    },
+    {
+      "title": "The living-room epiphany that became Chronicles",
+      "summary": "Faulkner's sudden insight for one integrated patient database, scribbled as code on a kitchen notepad in the mid-1970s, is still the architectural core of Epic today.",
+      "quote": "suddenly it all came to me",
+      "timestamp": "32:51"
+    },
+    {
+      "title": "One database: clinical and billing in harmony",
+      "summary": "The hosts identify Epic's decisive advantage: reliability plus fully integrated clinical and revenue-cycle data on Chronicles, while competitors glued together dozens of acquired systems.",
+      "quote": "the clinical side and the billing side are completely stitched together",
+      "timestamp": "54:13"
+    },
+    {
+      "title": "Kaiser 2003: the Model T moment",
+      "summary": "Epic refuses to split the contract with Cerner or grant equity warrants, wins on an all-nighter transaction-capacity model, and the $4 billion Kaiser deal makes it the industry's gold standard.",
+      "quote": "the Kaiser Epic system could become the Model T of its industry",
+      "timestamp": "1:27:05"
+    },
+    {
+      "title": "Verona campus and the Ten Commandments",
+      "summary": "The fairy-tale 1,700-acre campus and bathroom-posted commandments encode Faulkner's 'software factory' culture — and signal permanence to every visiting customer.",
+      "quote": "number one, do not go public",
+      "timestamp": "1:40:08"
+    },
+    {
+      "title": "HITECH: Washington subsidizes an entire industry",
+      "summary": "The 2009 stimulus paid hospitals to adopt and meaningfully use EHRs, taking penetration from 9% to 95% in five years and effectively closing the market around the most reliable incumbent.",
+      "quote": "the government just starts mailing checks to your customers",
+      "timestamp": "2:13:50"
+    },
+    {
+      "title": "The DoD and VA contract debacle",
+      "summary": "Cerner wins the two biggest health-IT contracts in history, then drowns in decade-plus overruns that drag it toward the Oracle acquisition — while Epic, having lost the bids, keeps sweeping marquee health systems.",
+      "quote": "you make more money on failed government contracts than successful ones",
+      "timestamp": "2:40:23"
+    },
+    {
+      "title": "Cosmos: 295 million patients, one research database",
+      "summary": "Anonymized data from 15 billion encounters lets doctors find lookalike patients and researchers spot population-level signals — the long-promised payoff of digitization and the raw material for AI.",
+      "quote": "Cosmos has 295 million patients worth of data in it",
+      "timestamp": "2:54:49"
+    },
+    {
+      "title": "What is Epic actually worth?",
+      "summary": "Running conservative multiples puts Epic near $100 billion — far above Forbes' estimate — making Faulkner arguably the most successful female founder ever, even though the company can never be bought or sold.",
+      "quote": "making her the wealthiest self-made woman in the world",
+      "timestamp": "3:05:24"
+    },
+    {
+      "title": "Quintessence: the vertical-market software playbook",
+      "summary": "The closing analysis argues that in a life-or-death, heavily regulated vertical, building everything in-house and obsessively listening to customers — the opposite of horizontal platform strategy — was exactly the right playbook.",
+      "quote": "this is the correct playbook to win in vertical market software",
+      "timestamp": "3:42:42"
+    }
+  ]
+}

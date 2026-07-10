@@ -1647,17 +1647,17 @@
     ]
   },
   {
-    "slug": "trader-joe-s",
+    "slug": "trader-joes",
     "guid": "9602cea2-2491-4587-90f6-7bf7f7988dd7",
     "title": "Trader Joe’s",
     "pubDate": "Sun, 26 Oct 2025 20:07:10 -0700",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/8d72cb9c/19650029.mp3",
     "sourceUrl": "https://www.acquired.fm/episodes/trader-joes",
     "duration": 12341,
-    "episodeUrl": "/poddy-summaries/episodes/trader-joe-s/",
-    "summaryPath": "summaries/trader-joe-s.json",
-    "transcriptPath": "transcripts/trader-joe-s.txt",
-    "transcriptJsonPath": "transcripts/trader-joe-s.json",
+    "episodeUrl": "/poddy-summaries/episodes/trader-joes/",
+    "summaryPath": "summaries/trader-joes.json",
+    "transcriptPath": "transcripts/trader-joes.txt",
+    "transcriptJsonPath": "transcripts/trader-joes.json",
     "overview": [
       "Trader Joe's succeeds not by being the best grocery store but by aligning every trade-off — tiny stores, roughly 4,000 SKUs, no e-commerce, no coupons, no national brands — into one self-reinforcing system built for a single customer: the 'overeducated and underpaid.' Ben and David argue its cult following comes from counter-positioning, designing a store with no direct competition rather than racing Walmart, Kroger, or 7-Eleven on scale and price.",
       "The central arc is Joe Coulombe reinventing the business under existential pressure: a 7-Eleven clone doomed when its dairy lender sold to Southland, saved by hard liquor, transformed by California wine, then health food and private label after fair-trade repeal destroyed protected margins. The lasting tension is differentiation versus scale — Joe sold to Theo Albrecht in 1979 yet stayed CEO, and successors expanded assortment and footprint while trying to keep the one-of-one soul."
@@ -2844,6 +2844,754 @@
         "summary": "Ballmer's clearest product vision ever — a basketball-only arena with the standing-room Wall placed over the visitor's huddle, which now produces the league's lowest visiting free-throw percentage.",
         "quote": "I mean, it worked. That's what I wanted.",
         "timestamp": "2:48:11"
+      }
+    ]
+  },
+  {
+    "slug": "epic-systems-mychart",
+    "guid": "a9bc0cf6-824d-4e9d-86cb-532734a3b2a3",
+    "title": "Epic Systems (MyChart)",
+    "pubDate": "Sun, 20 Apr 2025 19:04:52 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/da990430/4c8bb4df.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/epic-systems-mychart",
+    "duration": 14086,
+    "episodeUrl": "/poddy-summaries/episodes/epic-systems-mychart/",
+    "summaryPath": "summaries/epic-systems-mychart.json",
+    "transcriptPath": "transcripts/epic-systems-mychart.txt",
+    "transcriptJsonPath": "transcripts/epic-systems-mychart.json",
+    "overview": [
+      "Epic Systems — the private Verona, Wisconsin company behind MyChart — became the operating system of American healthcare by breaking every conventional rule: no venture capital, no sales or marketing, no acquisitions, no discounts, and not one customer lost in 47 years. Ben and David argue that Judith Faulkner's single-database architecture and programmer-run culture made Epic the default nervous system for U.S. hospitals, and made her arguably the most successful female entrepreneur in history.",
+      "The episode's key arc is that policy, not technology, built this market: WWII wage controls created employer insurance, Medicare made standardized documentation the price of getting paid, and 2009's HITECH Act pushed EHR adoption from 9% to 95% of hospitals — cementing Epic's dominance. The hosts sit with the resulting tension: a customer-obsessed, brilliantly run near-monopoly vendor inside a system that burns out doctors, resists interoperability, and consumes 18% of GDP."
+    ],
+    "takeaways": [
+      {
+        "title": "Epic raised just $140,000 in total capital",
+        "detail": "A $70,000 bank loan bought the Data General minicomputer and friends invested $70,000 at a $70,000 pre-money valuation in 1979. Those remain the only primary investors ever in a company now doing $5.7 billion in annual revenue, enabled by Faulkner being a generational programming talent."
+      },
+      {
+        "title": "A single database underpins Epic's entire moat",
+        "detail": "Every module — EpicCare, Resolute billing, MyChart, Cosmos — reads from the one Chronicles database Faulkner designed in the 1970s, so implementations ship on time and clinical data never desyncs from billing. Rivals like Cerner are dozens of acquired companies glued together, and Epic has never lost one of its 600-plus customers."
+      },
+      {
+        "title": "HITECH stimulus froze the competitive field",
+        "detail": "The 2009 act put $27–36 billion behind EHR adoption, pushing hospital penetration from 9% in 2009 to 95% by 2014. Because nearly every RFP was pulled forward to a single moment and switching costs are enormous, the existing leaders — above all the most reliable vendor, Epic — were locked in for decades."
+      },
+      {
+        "title": "Meaningful use digitized medicine without transforming it",
+        "detail": "By legally defining 'meaningful use,' Congress effectively specified software features and doctors' workflows, and a 2016 study found physicians spend two hours on EHR data entry per hour of hands-on care. As one CIO put it, HITECH wildly succeeded at digitization but did nothing on digital transformation."
+      },
+      {
+        "title": "A purpose trust makes Epic permanently unsellable",
+        "detail": "On Faulkner's death, her 100% voting control passes to a trust of family members, five longtime senior managers, and customer CEOs. Its bylaws forbid a sale or IPO forever and require every future CEO to be a longtime Epic employee and a software developer."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Cold open: the company that breaks every rule",
+        "summary": "The hosts frame Epic as a 47-year-old, ~$6B-revenue private company with no marketing, no VC, no acquisitions — and essentially zero customers ever lost — setting up the mystery of how it became so dominant.",
+        "quote": "They often say no to potential customers who approach them.",
+        "timestamp": "1:12"
+      },
+      {
+        "title": "Judy Greenfield, math prodigy turned programmer",
+        "summary": "Faulkner's origins — a Nobel Peace Prize-sharing mother, an entrepreneur father, and a summer physics lab job — establish the generational programming talent that later let Epic grow without outside capital.",
+        "quote": "Judy teaches herself Fortran in a week",
+        "timestamp": "8:57"
+      },
+      {
+        "title": "Why payers made electronic records existential",
+        "summary": "Once employer insurance, Medicare, and Medicaid meant someone else paid the bill, providers needed standardized, auditable documentation to get reimbursed — the true origin of the EMR-plus-billing market Epic would own.",
+        "quote": "you need documentation of what happened in order to get paid",
+        "timestamp": "25:05"
+      },
+      {
+        "title": "The living-room epiphany that became Chronicles",
+        "summary": "Faulkner's sudden insight for one integrated patient database, scribbled as code on a kitchen notepad in the mid-1970s, is still the architectural core of Epic today.",
+        "quote": "suddenly it all came to me",
+        "timestamp": "32:51"
+      },
+      {
+        "title": "One database: clinical and billing in harmony",
+        "summary": "The hosts identify Epic's decisive advantage: reliability plus fully integrated clinical and revenue-cycle data on Chronicles, while competitors glued together dozens of acquired systems.",
+        "quote": "the clinical side and the billing side are completely stitched together",
+        "timestamp": "54:13"
+      },
+      {
+        "title": "Kaiser 2003: the Model T moment",
+        "summary": "Epic refuses to split the contract with Cerner or grant equity warrants, wins on an all-nighter transaction-capacity model, and the $4 billion Kaiser deal makes it the industry's gold standard.",
+        "quote": "the Kaiser Epic system could become the Model T of its industry",
+        "timestamp": "1:27:05"
+      },
+      {
+        "title": "Verona campus and the Ten Commandments",
+        "summary": "The fairy-tale 1,700-acre campus and bathroom-posted commandments encode Faulkner's 'software factory' culture — and signal permanence to every visiting customer.",
+        "quote": "number one, do not go public",
+        "timestamp": "1:40:08"
+      },
+      {
+        "title": "HITECH: Washington subsidizes an entire industry",
+        "summary": "The 2009 stimulus paid hospitals to adopt and meaningfully use EHRs, taking penetration from 9% to 95% in five years and effectively closing the market around the most reliable incumbent.",
+        "quote": "the government just starts mailing checks to your customers",
+        "timestamp": "2:13:50"
+      },
+      {
+        "title": "The DoD and VA contract debacle",
+        "summary": "Cerner wins the two biggest health-IT contracts in history, then drowns in decade-plus overruns that drag it toward the Oracle acquisition — while Epic, having lost the bids, keeps sweeping marquee health systems.",
+        "quote": "you make more money on failed government contracts than successful ones",
+        "timestamp": "2:40:23"
+      },
+      {
+        "title": "Cosmos: 295 million patients, one research database",
+        "summary": "Anonymized data from 15 billion encounters lets doctors find lookalike patients and researchers spot population-level signals — the long-promised payoff of digitization and the raw material for AI.",
+        "quote": "Cosmos has 295 million patients worth of data in it",
+        "timestamp": "2:54:49"
+      },
+      {
+        "title": "What is Epic actually worth?",
+        "summary": "Running conservative multiples puts Epic near $100 billion — far above Forbes' estimate — making Faulkner arguably the most successful female founder ever, even though the company can never be bought or sold.",
+        "quote": "making her the wealthiest self-made woman in the world",
+        "timestamp": "3:05:24"
+      },
+      {
+        "title": "Quintessence: the vertical-market software playbook",
+        "summary": "The closing analysis argues that in a life-or-death, heavily regulated vertical, building everything in-house and obsessively listening to customers — the opposite of horizontal platform strategy — was exactly the right playbook.",
+        "quote": "this is the correct playbook to win in vertical market software",
+        "timestamp": "3:42:42"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Cold open: the company that breaks every rule",
+        "summary": "The hosts frame Epic as a 47-year-old, ~$6B-revenue private company with no marketing, no VC, no acquisitions — and essentially zero customers ever lost — setting up the mystery of how it became so dominant.",
+        "quote": "They often say no to potential customers who approach them.",
+        "timestamp": "1:12"
+      },
+      {
+        "title": "Judy Greenfield, math prodigy turned programmer",
+        "summary": "Faulkner's origins — a Nobel Peace Prize-sharing mother, an entrepreneur father, and a summer physics lab job — establish the generational programming talent that later let Epic grow without outside capital.",
+        "quote": "Judy teaches herself Fortran in a week",
+        "timestamp": "8:57"
+      },
+      {
+        "title": "Why payers made electronic records existential",
+        "summary": "Once employer insurance, Medicare, and Medicaid meant someone else paid the bill, providers needed standardized, auditable documentation to get reimbursed — the true origin of the EMR-plus-billing market Epic would own.",
+        "quote": "you need documentation of what happened in order to get paid",
+        "timestamp": "25:05"
+      },
+      {
+        "title": "The living-room epiphany that became Chronicles",
+        "summary": "Faulkner's sudden insight for one integrated patient database, scribbled as code on a kitchen notepad in the mid-1970s, is still the architectural core of Epic today.",
+        "quote": "suddenly it all came to me",
+        "timestamp": "32:51"
+      },
+      {
+        "title": "One database: clinical and billing in harmony",
+        "summary": "The hosts identify Epic's decisive advantage: reliability plus fully integrated clinical and revenue-cycle data on Chronicles, while competitors glued together dozens of acquired systems.",
+        "quote": "the clinical side and the billing side are completely stitched together",
+        "timestamp": "54:13"
+      },
+      {
+        "title": "Kaiser 2003: the Model T moment",
+        "summary": "Epic refuses to split the contract with Cerner or grant equity warrants, wins on an all-nighter transaction-capacity model, and the $4 billion Kaiser deal makes it the industry's gold standard.",
+        "quote": "the Kaiser Epic system could become the Model T of its industry",
+        "timestamp": "1:27:05"
+      },
+      {
+        "title": "Verona campus and the Ten Commandments",
+        "summary": "The fairy-tale 1,700-acre campus and bathroom-posted commandments encode Faulkner's 'software factory' culture — and signal permanence to every visiting customer.",
+        "quote": "number one, do not go public",
+        "timestamp": "1:40:08"
+      },
+      {
+        "title": "HITECH: Washington subsidizes an entire industry",
+        "summary": "The 2009 stimulus paid hospitals to adopt and meaningfully use EHRs, taking penetration from 9% to 95% in five years and effectively closing the market around the most reliable incumbent.",
+        "quote": "the government just starts mailing checks to your customers",
+        "timestamp": "2:13:50"
+      },
+      {
+        "title": "The DoD and VA contract debacle",
+        "summary": "Cerner wins the two biggest health-IT contracts in history, then drowns in decade-plus overruns that drag it toward the Oracle acquisition — while Epic, having lost the bids, keeps sweeping marquee health systems.",
+        "quote": "you make more money on failed government contracts than successful ones",
+        "timestamp": "2:40:23"
+      },
+      {
+        "title": "Cosmos: 295 million patients, one research database",
+        "summary": "Anonymized data from 15 billion encounters lets doctors find lookalike patients and researchers spot population-level signals — the long-promised payoff of digitization and the raw material for AI.",
+        "quote": "Cosmos has 295 million patients worth of data in it",
+        "timestamp": "2:54:49"
+      },
+      {
+        "title": "What is Epic actually worth?",
+        "summary": "Running conservative multiples puts Epic near $100 billion — far above Forbes' estimate — making Faulkner arguably the most successful female founder ever, even though the company can never be bought or sold.",
+        "quote": "making her the wealthiest self-made woman in the world",
+        "timestamp": "3:05:24"
+      },
+      {
+        "title": "Quintessence: the vertical-market software playbook",
+        "summary": "The closing analysis argues that in a life-or-death, heavily regulated vertical, building everything in-house and obsessively listening to customers — the opposite of horizontal platform strategy — was exactly the right playbook.",
+        "quote": "this is the correct playbook to win in vertical market software",
+        "timestamp": "3:42:42"
+      }
+    ]
+  },
+  {
+    "slug": "indian-premier-league-cricket",
+    "guid": "d7c80edb-6b20-493c-9362-1f2d94f5df4b",
+    "title": "Indian Premier League Cricket",
+    "pubDate": "Sun, 23 Mar 2025 18:39:34 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/c5d05bfb/3bc12ad7.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/indian-premier-league-cricket",
+    "duration": 15950,
+    "episodeUrl": "/poddy-summaries/episodes/indian-premier-league-cricket/",
+    "summaryPath": "summaries/indian-premier-league-cricket.json",
+    "transcriptPath": "transcripts/indian-premier-league-cricket.txt",
+    "transcriptJsonPath": "transcripts/indian-premier-league-cricket.json",
+    "overview": [
+      "The Indian Premier League proves a top-tier sports league can be built from scratch: launched in 2008, it grew 20x to a $16 billion valuation in 17 years, with per-match media rights second only to the NFL. The mechanism was deliberate product design — compressing polite five-day cricket into a three-hour primetime slugfest, fusing it with Bollywood glamour, and applying the NFL's parity playbook on steroids atop the BCCI's monopoly over players and broadcast rights.",
+      "The engine and the danger are the same man: Lalit Modi, whose vendetta against Rupert Murdoch drove him to commercialize the BCCI, 10x its sponsorships and rights, and architect the IPL — before self-dealing allegations, betting, and a spot-fixing scandal forced him into exile and nearly killed the league. India's Supreme Court intervention in 2015 professionalized governance, unlocking Disney, Reliance, and private equity money, and setting up the case that IPL could someday rival the NFL."
+    ],
+    "takeaways": [
+      {
+        "title": "Cornered players plus central rights built the moat",
+        "detail": "The BCCI paid every Indian cricketer's contract and owned all broadcast rights, so it could threaten lifetime national-team bans against anyone joining the rival Indian Cricket League. That rebel league folded within two seasons, and the IPL launched with guaranteed access to the world's best talent."
+      },
+      {
+        "title": "The player auction beats the salary cap",
+        "detail": "Auctioning players with a fixed maximum and minimum purse collapses all negotiation into one moment where side deals and collusion can't buy extra resources — the only edge is better player evaluation. The cheapest franchise, the Rajasthan Royals, won the first championship on superior analytics while underspending the minimum."
+      },
+      {
+        "title": "IPL was designed to beat soap operas",
+        "detail": "One match per night at 8pm and Bollywood owners like Shah Rukh Khan and Preity Zinta were engineered to win the single-TV household where women controlled the remote. Viewership is now 50-50 male-female, unlocking advertisers no men's league had — a beauty brand jersey sponsorship lifted Lotus Herbals moisturizer sales 20%."
+      },
+      {
+        "title": "Zero-risk deal structures bootstrapped everything",
+        "detail": "Modi pre-sold Nokia a $5 million jersey deal that exactly covered Shah Rukh Khan's first-year franchise payment, and structured the $1 billion media deal so only $60 million was due in year one. Every counterparty faced capped downside in a league where not a ball had been bowled."
+      },
+      {
+        "title": "Demographics could push IPL past the NFL",
+        "detail": "India's ad market grew from $2 billion to $20 billion during the IPL's life while the middle class reached 550 million people — larger than all of America. Compounding 6-7% ad growth plus doubling the match inventory plausibly 10x's media revenue to NFL scale, and industry insiders don't call that crazy."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "The pitch: sports' most interesting story",
+        "summary": "Ben and David frame the episode's thesis — the IPL is a case study in building a massively valuable league in 17 years rather than 100, and a template for the perfect entertainment product.",
+        "quote": "It's about how to create a massively successful sports league from scratch",
+        "timestamp": "1:32"
+      },
+      {
+        "title": "The BCCI discovers it owns something valuable",
+        "summary": "In 1991 India's cricket board didn't even know its broadcast rights had value until South Africa offered 10x what they planned to ask — the moment the sport's latent economics surfaced.",
+        "quote": "we're thinking $200,000. Does that sound good to you?",
+        "timestamp": "15:45"
+      },
+      {
+        "title": "Modi's revenge: tearing up Murdoch's contract",
+        "summary": "Two months into his BCCI tenure, Modi terminates Star's cheap rights deal over Friday tea and manufactures a rival bidder in Nimbus, 10x-ing the value of Indian cricket and shutting out his nemesis.",
+        "quote": "Mr. Murdoch, I am informing you that your contract is terminated right now",
+        "timestamp": "41:01"
+      },
+      {
+        "title": "T20 makes cricket a primetime product",
+        "summary": "England's dying-sport desperation produced the 120-ball format that compresses cricket to three hours — the raw material that lets the IPL compete in the evening entertainment slot for the first time.",
+        "quote": "Finally, we have a cricket for the masses",
+        "timestamp": "52:22"
+      },
+      {
+        "title": "Six sixes, a Porsche, and a World Cup",
+        "summary": "Modi's bounty produces one of cricket's rarest feats, and India's underdog kids win the first T20 World Cup against Pakistan before 400 million viewers — perfect fertile ground for the IPL's launch.",
+        "quote": "It turned the entire country upside down",
+        "timestamp": "1:08:39"
+      },
+      {
+        "title": "Designing a league for women and Bollywood",
+        "summary": "The IPL's core insight: don't compete with cricket, compete with 8pm soap operas by putting Shah Rukh Khan and Bollywood in the ownership groups — the move that unlocked entirely new advertising budgets.",
+        "quote": "We wanted to compete with the soap operas",
+        "timestamp": "1:25:40"
+      },
+      {
+        "title": "The Sotheby's-style player auction",
+        "summary": "Modi replaces salary-cap gamesmanship with a transparent auction that collapses all dealing into one moment, and deliberately weaponizes the outrage it generates as free front-page marketing.",
+        "quote": "we needed to have a department called controversy",
+        "timestamp": "2:02:43"
+      },
+      {
+        "title": "Season one works instantly",
+        "summary": "Unlike almost every business Acquired covers, the IPL succeeds immediately — 4.9% of all Indian televisions watch the average match, validating the entire high-wire structure of year-one promises.",
+        "quote": "explosive right away is an understatement",
+        "timestamp": "2:24:27"
+      },
+      {
+        "title": "Scandal forces the Supreme Court cleanup",
+        "summary": "Modi's ouster, folding expansion teams, and a spot-fixing bust involving the BCCI chairman's own franchise nearly kill the league — until court-imposed governance reforms make it safe for global institutional capital.",
+        "quote": "this forces the government of India to step in",
+        "timestamp": "2:49:14"
+      },
+      {
+        "title": "Disney loses the streaming rights",
+        "summary": "The 2022 split of TV and digital rights hands streaming to Reliance's Viacom 18, triggering Disney+'s first subscriber decline and showing the IPL now moves the fortunes of global media giants.",
+        "quote": "And now they lose IPL digital streaming rights",
+        "timestamp": "3:09:27"
+      },
+      {
+        "title": "The bull case: NFL scale on demographics alone",
+        "summary": "India's ad market compounding at 6-7% for 20 years, plus inevitable expansion of teams and season length, gets IPL media revenue into NFL territory without any heroic assumptions.",
+        "quote": "the Indian ad market will support 10x IPL media rights revenues",
+        "timestamp": "3:30:16"
+      },
+      {
+        "title": "Quintessence: the perfect sports product",
+        "summary": "David's closing argument — the IPL was architected from whole cloth for the post-television, streaming, and social media world, improving on what the NFL took a century of accidents to approximate.",
+        "quote": "the thus far most perfect sports entertainment product that mankind has ever known",
+        "timestamp": "4:16:14"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "The pitch: sports' most interesting story",
+        "summary": "Ben and David frame the episode's thesis — the IPL is a case study in building a massively valuable league in 17 years rather than 100, and a template for the perfect entertainment product.",
+        "quote": "It's about how to create a massively successful sports league from scratch",
+        "timestamp": "1:32"
+      },
+      {
+        "title": "The BCCI discovers it owns something valuable",
+        "summary": "In 1991 India's cricket board didn't even know its broadcast rights had value until South Africa offered 10x what they planned to ask — the moment the sport's latent economics surfaced.",
+        "quote": "we're thinking $200,000. Does that sound good to you?",
+        "timestamp": "15:45"
+      },
+      {
+        "title": "Modi's revenge: tearing up Murdoch's contract",
+        "summary": "Two months into his BCCI tenure, Modi terminates Star's cheap rights deal over Friday tea and manufactures a rival bidder in Nimbus, 10x-ing the value of Indian cricket and shutting out his nemesis.",
+        "quote": "Mr. Murdoch, I am informing you that your contract is terminated right now",
+        "timestamp": "41:01"
+      },
+      {
+        "title": "T20 makes cricket a primetime product",
+        "summary": "England's dying-sport desperation produced the 120-ball format that compresses cricket to three hours — the raw material that lets the IPL compete in the evening entertainment slot for the first time.",
+        "quote": "Finally, we have a cricket for the masses",
+        "timestamp": "52:22"
+      },
+      {
+        "title": "Six sixes, a Porsche, and a World Cup",
+        "summary": "Modi's bounty produces one of cricket's rarest feats, and India's underdog kids win the first T20 World Cup against Pakistan before 400 million viewers — perfect fertile ground for the IPL's launch.",
+        "quote": "It turned the entire country upside down",
+        "timestamp": "1:08:39"
+      },
+      {
+        "title": "Designing a league for women and Bollywood",
+        "summary": "The IPL's core insight: don't compete with cricket, compete with 8pm soap operas by putting Shah Rukh Khan and Bollywood in the ownership groups — the move that unlocked entirely new advertising budgets.",
+        "quote": "We wanted to compete with the soap operas",
+        "timestamp": "1:25:40"
+      },
+      {
+        "title": "The Sotheby's-style player auction",
+        "summary": "Modi replaces salary-cap gamesmanship with a transparent auction that collapses all dealing into one moment, and deliberately weaponizes the outrage it generates as free front-page marketing.",
+        "quote": "we needed to have a department called controversy",
+        "timestamp": "2:02:43"
+      },
+      {
+        "title": "Season one works instantly",
+        "summary": "Unlike almost every business Acquired covers, the IPL succeeds immediately — 4.9% of all Indian televisions watch the average match, validating the entire high-wire structure of year-one promises.",
+        "quote": "explosive right away is an understatement",
+        "timestamp": "2:24:27"
+      },
+      {
+        "title": "Scandal forces the Supreme Court cleanup",
+        "summary": "Modi's ouster, folding expansion teams, and a spot-fixing bust involving the BCCI chairman's own franchise nearly kill the league — until court-imposed governance reforms make it safe for global institutional capital.",
+        "quote": "this forces the government of India to step in",
+        "timestamp": "2:49:14"
+      },
+      {
+        "title": "Disney loses the streaming rights",
+        "summary": "The 2022 split of TV and digital rights hands streaming to Reliance's Viacom 18, triggering Disney+'s first subscriber decline and showing the IPL now moves the fortunes of global media giants.",
+        "quote": "And now they lose IPL digital streaming rights",
+        "timestamp": "3:09:27"
+      },
+      {
+        "title": "The bull case: NFL scale on demographics alone",
+        "summary": "India's ad market compounding at 6-7% for 20 years, plus inevitable expansion of teams and season length, gets IPL media revenue into NFL territory without any heroic assumptions.",
+        "quote": "the Indian ad market will support 10x IPL media rights revenues",
+        "timestamp": "3:30:16"
+      },
+      {
+        "title": "Quintessence: the perfect sports product",
+        "summary": "David's closing argument — the IPL was architected from whole cloth for the post-television, streaming, and social media world, improving on what the NFL took a century of accidents to approximate.",
+        "quote": "the thus far most perfect sports entertainment product that mankind has ever known",
+        "timestamp": "4:16:14"
+      }
+    ]
+  },
+  {
+    "slug": "tsmc-founder-morris-chang",
+    "guid": "a2fe3257-19eb-48f1-b08e-b815af25cc28",
+    "title": "TSMC Founder Morris Chang",
+    "pubDate": "Sun, 26 Jan 2025 18:35:00 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/9a264053/327df5d5.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/tsmc-founder-morris-chang",
+    "duration": 10538,
+    "episodeUrl": "/poddy-summaries/episodes/tsmc-founder-morris-chang/",
+    "summaryPath": "summaries/tsmc-founder-morris-chang.json",
+    "transcriptPath": "transcripts/tsmc-founder-morris-chang.txt",
+    "transcriptJsonPath": "transcripts/tsmc-founder-morris-chang.json",
+    "overview": [
+      "Ben and David interview 93-year-old TSMC founder Morris Chang in Taipei, drawing on his untranslated second memoir. The episode's core argument: TSMC became the world's most important chipmaker because it mastered learning-curve economics and, uniquely among leading-edge foundries, never competes with its customers — a trust advantage that won NVIDIA in 1997, landed Apple in 2010, and ultimately beat Intel despite Intel's superior reputation.",
+      "The central arc is Chang's 2009 return as CEO. He reversed a layoff of roughly 700 employees, settled a 40-nanometer quality dispute with NVIDIA for over $100 million within 48 hours, then tripled capital spending on 28 nanometers over board objections. That set up the bet-the-company Apple relationship — a 20-nanometer detour that let Samsung snatch Apple's first 16-nanometer orders before TSMC won the business back."
+    ],
+    "takeaways": [
+      {
+        "title": "Fixed 8% R&D budget powered the 28-nanometer bet",
+        "detail": "Chang ended annual budget haggling by fixing R&D at 8% of revenue, recession or not. Emboldened researchers called 28nm 'the sweet spot,' he tripled capex to roughly $6 billion in 2010 over director objections, and the node collided perfectly with the smartphone era."
+      },
+      {
+        "title": "TSMC deliberately took only half of Apple's demand",
+        "detail": "Apple's 20-nanometer request arrived right after the 28nm spending surge, so Chang financed it with corporate bonds rather than cutting the dividend that a third of shareholders depended on — and committed to just half the volume Apple asked for. Apple's purchasing staff said 'you must be crazy,' but Jeff Williams accepted."
+      },
+      {
+        "title": "Customer trust, not technology, beat Intel for Apple",
+        "detail": "In February 2011 Intel's CEO persuaded Tim Cook to pause TSMC talks for two months. A month later Cook told Chang there was nothing to worry about because 'Intel just does not know how to be a foundry' — Chang knew Taiwanese PC makers neither liked nor trusted Intel."
+      },
+      {
+        "title": "Performance-rating layoffs destroy credibility and rarely save money",
+        "detail": "The 600–700 cuts rested on subjective ratings from as many supervisors, and protesters camped near Chang's home. His math: separation pay costs about half a year and training a replacement takes another half year, so if you would rehire within a year you should never lay off."
+      },
+      {
+        "title": "Learning-curve pricing makes chip manufacturing a natural monopoly",
+        "detail": "Chang refined BCG's experience curve with Bill Bain at Texas Instruments: price toward future costs, seize volume, and ride costs down faster than rivals. With fabs costing $20 billion and heading toward $100 billion, only the highest-volume player can keep reinvesting — one winner was structurally inevitable."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "How two podcasters landed Morris Chang",
+        "summary": "Ben and David explain the Hail Mary — asking Jensen Huang to broker the interview — and their source material: an unpublished English translation of Chang's new Chinese-language memoir.",
+        "quote": "We threw the Hail Mary.",
+        "timestamp": "1:06"
+      },
+      {
+        "title": "Jensen's 1997 letter starts the NVIDIA relationship",
+        "summary": "A near-bankrupt, 50-person NVIDIA writes directly to Chang after TSMC's San Jose office ignores it; his unannounced return call begins a partnership that made NVIDIA a top-five customer within three years.",
+        "quote": "quiet. Morris Chan is calling me",
+        "timestamp": "6:19"
+      },
+      {
+        "title": "The 40-nanometer crisis pulls Chang back as CEO",
+        "summary": "Yield and quality failures on TSMC's most important node — with NVIDIA bearing the brunt and offered nothing — become one of the priority problems driving Chang to retake the CEO job in 2009.",
+        "quote": "we had the quality delivery manufacturing problem on the 40 nanometer",
+        "timestamp": "12:57"
+      },
+      {
+        "title": "Why Chang refuses performance-rating layoffs",
+        "summary": "Chang dismantles his successor's layoff of 600–700 workers as subjective and uneconomic, while protesters camp near his home and his wife Sophie brings them breakfast — the episode's window into his management philosophy.",
+        "quote": "people would not respect us if we lay off by performance ratings",
+        "timestamp": "19:32"
+      },
+      {
+        "title": "Pizza at Jensen's house and a 48-hour offer",
+        "summary": "After weeks computing a fair number, Chang settles the 40nm dispute over dinner at Jensen Huang's home with an offer above $100 million and a 48-hour deadline — where the prior CEO had offered zero.",
+        "quote": "our offer is effective 48 hours",
+        "timestamp": "33:38"
+      },
+      {
+        "title": "8% R&D and the all-in 28-nanometer bet",
+        "summary": "A fixed R&D budget frees engineers to identify 28nm as the industry's sweet spot; Chang triples capital spending to about $6 billion over independent directors' resistance, quoting Shakespeare's tide taken at the flood.",
+        "quote": "28 is going to be the sweet spot",
+        "timestamp": "43:42"
+      },
+      {
+        "title": "Terry Gou brings Apple's COO to dinner",
+        "summary": "Foxconn's founder — Sophie Chang's second cousin — arrives at Chang's home with Jeff Williams, who starts pitching almost as soon as he sits down, opening a relationship TSMC could never have initiated with secretive Apple.",
+        "quote": "We would like you to foundry our waivers",
+        "timestamp": "1:13:03"
+      },
+      {
+        "title": "Financing Apple: bonds, dividends, half the order",
+        "summary": "The 20nm ask lands right after the 28nm capex surge, so Chang borrows billions instead of cutting the dividend and, with Goldman Sachs counsel, commits to only half of Apple's requested capacity.",
+        "quote": "we decided we will take half of what you asked for",
+        "timestamp": "1:30:33"
+      },
+      {
+        "title": "Tim Cook ends the Intel scare",
+        "summary": "After Intel's CEO gets Apple to pause TSMC talks, Cook personally reassures Chang over a cafeteria lunch — crystallizing that responsiveness and customer trust, not process technology alone, decided the iPhone business.",
+        "quote": "Intel just does not know how to be a foundry",
+        "timestamp": "1:43:00"
+      },
+      {
+        "title": "Samsung shocks TSMC on 16 nanometer",
+        "summary": "The 20nm detour delayed TSMC's 16nm development, letting Samsung — which skipped 20 — win Apple's first 16nm orders. Jeff Williams flew to Hsinchu to promise the volume back once TSMC was ready, and it returned.",
+        "quote": "I got a shock. I mean, it was a real shock",
+        "timestamp": "1:51:02"
+      },
+      {
+        "title": "Gordon Campbell shows Chang the fabless future",
+        "summary": "At General Instrument, a founder cuts his funding ask from $50 million to $5 million because he won't build a fab — the glimpse that convinced Chang a pure-play foundry would eventually have abundant customers.",
+        "quote": "I'm not going to build a fab",
+        "timestamp": "2:17:34"
+      },
+      {
+        "title": "Postgame: learning curves and natural monopoly",
+        "summary": "The hosts synthesize the playbook: price ahead of costs to seize volume, reinvest more than anyone else can, and let $20-billion-and-rising fab costs turn the leading edge into a winner-take-all market.",
+        "quote": "This market has natural monopoly characteristics",
+        "timestamp": "2:41:00"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "How two podcasters landed Morris Chang",
+        "summary": "Ben and David explain the Hail Mary — asking Jensen Huang to broker the interview — and their source material: an unpublished English translation of Chang's new Chinese-language memoir.",
+        "quote": "We threw the Hail Mary.",
+        "timestamp": "1:06"
+      },
+      {
+        "title": "Jensen's 1997 letter starts the NVIDIA relationship",
+        "summary": "A near-bankrupt, 50-person NVIDIA writes directly to Chang after TSMC's San Jose office ignores it; his unannounced return call begins a partnership that made NVIDIA a top-five customer within three years.",
+        "quote": "quiet. Morris Chan is calling me",
+        "timestamp": "6:19"
+      },
+      {
+        "title": "The 40-nanometer crisis pulls Chang back as CEO",
+        "summary": "Yield and quality failures on TSMC's most important node — with NVIDIA bearing the brunt and offered nothing — become one of the priority problems driving Chang to retake the CEO job in 2009.",
+        "quote": "we had the quality delivery manufacturing problem on the 40 nanometer",
+        "timestamp": "12:57"
+      },
+      {
+        "title": "Why Chang refuses performance-rating layoffs",
+        "summary": "Chang dismantles his successor's layoff of 600–700 workers as subjective and uneconomic, while protesters camp near his home and his wife Sophie brings them breakfast — the episode's window into his management philosophy.",
+        "quote": "people would not respect us if we lay off by performance ratings",
+        "timestamp": "19:32"
+      },
+      {
+        "title": "Pizza at Jensen's house and a 48-hour offer",
+        "summary": "After weeks computing a fair number, Chang settles the 40nm dispute over dinner at Jensen Huang's home with an offer above $100 million and a 48-hour deadline — where the prior CEO had offered zero.",
+        "quote": "our offer is effective 48 hours",
+        "timestamp": "33:38"
+      },
+      {
+        "title": "8% R&D and the all-in 28-nanometer bet",
+        "summary": "A fixed R&D budget frees engineers to identify 28nm as the industry's sweet spot; Chang triples capital spending to about $6 billion over independent directors' resistance, quoting Shakespeare's tide taken at the flood.",
+        "quote": "28 is going to be the sweet spot",
+        "timestamp": "43:42"
+      },
+      {
+        "title": "Terry Gou brings Apple's COO to dinner",
+        "summary": "Foxconn's founder — Sophie Chang's second cousin — arrives at Chang's home with Jeff Williams, who starts pitching almost as soon as he sits down, opening a relationship TSMC could never have initiated with secretive Apple.",
+        "quote": "We would like you to foundry our waivers",
+        "timestamp": "1:13:03"
+      },
+      {
+        "title": "Financing Apple: bonds, dividends, half the order",
+        "summary": "The 20nm ask lands right after the 28nm capex surge, so Chang borrows billions instead of cutting the dividend and, with Goldman Sachs counsel, commits to only half of Apple's requested capacity.",
+        "quote": "we decided we will take half of what you asked for",
+        "timestamp": "1:30:33"
+      },
+      {
+        "title": "Tim Cook ends the Intel scare",
+        "summary": "After Intel's CEO gets Apple to pause TSMC talks, Cook personally reassures Chang over a cafeteria lunch — crystallizing that responsiveness and customer trust, not process technology alone, decided the iPhone business.",
+        "quote": "Intel just does not know how to be a foundry",
+        "timestamp": "1:43:00"
+      },
+      {
+        "title": "Samsung shocks TSMC on 16 nanometer",
+        "summary": "The 20nm detour delayed TSMC's 16nm development, letting Samsung — which skipped 20 — win Apple's first 16nm orders. Jeff Williams flew to Hsinchu to promise the volume back once TSMC was ready, and it returned.",
+        "quote": "I got a shock. I mean, it was a real shock",
+        "timestamp": "1:51:02"
+      },
+      {
+        "title": "Gordon Campbell shows Chang the fabless future",
+        "summary": "At General Instrument, a founder cuts his funding ask from $50 million to $5 million because he won't build a fab — the glimpse that convinced Chang a pure-play foundry would eventually have abundant customers.",
+        "quote": "I'm not going to build a fab",
+        "timestamp": "2:17:34"
+      },
+      {
+        "title": "Postgame: learning curves and natural monopoly",
+        "summary": "The hosts synthesize the playbook: price ahead of costs to seize volume, reinvest more than anyone else can, and let $20-billion-and-rising fab costs turn the leading edge into a winner-take-all market.",
+        "quote": "This market has natural monopoly characteristics",
+        "timestamp": "2:41:00"
+      }
+    ]
+  },
+  {
+    "slug": "mars-inc-the-chocolate-story",
+    "guid": "9ab7f5fd-7774-4c48-8d0b-001b8c682c9d",
+    "title": "Mars Inc. (the chocolate story)",
+    "pubDate": "Sun, 15 Dec 2024 17:57:15 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/65646a4e/4312fe62.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/mars-inc-the-chocolate-story",
+    "duration": 13962,
+    "episodeUrl": "/poddy-summaries/episodes/mars-inc-the-chocolate-story/",
+    "summaryPath": "summaries/mars-inc-the-chocolate-story.json",
+    "transcriptPath": "transcripts/mars-inc-the-chocolate-story.txt",
+    "transcriptJsonPath": "transcripts/mars-inc-the-chocolate-story.json",
+    "overview": [
+      "What sounds like lighthearted holiday fare about candy is actually one of the great untold American business epics: Mars is a $50 billion revenue private company that out-earns Coca-Cola, owned entirely by America's second-wealthiest family. The episode argues that Forrest Mars Sr. — reclusive, ruthless, and systems-obsessed — belongs alongside Sam Walton and Henry Ford, having mastered scale economies, modern marketing, and vertical integration decades before those became standard playbooks.",
+      "The driving arc is a father-son rupture: denied a one-third stake in Frank Mars's company, Forrest exiles himself to Europe, learns chocolate-making undercover on Nestlé's factory lines, then returns to build M&M's using his chief rival Hershey's own chocolate, capital, and military contracts — before buying back his father's company outright. The tension throughout is Mars's relentless efficiency against Hershey, the complacent trust-owned incumbent that supplied its own destroyer."
+    ],
+    "takeaways": [
+      {
+        "title": "First to market sets a nation's taste",
+        "detail": "Hershey's milk chocolate carried a sour note — likely from spoiled milk in his trial-and-error process — yet because he was first at scale, that flavor became what Americans think chocolate is. Nostalgia compounds the lock-in: 75% of candy is eaten by adults reaching back to childhood taste memories."
+      },
+      {
+        "title": "Forrest built M&M's using Hershey's own resources",
+        "detail": "By giving Hershey president William Murray's son Bruce a 20% stake, Forrest secured chocolate, sugar, capital, and access to the military's exclusive chocolate contract during WWII rationing — from his biggest rival. He then pushed Bruce out in 1949, buying full control for $1 million."
+      },
+      {
+        "title": "ROTA, not profit, is Mars's master metric",
+        "detail": "From T.G. Rose's obscure management textbook, Forrest adopted return on total assets — with assets constantly re-marked to replacement value, not book cost. The 18% target forces every factory investment to pay back in roughly five years, and pairing it with 2-4x market pay keeps output per employee nearly double Hershey's."
+      },
+      {
+        "title": "Cheaper fillings gave Mars durable price-war advantage",
+        "detail": "Snickers and Milky Way are mostly nougat, caramel, and peanuts sealed in chocolate — far lower cost-of-goods than Hershey's all-chocolate bar for equal perceived value. When cocoa prices spiked, Mars announced bigger bars at lower prices, boxing Hershey in and passing it as America's top candy company in 1973."
+      },
+      {
+        "title": "Mars is really a pet-care company",
+        "detail": "Pet care generates 59% of Mars's $50 billion revenue and employs roughly 100,000 of its 140,000 people, spanning Pedigree, Whiskas, Royal Canin prescription food, and thousands of Banfield and VCA veterinary hospitals. The candy empire the episode chronicles is now the smaller half of the business."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Bigger than Coca-Cola and still private",
+        "summary": "The hosts frame the stakes: a company most people know only through M&M's commercials quietly does more revenue than Coca-Cola while remaining one of America's five largest private companies.",
+        "quote": "Mars crossed $50 billion in sales last year",
+        "timestamp": "3:11"
+      },
+      {
+        "title": "Frank Mars fails his way to a company",
+        "summary": "Polio, penny candy, and three bankruptcies precede the 1920 venture that finally works — establishing how fragile the pre-chocolate candy business was and how unlikely Mars's origin is.",
+        "quote": "Candy company number four now in total, if you're keeping track at home",
+        "timestamp": "12:25"
+      },
+      {
+        "title": "Hershey's sour accident defines American chocolate",
+        "summary": "After a deep tour of why chocolate is so hard to manufacture, the episode lands its key strategic insight: Hershey's slightly spoiled formula became the national reference taste because he scaled first.",
+        "quote": "the most important thing in the business is being first to market",
+        "timestamp": "31:28"
+      },
+      {
+        "title": "A jail cell, a milkshake, the Milky Way",
+        "summary": "The legend of Forrest's reunion with his father — bailed out of a Chicago jail, pitching a malted-milkshake candy bar over lunch — produces the product that takes Mars from $73,000 to $793,000 in one year.",
+        "quote": "But that damn thing sold. No advertising.",
+        "timestamp": "48:51"
+      },
+      {
+        "title": "The ultimatum that splits the family",
+        "summary": "Forrest demands a third of the company from his contented father, is refused, and leaves for Europe with $50,000 and the foreign Milky Way rights — the last time father and son ever speak.",
+        "quote": "I want to conquer the whole goddamn world",
+        "timestamp": "1:07:46"
+      },
+      {
+        "title": "Undercover on Nestlé's factory lines",
+        "summary": "Rather than hire expertise, Forrest anonymously works as a line worker at Tobler and Nestlé to learn chocolate-making itself — the scarce skill his father never had — before launching the Mars Bar in England.",
+        "quote": "He doesn't tell anybody who he is.",
+        "timestamp": "1:14:27"
+      },
+      {
+        "title": "The five principles and the ROTA religion",
+        "summary": "In Slough, Forrest codifies the culture that still runs Mars: obsessive quality, 3-4x pay tied to company performance, open offices, time cards for everyone, and return on total assets as the governing metric.",
+        "quote": "everything is about ROTA",
+        "timestamp": "1:36:06"
+      },
+      {
+        "title": "The audacious M&M's deal with Hershey",
+        "summary": "Forrest's most brilliant scheme: an unannounced factory-tour visit becomes an 80/20 joint venture with Hershey president William Murray's son, securing chocolate, capital, and military sales channels from his greatest rival on the eve of WWII.",
+        "quote": "Just tell him Mars is here. That's all he needs to know.",
+        "timestamp": "1:52:17"
+      },
+      {
+        "title": "Melts in your mouth, not in your hand",
+        "summary": "After years of tepid consumer sales, market research reveals kids love M&M's but parents buy them — and the resulting slogan makes M&M's America's best-selling candy by 1956, marking the shift from product innovation to marketing as the industry's battleground.",
+        "quote": "The milk chocolate that melts in your mouth, not in your hand.",
+        "timestamp": "2:13:03"
+      },
+      {
+        "title": "The nickel bar blunder hands Mars the crown",
+        "summary": "Hershey's 70 years of frozen pricing and shrinking bars collide with inflation in 1969; Forrest counterattacks with bigger bars, heavy advertising, and his cheaper cost structure, and Mars becomes America's number one candy company in 1973.",
+        "quote": "they kept the price at a nickel from 1900 until November 1969",
+        "timestamp": "2:39:24"
+      },
+      {
+        "title": "The reveal: candy is the smaller business",
+        "summary": "After walking through Wrigley, Royal Canin, Banfield, VCA, and the pending $35.9 billion Kelanova deal, the hosts disclose what they hid all episode — pet care, not snacking, is 59% of Mars's revenue.",
+        "quote": "they are a pet food company that also makes candy",
+        "timestamp": "3:13:44"
+      },
+      {
+        "title": "Quintessence: the first modern company",
+        "summary": "The closing analysis places Forrest among the greatest American entrepreneurs and argues his 1930s innovations — open offices, scientific management, diversification, market research — simply became how business is done, though his path could never be replicated today.",
+        "quote": "Mars is one of the first modern companies",
+        "timestamp": "3:38:07"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Bigger than Coca-Cola and still private",
+        "summary": "The hosts frame the stakes: a company most people know only through M&M's commercials quietly does more revenue than Coca-Cola while remaining one of America's five largest private companies.",
+        "quote": "Mars crossed $50 billion in sales last year",
+        "timestamp": "3:11"
+      },
+      {
+        "title": "Frank Mars fails his way to a company",
+        "summary": "Polio, penny candy, and three bankruptcies precede the 1920 venture that finally works — establishing how fragile the pre-chocolate candy business was and how unlikely Mars's origin is.",
+        "quote": "Candy company number four now in total, if you're keeping track at home",
+        "timestamp": "12:25"
+      },
+      {
+        "title": "Hershey's sour accident defines American chocolate",
+        "summary": "After a deep tour of why chocolate is so hard to manufacture, the episode lands its key strategic insight: Hershey's slightly spoiled formula became the national reference taste because he scaled first.",
+        "quote": "the most important thing in the business is being first to market",
+        "timestamp": "31:28"
+      },
+      {
+        "title": "A jail cell, a milkshake, the Milky Way",
+        "summary": "The legend of Forrest's reunion with his father — bailed out of a Chicago jail, pitching a malted-milkshake candy bar over lunch — produces the product that takes Mars from $73,000 to $793,000 in one year.",
+        "quote": "But that damn thing sold. No advertising.",
+        "timestamp": "48:51"
+      },
+      {
+        "title": "The ultimatum that splits the family",
+        "summary": "Forrest demands a third of the company from his contented father, is refused, and leaves for Europe with $50,000 and the foreign Milky Way rights — the last time father and son ever speak.",
+        "quote": "I want to conquer the whole goddamn world",
+        "timestamp": "1:07:46"
+      },
+      {
+        "title": "Undercover on Nestlé's factory lines",
+        "summary": "Rather than hire expertise, Forrest anonymously works as a line worker at Tobler and Nestlé to learn chocolate-making itself — the scarce skill his father never had — before launching the Mars Bar in England.",
+        "quote": "He doesn't tell anybody who he is.",
+        "timestamp": "1:14:27"
+      },
+      {
+        "title": "The five principles and the ROTA religion",
+        "summary": "In Slough, Forrest codifies the culture that still runs Mars: obsessive quality, 3-4x pay tied to company performance, open offices, time cards for everyone, and return on total assets as the governing metric.",
+        "quote": "everything is about ROTA",
+        "timestamp": "1:36:06"
+      },
+      {
+        "title": "The audacious M&M's deal with Hershey",
+        "summary": "Forrest's most brilliant scheme: an unannounced factory-tour visit becomes an 80/20 joint venture with Hershey president William Murray's son, securing chocolate, capital, and military sales channels from his greatest rival on the eve of WWII.",
+        "quote": "Just tell him Mars is here. That's all he needs to know.",
+        "timestamp": "1:52:17"
+      },
+      {
+        "title": "Melts in your mouth, not in your hand",
+        "summary": "After years of tepid consumer sales, market research reveals kids love M&M's but parents buy them — and the resulting slogan makes M&M's America's best-selling candy by 1956, marking the shift from product innovation to marketing as the industry's battleground.",
+        "quote": "The milk chocolate that melts in your mouth, not in your hand.",
+        "timestamp": "2:13:03"
+      },
+      {
+        "title": "The nickel bar blunder hands Mars the crown",
+        "summary": "Hershey's 70 years of frozen pricing and shrinking bars collide with inflation in 1969; Forrest counterattacks with bigger bars, heavy advertising, and his cheaper cost structure, and Mars becomes America's number one candy company in 1973.",
+        "quote": "they kept the price at a nickel from 1900 until November 1969",
+        "timestamp": "2:39:24"
+      },
+      {
+        "title": "The reveal: candy is the smaller business",
+        "summary": "After walking through Wrigley, Royal Canin, Banfield, VCA, and the pending $35.9 billion Kelanova deal, the hosts disclose what they hid all episode — pet care, not snacking, is 59% of Mars's revenue.",
+        "quote": "they are a pet food company that also makes candy",
+        "timestamp": "3:13:44"
+      },
+      {
+        "title": "Quintessence: the first modern company",
+        "summary": "The closing analysis places Forrest among the greatest American entrepreneurs and argues his 1930s innovations — open offices, scientific management, diversification, market research — simply became how business is done, though his path could never be replicated today.",
+        "quote": "Mars is one of the first modern companies",
+        "timestamp": "3:38:07"
       }
     ]
   }

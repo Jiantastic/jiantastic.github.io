@@ -36,6 +36,39 @@ def main():
     poddy_dir = data_dir.parents[1]
     episodes = load(data_dir / "episodes.json")
     errors = []
+    transcript_files = sorted((data_dir / "transcripts").glob("*.json"))
+
+    for transcript_path in transcript_files:
+        slug = transcript_path.stem
+        try:
+            transcript = load(transcript_path)
+        except (FileNotFoundError, json.JSONDecodeError) as error:
+            errors.append(f"{slug}: unreadable transcript: {error}")
+            continue
+        segments = transcript.get("segments")
+        paragraphs = transcript.get("paragraphs")
+        if not isinstance(segments, list) or not segments:
+            errors.append(f"{slug}: transcript has no ASR segments")
+            continue
+        if not isinstance(paragraphs, list) or not paragraphs:
+            errors.append(f"{slug}: transcript has no readable paragraphs")
+            continue
+        starts = [float(item.get("start") or 0) for item in paragraphs]
+        if starts != sorted(starts):
+            errors.append(f"{slug}: transcript timestamps are not ordered")
+        if not all(str(item.get("text") or "").strip() for item in paragraphs):
+            errors.append(f"{slug}: transcript contains an empty paragraph")
+        duration = max(float(item.get("end") or 0) for item in segments)
+        words = sum(len(str(item.get("text") or "").split()) for item in paragraphs)
+        words_per_minute = words / (duration / 60) if duration else 0
+        if duration > 300 and not 90 <= words_per_minute <= 230:
+            errors.append(
+                f"{slug}: suspicious transcript rate ({words_per_minute:.1f} words/minute)"
+            )
+        for suffix in (".txt", "-timed.txt"):
+            export_path = transcript_path.with_name(f"{slug}{suffix}")
+            if not export_path.is_file() or export_path.stat().st_size == 0:
+                errors.append(f"{slug}: missing {suffix} transcript export")
 
     for episode in episodes:
         slug = episode.get("slug") or "<missing-slug>"
@@ -105,7 +138,10 @@ def main():
     if errors:
         print("\n".join(f"ERROR {error}" for error in errors))
         raise SystemExit(1)
-    print(f"Validated {len(episodes)} Acquired episode guides and permanent pages")
+    print(
+        f"Validated {len(episodes)} Acquired episode guides, permanent pages, "
+        f"and {len(transcript_files)} local transcript sets"
+    )
 
 
 if __name__ == "__main__":

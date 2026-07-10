@@ -2,12 +2,15 @@
 import argparse
 import json
 import re
+import unicodedata
 from time import mktime
 import feedparser
 
 
 def slugify(text: str) -> str:
-    text = text.lower()
+    text = unicodedata.normalize("NFKD", text)
+    text = text.replace("'", "").replace("’", "")
+    text = text.encode("ascii", "ignore").decode("ascii").lower()
     text = re.sub(r"[^a-z0-9]+", "-", text)
     text = re.sub(r"-+", "-", text).strip("-")
     return text or "episode"
