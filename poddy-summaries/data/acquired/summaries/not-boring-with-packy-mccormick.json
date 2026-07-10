@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Packy McCormick turns a failed pandemic-era social club into Not Boring, a free strategy newsletter that grows from roughly 1,000 subscribers to 88,460 in about 18 months. Instead of placing essays behind a paywall, he maximizes reach, surveys the audience, and sells scarce sponsorships and company deep dives to businesses that value its unusually concentrated population of founders and decision-makers. By late 2021, the one-person media company was approaching its public goal of $1 million in annual revenue.",
+    "The more consequential move is Not Boring Capital. Editorial credibility attracts founders, readers become LPs and collaborators, investments produce firsthand material, and AngelList supplies a venture firm's legal and operational back office. The result is a creator-investor flywheel unavailable a decade earlier. Yet its power depends on alignment rather than raw reach: founders care when they already trust the writing. McCormick cannot delegate the core voice easily, and indiscriminate sponsors, products, hiring, or capital would dilute the very independence that creates deal flow."
+  ],
+  "takeaways": [
+    {
+      "title": "Free distribution enlarged every later option",
+      "detail": "McCormick repeatedly postponed paid subscriptions because even a successful conversion would cap sharing and audience growth. A larger free readership increased sponsorship pricing, founder access, investment sourcing, reputation, and future product flexibility—making attention more valuable than predictable subscription revenue at that stage."
+    },
+    {
+      "title": "Audience quality matters more than size",
+      "detail": "A broad million-person list would not create the same economics. Not Boring attracted technology operators, founders, investors, and budget owners through dense strategy writing. Sponsors value measurable access to that group, while founders value an investment only when prior reading has already established trust."
+    },
+    {
+      "title": "Sponsored analysis must remain editorially credible",
+      "detail": "McCormick aims to publish the best existing explanation of each sponsor, rejects companies that are not interesting to readers, demands access, and holds price because skipping a paid piece returns scarce time. The model works only while the audience believes selection and analysis remain genuine."
+    },
+    {
+      "title": "Software unbundled the media-investment firm",
+      "detail": "Substack supplies publishing and email delivery; Twitter supplies discovery; AngelList supplies fundraising, compliance, reporting, and human operational expertise. Those modular systems let one person operate both a media company and a 91-company venture portfolio without recreating the staffs of a publisher or fund."
+    },
+    {
+      "title": "Personal leverage creates personal fragility",
+      "detail": "The creator's voice is the product, a cornered resource, and the bottleneck. Hiring writers risks changing expectations; taking time off slows momentum; selling unrelated products can turn trust into a shill factory; joining a large fund immediately reduces the independent perspective it hoped to acquire."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Breather teaches unglamorous operating range",
+      "summary": "McCormick enters a startup through persistence, cleans rooms when vendors fail, builds New York into half of company revenue, and eventually manages a 150-person cross-functional organization—experience that grounds his later strategy writing.",
+      "quote": "none of it was particularly easy",
+      "timestamp": "29:18"
+    },
+    {
+      "title": "Writing begins as public idea discovery",
+      "summary": "A course assignment becomes Per My Last Email, initially a link roundup. Essays let McCormick imitate writers he admires and reason publicly about what company he should build after leaving Breather.",
+      "quote": "I realized I like writing",
+      "timestamp": "36:11"
+    },
+    {
+      "title": "The physical community fails at perfect timing",
+      "summary": "Not Boring Club grows from a 400-person newsletter into a 150-person Slack group and small dinners, but COVID cancels its first in-person programming and exposes how difficult community operations are.",
+      "quote": "we'll be back in two weeks",
+      "timestamp": "41:06"
+    },
+    {
+      "title": "Authentic voice lowers production complexity",
+      "summary": "Rather than maintain an optimized online persona, McCormick writes and interacts close to his real personality. That choice makes the weekly workload sustainable and lets a compatible internet niche select itself.",
+      "quote": "be as close to myself as humanly possible",
+      "timestamp": "45:15"
+    },
+    {
+      "title": "A three-month experiment finds online scale",
+      "summary": "McCormick renames the newsletter, mixes business strategy with approachable culture, and asks his wife for three months. A Product Hunt launch roughly doubles subscriptions from 1,000 to 2,000.",
+      "quote": "this newsletter could be a full time thing",
+      "timestamp": "49:33"
+    },
+    {
+      "title": "Growth wins over an early paywall",
+      "summary": "Despite immediate household pressure for revenue, McCormick delays subscriptions because paid conversion would constrain sharing. Publicly reporting subscriber growth further commits him to expanding the free audience.",
+      "quote": "that prevents growth",
+      "timestamp": "51:38"
+    },
+    {
+      "title": "One inbound sponsor validates attention economics",
+      "summary": "MarketerHire asks to advertise, prompting an audience survey and media deck. Publishing the deck fills the remaining 2020 inventory and reveals a route to substantial revenue without charging readers.",
+      "quote": "Are you thinking about taking advertisers?",
+      "timestamp": "54:41"
+    },
+    {
+      "title": "Deep dives turn advertising into a product",
+      "summary": "Sponsored company profiles trade mass-market creative for research, explanation, and concentrated distribution. McCormick protects the format by selecting businesses worth understanding and seeking enough access to create a definitive piece.",
+      "quote": "the best thing that's been written on that company",
+      "timestamp": "1:15:23"
+    },
+    {
+      "title": "A public revenue target accelerates compounding",
+      "summary": "McCormick tweets that Not Boring will make $1 million in 2021 when he assigns only a 20% chance to reaching it. Audience and pricing growth reduce the number of deep dives required until the target becomes likely.",
+      "quote": "chances are we're going to... cross a million dollars",
+      "timestamp": "1:24:52"
+    },
+    {
+      "title": "Capital adds ownership to editorial access",
+      "summary": "Not Boring Capital converts founder relationships and reader trust into a $9.99 million first fund spread across 91 companies, deliberately favoring portfolio breadth while acknowledging lighter company-specific diligence.",
+      "quote": "You invested in 91 companies",
+      "timestamp": "1:50:59"
+    },
+    {
+      "title": "AngelList becomes venture infrastructure on demand",
+      "summary": "Software plus embedded legal and operational experts replace fundraising administration, compliance, reporting, and back-office staff. The hosts describe it as AWS for a venture firm, enabling the solo corporation.",
+      "quote": "NotBoringCapital would not... be a thing",
+      "timestamp": "1:54:41"
+    },
+    {
+      "title": "Resisting greed protects the core asset",
+      "summary": "A large fund, in-house venture role, expanded staff, or lower sponsorship bar could increase near-term economics while weakening independence and editorial quality. McCormick treats restraint as the condition for keeping the flywheel credible.",
+      "quote": "This works if I don't get greedy",
+      "timestamp": "2:36:20"
+    }
+  ],
+  "title": "Not Boring with Packy McCormick: The One-Person Media Flywheel"
+}

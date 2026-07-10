@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "NZS Capital's Brinton Johns and John Bathgate reject precise forecasting because markets and companies are complex adaptive systems: interacting participants generate emergent outcomes no model can reliably predict. Their alternative is a barbell portfolio. Concentrated resilient companies—mission-critical, scaled, adaptable compounders such as Microsoft or TSMC—occupy just over half the capital. Roughly 40 small optionality positions occupy the other half, accepting frequent failure in exchange for exposure to power-law outcomes. Conviction, in this framework, often means unrecognized overconfidence.",
+    "Semiconductors illustrate the philosophy. TSMC creates more value than it captures, buying trust and decades of duration while enabling fabless customers' software-like margins. Moore's Law is becoming an ecosystem project spanning EUV lithography, new transistor architectures, chiplets, packaging, design IP, and system interconnects. No participant can vertically integrate the stack because each layer contains accumulated, highly specialized learning. The most durable growth may therefore look constrained: ASML and TSMC cannot expand instantly, but natural governors support 15–20% compounding for decades."
+  ],
+  "takeaways": [
+    {
+      "title": "Adaptability beats detailed prediction",
+      "detail": "Complex systems create outcomes through interactions, so point forecasts are fragile. NZS asks whether a company or portfolio can survive many futures. Slack resources, decentralized decisions, broad competence, and willingness to change can look inefficient today while preserving the ability to respond tomorrow."
+    },
+    {
+      "title": "Resilience and optionality require different sizing",
+      "detail": "About 15 proven compounders receive concentrated weights and low turnover; roughly 40 uncertain, asymmetric opportunities receive no more than 1.5% each. The former monetize durable mission-criticality, scale, or networks; the latter maximize the probability of getting lucky without one wrong forecast destroying capital."
+    },
+    {
+      "title": "Create more value than you capture",
+      "detail": "Extracting every available dollar can provoke customers, suppliers, developers, regulators, and substitutes. TSMC deliberately earns lower margins than many customers while making their businesses possible. The foregone short-term profit purchases trust, ecosystem investment, and a longer growth runway whose tail dominates total value."
+    },
+    {
+      "title": "Moore's Law moved above transistors",
+      "detail": "EUV can continue shrinking features, but performance now also comes from gate-all-around designs, chiplets, advanced packaging, off-the-shelf IP, and clusters connected as systems. Progress depends on coordinated innovation from equipment, foundry, EDA, architecture, and design companies rather than one integrated manufacturer."
+    },
+    {
+      "title": "Growth governors can extend compounding",
+      "detail": "A company that grows 20% for 30 years creates more value than a hypergrowth business that exhausts its market or organization. ASML cannot build EUV tools arbitrarily fast and TSMC must earn outsourcing trust slowly. Those constraints prevent explosive scaling but can protect quality, pricing, and duration."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Complex systems make prediction unreliable",
+      "summary": "Interacting agents produce emergent behavior that cannot be reduced to precise forecasts. NZS borrows from biology and complexity science to replace certainty with heuristics, ranges, and adaptive portfolio design.",
+      "quote": "emergent behavior makes predicting useless in most cases",
+      "timestamp": "6:49"
+    },
+    {
+      "title": "Ant colonies optimize survival, not utilization",
+      "summary": "Researchers find roughly half a colony idle while the rest perform defined jobs. The apparent inefficiency supplies reserve capacity, suggesting that companies maximizing every employee and quarterly result may sacrifice resilience.",
+      "quote": "ants aren't optimized around productivity",
+      "timestamp": "10:00"
+    },
+    {
+      "title": "Resilient positions compound through multiple futures",
+      "summary": "Microsoft and TSMC exemplify mature but healthy growers with mission-critical products, switching costs, scale, and network advantages. NZS seeks 20–30 years of adaptability rather than statistically cheap stocks.",
+      "quote": "the hopefully set it and forget it part",
+      "timestamp": "14:10"
+    },
+    {
+      "title": "Non-zero-sum behavior purchases duration",
+      "summary": "NZS avoids businesses that use lock-in solely to extract more from partners. TSMC leaves margin for customers, reinforcing an ecosystem whose goodwill and investment can extend the foundry's growth runway.",
+      "quote": "creating more value than you take",
+      "timestamp": "19:18"
+    },
+    {
+      "title": "The barbell separates certainty from asymmetry",
+      "summary": "Fifteen resilient names hold just over half the portfolio, while about 40 optionality names share the rest with 1.5% maximum starting weights. Companies combining both can earn the largest positions.",
+      "quote": "we concentrate resilience... distribute optionality",
+      "timestamp": "21:59"
+    },
+    {
+      "title": "Optionality rewards slugging, not batting average",
+      "summary": "Only a minority of small bets need to work if winners become multibaggers. Diversification acknowledges that public-market investors cannot identify future power-law winners with venture-like certainty.",
+      "quote": "it's okay if we're only right 30% of the time",
+      "timestamp": "32:11"
+    },
+    {
+      "title": "Conviction often disguises sunk-cost bias",
+      "summary": "Heavy research can make an investor more attached rather than more correct. NZS defines conviction as overconfidence and instead structures positions so changing one's mind is expected rather than reputationally costly.",
+      "quote": "conviction as a synonym for overconfidence",
+      "timestamp": "33:59"
+    },
+    {
+      "title": "Semiconductor specialization creates strategic trust",
+      "summary": "Samsung combines memory, foundry, and competing consumer products, while TSMC remains a neutral manufacturing partner. Pure-play focus avoids customer conflict even though vertical integration offers broader technical control.",
+      "quote": "tsmc doesn't have that conflict",
+      "timestamp": "1:05:02"
+    },
+    {
+      "title": "Moore's Law expands into system design",
+      "summary": "EUV shrink, gate-all-around transistors, chiplets, advanced packaging, and processor clusters together extend performance. The spirit of Moore's Law may continue into the mid-2030s without relying on one geometric mechanism.",
+      "quote": "it's not just about the transistor",
+      "timestamp": "1:15:44"
+    },
+    {
+      "title": "The ecosystem distributes exceptional economics",
+      "summary": "Texas Instruments earns operating margins above Microsoft's, while fabless Nvidia resembles software because TSMC absorbs manufacturing capital and cyclicality. Multiple specialized layers can capture value without one aggregator taking everything.",
+      "quote": "this is the sign of a healthy ecosystem",
+      "timestamp": "1:18:40"
+    },
+    {
+      "title": "ASML's decade of learning resists integration",
+      "summary": "A 180-ton EUV system combines lasers, unique Zeiss optics, thousands of components, and almost a decade of customer feedback before high-volume production. Each apparent bottleneck contains another layer of specialized accumulated knowledge.",
+      "quote": "it really does take a village",
+      "timestamp": "1:25:45"
+    },
+    {
+      "title": "Unstructured time produces nonlinear research returns",
+      "summary": "NZS minimizes meetings and politics so researchers can wander. Most exploration yields little, but a small fraction connects ideas and an even smaller fraction becomes watershed insight that directed work would never reach.",
+      "quote": "one percent might be absolutely watershed",
+      "timestamp": "1:37:17"
+    }
+  ],
+  "title": "Complexity Investing and Semiconductors with NZS Capital"
+}
