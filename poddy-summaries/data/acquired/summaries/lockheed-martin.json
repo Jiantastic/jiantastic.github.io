@@ -1,0 +1,102 @@
+{
+  "overview": [
+    "Ben and David argue that Lockheed, the federal government's largest contractor, was forged by existential threat: World War II and the Cold War drove tiny, empowered teams — Kelly Johnson's Skunk Works and the secret Missiles and Space division — to near-impossible feats like a jet fighter prototype in 143 days and the U-2 in eighteen months. Most of what they built were deterrents designed never to be used, and the same culture seeded Silicon Valley itself.",
+    "The defining tension is decline from ferocity to protected stasis. The company that delivered the U-2 for $3.5 million became, after the 1993 'Last Supper' forced consolidation, one of five primes living on cost-plus contracts from a single customer — margins capped near 8%, programs spread across 46 states so Congress cannot say no. The hosts conclude there is no market here at all, and the Skunk Works mindset now lives in startups instead."
+  ],
+  "takeaways": [
+    {
+      "title": "Existential threat, not process, made Skunk Works",
+      "detail": "Kelly Johnson's handpicked team built the P-80 jet prototype in 143 days in a rented circus tent and delivered the U-2 in about eighteen months for $3.5 million. His 14 rules — viciously restricted headcount, total program authority, designers steps from the shop floor — worked because World War II and the Cold War supplied motivation no management system can manufacture."
+    },
+    {
+      "title": "Lockheed, not HP, built early Silicon Valley",
+      "detail": "Lockheed Missiles and Space moved into Stanford Industrial Park in 1955 and employed 30,000 people by the mid-60s — ten times Hewlett-Packard's 3,000. It built Sunnyvale from a town of under 10,000, bought from the new chip startups, and employed Jerry Wozniak, which is why Steve Wozniak, and therefore Apple, grew up in the Valley."
+    },
+    {
+      "title": "Spy satellites quietly made the Blackbird redundant",
+      "detail": "The first Corona mission in August 1960 produced more Soviet photo coverage than five years of U-2 flights combined, returning film in buckets caught midair by C-130s. David argues the celebrated SR-71 was partly a decoy, and LMSC was the real crown jewel: from 1960 to 1972 it generated 128% of Lockheed's profits while the rest of the company lost money."
+    },
+    {
+      "title": "Cost-plus contracting removed both risk and market",
+      "detail": "After the Pentagon's 1993 'Last Supper' dinner explicitly ordered contractors to merge, 17 companies collapsed into Lockheed Martin, which now gets about 75% of its $66 billion revenue from one customer at contractually capped ~8% net margins. The hosts' Seven Powers analysis fails outright because with a single buyer and rotating awards, there is no market — only power against new entrants."
+    },
+    {
+      "title": "Pork-barrel economics guarantee billion-dollar airplanes",
+      "detail": "The F-22 program shrank from 750 planned planes to 187 delivered while the $62 billion cost stayed fixed, reaching roughly $360 million per aircraft. Building the F-35 across 46 states with 95,000 jobs turns Congress into 538 principal-agent problems that reliably vote yes, confirming Norm Augustine's prediction of ever-costlier planes."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Modern Lockheed is born from a $40,000 bankruptcy sale",
+      "summary": "After the Loughead brothers' early ventures and the Detroit Aircraft Corporation's collapse, Robert Gross buys the company for less than Alan Lockheed's own unplaced bid. Everything Lockheed became traces to this fire-sale founding.",
+      "quote": "everything you know of Lockheed today got bought out of bankruptcy for $40,000",
+      "timestamp": "8:22"
+    },
+    {
+      "title": "A circus tent and America's first jet fighter",
+      "summary": "German Me 262 jets panic the Allies, so Kelly Johnson gets 180 days, 23 engineers, and a tent beside a plastics factory. The result establishes the Skunk Works name, rules, and legend.",
+      "quote": "the first prototype U.S. fighter jet named the Lulu Bell in 143 days",
+      "timestamp": "19:46"
+    },
+    {
+      "title": "The U-2: the CIA's $3.5 million miracle",
+      "summary": "With the CIA rather than the military as customer, Skunk Works delivers a 70,000-foot spy plane with custom Shell fuel, spacesuits, and Edwin Land's camera. It becomes arguably the best deal the government ever got.",
+      "quote": "A year and a half and three and a half million dollars",
+      "timestamp": "42:07"
+    },
+    {
+      "title": "May Day 1960: Gary Powers is shot down",
+      "summary": "Soviet missiles finally reach altitude, Khrushchev ambushes Eisenhower before the Paris summit, and overflights of the USSR end forever. America is suddenly blind, setting up the secret pivot to space.",
+      "quote": "the first time in history that a ground-to-air missile had shot down an airplane",
+      "timestamp": "53:34"
+    },
+    {
+      "title": "Fred Terman deliberately engineers Silicon Valley",
+      "summary": "Back from Harvard's wartime radio lab, Terman recruits radar talent to Stanford with instant tenure, liberalizes tech transfer, and frames spinning out companies as national service. The Valley's ethos was built, not innate.",
+      "quote": "It's all thanks to Terman and World War II",
+      "timestamp": "1:04:49"
+    },
+    {
+      "title": "Lockheed becomes the Valley's biggest employer",
+      "summary": "The Missile Systems Division moves to Stanford Industrial Park, buys 275 acres nearby, and grows to 30,000 employees — ten times HP. Its hiring even brings the Wozniak family to the Valley.",
+      "quote": "Lockheed built Sunnyvale",
+      "timestamp": "1:11:13"
+    },
+    {
+      "title": "Corona: catching film buckets falling from orbit",
+      "summary": "The secret satellite program instantly outperforms years of risky overflights, with C-130s snatching parachuting film canisters midair and salt plugs sinking missed ones. It stayed classified until 1995.",
+      "quote": "greater photo coverage of the Soviet Union than all of the previous U2 flights",
+      "timestamp": "1:33:46"
+    },
+    {
+      "title": "The SR-71 outruns missiles at Mach 3",
+      "summary": "Titanium bought from the USSR through dummy corporations, fuel that leaks on the tarmac, and spike-inlet superchargers produce the fastest air-breathing plane ever. Yet David argues satellites made it partly a decoy.",
+      "quote": "It cannot turn around in the state of Ohio.",
+      "timestamp": "1:55:47"
+    },
+    {
+      "title": "Ben Rich bets his career on stealth",
+      "summary": "A Russian math paper yields the faceted Hopeless Diamond with a ball-bearing radar signature. Rich defies Kelly Johnson's advice and industry norms by self-funding the prototype, winning the F-117 and $2.5 billion Lockheed desperately needed.",
+      "quote": "I want to pursue this and make a prototype anyway without a research contract",
+      "timestamp": "2:24:10"
+    },
+    {
+      "title": "The Last Supper: government-ordered consolidation",
+      "summary": "In July 1993, Deputy Defense Secretary William Perry tells contractor CEOs the budget cannot feed them all. The resulting merger wave creates Lockheed Martin and ends defense as a competitive industry.",
+      "quote": "you all need to consolidate and start merging with one another",
+      "timestamp": "2:33:49"
+    },
+    {
+      "title": "The F-35 and the politics of 46 states",
+      "summary": "Cost-plus contracts leave taxpayers holding the bag as fleets shrink and unit costs balloon, while distributed jobs make cancellation politically impossible. This is the structural opposite of Skunk Works economics.",
+      "quote": "congress can kind of be simplified to 538 principal agent problems",
+      "timestamp": "2:52:09"
+    },
+    {
+      "title": "Threats, not markets, produce greatness",
+      "summary": "The hosts land on their thesis: existential competition drives peak human performance, and the small-team culture Lockheed forged migrated out of defense. Its true heirs are startups, not today's primes.",
+      "quote": "that mindset was directly transferred from Lockheed and the military into Silicon Valley",
+      "timestamp": "3:33:19"
+    }
+  ]
+}
