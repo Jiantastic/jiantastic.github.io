@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Michael Mauboussin connects valuation, strategy, and decision science through one discipline: start with the distribution of possible outcomes rather than a preferred story. Expectations investing reverses the usual model by asking what future cash flows today's price already implies, then testing whether strategic and financial evidence supports a different view. Accounting earnings are increasingly misleading because software, customer acquisition, brands, and employee development are expensed even when they create long-lived intangible assets; investors must understand the underlying unit economics and cash generation.",
+    "The analytical framework changes with the asset. Mature companies require measurable competitive advantage—returns above cost of capital and above peers—while early ventures resemble options whose value rises with uncertainty, capable management, capital access, and a portfolio of asymmetric bets. Better judgment comes from base rates, premortems, red teams, and probabilistic decision journals. Skill and luck must also be separated: as competitors become uniformly more capable, luck explains more relative outcomes, making persistence, regression, and process evaluation essential."
+  ],
+  "takeaways": [
+    {
+      "title": "Invert price into implied expectations",
+      "detail": "Do not begin with a forecast and force a target price. Reverse-engineer the growth, margins, investment, and duration required by the current price; then ask whether a differentiated strategic view makes those expectations too optimistic or pessimistic. Most securities will correctly produce no action."
+    },
+    {
+      "title": "Cash economics outrank reported earnings",
+      "detail": "Accounting separates a Walmart store as capital expenditure but expenses software development, branding, training, and customer acquisition immediately. Businesses can look unprofitable while building valuable intangible assets. Analyze cohort or unit economics, reinvestment returns, and eventual cash flow rather than treating the income statement as economic reality."
+    },
+    {
+      "title": "Competitive advantage needs two comparisons",
+      "detail": "A company has an advantage only when returns exceed its opportunity cost of capital and outperform a relevant competitor set. Industry entry, exit, market-share stability, value chains, disruption, cost position, differentiation, margins, and capital velocity explain whether those superior returns can persist."
+    },
+    {
+      "title": "Young companies are portfolios of options",
+      "detail": "Volatility hurts conventional cash-flow certainty but increases option value because management can pursue upside without accepting every downside. Early-stage value depends on managerial exercise, capital availability, and participation in a power-law portfolio; precise moat analysis or point valuation often misstates the asset being purchased."
+    },
+    {
+      "title": "Evaluate process separately from outcome",
+      "detail": "Base rates counter the seductive inside view; premortems expose failure before commitment; red teams challenge consensus; decision journals preserve probabilities and reasoning. These tools reveal whether success followed the thesis or luck, and whether a poor result came from a bad decision or an acceptable probabilistic loss."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Cash flow and strategy jointly determine value",
+      "summary": "Rappaport's framework gives Mauboussin three foundations: cash rather than accounting earnings drives value, strategy and valuation cannot be separated, and managers must understand expectations embedded in their stock price.",
+      "quote": "the ultimate driver value of a business is cash",
+      "timestamp": "5:58"
+    },
+    {
+      "title": "Expectations investing reverses the valuation problem",
+      "summary": "Instead of projecting a preferred intrinsic value, the investor asks what operational future makes today's price sensible, tests those assumptions, and acts only when a differentiated probabilistic view emerges.",
+      "quote": "what do I have to believe",
+      "timestamp": "8:52"
+    },
+    {
+      "title": "Intangible investment breaks simple accounting signals",
+      "summary": "By 2021, estimated intangible investment among U.S. public companies reaches roughly twice tangible capital expenditure. Software, brand, training, and acquisition spending can create assets while appearing as current expenses.",
+      "quote": "intangible investments now are $2 trillion",
+      "timestamp": "13:29"
+    },
+    {
+      "title": "High-return reinvestment justifies negative free cash flow",
+      "summary": "Walmart produces negative free cash flow for its first 15 public years because it keeps opening stores with attractive economics. The relevant question is not cash consumption alone but the return earned on incremental investment.",
+      "quote": "their stores had great economics",
+      "timestamp": "18:30"
+    },
+    {
+      "title": "A moat must produce superior economic returns",
+      "summary": "Competitive advantage requires absolute returns above cost of capital and relative returns above competitors. Market structure, industry dynamics, cost advantage, differentiation, margins, and capital turnover make that claim measurable.",
+      "quote": "you should be better than your competitors",
+      "timestamp": "25:23"
+    },
+    {
+      "title": "Early-stage companies behave like real options",
+      "summary": "In a volatile market, management has the right but not obligation to pursue emerging paths. Option value increases with uncertainty, capable exercise, and access to capital—the latter separating failed dot-com concepts from later successful analogues.",
+      "quote": "the more volatile the world is, the more valuable the option",
+      "timestamp": "30:54"
+    },
+    {
+      "title": "Industry consolidation can improve investment timing",
+      "summary": "New categories first attract many entrants, then contract once customers reveal the winning design. Investing after the competitor count rolls over can pair continued market growth with fewer companies capturing the spoils.",
+      "quote": "the number of companies is declining",
+      "timestamp": "33:21"
+    },
+    {
+      "title": "Reflexivity converts price into business capacity",
+      "summary": "A rising stock is not merely an observer's signal: it lets a company raise capital, strengthen finances, and pursue options that change fundamental value. The same loop can reverse when ever-larger transactions become necessary.",
+      "quote": "the very act of bidding up a stock changes the fundamental outlook",
+      "timestamp": "38:54"
+    },
+    {
+      "title": "Base rates discipline the inside view",
+      "summary": "Before relying on company-specific research and experience, classify the problem and inspect what happened in comparable situations. Mauboussin calls this the single mental model he would give his younger self.",
+      "quote": "what happened when other people were in this situation",
+      "timestamp": "45:29"
+    },
+    {
+      "title": "Premortems and journals improve feedback",
+      "summary": "Teams independently imagine an investment failed, write the future explanation, invite adversarial challenge, and log dated probabilities. Later review separates thesis accuracy from outcome luck and exposes recurring calibration errors.",
+      "quote": "did it turn out great for the reasons you thought",
+      "timestamp": "47:19"
+    },
+    {
+      "title": "Rising skill makes luck more decisive",
+      "summary": "When both skill and luck affect outcomes, improving everyone's absolute skill narrows relative differences. Random variation then determines more rankings—the paradox that helps explain declining persistence in competitive public markets.",
+      "quote": "as skill increases, luck becomes more important",
+      "timestamp": "53:34"
+    },
+    {
+      "title": "Market leadership turns over dramatically",
+      "summary": "Microsoft is the only U.S. top-ten market-cap company shared by 2001 and 2021; several current leaders were not public or founded. Today's seemingly permanent franchises should be evaluated against that historical rate of displacement.",
+      "quote": "worlds change and things show up",
+      "timestamp": "1:19:22"
+    }
+  ],
+  "title": "Michael Mauboussin Master Class: Moats, Skill, Luck, and Decisions"
+}

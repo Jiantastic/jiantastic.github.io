@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Kevin Rose's path from TechTV assistant to Digg founder shows how media skill, product instinct, and community distribution reinforced one another in Web 2.0. Live television taught him to explain technical ideas and ship without endless revision. Digg combined Delicious-style social signals with Slashdot's user submissions, letting the crowd vote news onto a homepage that reached 38 million monthly users. Dignation and Revision3 then turned those stories and personalities into direct internet video, proving niche audiences could support sponsorship-funded media without television carriage.",
+    "Rose carries the same pattern into investing and Web3: enter communities early, learn by participating, translate unfamiliar technology for a broader audience, and let trusted content create access. He invested early in Twitter, Facebook, and Square, later joined True Ventures, and launched Modern Finance and Proof to examine crypto and NFTs. His NFT thesis is less about speculative images than portable identity, programmable ownership, patronage, and digitally native status. Hodinkee supplies the model: earn editorial trust for years before connecting content, community, and commerce."
+  ],
+  "takeaways": [
+    {
+      "title": "Distribution and product can form one loop",
+      "detail": "Dignation discussed stories surfaced by Digg, credited community members, and motivated more submissions; Digg supplied the program's editorial queue and audience. Revision3 added owned video distribution and sponsors. Each product made the others more useful rather than treating media solely as customer acquisition."
+    },
+    {
+      "title": "Community signals became the Web2 interface",
+      "detail": "Digg made every submission visible and let users determine prominence, replacing a small editorial gate with distributed ranking. The Digg button also exported voting across the web. Zuckerberg studied the mechanism before Facebook's Like button, showing how an interaction pattern can migrate from content discovery into general social identity."
+    },
+    {
+      "title": "Paradigm shifts initially look unnecessary",
+      "detail": "Web2 critics doubted public profiles, social voting, and user submissions just as Web3 critics doubted tokens and NFTs. Rose does not argue every project succeeds; he argues the important shift is recognizing new native behavior before incumbent mental models make it feel obvious."
+    },
+    {
+      "title": "Content earns access before monetizing it",
+      "detail": "Hodinkee paired authoritative watch journalism with commerce while preserving a church-state separation. Rose planned Proof similarly: recruit credible critics, explain artists and code deeply, build trust for roughly three years, and only then explore the unique ownership or membership products enabled by on-chain media."
+    },
+    {
+      "title": "Digital ownership expands collectible utility",
+      "detail": "NFTs are portable, verifiable, programmable, and displayable across contexts; art can evolve with time or ownership, and game assets can become part of identity. The analogy is canvas: portability first appeared inferior to permanent murals, then enabled a much broader art market."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Comdex reveals where the technology world lives",
+      "summary": "A shy Las Vegas teenager invents a company, dresses up, and repeatedly evades age restrictions to attend the computer convention. Seeing where exhibitors are based persuades him that he must move to Silicon Valley.",
+      "quote": "I called it Foliage Software",
+      "timestamp": "7:48"
+    },
+    {
+      "title": "A security demo creates an on-camera career",
+      "summary": "Rose discovers a Windows messaging exploit and explains it on The Screen Savers. Producers turn the nervous appearance into a recurring 'dark tips' segment and train him to communicate live.",
+      "quote": "you figured this out... come on and talk about it",
+      "timestamp": "11:26"
+    },
+    {
+      "title": "G4's relocation triggers internet-native media",
+      "summary": "After Comcast's G4 acquires TechTV for subscribers and moves production from San Francisco to Los Angeles, Rose sees the culture and format changing and begins Digg plus the video network Revision3.",
+      "quote": "the writing was on the wall",
+      "timestamp": "20:33"
+    },
+    {
+      "title": "Revision3 removes television's distribution gate",
+      "summary": "Affordable cameras, part-time editing, podcast feeds, and measurable direct audiences make specialized video viable. Discovery later buys the company for $35 million as its digital-media arm.",
+      "quote": "niche audiences were quite large",
+      "timestamp": "24:01"
+    },
+    {
+      "title": "Dignation and Digg reinforce participation",
+      "summary": "The show uses Digg as its story queue and celebrates submitters by name; viewers respond by contributing and voting more. The resulting loop helps Digg reach roughly 38 million monthly unique visitors.",
+      "quote": "people love seeing their name in lights",
+      "timestamp": "25:55"
+    },
+    {
+      "title": "Facebook studies voting before the Like button",
+      "summary": "A shared investor introduces Mark Zuckerberg to Rose. They discuss how Digg's votes rank stories and train recommendations before Facebook has its own Like button or mature news feed.",
+      "quote": "we chatted about kind of just what voting meant",
+      "timestamp": "28:00"
+    },
+    {
+      "title": "Slashdot's refusal becomes Digg's founding insight",
+      "summary": "Rose asks Slashdot founder Commander Taco to expose all submitted stories and let users vote. When he declines, Rose combines that concept with Delicious's social-bookmark signals and hires a freelancer to build it.",
+      "quote": "I'm going to go build this",
+      "timestamp": "32:08"
+    },
+    {
+      "title": "Momentum beats an early million-dollar sale",
+      "summary": "Jason Calacanis offers $1 million, but a milestone-heavy term sheet and rapid growth lead Rose to reject the deal and raise capital. Digg becomes an emblem of Web2 before its founder knows the label.",
+      "quote": "is there a software I need to upgrade",
+      "timestamp": "37:21"
+    },
+    {
+      "title": "Web3 repeats Web2's leap of faith",
+      "summary": "Rose compares doubt about crypto and NFTs with early skepticism toward social networks, public personal information, and voting on content. New paradigms look implausible because native behaviors have not yet normalized.",
+      "quote": "the same thing that's happening in Web 3.0",
+      "timestamp": "48:31"
+    },
+    {
+      "title": "Modern Finance counters speculative noise with explanation",
+      "summary": "After years of crypto exposure and an attempted Coinbase investment through Google Ventures, Rose creates educational media to distinguish serious builders and mechanisms from shilling, scams, and pump-and-dump behavior.",
+      "quote": "that's the stuff we need to get rid of",
+      "timestamp": "57:05"
+    },
+    {
+      "title": "NFTs make digital identity ownable and programmable",
+      "summary": "Younger users may value game and online identity above offline presentation. Tokenized assets can travel, survive physical loss, change with time, unlock features, and display provenance across digital and physical contexts.",
+      "quote": "their online identity... more important than their offline",
+      "timestamp": "1:22:37"
+    },
+    {
+      "title": "Proof borrows Hodinkee's trust-first blueprint",
+      "summary": "Rose proposes deep artist profiles, code-level criticism, and editorial independence before commerce. The goal is not a six-month funnel but a multi-year authority that connects serious collectors with historically meaningful work.",
+      "quote": "spend the first three years gaining trust",
+      "timestamp": "1:29:00"
+    }
+  ],
+  "title": "Kevin Rose: From Digg and Web 2.0 to Web3 and NFTs"
+}

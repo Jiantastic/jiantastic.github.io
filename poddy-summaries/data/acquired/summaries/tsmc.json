@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Morris Chang founded TSMC at 56 after wars, immigration, failed MIT qualifying exams, and a brilliant but stalled Texas Instruments career. His key manufacturing insight was that high initial volume accelerates yield learning, which lowers cost and improves performance. Taiwan supplied half the capital and a national industrial mandate; Philips supplied 28% and equipment ties. The pure-play foundry initially had no real market, but it removed the fab cost that prevented chip designers from leaving incumbents and starting companies.",
+    "Qualcomm, Broadcom, Nvidia, AMD, Apple, and hyperscalers turned that possibility into a compounding platform. Neutrality builds trust because TSMC never designs competing products; aggregate customer volume funds leading-edge fabs and ASML tools; every node improves customer products and attracts more demand. In the 2025 remaster, TSMC is the essential manufacturer for AI and Apple silicon, worth over $1 trillion. Its moat combines scale and irreplicable process learning, but concentrates the world's advanced compute capacity in geopolitically exposed Taiwan."
+  ],
+  "takeaways": [
+    {
+      "title": "Volume turns manufacturing into accumulated knowledge",
+      "detail": "Semiconductor yields begin low and improve through repeated production, measurement, and process adjustment. Pricing aggressively to fill a new fab sacrifices early margin but accelerates learning. The resulting yield advantage compounds into lower costs, better reliability, more customers, and still more data competitors cannot purchase instantly."
+    },
+    {
+      "title": "Neutrality created the fabless industry",
+      "detail": "An integrated manufacturer might prioritize its own chips or learn from a customer's design. TSMC promised not to compete, letting engineers form companies with tens of millions rather than billions of dollars. It became the shared manufacturing platform beneath Nvidia, Qualcomm, Broadcom, AMD, and countless startups."
+    },
+    {
+      "title": "The foundry flywheel funds the next node",
+      "detail": "Customer growth produces high-margin cash, which funds newer fabs and scarce ASML equipment. Better process technology improves every customer's power, performance, and addressable market, creating more volume. As Rock's Law raises fab costs, only the largest platform can keep paying to stay on Moore's Law."
+    },
+    {
+      "title": "Apple validated strategic trust at enormous scale",
+      "detail": "Apple needed to escape Samsung, its manufacturing supplier and smartphone rival. TSMC committed $9 billion and 6,000 employees to dedicated capacity without a backup plan on either side. The iPhone relationship converted pure-play neutrality from an industry principle into one of technology's largest partnerships."
+    },
+    {
+      "title": "Geography is the unhedgeable concentration risk",
+      "detail": "Money can build equipment and buildings elsewhere, but not instantly transplant supplier coordination, engineering culture, yield history, or tacit factory knowledge. Taiwan's political status makes TSMC simultaneously an economic shield, a strategic target, and a single point of failure for advanced consumer, cloud, defense, and AI systems."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "A one-dollar salary difference enters semiconductors",
+      "summary": "After failing MIT's PhD qualifying exam, Chang reportedly chooses Sylvania's new semiconductor operation over Ford for one extra dollar per month, then teaches himself electrical engineering from Shockley's textbook.",
+      "quote": "Sylvania's new semiconductor division",
+      "timestamp": "13:31"
+    },
+    {
+      "title": "Yield engineering makes Chang visible at TI",
+      "summary": "Assigned an IBM production line that produces no working transistors, Chang experiments systematically and raises yield to 20%, outperforming IBM's own 10% line and proving the result is process knowledge rather than luck.",
+      "quote": "gets the yields... up to 20%",
+      "timestamp": "26:20"
+    },
+    {
+      "title": "Volume pricing accelerates the learning curve",
+      "summary": "Chang argues that a fab should price low enough to begin at full utilization. More wafers generate faster learning, higher yields, lower unit cost, and strong profit on later output rather than protecting early margins.",
+      "quote": "you want to have a ton of volume",
+      "timestamp": "31:09"
+    },
+    {
+      "title": "A consumer rotation derails the TI succession",
+      "summary": "After successfully running semiconductors, Chang is moved into struggling consumer products under the belief that managers are interchangeable. Marketing and taste differ from technology and cost, and the failed turnaround ends his path to CEO.",
+      "quote": "a good manager could manage anything",
+      "timestamp": "38:15"
+    },
+    {
+      "title": "Taiwan asks for an impossible world leader",
+      "summary": "Technology minister K.T. Lee recruits Chang to run ITRI, then orders him to create a globally leading semiconductor company. With only days to propose a plan, Chang designs the pure-play foundry.",
+      "quote": "an offer I couldn't refuse",
+      "timestamp": "55:13"
+    },
+    {
+      "title": "The market exists only as suppressed entrepreneurship",
+      "summary": "Every serious chip company owns fabs, but Chang has watched talented designers stay inside incumbents because manufacturing capital blocks departure. A neutral foundry could turn that latent desire into a fabless industry.",
+      "quote": "the biggest thing that stopped them... raise enough money",
+      "timestamp": "59:44"
+    },
+    {
+      "title": "Government and Philips finance the zero-value startup",
+      "summary": "Taiwan contributes 50% of $220 million, Philips 28%, and local companies the balance at a zero pre-money valuation. Chang receives no founder equity and later buys shares with his own cash.",
+      "quote": "The pre-money valuation was $0",
+      "timestamp": "1:02:33"
+    },
+    {
+      "title": "TSMC survives on incumbent castoffs",
+      "summary": "Integrated manufacturers outsource only temporary overflow or obsolete, money-losing products. Chang accepts unstable work while evangelizing a permanent fabless model to designers and entrepreneurs who trust his industry record.",
+      "quote": "I only hoped for it",
+      "timestamp": "1:15:03"
+    },
+    {
+      "title": "Fabless success activates the compounding flywheel",
+      "summary": "Nvidia and peers grow without building factories. Their volume gives TSMC profits for equipment and process development; better nodes improve customer products, expand markets, and attract the next generation of designers.",
+      "quote": "only ever raised $20 million",
+      "timestamp": "1:17:17"
+    },
+    {
+      "title": "Apple bets its silicon future on neutrality",
+      "summary": "To move away from competing supplier Samsung, Apple and TSMC enter a partnership requiring a $9 billion initial investment, 6,000 employees, and dedicated capacity—without a viable backup manufacturer.",
+      "quote": "there would be no backup plan",
+      "timestamp": "1:39:57"
+    },
+    {
+      "title": "Scale and process power make capital insufficient",
+      "summary": "Leading-edge fabs require tens of billions, but equipment alone cannot reproduce decades of tacit yield learning, supplier integration, and customer co-development. A paradigm shift, not conventional spending, is the plausible route around TSMC.",
+      "quote": "No amount of money can replicate it",
+      "timestamp": "1:57:10"
+    },
+    {
+      "title": "TSMC becomes computing's invisible enabling layer",
+      "summary": "The hosts rank TSMC among technology's top ten companies and above Intel: mobile, AI, cloud, 5G, and modern fabless design scale because it makes advanced silicon economically manufacturable.",
+      "quote": "software is eating the world... because TSMC",
+      "timestamp": "2:19:34"
+    }
+  ],
+  "title": "TSMC: Morris Chang and the Pure-Play Foundry Revolution"
+}
