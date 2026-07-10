@@ -21251,5 +21251,940 @@
         "timestamp": "2:13:49"
       }
     ]
+  },
+  {
+    "slug": "adapting-episode-3-intel",
+    "guid": "f4cbce86-7bbb-4c63-9320-c470ffd6301c",
+    "title": "Adapting Episode 3: Intel",
+    "pubDate": "Mon, 11 May 2020 18:00:51 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/f971fa78/2052014f.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/adapting-episode-3-intel",
+    "duration": 5160,
+    "episodeUrl": "/poddy-summaries/episodes/adapting-episode-3-intel/",
+    "summaryPath": "summaries/adapting-episode-3-intel.json",
+    "transcriptPath": "transcripts/adapting-episode-3-intel.txt",
+    "transcriptJsonPath": "transcripts/adapting-episode-3-intel.json",
+    "overview": [
+      "Ben and David argue that Intel's survival hinged on abandoning its founding identity: seventeen years after being created as a memory company, Intel watched its differentiated DRAM business turn into a pure commodity when Japanese manufacturers with cheaper capital and massive fabs undercut every contract. The 1985 bet-the-company pivot to microprocessors under Andy Grove becomes the canonical case of navigating a strategic inflection point — relevant to every business facing the pandemic's dislocation.",
+      "The central tension is between recognition and organizational inertia. Moore and Grove's famous thought experiment — what would a new CEO do? — gave them clarity to exit memory, yet the company literally could not stop, forcing Grove to remove executives and close factories personally. The arc then compounds: sole-sourcing the 386 and the Intel Inside campaign converted near-death paranoia into durable market power, ensuring CPUs would never be commoditized the way memory was."
+    ],
+    "takeaways": [
+      {
+        "title": "Japanese scale turned Intel's memory into commodity",
+        "detail": "A leaked Japanese sales memo instructed reps to quote 10% below AMD and Intel and re-quote 10% lower until they won. With keiretsu capital and larger factories, they drove Intel's memory share from above 80% to roughly 1.3% by 1984, eroding profits below zero even as revenue held."
+      },
+      {
+        "title": "Second sourcing handed rivals the learning curve",
+        "detail": "The military-era practice of giving competitors your designs to guarantee supply meant Intel trained its own destroyers: Japanese firms first entered as Intel's second sources during late-1970s production shortages, and AMD held second-source rights on the 186 and 286."
+      },
+      {
+        "title": "Firing themselves broke the identity deadlock",
+        "detail": "When Grove asked what a new CEO would do, Moore answered point blank: get out of memory. Ceremonially firing and rehiring themselves gave them an outsider's freedom from baggage — yet execution still took all of 1985, with two successive memory chiefs refusing to wind the business down."
+      },
+      {
+        "title": "Sole-sourcing the 386 created six-year monopoly",
+        "detail": "Intel broke its second-source agreement for the first 32-bit x86 chip, and litigation forced AMD into a clean-room reverse engineering effort that took until 1991. Intel then launched Intel Inside, paying 50% of PC makers' marketing costs — a spend level AMD could never match."
+      },
+      {
+        "title": "Middle management had already begun the pivot",
+        "detail": "While executives fought over Intel's identity as 'the memory company,' Grove discovered mid-level managers closest to customers had organically reallocated production and R&D resources toward CPUs before any top-down decision, effectively pre-positioning the company for the switch."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "A company whose core product commoditized overnight",
+        "summary": "The hosts frame the episode: Intel's 1985 crisis as a historical template for adapting to sudden, fundamental change — a different crisis than the pandemic, but the same problem shape.",
+        "quote": "core product line became a pure commodity overnight",
+        "timestamp": "0:38"
+      },
+      {
+        "title": "Shockley moves west and Silicon Valley begins",
+        "summary": "The Nobel laureate transistor co-inventor starts the Valley's first semiconductor company among Mountain View orchards — establishing both the industry and the talent pool everything else springs from.",
+        "quote": "there were no semiconductor companies either in California or anywhere else",
+        "timestamp": "6:47"
+      },
+      {
+        "title": "Noyce and Moore bet on silicon memory",
+        "summary": "After a decade at Fairchild with no equity upside, the pair found Intel in 1968 to replace magnetic-core storage with silicon chips — memory, not microprocessors, is the founding plan.",
+        "quote": "the memory aspect of computers still isn't done with chips",
+        "timestamp": "16:24"
+      },
+      {
+        "title": "Japanese manufacturers overwhelm the memory market",
+        "summary": "Keiretsu-backed competitors with cheaper capital, bigger factories, and operational excellence flood the market, collapsing Intel's share and erasing its profits despite growing industry demand.",
+        "quote": "they could produce way more memories. They could do it way cheaper",
+        "timestamp": "27:02"
+      },
+      {
+        "title": "Andy Grove's escape from Hungary",
+        "summary": "The turnaround's architect survived the Holocaust in hiding, fled the 1956 Soviet crackdown on foot, and arrived in America as a penniless refugee — context that reframes every later decision.",
+        "quote": "he comes to New York City, 20 years old, with $20",
+        "timestamp": "35:03"
+      },
+      {
+        "title": "The leaked 10%-below battle card",
+        "summary": "A Japanese sales memo reveals the mechanics of commodity warfare: competitors with cheaper capital can underbid forever, proving Intel faced a 10x shift in competitive force it could not out-innovate.",
+        "quote": "If they re-quote, go 10% again. Don't quit until you win",
+        "timestamp": "42:19"
+      },
+      {
+        "title": "Moore and Grove fire themselves",
+        "summary": "The episode's pivotal scene: asking what a replacement CEO would do produces the answer nobody would say aloud, and a ceremonial walk out the door grants them permission to act on it.",
+        "quote": "what if you and I fire ourselves, walk out of the door",
+        "timestamp": "46:27"
+      },
+      {
+        "title": "The organization refuses to stop selling memory",
+        "summary": "Two successive division heads defy the exit order and Grove personally lays off factories — a striking demonstration that even founders can struggle to make a company abandon its identity.",
+        "quote": "telling the company to stop doing something and the company cannot stop",
+        "timestamp": "50:12"
+      },
+      {
+        "title": "Sole-sourcing the 386 changes everything",
+        "summary": "Breaking the second-source deal on the first 32-bit x86 chip gives Intel exclusive control of the PC's most important component for the wave's first six years — the strategic masterstroke of the pivot.",
+        "quote": "There's only one place in the world to get those",
+        "timestamp": "54:25"
+      },
+      {
+        "title": "Intel Inside blocks AMD's comeback",
+        "summary": "Timed to AMD's 1991 competitive re-entry, the ingredient-brand campaign subsidizes PC makers' marketing at a scale no rival can answer, pressing the advantage won by sole-sourcing.",
+        "quote": "We will pay 50% of your marketing costs",
+        "timestamp": "58:07"
+      },
+      {
+        "title": "History rhymes: Intel bets on memory again",
+        "summary": "The 2015 Optane announcement and Intel's own annual report show the company re-entering the business it famously fled — a wry coda on how strategic lessons fade with leadership.",
+        "quote": "Currently, our big bets are memory",
+        "timestamp": "1:06:18"
+      },
+      {
+        "title": "Playbook: middle management saw it first",
+        "summary": "The closing analysis extracts the episode's most surprising lesson — the people closest to customers had begun the pivot before executives decided, plus Grove's maxim to make tough changes a year earlier.",
+        "quote": "organically started reallocating resources away from memories and into CPUs",
+        "timestamp": "1:11:01"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "A company whose core product commoditized overnight",
+        "summary": "The hosts frame the episode: Intel's 1985 crisis as a historical template for adapting to sudden, fundamental change — a different crisis than the pandemic, but the same problem shape.",
+        "quote": "core product line became a pure commodity overnight",
+        "timestamp": "0:38"
+      },
+      {
+        "title": "Shockley moves west and Silicon Valley begins",
+        "summary": "The Nobel laureate transistor co-inventor starts the Valley's first semiconductor company among Mountain View orchards — establishing both the industry and the talent pool everything else springs from.",
+        "quote": "there were no semiconductor companies either in California or anywhere else",
+        "timestamp": "6:47"
+      },
+      {
+        "title": "Noyce and Moore bet on silicon memory",
+        "summary": "After a decade at Fairchild with no equity upside, the pair found Intel in 1968 to replace magnetic-core storage with silicon chips — memory, not microprocessors, is the founding plan.",
+        "quote": "the memory aspect of computers still isn't done with chips",
+        "timestamp": "16:24"
+      },
+      {
+        "title": "Japanese manufacturers overwhelm the memory market",
+        "summary": "Keiretsu-backed competitors with cheaper capital, bigger factories, and operational excellence flood the market, collapsing Intel's share and erasing its profits despite growing industry demand.",
+        "quote": "they could produce way more memories. They could do it way cheaper",
+        "timestamp": "27:02"
+      },
+      {
+        "title": "Andy Grove's escape from Hungary",
+        "summary": "The turnaround's architect survived the Holocaust in hiding, fled the 1956 Soviet crackdown on foot, and arrived in America as a penniless refugee — context that reframes every later decision.",
+        "quote": "he comes to New York City, 20 years old, with $20",
+        "timestamp": "35:03"
+      },
+      {
+        "title": "The leaked 10%-below battle card",
+        "summary": "A Japanese sales memo reveals the mechanics of commodity warfare: competitors with cheaper capital can underbid forever, proving Intel faced a 10x shift in competitive force it could not out-innovate.",
+        "quote": "If they re-quote, go 10% again. Don't quit until you win",
+        "timestamp": "42:19"
+      },
+      {
+        "title": "Moore and Grove fire themselves",
+        "summary": "The episode's pivotal scene: asking what a replacement CEO would do produces the answer nobody would say aloud, and a ceremonial walk out the door grants them permission to act on it.",
+        "quote": "what if you and I fire ourselves, walk out of the door",
+        "timestamp": "46:27"
+      },
+      {
+        "title": "The organization refuses to stop selling memory",
+        "summary": "Two successive division heads defy the exit order and Grove personally lays off factories — a striking demonstration that even founders can struggle to make a company abandon its identity.",
+        "quote": "telling the company to stop doing something and the company cannot stop",
+        "timestamp": "50:12"
+      },
+      {
+        "title": "Sole-sourcing the 386 changes everything",
+        "summary": "Breaking the second-source deal on the first 32-bit x86 chip gives Intel exclusive control of the PC's most important component for the wave's first six years — the strategic masterstroke of the pivot.",
+        "quote": "There's only one place in the world to get those",
+        "timestamp": "54:25"
+      },
+      {
+        "title": "Intel Inside blocks AMD's comeback",
+        "summary": "Timed to AMD's 1991 competitive re-entry, the ingredient-brand campaign subsidizes PC makers' marketing at a scale no rival can answer, pressing the advantage won by sole-sourcing.",
+        "quote": "We will pay 50% of your marketing costs",
+        "timestamp": "58:07"
+      },
+      {
+        "title": "History rhymes: Intel bets on memory again",
+        "summary": "The 2015 Optane announcement and Intel's own annual report show the company re-entering the business it famously fled — a wry coda on how strategic lessons fade with leadership.",
+        "quote": "Currently, our big bets are memory",
+        "timestamp": "1:06:18"
+      },
+      {
+        "title": "Playbook: middle management saw it first",
+        "summary": "The closing analysis extracts the episode's most surprising lesson — the people closest to customers had begun the pivot before executives decided, plus Grove's maxim to make tough changes a year earlier.",
+        "quote": "organically started reallocating resources away from memories and into CPUs",
+        "timestamp": "1:11:01"
+      }
+    ]
+  },
+  {
+    "slug": "special-episode-jason-calacanis",
+    "guid": "74f0613b-6e0f-4fb7-9864-b7d23688e479",
+    "title": "Special Episode: Jason Calacanis",
+    "pubDate": "Tue, 28 Apr 2020 20:41:44 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/6755d9aa/77395755.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/special-episode-jason-calacanis",
+    "duration": 5945,
+    "episodeUrl": "/poddy-summaries/episodes/special-episode-jason-calacanis/",
+    "summaryPath": "summaries/special-episode-jason-calacanis.json",
+    "transcriptPath": "transcripts/special-episode-jason-calacanis.txt",
+    "transcriptJsonPath": "transcripts/special-episode-jason-calacanis.json",
+    "overview": [
+      "Jason Calacanis's sprawling empire — Silicon Alley Reporter, Weblogs Inc, This Week in Startups, the Launch accelerator and syndicate — is one playbook run repeatedly: assume every new medium will reach critical mass, go all-in before anyone else, and convert media attention into power, relationships, and deal flow. From selling bootleg Empire Strikes Back tapes in his father's Brooklyn bar to becoming Sequoia's prototype Scout, each act parlays hustle into the next.",
+      "The arc is boom, crash, reinvention. He becomes king of New York media, loses everything in the dot-com bust and 9/11, rebuilds with blogs, then watches Google's Panda update gut Mahalo. Each collapse forces him to detach identity from the brand — his Bob Dylan 'don't look back' rule — while the tension between self-confessed hype man and genuinely elite returns fuels his argument that solo conviction beats partnership consensus."
+    ],
+    "takeaways": [
+      {
+        "title": "Assume every new medium reaches critical mass",
+        "detail": "Calacanis's stated 'big trick in life' is to behave as if each new format — zines, blogs, podcasts, Twitter — will definitely work and go full bore early. Bing paid him $30,000 for podcast ads before podcast advertising existed, and the duds (Google Plus, FriendFeed) don't matter because early hits deliver asymmetric head starts."
+      },
+      {
+        "title": "Equity poaching, not content, beat Gawker",
+        "detail": "Tipped off that Gizmodo generated all of Gawker's revenue, he recruited Peter Rojas with day-one fully vested equity that Denton had only promised, then launched Engadget the first day of Denton's vacation. Weblogs Inc sold to AOL for $30 million eighteen months in, on roughly $100,000 of lifetime revenue."
+      },
+      {
+        "title": "Platform dependency destroyed Mahalo overnight",
+        "detail": "Mahalo was running at $10 million in Google AdSense revenue when the Panda update removed 90% of its traffic, forcing him to lay off a hundred people. His conclusion: Google systematically neutered partners who could become competitive, and the episode is his core argument for why the company will face antitrust action."
+      },
+      {
+        "title": "Sequoia's $700K scout capital returned $100 million",
+        "detail": "As the first Sequoia Scout, splitting carry 50-50, he deployed $700,000 into 19 companies including Uber, Thumbtack, and DataStax — three unicorns in his first seven checks. The West Coast anointment, layered on his East Coast media credibility, is what he says made him 'dangerous.'"
+      },
+      {
+        "title": "New angels should only fund post-revenue startups",
+        "detail": "Since most startups never ship a product and most that ship never get a paying customer, restricting bets to companies with even $2,000 a month in revenue eliminates the bulk of failure risk. Small syndicate checks are his '$1 blackjack table' — tuition paid while learning, before earning the right to pre-launch bets like Robinhood."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Introducing the anthology: Mount Rushmore of angels",
+        "summary": "Ben and David frame Calacanis as a subject with a whole anthology of stories — four companies, three podcasts, 200-plus angel investments — and he immediately self-ranks among history's best angels, setting the episode's blend of hype and receipts.",
+        "quote": "For sure, I'm at Rushmore.",
+        "timestamp": "3:01"
+      },
+      {
+        "title": "Growing up in the bar: commerce and power",
+        "summary": "His father's Bay Ridge pub — cops, bookies, Hells Angels — was his first education in money and power, the two obsessions that drive every later chapter of the story.",
+        "quote": "made espresso for mob bosses, made baked clams for Tony Bennett",
+        "timestamp": "9:11"
+      },
+      {
+        "title": "Silicon Alley Reporter starts as a photocopied zine",
+        "summary": "The 16-page photocopy he hand-delivered on a luggage cart becomes the wedge into media; Fred Wilson's $1,000 of Flatiron Partners ads is the first institutional validation of the Calacanis playbook.",
+        "quote": "Fred Wilson bought the first ad in it",
+        "timestamp": "20:59"
+      },
+      {
+        "title": "King of New York, and what he wanted",
+        "summary": "Turning down Jann Wenner to stay number one, he rides the internet boom to 75 employees and $12 million in revenue, naming with unusual candor the motivations underneath it all.",
+        "quote": "Fame, power, money. That's all I wanted.",
+        "timestamp": "24:46"
+      },
+      {
+        "title": "The crash, 9/11, and losing the Midas touch",
+        "summary": "Passing on a $20 million offer before the dot-com collapse, then living through 9/11 with a firefighter brother, produces the anger and the vow to come back that powers his second act.",
+        "quote": "you go from feeling like you're Superman and then you can't fly",
+        "timestamp": "27:22"
+      },
+      {
+        "title": "Blogging as MTV Unplugged for journalism",
+        "summary": "Seeing ex-employees out-earn their old salaries from solo blogs, he grasps that stripping away editors and production is the insight — the founding thesis of Weblogs Inc.",
+        "quote": "this is MTV Unplugged for journalism",
+        "timestamp": "29:20"
+      },
+      {
+        "title": "Launching Engadget on Denton's vacation day",
+        "summary": "The Peter Rojas poach — vegan omakase, day-one equity, and a launch timed to Nick Denton's flight to Brazil — is the episode's most vivid case study in Brooklyn-rules competition, followed by an unexpected no-poach truce.",
+        "quote": "we literally launched the site the first day of his vacation",
+        "timestamp": "37:01"
+      },
+      {
+        "title": "The prototype Sequoia Scout fund",
+        "summary": "Lobbying Sequoia on Twitter and Zynga earns him the first Scout slot, where Uber, Thumbtack, and DataStax turn $700K of deployed capital into over $100 million.",
+        "quote": "in the first seven, there were three unicorns",
+        "timestamp": "48:32"
+      },
+      {
+        "title": "Google's Panda update kills Mahalo",
+        "summary": "The $100 million-valued search startup loses 90% of its traffic to a Google algorithm change, teaching him the dependency lesson and seeding his antitrust conviction.",
+        "quote": "they basically studied us, copied us, killed us",
+        "timestamp": "59:52"
+      },
+      {
+        "title": "Why he never joined a venture partnership",
+        "summary": "He argues the deliberation that protects late-stage capital is fatal at the earliest stage, because outliers make no sense by definition — the philosophical core of his solo-artist model.",
+        "quote": "consensus equals death in the early stage",
+        "timestamp": "1:18:32"
+      },
+      {
+        "title": "The Calm thesis: yoga delivered through your ears",
+        "summary": "The 25K-on-air bet on Calm — now his most successful syndicate ever at a $1.4 billion valuation — shows how he assembles conviction from Sam Harris, Phil Jackson, and UCLA research before revenue exists.",
+        "quote": "this could be delivered through your ears",
+        "timestamp": "1:26:27"
+      },
+      {
+        "title": "Writing pro rata power into the docs",
+        "summary": "After downstream investors boxed him out of his accelerator's winners, he contractually reserved half of the next round — a founder-anchoring structure Y Combinator later copied, and the foundation of his deconstructed VC firm.",
+        "quote": "I'm the point guard. I passed you the ball",
+        "timestamp": "1:31:34"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Introducing the anthology: Mount Rushmore of angels",
+        "summary": "Ben and David frame Calacanis as a subject with a whole anthology of stories — four companies, three podcasts, 200-plus angel investments — and he immediately self-ranks among history's best angels, setting the episode's blend of hype and receipts.",
+        "quote": "For sure, I'm at Rushmore.",
+        "timestamp": "3:01"
+      },
+      {
+        "title": "Growing up in the bar: commerce and power",
+        "summary": "His father's Bay Ridge pub — cops, bookies, Hells Angels — was his first education in money and power, the two obsessions that drive every later chapter of the story.",
+        "quote": "made espresso for mob bosses, made baked clams for Tony Bennett",
+        "timestamp": "9:11"
+      },
+      {
+        "title": "Silicon Alley Reporter starts as a photocopied zine",
+        "summary": "The 16-page photocopy he hand-delivered on a luggage cart becomes the wedge into media; Fred Wilson's $1,000 of Flatiron Partners ads is the first institutional validation of the Calacanis playbook.",
+        "quote": "Fred Wilson bought the first ad in it",
+        "timestamp": "20:59"
+      },
+      {
+        "title": "King of New York, and what he wanted",
+        "summary": "Turning down Jann Wenner to stay number one, he rides the internet boom to 75 employees and $12 million in revenue, naming with unusual candor the motivations underneath it all.",
+        "quote": "Fame, power, money. That's all I wanted.",
+        "timestamp": "24:46"
+      },
+      {
+        "title": "The crash, 9/11, and losing the Midas touch",
+        "summary": "Passing on a $20 million offer before the dot-com collapse, then living through 9/11 with a firefighter brother, produces the anger and the vow to come back that powers his second act.",
+        "quote": "you go from feeling like you're Superman and then you can't fly",
+        "timestamp": "27:22"
+      },
+      {
+        "title": "Blogging as MTV Unplugged for journalism",
+        "summary": "Seeing ex-employees out-earn their old salaries from solo blogs, he grasps that stripping away editors and production is the insight — the founding thesis of Weblogs Inc.",
+        "quote": "this is MTV Unplugged for journalism",
+        "timestamp": "29:20"
+      },
+      {
+        "title": "Launching Engadget on Denton's vacation day",
+        "summary": "The Peter Rojas poach — vegan omakase, day-one equity, and a launch timed to Nick Denton's flight to Brazil — is the episode's most vivid case study in Brooklyn-rules competition, followed by an unexpected no-poach truce.",
+        "quote": "we literally launched the site the first day of his vacation",
+        "timestamp": "37:01"
+      },
+      {
+        "title": "The prototype Sequoia Scout fund",
+        "summary": "Lobbying Sequoia on Twitter and Zynga earns him the first Scout slot, where Uber, Thumbtack, and DataStax turn $700K of deployed capital into over $100 million.",
+        "quote": "in the first seven, there were three unicorns",
+        "timestamp": "48:32"
+      },
+      {
+        "title": "Google's Panda update kills Mahalo",
+        "summary": "The $100 million-valued search startup loses 90% of its traffic to a Google algorithm change, teaching him the dependency lesson and seeding his antitrust conviction.",
+        "quote": "they basically studied us, copied us, killed us",
+        "timestamp": "59:52"
+      },
+      {
+        "title": "Why he never joined a venture partnership",
+        "summary": "He argues the deliberation that protects late-stage capital is fatal at the earliest stage, because outliers make no sense by definition — the philosophical core of his solo-artist model.",
+        "quote": "consensus equals death in the early stage",
+        "timestamp": "1:18:32"
+      },
+      {
+        "title": "The Calm thesis: yoga delivered through your ears",
+        "summary": "The 25K-on-air bet on Calm — now his most successful syndicate ever at a $1.4 billion valuation — shows how he assembles conviction from Sam Harris, Phil Jackson, and UCLA research before revenue exists.",
+        "quote": "this could be delivered through your ears",
+        "timestamp": "1:26:27"
+      },
+      {
+        "title": "Writing pro rata power into the docs",
+        "summary": "After downstream investors boxed him out of his accelerator's winners, he contractually reserved half of the next round — a founder-anchoring structure Y Combinator later copied, and the foundation of his deconstructed VC firm.",
+        "quote": "I'm the point guard. I passed you the ball",
+        "timestamp": "1:31:34"
+      }
+    ]
+  },
+  {
+    "slug": "adapting-episode-2-sequoias-black-swan-memo-with-roelof-botha",
+    "guid": "191af3f4-6722-4a24-a6e0-81be5274d704",
+    "title": "Adapting Episode 2: Sequoia’s Black Swan Memo (with Roelof Botha)",
+    "pubDate": "Mon, 30 Mar 2020 21:14:03 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/02875aa1/54b8aa52.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/adapting-episode-2-sequoias-black-swan-memo-with-roelof-botha",
+    "duration": 2651,
+    "episodeUrl": "/poddy-summaries/episodes/adapting-episode-2-sequoias-black-swan-memo-with-roelof-botha/",
+    "summaryPath": "summaries/adapting-episode-2-sequoias-black-swan-memo-with-roelof-botha.json",
+    "transcriptPath": "transcripts/adapting-episode-2-sequoias-black-swan-memo-with-roelof-botha.txt",
+    "transcriptJsonPath": "transcripts/adapting-episode-2-sequoias-black-swan-memo-with-roelof-botha.json",
+    "overview": [
+      "Roelof Botha tells the inside story of Sequoia's Black Swan memo, published March 5, 2020, six days before America woke up to COVID. The episode's core argument is the memo's own lesson: nobody ever regrets making fast, decisive adjustments, because in downturns revenue falls faster than expenses and survival belongs to the most adaptable. Sequoia's global partnership saw China's lockdown firsthand and felt obligated to sound the alarm despite the risk of looking alarmist.",
+      "The interview's arc runs from defense to offense. Botha draws on his time as PayPal's CFO during the dot-com crash, when a Sequoia warning about runway and a collapsing market forced the company to invent its business model, to argue that constraint is clarifying. Founders should hoard cash and scenario-plan, then hunker down on product so they can accelerate out of the corner, like a racing driver who brakes hard before the apex."
+    ],
+    "takeaways": [
+      {
+        "title": "China lockdown gave Sequoia early conviction",
+        "detail": "Sequoia's China team went into full lockdown weeks before the U.S. reacted, and Botha's own brother couldn't get tested in San Francisco. With cases doubling every six days, the firm published on March 5, six days before the NBA suspended its season."
+      },
+      {
+        "title": "The dot-com crash created PayPal's business model",
+        "detail": "PayPal charged nothing for its service until June 2000, two months after the Nasdaq began sliding. Forced to monetize, it added transaction fees and bank-account funding that undercut credit card processors' margins, while scalable online fraud killed competitors."
+      },
+      {
+        "title": "Crisis offense means product, not sales",
+        "detail": "Botha argues face-to-face enterprise selling is hampered and marketing feels insensitive mid-crisis, so founders should pour effort into differentiated product. Like sequoia trees after a forest fire, survivors thrive disproportionately once the competitive brush is cleared."
+      },
+      {
+        "title": "Sequoia braked in 2019, plans to accelerate",
+        "detail": "Borrowing a Formula One lesson to brake hard while the car is straight and accelerate at the apex, Sequoia slowed its pace in 2019 because things didn't feel right, yet still approved two new Series A investments virtually the week before recording."
+      },
+      {
+        "title": "Patience turned Square's $9 IPO into $80",
+        "detail": "Sequoia distributed no Square shares until four years after the disappointing $9 IPO, exiting around $80 and improving returns for its LPs. Botha remains on the board and credits management for focusing on execution rather than the stock price."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Setting up the memo read around the world",
+        "summary": "Ben and David frame the episode: the Black Swan memo was published only 20 days before recording, and longtime Sequoia partner Roelof Botha is the person to tell its story.",
+        "quote": "the memo read around the world",
+        "timestamp": "0:44"
+      },
+      {
+        "title": "Nobody regrets fast, decisive adjustments",
+        "summary": "The hosts read the memo's key passage, which broke sharply from what other investors were saying: in downturns revenue and cash fall faster than expenses, and the adaptable survive.",
+        "quote": "Nobody ever regrets making fast and decisive adjustments to changing circumstances.",
+        "timestamp": "6:33"
+      },
+      {
+        "title": "Why Sequoia hit publish on March 5",
+        "summary": "Botha describes the nervousness that the world wasn't paying attention. Sequoia's global partnership had watched its China business go into lockdown and had seen this movie in prior cycles.",
+        "quote": "It was like watching an accident happen in slow motion.",
+        "timestamp": "7:34"
+      },
+      {
+        "title": "Michael Moritz rings the bell at PayPal",
+        "summary": "At a June 2000 board meeting, Moritz warned PayPal to focus on runway. Botha admits the first-timers didn't fathom the shift until Sequoia's warning made them sharpen their pencils.",
+        "quote": "the financing environment has changed forever",
+        "timestamp": "9:25"
+      },
+      {
+        "title": "Line-by-line survival at PayPal",
+        "summary": "Botha recounts the actual playbook: going through every P&L line, feverishly raising money, and finally charging for a service that had been free since launch.",
+        "quote": "we got religion about our business model",
+        "timestamp": "11:05"
+      },
+      {
+        "title": "Exponential math and the testing blind spot",
+        "summary": "Botha explains the chessboard parable: something doubling every six days looks trivial until it suddenly doesn't, and absent testing infrastructure, the U.S. problem was bigger than anyone could measure.",
+        "quote": "things that grow exponentially, we just don't understand it",
+        "timestamp": "14:57"
+      },
+      {
+        "title": "The decision matrix: cash is survival",
+        "summary": "A portfolio CFO's scenario framework, shared with over 100 companies, maps reopening scenarios against strategies and resulting cash balances, because without survival there is no enduring business.",
+        "quote": "Cash is the most important thing companies have to focus on right now.",
+        "timestamp": "16:58"
+      },
+      {
+        "title": "Offense means product, like sequoias after fire",
+        "summary": "With selling and marketing hampered, Botha's prescription is to invest in differentiated product, because the crisis clears the competitive landscape for companies that make it through.",
+        "quote": "the Sequoia trees that survive end up thriving disproportionately",
+        "timestamp": "19:13"
+      },
+      {
+        "title": "Crucible moments and calm seas",
+        "summary": "Free or under-monetized companies face a forced test of whether customers will pay, and Botha argues crisis is where leaders differentiate themselves and remind companies of their mission.",
+        "quote": "calm seas never made a good sailor",
+        "timestamp": "23:28"
+      },
+      {
+        "title": "Inside Sequoia's virtual war room",
+        "summary": "Sequoia moved its LP meeting online, runs daily Zoom standups, and triaged every U.S. portfolio company's runway to identify the two or three dozen needing the most attention.",
+        "quote": "a very thorough analysis of the portfolio health",
+        "timestamp": "27:59"
+      },
+      {
+        "title": "Braking hard, then accelerating out",
+        "summary": "Botha applies his racing-course analogy to deployment pace: Sequoia slowed in 2019 and intends to accelerate into the recovery, even as LP cash-flow issues may shrink venture at the margin.",
+        "quote": "you brake as hard as you can while the car is going straight",
+        "timestamp": "34:58"
+      },
+      {
+        "title": "Square's IPO and the payoff of patience",
+        "summary": "The bonus question revisits Square's misjudged $9 IPO. Botha's response was to control execution rather than the stock price, and Sequoia's patience multiplied the return for its LPs.",
+        "quote": "we didn't distribute a single square share until four years after the IPO",
+        "timestamp": "41:25"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Setting up the memo read around the world",
+        "summary": "Ben and David frame the episode: the Black Swan memo was published only 20 days before recording, and longtime Sequoia partner Roelof Botha is the person to tell its story.",
+        "quote": "the memo read around the world",
+        "timestamp": "0:44"
+      },
+      {
+        "title": "Nobody regrets fast, decisive adjustments",
+        "summary": "The hosts read the memo's key passage, which broke sharply from what other investors were saying: in downturns revenue and cash fall faster than expenses, and the adaptable survive.",
+        "quote": "Nobody ever regrets making fast and decisive adjustments to changing circumstances.",
+        "timestamp": "6:33"
+      },
+      {
+        "title": "Why Sequoia hit publish on March 5",
+        "summary": "Botha describes the nervousness that the world wasn't paying attention. Sequoia's global partnership had watched its China business go into lockdown and had seen this movie in prior cycles.",
+        "quote": "It was like watching an accident happen in slow motion.",
+        "timestamp": "7:34"
+      },
+      {
+        "title": "Michael Moritz rings the bell at PayPal",
+        "summary": "At a June 2000 board meeting, Moritz warned PayPal to focus on runway. Botha admits the first-timers didn't fathom the shift until Sequoia's warning made them sharpen their pencils.",
+        "quote": "the financing environment has changed forever",
+        "timestamp": "9:25"
+      },
+      {
+        "title": "Line-by-line survival at PayPal",
+        "summary": "Botha recounts the actual playbook: going through every P&L line, feverishly raising money, and finally charging for a service that had been free since launch.",
+        "quote": "we got religion about our business model",
+        "timestamp": "11:05"
+      },
+      {
+        "title": "Exponential math and the testing blind spot",
+        "summary": "Botha explains the chessboard parable: something doubling every six days looks trivial until it suddenly doesn't, and absent testing infrastructure, the U.S. problem was bigger than anyone could measure.",
+        "quote": "things that grow exponentially, we just don't understand it",
+        "timestamp": "14:57"
+      },
+      {
+        "title": "The decision matrix: cash is survival",
+        "summary": "A portfolio CFO's scenario framework, shared with over 100 companies, maps reopening scenarios against strategies and resulting cash balances, because without survival there is no enduring business.",
+        "quote": "Cash is the most important thing companies have to focus on right now.",
+        "timestamp": "16:58"
+      },
+      {
+        "title": "Offense means product, like sequoias after fire",
+        "summary": "With selling and marketing hampered, Botha's prescription is to invest in differentiated product, because the crisis clears the competitive landscape for companies that make it through.",
+        "quote": "the Sequoia trees that survive end up thriving disproportionately",
+        "timestamp": "19:13"
+      },
+      {
+        "title": "Crucible moments and calm seas",
+        "summary": "Free or under-monetized companies face a forced test of whether customers will pay, and Botha argues crisis is where leaders differentiate themselves and remind companies of their mission.",
+        "quote": "calm seas never made a good sailor",
+        "timestamp": "23:28"
+      },
+      {
+        "title": "Inside Sequoia's virtual war room",
+        "summary": "Sequoia moved its LP meeting online, runs daily Zoom standups, and triaged every U.S. portfolio company's runway to identify the two or three dozen needing the most attention.",
+        "quote": "a very thorough analysis of the portfolio health",
+        "timestamp": "27:59"
+      },
+      {
+        "title": "Braking hard, then accelerating out",
+        "summary": "Botha applies his racing-course analogy to deployment pace: Sequoia slowed in 2019 and intends to accelerate into the recovery, even as LP cash-flow issues may shrink venture at the margin.",
+        "quote": "you brake as hard as you can while the car is going straight",
+        "timestamp": "34:58"
+      },
+      {
+        "title": "Square's IPO and the payoff of patience",
+        "summary": "The bonus question revisits Square's misjudged $9 IPO. Botha's response was to control execution rather than the stock price, and Sequoia's patience multiplied the return for its LPs.",
+        "quote": "we didn't distribute a single square share until four years after the IPO",
+        "timestamp": "41:25"
+      }
+    ]
+  },
+  {
+    "slug": "adapting-episode-1-canlis",
+    "guid": "d9e60557-828e-41a7-b8de-2caf997c0fec",
+    "title": "Adapting Episode 1: Canlis",
+    "pubDate": "Fri, 20 Mar 2020 07:59:33 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/18731f75/49d31d23.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/adapting-episode-1-canlis",
+    "duration": 2962,
+    "episodeUrl": "/poddy-summaries/episodes/adapting-episode-1-canlis/",
+    "summaryPath": "summaries/adapting-episode-1-canlis.json",
+    "transcriptPath": "transcripts/adapting-episode-1-canlis.txt",
+    "transcriptJsonPath": "transcripts/adapting-episode-1-canlis.json",
+    "overview": [
+      "Facing Seattle's first COVID outbreak, Mark Canlis shut down a still-profitable, 70-year-old fine-dining institution within roughly 48 hours and replaced it with three untested concepts — a burger drive-through, a bagel shed, and family-meal home delivery. The episode's central argument is that in a crisis, decisive offense beats defensive hunkering: the pivot was designed not to maximize profit but to keep all 115 employees working and to signal hope to a frightened city.",
+      "The key arc runs from helplessness to agency. It begins with the leadership team watching the county announcement 'sucker punched,' turns at the 'lifeboat' meeting where doing nothing looked as risky as radical change, and peaks when every staff member re-volunteers for the new mission. The underlying tension — risking a legacy brand on burgers and bagels — is resolved by Canlis's practiced habit of reinvention, effectively opening a new restaurant every 18 months through experiments like parking-lot luaus."
+    ],
+    "takeaways": [
+      {
+        "title": "Doing nothing was riskier than radical change",
+        "detail": "Within days of Seattle's first case, the team concluded that keeping a profitable fine-dining room open was as dangerous as shutting it, so they closed it and launched a new concept every day for a week: drive-through Monday, bagels Tuesday, home delivery Wednesday."
+      },
+      {
+        "title": "Three concepts sized to preserve 115 jobs",
+        "detail": "The number of new businesses wasn't market-driven — 'it just took that many ideas' to restore every employee's normal hours. Bagels knowingly lose money, burgers make a little, and delivery scales toward profit, with break-even over three months as the explicit goal."
+      },
+      {
+        "title": "Staff had to re-volunteer for the pivot",
+        "detail": "Mark told employees the plan meant choosing not to be laid off or furloughed and asked them to opt in; every person said 'put me in coach.' That consent converted the building's mood from helplessness to hope."
+      },
+      {
+        "title": "Constant reinvention made the crisis pivot possible",
+        "detail": "Canlis rewrites its internal systems about every 18 months and runs Formula One-style experiments — a parking-lot luau with an Amazon-bought pool drew 1,200 people a night — so opening three restaurants in a week was practiced, not improvised."
+      },
+      {
+        "title": "Tock halted its roadmap to build delivery",
+        "detail": "When Canlis tried to hack the Tock reservation system into a delivery platform, Tock 'stood the company down' in Chicago and shipped the feature in days — software Mark says now lets any restaurant in the country do no-contact delivery."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Acquired pauses; Adapting launches",
+        "summary": "Ben and David explain why business-as-usual episodes feel irresponsible during the pandemic and reformat the show around leaders responding to crisis, with no grading — anyone taking risks right now is 'an A plus.'",
+        "quote": "starting today, we're pausing acquired and we are launching adapting",
+        "timestamp": "1:36"
+      },
+      {
+        "title": "Four generations of Canlis restaurateurs",
+        "summary": "Mark traces the family from a great-grandfather cooking for Teddy Roosevelt on safari to Peter Canlis founding the Seattle restaurant in 1950, framing the business as a century-long project he and his brother inherited in 2003.",
+        "quote": "a hundred years of trying to cook for people",
+        "timestamp": "9:15"
+      },
+      {
+        "title": "Pearl Harbor and the USO kitchen bet",
+        "summary": "The origin story: Peter Canlis talked so much smack about USO food in wartime Honolulu that the chef dared him to do better — he ended up running 3,000 to 5,000 meals a day on base, a high-volume root the drive-through now echoes.",
+        "quote": "you think you do a better job? You try it",
+        "timestamp": "12:23"
+      },
+      {
+        "title": "What fine-dining scale actually means",
+        "summary": "Context for the pivot's magnitude: 115 employees, 20 hours of prep for five hours of service, six dinners a week for at most 200 guests — versus 1,200 people served through the drive-through in a single day.",
+        "quote": "we are a model of inefficiency",
+        "timestamp": "13:39"
+      },
+      {
+        "title": "The 48-hour decision to go radical",
+        "summary": "After the county's livestream announcement lands mid-meeting like a 'sucker punch,' the team reframes the choice: protecting a profitable business is a losing defensive strategy once you admit the game has changed.",
+        "quote": "just as risky to do nothing as it would to do something really radical",
+        "timestamp": "16:40"
+      },
+      {
+        "title": "The lifeboat meeting",
+        "summary": "Mark's metaphor for the executive off-site on Marin's sofa: someone checked the back of the sinking ship and found an escape route, shifting the team from hopelessness to a concrete plan they sat with for 24 hours.",
+        "quote": "it's turned out there is a lifeboat on the back of the ship",
+        "timestamp": "20:49"
+      },
+      {
+        "title": "The staff re-volunteers",
+        "summary": "Rather than impose the pivot, Mark asked every employee to actively choose to keep working instead of being furloughed — and their unanimous buy-in became the encouragement leadership itself needed.",
+        "quote": "every one of them saying we're in, you know, put me in coach",
+        "timestamp": "22:03"
+      },
+      {
+        "title": "Designing the drive-through, bagel shed, and delivery",
+        "summary": "Mark walks through how each concept came from existing assets: a driveway off a busy road, an expediter who bakes remarkable bagels, a bread oven in a shipping container, and the staff family meal the city never gets to taste.",
+        "quote": "we were embracing our inner drive-through as a fine dining restaurant",
+        "timestamp": "25:46"
+      },
+      {
+        "title": "The economics: break even, keep everyone employed",
+        "summary": "Mark is candid that bagels lose money and burgers make a little; the design goal is not losing money for three months so Canlis emerges well-postured — profit is a means of protecting staff, not the point.",
+        "quote": "It'd be amazing if for the next three months, Canlis could not lose money",
+        "timestamp": "27:07"
+      },
+      {
+        "title": "Tock rebuilds reservations into delivery overnight",
+        "summary": "When Canlis tried to hack the reservation platform into delivery, Tock's Chicago team dropped everything and shipped it in days — infrastructure Mark argues any scrappy restaurant in the country can now use.",
+        "quote": "we stood our company down. We're turning it back on",
+        "timestamp": "30:57"
+      },
+      {
+        "title": "Staff parties as adaptation practice",
+        "summary": "The parking-lot luau — sod, sand, tiki huts, a $2,000 Amazon pool, and 1,200 nightly guests — shows the experimentation muscle that made this pivot possible; every project feeds back into the menu and their view of hospitality.",
+        "quote": "why don't we just throw the staff party for the city?",
+        "timestamp": "37:35"
+      },
+      {
+        "title": "Is the sky still up there?",
+        "summary": "Mark's closing leadership discipline: fear and discouragement are the disease he's fighting, and starting each morning with what you're thankful for turns helplessness into a role to play — the spirit behind 'We got this, Seattle.'",
+        "quote": "is it still up there or did it fall?",
+        "timestamp": "42:59"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Acquired pauses; Adapting launches",
+        "summary": "Ben and David explain why business-as-usual episodes feel irresponsible during the pandemic and reformat the show around leaders responding to crisis, with no grading — anyone taking risks right now is 'an A plus.'",
+        "quote": "starting today, we're pausing acquired and we are launching adapting",
+        "timestamp": "1:36"
+      },
+      {
+        "title": "Four generations of Canlis restaurateurs",
+        "summary": "Mark traces the family from a great-grandfather cooking for Teddy Roosevelt on safari to Peter Canlis founding the Seattle restaurant in 1950, framing the business as a century-long project he and his brother inherited in 2003.",
+        "quote": "a hundred years of trying to cook for people",
+        "timestamp": "9:15"
+      },
+      {
+        "title": "Pearl Harbor and the USO kitchen bet",
+        "summary": "The origin story: Peter Canlis talked so much smack about USO food in wartime Honolulu that the chef dared him to do better — he ended up running 3,000 to 5,000 meals a day on base, a high-volume root the drive-through now echoes.",
+        "quote": "you think you do a better job? You try it",
+        "timestamp": "12:23"
+      },
+      {
+        "title": "What fine-dining scale actually means",
+        "summary": "Context for the pivot's magnitude: 115 employees, 20 hours of prep for five hours of service, six dinners a week for at most 200 guests — versus 1,200 people served through the drive-through in a single day.",
+        "quote": "we are a model of inefficiency",
+        "timestamp": "13:39"
+      },
+      {
+        "title": "The 48-hour decision to go radical",
+        "summary": "After the county's livestream announcement lands mid-meeting like a 'sucker punch,' the team reframes the choice: protecting a profitable business is a losing defensive strategy once you admit the game has changed.",
+        "quote": "just as risky to do nothing as it would to do something really radical",
+        "timestamp": "16:40"
+      },
+      {
+        "title": "The lifeboat meeting",
+        "summary": "Mark's metaphor for the executive off-site on Marin's sofa: someone checked the back of the sinking ship and found an escape route, shifting the team from hopelessness to a concrete plan they sat with for 24 hours.",
+        "quote": "it's turned out there is a lifeboat on the back of the ship",
+        "timestamp": "20:49"
+      },
+      {
+        "title": "The staff re-volunteers",
+        "summary": "Rather than impose the pivot, Mark asked every employee to actively choose to keep working instead of being furloughed — and their unanimous buy-in became the encouragement leadership itself needed.",
+        "quote": "every one of them saying we're in, you know, put me in coach",
+        "timestamp": "22:03"
+      },
+      {
+        "title": "Designing the drive-through, bagel shed, and delivery",
+        "summary": "Mark walks through how each concept came from existing assets: a driveway off a busy road, an expediter who bakes remarkable bagels, a bread oven in a shipping container, and the staff family meal the city never gets to taste.",
+        "quote": "we were embracing our inner drive-through as a fine dining restaurant",
+        "timestamp": "25:46"
+      },
+      {
+        "title": "The economics: break even, keep everyone employed",
+        "summary": "Mark is candid that bagels lose money and burgers make a little; the design goal is not losing money for three months so Canlis emerges well-postured — profit is a means of protecting staff, not the point.",
+        "quote": "It'd be amazing if for the next three months, Canlis could not lose money",
+        "timestamp": "27:07"
+      },
+      {
+        "title": "Tock rebuilds reservations into delivery overnight",
+        "summary": "When Canlis tried to hack the reservation platform into delivery, Tock's Chicago team dropped everything and shipped it in days — infrastructure Mark argues any scrappy restaurant in the country can now use.",
+        "quote": "we stood our company down. We're turning it back on",
+        "timestamp": "30:57"
+      },
+      {
+        "title": "Staff parties as adaptation practice",
+        "summary": "The parking-lot luau — sod, sand, tiki huts, a $2,000 Amazon pool, and 1,200 nightly guests — shows the experimentation muscle that made this pivot possible; every project feeds back into the menu and their view of hospitality.",
+        "quote": "why don't we just throw the staff party for the city?",
+        "timestamp": "37:35"
+      },
+      {
+        "title": "Is the sky still up there?",
+        "summary": "Mark's closing leadership discipline: fear and discouragement are the disease he's fighting, and starting each morning with what you're thankful for turns helplessness into a role to play — the spirit behind 'We got this, Seattle.'",
+        "quote": "is it still up there or did it fall?",
+        "timestamp": "42:59"
+      }
+    ]
+  },
+  {
+    "slug": "the-top-10-acquisitions-of-all-time",
+    "guid": "58a5c74d-2eef-4631-9231-3c485a812718",
+    "title": "The Top 10 Acquisitions of All-Time",
+    "pubDate": "Tue, 17 Mar 2020 10:16:26 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/33f43e22/4058d5b3.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/the-top-10-acquisitions-of-all-time",
+    "duration": 6711,
+    "episodeUrl": "/poddy-summaries/episodes/the-top-10-acquisitions-of-all-time/",
+    "summaryPath": "summaries/the-top-10-acquisitions-of-all-time.json",
+    "transcriptPath": "transcripts/the-top-10-acquisitions-of-all-time.txt",
+    "transcriptJsonPath": "transcripts/the-top-10-acquisitions-of-all-time.json",
+    "overview": [
+      "Ben and David rank the greatest acquisitions of all time by one blunt yardstick: absolute dollar return — the acquired company's estimated market-cap contribution to its parent minus the purchase price. Facebook's $1 billion Instagram buy tops the list at roughly $150 billion created, ahead of Google's DoubleClick and YouTube, and Google claims four of the top ten. Flashy multiples like Android's 1,555x are dismissed as vanity metrics — you can't eat ROI multiple.",
+      "The deeper arc is a closing window: nearly every winner was bought between 2005 and 2012, when online advertising was in takeoff and scale acquirers were scarce. The hosts argue abundant venture capital now lets would-be targets stay independent, so this era may never repeat. An appended Hamilton Helmer interview supplies the mechanism: value comes from establishing power — durable defensibility — during a market's brief formative flux, exactly when these deals were struck."
+    ],
+    "takeaways": [
+      {
+        "title": "Absolute dollar returns trump ROI multiples",
+        "detail": "Google Maps returned 242x on $70 million while Marvel returned 5x on $4.2 billion, yet both netted roughly $16 billion for their acquirers. The hosts rank by incremental dollars because multiples are paper bragging rights — 'it's still $16 billion in incremental dollars.'"
+      },
+      {
+        "title": "The top three acquisitions are all online advertising",
+        "detail": "Instagram, DoubleClick, and YouTube each plugged into an existing aggregated advertiser base at Facebook or Google. Advertising takes a vig on everything sold in the economy with near-zero marginal cost and no customer segmentation, so early positions in it compound like nothing else."
+      },
+      {
+        "title": "Instagram compounded at 88 percent for eight years",
+        "detail": "Facebook's $1 billion 2012 purchase now drives about $20 billion of its $70 billion revenue — roughly $150 billion of market cap — while paying creators nothing for content, unlike YouTube, which pays out about half its revenue and carries heavy 4K bandwidth costs."
+      },
+      {
+        "title": "Cheap venture capital ended the golden acquisition era",
+        "detail": "Every top-ten deal closed between 1984 and 2012, most in a 2005–2012 window. Where Facebook once offered a billion dollars to founders with small funds behind them, startups can now raise at $10 billion valuations and stay independent — TikTok is what a later YouTube becomes instead of an acquisition."
+      },
+      {
+        "title": "Repeatable content engines beat hit-driven studios",
+        "detail": "ESPN (over $30 billion returned since 1984) and Marvel made the top ten while Pixar sits outside it with a roughly 2% annualized return. Sports get played every day and Marvel mines a deep character library, but Pixar depends on the brain trust inventing a new hit every year."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "A message recorded from a different era",
+        "summary": "The hosts open with a COVID-19 preamble explaining why they released a pre-pandemic episode anyway: people need entertainment, laughter, and a reminder that normal debates will return.",
+        "quote": "the world does still need some entertainment",
+        "timestamp": "1:46"
+      },
+      {
+        "title": "The ranking methodology: absolute dollar return",
+        "summary": "Ben and David set the ground rules — enough time elapsed, majority purchases only, value measured as market-cap contribution minus price — the lens every ranking that follows depends on.",
+        "quote": "what is the absolute dollar return in value to the big company",
+        "timestamp": "11:01"
+      },
+      {
+        "title": "Honorable mentions: Bungie bootstraps the Xbox",
+        "summary": "Among the near-misses (WhatsApp, VMware, Venmo, Pixar, PA Semi), Microsoft's $30 million Bungie pickup stands out: Halo generated $5 billion and carried an $11 billion-a-year Xbox business.",
+        "quote": "a frigging steal in order to bootstrap the Xbox business",
+        "timestamp": "20:31"
+      },
+      {
+        "title": "Marvel versus Google Maps: vanity metrics exposed",
+        "summary": "Comparing Marvel's 5x return with Google Maps' 242x — both worth about $16 billion — crystallizes the episode's core argument that ROI multiples mislead and absolute dollars are what count.",
+        "quote": "it's still $16 billion in incremental dollars",
+        "timestamp": "31:06"
+      },
+      {
+        "title": "NeXT: the greatest acquihire of all time",
+        "summary": "Apple's $429 million purchase brought back Steve Jobs plus the NeXTSTEP lineage behind every modern Apple operating system; even after a 95% discount, the hosts pencil it at $62.5 billion.",
+        "quote": "Greatest acquihire of all time",
+        "timestamp": "37:57"
+      },
+      {
+        "title": "Android's hidden economics beyond search",
+        "summary": "The hosts value the $50 million Android deal through Play Store revenue plus the roughly $9 billion in default-search payments Google avoids by owning the operating system — a 1,555x return.",
+        "quote": "no Android, no Google Play Store",
+        "timestamp": "42:52"
+      },
+      {
+        "title": "DoubleClick, the shocking number two",
+        "summary": "A deal the hosts almost cut from the list turns out to underpin about $22 billion of Google's ad revenue — $123 billion in value creation from a $3.1 billion price.",
+        "quote": "now contribute a massive amount of revenue to Google",
+        "timestamp": "49:31"
+      },
+      {
+        "title": "Instagram crowned the greatest acquisition ever",
+        "summary": "Facebook's 2012 purchase becomes the list's number one, with the highest annualized return of any deal — a demonstration of why compounding forces exponential thinking.",
+        "quote": "88% compounded annualized return. There's nothing more to say.",
+        "timestamp": "53:43"
+      },
+      {
+        "title": "Why the golden M&A window closed",
+        "summary": "Assessing Google's and Facebook's acquirer track records, the hosts argue the overlap of a technology wave and a capital wave is gone — robust venture funding now keeps would-be targets independent.",
+        "quote": "that fertile window from, you know, 2005 to 2012",
+        "timestamp": "1:06:39"
+      },
+      {
+        "title": "Grading: Instagram's free content versus YouTube's payouts",
+        "summary": "The re-grading section contrasts business quality — Instagram pays nothing for highly produced content while YouTube sends roughly half its revenue to creators, making Instagram the asset to own.",
+        "quote": "Instagram generates $20 billion in revenue from content that they get for free",
+        "timestamp": "1:21:36"
+      },
+      {
+        "title": "Hamilton Helmer on persistence and power",
+        "summary": "The appended LP excerpt introduces Seven Powers: strong performance persists, value lives in the future, and defensibility must be established during a market's brief takeoff phase.",
+        "quote": "really strong performance is persistent",
+        "timestamp": "1:38:59"
+      },
+      {
+        "title": "Counterpositioning: why Blockbuster couldn't copy Netflix",
+        "summary": "Helmer's favorite power explains why incumbents rationally refuse to mimic challengers — Blockbuster's dependence on late fees, compounded by cognitive bias and agency problems, froze its response until too late.",
+        "quote": "late fees accounted for half of Blockbuster's income",
+        "timestamp": "1:44:29"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "A message recorded from a different era",
+        "summary": "The hosts open with a COVID-19 preamble explaining why they released a pre-pandemic episode anyway: people need entertainment, laughter, and a reminder that normal debates will return.",
+        "quote": "the world does still need some entertainment",
+        "timestamp": "1:46"
+      },
+      {
+        "title": "The ranking methodology: absolute dollar return",
+        "summary": "Ben and David set the ground rules — enough time elapsed, majority purchases only, value measured as market-cap contribution minus price — the lens every ranking that follows depends on.",
+        "quote": "what is the absolute dollar return in value to the big company",
+        "timestamp": "11:01"
+      },
+      {
+        "title": "Honorable mentions: Bungie bootstraps the Xbox",
+        "summary": "Among the near-misses (WhatsApp, VMware, Venmo, Pixar, PA Semi), Microsoft's $30 million Bungie pickup stands out: Halo generated $5 billion and carried an $11 billion-a-year Xbox business.",
+        "quote": "a frigging steal in order to bootstrap the Xbox business",
+        "timestamp": "20:31"
+      },
+      {
+        "title": "Marvel versus Google Maps: vanity metrics exposed",
+        "summary": "Comparing Marvel's 5x return with Google Maps' 242x — both worth about $16 billion — crystallizes the episode's core argument that ROI multiples mislead and absolute dollars are what count.",
+        "quote": "it's still $16 billion in incremental dollars",
+        "timestamp": "31:06"
+      },
+      {
+        "title": "NeXT: the greatest acquihire of all time",
+        "summary": "Apple's $429 million purchase brought back Steve Jobs plus the NeXTSTEP lineage behind every modern Apple operating system; even after a 95% discount, the hosts pencil it at $62.5 billion.",
+        "quote": "Greatest acquihire of all time",
+        "timestamp": "37:57"
+      },
+      {
+        "title": "Android's hidden economics beyond search",
+        "summary": "The hosts value the $50 million Android deal through Play Store revenue plus the roughly $9 billion in default-search payments Google avoids by owning the operating system — a 1,555x return.",
+        "quote": "no Android, no Google Play Store",
+        "timestamp": "42:52"
+      },
+      {
+        "title": "DoubleClick, the shocking number two",
+        "summary": "A deal the hosts almost cut from the list turns out to underpin about $22 billion of Google's ad revenue — $123 billion in value creation from a $3.1 billion price.",
+        "quote": "now contribute a massive amount of revenue to Google",
+        "timestamp": "49:31"
+      },
+      {
+        "title": "Instagram crowned the greatest acquisition ever",
+        "summary": "Facebook's 2012 purchase becomes the list's number one, with the highest annualized return of any deal — a demonstration of why compounding forces exponential thinking.",
+        "quote": "88% compounded annualized return. There's nothing more to say.",
+        "timestamp": "53:43"
+      },
+      {
+        "title": "Why the golden M&A window closed",
+        "summary": "Assessing Google's and Facebook's acquirer track records, the hosts argue the overlap of a technology wave and a capital wave is gone — robust venture funding now keeps would-be targets independent.",
+        "quote": "that fertile window from, you know, 2005 to 2012",
+        "timestamp": "1:06:39"
+      },
+      {
+        "title": "Grading: Instagram's free content versus YouTube's payouts",
+        "summary": "The re-grading section contrasts business quality — Instagram pays nothing for highly produced content while YouTube sends roughly half its revenue to creators, making Instagram the asset to own.",
+        "quote": "Instagram generates $20 billion in revenue from content that they get for free",
+        "timestamp": "1:21:36"
+      },
+      {
+        "title": "Hamilton Helmer on persistence and power",
+        "summary": "The appended LP excerpt introduces Seven Powers: strong performance persists, value lives in the future, and defensibility must be established during a market's brief takeoff phase.",
+        "quote": "really strong performance is persistent",
+        "timestamp": "1:38:59"
+      },
+      {
+        "title": "Counterpositioning: why Blockbuster couldn't copy Netflix",
+        "summary": "Helmer's favorite power explains why incumbents rationally refuse to mimic challengers — Blockbuster's dependence on late fees, compounded by cognitive bias and agency problems, froze its response until too late.",
+        "quote": "late fees accounted for half of Blockbuster's income",
+        "timestamp": "1:44:29"
+      }
+    ]
   }
 ]

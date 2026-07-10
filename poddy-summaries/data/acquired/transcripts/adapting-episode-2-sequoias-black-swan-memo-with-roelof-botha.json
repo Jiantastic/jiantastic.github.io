@@ -1,0 +1,3954 @@
+{
+  "title": "Adapting Episode 2: Sequoia’s Black Swan Memo (with Roelof Botha)",
+  "slug": "adapting-episode-2-sequoias-black-swan-memo-with-roelof-botha",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.0,
+      "text": " It was pretty good."
+    },
+    {
+      "start": 1.44,
+      "end": 4.82,
+      "text": " It was... yes, it was pretty good."
+    },
+    {
+      "start": 5.14,
+      "end": 6.3,
+      "text": " Don't doubt your vibe."
+    },
+    {
+      "start": 6.82,
+      "end": 8.98,
+      "text": " For not being his full-time gig, it was pretty good."
+    },
+    {
+      "start": 9.18,
+      "end": 10.26,
+      "text": " Emoji Records."
+    },
+    {
+      "start": 23.38,
+      "end": 27.36,
+      "text": " Welcome to episode two of Adapting by Acquired."
+    },
+    {
+      "start": 27.86,
+      "end": 29.26,
+      "text": " Hey, now you got it."
+    },
+    {
+      "start": 29.26,
+      "end": 31.200000000000003,
+      "text": " Yeah, well, I rehearsed."
+    },
+    {
+      "start": 31.78,
+      "end": 35.7,
+      "text": " Or for those keeping track at home, season six, episode five."
+    },
+    {
+      "start": 36.44,
+      "end": 41.260000000000005,
+      "text": " We are continuing our series to bring you the stories of great companies and great leaders"
+    },
+    {
+      "start": 41.260000000000005,
+      "end": 44.260000000000005,
+      "text": " who are adapting to a world that's changing in real time."
+    },
+    {
+      "start": 44.78,
+      "end": 48.88,
+      "text": " Today, we are covering the story behind the memo read around the world,"
+    },
+    {
+      "start": 49.32,
+      "end": 55.52,
+      "text": " Sequoia Capital's Black Swan memo, amazingly published only 20 days ago as we record this."
+    },
+    {
+      "start": 56.08,
+      "end": 58.260000000000005,
+      "text": " Man, it feels like 20 lifetimes ago."
+    },
+    {
+      "start": 58.260000000000005,
+      "end": 59.02,
+      "text": " I know."
+    },
+    {
+      "start": 59.26,
+      "end": 60.059999999999995,
+      "text": " I know."
+    },
+    {
+      "start": 60.28,
+      "end": 63.58,
+      "text": " Well, we are joined by the best person in the world to tell us about it,"
+    },
+    {
+      "start": 63.86,
+      "end": 66.1,
+      "text": " longtime Sequoia partner, Rulof Bota."
+    },
+    {
+      "start": 66.94,
+      "end": 70.1,
+      "text": " Today's episode is different than last week's episode with Canlis."
+    },
+    {
+      "start": 70.32,
+      "end": 74.78,
+      "text": " We are going much closer to Acquired's bread and butter of technology and venture capital."
+    },
+    {
+      "start": 75.12,
+      "end": 79.75999999999999,
+      "text": " This conversation is particularly interesting not just to hear the story behind the Black"
+    },
+    {
+      "start": 79.76,
+      "end": 86.02000000000001,
+      "text": " Swan memo, but also to get a real-time look at how Sequoia themselves are thinking about adapting during this time,"
+    },
+    {
+      "start": 86.28,
+      "end": 87.80000000000001,
+      "text": " along with their portfolio companies."
+    },
+    {
+      "start": 88.28,
+      "end": 94.42,
+      "text": " Before we jump in, if you haven't already, we want to strongly encourage you to join the Acquired Slack community."
+    },
+    {
+      "start": 94.42,
+      "end": 102.36,
+      "text": " I honestly think at this point it's probably the best community on the internet for people focused on building and investing in great companies."
+    },
+    {
+      "start": 102.54,
+      "end": 103.58,
+      "text": " We really mean that."
+    },
+    {
+      "start": 103.8,
+      "end": 107.24000000000001,
+      "text": " And that's a testament to you all and the quality of people that listen to this show."
+    },
+    {
+      "start": 107.24,
+      "end": 115.69999999999999,
+      "text": " So it's been pretty awesome, especially over the last week or so, just seeing how we're all supporting each other in there and helping everybody get through this time."
+    },
+    {
+      "start": 115.88,
+      "end": 118.58,
+      "text": " So you can find a link on our website to get an invite."
+    },
+    {
+      "start": 118.72,
+      "end": 119.78,
+      "text": " You should definitely sign up."
+    },
+    {
+      "start": 119.78,
+      "end": 130.14,
+      "text": " The other thing we want to tell you about is, as we announced on the last episode, we're adding something big to the limited partner program that we're really excited about."
+    },
+    {
+      "start": 130.34,
+      "end": 138.64,
+      "text": " We're going to be hosting monthly calls on Zoom for all LPs, which we're calling, appropriately enough, LP calls."
+    },
+    {
+      "start": 139.56,
+      "end": 140.48,
+      "text": " Very original, David."
+    },
+    {
+      "start": 141.06,
+      "end": 142.22,
+      "text": " Yes, super original."
+    },
+    {
+      "start": 142.54,
+      "end": 144.24,
+      "text": " We're big into branding here at Acquired."
+    },
+    {
+      "start": 144.24,
+      "end": 156.92000000000002,
+      "text": " So when you sign up for the limited partner program, you get both all our LP episodes, which go deeper on nitty gritty company building topics, and access to the monthly LP calls with both of us."
+    },
+    {
+      "start": 157.22,
+      "end": 162.36,
+      "text": " You can sign up by clicking the link in the show notes or going to glow.fm slash acquired."
+    },
+    {
+      "start": 163.24,
+      "end": 164.96,
+      "text": " All right, listeners."
+    },
+    {
+      "start": 165.32000000000002,
+      "end": 170.5,
+      "text": " Now is a great time to talk about a new partner of ours here on Acquired, Lagora,"
+    },
+    {
+      "start": 170.5,
+      "end": 176.32,
+      "text": " the agentic operating system that is redefining how the world's best legal teams work."
+    },
+    {
+      "start": 176.86,
+      "end": 176.88,
+      "text": " Yep."
+    },
+    {
+      "start": 177.02,
+      "end": 181.1,
+      "text": " It's sort of obvious that AI is going to completely change the legal industry."
+    },
+    {
+      "start": 181.46,
+      "end": 185.86,
+      "text": " I bet most of you listening have dropped a contract into some sort of AI chatbot out there."
+    },
+    {
+      "start": 186.06,
+      "end": 192.9,
+      "text": " Lagora took that insight and asked the question, what if you really built something with that power from the ground up for the legal industry?"
+    },
+    {
+      "start": 193.3,
+      "end": 199.48,
+      "text": " So the founders did exactly what great founders do, operate with obsessive customer focus."
+    },
+    {
+      "start": 199.48,
+      "end": 203.84,
+      "text": " They embedded inside a massive law firm for months."
+    },
+    {
+      "start": 204.32,
+      "end": 208.01999999999998,
+      "text": " They sat with the lawyers just watching how the work really gets done."
+    },
+    {
+      "start": 208.42,
+      "end": 218.38,
+      "text": " And that's how you get features that customers love, like tabular review, where you drop in a folder of hundreds of contracts and it pulls every key term into a grid a lawyer can actually work with."
+    },
+    {
+      "start": 218.7,
+      "end": 219.78,
+      "text": " Lagora's bet here is interesting."
+    },
+    {
+      "start": 219.78,
+      "end": 227.76,
+      "text": " Since it lets each lawyer handle more complexity, any given person can increase the quality of their work and do higher value work."
+    },
+    {
+      "start": 228.08,
+      "end": 231.98,
+      "text": " And this means that the pie can grow even as each individual task takes less time."
+    },
+    {
+      "start": 232.36,
+      "end": 236.48,
+      "text": " And they recently launched Lagora agent offering greater intelligence and performance."
+    },
+    {
+      "start": 236.94,
+      "end": 239.18,
+      "text": " The agent lets lawyers set an objective."
+    },
+    {
+      "start": 239.18,
+      "end": 244.9,
+      "text": " Then it can handle the planning and the execution and delivery of the final product."
+    },
+    {
+      "start": 244.9,
+      "end": 250.84,
+      "text": " Legal teams get to maintain full control and transparency since they're still involved where judgment is required."
+    },
+    {
+      "start": 251.36,
+      "end": 253.68,
+      "text": " And Lagora works where you already work."
+    },
+    {
+      "start": 253.94,
+      "end": 257.04,
+      "text": " You can use it within Microsoft Word while redlining or drafting."
+    },
+    {
+      "start": 257.28000000000003,
+      "end": 260.6,
+      "text": " The early Lagora numbers essentially speak for themselves."
+    },
+    {
+      "start": 260.96000000000004,
+      "end": 265.5,
+      "text": " When they have a head-to-head pilot with their top competitor, they win 70% of the time."
+    },
+    {
+      "start": 265.5,
+      "end": 273.04,
+      "text": " Lagora now has over 100,000 lawyers on the platform from 1,200 legal teams in 50 countries."
+    },
+    {
+      "start": 273.64,
+      "end": 280.26,
+      "text": " And crazily, they went from 1 million to 100 million in ARR in about 18 months."
+    },
+    {
+      "start": 281.14,
+      "end": 282.7,
+      "text": " Truly insane numbers."
+    },
+    {
+      "start": 282.9,
+      "end": 284.32,
+      "text": " And that is the real test."
+    },
+    {
+      "start": 284.64,
+      "end": 293.8,
+      "text": " Plenty of things demo well, but the question is whether a busy associate actually reaches for it during crunch time or whether a partner trusts it before going into a conversation with a major client."
+    },
+    {
+      "start": 293.8,
+      "end": 305.18,
+      "text": " If your legal team wants to check it out, whether you're a law firm or you're in-house at a company, you can learn more at lagora.com slash acquired and just tell them that Ben and David sent you."
+    },
+    {
+      "start": 306.02000000000004,
+      "end": 310.82,
+      "text": " And with that, David, we will dive into our interview with Ruloff."
+    },
+    {
+      "start": 311.18,
+      "end": 314.88,
+      "text": " We are super lucky to have Ruloff with us today."
+    },
+    {
+      "start": 314.88,
+      "end": 322.48,
+      "text": " Ruloff has been a partner at Sequoia since 2003 and led early investments in some of the most important companies that we've covered on this show."
+    },
+    {
+      "start": 322.84,
+      "end": 325.74,
+      "text": " Companies like Instagram, YouTube, and Square."
+    },
+    {
+      "start": 326.32,
+      "end": 333.14,
+      "text": " He currently leads the firm's U.S. business as one of Sequoia's three stewards, along with Doug Leoni and Neil Shen."
+    },
+    {
+      "start": 333.14,
+      "end": 349.41999999999996,
+      "text": " And prior to joining Sequoia, Ruloff was the CFO of PayPal, which is particularly relevant to our conversation today, having helped navigate them through the dot-com crash, their subsequent IPO, and ultimately their sale to eBay for $1.5 billion."
+    },
+    {
+      "start": 349.96,
+      "end": 353.36,
+      "text": " Welcome, Ruloff, and thanks for joining us in these interesting times."
+    },
+    {
+      "start": 354.06,
+      "end": 354.32,
+      "text": " Thank you."
+    },
+    {
+      "start": 354.38,
+      "end": 357.12,
+      "text": " I wish the circumstances were different, but I'm glad to be here."
+    },
+    {
+      "start": 357.58,
+      "end": 358.8,
+      "text": " Us too, and we're glad to have you."
+    },
+    {
+      "start": 358.97999999999996,
+      "end": 360.58,
+      "text": " Let's jump right into it."
+    },
+    {
+      "start": 360.58,
+      "end": 370.96,
+      "text": " On March 5th, you guys did something that now seems obvious in hindsight, but definitely did not seem obvious on March 5th, which was..."
+    },
+    {
+      "start": 370.96,
+      "end": 373.5,
+      "text": " Yeah, I think March 5th, that was like two years ago at this point."
+    },
+    {
+      "start": 374.12,
+      "end": 382.5,
+      "text": " It feels like there's that Lennon quote, right, that people have been saying about some decades nothing happens and some weeks decades happen."
+    },
+    {
+      "start": 383.36,
+      "end": 384.56,
+      "text": " It's been about two decades."
+    },
+    {
+      "start": 384.56,
+      "end": 393.1,
+      "text": " You guys released publicly, both simultaneously emailed all your portfolio CEOs and posted on Medium what you call the Black Swan memo."
+    },
+    {
+      "start": 393.76,
+      "end": 397.56,
+      "text": " I'm sure most of our listeners have read it probably multiple times at this point."
+    },
+    {
+      "start": 398.06,
+      "end": 409.26,
+      "text": " You know, I just want to point out, I want to highlight one kind of quote from it that, again, probably everyone's read, but it's such a stark difference between what you guys said and what so many other investors and people were saying at the moment."
+    },
+    {
+      "start": 409.26,
+      "end": 414.88,
+      "text": " You say, having weathered every business downturn for nearly 50 years, we've learned an important lesson."
+    },
+    {
+      "start": 415.42,
+      "end": 419.84,
+      "text": " Nobody ever regrets making fast and decisive adjustments to changing circumstances."
+    },
+    {
+      "start": 420.48,
+      "end": 423.88,
+      "text": " In downturns, revenue and cash levels always fall faster than expenses."
+    },
+    {
+      "start": 424.44,
+      "end": 426.5,
+      "text": " In some ways, business mirrors biology."
+    },
+    {
+      "start": 427.06,
+      "end": 433.06,
+      "text": " As Darwin surmised, those who survive are not the strongest or the most intelligent, but the most adaptable to change."
+    },
+    {
+      "start": 433.06,
+      "end": 440.2,
+      "text": " Can you walk us through, as you were writing this and getting ready to hit publish, like, what were you feeling internally?"
+    },
+    {
+      "start": 441.0,
+      "end": 445.92,
+      "text": " The sense of nervousness that the world wasn't really paying attention to the reality that we were facing."
+    },
+    {
+      "start": 446.2,
+      "end": 453.82,
+      "text": " We have the benefit of being a global partnership, so we were seeing what was happening in China with our business and with our partners and what it was like to be under a lockdown."
+    },
+    {
+      "start": 454.52,
+      "end": 456.8,
+      "text": " We've been through many business cycles at Sequoia."
+    },
+    {
+      "start": 456.8,
+      "end": 458.54,
+      "text": " We've been around for 48 years."
+    },
+    {
+      "start": 458.54,
+      "end": 462.42,
+      "text": " We've been through so many of these cycles and we've seen this movie before."
+    },
+    {
+      "start": 462.94,
+      "end": 467.40000000000003,
+      "text": " And our sense was that people hadn't quite realized what was about to happen."
+    },
+    {
+      "start": 467.58000000000004,
+      "end": 469.8,
+      "text": " It was like watching an accident happen in slow motion."
+    },
+    {
+      "start": 469.92,
+      "end": 471.22,
+      "text": " You can just see it."
+    },
+    {
+      "start": 471.32000000000005,
+      "end": 474.6,
+      "text": " And we felt a duty and obligation to do something about it."
+    },
+    {
+      "start": 475.5,
+      "end": 476.94,
+      "text": " Well, let's set the stage for folks."
+    },
+    {
+      "start": 477.34000000000003,
+      "end": 481.26,
+      "text": " This was six days before the NBA announcement came out."
+    },
+    {
+      "start": 481.26,
+      "end": 487.90000000000003,
+      "text": " So it was sort of a week before the general American consciousness woke up and said, oh, my God, this is a huge deal."
+    },
+    {
+      "start": 488.54,
+      "end": 492.32,
+      "text": " Did you worry at all that you were jumping the gun?"
+    },
+    {
+      "start": 492.82,
+      "end": 497.68,
+      "text": " And as a related question, I mean, Sequoia is such a force in our ecosystem."
+    },
+    {
+      "start": 498.32,
+      "end": 504.38,
+      "text": " Did you think about the risk of, gosh, do we incite something by releasing something like this?"
+    },
+    {
+      "start": 505.1,
+      "end": 506.96000000000004,
+      "text": " We do, which is why we do this very infrequently."
+    },
+    {
+      "start": 507.32000000000005,
+      "end": 514.36,
+      "text": " The last time we did something comparable was at the end of 2008 with the Rest in Peace Good Times memo, which wasn't intended to be published."
+    },
+    {
+      "start": 514.36,
+      "end": 518.4,
+      "text": " It was really intended just for our founders because we wanted them to understand what was happening."
+    },
+    {
+      "start": 518.92,
+      "end": 519.72,
+      "text": " And it comes at a risk."
+    },
+    {
+      "start": 519.84,
+      "end": 526.88,
+      "text": " I mean, even there, I heard from people back in 2008 that we were the reason the crash happened, like as if we had that kind of power."
+    },
+    {
+      "start": 528.04,
+      "end": 534.94,
+      "text": " And similarly, yeah, I heard people complain, you know, we're being alarmist and things like that."
+    },
+    {
+      "start": 534.94,
+      "end": 540.9000000000001,
+      "text": " But we really felt a duty that, you know, maybe people are going to be uncomfortable with us saying these sort of things."
+    },
+    {
+      "start": 540.9000000000001,
+      "end": 544.2800000000001,
+      "text": " But we have an obligation to tell people what we see coming around the corner."
+    },
+    {
+      "start": 544.8800000000001,
+      "end": 548.2,
+      "text": " Someone challenged me and said, well, what if it doesn't turn out to be that bad?"
+    },
+    {
+      "start": 548.24,
+      "end": 550.96,
+      "text": " And I said, if that's the case, I'd be so thankful."
+    },
+    {
+      "start": 551.62,
+      "end": 552.4000000000001,
+      "text": " I'd be so thankful."
+    },
+    {
+      "start": 552.5600000000001,
+      "end": 555.12,
+      "text": " And I will eat humble pie for having published this."
+    },
+    {
+      "start": 555.48,
+      "end": 558.5200000000001,
+      "text": " It is so much more important for us to put the word of warning out."
+    },
+    {
+      "start": 558.52,
+      "end": 565.26,
+      "text": " Often when you're in the trenches as a company, you know, you have a slightly different perspective on things, especially if you haven't been through previous cycles."
+    },
+    {
+      "start": 565.5799999999999,
+      "end": 569.72,
+      "text": " And I remember when I was there at PayPal in, you know, I joined in March of 2000."
+    },
+    {
+      "start": 570.16,
+      "end": 572.14,
+      "text": " The Nasdaq started its slide in April."
+    },
+    {
+      "start": 572.4399999999999,
+      "end": 576.3199999999999,
+      "text": " And I remember being at a board meeting with Mike Maritz from Sequoia in June."
+    },
+    {
+      "start": 576.72,
+      "end": 579.74,
+      "text": " And he told us he warned us, focus on runway."
+    },
+    {
+      "start": 580.4399999999999,
+      "end": 582.72,
+      "text": " Because the financing environment has changed forever."
+    },
+    {
+      "start": 582.72,
+      "end": 588.74,
+      "text": " And I think, honestly, for all of us as, you know, first timers, if you will, in the company, we didn't quite fathom that."
+    },
+    {
+      "start": 589.1600000000001,
+      "end": 592.24,
+      "text": " We thought that, you know, what we'd experienced for the last two years would continue."
+    },
+    {
+      "start": 592.6,
+      "end": 595.88,
+      "text": " And he really rung the bell and we paid attention."
+    },
+    {
+      "start": 596.1800000000001,
+      "end": 602.4200000000001,
+      "text": " And that month, we really started to sharpen our pencils to make sure that we had enough runway to make it to the other side."
+    },
+    {
+      "start": 603.6,
+      "end": 604.22,
+      "text": " I'm super curious."
+    },
+    {
+      "start": 604.32,
+      "end": 605.7,
+      "text": " You've talked about this a bunch."
+    },
+    {
+      "start": 606.36,
+      "end": 609.62,
+      "text": " And obviously, as CFO, you were right there at the helm doing this."
+    },
+    {
+      "start": 609.96,
+      "end": 611.3000000000001,
+      "text": " What were the things you did?"
+    },
+    {
+      "start": 611.3,
+      "end": 618.3599999999999,
+      "text": " I mean, you were, I believe, the first technology company to go public after the crash, then had this wonderful exit."
+    },
+    {
+      "start": 618.9,
+      "end": 626.64,
+      "text": " Like, what were the actual things that you did to save the company and to stay on a growth trajectory even through all this carnage?"
+    },
+    {
+      "start": 627.1999999999999,
+      "end": 628.64,
+      "text": " First, it's obviously a team effort, right?"
+    },
+    {
+      "start": 628.68,
+      "end": 632.3399999999999,
+      "text": " I mean, I was one of many people of the company that rallied together."
+    },
+    {
+      "start": 632.4799999999999,
+      "end": 636.4399999999999,
+      "text": " And I think that's one of the things that you see in this unfortunate humanitarian crisis."
+    },
+    {
+      "start": 636.4399999999999,
+      "end": 641.1999999999999,
+      "text": " I mean, I think the thing that's different about this, by the way, is it's a health crisis in addition to an economic crisis."
+    },
+    {
+      "start": 641.3,
+      "end": 642.7199999999999,
+      "text": " At a global scale."
+    },
+    {
+      "start": 642.8599999999999,
+      "end": 646.12,
+      "text": " I mean, that makes it so different from any of these other incidents we've seen."
+    },
+    {
+      "start": 646.3,
+      "end": 648.5799999999999,
+      "text": " And, you know, that's awful on many levels."
+    },
+    {
+      "start": 648.5799999999999,
+      "end": 651.7199999999999,
+      "text": " But I do think it's very different from what we had back then."
+    },
+    {
+      "start": 652.1999999999999,
+      "end": 653.4599999999999,
+      "text": " But we rallied as a team."
+    },
+    {
+      "start": 654.02,
+      "end": 655.64,
+      "text": " And we looked through the P&L."
+    },
+    {
+      "start": 655.74,
+      "end": 665.3399999999999,
+      "text": " I mean, I remember literally going through line by line on every single thing on which we were spending money to figure out what was truly essential to helping us build a successful business."
+    },
+    {
+      "start": 665.34,
+      "end": 666.5600000000001,
+      "text": " On the expense side."
+    },
+    {
+      "start": 666.8000000000001,
+      "end": 668.3000000000001,
+      "text": " The things that you can control."
+    },
+    {
+      "start": 668.5600000000001,
+      "end": 671.62,
+      "text": " We tried feverishly to raise more money to extend our runway."
+    },
+    {
+      "start": 672.12,
+      "end": 674.44,
+      "text": " And we got religion about our business model."
+    },
+    {
+      "start": 674.94,
+      "end": 680.02,
+      "text": " I mean, up until, I think, June 10 or June 20, 2000, PayPal didn't charge for its service."
+    },
+    {
+      "start": 680.74,
+      "end": 687.5400000000001,
+      "text": " And at that point, we realized if we wanted to keep going, we had to figure out a business model and make it a great business model."
+    },
+    {
+      "start": 687.54,
+      "end": 693.5799999999999,
+      "text": " And that's exactly the kind of focus that we got because the external environment changed so dramatically."
+    },
+    {
+      "start": 694.16,
+      "end": 697.5,
+      "text": " You know, constraints enable you to come up with creative new solutions."
+    },
+    {
+      "start": 697.8,
+      "end": 704.86,
+      "text": " And so I think you're going to find an incredible array of entrepreneurs coming up with wonderful solutions in the midst of this terrible crisis."
+    },
+    {
+      "start": 706.02,
+      "end": 706.68,
+      "text": " All right, listeners."
+    },
+    {
+      "start": 707.0,
+      "end": 710.9599999999999,
+      "text": " Now is a great time to tell you about a longtime friend of the show, Vanta."
+    },
+    {
+      "start": 711.56,
+      "end": 714.24,
+      "text": " AI has scrambled the whole security picture."
+    },
+    {
+      "start": 714.24,
+      "end": 718.96,
+      "text": " It used to be that you proved that you were secure once a year on audit or a static PDF."
+    },
+    {
+      "start": 719.36,
+      "end": 721.12,
+      "text": " Then everyone would nod and you're done."
+    },
+    {
+      "start": 721.62,
+      "end": 724.5,
+      "text": " But in an AI-first world, that doesn't hold up anymore."
+    },
+    {
+      "start": 725.0,
+      "end": 725.12,
+      "text": " Yep."
+    },
+    {
+      "start": 725.36,
+      "end": 727.58,
+      "text": " Your risk surface changes every week now."
+    },
+    {
+      "start": 727.94,
+      "end": 732.46,
+      "text": " A vendor turns on an AI feature or someone writes in a new model without telling IT."
+    },
+    {
+      "start": 733.02,
+      "end": 736.82,
+      "text": " And your posture is different than it was last week, let alone at your last audit."
+    },
+    {
+      "start": 736.82,
+      "end": 745.58,
+      "text": " Vanta's own research found that around 70% of companies have this quote-unquote shadow AI running with no security review at all."
+    },
+    {
+      "start": 745.82,
+      "end": 746.12,
+      "text": " Right."
+    },
+    {
+      "start": 746.46,
+      "end": 747.6400000000001,
+      "text": " And that's where Vanta comes in."
+    },
+    {
+      "start": 747.96,
+      "end": 752.5400000000001,
+      "text": " They're the leading agentic trust platform, meaning they've built the thing that closes the gap."
+    },
+    {
+      "start": 752.6800000000001,
+      "end": 755.3000000000001,
+      "text": " And the way that they close that gap is Vanta Agent."
+    },
+    {
+      "start": 755.72,
+      "end": 757.5400000000001,
+      "text": " Think of it as a GRC engineer."
+    },
+    {
+      "start": 757.7,
+      "end": 759.2800000000001,
+      "text": " That's governance, risk, and compliance."
+    },
+    {
+      "start": 759.5200000000001,
+      "end": 762.0,
+      "text": " Except that it's software and it doesn't sleep."
+    },
+    {
+      "start": 762.0,
+      "end": 767.38,
+      "text": " It finds the issues, drafts the fixes, and cuts the time that you'd spend on vendor assessments in half."
+    },
+    {
+      "start": 767.72,
+      "end": 768.44,
+      "text": " In half!"
+    },
+    {
+      "start": 768.9,
+      "end": 774.5,
+      "text": " Which is exactly why more than 16,000 companies today run on Vanta."
+    },
+    {
+      "start": 774.84,
+      "end": 785.48,
+      "text": " Companies like Ramp, Cursor, and Snowflake all stay audit-ready and catch the risks that crop up between audits across every vendor, every AI tool, the whole environment."
+    },
+    {
+      "start": 785.86,
+      "end": 787.02,
+      "text": " And that's the real value."
+    },
+    {
+      "start": 787.02,
+      "end": 794.12,
+      "text": " Trust has to be continuous now, which is why Vanta automates your security, your compliance, and the work to earn and prove trust."
+    },
+    {
+      "start": 794.46,
+      "end": 801.4399999999999,
+      "text": " We're huge fans of Vanta over here, and literally hundreds of acquired listeners have become Vanta customers at their companies over the years."
+    },
+    {
+      "start": 801.74,
+      "end": 805.46,
+      "text": " So you can get $1,000 off Vanta at vanta.com slash acquired."
+    },
+    {
+      "start": 805.64,
+      "end": 809.5799999999999,
+      "text": " That's V-A-N-T-A dot com slash acquired for $1,000 off."
+    },
+    {
+      "start": 809.98,
+      "end": 812.5799999999999,
+      "text": " And just tell them that Ben and David sent you."
+    },
+    {
+      "start": 812.58,
+      "end": 823.2800000000001,
+      "text": " To go back for a sec to the Black Swan memo, can you talk a little bit about what it was over the preceding weeks before March 5th that you were seeing in China?"
+    },
+    {
+      "start": 823.48,
+      "end": 832.36,
+      "text": " And obviously through your unique perspective that kind of gave you confidence that, hey, this is a lot more serious than people are realizing in the U.S. and elsewhere?"
+    },
+    {
+      "start": 832.36,
+      "end": 836.8000000000001,
+      "text": " I think we saw how our team in China immediately had to go into a full lockdown."
+    },
+    {
+      "start": 837.4,
+      "end": 846.78,
+      "text": " Just sort of a dramatic change at a national level with over a billion people and just not just in the province that was affected, but everywhere, that they were taking it seriously."
+    },
+    {
+      "start": 846.96,
+      "end": 857.28,
+      "text": " So clearly the people at the front lines had seen that this was a virus, unlike others, that was spreading a lot faster and had higher mortality rate than a typical seasonal flu."
+    },
+    {
+      "start": 857.28,
+      "end": 859.4399999999999,
+      "text": " So that just felt very, very different."
+    },
+    {
+      "start": 860.1,
+      "end": 863.64,
+      "text": " And I think it was pretty obvious that by then there were cases showing up in the U.S."
+    },
+    {
+      "start": 863.88,
+      "end": 867.4599999999999,
+      "text": " Even though there was a travel ban at one point, it was just too porous."
+    },
+    {
+      "start": 867.5799999999999,
+      "end": 869.0799999999999,
+      "text": " People could have come here from mainland China."
+    },
+    {
+      "start": 869.1999999999999,
+      "end": 871.86,
+      "text": " They could have gone to other parts of the world and coming into the U.S."
+    },
+    {
+      "start": 871.88,
+      "end": 876.88,
+      "text": " And so it was quite likely that there's a bigger problem today in the U.S. than we realize."
+    },
+    {
+      "start": 877.38,
+      "end": 881.5,
+      "text": " And this is the unfortunate thing about the absence of testing infrastructure right now in the country."
+    },
+    {
+      "start": 882.14,
+      "end": 886.3,
+      "text": " Now, I have a friend in New York who had it for 11 days before he was confirmed positive last week."
+    },
+    {
+      "start": 886.3,
+      "end": 890.9799999999999,
+      "text": " My brother in San Francisco, I think, has it, but he can't get tested."
+    },
+    {
+      "start": 891.14,
+      "end": 893.54,
+      "text": " He literally can't get tested because he's not in a high-risk group."
+    },
+    {
+      "start": 893.66,
+      "end": 897.14,
+      "text": " So I think we just had a sense that the problem was actually a lot bigger."
+    },
+    {
+      "start": 897.92,
+      "end": 904.4399999999999,
+      "text": " You know, there's the parable of the wheat or the rice in the chessboard, you know, where the person wants to get compensated, one, two, four, et cetera."
+    },
+    {
+      "start": 904.66,
+      "end": 907.26,
+      "text": " And it's obviously a great thing for people who study computer science."
+    },
+    {
+      "start": 907.42,
+      "end": 910.9399999999999,
+      "text": " But, you know, two to the power n becomes a very large number as n grows."
+    },
+    {
+      "start": 911.66,
+      "end": 914.9599999999999,
+      "text": " And things that grow exponentially, we just don't understand it."
+    },
+    {
+      "start": 914.96,
+      "end": 922.34,
+      "text": " And something that looked trivial 12 days ago but is doubling every six days suddenly looks dramatically different just two weeks later."
+    },
+    {
+      "start": 922.5,
+      "end": 926.26,
+      "text": " And so I think we saw that this was at the cusp of happening in America."
+    },
+    {
+      "start": 926.4200000000001,
+      "end": 931.4000000000001,
+      "text": " And so we felt this obligation, like I said earlier, to make sure that people paid attention and acted now."
+    },
+    {
+      "start": 931.4,
+      "end": 934.9399999999999,
+      "text": " That's a great lead-in to something that David and I talk about a lot."
+    },
+    {
+      "start": 935.06,
+      "end": 945.42,
+      "text": " And, David, I don't think I have shared this with you, but I look up to you a lot in the way that you think about playing defense and playing offense and being very careful about when is a time for defense and when is a time for offense."
+    },
+    {
+      "start": 945.9,
+      "end": 949.38,
+      "text": " You know, doing both at the same time, you just have to be careful what actions are for which thing."
+    },
+    {
+      "start": 949.92,
+      "end": 952.4599999999999,
+      "text": " And, Rulof, I want to dive in on defense right now."
+    },
+    {
+      "start": 952.46,
+      "end": 957.8000000000001,
+      "text": " You guys have been putting out a reasonable amount of content compared to sort of Sequoia of old."
+    },
+    {
+      "start": 958.26,
+      "end": 962.24,
+      "text": " And one of the pieces that you publish for entrepreneurs is this decision matrix."
+    },
+    {
+      "start": 962.72,
+      "end": 965.02,
+      "text": " And I would sort of think about this as defense."
+    },
+    {
+      "start": 965.2,
+      "end": 967.1600000000001,
+      "text": " How should entrepreneurs use that?"
+    },
+    {
+      "start": 967.24,
+      "end": 969.38,
+      "text": " And then I'm curious to ask you some questions about offense."
+    },
+    {
+      "start": 969.38,
+      "end": 973.86,
+      "text": " So I want to give credit to one of our CFOs in the portfolio."
+    },
+    {
+      "start": 974.08,
+      "end": 981.16,
+      "text": " He doesn't want to be singled out and named, but he developed this for a portfolio company where I happened to be on the board for Sequoia."
+    },
+    {
+      "start": 981.54,
+      "end": 983.52,
+      "text": " And I thought it was an incredible structure."
+    },
+    {
+      "start": 983.9,
+      "end": 988.34,
+      "text": " In that case, the company had sort of seven main scenarios with a couple of sub-scenarios."
+    },
+    {
+      "start": 988.34,
+      "end": 994.72,
+      "text": " And I just thought it's a wonderful framework to address the challenge you face because we don't know the state of the world."
+    },
+    {
+      "start": 995.5,
+      "end": 1000.9200000000001,
+      "text": " There's so much uncertainty right now, but are we actually going to reopen in three weeks, four weeks, ten weeks?"
+    },
+    {
+      "start": 1001.26,
+      "end": 1002.3000000000001,
+      "text": " Is it going to be a second wave?"
+    },
+    {
+      "start": 1002.6,
+      "end": 1004.14,
+      "text": " Are there going to be five waves?"
+    },
+    {
+      "start": 1004.22,
+      "end": 1005.1800000000001,
+      "text": " Is the world going to be in the world?"
+    },
+    {
+      "start": 1005.22,
+      "end": 1006.12,
+      "text": " We don't know."
+    },
+    {
+      "start": 1006.58,
+      "end": 1010.96,
+      "text": " So I thought it was a wonderful way to think about what are the various scenarios that may play out?"
+    },
+    {
+      "start": 1011.32,
+      "end": 1012.96,
+      "text": " What are the strategies you could pursue?"
+    },
+    {
+      "start": 1012.96,
+      "end": 1017.94,
+      "text": " And what does it do for your resulting cash balance at some future date that is important?"
+    },
+    {
+      "start": 1018.14,
+      "end": 1020.74,
+      "text": " And your end is as good as any, I guess, at this point."
+    },
+    {
+      "start": 1021.14,
+      "end": 1023.08,
+      "text": " Because companies need to survive."
+    },
+    {
+      "start": 1023.7,
+      "end": 1027.1000000000001,
+      "text": " Cash is the most important thing companies have to focus on right now."
+    },
+    {
+      "start": 1027.1000000000001,
+      "end": 1030.2,
+      "text": " Because if you don't survive, obviously, there's no chance for you to build an enduring business."
+    },
+    {
+      "start": 1030.8400000000001,
+      "end": 1033.6000000000001,
+      "text": " And so that's the reason I thought this is a fabulous framework."
+    },
+    {
+      "start": 1033.72,
+      "end": 1037.1200000000001,
+      "text": " And again, we felt we wanted to share it with as many people as possible."
+    },
+    {
+      "start": 1037.12,
+      "end": 1044.1599999999999,
+      "text": " And we did actually on Friday, we had a Q&A session with over 100 portfolio companies."
+    },
+    {
+      "start": 1044.7199999999998,
+      "end": 1046.58,
+      "text": " Several of our partners hosted this call."
+    },
+    {
+      "start": 1046.78,
+      "end": 1048.1,
+      "text": " And we shared it with those companies."
+    },
+    {
+      "start": 1048.1,
+      "end": 1050.4599999999998,
+      "text": " And we just felt then that we wanted to share it with everybody."
+    },
+    {
+      "start": 1051.1799999999998,
+      "end": 1055.52,
+      "text": " Now to ask the question on offense, this time is incredibly challenging for a lot of people."
+    },
+    {
+      "start": 1055.62,
+      "end": 1057.8799999999999,
+      "text": " And we should in no way gloss over that."
+    },
+    {
+      "start": 1057.9799999999998,
+      "end": 1059.04,
+      "text": " I'm sure it's challenging for you."
+    },
+    {
+      "start": 1059.1,
+      "end": 1059.8999999999999,
+      "text": " It's challenging for me."
+    },
+    {
+      "start": 1059.9,
+      "end": 1066.94,
+      "text": " Yet, you can sort of squint and find ways to actually turn it into something positive."
+    },
+    {
+      "start": 1067.6000000000001,
+      "end": 1073.76,
+      "text": " And find perhaps a dislocation in a market or an opportunity that's emerged that was never a need from people before."
+    },
+    {
+      "start": 1074.1000000000001,
+      "end": 1078.96,
+      "text": " And I'd just love to get your perspective on how can people be proactive and turn this into a positive?"
+    },
+    {
+      "start": 1080.48,
+      "end": 1086.52,
+      "text": " Well, there are a couple of companies, obviously, that benefit from us all having to work from home and things like that."
+    },
+    {
+      "start": 1086.52,
+      "end": 1089.7,
+      "text": " So the product we're using, Zoom is obviously benefiting."
+    },
+    {
+      "start": 1090.16,
+      "end": 1092.62,
+      "text": " There are companies like Loom in our portfolio that are benefiting."
+    },
+    {
+      "start": 1092.82,
+      "end": 1099.94,
+      "text": " The delivery companies are an essential service in my mind to make sure that we get food and get delivery of basic necessities."
+    },
+    {
+      "start": 1100.3799999999999,
+      "end": 1101.9,
+      "text": " There's a class of companies that are benefiting."
+    },
+    {
+      "start": 1102.22,
+      "end": 1105.22,
+      "text": " You may not be one of those companies, so that doesn't really help you."
+    },
+    {
+      "start": 1105.72,
+      "end": 1110.46,
+      "text": " The thing that I think really everybody can focus on in this time is product development."
+    },
+    {
+      "start": 1112.2,
+      "end": 1113.72,
+      "text": " Keep on investing in your product."
+    },
+    {
+      "start": 1113.72,
+      "end": 1119.82,
+      "text": " Sales and marketing, by definition, are going to be challenged over the next few months because people are going to shift their consumption behavior."
+    },
+    {
+      "start": 1120.4,
+      "end": 1123.84,
+      "text": " Face-to-face selling, if you're an enterprise company, is going to be hampered."
+    },
+    {
+      "start": 1124.42,
+      "end": 1131.32,
+      "text": " Marketing channels maybe are flooded by other things, and it may seem insensitive, candidly, for you to peddle certain types of products right now."
+    },
+    {
+      "start": 1131.44,
+      "end": 1132.6200000000001,
+      "text": " It's just not the right time."
+    },
+    {
+      "start": 1133.78,
+      "end": 1135.44,
+      "text": " Hunker down and focus on product development."
+    },
+    {
+      "start": 1135.76,
+      "end": 1141.84,
+      "text": " Build that truly differentiated product that, if you can survive, gives you a huge advantage when you come out the other side."
+    },
+    {
+      "start": 1141.84,
+      "end": 1153.1599999999999,
+      "text": " Because part of what happens here, and I'll use the analogy of our namesake Sequoia tree, forest fires have been a part of the landscape in the U.S. for a long time, and it'll often clear the brush."
+    },
+    {
+      "start": 1153.9599999999998,
+      "end": 1159.04,
+      "text": " And the Sequoia trees that survive end up thriving disproportionately once the fire has cleared."
+    },
+    {
+      "start": 1159.04,
+      "end": 1163.34,
+      "text": " Because there's more sunlight and there's more space for those that survive."
+    },
+    {
+      "start": 1164.06,
+      "end": 1173.52,
+      "text": " And so, you know, you've got to wait your time out and make sure that you can pounce with a truly differentiated product because the competitive landscape is probably going to be clear for you after that."
+    },
+    {
+      "start": 1174.0,
+      "end": 1177.58,
+      "text": " I think the other thing to do, just David, before that is to look for a community."
+    },
+    {
+      "start": 1177.58,
+      "end": 1186.5,
+      "text": " So, you know, it's a lot of what we've been doing, trying to get our founders together, not only with the sort of weekly call that we're doing now, but getting founder communities together."
+    },
+    {
+      "start": 1187.12,
+      "end": 1192.04,
+      "text": " There's so much ingenuity and so much good advice and tips that they can share with each other."
+    },
+    {
+      "start": 1192.26,
+      "end": 1196.72,
+      "text": " And also just kindred spirits where they can share some of the suffering candidly that's happening right now."
+    },
+    {
+      "start": 1196.86,
+      "end": 1199.4199999999998,
+      "text": " So lean into community, lean into your product."
+    },
+    {
+      "start": 1199.42,
+      "end": 1205.2,
+      "text": " I know you guys have done some innovative things, creating spaces right now for portfolio companies."
+    },
+    {
+      "start": 1205.4,
+      "end": 1206.44,
+      "text": " How are you doing that?"
+    },
+    {
+      "start": 1206.5,
+      "end": 1208.8200000000002,
+      "text": " And how are you interacting with them and then with each other?"
+    },
+    {
+      "start": 1209.3400000000001,
+      "end": 1215.1200000000001,
+      "text": " Well, I think at an individual level, obviously, board members are in frequent contact with their companies as we try to share best practices."
+    },
+    {
+      "start": 1215.5800000000002,
+      "end": 1225.5,
+      "text": " In addition to the matrix, which we shared publicly, there are a couple of other things that we've prepared for companies, you know, for the unfortunate company that may need to go through a reduction in force, for example."
+    },
+    {
+      "start": 1225.5,
+      "end": 1232.74,
+      "text": " We've actually prepared some best practices that we've seen so we can share people and just help arm them for some of the challenges that lie ahead."
+    },
+    {
+      "start": 1233.28,
+      "end": 1236.3,
+      "text": " We've created the Q&A with us as a group."
+    },
+    {
+      "start": 1236.6,
+      "end": 1243.74,
+      "text": " So we get over 100 companies get together with Sequoia partners and we have a few prepared remarks, things that we're seeing, and we open it up for questions."
+    },
+    {
+      "start": 1244.32,
+      "end": 1246.42,
+      "text": " We're arranging founder to founder sessions."
+    },
+    {
+      "start": 1247.18,
+      "end": 1252.16,
+      "text": " No Sequoia person present where they can just industries that are relevant, where they can share best practices."
+    },
+    {
+      "start": 1252.16,
+      "end": 1257.88,
+      "text": " We're also doing that for CFOs because I think a lot of the CFOs across the portfolio are dealing with similar challenges."
+    },
+    {
+      "start": 1258.44,
+      "end": 1260.26,
+      "text": " What do they do about potential rent abatement?"
+    },
+    {
+      "start": 1260.42,
+      "end": 1262.0800000000002,
+      "text": " What are they doing to renegotiate debt?"
+    },
+    {
+      "start": 1262.48,
+      "end": 1264.8600000000001,
+      "text": " What happened to that financing that was supposed to close?"
+    },
+    {
+      "start": 1264.94,
+      "end": 1267.3600000000001,
+      "text": " Things like that where they can also get together and help each other."
+    },
+    {
+      "start": 1267.8600000000001,
+      "end": 1273.24,
+      "text": " If anything, this has also accelerated our desire to build even more digital products around our community."
+    },
+    {
+      "start": 1273.48,
+      "end": 1279.98,
+      "text": " We've prided ourselves in the sort of community things we do with activities like Basecamp and AMP and other programs we have."
+    },
+    {
+      "start": 1279.98,
+      "end": 1281.76,
+      "text": " Obviously, those are halted right now."
+    },
+    {
+      "start": 1282.2,
+      "end": 1287.02,
+      "text": " And what can we do to recreate as much of that as possible online is something we're working on."
+    },
+    {
+      "start": 1287.74,
+      "end": 1292.64,
+      "text": " Can we circle back real quick before we get off of playing offense for portfolio companies?"
+    },
+    {
+      "start": 1293.24,
+      "end": 1295.3600000000001,
+      "text": " I want to come back to your time at PayPal."
+    },
+    {
+      "start": 1295.48,
+      "end": 1303.74,
+      "text": " It struck me that I didn't realize that PayPal didn't have a business model or at least a viable business model until after the crash."
+    },
+    {
+      "start": 1303.74,
+      "end": 1310.38,
+      "text": " As I kind of think about the hierarchy of impacts of change you can have as a startup,"
+    },
+    {
+      "start": 1310.64,
+      "end": 1314.7,
+      "text": " there's sort of like at the bottom is like sales and marketing and then nothing in sales and marketing."
+    },
+    {
+      "start": 1315.1200000000001,
+      "end": 1316.58,
+      "text": " And then at the mid-level is product."
+    },
+    {
+      "start": 1316.74,
+      "end": 1320.28,
+      "text": " But actually, the highest level I always think is changing a business model."
+    },
+    {
+      "start": 1320.74,
+      "end": 1323.5,
+      "text": " Now is kind of a really good opportunity to do that."
+    },
+    {
+      "start": 1324.26,
+      "end": 1328.96,
+      "text": " How did you guys think about when there was the necessity of, okay, you need to make revenue now."
+    },
+    {
+      "start": 1328.96,
+      "end": 1334.8600000000001,
+      "text": " But how did you figure out that business model so quickly during that time at PayPal?"
+    },
+    {
+      "start": 1336.98,
+      "end": 1338.42,
+      "text": " Necessity is the mother of invention."
+    },
+    {
+      "start": 1340.52,
+      "end": 1343.64,
+      "text": " I don't think it was that difficult to figure out that as a payments company,"
+    },
+    {
+      "start": 1343.74,
+      "end": 1347.0,
+      "text": " there were so many precedents of charging transaction-based fees."
+    },
+    {
+      "start": 1347.66,
+      "end": 1351.08,
+      "text": " I think there were some other nuances where we figured out how to get bank account funding"
+    },
+    {
+      "start": 1351.08,
+      "end": 1356.16,
+      "text": " so that we had a much higher gross margin than traditional credit card processors did."
+    },
+    {
+      "start": 1356.52,
+      "end": 1357.72,
+      "text": " So there's some other things we did."
+    },
+    {
+      "start": 1357.72,
+      "end": 1361.88,
+      "text": " We also had to figure out solutions to online fraud, which took down many of our competitors"
+    },
+    {
+      "start": 1361.88,
+      "end": 1364.42,
+      "text": " and was a very expensive thing for us as well."
+    },
+    {
+      "start": 1364.5,
+      "end": 1368.38,
+      "text": " We lost millions of dollars in 2000 to scalable online fraud."
+    },
+    {
+      "start": 1368.72,
+      "end": 1371.76,
+      "text": " Part of what we talked about at the company was at the end of the day,"
+    },
+    {
+      "start": 1371.82,
+      "end": 1377.56,
+      "text": " if we can't keep the company alive because people are willing to pay for the service we provide,"
+    },
+    {
+      "start": 1377.68,
+      "end": 1379.08,
+      "text": " we don't really have a reason to exist."
+    },
+    {
+      "start": 1380.14,
+      "end": 1385.52,
+      "text": " We need to deliver enough value so that whatever we charge leaves enough of a gap of value capture"
+    },
+    {
+      "start": 1385.52,
+      "end": 1388.28,
+      "text": " to the customer where they're happy to pay for the service we have."
+    },
+    {
+      "start": 1388.28,
+      "end": 1393.22,
+      "text": " And I think many companies may face that type of a crucible moment over the next six months"
+    },
+    {
+      "start": 1393.22,
+      "end": 1397.28,
+      "text": " if they've been free services or if their business model hasn't really been refined properly."
+    },
+    {
+      "start": 1397.8799999999999,
+      "end": 1399.82,
+      "text": " But it's clarifying at some level."
+    },
+    {
+      "start": 1401.26,
+      "end": 1404.86,
+      "text": " Yeah, where you're really forced to show up in a way that says,"
+    },
+    {
+      "start": 1405.08,
+      "end": 1408.24,
+      "text": " hey, I am delivering enough value here to charge for it."
+    },
+    {
+      "start": 1408.24,
+      "end": 1410.5,
+      "text": " What's the quote about, is it a Warren Buffett quote?"
+    },
+    {
+      "start": 1411.44,
+      "end": 1414.28,
+      "text": " You know who has their shorts on when the tide goes out?"
+    },
+    {
+      "start": 1415.94,
+      "end": 1417.46,
+      "text": " Man, we're treading out all these quotes."
+    },
+    {
+      "start": 1417.46,
+      "end": 1419.08,
+      "text": " I think it might be Howard Marks, actually."
+    },
+    {
+      "start": 1420.32,
+      "end": 1421.06,
+      "text": " Is it? Okay."
+    },
+    {
+      "start": 1421.54,
+      "end": 1425.16,
+      "text": " Well, I'll give you another one that we used actually this week in our partnership,"
+    },
+    {
+      "start": 1425.4,
+      "end": 1428.78,
+      "text": " which is calm seas never made a good sailor."
+    },
+    {
+      "start": 1429.66,
+      "end": 1429.96,
+      "text": " Yeah."
+    },
+    {
+      "start": 1430.7,
+      "end": 1433.1,
+      "text": " And we've had a long period of calm seas."
+    },
+    {
+      "start": 1433.1,
+      "end": 1434.26,
+      "text": " We have."
+    },
+    {
+      "start": 1434.4399999999998,
+      "end": 1437.3,
+      "text": " And this is going to be a time where I think you're really going to see people"
+    },
+    {
+      "start": 1437.3,
+      "end": 1439.4399999999998,
+      "text": " differentiate themselves on how they deal with a crisis."
+    },
+    {
+      "start": 1440.6999999999998,
+      "end": 1441.6599999999999,
+      "text": " You know, who steps up?"
+    },
+    {
+      "start": 1441.8,
+      "end": 1442.7199999999998,
+      "text": " Who provides leadership?"
+    },
+    {
+      "start": 1442.9599999999998,
+      "end": 1446.76,
+      "text": " Who reminds a company of the mission of the company?"
+    },
+    {
+      "start": 1447.04,
+      "end": 1450.54,
+      "text": " The purpose that they have beyond just, you know, delivering a product."
+    },
+    {
+      "start": 1450.6799999999998,
+      "end": 1453.76,
+      "text": " Those are the sort of companies that I think can really excel in a time of crisis."
+    },
+    {
+      "start": 1454.84,
+      "end": 1455.6,
+      "text": " All right, listeners."
+    },
+    {
+      "start": 1456.1599999999999,
+      "end": 1460.4199999999998,
+      "text": " Now is a great time to thank our longtime friend of the show, ServiceNow."
+    },
+    {
+      "start": 1460.42,
+      "end": 1465.3200000000002,
+      "text": " If you are running a large enterprise, AI agents are likely spread across every team,"
+    },
+    {
+      "start": 1465.72,
+      "end": 1468.52,
+      "text": " and deploying them is no longer the hard part."
+    },
+    {
+      "start": 1468.8200000000002,
+      "end": 1468.88,
+      "text": " Yeah."
+    },
+    {
+      "start": 1469.04,
+      "end": 1474.04,
+      "text": " The hard part is knowing what permissions they have, what employees are using them for,"
+    },
+    {
+      "start": 1474.2,
+      "end": 1476.04,
+      "text": " or what decisions AI is making."
+    },
+    {
+      "start": 1476.5,
+      "end": 1480.6000000000001,
+      "text": " AI security for an enterprise at scale is not a small concern."
+    },
+    {
+      "start": 1480.8200000000002,
+      "end": 1482.3400000000001,
+      "text": " Like, the risks are real."
+    },
+    {
+      "start": 1482.66,
+      "end": 1483.04,
+      "text": " Exactly."
+    },
+    {
+      "start": 1483.24,
+      "end": 1486.9,
+      "text": " And the challenge with AI is governing it, securing it, measuring it,"
+    },
+    {
+      "start": 1487.1200000000001,
+      "end": 1488.98,
+      "text": " and making sure that it actually delivers value."
+    },
+    {
+      "start": 1488.98,
+      "end": 1492.32,
+      "text": " That is why ServiceNow built the AI Control Tower."
+    },
+    {
+      "start": 1492.7,
+      "end": 1492.8,
+      "text": " Yep."
+    },
+    {
+      "start": 1492.94,
+      "end": 1497.74,
+      "text": " AI Control Tower gives enterprises a single place to see, manage, govern,"
+    },
+    {
+      "start": 1497.8600000000001,
+      "end": 1500.14,
+      "text": " and optimize AI across the entire business."
+    },
+    {
+      "start": 1500.34,
+      "end": 1502.96,
+      "text": " And it works with any AI, not just theirs."
+    },
+    {
+      "start": 1503.28,
+      "end": 1506.52,
+      "text": " Every device on your network, every permission across every system,"
+    },
+    {
+      "start": 1506.98,
+      "end": 1509.82,
+      "text": " every AI agent visible and secure in one place."
+    },
+    {
+      "start": 1510.16,
+      "end": 1514.46,
+      "text": " And ServiceNow can do this because they've spent more than 20 years building"
+    },
+    {
+      "start": 1514.46,
+      "end": 1516.78,
+      "text": " the operational backbone of the enterprise."
+    },
+    {
+      "start": 1517.14,
+      "end": 1520.76,
+      "text": " The workflows, governance, approvals, security controls, and institutional knowledge"
+    },
+    {
+      "start": 1520.76,
+      "end": 1526.1000000000001,
+      "text": " that power how work actually gets done across IT, HR, customer service, finance, and security."
+    },
+    {
+      "start": 1526.3400000000001,
+      "end": 1531.3600000000001,
+      "text": " ServiceNow already runs more than 100 billion workflows annually,"
+    },
+    {
+      "start": 1531.78,
+      "end": 1535.8600000000001,
+      "text": " and trillions of transactions for more than 85% of the Fortune 500."
+    },
+    {
+      "start": 1536.22,
+      "end": 1539.18,
+      "text": " So when companies need a place to govern AI at enterprise scale,"
+    },
+    {
+      "start": 1539.18,
+      "end": 1542.74,
+      "text": " they're building on a platform at the center of how their business already operates."
+    },
+    {
+      "start": 1542.74,
+      "end": 1545.3600000000001,
+      "text": " And in a future that isn't going to be one AI,"
+    },
+    {
+      "start": 1545.68,
+      "end": 1549.42,
+      "text": " it's going to be thousands of AI agents working across every function of the company."
+    },
+    {
+      "start": 1549.74,
+      "end": 1551.96,
+      "text": " But the question is, who's managing them all?"
+    },
+    {
+      "start": 1552.18,
+      "end": 1555.54,
+      "text": " So if you're trying to turn AI ambition into real business outcomes"
+    },
+    {
+      "start": 1555.54,
+      "end": 1558.0,
+      "text": " and make it work safely, securely, at scale,"
+    },
+    {
+      "start": 1558.18,
+      "end": 1560.38,
+      "text": " go check out ServiceNow.com slash acquired"
+    },
+    {
+      "start": 1560.38,
+      "end": 1562.1200000000001,
+      "text": " and tell them that Ben and David sent you."
+    },
+    {
+      "start": 1562.12,
+      "end": 1568.04,
+      "text": " Well, I want to move us along to a section here that we're doing in adapting called adapting"
+    },
+    {
+      "start": 1568.04,
+      "end": 1572.08,
+      "text": " and really talk about Sequoia itself and how you're adapting."
+    },
+    {
+      "start": 1572.58,
+      "end": 1574.1399999999999,
+      "text": " And I remember when we interviewed Doug,"
+    },
+    {
+      "start": 1574.1999999999998,
+      "end": 1580.12,
+      "text": " he spoke of the war room days of managing the 1999 fund after the dot-com crash."
+    },
+    {
+      "start": 1580.56,
+      "end": 1584.3,
+      "text": " What is the Sequoia war room of March 2020 look like,"
+    },
+    {
+      "start": 1584.6599999999999,
+      "end": 1587.28,
+      "text": " especially as you literally can't be in a war room day?"
+    },
+    {
+      "start": 1587.9799999999998,
+      "end": 1589.3799999999999,
+      "text": " The virtual war room."
+    },
+    {
+      "start": 1589.38,
+      "end": 1595.7600000000002,
+      "text": " You know, the other thing which is challenging is we have our bi-annual LP meeting next week."
+    },
+    {
+      "start": 1596.46,
+      "end": 1599.2800000000002,
+      "text": " Just for context, it was originally supposed to be in India."
+    },
+    {
+      "start": 1600.0400000000002,
+      "end": 1604.22,
+      "text": " And then in January, we started to worry, given what we were seeing in China."
+    },
+    {
+      "start": 1604.3200000000002,
+      "end": 1608.1200000000001,
+      "text": " So we actually moved it in January from India to California"
+    },
+    {
+      "start": 1608.1200000000001,
+      "end": 1613.5400000000002,
+      "text": " because we thought there were going to be issues in this early April, late March timeframe."
+    },
+    {
+      "start": 1614.0200000000002,
+      "end": 1615.5200000000002,
+      "text": " I mean, just concretely, we took action."
+    },
+    {
+      "start": 1615.52,
+      "end": 1620.1399999999999,
+      "text": " And then obviously, having it in California started to not look feasible."
+    },
+    {
+      "start": 1620.34,
+      "end": 1622.54,
+      "text": " So we've moved it to a virtual LP meeting."
+    },
+    {
+      "start": 1622.68,
+      "end": 1625.5,
+      "text": " So in the midst of preparing for a very important event for us,"
+    },
+    {
+      "start": 1626.02,
+      "end": 1628.52,
+      "text": " I mean, our LPs are our customers and we want to do,"
+    },
+    {
+      "start": 1629.26,
+      "end": 1634.72,
+      "text": " we want to have a great show for them in some sense and provide candid feedback and reporting on our funds."
+    },
+    {
+      "start": 1635.06,
+      "end": 1638.58,
+      "text": " At the same time, you know, we're running around like crazy looking after our portfolio companies."
+    },
+    {
+      "start": 1638.58,
+      "end": 1642.34,
+      "text": " The most important thing we focused on over the last two weeks is our companies."
+    },
+    {
+      "start": 1643.6599999999999,
+      "end": 1647.34,
+      "text": " You know, Sequoia as a business, we've been around almost five decades."
+    },
+    {
+      "start": 1647.86,
+      "end": 1653.54,
+      "text": " We're not in a tough spot, fortunately, but some of our companies really do face challenges."
+    },
+    {
+      "start": 1653.8,
+      "end": 1657.1999999999998,
+      "text": " And so we've really oriented everything towards what is best for our companies."
+    },
+    {
+      "start": 1657.74,
+      "end": 1659.3799999999999,
+      "text": " We've built a bunch of online tools."
+    },
+    {
+      "start": 1659.48,
+      "end": 1661.8799999999999,
+      "text": " So we have resources where we can all look at things."
+    },
+    {
+      "start": 1662.1,
+      "end": 1666.1999999999998,
+      "text": " We have daily standups using Zoom so that everybody can stay in touch."
+    },
+    {
+      "start": 1666.2,
+      "end": 1667.96,
+      "text": " We understand what the prioritization is."
+    },
+    {
+      "start": 1668.7,
+      "end": 1669.64,
+      "text": " We're using many more."
+    },
+    {
+      "start": 1669.82,
+      "end": 1670.72,
+      "text": " And that's among the partnership?"
+    },
+    {
+      "start": 1671.28,
+      "end": 1672.3600000000001,
+      "text": " Within the partnership, yes."
+    },
+    {
+      "start": 1672.44,
+      "end": 1676.74,
+      "text": " So as a team, since we, you know, what do you do to mimic the effect of being in the office together"
+    },
+    {
+      "start": 1676.74,
+      "end": 1679.42,
+      "text": " so that we just stay in touch a little bit more frequently?"
+    },
+    {
+      "start": 1679.82,
+      "end": 1681.44,
+      "text": " And we've created these online resources."
+    },
+    {
+      "start": 1681.7,
+      "end": 1686.88,
+      "text": " And probably the most important thing we've done is to do a very thorough analysis of the portfolio health."
+    },
+    {
+      "start": 1687.24,
+      "end": 1690.9,
+      "text": " So literally company by company across every single company in the U.S.,"
+    },
+    {
+      "start": 1690.9,
+      "end": 1698.3000000000002,
+      "text": " we've gone down to figure out, okay, at your end in December, what was the expected runway based on cash and burn then?"
+    },
+    {
+      "start": 1698.8000000000002,
+      "end": 1701.8000000000002,
+      "text": " What do we think it is now, given the changed circumstances?"
+    },
+    {
+      "start": 1702.0600000000002,
+      "end": 1706.6000000000001,
+      "text": " And which of the two, three dozen companies will we really need to spend most of our attention?"
+    },
+    {
+      "start": 1707.0400000000002,
+      "end": 1710.3600000000001,
+      "text": " Some companies are early stage, six people, product development."
+    },
+    {
+      "start": 1711.02,
+      "end": 1712.46,
+      "text": " I mean, in some sense, they're unaffected."
+    },
+    {
+      "start": 1712.5400000000002,
+      "end": 1714.8000000000002,
+      "text": " They're just building the product and hope to launch next year."
+    },
+    {
+      "start": 1715.22,
+      "end": 1717.8200000000002,
+      "text": " And then there are other companies that are really affected significantly."
+    },
+    {
+      "start": 1717.82,
+      "end": 1720.8999999999999,
+      "text": " And so as a team, we try to figure out how do we rally around them"
+    },
+    {
+      "start": 1720.8999999999999,
+      "end": 1724.9199999999998,
+      "text": " and how do we bring resources to bear to help them navigate through this tricky period?"
+    },
+    {
+      "start": 1726.28,
+      "end": 1729.3999999999999,
+      "text": " As you sort of frame that up around the portfolio companies,"
+    },
+    {
+      "start": 1729.6,
+      "end": 1733.3799999999999,
+      "text": " you know, it sounds obvious that, of course, you would spend time with your portfolio companies."
+    },
+    {
+      "start": 1733.78,
+      "end": 1738.9199999999998,
+      "text": " What are the things that you're not doing as much of that you would normally be spending your days doing?"
+    },
+    {
+      "start": 1739.5,
+      "end": 1742.4399999999998,
+      "text": " And how has sort of this time forced you to change that?"
+    },
+    {
+      "start": 1743.22,
+      "end": 1744.86,
+      "text": " Seems like we're doing more of everything."
+    },
+    {
+      "start": 1746.12,
+      "end": 1746.48,
+      "text": " Sleeping?"
+    },
+    {
+      "start": 1747.12,
+      "end": 1747.56,
+      "text": " Honestly."
+    },
+    {
+      "start": 1748.26,
+      "end": 1749.5,
+      "text": " No, less of that too."
+    },
+    {
+      "start": 1749.9199999999998,
+      "end": 1751.72,
+      "text": " I mean, interviews are still going on."
+    },
+    {
+      "start": 1751.78,
+      "end": 1753.3,
+      "text": " We're just doing them all as virtual interviews."
+    },
+    {
+      "start": 1753.4399999999998,
+      "end": 1759.4399999999998,
+      "text": " I do think there are probably one or two hires somewhere where you're going to wait to meet the person in person"
+    },
+    {
+      "start": 1759.4399999999998,
+      "end": 1762.34,
+      "text": " before you make a formal final hiring decision."
+    },
+    {
+      "start": 1763.04,
+      "end": 1765.08,
+      "text": " But for us, we're onboarding people remotely."
+    },
+    {
+      "start": 1765.1799999999998,
+      "end": 1765.9399999999998,
+      "text": " We did this on Monday."
+    },
+    {
+      "start": 1766.02,
+      "end": 1769.9399999999998,
+      "text": " We had a person who joined who, you know, first virtual onboarding for us,"
+    },
+    {
+      "start": 1769.98,
+      "end": 1771.28,
+      "text": " as our portfolio companies are doing."
+    },
+    {
+      "start": 1771.28,
+      "end": 1776.96,
+      "text": " I was on a call earlier today with a company and they onboarded 21 people on Monday remotely."
+    },
+    {
+      "start": 1776.96,
+      "end": 1777.02,
+      "text": " Exactly."
+    },
+    {
+      "start": 1777.42,
+      "end": 1778.9,
+      "text": " And, you know, people are going to keep hiring."
+    },
+    {
+      "start": 1779.0,
+      "end": 1780.08,
+      "text": " They're going to keep building products."
+    },
+    {
+      "start": 1780.42,
+      "end": 1782.04,
+      "text": " So I think a lot of those things stay the same."
+    },
+    {
+      "start": 1782.58,
+      "end": 1783.74,
+      "text": " We continue to make investments."
+    },
+    {
+      "start": 1783.74,
+      "end": 1788.76,
+      "text": " We formally approved two new Series A investments last week."
+    },
+    {
+      "start": 1788.76,
+      "end": 1792.18,
+      "text": " And those meetings were virtual meetings."
+    },
+    {
+      "start": 1792.18,
+      "end": 1793.64,
+      "text": " So business continues."
+    },
+    {
+      "start": 1794.92,
+      "end": 1799.74,
+      "text": " Has something changed in what you look for in companies compared to, call it, two, three months ago?"
+    },
+    {
+      "start": 1800.24,
+      "end": 1801.18,
+      "text": " In some sense, not."
+    },
+    {
+      "start": 1801.28,
+      "end": 1804.96,
+      "text": " I mean, certainly not at the Series A stage because I think, you know, those companies,"
+    },
+    {
+      "start": 1804.96,
+      "end": 1810.28,
+      "text": " they're at such an early stage, the product needs to be so differentiated and really solve the problem"
+    },
+    {
+      "start": 1810.28,
+      "end": 1812.82,
+      "text": " that would transcend the current market."
+    },
+    {
+      "start": 1812.92,
+      "end": 1816.1200000000001,
+      "text": " I mean, obviously, if the U.S. is shut down indefinitely, that's a different situation."
+    },
+    {
+      "start": 1816.1200000000001,
+      "end": 1818.96,
+      "text": " But, you know, these companies all have a sound value proposition."
+    },
+    {
+      "start": 1818.96,
+      "end": 1823.3,
+      "text": " And once things are a little bit more normal, even if the economy goes through a recession,"
+    },
+    {
+      "start": 1823.3,
+      "end": 1827.26,
+      "text": " we believe in these businesses because they're really solving really important problems."
+    },
+    {
+      "start": 1827.26,
+      "end": 1829.42,
+      "text": " And so we have confidence in them."
+    },
+    {
+      "start": 1829.92,
+      "end": 1833.44,
+      "text": " We have asked people how they plan to respond to a changing circumstance,"
+    },
+    {
+      "start": 1833.82,
+      "end": 1837.02,
+      "text": " a little bit of a test on whether they're nimble, are they flexible,"
+    },
+    {
+      "start": 1837.02,
+      "end": 1840.46,
+      "text": " or are they just tone deaf to the reality of the world we're in right now?"
+    },
+    {
+      "start": 1840.52,
+      "end": 1842.72,
+      "text": " So that clearly is a question we're asking that's different."
+    },
+    {
+      "start": 1844.02,
+      "end": 1848.44,
+      "text": " And then we're also spending time thinking about what new categories may be unfairly favored"
+    },
+    {
+      "start": 1848.44,
+      "end": 1851.18,
+      "text": " sort of post-coronacoplyps."
+    },
+    {
+      "start": 1852.6,
+      "end": 1856.64,
+      "text": " Do you end up with digital health companies, online education,"
+    },
+    {
+      "start": 1857.26,
+      "end": 1859.58,
+      "text": " a bunch of things may change?"
+    },
+    {
+      "start": 1859.76,
+      "end": 1864.8,
+      "text": " And are we forced into a behavior change through this environment we're in now that sticks?"
+    },
+    {
+      "start": 1865.56,
+      "end": 1866.76,
+      "text": " I think it's a really interesting question."
+    },
+    {
+      "start": 1866.92,
+      "end": 1868.26,
+      "text": " A lot of people are thinking about this."
+    },
+    {
+      "start": 1868.32,
+      "end": 1871.48,
+      "text": " I think it's a really interesting thing to try to, you know, conjecture."
+    },
+    {
+      "start": 1871.9,
+      "end": 1876.84,
+      "text": " That's the perfect transition to kind of the topic we wanted to wrap up with you on."
+    },
+    {
+      "start": 1877.04,
+      "end": 1880.1,
+      "text": " I was thinking about it when you mentioned your LP meeting next week,"
+    },
+    {
+      "start": 1880.1,
+      "end": 1881.68,
+      "text": " which, man, I feel for you."
+    },
+    {
+      "start": 1881.76,
+      "end": 1886.4,
+      "text": " I know how important those are, having done them, attended them and everything."
+    },
+    {
+      "start": 1886.4,
+      "end": 1889.48,
+      "text": " And it was interesting, just yesterday I attended one virtually,"
+    },
+    {
+      "start": 1889.48,
+      "end": 1892.0800000000002,
+      "text": " and it was amazing that it was actually better."
+    },
+    {
+      "start": 1892.98,
+      "end": 1895.22,
+      "text": " You know, these tend to be pretty dry affairs."
+    },
+    {
+      "start": 1895.8200000000002,
+      "end": 1900.3000000000002,
+      "text": " This is a small example, but either through the LP meeting or more broadly,"
+    },
+    {
+      "start": 1901.22,
+      "end": 1906.22,
+      "text": " have you guys started to think about what kind of permanent changes to Sequoia might come out of this?"
+    },
+    {
+      "start": 1906.22,
+      "end": 1911.8,
+      "text": " I think we're going to be, we've already seen a trend where companies are becoming more distributed,"
+    },
+    {
+      "start": 1912.38,
+      "end": 1915.6200000000001,
+      "text": " partly because the cost of living in the Bay Area is so high,"
+    },
+    {
+      "start": 1916.14,
+      "end": 1918.26,
+      "text": " and the cost of hiring engineers is just so high."
+    },
+    {
+      "start": 1918.4,
+      "end": 1923.02,
+      "text": " We've already seen a trend where companies are willing to tolerate remote work by individuals"
+    },
+    {
+      "start": 1923.02,
+      "end": 1925.6000000000001,
+      "text": " or multiple remote development offices."
+    },
+    {
+      "start": 1925.98,
+      "end": 1927.96,
+      "text": " I think that trend is going to gather steam."
+    },
+    {
+      "start": 1927.96,
+      "end": 1934.74,
+      "text": " I think you're going to run this experiment that's actually measurable on how people perform in this kind of an environment."
+    },
+    {
+      "start": 1935.54,
+      "end": 1940.22,
+      "text": " So I think that just objectively is going to change the debate because I think it's so easy."
+    },
+    {
+      "start": 1940.44,
+      "end": 1945.52,
+      "text": " You know, as humans, we resist behavior change whenever we can, and this is forcing behavior change."
+    },
+    {
+      "start": 1945.74,
+      "end": 1948.4,
+      "text": " So I think tolerating businesses that are distributor,"
+    },
+    {
+      "start": 1949.4,
+      "end": 1952.28,
+      "text": " learning how to work effectively with distributed teams,"
+    },
+    {
+      "start": 1952.6000000000001,
+      "end": 1956.32,
+      "text": " I think we're likely to see people start companies in many more places."
+    },
+    {
+      "start": 1956.32,
+      "end": 1958.7,
+      "text": " And again, that's a trend that had already started."
+    },
+    {
+      "start": 1959.4399999999998,
+      "end": 1962.6599999999999,
+      "text": " You know, Silicon Valley doesn't have a monopoly on idea generation,"
+    },
+    {
+      "start": 1962.96,
+      "end": 1965.4399999999998,
+      "text": " and I think many more people will start companies elsewhere."
+    },
+    {
+      "start": 1965.6,
+      "end": 1972.0,
+      "text": " So we probably need to be more willing to fly, or if not fly given health issues,"
+    },
+    {
+      "start": 1972.22,
+      "end": 1973.98,
+      "text": " do online assessments of companies."
+    },
+    {
+      "start": 1974.1,
+      "end": 1975.6,
+      "text": " So I think those are clear permanent changes."
+    },
+    {
+      "start": 1975.76,
+      "end": 1979.22,
+      "text": " You know, you all are organized, or at least have been to this point geographically."
+    },
+    {
+      "start": 1979.6799999999998,
+      "end": 1983.74,
+      "text": " For a company, and I think there are going to be a lot more of these, like Zapier, right?"
+    },
+    {
+      "start": 1983.74,
+      "end": 1985.2,
+      "text": " Like we had Wade on the show."
+    },
+    {
+      "start": 1985.64,
+      "end": 1986.5,
+      "text": " They have no office."
+    },
+    {
+      "start": 1986.92,
+      "end": 1989.0,
+      "text": " How are you going to think about a company like that in the future?"
+    },
+    {
+      "start": 1989.1200000000001,
+      "end": 1990.1,
+      "text": " Is that a U.S. investment?"
+    },
+    {
+      "start": 1990.26,
+      "end": 1992.18,
+      "text": " Is that a global investment?"
+    },
+    {
+      "start": 1993.08,
+      "end": 1993.86,
+      "text": " Who meets them?"
+    },
+    {
+      "start": 1995.16,
+      "end": 1998.48,
+      "text": " Well, you know, honestly, so we've run into a couple of conflicts like this,"
+    },
+    {
+      "start": 1998.54,
+      "end": 2000.46,
+      "text": " but I don't actually think of them as conflicts."
+    },
+    {
+      "start": 2000.88,
+      "end": 2004.1200000000001,
+      "text": " Our team in India is an investor in a fabulous company called Freshworks."
+    },
+    {
+      "start": 2004.96,
+      "end": 2008.48,
+      "text": " Most of Freshworks' customers are in the developed world, including the U.S."
+    },
+    {
+      "start": 2008.48,
+      "end": 2011.8600000000001,
+      "text": " So, you know, my guess is the majority of the revenue comes from the U.S.,"
+    },
+    {
+      "start": 2011.8600000000001,
+      "end": 2015.54,
+      "text": " but it was an investment out of our India office because that's where the company is based."
+    },
+    {
+      "start": 2016.1200000000001,
+      "end": 2018.4,
+      "text": " And they have a presence in the U.S. too, but we help them."
+    },
+    {
+      "start": 2018.54,
+      "end": 2019.72,
+      "text": " We're one partnership globally."
+    },
+    {
+      "start": 2020.22,
+      "end": 2025.26,
+      "text": " We've done some really clever things behind the scenes to make sure that we feel like a single partnership"
+    },
+    {
+      "start": 2025.26,
+      "end": 2030.42,
+      "text": " and how we share knowledge and share compensation and things like that in a way that makes it feel good."
+    },
+    {
+      "start": 2030.94,
+      "end": 2032.46,
+      "text": " And I'd rather have more of those."
+    },
+    {
+      "start": 2032.56,
+      "end": 2034.06,
+      "text": " I mean, that's a great problem to have, honestly."
+    },
+    {
+      "start": 2034.06,
+      "end": 2042.1799999999998,
+      "text": " There's a lot of folks talking about the sheer amount of dry powder that has been committed to venture firms in this climate."
+    },
+    {
+      "start": 2042.28,
+      "end": 2045.3999999999999,
+      "text": " So they're saying, you know, the funding won't slow down because, oh, my gosh,"
+    },
+    {
+      "start": 2045.46,
+      "end": 2048.68,
+      "text": " there's this just billions and billions and billions that's been promised to venture firms."
+    },
+    {
+      "start": 2049.32,
+      "end": 2052.72,
+      "text": " So, therefore, deployment should continue at the exact same pace."
+    },
+    {
+      "start": 2053.18,
+      "end": 2054.52,
+      "text": " How do you think about that?"
+    },
+    {
+      "start": 2054.6,
+      "end": 2058.54,
+      "text": " And it's probably too early to tell, but have you thought about should we slow deployment?"
+    },
+    {
+      "start": 2058.84,
+      "end": 2061.18,
+      "text": " Should we change when we want to raise certain funds?"
+    },
+    {
+      "start": 2061.18,
+      "end": 2066.8999999999996,
+      "text": " Should we change the mix of initial capital deployment versus follow-ons?"
+    },
+    {
+      "start": 2067.22,
+      "end": 2069.7799999999997,
+      "text": " Does the climate affect something like that for you guys?"
+    },
+    {
+      "start": 2070.62,
+      "end": 2071.8799999999997,
+      "text": " So the two questions there, I think."
+    },
+    {
+      "start": 2071.96,
+      "end": 2075.4199999999996,
+      "text": " The one is what's the LP behavior and the other one is what's our behavior?"
+    },
+    {
+      "start": 2075.98,
+      "end": 2080.2799999999997,
+      "text": " And so the interesting thing, in 2008, maybe not because we had a crystal ball,"
+    },
+    {
+      "start": 2080.3799999999997,
+      "end": 2082.56,
+      "text": " just because we felt things were a little frothy,"
+    },
+    {
+      "start": 2083.06,
+      "end": 2088.14,
+      "text": " our investment pace had actually slowed down in the first half of 2008 before Lehman happened."
+    },
+    {
+      "start": 2088.14,
+      "end": 2091.56,
+      "text": " And then we accelerated in 2009."
+    },
+    {
+      "start": 2092.02,
+      "end": 2094.3599999999997,
+      "text": " So I don't know if you've ever done a driving course,"
+    },
+    {
+      "start": 2095.02,
+      "end": 2097.92,
+      "text": " but I went to one once on a Formula One racing track."
+    },
+    {
+      "start": 2098.24,
+      "end": 2103.08,
+      "text": " And the thing that they taught me is you brake as hard as you can while the car is going straight"
+    },
+    {
+      "start": 2103.08,
+      "end": 2104.3399999999997,
+      "text": " before you get to the corner."
+    },
+    {
+      "start": 2105.14,
+      "end": 2108.04,
+      "text": " And then you have to figure out how to accelerate at the right point at the apex"
+    },
+    {
+      "start": 2108.04,
+      "end": 2110.74,
+      "text": " out of the corner so that you can sprint ahead."
+    },
+    {
+      "start": 2110.74,
+      "end": 2114.8399999999997,
+      "text": " And this is exactly the analogy that we want to apply for our companies and for ourselves."
+    },
+    {
+      "start": 2115.62,
+      "end": 2120.68,
+      "text": " You know, we slowed down in 2019, not because we had some crystal ball again that this was going to happen,"
+    },
+    {
+      "start": 2120.7999999999997,
+      "end": 2122.58,
+      "text": " but we just, things didn't quite feel right."
+    },
+    {
+      "start": 2122.8399999999997,
+      "end": 2124.8799999999997,
+      "text": " If anything, I want to accelerate out of this."
+    },
+    {
+      "start": 2124.9799999999996,
+      "end": 2128.3599999999997,
+      "text": " I think there are going to be fabulous investment opportunities and great companies to be built."
+    },
+    {
+      "start": 2128.56,
+      "end": 2130.18,
+      "text": " So that's what we plan to do."
+    },
+    {
+      "start": 2130.66,
+      "end": 2136.3799999999997,
+      "text": " For our LPs, you know, our clients are almost exclusively these endowments, foundations, and nonprofits."
+    },
+    {
+      "start": 2136.38,
+      "end": 2139.9,
+      "text": " And we're really proud of the great causes represented by our LPs."
+    },
+    {
+      "start": 2140.52,
+      "end": 2144.32,
+      "text": " We actually got an email earlier this week that about 10 of our LPs,"
+    },
+    {
+      "start": 2145.02,
+      "end": 2150.56,
+      "text": " people like the Cleveland Clinic, Johns Hopkins University, the Wellcome Trust, Stanford, MIT,"
+    },
+    {
+      "start": 2150.76,
+      "end": 2157.56,
+      "text": " are all working on either better diagnostics, potential treatments, or vaccines for coronavirus."
+    },
+    {
+      "start": 2158.0,
+      "end": 2160.32,
+      "text": " So we love the fact that our clients are doing these things."
+    },
+    {
+      "start": 2160.36,
+      "end": 2163.06,
+      "text": " So when we generate profits, it helps them do these sort of things."
+    },
+    {
+      "start": 2163.36,
+      "end": 2165.7000000000003,
+      "text": " I think our clients are relatively well protected."
+    },
+    {
+      "start": 2166.38,
+      "end": 2170.7000000000003,
+      "text": " But if you talk about the industry at large, I suspect some LPs are going to end up with cash flow issues,"
+    },
+    {
+      "start": 2170.7000000000003,
+      "end": 2174.2400000000002,
+      "text": " just like there are many other businesses that are going to end up with cash flow issues."
+    },
+    {
+      "start": 2174.48,
+      "end": 2179.94,
+      "text": " And that may, at the margin, you know, lower the amount of venture capital being deployed over the next year or two."
+    },
+    {
+      "start": 2180.2000000000003,
+      "end": 2182.2400000000002,
+      "text": " But that's total speculation."
+    },
+    {
+      "start": 2182.4,
+      "end": 2182.86,
+      "text": " I don't know."
+    },
+    {
+      "start": 2184.02,
+      "end": 2191.94,
+      "text": " Well, LPs had already, allocations to venture and private companies broadly had already gone up so much for LPs,"
+    },
+    {
+      "start": 2191.94,
+      "end": 2198.7200000000003,
+      "text": " just with the bull run in valuations on the private markets and lack of liquidity over the last 10 years."
+    },
+    {
+      "start": 2198.92,
+      "end": 2206.36,
+      "text": " Now with public markets dropping so much, you can get into a situation as an LP where you aim to have,"
+    },
+    {
+      "start": 2206.58,
+      "end": 2209.54,
+      "text": " say, 15% of your assets in private markets total."
+    },
+    {
+      "start": 2209.94,
+      "end": 2213.3,
+      "text": " And now you have 40% of your assets in private markets."
+    },
+    {
+      "start": 2213.3,
+      "end": 2215.1600000000003,
+      "text": " And that can be a scary position."
+    },
+    {
+      "start": 2216.6200000000003,
+      "end": 2217.42,
+      "text": " Well, there's that."
+    },
+    {
+      "start": 2217.5800000000004,
+      "end": 2220.8,
+      "text": " And then LPs may also end up with cash flow issues on their own."
+    },
+    {
+      "start": 2221.48,
+      "end": 2221.5600000000004,
+      "text": " Right."
+    },
+    {
+      "start": 2221.5800000000004,
+      "end": 2226.5,
+      "text": " So part of what we saw in 2008, 2009, are some LPs have ongoing commitments."
+    },
+    {
+      "start": 2226.6600000000003,
+      "end": 2227.8,
+      "text": " They have outflow commitments."
+    },
+    {
+      "start": 2227.98,
+      "end": 2232.86,
+      "text": " If you're an endowment at a university, you probably represent more than half the expenditure at the university."
+    },
+    {
+      "start": 2232.86,
+      "end": 2235.7400000000002,
+      "text": " And it may be that donations dry up."
+    },
+    {
+      "start": 2236.3,
+      "end": 2236.38,
+      "text": " Right."
+    },
+    {
+      "start": 2236.42,
+      "end": 2238.82,
+      "text": " So philanthropy shrinks in an environment like this."
+    },
+    {
+      "start": 2238.9,
+      "end": 2245.84,
+      "text": " And so they're even more dependent on the endowments being able to continue to pay for teachers and, you know,"
+    },
+    {
+      "start": 2246.1,
+      "end": 2248.6400000000003,
+      "text": " keeping the school hospital going and things like that."
+    },
+    {
+      "start": 2248.6400000000003,
+      "end": 2254.36,
+      "text": " So the bunch of cash flow issues that may also then drive people to pull back from venture capital."
+    },
+    {
+      "start": 2255.2400000000002,
+      "end": 2257.1800000000003,
+      "text": " But, you know, it's so unique to tell."
+    },
+    {
+      "start": 2257.26,
+      "end": 2261.28,
+      "text": " I mean, you know, I look at the gyrations every day in the stock market and like flip a coin."
+    },
+    {
+      "start": 2261.28,
+      "end": 2262.82,
+      "text": " Is it plus 10, minus 10 today?"
+    },
+    {
+      "start": 2262.96,
+      "end": 2263.6600000000003,
+      "text": " Like, I have no idea."
+    },
+    {
+      "start": 2264.7200000000003,
+      "end": 2267.48,
+      "text": " And so it's so hard to figure out, you know, where things last."
+    },
+    {
+      "start": 2267.5,
+      "end": 2270.2000000000003,
+      "text": " As we're recording this, it's only been 20 days since you wrote the memo."
+    },
+    {
+      "start": 2270.5400000000004,
+      "end": 2272.5,
+      "text": " And again, it feels like 20 years."
+    },
+    {
+      "start": 2273.3,
+      "end": 2273.7200000000003,
+      "text": " Yeah."
+    },
+    {
+      "start": 2274.5800000000004,
+      "end": 2275.6800000000003,
+      "text": " All right, listeners."
+    },
+    {
+      "start": 2275.92,
+      "end": 2281.1000000000004,
+      "text": " Now is a great time to talk about one of our favorite companies, Statsig."
+    },
+    {
+      "start": 2281.36,
+      "end": 2281.7400000000002,
+      "text": " Yes."
+    },
+    {
+      "start": 2282.02,
+      "end": 2283.7000000000003,
+      "text": " Long time acquired partner."
+    },
+    {
+      "start": 2283.7,
+      "end": 2293.52,
+      "text": " There is a reason why the best product teams at companies like OpenAI and Notion, Atlassian, Figma, Rippling, Brex, and more rely on Statsig,"
+    },
+    {
+      "start": 2293.8599999999997,
+      "end": 2299.12,
+      "text": " whether they are iterating on their core product features or shipping AI-powered experiences at scale."
+    },
+    {
+      "start": 2299.2999999999997,
+      "end": 2299.7799999999997,
+      "text": " Yep."
+    },
+    {
+      "start": 2300.04,
+      "end": 2305.48,
+      "text": " In the crazy speed of today's AI world, shipping fast is just table stakes now."
+    },
+    {
+      "start": 2305.66,
+      "end": 2309.58,
+      "text": " It's basically trivial to build and deploy your app constantly."
+    },
+    {
+      "start": 2309.58,
+      "end": 2319.52,
+      "text": " The real advantage is how quickly you learn what changes actually created value for customers and how fast you can use that signal to guide what you ship next."
+    },
+    {
+      "start": 2319.84,
+      "end": 2328.7599999999998,
+      "text": " Whether it's a feature tweak, a pricing change, a performance improvement, or an AI update like a model change or prompt adjustment, they're not relying on instinct."
+    },
+    {
+      "start": 2329.1,
+      "end": 2333.4,
+      "text": " They're measuring what actually moved engagement, retention, and ultimately revenue."
+    },
+    {
+      "start": 2333.4,
+      "end": 2338.12,
+      "text": " And as more teams build with AI, that learning loop becomes even more important."
+    },
+    {
+      "start": 2338.6800000000003,
+      "end": 2342.7200000000003,
+      "text": " Building with LLMs introduces non-determinism into your product experience."
+    },
+    {
+      "start": 2343.1600000000003,
+      "end": 2345.52,
+      "text": " The same input doesn't always produce the same output."
+    },
+    {
+      "start": 2345.92,
+      "end": 2348.96,
+      "text": " And behavior can shift in subtle ways in real-world use."
+    },
+    {
+      "start": 2349.6600000000003,
+      "end": 2352.58,
+      "text": " So doing offline evals will give you part of the picture."
+    },
+    {
+      "start": 2352.8,
+      "end": 2357.96,
+      "text": " But you can really only understand the impact once your product is live with real users."
+    },
+    {
+      "start": 2358.14,
+      "end": 2361.1,
+      "text": " And then you can measure how their behavior actually changes."
+    },
+    {
+      "start": 2361.1,
+      "end": 2368.9,
+      "text": " It's very different than the way that you would ship features in a pre-AI world where you knew exactly what the software was going to do in production."
+    },
+    {
+      "start": 2369.0,
+      "end": 2369.6,
+      "text": " Yeah, exactly."
+    },
+    {
+      "start": 2370.12,
+      "end": 2372.08,
+      "text": " So this is where Statsig comes in."
+    },
+    {
+      "start": 2372.18,
+      "end": 2383.16,
+      "text": " It brings experimentation, feature flags, and product analytics into one unified system so teams can ship safely, test rigorously, and directly link what they changed to how users actually behaved."
+    },
+    {
+      "start": 2383.3399999999997,
+      "end": 2389.72,
+      "text": " The result is a tighter feedback loop and learning that compounds over time so you don't just ship more, you ship better."
+    },
+    {
+      "start": 2389.72,
+      "end": 2400.56,
+      "text": " So if you want to make learning your competitive advantage, whether you're building new AI experiences or just evolving your existing core product, go to statsig.com slash acquired to get started."
+    },
+    {
+      "start": 2400.56,
+      "end": 2418.2799999999997,
+      "text": " Well, Rulof, I know this is adapting and not acquired, but we have one bonus question that we decided if we ever had you on the show after doing our deep dive on Square and doing the Square IPO, we had to ask you, what was it like navigating the challenging Square IPO and the months afterwards?"
+    },
+    {
+      "start": 2418.28,
+      "end": 2426.44,
+      "text": " Sort of knowing what a predictable and good business it was, but just seeing what happened in the public markets after IPO'd."
+    },
+    {
+      "start": 2426.44,
+      "end": 2430.02,
+      "text": " This was like a key moment in acquired history."
+    },
+    {
+      "start": 2430.7200000000003,
+      "end": 2448.3,
+      "text": " We can look back to the pre-Square IPO episode and the post-Square IPO episode because it was just such a stark story to us of a company that was a great company that had just, even in the bull market run that we were in when they went public, was so misjudged."
+    },
+    {
+      "start": 2448.3,
+      "end": 2478.28,
+      "text": " It was really difficult."
+    },
+    {
+      "start": 2478.3,
+      "end": 2482.78,
+      "text": " Not a great outcome, even at the close price at the first day."
+    },
+    {
+      "start": 2483.2000000000003,
+      "end": 2485.1400000000003,
+      "text": " But I felt that we left so much money on the table."
+    },
+    {
+      "start": 2485.7400000000002,
+      "end": 2492.02,
+      "text": " So the way to react in my mind was to rally the team and to talk about just, you know, we can't control our stock price."
+    },
+    {
+      "start": 2492.1200000000003,
+      "end": 2493.6200000000003,
+      "text": " What we can control is our execution."
+    },
+    {
+      "start": 2494.34,
+      "end": 2497.96,
+      "text": " And I think the management team did an incredible job of saying, look, it is what it is."
+    },
+    {
+      "start": 2498.0600000000004,
+      "end": 2498.78,
+      "text": " We got through it."
+    },
+    {
+      "start": 2499.0800000000004,
+      "end": 2501.02,
+      "text": " Let's hunker down and let's just build a great business."
+    },
+    {
+      "start": 2501.1200000000003,
+      "end": 2501.98,
+      "text": " And they did that."
+    },
+    {
+      "start": 2502.48,
+      "end": 2505.1400000000003,
+      "text": " And then what we did as an investor is we were patient."
+    },
+    {
+      "start": 2505.14,
+      "end": 2510.7599999999998,
+      "text": " So we didn't distribute a single square share until four years after the IPO."
+    },
+    {
+      "start": 2511.92,
+      "end": 2512.74,
+      "text": " Four years."
+    },
+    {
+      "start": 2513.2599999999998,
+      "end": 2521.12,
+      "text": " And so that meant that we distributed, you know, and we still haven't fully distributed, by the way, because I have so much faith in this company."
+    },
+    {
+      "start": 2521.3799999999997,
+      "end": 2522.14,
+      "text": " You're still on the board, correct?"
+    },
+    {
+      "start": 2522.14,
+      "end": 2523.2599999999998,
+      "text": " I'm still on the board."
+    },
+    {
+      "start": 2523.4,
+      "end": 2524.8199999999997,
+      "text": " I love working with the team."
+    },
+    {
+      "start": 2525.0,
+      "end": 2525.8799999999997,
+      "text": " I love working with Jack."
+    },
+    {
+      "start": 2526.66,
+      "end": 2535.58,
+      "text": " I love the mission of the company around financial empowerment and the fact that we're able to do that now, not only for small businesses, but also for consumers with this great cash app."
+    },
+    {
+      "start": 2535.58,
+      "end": 2541.54,
+      "text": " I think it's a fabulous company to be associated with from a mission point of view and actual financial results."
+    },
+    {
+      "start": 2541.7799999999997,
+      "end": 2545.2799999999997,
+      "text": " And my partners and myself, we were just really patient."
+    },
+    {
+      "start": 2545.46,
+      "end": 2550.16,
+      "text": " And so the fact that it was $9 a shared IPO didn't matter because we distributed shares when it got to $80."
+    },
+    {
+      "start": 2551.48,
+      "end": 2556.96,
+      "text": " And so at the end of the day, we made a much better return for our limited partners by being patient."
+    },
+    {
+      "start": 2557.58,
+      "end": 2560.52,
+      "text": " And I think the team also appreciated us as a really patient investor."
+    },
+    {
+      "start": 2561.42,
+      "end": 2562.1,
+      "text": " That's great."
+    },
+    {
+      "start": 2562.1,
+      "end": 2562.96,
+      "text": " Thank you for sharing."
+    },
+    {
+      "start": 2563.08,
+      "end": 2567.3199999999997,
+      "text": " And that's a good note to end on with this moment in time, too, right?"
+    },
+    {
+      "start": 2567.46,
+      "end": 2572.18,
+      "text": " Like, you know, for great companies, they're going to survive."
+    },
+    {
+      "start": 2572.46,
+      "end": 2573.4,
+      "text": " They're going to hunker down."
+    },
+    {
+      "start": 2573.66,
+      "end": 2576.2999999999997,
+      "text": " And now is not the time to liquidate your shares."
+    },
+    {
+      "start": 2577.16,
+      "end": 2579.1,
+      "text": " Yeah, I think it's focused in the long term."
+    },
+    {
+      "start": 2580.08,
+      "end": 2581.12,
+      "text": " Solve real problems."
+    },
+    {
+      "start": 2581.72,
+      "end": 2581.86,
+      "text": " Yeah."
+    },
+    {
+      "start": 2582.2599999999998,
+      "end": 2586.9,
+      "text": " Well, on that note, Rulof, where can our listeners get in touch with you, with Sequoia?"
+    },
+    {
+      "start": 2587.5,
+      "end": 2590.98,
+      "text": " My first name, Rulof, at sequoiacap.com."
+    },
+    {
+      "start": 2591.2799999999997,
+      "end": 2591.72,
+      "text": " Great."
+    },
+    {
+      "start": 2591.72,
+      "end": 2592.5,
+      "text": " And are you on Twitter?"
+    },
+    {
+      "start": 2593.22,
+      "end": 2594.3399999999997,
+      "text": " Yes, at Rulof Guerta."
+    },
+    {
+      "start": 2595.0,
+      "end": 2596.24,
+      "text": " Signed up in 2007."
+    },
+    {
+      "start": 2597.1,
+      "end": 2597.5,
+      "text": " Nice."
+    },
+    {
+      "start": 2597.9599999999996,
+      "end": 2599.8799999999997,
+      "text": " I've been a user for a long, long time."
+    },
+    {
+      "start": 2601.02,
+      "end": 2601.4599999999996,
+      "text": " That's awesome."
+    },
+    {
+      "start": 2601.7799999999997,
+      "end": 2603.48,
+      "text": " Well, thank you for joining us, listeners."
+    },
+    {
+      "start": 2604.0,
+      "end": 2606.08,
+      "text": " We hope you enjoyed this episode of Adapting."
+    },
+    {
+      "start": 2606.48,
+      "end": 2611.18,
+      "text": " Please send us feedback, acquiredfm at gmail.com or join our Slack."
+    },
+    {
+      "start": 2611.3199999999997,
+      "end": 2612.58,
+      "text": " And we'd love to talk to you there."
+    },
+    {
+      "start": 2613.56,
+      "end": 2614.3399999999997,
+      "text": " Rulof, thanks again."
+    },
+    {
+      "start": 2614.68,
+      "end": 2615.14,
+      "text": " Thank you, Ben."
+    },
+    {
+      "start": 2615.22,
+      "end": 2615.74,
+      "text": " Thank you, David."
+    },
+    {
+      "start": 2615.74,
+      "end": 2615.7999999999997,
+      "text": " Thank you, David."
+    },
+    {
+      "start": 2615.7999999999997,
+      "end": 2615.7999999999997,
+      "text": ""
+    },
+    {
+      "start": 2615.7999999999997,
+      "end": 2616.7999999999997,
+      "text": " Thank you, David."
+    },
+    {
+      "start": 2616.7999999999997,
+      "end": 2617.7999999999997,
+      "text": " Thank you, David."
+    },
+    {
+      "start": 2617.7999999999997,
+      "end": 2619.7999999999997,
+      "text": " Thank you, David."
+    },
+    {
+      "start": 2619.7999999999997,
+      "end": 2620.7999999999997,
+      "text": " Thank you, David."
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2621.48,
+      "text": ""
+    },
+    {
+      "start": 2621.48,
+      "end": 2651.46,
+      "text": " Thank you."
+    }
+  ],
+  "paragraphs": [
+    {
+      "start": 0,
+      "end": 44.260000000000005,
+      "text": "It was pretty good. It was... yes, it was pretty good. Don't doubt your vibe. For not being his full-time gig, it was pretty good. Emoji Records. Welcome to episode two of Adapting by Acquired. Hey, now you got it. Yeah, well, I rehearsed. Or for those keeping track at home, season six, episode five. We are continuing our series to bring you the stories of great companies and great leaders who are adapting to a world that's changing in real time."
+    },
+    {
+      "start": 44.78,
+      "end": 74.78,
+      "text": "Today, we are covering the story behind the memo read around the world, Sequoia Capital's Black Swan memo, amazingly published only 20 days ago as we record this. Man, it feels like 20 lifetimes ago. I know. I know. Well, we are joined by the best person in the world to tell us about it, longtime Sequoia partner, Rulof Bota. Today's episode is different than last week's episode with Canlis. We are going much closer to Acquired's bread and butter of technology and venture capital."
+    },
+    {
+      "start": 75.12,
+      "end": 102.36,
+      "text": "This conversation is particularly interesting not just to hear the story behind the Black Swan memo, but also to get a real-time look at how Sequoia themselves are thinking about adapting during this time, along with their portfolio companies. Before we jump in, if you haven't already, we want to strongly encourage you to join the Acquired Slack community. I honestly think at this point it's probably the best community on the internet for people focused on building and investing in great companies."
+    },
+    {
+      "start": 102.54,
+      "end": 130.14,
+      "text": "We really mean that. And that's a testament to you all and the quality of people that listen to this show. So it's been pretty awesome, especially over the last week or so, just seeing how we're all supporting each other in there and helping everybody get through this time. So you can find a link on our website to get an invite. You should definitely sign up. The other thing we want to tell you about is, as we announced on the last episode, we're adding something big to the limited partner program that we're really excited about."
+    },
+    {
+      "start": 130.34,
+      "end": 162.36,
+      "text": "We're going to be hosting monthly calls on Zoom for all LPs, which we're calling, appropriately enough, LP calls. Very original, David. Yes, super original. We're big into branding here at Acquired. So when you sign up for the limited partner program, you get both all our LP episodes, which go deeper on nitty gritty company building topics, and access to the monthly LP calls with both of us. You can sign up by clicking the link in the show notes or going to glow.fm slash acquired."
+    },
+    {
+      "start": 163.24,
+      "end": 192.9,
+      "text": "All right, listeners. Now is a great time to talk about a new partner of ours here on Acquired, Lagora, the agentic operating system that is redefining how the world's best legal teams work. Yep. It's sort of obvious that AI is going to completely change the legal industry. I bet most of you listening have dropped a contract into some sort of AI chatbot out there. Lagora took that insight and asked the question, what if you really built something with that power from the ground up for the legal industry?"
+    },
+    {
+      "start": 193.3,
+      "end": 227.76,
+      "text": "So the founders did exactly what great founders do, operate with obsessive customer focus. They embedded inside a massive law firm for months. They sat with the lawyers just watching how the work really gets done. And that's how you get features that customers love, like tabular review, where you drop in a folder of hundreds of contracts and it pulls every key term into a grid a lawyer can actually work with. Lagora's bet here is interesting. Since it lets each lawyer handle more complexity, any given person can increase the quality of their work and do higher value work."
+    },
+    {
+      "start": 228.08,
+      "end": 257.04,
+      "text": "And this means that the pie can grow even as each individual task takes less time. And they recently launched Lagora agent offering greater intelligence and performance. The agent lets lawyers set an objective. Then it can handle the planning and the execution and delivery of the final product. Legal teams get to maintain full control and transparency since they're still involved where judgment is required. And Lagora works where you already work. You can use it within Microsoft Word while redlining or drafting."
+    },
+    {
+      "start": 257.28000000000003,
+      "end": 293.8,
+      "text": "The early Lagora numbers essentially speak for themselves. When they have a head-to-head pilot with their top competitor, they win 70% of the time. Lagora now has over 100,000 lawyers on the platform from 1,200 legal teams in 50 countries. And crazily, they went from 1 million to 100 million in ARR in about 18 months. Truly insane numbers. And that is the real test. Plenty of things demo well, but the question is whether a busy associate actually reaches for it during crunch time or whether a partner trusts it before going into a conversation with a major client."
+    },
+    {
+      "start": 293.8,
+      "end": 322.48,
+      "text": "If your legal team wants to check it out, whether you're a law firm or you're in-house at a company, you can learn more at lagora.com slash acquired and just tell them that Ben and David sent you. And with that, David, we will dive into our interview with Ruloff. We are super lucky to have Ruloff with us today. Ruloff has been a partner at Sequoia since 2003 and led early investments in some of the most important companies that we've covered on this show."
+    },
+    {
+      "start": 322.84,
+      "end": 357.12,
+      "text": "Companies like Instagram, YouTube, and Square. He currently leads the firm's U.S. business as one of Sequoia's three stewards, along with Doug Leoni and Neil Shen. And prior to joining Sequoia, Ruloff was the CFO of PayPal, which is particularly relevant to our conversation today, having helped navigate them through the dot-com crash, their subsequent IPO, and ultimately their sale to eBay for $1.5 billion. Welcome, Ruloff, and thanks for joining us in these interesting times. Thank you. I wish the circumstances were different, but I'm glad to be here."
+    },
+    {
+      "start": 357.58,
+      "end": 393.1,
+      "text": "Us too, and we're glad to have you. Let's jump right into it. On March 5th, you guys did something that now seems obvious in hindsight, but definitely did not seem obvious on March 5th, which was... Yeah, I think March 5th, that was like two years ago at this point. It feels like there's that Lennon quote, right, that people have been saying about some decades nothing happens and some weeks decades happen. It's been about two decades. You guys released publicly, both simultaneously emailed all your portfolio CEOs and posted on Medium what you call the Black Swan memo."
+    },
+    {
+      "start": 393.76,
+      "end": 419.84,
+      "text": "I'm sure most of our listeners have read it probably multiple times at this point. You know, I just want to point out, I want to highlight one kind of quote from it that, again, probably everyone's read, but it's such a stark difference between what you guys said and what so many other investors and people were saying at the moment. You say, having weathered every business downturn for nearly 50 years, we've learned an important lesson. Nobody ever regrets making fast and decisive adjustments to changing circumstances."
+    },
+    {
+      "start": 420.48,
+      "end": 453.82,
+      "text": "In downturns, revenue and cash levels always fall faster than expenses. In some ways, business mirrors biology. As Darwin surmised, those who survive are not the strongest or the most intelligent, but the most adaptable to change. Can you walk us through, as you were writing this and getting ready to hit publish, like, what were you feeling internally? The sense of nervousness that the world wasn't really paying attention to the reality that we were facing. We have the benefit of being a global partnership, so we were seeing what was happening in China with our business and with our partners and what it was like to be under a lockdown."
+    },
+    {
+      "start": 454.52,
+      "end": 481.26,
+      "text": "We've been through many business cycles at Sequoia. We've been around for 48 years. We've been through so many of these cycles and we've seen this movie before. And our sense was that people hadn't quite realized what was about to happen. It was like watching an accident happen in slow motion. You can just see it. And we felt a duty and obligation to do something about it. Well, let's set the stage for folks. This was six days before the NBA announcement came out."
+    },
+    {
+      "start": 481.26,
+      "end": 514.36,
+      "text": "So it was sort of a week before the general American consciousness woke up and said, oh, my God, this is a huge deal. Did you worry at all that you were jumping the gun? And as a related question, I mean, Sequoia is such a force in our ecosystem. Did you think about the risk of, gosh, do we incite something by releasing something like this? We do, which is why we do this very infrequently. The last time we did something comparable was at the end of 2008 with the Rest in Peace Good Times memo, which wasn't intended to be published."
+    },
+    {
+      "start": 514.36,
+      "end": 540.9000000000001,
+      "text": "It was really intended just for our founders because we wanted them to understand what was happening. And it comes at a risk. I mean, even there, I heard from people back in 2008 that we were the reason the crash happened, like as if we had that kind of power. And similarly, yeah, I heard people complain, you know, we're being alarmist and things like that. But we really felt a duty that, you know, maybe people are going to be uncomfortable with us saying these sort of things."
+    },
+    {
+      "start": 540.9000000000001,
+      "end": 565.26,
+      "text": "But we have an obligation to tell people what we see coming around the corner. Someone challenged me and said, well, what if it doesn't turn out to be that bad? And I said, if that's the case, I'd be so thankful. I'd be so thankful. And I will eat humble pie for having published this. It is so much more important for us to put the word of warning out. Often when you're in the trenches as a company, you know, you have a slightly different perspective on things, especially if you haven't been through previous cycles."
+    },
+    {
+      "start": 565.5799999999999,
+      "end": 588.74,
+      "text": "And I remember when I was there at PayPal in, you know, I joined in March of 2000. The Nasdaq started its slide in April. And I remember being at a board meeting with Mike Maritz from Sequoia in June. And he told us he warned us, focus on runway. Because the financing environment has changed forever. And I think, honestly, for all of us as, you know, first timers, if you will, in the company, we didn't quite fathom that."
+    },
+    {
+      "start": 589.1600000000001,
+      "end": 618.3599999999999,
+      "text": "We thought that, you know, what we'd experienced for the last two years would continue. And he really rung the bell and we paid attention. And that month, we really started to sharpen our pencils to make sure that we had enough runway to make it to the other side. I'm super curious. You've talked about this a bunch. And obviously, as CFO, you were right there at the helm doing this. What were the things you did? I mean, you were, I believe, the first technology company to go public after the crash, then had this wonderful exit."
+    },
+    {
+      "start": 618.9,
+      "end": 641.1999999999999,
+      "text": "Like, what were the actual things that you did to save the company and to stay on a growth trajectory even through all this carnage? First, it's obviously a team effort, right? I mean, I was one of many people of the company that rallied together. And I think that's one of the things that you see in this unfortunate humanitarian crisis. I mean, I think the thing that's different about this, by the way, is it's a health crisis in addition to an economic crisis."
+    },
+    {
+      "start": 641.3,
+      "end": 665.3399999999999,
+      "text": "At a global scale. I mean, that makes it so different from any of these other incidents we've seen. And, you know, that's awful on many levels. But I do think it's very different from what we had back then. But we rallied as a team. And we looked through the P&L. I mean, I remember literally going through line by line on every single thing on which we were spending money to figure out what was truly essential to helping us build a successful business."
+    },
+    {
+      "start": 665.34,
+      "end": 693.5799999999999,
+      "text": "On the expense side. The things that you can control. We tried feverishly to raise more money to extend our runway. And we got religion about our business model. I mean, up until, I think, June 10 or June 20, 2000, PayPal didn't charge for its service. And at that point, we realized if we wanted to keep going, we had to figure out a business model and make it a great business model. And that's exactly the kind of focus that we got because the external environment changed so dramatically."
+    },
+    {
+      "start": 694.16,
+      "end": 718.96,
+      "text": "You know, constraints enable you to come up with creative new solutions. And so I think you're going to find an incredible array of entrepreneurs coming up with wonderful solutions in the midst of this terrible crisis. All right, listeners. Now is a great time to tell you about a longtime friend of the show, Vanta. AI has scrambled the whole security picture. It used to be that you proved that you were secure once a year on audit or a static PDF."
+    },
+    {
+      "start": 719.36,
+      "end": 746.12,
+      "text": "Then everyone would nod and you're done. But in an AI-first world, that doesn't hold up anymore. Yep. Your risk surface changes every week now. A vendor turns on an AI feature or someone writes in a new model without telling IT. And your posture is different than it was last week, let alone at your last audit. Vanta's own research found that around 70% of companies have this quote-unquote shadow AI running with no security review at all. Right."
+    },
+    {
+      "start": 746.46,
+      "end": 774.5,
+      "text": "And that's where Vanta comes in. They're the leading agentic trust platform, meaning they've built the thing that closes the gap. And the way that they close that gap is Vanta Agent. Think of it as a GRC engineer. That's governance, risk, and compliance. Except that it's software and it doesn't sleep. It finds the issues, drafts the fixes, and cuts the time that you'd spend on vendor assessments in half. In half! Which is exactly why more than 16,000 companies today run on Vanta."
+    },
+    {
+      "start": 774.84,
+      "end": 805.46,
+      "text": "Companies like Ramp, Cursor, and Snowflake all stay audit-ready and catch the risks that crop up between audits across every vendor, every AI tool, the whole environment. And that's the real value. Trust has to be continuous now, which is why Vanta automates your security, your compliance, and the work to earn and prove trust. We're huge fans of Vanta over here, and literally hundreds of acquired listeners have become Vanta customers at their companies over the years. So you can get $1,000 off Vanta at vanta.com slash acquired."
+    },
+    {
+      "start": 805.64,
+      "end": 832.36,
+      "text": "That's V-A-N-T-A dot com slash acquired for $1,000 off. And just tell them that Ben and David sent you. To go back for a sec to the Black Swan memo, can you talk a little bit about what it was over the preceding weeks before March 5th that you were seeing in China? And obviously through your unique perspective that kind of gave you confidence that, hey, this is a lot more serious than people are realizing in the U.S. and elsewhere?"
+    },
+    {
+      "start": 832.36,
+      "end": 857.28,
+      "text": "I think we saw how our team in China immediately had to go into a full lockdown. Just sort of a dramatic change at a national level with over a billion people and just not just in the province that was affected, but everywhere, that they were taking it seriously. So clearly the people at the front lines had seen that this was a virus, unlike others, that was spreading a lot faster and had higher mortality rate than a typical seasonal flu."
+    },
+    {
+      "start": 857.28,
+      "end": 876.88,
+      "text": "So that just felt very, very different. And I think it was pretty obvious that by then there were cases showing up in the U.S. Even though there was a travel ban at one point, it was just too porous. People could have come here from mainland China. They could have gone to other parts of the world and coming into the U.S. And so it was quite likely that there's a bigger problem today in the U.S. than we realize."
+    },
+    {
+      "start": 877.38,
+      "end": 897.14,
+      "text": "And this is the unfortunate thing about the absence of testing infrastructure right now in the country. Now, I have a friend in New York who had it for 11 days before he was confirmed positive last week. My brother in San Francisco, I think, has it, but he can't get tested. He literally can't get tested because he's not in a high-risk group. So I think we just had a sense that the problem was actually a lot bigger."
+    },
+    {
+      "start": 897.92,
+      "end": 922.34,
+      "text": "You know, there's the parable of the wheat or the rice in the chessboard, you know, where the person wants to get compensated, one, two, four, et cetera. And it's obviously a great thing for people who study computer science. But, you know, two to the power n becomes a very large number as n grows. And things that grow exponentially, we just don't understand it. And something that looked trivial 12 days ago but is doubling every six days suddenly looks dramatically different just two weeks later."
+    },
+    {
+      "start": 922.5,
+      "end": 945.42,
+      "text": "And so I think we saw that this was at the cusp of happening in America. And so we felt this obligation, like I said earlier, to make sure that people paid attention and acted now. That's a great lead-in to something that David and I talk about a lot. And, David, I don't think I have shared this with you, but I look up to you a lot in the way that you think about playing defense and playing offense and being very careful about when is a time for defense and when is a time for offense."
+    },
+    {
+      "start": 945.9,
+      "end": 969.38,
+      "text": "You know, doing both at the same time, you just have to be careful what actions are for which thing. And, Rulof, I want to dive in on defense right now. You guys have been putting out a reasonable amount of content compared to sort of Sequoia of old. And one of the pieces that you publish for entrepreneurs is this decision matrix. And I would sort of think about this as defense. How should entrepreneurs use that? And then I'm curious to ask you some questions about offense."
+    },
+    {
+      "start": 969.38,
+      "end": 994.72,
+      "text": "So I want to give credit to one of our CFOs in the portfolio. He doesn't want to be singled out and named, but he developed this for a portfolio company where I happened to be on the board for Sequoia. And I thought it was an incredible structure. In that case, the company had sort of seven main scenarios with a couple of sub-scenarios. And I just thought it's a wonderful framework to address the challenge you face because we don't know the state of the world."
+    },
+    {
+      "start": 995.5,
+      "end": 1017.94,
+      "text": "There's so much uncertainty right now, but are we actually going to reopen in three weeks, four weeks, ten weeks? Is it going to be a second wave? Are there going to be five waves? Is the world going to be in the world? We don't know. So I thought it was a wonderful way to think about what are the various scenarios that may play out? What are the strategies you could pursue? And what does it do for your resulting cash balance at some future date that is important?"
+    },
+    {
+      "start": 1018.14,
+      "end": 1044.1599999999999,
+      "text": "And your end is as good as any, I guess, at this point. Because companies need to survive. Cash is the most important thing companies have to focus on right now. Because if you don't survive, obviously, there's no chance for you to build an enduring business. And so that's the reason I thought this is a fabulous framework. And again, we felt we wanted to share it with as many people as possible. And we did actually on Friday, we had a Q&A session with over 100 portfolio companies."
+    },
+    {
+      "start": 1044.7199999999998,
+      "end": 1073.76,
+      "text": "Several of our partners hosted this call. And we shared it with those companies. And we just felt then that we wanted to share it with everybody. Now to ask the question on offense, this time is incredibly challenging for a lot of people. And we should in no way gloss over that. I'm sure it's challenging for you. It's challenging for me. Yet, you can sort of squint and find ways to actually turn it into something positive. And find perhaps a dislocation in a market or an opportunity that's emerged that was never a need from people before."
+    },
+    {
+      "start": 1074.1000000000001,
+      "end": 1099.94,
+      "text": "And I'd just love to get your perspective on how can people be proactive and turn this into a positive? Well, there are a couple of companies, obviously, that benefit from us all having to work from home and things like that. So the product we're using, Zoom is obviously benefiting. There are companies like Loom in our portfolio that are benefiting. The delivery companies are an essential service in my mind to make sure that we get food and get delivery of basic necessities."
+    },
+    {
+      "start": 1100.3799999999999,
+      "end": 1123.84,
+      "text": "There's a class of companies that are benefiting. You may not be one of those companies, so that doesn't really help you. The thing that I think really everybody can focus on in this time is product development. Keep on investing in your product. Sales and marketing, by definition, are going to be challenged over the next few months because people are going to shift their consumption behavior. Face-to-face selling, if you're an enterprise company, is going to be hampered."
+    },
+    {
+      "start": 1124.42,
+      "end": 1153.1599999999999,
+      "text": "Marketing channels maybe are flooded by other things, and it may seem insensitive, candidly, for you to peddle certain types of products right now. It's just not the right time. Hunker down and focus on product development. Build that truly differentiated product that, if you can survive, gives you a huge advantage when you come out the other side. Because part of what happens here, and I'll use the analogy of our namesake Sequoia tree, forest fires have been a part of the landscape in the U.S. for a long time, and it'll often clear the brush."
+    },
+    {
+      "start": 1153.9599999999998,
+      "end": 1177.58,
+      "text": "And the Sequoia trees that survive end up thriving disproportionately once the fire has cleared. Because there's more sunlight and there's more space for those that survive. And so, you know, you've got to wait your time out and make sure that you can pounce with a truly differentiated product because the competitive landscape is probably going to be clear for you after that. I think the other thing to do, just David, before that is to look for a community."
+    },
+    {
+      "start": 1177.58,
+      "end": 1205.2,
+      "text": "So, you know, it's a lot of what we've been doing, trying to get our founders together, not only with the sort of weekly call that we're doing now, but getting founder communities together. There's so much ingenuity and so much good advice and tips that they can share with each other. And also just kindred spirits where they can share some of the suffering candidly that's happening right now. So lean into community, lean into your product. I know you guys have done some innovative things, creating spaces right now for portfolio companies."
+    },
+    {
+      "start": 1205.4,
+      "end": 1225.5,
+      "text": "How are you doing that? And how are you interacting with them and then with each other? Well, I think at an individual level, obviously, board members are in frequent contact with their companies as we try to share best practices. In addition to the matrix, which we shared publicly, there are a couple of other things that we've prepared for companies, you know, for the unfortunate company that may need to go through a reduction in force, for example."
+    },
+    {
+      "start": 1225.5,
+      "end": 1252.16,
+      "text": "We've actually prepared some best practices that we've seen so we can share people and just help arm them for some of the challenges that lie ahead. We've created the Q&A with us as a group. So we get over 100 companies get together with Sequoia partners and we have a few prepared remarks, things that we're seeing, and we open it up for questions. We're arranging founder to founder sessions. No Sequoia person present where they can just industries that are relevant, where they can share best practices."
+    },
+    {
+      "start": 1252.16,
+      "end": 1279.98,
+      "text": "We're also doing that for CFOs because I think a lot of the CFOs across the portfolio are dealing with similar challenges. What do they do about potential rent abatement? What are they doing to renegotiate debt? What happened to that financing that was supposed to close? Things like that where they can also get together and help each other. If anything, this has also accelerated our desire to build even more digital products around our community. We've prided ourselves in the sort of community things we do with activities like Basecamp and AMP and other programs we have."
+    },
+    {
+      "start": 1279.98,
+      "end": 1314.7,
+      "text": "Obviously, those are halted right now. And what can we do to recreate as much of that as possible online is something we're working on. Can we circle back real quick before we get off of playing offense for portfolio companies? I want to come back to your time at PayPal. It struck me that I didn't realize that PayPal didn't have a business model or at least a viable business model until after the crash. As I kind of think about the hierarchy of impacts of change you can have as a startup, there's sort of like at the bottom is like sales and marketing and then nothing in sales and marketing."
+    },
+    {
+      "start": 1315.1200000000001,
+      "end": 1347.0,
+      "text": "And then at the mid-level is product. But actually, the highest level I always think is changing a business model. Now is kind of a really good opportunity to do that. How did you guys think about when there was the necessity of, okay, you need to make revenue now. But how did you figure out that business model so quickly during that time at PayPal? Necessity is the mother of invention. I don't think it was that difficult to figure out that as a payments company, there were so many precedents of charging transaction-based fees."
+    },
+    {
+      "start": 1347.66,
+      "end": 1379.08,
+      "text": "I think there were some other nuances where we figured out how to get bank account funding so that we had a much higher gross margin than traditional credit card processors did. So there's some other things we did. We also had to figure out solutions to online fraud, which took down many of our competitors and was a very expensive thing for us as well. We lost millions of dollars in 2000 to scalable online fraud. Part of what we talked about at the company was at the end of the day, if we can't keep the company alive because people are willing to pay for the service we provide, we don't really have a reason to exist."
+    },
+    {
+      "start": 1380.14,
+      "end": 1408.24,
+      "text": "We need to deliver enough value so that whatever we charge leaves enough of a gap of value capture to the customer where they're happy to pay for the service we have. And I think many companies may face that type of a crucible moment over the next six months if they've been free services or if their business model hasn't really been refined properly. But it's clarifying at some level. Yeah, where you're really forced to show up in a way that says, hey, I am delivering enough value here to charge for it."
+    },
+    {
+      "start": 1408.24,
+      "end": 1439.4399999999998,
+      "text": "What's the quote about, is it a Warren Buffett quote? You know who has their shorts on when the tide goes out? Man, we're treading out all these quotes. I think it might be Howard Marks, actually. Is it? Okay. Well, I'll give you another one that we used actually this week in our partnership, which is calm seas never made a good sailor. Yeah. And we've had a long period of calm seas. We have. And this is going to be a time where I think you're really going to see people differentiate themselves on how they deal with a crisis."
+    },
+    {
+      "start": 1440.6999999999998,
+      "end": 1468.52,
+      "text": "You know, who steps up? Who provides leadership? Who reminds a company of the mission of the company? The purpose that they have beyond just, you know, delivering a product. Those are the sort of companies that I think can really excel in a time of crisis. All right, listeners. Now is a great time to thank our longtime friend of the show, ServiceNow. If you are running a large enterprise, AI agents are likely spread across every team, and deploying them is no longer the hard part."
+    },
+    {
+      "start": 1468.8200000000002,
+      "end": 1500.14,
+      "text": "Yeah. The hard part is knowing what permissions they have, what employees are using them for, or what decisions AI is making. AI security for an enterprise at scale is not a small concern. Like, the risks are real. Exactly. And the challenge with AI is governing it, securing it, measuring it, and making sure that it actually delivers value. That is why ServiceNow built the AI Control Tower. Yep. AI Control Tower gives enterprises a single place to see, manage, govern, and optimize AI across the entire business."
+    },
+    {
+      "start": 1500.34,
+      "end": 1535.8600000000001,
+      "text": "And it works with any AI, not just theirs. Every device on your network, every permission across every system, every AI agent visible and secure in one place. And ServiceNow can do this because they've spent more than 20 years building the operational backbone of the enterprise. The workflows, governance, approvals, security controls, and institutional knowledge that power how work actually gets done across IT, HR, customer service, finance, and security. ServiceNow already runs more than 100 billion workflows annually, and trillions of transactions for more than 85% of the Fortune 500."
+    },
+    {
+      "start": 1536.22,
+      "end": 1562.1200000000001,
+      "text": "So when companies need a place to govern AI at enterprise scale, they're building on a platform at the center of how their business already operates. And in a future that isn't going to be one AI, it's going to be thousands of AI agents working across every function of the company. But the question is, who's managing them all? So if you're trying to turn AI ambition into real business outcomes and make it work safely, securely, at scale, go check out ServiceNow.com slash acquired and tell them that Ben and David sent you."
+    },
+    {
+      "start": 1562.12,
+      "end": 1595.7600000000002,
+      "text": "Well, I want to move us along to a section here that we're doing in adapting called adapting and really talk about Sequoia itself and how you're adapting. And I remember when we interviewed Doug, he spoke of the war room days of managing the 1999 fund after the dot-com crash. What is the Sequoia war room of March 2020 look like, especially as you literally can't be in a war room day? The virtual war room. You know, the other thing which is challenging is we have our bi-annual LP meeting next week."
+    },
+    {
+      "start": 1596.46,
+      "end": 1622.54,
+      "text": "Just for context, it was originally supposed to be in India. And then in January, we started to worry, given what we were seeing in China. So we actually moved it in January from India to California because we thought there were going to be issues in this early April, late March timeframe. I mean, just concretely, we took action. And then obviously, having it in California started to not look feasible. So we've moved it to a virtual LP meeting."
+    },
+    {
+      "start": 1622.68,
+      "end": 1647.34,
+      "text": "So in the midst of preparing for a very important event for us, I mean, our LPs are our customers and we want to do, we want to have a great show for them in some sense and provide candid feedback and reporting on our funds. At the same time, you know, we're running around like crazy looking after our portfolio companies. The most important thing we focused on over the last two weeks is our companies. You know, Sequoia as a business, we've been around almost five decades."
+    },
+    {
+      "start": 1647.86,
+      "end": 1679.42,
+      "text": "We're not in a tough spot, fortunately, but some of our companies really do face challenges. And so we've really oriented everything towards what is best for our companies. We've built a bunch of online tools. So we have resources where we can all look at things. We have daily standups using Zoom so that everybody can stay in touch. We understand what the prioritization is. We're using many more. And that's among the partnership? Within the partnership, yes. So as a team, since we, you know, what do you do to mimic the effect of being in the office together so that we just stay in touch a little bit more frequently?"
+    },
+    {
+      "start": 1679.82,
+      "end": 1706.6000000000001,
+      "text": "And we've created these online resources. And probably the most important thing we've done is to do a very thorough analysis of the portfolio health. So literally company by company across every single company in the U.S., we've gone down to figure out, okay, at your end in December, what was the expected runway based on cash and burn then? What do we think it is now, given the changed circumstances? And which of the two, three dozen companies will we really need to spend most of our attention?"
+    },
+    {
+      "start": 1707.0400000000002,
+      "end": 1733.3799999999999,
+      "text": "Some companies are early stage, six people, product development. I mean, in some sense, they're unaffected. They're just building the product and hope to launch next year. And then there are other companies that are really affected significantly. And so as a team, we try to figure out how do we rally around them and how do we bring resources to bear to help them navigate through this tricky period? As you sort of frame that up around the portfolio companies, you know, it sounds obvious that, of course, you would spend time with your portfolio companies."
+    },
+    {
+      "start": 1733.78,
+      "end": 1762.34,
+      "text": "What are the things that you're not doing as much of that you would normally be spending your days doing? And how has sort of this time forced you to change that? Seems like we're doing more of everything. Sleeping? Honestly. No, less of that too. I mean, interviews are still going on. We're just doing them all as virtual interviews. I do think there are probably one or two hires somewhere where you're going to wait to meet the person in person before you make a formal final hiring decision."
+    },
+    {
+      "start": 1763.04,
+      "end": 1783.74,
+      "text": "But for us, we're onboarding people remotely. We did this on Monday. We had a person who joined who, you know, first virtual onboarding for us, as our portfolio companies are doing. I was on a call earlier today with a company and they onboarded 21 people on Monday remotely. Exactly. And, you know, people are going to keep hiring. They're going to keep building products. So I think a lot of those things stay the same. We continue to make investments."
+    },
+    {
+      "start": 1783.74,
+      "end": 1812.82,
+      "text": "We formally approved two new Series A investments last week. And those meetings were virtual meetings. So business continues. Has something changed in what you look for in companies compared to, call it, two, three months ago? In some sense, not. I mean, certainly not at the Series A stage because I think, you know, those companies, they're at such an early stage, the product needs to be so differentiated and really solve the problem that would transcend the current market."
+    },
+    {
+      "start": 1812.92,
+      "end": 1840.46,
+      "text": "I mean, obviously, if the U.S. is shut down indefinitely, that's a different situation. But, you know, these companies all have a sound value proposition. And once things are a little bit more normal, even if the economy goes through a recession, we believe in these businesses because they're really solving really important problems. And so we have confidence in them. We have asked people how they plan to respond to a changing circumstance, a little bit of a test on whether they're nimble, are they flexible, or are they just tone deaf to the reality of the world we're in right now?"
+    },
+    {
+      "start": 1840.52,
+      "end": 1871.48,
+      "text": "So that clearly is a question we're asking that's different. And then we're also spending time thinking about what new categories may be unfairly favored sort of post-coronacoplyps. Do you end up with digital health companies, online education, a bunch of things may change? And are we forced into a behavior change through this environment we're in now that sticks? I think it's a really interesting question. A lot of people are thinking about this. I think it's a really interesting thing to try to, you know, conjecture."
+    },
+    {
+      "start": 1871.9,
+      "end": 1906.22,
+      "text": "That's the perfect transition to kind of the topic we wanted to wrap up with you on. I was thinking about it when you mentioned your LP meeting next week, which, man, I feel for you. I know how important those are, having done them, attended them and everything. And it was interesting, just yesterday I attended one virtually, and it was amazing that it was actually better. You know, these tend to be pretty dry affairs. This is a small example, but either through the LP meeting or more broadly, have you guys started to think about what kind of permanent changes to Sequoia might come out of this?"
+    },
+    {
+      "start": 1906.22,
+      "end": 1934.74,
+      "text": "I think we're going to be, we've already seen a trend where companies are becoming more distributed, partly because the cost of living in the Bay Area is so high, and the cost of hiring engineers is just so high. We've already seen a trend where companies are willing to tolerate remote work by individuals or multiple remote development offices. I think that trend is going to gather steam. I think you're going to run this experiment that's actually measurable on how people perform in this kind of an environment."
+    },
+    {
+      "start": 1935.54,
+      "end": 1965.4399999999998,
+      "text": "So I think that just objectively is going to change the debate because I think it's so easy. You know, as humans, we resist behavior change whenever we can, and this is forcing behavior change. So I think tolerating businesses that are distributor, learning how to work effectively with distributed teams, I think we're likely to see people start companies in many more places. And again, that's a trend that had already started. You know, Silicon Valley doesn't have a monopoly on idea generation, and I think many more people will start companies elsewhere."
+    },
+    {
+      "start": 1965.6,
+      "end": 1989.0,
+      "text": "So we probably need to be more willing to fly, or if not fly given health issues, do online assessments of companies. So I think those are clear permanent changes. You know, you all are organized, or at least have been to this point geographically. For a company, and I think there are going to be a lot more of these, like Zapier, right? Like we had Wade on the show. They have no office. How are you going to think about a company like that in the future?"
+    },
+    {
+      "start": 1989.1200000000001,
+      "end": 2015.54,
+      "text": "Is that a U.S. investment? Is that a global investment? Who meets them? Well, you know, honestly, so we've run into a couple of conflicts like this, but I don't actually think of them as conflicts. Our team in India is an investor in a fabulous company called Freshworks. Most of Freshworks' customers are in the developed world, including the U.S. So, you know, my guess is the majority of the revenue comes from the U.S., but it was an investment out of our India office because that's where the company is based."
+    },
+    {
+      "start": 2016.1200000000001,
+      "end": 2042.1799999999998,
+      "text": "And they have a presence in the U.S. too, but we help them. We're one partnership globally. We've done some really clever things behind the scenes to make sure that we feel like a single partnership and how we share knowledge and share compensation and things like that in a way that makes it feel good. And I'd rather have more of those. I mean, that's a great problem to have, honestly. There's a lot of folks talking about the sheer amount of dry powder that has been committed to venture firms in this climate."
+    },
+    {
+      "start": 2042.28,
+      "end": 2066.8999999999996,
+      "text": "So they're saying, you know, the funding won't slow down because, oh, my gosh, there's this just billions and billions and billions that's been promised to venture firms. So, therefore, deployment should continue at the exact same pace. How do you think about that? And it's probably too early to tell, but have you thought about should we slow deployment? Should we change when we want to raise certain funds? Should we change the mix of initial capital deployment versus follow-ons?"
+    },
+    {
+      "start": 2067.22,
+      "end": 2097.92,
+      "text": "Does the climate affect something like that for you guys? So the two questions there, I think. The one is what's the LP behavior and the other one is what's our behavior? And so the interesting thing, in 2008, maybe not because we had a crystal ball, just because we felt things were a little frothy, our investment pace had actually slowed down in the first half of 2008 before Lehman happened. And then we accelerated in 2009. So I don't know if you've ever done a driving course, but I went to one once on a Formula One racing track."
+    },
+    {
+      "start": 2098.24,
+      "end": 2122.58,
+      "text": "And the thing that they taught me is you brake as hard as you can while the car is going straight before you get to the corner. And then you have to figure out how to accelerate at the right point at the apex out of the corner so that you can sprint ahead. And this is exactly the analogy that we want to apply for our companies and for ourselves. You know, we slowed down in 2019, not because we had some crystal ball again that this was going to happen, but we just, things didn't quite feel right."
+    },
+    {
+      "start": 2122.8399999999997,
+      "end": 2157.56,
+      "text": "If anything, I want to accelerate out of this. I think there are going to be fabulous investment opportunities and great companies to be built. So that's what we plan to do. For our LPs, you know, our clients are almost exclusively these endowments, foundations, and nonprofits. And we're really proud of the great causes represented by our LPs. We actually got an email earlier this week that about 10 of our LPs, people like the Cleveland Clinic, Johns Hopkins University, the Wellcome Trust, Stanford, MIT, are all working on either better diagnostics, potential treatments, or vaccines for coronavirus."
+    },
+    {
+      "start": 2158.0,
+      "end": 2179.94,
+      "text": "So we love the fact that our clients are doing these things. So when we generate profits, it helps them do these sort of things. I think our clients are relatively well protected. But if you talk about the industry at large, I suspect some LPs are going to end up with cash flow issues, just like there are many other businesses that are going to end up with cash flow issues. And that may, at the margin, you know, lower the amount of venture capital being deployed over the next year or two."
+    },
+    {
+      "start": 2180.2000000000003,
+      "end": 2213.3,
+      "text": "But that's total speculation. I don't know. Well, LPs had already, allocations to venture and private companies broadly had already gone up so much for LPs, just with the bull run in valuations on the private markets and lack of liquidity over the last 10 years. Now with public markets dropping so much, you can get into a situation as an LP where you aim to have, say, 15% of your assets in private markets total. And now you have 40% of your assets in private markets."
+    },
+    {
+      "start": 2213.3,
+      "end": 2248.6400000000003,
+      "text": "And that can be a scary position. Well, there's that. And then LPs may also end up with cash flow issues on their own. Right. So part of what we saw in 2008, 2009, are some LPs have ongoing commitments. They have outflow commitments. If you're an endowment at a university, you probably represent more than half the expenditure at the university. And it may be that donations dry up. Right. So philanthropy shrinks in an environment like this. And so they're even more dependent on the endowments being able to continue to pay for teachers and, you know, keeping the school hospital going and things like that."
+    },
+    {
+      "start": 2248.6400000000003,
+      "end": 2270.2000000000003,
+      "text": "So the bunch of cash flow issues that may also then drive people to pull back from venture capital. But, you know, it's so unique to tell. I mean, you know, I look at the gyrations every day in the stock market and like flip a coin. Is it plus 10, minus 10 today? Like, I have no idea. And so it's so hard to figure out, you know, where things last. As we're recording this, it's only been 20 days since you wrote the memo."
+    },
+    {
+      "start": 2270.5400000000004,
+      "end": 2305.48,
+      "text": "And again, it feels like 20 years. Yeah. All right, listeners. Now is a great time to talk about one of our favorite companies, Statsig. Yes. Long time acquired partner. There is a reason why the best product teams at companies like OpenAI and Notion, Atlassian, Figma, Rippling, Brex, and more rely on Statsig, whether they are iterating on their core product features or shipping AI-powered experiences at scale. Yep. In the crazy speed of today's AI world, shipping fast is just table stakes now."
+    },
+    {
+      "start": 2305.66,
+      "end": 2338.12,
+      "text": "It's basically trivial to build and deploy your app constantly. The real advantage is how quickly you learn what changes actually created value for customers and how fast you can use that signal to guide what you ship next. Whether it's a feature tweak, a pricing change, a performance improvement, or an AI update like a model change or prompt adjustment, they're not relying on instinct. They're measuring what actually moved engagement, retention, and ultimately revenue. And as more teams build with AI, that learning loop becomes even more important."
+    },
+    {
+      "start": 2338.6800000000003,
+      "end": 2368.9,
+      "text": "Building with LLMs introduces non-determinism into your product experience. The same input doesn't always produce the same output. And behavior can shift in subtle ways in real-world use. So doing offline evals will give you part of the picture. But you can really only understand the impact once your product is live with real users. And then you can measure how their behavior actually changes. It's very different than the way that you would ship features in a pre-AI world where you knew exactly what the software was going to do in production."
+    },
+    {
+      "start": 2369.0,
+      "end": 2400.56,
+      "text": "Yeah, exactly. So this is where Statsig comes in. It brings experimentation, feature flags, and product analytics into one unified system so teams can ship safely, test rigorously, and directly link what they changed to how users actually behaved. The result is a tighter feedback loop and learning that compounds over time so you don't just ship more, you ship better. So if you want to make learning your competitive advantage, whether you're building new AI experiences or just evolving your existing core product, go to statsig.com slash acquired to get started."
+    },
+    {
+      "start": 2400.56,
+      "end": 2430.02,
+      "text": "Well, Rulof, I know this is adapting and not acquired, but we have one bonus question that we decided if we ever had you on the show after doing our deep dive on Square and doing the Square IPO, we had to ask you, what was it like navigating the challenging Square IPO and the months afterwards? Sort of knowing what a predictable and good business it was, but just seeing what happened in the public markets after IPO'd. This was like a key moment in acquired history."
+    },
+    {
+      "start": 2430.7200000000003,
+      "end": 2485.1400000000003,
+      "text": "We can look back to the pre-Square IPO episode and the post-Square IPO episode because it was just such a stark story to us of a company that was a great company that had just, even in the bull market run that we were in when they went public, was so misjudged. It was really difficult. Not a great outcome, even at the close price at the first day. But I felt that we left so much money on the table."
+    },
+    {
+      "start": 2485.7400000000002,
+      "end": 2505.1400000000003,
+      "text": "So the way to react in my mind was to rally the team and to talk about just, you know, we can't control our stock price. What we can control is our execution. And I think the management team did an incredible job of saying, look, it is what it is. We got through it. Let's hunker down and let's just build a great business. And they did that. And then what we did as an investor is we were patient."
+    },
+    {
+      "start": 2505.14,
+      "end": 2535.58,
+      "text": "So we didn't distribute a single square share until four years after the IPO. Four years. And so that meant that we distributed, you know, and we still haven't fully distributed, by the way, because I have so much faith in this company. You're still on the board, correct? I'm still on the board. I love working with the team. I love working with Jack. I love the mission of the company around financial empowerment and the fact that we're able to do that now, not only for small businesses, but also for consumers with this great cash app."
+    },
+    {
+      "start": 2535.58,
+      "end": 2560.52,
+      "text": "I think it's a fabulous company to be associated with from a mission point of view and actual financial results. And my partners and myself, we were just really patient. And so the fact that it was $9 a shared IPO didn't matter because we distributed shares when it got to $80. And so at the end of the day, we made a much better return for our limited partners by being patient. And I think the team also appreciated us as a really patient investor."
+    },
+    {
+      "start": 2561.42,
+      "end": 2590.98,
+      "text": "That's great. Thank you for sharing. And that's a good note to end on with this moment in time, too, right? Like, you know, for great companies, they're going to survive. They're going to hunker down. And now is not the time to liquidate your shares. Yeah, I think it's focused in the long term. Solve real problems. Yeah. Well, on that note, Rulof, where can our listeners get in touch with you, with Sequoia? My first name, Rulof, at sequoiacap.com."
+    },
+    {
+      "start": 2591.2799999999997,
+      "end": 2619.7999999999997,
+      "text": "Great. And are you on Twitter? Yes, at Rulof Guerta. Signed up in 2007. Nice. I've been a user for a long, long time. That's awesome. Well, thank you for joining us, listeners. We hope you enjoyed this episode of Adapting. Please send us feedback, acquiredfm at gmail.com or join our Slack. And we'd love to talk to you there. Rulof, thanks again. Thank you, Ben. Thank you, David. Thank you, David. Thank you, David. Thank you, David. Thank you, David."
+    },
+    {
+      "start": 2619.7999999999997,
+      "end": 2651.46,
+      "text": "Thank you, David. Thank you."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Jason Calacanis's sprawling empire — Silicon Alley Reporter, Weblogs Inc, This Week in Startups, the Launch accelerator and syndicate — is one playbook run repeatedly: assume every new medium will reach critical mass, go all-in before anyone else, and convert media attention into power, relationships, and deal flow. From selling bootleg Empire Strikes Back tapes in his father's Brooklyn bar to becoming Sequoia's prototype Scout, each act parlays hustle into the next.",
+    "The arc is boom, crash, reinvention. He becomes king of New York media, loses everything in the dot-com bust and 9/11, rebuilds with blogs, then watches Google's Panda update gut Mahalo. Each collapse forces him to detach identity from the brand — his Bob Dylan 'don't look back' rule — while the tension between self-confessed hype man and genuinely elite returns fuels his argument that solo conviction beats partnership consensus."
+  ],
+  "takeaways": [
+    {
+      "title": "Assume every new medium reaches critical mass",
+      "detail": "Calacanis's stated 'big trick in life' is to behave as if each new format — zines, blogs, podcasts, Twitter — will definitely work and go full bore early. Bing paid him $30,000 for podcast ads before podcast advertising existed, and the duds (Google Plus, FriendFeed) don't matter because early hits deliver asymmetric head starts."
+    },
+    {
+      "title": "Equity poaching, not content, beat Gawker",
+      "detail": "Tipped off that Gizmodo generated all of Gawker's revenue, he recruited Peter Rojas with day-one fully vested equity that Denton had only promised, then launched Engadget the first day of Denton's vacation. Weblogs Inc sold to AOL for $30 million eighteen months in, on roughly $100,000 of lifetime revenue."
+    },
+    {
+      "title": "Platform dependency destroyed Mahalo overnight",
+      "detail": "Mahalo was running at $10 million in Google AdSense revenue when the Panda update removed 90% of its traffic, forcing him to lay off a hundred people. His conclusion: Google systematically neutered partners who could become competitive, and the episode is his core argument for why the company will face antitrust action."
+    },
+    {
+      "title": "Sequoia's $700K scout capital returned $100 million",
+      "detail": "As the first Sequoia Scout, splitting carry 50-50, he deployed $700,000 into 19 companies including Uber, Thumbtack, and DataStax — three unicorns in his first seven checks. The West Coast anointment, layered on his East Coast media credibility, is what he says made him 'dangerous.'"
+    },
+    {
+      "title": "New angels should only fund post-revenue startups",
+      "detail": "Since most startups never ship a product and most that ship never get a paying customer, restricting bets to companies with even $2,000 a month in revenue eliminates the bulk of failure risk. Small syndicate checks are his '$1 blackjack table' — tuition paid while learning, before earning the right to pre-launch bets like Robinhood."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introducing the anthology: Mount Rushmore of angels",
+      "summary": "Ben and David frame Calacanis as a subject with a whole anthology of stories — four companies, three podcasts, 200-plus angel investments — and he immediately self-ranks among history's best angels, setting the episode's blend of hype and receipts.",
+      "quote": "For sure, I'm at Rushmore.",
+      "timestamp": "3:01"
+    },
+    {
+      "title": "Growing up in the bar: commerce and power",
+      "summary": "His father's Bay Ridge pub — cops, bookies, Hells Angels — was his first education in money and power, the two obsessions that drive every later chapter of the story.",
+      "quote": "made espresso for mob bosses, made baked clams for Tony Bennett",
+      "timestamp": "9:11"
+    },
+    {
+      "title": "Silicon Alley Reporter starts as a photocopied zine",
+      "summary": "The 16-page photocopy he hand-delivered on a luggage cart becomes the wedge into media; Fred Wilson's $1,000 of Flatiron Partners ads is the first institutional validation of the Calacanis playbook.",
+      "quote": "Fred Wilson bought the first ad in it",
+      "timestamp": "20:59"
+    },
+    {
+      "title": "King of New York, and what he wanted",
+      "summary": "Turning down Jann Wenner to stay number one, he rides the internet boom to 75 employees and $12 million in revenue, naming with unusual candor the motivations underneath it all.",
+      "quote": "Fame, power, money. That's all I wanted.",
+      "timestamp": "24:46"
+    },
+    {
+      "title": "The crash, 9/11, and losing the Midas touch",
+      "summary": "Passing on a $20 million offer before the dot-com collapse, then living through 9/11 with a firefighter brother, produces the anger and the vow to come back that powers his second act.",
+      "quote": "you go from feeling like you're Superman and then you can't fly",
+      "timestamp": "27:22"
+    },
+    {
+      "title": "Blogging as MTV Unplugged for journalism",
+      "summary": "Seeing ex-employees out-earn their old salaries from solo blogs, he grasps that stripping away editors and production is the insight — the founding thesis of Weblogs Inc.",
+      "quote": "this is MTV Unplugged for journalism",
+      "timestamp": "29:20"
+    },
+    {
+      "title": "Launching Engadget on Denton's vacation day",
+      "summary": "The Peter Rojas poach — vegan omakase, day-one equity, and a launch timed to Nick Denton's flight to Brazil — is the episode's most vivid case study in Brooklyn-rules competition, followed by an unexpected no-poach truce.",
+      "quote": "we literally launched the site the first day of his vacation",
+      "timestamp": "37:01"
+    },
+    {
+      "title": "The prototype Sequoia Scout fund",
+      "summary": "Lobbying Sequoia on Twitter and Zynga earns him the first Scout slot, where Uber, Thumbtack, and DataStax turn $700K of deployed capital into over $100 million.",
+      "quote": "in the first seven, there were three unicorns",
+      "timestamp": "48:32"
+    },
+    {
+      "title": "Google's Panda update kills Mahalo",
+      "summary": "The $100 million-valued search startup loses 90% of its traffic to a Google algorithm change, teaching him the dependency lesson and seeding his antitrust conviction.",
+      "quote": "they basically studied us, copied us, killed us",
+      "timestamp": "59:52"
+    },
+    {
+      "title": "Why he never joined a venture partnership",
+      "summary": "He argues the deliberation that protects late-stage capital is fatal at the earliest stage, because outliers make no sense by definition — the philosophical core of his solo-artist model.",
+      "quote": "consensus equals death in the early stage",
+      "timestamp": "1:18:32"
+    },
+    {
+      "title": "The Calm thesis: yoga delivered through your ears",
+      "summary": "The 25K-on-air bet on Calm — now his most successful syndicate ever at a $1.4 billion valuation — shows how he assembles conviction from Sam Harris, Phil Jackson, and UCLA research before revenue exists.",
+      "quote": "this could be delivered through your ears",
+      "timestamp": "1:26:27"
+    },
+    {
+      "title": "Writing pro rata power into the docs",
+      "summary": "After downstream investors boxed him out of his accelerator's winners, he contractually reserved half of the next round — a founder-anchoring structure Y Combinator later copied, and the foundation of his deconstructed VC firm.",
+      "quote": "I'm the point guard. I passed you the ball",
+      "timestamp": "1:31:34"
+    }
+  ],
+  "title": "Jason Calacanis: From Brooklyn Bar to Angel Empire"
+}
