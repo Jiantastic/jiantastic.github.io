@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Eventbrite builds a global ticketing platform for the invisible middle between arena concerts and informal gatherings. Kevin Hartz sees payments as infrastructure after investing in PayPal and founding Xoom; Julia Hartz brings media judgment, customer empathy, and operating discipline; Renaud Visage supplies the technical foundation. Starting in 2006, they bootstrap around support conversations, free-event adoption, and self-service tools, betting that millions of professional creators still collect checks at the door because incumbents ignore their varied, individually small events.",
+    "The model compounds as creators publish, attendees discover Eventbrite, and some attendees become creators, while social media turns experiences into identity and distribution. Yet private capital pulls the company toward enterprise sales and organizational complexity before its 2018 IPO. COVID then drives $4.5 billion of annual gross ticket sales through zero into negative bookings. Eventbrite cuts 45% of staff, removes over $100 million of expense, raises $375 million, and refocuses on scalable self-service creators plus online and hybrid events."
+  ],
+  "takeaways": [
+    {
+      "title": "Platforms reveal previously invisible markets",
+      "detail": "Traditional research could count remittances or arena tickets but not workshops, races, festivals, classes, and community events handled offline. A flexible self-service product did not merely capture an existing market; it made small professional creators measurable and economically serviceable."
+    },
+    {
+      "title": "Customer support can drive product discovery",
+      "detail": "Before formally joining, Julia investigates an abandoned support queue to understand who is using the prototype and why. Her observations flow to Kevin's product design and Renaud's overnight engineering, creating a tight remote loop before venture capital or functional departments."
+    },
+    {
+      "title": "Long-tail businesses require productized service",
+      "detail": "A million heterogeneous event creators cannot support bespoke contracts, account teams, and manual workflows. Eventbrite's advantage is to encode common needs into simple tools while making creators feel supported, leaving expensive human intervention for exceptional cases rather than the core model."
+    },
+    {
+      "title": "Capital abundance weakens operating discipline",
+      "detail": "Kevin describes the largest private financings as the company's hardest periods because hiring and investment outpace proven need. Public reporting later provides an antiseptic, forcing clearer allocation and exposing whether growth initiatives reinforce the self-propelling core."
+    },
+    {
+      "title": "A crisis can force strategic refounding",
+      "detail": "COVID destroys bookings and reverses refunds, making incremental cost action insufficient. Eventbrite asks what it would build if starting again, rapidly removes enterprise complexity, finances survival, integrates online tools, and directs a smaller team toward the creators most compatible with its original scalable advantage."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "A pandemic tests a gathering platform",
+      "summary": "The episode centers three moments: Eventbrite's husband-wife founding in 2006, Julia's 2018 IPO, and a 2020 crisis that eliminates nearly every in-person event. The same self-service thesis must now support survival and reinvention.",
+      "quote": "an events company during a global pandemic",
+      "timestamp": "0:37"
+    },
+    {
+      "title": "PayPal teaches experimentation and platform thinking",
+      "summary": "Kevin invests before PayPal's launch after a quick hotel-internet exit. He watches email-based payments unexpectedly spread through eBay, learning that founders should run experiments, observe emergent usage, and treat payments as an API serving many verticals.",
+      "quote": "you want to try a lot of different experiments",
+      "timestamp": "9:04"
+    },
+    {
+      "title": "A wedding creates a founding partnership",
+      "summary": "Kevin and Julia meet at a 2003 wedding, bridge Silicon Valley and Hollywood, and later marry. When Current TV makes Julia an offer, Kevin counters with cofounding a company together; Renaud Visage joins as Eventbrite's technical cofounder.",
+      "quote": "this potential co-founder with massive potential",
+      "timestamp": "19:18"
+    },
+    {
+      "title": "An abandoned queue becomes customer research",
+      "summary": "The early MollyGuard prototype already serves free and low-priced events, but nobody answers support. Julia enters the queue, studies real creators, and pairs those insights with Kevin's product work and Renaud's remote development cycle.",
+      "quote": "I just went in and started investigating",
+      "timestamp": "36:37"
+    },
+    {
+      "title": "Bootstrapping keeps attention on creators",
+      "summary": "The founders fund the company themselves while customer conversations determine each iteration. Twenty-seven venture firms reject them during the financial crisis, preserving a capital-efficient culture until Sequoia recognizes the emerging lift in 2009.",
+      "quote": "financing really hinders companies",
+      "timestamp": "41:20"
+    },
+    {
+      "title": "Self-service unlocks the professional long tail",
+      "summary": "Eventbrite targets the large but unmeasured space between Ticketmaster arenas and backyard parties. Common tools serve globally varied professional events, creating scale and future option value without needing to predict every category in advance.",
+      "quote": "far more people trying to sell tickets",
+      "timestamp": "43:59"
+    },
+    {
+      "title": "Attendees feed the creator acquisition loop",
+      "summary": "Creators discover Eventbrite, publish and sell, then expose attendees to the brand; some attendees later organize events themselves. Facebook and Twitter amplify experiences as identity, accelerating a snowball that grows without enterprise-style distribution for every account.",
+      "quote": "some of them would convert to creators",
+      "timestamp": "48:10"
+    },
+    {
+      "title": "Private capital enables growth and organizational gravity",
+      "summary": "After the Series A, Eventbrite raises increasingly large rounds and stays private through the late-2010s financing boom. Kevin later argues that large balances encouraged overspending, overhiring, and investments that weakened the original perpetual-motion efficiency.",
+      "quote": "fighting this gravity of overspending",
+      "timestamp": "59:38"
+    },
+    {
+      "title": "The IPO places creator stories first",
+      "summary": "Julia leads the roadshow and explains the unfamiliar long-tail business through customers rather than financial abstractions alone. Eventbrite's executive team creates a rare NYSE podium dominated by women, while public reporting brings capital-allocation discipline.",
+      "quote": "the student had become the master",
+      "timestamp": "1:02:44"
+    },
+    {
+      "title": "COVID reverses the marketplace overnight",
+      "summary": "A record January and February collapse in March 2020: annual gross ticket sales previously exceeded $4.5 billion, but new bookings fall below refunds. Quarterly net revenue drops from roughly $80 million to $8 million.",
+      "quote": "went actually in March to zero",
+      "timestamp": "1:16:19"
+    },
+    {
+      "title": "Refounding replaces incremental crisis management",
+      "summary": "Eventbrite asks what it would build from scratch, cuts 45% of staff, removes more than $100 million of annual expense, and exits much bespoke enterprise complexity. It raises $375 million and integrates Zoom as creators move online.",
+      "quote": "what would we do if we could do it all over again",
+      "timestamp": "1:20:36"
+    },
+    {
+      "title": "Public capital makes offense possible",
+      "summary": "Consistent disclosure and long-term shareholders let the company access converts during its worst shock. The A-plus outcome is not merely surviving but using automation to serve damaged venues, replace manual incumbents, and make Eventbrite more ubiquitous.",
+      "quote": "gain market share and come out a real leader",
+      "timestamp": "1:24:44"
+    }
+  ],
+  "title": "Eventbrite with Julia and Kevin Hartz: Self-Service Ticketing, IPO, and COVID Refounding"
+}

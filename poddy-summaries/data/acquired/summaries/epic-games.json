@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Epic Games is Tim Sweeney's 30-year attempt to lower the cost of creating, distributing, and operating interactive worlds. ZZT combines a game with its own editor; Unreal turns reusable technical primitives into a licensable engine; console proliferation makes cross-platform tooling essential; and Gears of War exposes the capital intensity and publisher conflict of blockbuster games. After bootstrapping for 22 years, Epic sells Tencent 40% to learn free-to-play, digital distribution, and live operations while Sweeney retains control.",
+    "Fortnite emerges after six years of failed development, when a spare team remixes its assets around PUBG's battle-royale mechanic and reaches 10 million players in two weeks. The windfall funds a broader stack: free Unreal Engine access for a 5% royalty, cross-platform services, creator tools, and a store charging 12% instead of 30%. That mission collides with Apple and Google because Epic's interoperable metaverse depends on reducing platform rents, even when the fight sacrifices revenue and harms customers."
+  ],
+  "takeaways": [
+    {
+      "title": "Reusable primitives compound engineering work",
+      "detail": "Rather than rebuild a proprietary technical stack for every game, Sweeney invests years in a modular engine that Epic and outside studios can extend. Rising graphics complexity increases the engine's value because creative teams otherwise cannot afford the infrastructure needed to enter the market."
+    },
+    {
+      "title": "Platform neutrality benefits from console rivalry",
+      "detail": "Sony and Microsoft compete for developers, while studios want one title to reach both systems and PC. Unreal becomes the neutral translation layer, reducing duplicate engineering and letting content owners preserve access to the whole audience rather than accept permanent exclusivity."
+    },
+    {
+      "title": "Strategic capital should import capabilities",
+      "detail": "Tencent's $330 million does more than fund development: it brings expertise in free-to-play economics, digital goods, live operations, and Chinese publishing. Epic combines those capabilities with its engine and creative assets while Sweeney retains majority control over long-term ecosystem choices."
+    },
+    {
+      "title": "Fresh teams can rescue sunk assets",
+      "detail": "The original Fortnite team spends six years on a tower-defense product that fails, while a former Unreal Tournament team forks the code and ships Battle Royale within months. Market evidence, reusable assets, and freedom from accumulated internal compromises matter more than honoring sunk effort."
+    },
+    {
+      "title": "Low rents can be strategic power",
+      "detail": "Epic charges a 5% Unreal royalty and a 12% store fee that includes the engine charge, deliberately leaving developers more economics than incumbent platforms. Lowering creation and distribution costs expands supply, attracts partners, and supports the interoperable ecosystem Sweeney wants to govern without fully owning."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "An idealist controls a global platform",
+      "summary": "Epic combines Fortnite's cultural reach, Unreal's infrastructure, Tencent's alliance, and founder control. Sweeney is willing to use that leverage against Apple even when the campaign may not maximize Epic's own near-term value.",
+      "quote": "shape the world to his idealistic will",
+      "timestamp": "1:25"
+    },
+    {
+      "title": "ZZT bundles creation with consumption",
+      "summary": "A planned text editor becomes a shareware game whose first room is free and whose editor lets players build their own levels. Direct mail distribution preserves nearly all revenue and foreshadows free entry, creator tools, and disintermediation.",
+      "quote": "this game is editable",
+      "timestamp": "19:00"
+    },
+    {
+      "title": "Unreal converts technology into reusable primitives",
+      "summary": "Unable to match Doom quickly, Epic spends five years building an extensible 3D engine rather than reinventing each game. Other studios request licenses before Unreal ships, validating tooling as a business distinct from content hits.",
+      "quote": "compounding value out of each piece of work",
+      "timestamp": "29:38"
+    },
+    {
+      "title": "Gears reveals blockbuster publishing's limits",
+      "summary": "The first Gears of War earns roughly $100 million on a $12 million cost base with Microsoft's launch support. Sequels fall toward 30–40% margins, tie up more capital, and expose strategic conflict when Microsoft prioritizes console sales over Epic's multiplayer vision.",
+      "quote": "this is not as interesting as we thought",
+      "timestamp": "41:05"
+    },
+    {
+      "title": "Tencent finances Epic's fourth reinvention",
+      "summary": "Sweeney sells Tencent 40% for $330 million in 2012, keeping majority control while importing live-game expertise. Epic exits Gears, expands Unreal into live operations, makes the engine free upfront, and charges developers 5% of successful game revenue.",
+      "quote": "the number one operator of live games",
+      "timestamp": "53:23"
+    },
+    {
+      "title": "A failed project catches a market miracle",
+      "summary": "Fortnite's crafting and tower-defense concept consumes six years without traction. When PUBG proves battle royale, a fallow Unreal Tournament team forks Fortnite's assets and ships a colorful, less violent interpretation within months.",
+      "quote": "within two months",
+      "timestamp": "1:03:43"
+    },
+    {
+      "title": "Cross-platform speed produces a cultural phenomenon",
+      "summary": "Fortnite Battle Royale reaches 10 million players in two weeks and 125 million within six months. Epic rapidly spans PC, consoles, and mobile, then integrates the old and new teams around the market-winning mechanic despite internal sunk costs.",
+      "quote": "doubling down on this thing",
+      "timestamp": "1:07:27"
+    },
+    {
+      "title": "The windfall funds a lower-rent stack",
+      "summary": "Fortnite generates an estimated $2.5 billion in 2018, supporting creator mode and the Epic Games Store. The store charges 12% versus Steam's 30% and includes Unreal's 5% royalty, using Fortnite distribution to challenge incumbent economics.",
+      "quote": "we're not going to charge twice",
+      "timestamp": "1:11:56"
+    },
+    {
+      "title": "Epic deliberately provokes the app stores",
+      "summary": "After Google makes sideloading painful, Epic inserts direct discounted V-Buck purchases into its mobile apps. Apple and Google delist Fortnite; Epic immediately releases its prepared parody campaign and lawsuits, while Apple threatens the broader Unreal developer account.",
+      "quote": "Apple has dragged the Unreal Engine into this",
+      "timestamp": "1:16:28"
+    },
+    {
+      "title": "Interoperability could become a network power",
+      "summary": "Epic wants identities, friends, commerce, and digital goods to move across Fortnite, Roblox, games, devices, and future worlds. Engine scale, switching costs, and Fortnite's social graph support that ambition, but it directly threatens closed platform control.",
+      "quote": "take rates should dramatically go down",
+      "timestamp": "1:25:30"
+    },
+    {
+      "title": "Apple risks excluding the next computing layer",
+      "summary": "Fortnite's iOS revenue is meaningful to Epic but negligible to Apple's App Store. The larger risk is that 30% economics keep persistent games and metaverse creators away from iOS; lowering the take while preserving one store may protect Apple's platform better than winning this fight.",
+      "quote": "They need to become a great platform for developers again",
+      "timestamp": "2:01:43"
+    },
+    {
+      "title": "Unreal escapes gaming into production infrastructure",
+      "summary": "Real-time virtual sets let The Mandalorian render photorealistic backgrounds and matching light around actors, lowering cost while increasing creative control. The engine's reach into film demonstrates that Epic's primitives may serve interactive and linear media alike.",
+      "quote": "the future of filmmaking is here",
+      "timestamp": "2:22:16"
+    }
+  ],
+  "title": "Epic Games: Unreal Engine, Tencent, Fortnite, the Epic Store, and Apple's App Store Fight"
+}
