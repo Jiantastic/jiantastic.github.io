@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Airbnb turns spare homes into a global travel category by solving supply, trust, payments, and discovery together. Brian Chesky and Joe Gebbia rent airbeds during a sold-out design conference, persist through failed relaunches, fund themselves with political cereal, and enter Y Combinator because their survival impresses Paul Graham. New York host visits, professional photos, Craigslist distribution, targeted ads, reviews, identity, and cashless booking transform strange behavior into a marketplace with seven million listings and $38 billion in 2019 bookings.",
+    "Its advantages also create strategic tensions. Travelers become hosts, producing a global network effect that defeats European clone Wimdu, while advance guest payments finance growth before host payouts. Yet bookings decelerate as costs and adjacencies expand, reviews do not eliminate inconsistent quality, and hosts can multi-home. COVID reverses the cash cycle through refunds, forces distressed financing and a 25% layoff, then validates private homes as resilient travel supply. The IPO reveals an exceptional marketplace still seeking Booking.com's profitability."
+  ],
+  "takeaways": [
+    {
+      "title": "Unique supply creates category power",
+      "detail": "Airbnb did not aggregate an existing hotel catalog; it persuaded ordinary people to create lodging that previously was unavailable. Family homes, apartments, and unusual properties differentiated the experience, expanded capacity during demand spikes, and made direct comparisons with standardized hotels less decisive."
+    },
+    {
+      "title": "Trust requires designed infrastructure",
+      "detail": "Reviews, identity, photography, payments, messaging, guarantees, and support jointly reduce the fear of strangers transacting around a home. No single reputation feature completes the job, and persistent quality variance shows that trust infrastructure must keep improving after the network reaches scale."
+    },
+    {
+      "title": "Global marketplaces demand global defense",
+      "detail": "Travel crosses borders, and guests often become hosts after returning home. Giving up Europe would weaken both transatlantic demand and local supply, so venture funding for the Wimdu fight was strategically necessary even though Airbnb's favorable cash cycle already financed much of its growth."
+    },
+    {
+      "title": "New markets can set better terms",
+      "detail": "Guests pay when booking while hosts receive funds after check-in, giving Airbnb weeks or months of float. Hotels could not easily impose this convention, but a novel category could establish it before expectations formed. The same leverage reverses painfully when cancellations exceed new bookings."
+    },
+    {
+      "title": "Strong cores can hide weak expansion",
+      "detail": "Homes achieved extraordinary product-market fit, but Places, Trips, flights, studios, tiny homes, and other initiatives added cost without comparable evidence. COVID's forced refocus suggests a self-propelling network still needs disciplined experimentation, explicit killing criteria, and operating leverage."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "A travel company enters the pandemic IPO window",
+      "summary": "Airbnb lists at a $47 billion initial valuation after operating across 220 countries and 100,000 cities. Its 2019 platform handled $38 billion in bookings from more than 50 million active guests, even as growth was slowing before COVID.",
+      "quote": "this is truly a global company",
+      "timestamp": "0:41"
+    },
+    {
+      "title": "Designers discover temporary lodging supply",
+      "summary": "RISD friends Brian Chesky and Joe Gebbia share a San Francisco apartment as a major design conference exhausts hotels. In three days they build AirBedandBreakfast.com and host several designers for $80 nightly.",
+      "quote": "there just aren't enough hotels here",
+      "timestamp": "18:43"
+    },
+    {
+      "title": "Repeated relaunches produce almost no demand",
+      "summary": "The founders recruit engineer Nate Blecharczyk and target South by Southwest, but secure only two bookings, including Chesky himself. Political conventions generate about 100 stays without enough economics to sustain the team.",
+      "quote": "They get two actual bookings",
+      "timestamp": "26:29"
+    },
+    {
+      "title": "Cereal demonstrates the grit YC funds",
+      "summary": "Obama O's and Cap'n McCain's boxes turn design labor into emergency cash. Paul Graham initially doubts home sharing but changes his judgment after learning how the founders manufactured and sold cereal to stay alive.",
+      "quote": "you guys are going to stay default alive",
+      "timestamp": "32:54"
+    },
+    {
+      "title": "New York reveals the missing product details",
+      "summary": "Graham sends the team directly to its active market. Visiting hosts exposes poor photos, awkward cash exchange, and listing friction; professional photography and integrated payments make unfamiliar homes legible and bookable.",
+      "quote": "okay, well, go to New York",
+      "timestamp": "38:02"
+    },
+    {
+      "title": "Sequoia makes a tiny ownership-heavy bet",
+      "summary": "During the financial crisis Greg McAdoo sees both founder grit and a product helping people pay housing costs and travel cheaply. Sequoia invests $585,000 and receives roughly 24% in a $2.4 million post-money round.",
+      "quote": "the Airbnbs over there",
+      "timestamp": "39:07"
+    },
+    {
+      "title": "Growth hacks connect fragmented supply and demand",
+      "summary": "Airbnb recruits Craigslist hosts, republishes Airbnb listings to capture Craigslist demand, and uses Google ads for travelers plus interest-targeted Facebook ads for hosts. The tactics exploit distribution channels before competition arbitrages away their value.",
+      "quote": "we're going to be the way to capture it",
+      "timestamp": "44:53"
+    },
+    {
+      "title": "European competition proves the global flywheel",
+      "summary": "Rocket Internet's Wimdu uses capital and sales labor to clone supply, prompting Airbnb to raise $112 million and fight across Europe. Existing reviewed listings and traveling guests who later host create network depth that a listing farm cannot copy.",
+      "quote": "There is going to be one winner globally",
+      "timestamp": "54:54"
+    },
+    {
+      "title": "Advance payments finance marketplace expansion",
+      "summary": "Guests pay at reservation while hosts receive funds after check-in, leaving Airbnb with weeks or months of float plus its fee. Rising bookings therefore supply working capital alongside venture rounds, though only while growth continues.",
+      "quote": "their growth actually financed the future growth",
+      "timestamp": "59:46"
+    },
+    {
+      "title": "Growth masks undisciplined adjacency bets",
+      "summary": "After huge financing rounds and brand investment, Airbnb announces Experiences, Places, Trips, prospective flights, and other expansions. Most fail to gain meaningful traction as the core home marketplace slows from 50% booking growth in 2017 to below 30% in 2019.",
+      "quote": "growth covers a lot of sins",
+      "timestamp": "1:08:31"
+    },
+    {
+      "title": "COVID reverses float and forces refounding",
+      "summary": "Refunds make gross bookings negative, and Airbnb raises $2 billion at distressed rates and an $18 billion equity valuation. It cuts 25% of staff, removes peripheral projects, and recovers faster than hotels as travelers prefer private, longer stays.",
+      "quote": "the business evaporates",
+      "timestamp": "1:23:19"
+    },
+    {
+      "title": "Marketplace value outruns marketplace efficiency",
+      "summary": "Airbnb creates life-changing guest affordability and host income, but its 13.9% effective take on $38 billion of 2019 bookings still yields a $700 million loss. Booking.com produces $5 billion profit at greater scale, setting the operating benchmark while housing impacts remain contested.",
+      "quote": "create no brainer value for everyone",
+      "timestamp": "2:12:18"
+    }
+  ],
+  "title": "Airbnb: Founding Story, Global Network Effects, COVID, and IPO Economics"
+}

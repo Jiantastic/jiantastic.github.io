@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "DoorDash begins when four Stanford students interview local merchants and discover a macaroon shop with abundant delivery orders but no drivers. PaloAltoDelivery.com launches with PDF menus, a shared Google Voice number, Square readers, and Find My Friends; the founders accept, buy, route, and deliver every order themselves. This operational apprenticeship reveals that smartphones can coordinate consumers, restaurants, and couriers, while suburban parking, car ownership, unmet demand, and national chains create a better starting market than dense cities.",
+    "Survival requires capital and conviction. DoorDash raises down rounds, reaches the brink of failure, and sells 38% in SoftBank's $535 million financing before expanding from dozens to more than 3,000 markets and overtaking Grubhub. Scale improves density, selection, economics, and repeat use, while DashPass, Storefront, and Drive monetize demand or logistics separately. The pandemic accelerates an already tripling business into its IPO, but thin contribution margins, multi-homing, restaurant pressure, gig labor, and uncertain non-food adjacencies remain unresolved."
+  ],
+  "takeaways": [
+    {
+      "title": "Study operations at ground level",
+      "detail": "The founders deliver orders, interview customers, work shifts at Domino's and FedEx, and analyze restaurant bottlenecks instead of assuming software is the hard part. Their operating-detail culture discovers tail behavior hidden by averages and builds technology around the physical workflow."
+    },
+    {
+      "title": "Underserved geography can beat density",
+      "detail": "Suburbs initially look worse because stops are farther apart, but they offer plentiful cars, simple parking, fewer apartment elevators, less traffic, no delivery alternatives, and strong restaurant demand. DoorDash finds a strategically open market rather than attacking incumbent urban strength."
+    },
+    {
+      "title": "Scale economies matter more than networks",
+      "detail": "Consumers, restaurants, and couriers can all use competing apps, limiting classic lock-in. DoorDash's defense comes from order density, route efficiency, national merchant relationships, broad selection, and lower unit cost—advantages that require capital and execution in each geography."
+    },
+    {
+      "title": "Survival capital can be brutally expensive",
+      "detail": "When public sentiment turns against subsidized marketplaces, DoorDash accepts a down round, an inside bridge, and ultimately massive dilution from SoftBank. Existing ownership suffers, but the financing buys the offensive expansion that changes market leadership and restores fundraising leverage."
+    },
+    {
+      "title": "Separate demand from fulfillment products",
+      "detail": "Marketplace orders charge restaurants for access to DoorDash customers, while Storefront supports direct ordering and Drive provides white-label delivery for brands such as Chipotle. Unbundling lets merchants preserve their customer relationship while DoorDash monetizes logistics infrastructure."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "A crowded category produces an unlikely winner",
+      "summary": "Palo Alto Delivery launches in 2013 and eventually raises $2.5 billion against Grubhub, Seamless, Uber, and others. DoorDash is already tripling before COVID adds an extraordinary tailwind, yet sustainable unit economics remain the central question.",
+      "quote": "is it even possible to build a sustainable business",
+      "timestamp": "0:41"
+    },
+    {
+      "title": "Merchant interviews uncover the missing drivers",
+      "summary": "Tony Xu, Stanley Tang, Andy Fang, and Evan Moore explore local-commerce problems in Stanford's Startup Garage. A macaroon-shop owner shows pages of orders she cannot fulfill, and other restaurants confirm delivery demand without operational capacity.",
+      "quote": "I have no drivers to fulfill them",
+      "timestamp": "5:56"
+    },
+    {
+      "title": "A manual MVP receives an order immediately",
+      "summary": "The founders post restaurant PDFs and a Google Voice number; within an hour a visiting author orders Thai food. They call restaurants, collect meals, deliver personally, charge through Square, and track later couriers with Find My Friends.",
+      "quote": "within an hour, they get a call",
+      "timestamp": "14:29"
+    },
+    {
+      "title": "Mobile coordinates three operational participants",
+      "summary": "Unlike ride sharing, delivery must synchronize diner demand, courier location, and restaurant preparation while keeping hot food inside a narrow quality window. Smartphones make real-time dispatch possible, but the business remains physical 3D chess.",
+      "quote": "the 3d chess version of ride sharing",
+      "timestamp": "18:51"
+    },
+    {
+      "title": "The founders apprentice at logistics leaders",
+      "summary": "Recognizing they are building a network rather than an ordering directory, the team works at Domino's and FedEx. They study density, utilization, routing, and timing, then test whether consumers want delivery, drivers can earn enough, and restaurants will pay.",
+      "quote": "We're building dominoes. We're building FedEx",
+      "timestamp": "29:14"
+    },
+    {
+      "title": "Suburbs become the counterintuitive entry wedge",
+      "summary": "DoorDash launches beyond Palo Alto in East San Jose rather than San Francisco. Car availability, easy parking, limited competition, and poor existing restaurant delivery outweigh lower density, letting service quality and courier supply improve together.",
+      "quote": "It was Domino's or DoorDash",
+      "timestamp": "42:01"
+    },
+    {
+      "title": "Early growth attracts elite venture capital",
+      "summary": "After YC and a $2.4 million seed, DoorDash reaches one in six Peninsula residents, raises $17 million from Sequoia, and then $40 million from Kleiner Perkins. Taco Bell and KFC begin making national-chain supply portable across launches.",
+      "quote": "literally one in six people",
+      "timestamp": "45:36"
+    },
+    {
+      "title": "Market skepticism forces two rescue rounds",
+      "summary": "Uber's entry, Square's down-round IPO, lawsuits, and doubts about delivery economics make fundraising nearly impossible. Sequoia leads a $127 million down round in 2016, and existing investors provide a $60 million bridge when cash runs out in 2017.",
+      "quote": "nobody wants to invest in the company",
+      "timestamp": "55:06"
+    },
+    {
+      "title": "SoftBank dilution buys an enormous offensive",
+      "summary": "SoftBank invests $535 million at a $1.4 billion post-money valuation, acquiring roughly 38% while the share price remains below the earlier Series B. DoorDash uses the capital to expand fivefold and operate in over 3,000 communities.",
+      "quote": "a whole new life and opportunity",
+      "timestamp": "1:10:54"
+    },
+    {
+      "title": "Scale flips North American market leadership",
+      "summary": "DoorDash passes Uber Eats and then Grubhub, acquires Caviar, and reaches $8 billion in 2019 gross order value. Existing restaurants grow sales 60%, while renewed investor enthusiasm values the company above $12 billion before COVID.",
+      "quote": "become literally the number one player",
+      "timestamp": "1:17:56"
+    },
+    {
+      "title": "One network supports multiple merchant relationships",
+      "summary": "The consumer marketplace sells demand, Storefront powers direct ordering, and Drive fulfills orders originating in merchant-owned channels. DoorDash can resemble Amazon for marketplace discovery and Shopify for businesses that already own their customers.",
+      "quote": "the omni-tranal strategy for food",
+      "timestamp": "1:47:14"
+    },
+    {
+      "title": "A large outcome still demands durable profit",
+      "summary": "Pandemic-era revenue accelerates toward $2 billion for nine months and shares open near a $70 billion valuation, but an illustrative $30 order yields roughly 80 cents after variable and marketing costs. The closing grade separates stock appreciation from eventual cash flow: DoorDash may become an excellent food-delivery business, yet non-food adjacencies look narrower than its local-commerce ambition and restaurants must retain direct customer relationships.",
+      "quote": "will that eventually yield a very profitable business",
+      "timestamp": "2:43:15"
+    }
+  ],
+  "title": "DoorDash: Suburban Strategy, Logistics Scale, SoftBank, and IPO Economics"
+}
