@@ -1,0 +1,102 @@
+{
+  "overview": [
+    "Ben and David argue that Meta's unprecedented scale — 4 billion monthly users, more of humanity than the Roman or British empires ever governed — is no accident of virality. It is the product of Mark Zuckerberg's deliberate strategy: authenticated identity, dense network seeding, an invented growth discipline, and a willingness to copy, buy, or rebuild whatever mechanic threatens the network. The company keeps winning because it moves like water, becoming whatever each era demands.",
+    "The episode's central tension is Facebook's repeated collision with existential threats it doesn't control: the Yahoo acquisition offer, an IPO into a mobile transition with zero mobile revenue, TikTok's AI-driven feed, and Apple's App Tracking Transparency. Each time, founder control — engineered by Sean Parker in 2004 — let Zuckerberg trade short-term pain for survival, and each crisis pushed Meta toward its ultimate goal: finally owning a platform, the bet behind Reality Labs' $60 billion in losses."
+  ],
+  "takeaways": [
+    {
+      "title": "Founder control enabled every company-saving pivot",
+      "detail": "Sean Parker restructured Facebook in 2004 so Zuckerberg permanently controlled the board and could never be fired. That structure let Mark reject Yahoo's $1 billion, cannibalize desktop revenue to force mobile monetization, and absorb a 72% drawdown in 2022 while responding to TikTok — decisions a hired CEO could not have survived."
+    },
+    {
+      "title": "Closed, dense networks beat open viral growth",
+      "detail": "By restricting signups to authenticated Harvard emails, Facebook created a network where 70% of everyone who ever signed up was daily active. Friendster and MySpace grew faster but felt dead to new users; Facebook only opened a school once waitlist demand guaranteed the experience would be alive on day one."
+    },
+    {
+      "title": "More ads improved targeting and saved mobile",
+      "detail": "When Mark pushed to show fewer low-quality feed ads, Boz argued the opposite: a vastly more liquid ad marketplace produces better targeting, making ads on par with content. Full-screen native feed ads became the best-monetizing ad unit in history, and mobile hit 53% of revenue by Q4 2013."
+    },
+    {
+      "title": "TikTok divorced media from the social graph",
+      "detail": "TikTok proved AI recommendation could drive engagement with content from strangers, nullifying Facebook's core moat of the authenticated friend network. Only FAIR's decade of AI investment — started in 2013 for feed and ad ranking — let Meta ship Reels fast enough to fight to a stalemate."
+    },
+    {
+      "title": "Reality Labs is a one-percent platform hedge",
+      "detail": "The $60 billion in segment losses only pays back if glasses become an iPhone-scale product — break-even around 2035 even under that scenario. But Apple's ATT alone cost Meta $10 billion in a year, so spending roughly 1% of market cap annually to escape OS-owner control is a defensible expected-value bet."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Meta's scale has no historical precedent",
+      "summary": "The hosts frame the episode's stakes: Meta reaches half of all living humans, exceeding the Roman and British empires' share of world population, and that reach was engineered, not accidental.",
+      "quote": "Meta has 4 billion monthly active users",
+      "timestamp": "1:35"
+    },
+    {
+      "title": "Civilization, C++, and Zuckerberg's formative obsessions",
+      "summary": "Mark's childhood passions — 4X strategy games, programming, and classics — become the template for how he later runs Facebook: multiple concurrent strategies and marshalling resources toward domination.",
+      "quote": "Explore, Expand, Exploit, Exterminate",
+      "timestamp": "7:34"
+    },
+    {
+      "title": "Thefacebook.com launches with every lesson baked in",
+      "summary": "The February 2004 launch combines CourseMatch, FaceMash, and BuddyZoo lessons into one product built on authentic identity and user-submitted content — the foundation of everything that follows.",
+      "quote": "copyright 2004, the Facebook, a Mark Zuckerberg production",
+      "timestamp": "46:45"
+    },
+    {
+      "title": "Sean Parker engineers permanent founder control",
+      "summary": "Parker's Plaxo scars produce the structural decision that defines Meta's entire history: Zuckerberg can never be fired, enabling every contrarian bet in the decades ahead.",
+      "quote": "you permanently control the board and no one can ever fire you",
+      "timestamp": "1:17:40"
+    },
+    {
+      "title": "Yahoo's billion-dollar offer nearly succeeds",
+      "summary": "Contrary to legend, Mark initially accepted Yahoo's offer; only Terry Semel's repricing to $800 million after a bad quarter gave him the exit — history's most consequential renegotiation failure.",
+      "quote": "that was history turning on a knife point",
+      "timestamp": "1:54:31"
+    },
+    {
+      "title": "News Feed launches to riots, then reshapes social media",
+      "summary": "Ten percent of users join a protest group — discovered via News Feed itself — while engagement data shows people can't stop scrolling. Mark's response becomes the company's crisis playbook.",
+      "quote": "Calm Down, Breathe, We Hear You",
+      "timestamp": "2:16:37"
+    },
+    {
+      "title": "The mobile shift breaks every pillar of the business",
+      "summary": "Platform can't exist inside iOS, right-rail ads have no home in a feed-only app, and Facebook IPOs while admitting it has no mobile monetization — the company's gravest crisis.",
+      "quote": "no way to make money at all on mobile",
+      "timestamp": "3:20:11"
+    },
+    {
+      "title": "Boz's contrarian insight: the only way out is through",
+      "summary": "While Mark pushes to reduce ad load, Boz argues that a massively more liquid ad marketplace enables targeting good enough to make ads feel like content — the insight behind Meta's modern business.",
+      "quote": "We actually need way more ads",
+      "timestamp": "3:52:06"
+    },
+    {
+      "title": "TikTok attacks from outside the social paradigm",
+      "summary": "ByteDance's AI-first approach makes the friend graph irrelevant, blindsiding Facebook and forcing Reels, a ByteDance-style reorganization into centers of excellence, and a fight to stalemate.",
+      "quote": "it's not social media. It's media. There's no social",
+      "timestamp": "4:20:21"
+    },
+    {
+      "title": "Cambridge Analytica reexamined against the record",
+      "summary": "Walking through the UK regulator's findings, the hosts conclude the actual data misuse was oversold — yet the brand damage and $5 billion FTC settlement were devastatingly real, revealing how much goodwill Facebook had burned.",
+      "quote": "the Cambridge Analytica thing in particular was kind of a nothing burger",
+      "timestamp": "4:45:49"
+    },
+    {
+      "title": "The Reality Labs math: iPhone or bust",
+      "summary": "Napkin math shows $60 billion in losses requires replicating the iPhone's entire profit stream — plus a services business — just to break even by 2035, making sense only as a hedge against platform captivity.",
+      "quote": "the most successful and profitable consumer product in history",
+      "timestamp": "5:13:25"
+    },
+    {
+      "title": "Quintessence: a company that moves like water",
+      "summary": "The closing synthesis: Meta's defining trait is shapeshifting — copying, buying, inventing, or reorganizing as each era demands — while remaining, at its core, a Mark Zuckerberg production.",
+      "quote": "the company moves like water",
+      "timestamp": "6:12:27"
+    }
+  ]
+}

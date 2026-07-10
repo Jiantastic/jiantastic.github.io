@@ -3594,5 +3594,868 @@
         "timestamp": "3:38:07"
       }
     ]
+  },
+  {
+    "slug": "ikea",
+    "guid": "a5b37145-4d48-4f26-8861-36153ac02fdd",
+    "title": "IKEA",
+    "pubDate": "Sun, 17 Nov 2024 20:42:39 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/51775457/5b90483f.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/ikea",
+    "duration": 12080,
+    "episodeUrl": "/poddy-summaries/episodes/ikea/",
+    "summaryPath": "summaries/ikea.json",
+    "transcriptPath": "transcripts/ikea.txt",
+    "transcriptJsonPath": "transcripts/ikea.json",
+    "overview": [
+      "IKEA became the world's largest furniture retailer by taking one idea to its logical extreme: well-designed, functional furniture at prices so low the many can afford it, financed entirely by the business's own cash flows. Ben and David argue the company is an N-of-one — a globally scaled, vertically integrated brand running on razor-thin margins with no direct competitor, built from a single 500-kroner bank loan repaid in 1938.",
+      "The episode's central arc is adversity converted into advantage: an industry boycott forces IKEA into in-house design, which enables flat-packing, which unlocks self-service stores and global scale. The unresolved tension is e-commerce — the model depends on customers doing the labor and on IKEA controlling demand through its catalog, and online selling breaks both, visible in flat operating profits. Kamprad's fascist past further complicates the folksy founder legend."
+    ],
+    "takeaways": [
+      {
+        "title": "One bank loan financed 81 years",
+        "detail": "Twelve-year-old Ingvar Kamprad borrowed 500 kroner (about $63) in 1938 to import fountain pens, repaid it quickly, and never took equity or debt again. Every expansion — including the $3 million Stockholm flagship — was funded from reinvested profits, which the hosts argue makes IKEA structurally unrepeatable."
+      },
+      {
+        "title": "Competitor boycotts created flat-pack IKEA",
+        "detail": "When Swedish furniture makers were pressured to stop supplying IKEA, Kamprad commissioned exclusive in-house designs instead. A table-leg removal after a catalog photo shoot then sparked designing furniture to come apart on purpose, cutting shipping volume, assembly labor, and transit breakage simultaneously."
+      },
+      {
+        "title": "Hot dog products anchor price perception",
+        "detail": "Kamprad codified a policy of 10-20 items priced at least 50% below any competitor while still profitable. The $9.99 Lack table, built from waste-wood board-on-frame construction, sells nearly 20 million units a year and makes the whole range feel breathtakingly cheap."
+      },
+      {
+        "title": "The foundation structure buys corporate immortality",
+        "detail": "Facing Sweden's 60%+ inheritance tax and annual wealth tax, Kamprad split IKEA into Inca (store operator, Dutch charitable foundation) and Inter IKEA (brand owner, Liechtenstein foundation) collecting a 3% royalty on sales. The hosts estimate 50-100 billion euros sits in reserve solely to perpetuate IKEA, beyond family or shareholder control."
+      },
+      {
+        "title": "E-commerce erodes the customer-labor bargain",
+        "detail": "IKEA's savings come from customers fetching, transporting, and assembling goods themselves; home delivery reverses every one of those deals. Since IKEA pushed online sales in 2018 — now 26% of revenue — Inca's operating margin slid from roughly 8% to the 3-5% range even as revenue kept growing."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Småland roots: scarcity as founding culture",
+        "summary": "The rocky, impoverished province where Kamprad grew up supplies the cultural DNA — frugality, timber, and a family history of hardship that made 'don't be poor' a driving force.",
+        "quote": "making do with an absolute minimum of resources",
+        "timestamp": "5:00"
+      },
+      {
+        "title": "The 500-kroner loan, IKEA's only capital",
+        "summary": "A 12-year-old's pen-import loan turns out to be the only outside money ever raised, establishing the reinvest-cash-flows model that defines the entire story.",
+        "quote": "the only capital that ever goes into Ikea",
+        "timestamp": "13:52"
+      },
+      {
+        "title": "Furniture enters the catalog by accident",
+        "summary": "Kamprad adds furniture in 1948 only because he saw mail-order competitors doing it — the stumbled-upon pivot that becomes his life's work and reveals huge unmet rural demand.",
+        "quote": "an accident that he found his life's calling in the furniture business",
+        "timestamp": "23:25"
+      },
+      {
+        "title": "The 1953 Älmhult showroom solves trust",
+        "summary": "Price wars had wrecked confidence in catalog furniture, so IKEA invented the mail-order-plus-showroom combination — letting customers touch quality before ordering, which becomes the modern IKEA concept.",
+        "quote": "use a catalog to tempt people to come to an exhibition",
+        "timestamp": "45:43"
+      },
+      {
+        "title": "A table leg invents flat-packing",
+        "summary": "Locked out of suppliers by an industry boycott, IKEA turns to in-house design, and a photo-shoot moment with a heavy table becomes the epiphany behind knockdown furniture.",
+        "quote": "we can design these things to come off on purpose",
+        "timestamp": "58:36"
+      },
+      {
+        "title": "Poland: production behind the Iron Curtain",
+        "summary": "Going where no competitor would, IKEA locks up communist Poland's manufacturing capacity — by decade's end it makes half of IKEA's furniture, including the Billy bookcase.",
+        "quote": "if we could find a way to work with the communists",
+        "timestamp": "1:07:31"
+      },
+      {
+        "title": "Breathtaking prices and the hot dog policy",
+        "summary": "The Lack table shows the playbook: reinvent materials and supply chain backwards from an impossible price, then codify it as mandatory 'hot dog' products across the range.",
+        "quote": "IKEA sells almost 20 million lack tables every year",
+        "timestamp": "1:12:39"
+      },
+      {
+        "title": "Two foundations and a succession fortress",
+        "summary": "Fleeing Swedish wealth taxes and fearing family squabbles and public markets, Kamprad splits IKEA into franchisor and operator under untouchable foundations designed to outlive everyone.",
+        "quote": "Going public is a little like wetting your pants",
+        "timestamp": "1:39:49"
+      },
+      {
+        "title": "Reckoning with Kamprad's fascist past",
+        "summary": "The 1994 revelations about Kamprad's involvement in Sweden's fascist movement — and his lasting loyalty to its leader — force an honest complication of the founder legend.",
+        "quote": "the most stupid mistake of my life",
+        "timestamp": "2:05:24"
+      },
+      {
+        "title": "E-commerce breaks the cost-sharing model",
+        "summary": "Every IKEA saving comes from customers doing work themselves; delivery undoes all of it, and the hosts trace declining operating margins to the belated online push.",
+        "quote": "E-commerce blows it all up",
+        "timestamp": "2:14:19"
+      },
+      {
+        "title": "Sizing the $200 billion cash machine",
+        "summary": "Napkin math on the business, its balance sheet, and the foundation reserves lands near $200 billion of value created with zero outside investment — the episode's most staggering claim.",
+        "quote": "81 years of selling things that provide value to customers",
+        "timestamp": "2:37:52"
+      },
+      {
+        "title": "Quintessence: an N-of-one company",
+        "summary": "The hosts conclude IKEA is the only globally scaled, vertically integrated, low-margin consumer brand in existence — Apple's integration aimed at the many instead of the few.",
+        "quote": "There just is no other IKEA. There's nothing like it.",
+        "timestamp": "3:10:48"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Småland roots: scarcity as founding culture",
+        "summary": "The rocky, impoverished province where Kamprad grew up supplies the cultural DNA — frugality, timber, and a family history of hardship that made 'don't be poor' a driving force.",
+        "quote": "making do with an absolute minimum of resources",
+        "timestamp": "5:00"
+      },
+      {
+        "title": "The 500-kroner loan, IKEA's only capital",
+        "summary": "A 12-year-old's pen-import loan turns out to be the only outside money ever raised, establishing the reinvest-cash-flows model that defines the entire story.",
+        "quote": "the only capital that ever goes into Ikea",
+        "timestamp": "13:52"
+      },
+      {
+        "title": "Furniture enters the catalog by accident",
+        "summary": "Kamprad adds furniture in 1948 only because he saw mail-order competitors doing it — the stumbled-upon pivot that becomes his life's work and reveals huge unmet rural demand.",
+        "quote": "an accident that he found his life's calling in the furniture business",
+        "timestamp": "23:25"
+      },
+      {
+        "title": "The 1953 Älmhult showroom solves trust",
+        "summary": "Price wars had wrecked confidence in catalog furniture, so IKEA invented the mail-order-plus-showroom combination — letting customers touch quality before ordering, which becomes the modern IKEA concept.",
+        "quote": "use a catalog to tempt people to come to an exhibition",
+        "timestamp": "45:43"
+      },
+      {
+        "title": "A table leg invents flat-packing",
+        "summary": "Locked out of suppliers by an industry boycott, IKEA turns to in-house design, and a photo-shoot moment with a heavy table becomes the epiphany behind knockdown furniture.",
+        "quote": "we can design these things to come off on purpose",
+        "timestamp": "58:36"
+      },
+      {
+        "title": "Poland: production behind the Iron Curtain",
+        "summary": "Going where no competitor would, IKEA locks up communist Poland's manufacturing capacity — by decade's end it makes half of IKEA's furniture, including the Billy bookcase.",
+        "quote": "if we could find a way to work with the communists",
+        "timestamp": "1:07:31"
+      },
+      {
+        "title": "Breathtaking prices and the hot dog policy",
+        "summary": "The Lack table shows the playbook: reinvent materials and supply chain backwards from an impossible price, then codify it as mandatory 'hot dog' products across the range.",
+        "quote": "IKEA sells almost 20 million lack tables every year",
+        "timestamp": "1:12:39"
+      },
+      {
+        "title": "Two foundations and a succession fortress",
+        "summary": "Fleeing Swedish wealth taxes and fearing family squabbles and public markets, Kamprad splits IKEA into franchisor and operator under untouchable foundations designed to outlive everyone.",
+        "quote": "Going public is a little like wetting your pants",
+        "timestamp": "1:39:49"
+      },
+      {
+        "title": "Reckoning with Kamprad's fascist past",
+        "summary": "The 1994 revelations about Kamprad's involvement in Sweden's fascist movement — and his lasting loyalty to its leader — force an honest complication of the founder legend.",
+        "quote": "the most stupid mistake of my life",
+        "timestamp": "2:05:24"
+      },
+      {
+        "title": "E-commerce breaks the cost-sharing model",
+        "summary": "Every IKEA saving comes from customers doing work themselves; delivery undoes all of it, and the hosts trace declining operating margins to the belated online push.",
+        "quote": "E-commerce blows it all up",
+        "timestamp": "2:14:19"
+      },
+      {
+        "title": "Sizing the $200 billion cash machine",
+        "summary": "Napkin math on the business, its balance sheet, and the foundation reserves lands near $200 billion of value created with zero outside investment — the episode's most staggering claim.",
+        "quote": "81 years of selling things that provide value to customers",
+        "timestamp": "2:37:52"
+      },
+      {
+        "title": "Quintessence: an N-of-one company",
+        "summary": "The hosts conclude IKEA is the only globally scaled, vertically integrated, low-margin consumer brand in existence — Apple's integration aimed at the many instead of the few.",
+        "quote": "There just is no other IKEA. There's nothing like it.",
+        "timestamp": "3:10:48"
+      }
+    ]
+  },
+  {
+    "slug": "meta",
+    "guid": "8ec77b67-4efc-4c62-80b2-05476897d2f2",
+    "title": "Meta",
+    "pubDate": "Sun, 27 Oct 2024 17:34:11 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/e7afa25f/df59e4a6.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/meta",
+    "duration": 22732,
+    "episodeUrl": "/poddy-summaries/episodes/meta/",
+    "summaryPath": "summaries/meta.json",
+    "transcriptPath": "transcripts/meta.txt",
+    "transcriptJsonPath": "transcripts/meta.json",
+    "overview": [
+      "Ben and David argue that Meta's unprecedented scale — 4 billion monthly users, more of humanity than the Roman or British empires ever governed — is no accident of virality. It is the product of Mark Zuckerberg's deliberate strategy: authenticated identity, dense network seeding, an invented growth discipline, and a willingness to copy, buy, or rebuild whatever mechanic threatens the network. The company keeps winning because it moves like water, becoming whatever each era demands.",
+      "The episode's central tension is Facebook's repeated collision with existential threats it doesn't control: the Yahoo acquisition offer, an IPO into a mobile transition with zero mobile revenue, TikTok's AI-driven feed, and Apple's App Tracking Transparency. Each time, founder control — engineered by Sean Parker in 2004 — let Zuckerberg trade short-term pain for survival, and each crisis pushed Meta toward its ultimate goal: finally owning a platform, the bet behind Reality Labs' $60 billion in losses."
+    ],
+    "takeaways": [
+      {
+        "title": "Founder control enabled every company-saving pivot",
+        "detail": "Sean Parker restructured Facebook in 2004 so Zuckerberg permanently controlled the board and could never be fired. That structure let Mark reject Yahoo's $1 billion, cannibalize desktop revenue to force mobile monetization, and absorb a 72% drawdown in 2022 while responding to TikTok — decisions a hired CEO could not have survived."
+      },
+      {
+        "title": "Closed, dense networks beat open viral growth",
+        "detail": "By restricting signups to authenticated Harvard emails, Facebook created a network where 70% of everyone who ever signed up was daily active. Friendster and MySpace grew faster but felt dead to new users; Facebook only opened a school once waitlist demand guaranteed the experience would be alive on day one."
+      },
+      {
+        "title": "More ads improved targeting and saved mobile",
+        "detail": "When Mark pushed to show fewer low-quality feed ads, Boz argued the opposite: a vastly more liquid ad marketplace produces better targeting, making ads on par with content. Full-screen native feed ads became the best-monetizing ad unit in history, and mobile hit 53% of revenue by Q4 2013."
+      },
+      {
+        "title": "TikTok divorced media from the social graph",
+        "detail": "TikTok proved AI recommendation could drive engagement with content from strangers, nullifying Facebook's core moat of the authenticated friend network. Only FAIR's decade of AI investment — started in 2013 for feed and ad ranking — let Meta ship Reels fast enough to fight to a stalemate."
+      },
+      {
+        "title": "Reality Labs is a one-percent platform hedge",
+        "detail": "The $60 billion in segment losses only pays back if glasses become an iPhone-scale product — break-even around 2035 even under that scenario. But Apple's ATT alone cost Meta $10 billion in a year, so spending roughly 1% of market cap annually to escape OS-owner control is a defensible expected-value bet."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Meta's scale has no historical precedent",
+        "summary": "The hosts frame the episode's stakes: Meta reaches half of all living humans, exceeding the Roman and British empires' share of world population, and that reach was engineered, not accidental.",
+        "quote": "Meta has 4 billion monthly active users",
+        "timestamp": "1:35"
+      },
+      {
+        "title": "Civilization, C++, and Zuckerberg's formative obsessions",
+        "summary": "Mark's childhood passions — 4X strategy games, programming, and classics — become the template for how he later runs Facebook: multiple concurrent strategies and marshalling resources toward domination.",
+        "quote": "Explore, Expand, Exploit, Exterminate",
+        "timestamp": "7:34"
+      },
+      {
+        "title": "Thefacebook.com launches with every lesson baked in",
+        "summary": "The February 2004 launch combines CourseMatch, FaceMash, and BuddyZoo lessons into one product built on authentic identity and user-submitted content — the foundation of everything that follows.",
+        "quote": "copyright 2004, the Facebook, a Mark Zuckerberg production",
+        "timestamp": "46:45"
+      },
+      {
+        "title": "Sean Parker engineers permanent founder control",
+        "summary": "Parker's Plaxo scars produce the structural decision that defines Meta's entire history: Zuckerberg can never be fired, enabling every contrarian bet in the decades ahead.",
+        "quote": "you permanently control the board and no one can ever fire you",
+        "timestamp": "1:17:40"
+      },
+      {
+        "title": "Yahoo's billion-dollar offer nearly succeeds",
+        "summary": "Contrary to legend, Mark initially accepted Yahoo's offer; only Terry Semel's repricing to $800 million after a bad quarter gave him the exit — history's most consequential renegotiation failure.",
+        "quote": "that was history turning on a knife point",
+        "timestamp": "1:54:31"
+      },
+      {
+        "title": "News Feed launches to riots, then reshapes social media",
+        "summary": "Ten percent of users join a protest group — discovered via News Feed itself — while engagement data shows people can't stop scrolling. Mark's response becomes the company's crisis playbook.",
+        "quote": "Calm Down, Breathe, We Hear You",
+        "timestamp": "2:16:37"
+      },
+      {
+        "title": "The mobile shift breaks every pillar of the business",
+        "summary": "Platform can't exist inside iOS, right-rail ads have no home in a feed-only app, and Facebook IPOs while admitting it has no mobile monetization — the company's gravest crisis.",
+        "quote": "no way to make money at all on mobile",
+        "timestamp": "3:20:11"
+      },
+      {
+        "title": "Boz's contrarian insight: the only way out is through",
+        "summary": "While Mark pushes to reduce ad load, Boz argues that a massively more liquid ad marketplace enables targeting good enough to make ads feel like content — the insight behind Meta's modern business.",
+        "quote": "We actually need way more ads",
+        "timestamp": "3:52:06"
+      },
+      {
+        "title": "TikTok attacks from outside the social paradigm",
+        "summary": "ByteDance's AI-first approach makes the friend graph irrelevant, blindsiding Facebook and forcing Reels, a ByteDance-style reorganization into centers of excellence, and a fight to stalemate.",
+        "quote": "it's not social media. It's media. There's no social",
+        "timestamp": "4:20:21"
+      },
+      {
+        "title": "Cambridge Analytica reexamined against the record",
+        "summary": "Walking through the UK regulator's findings, the hosts conclude the actual data misuse was oversold — yet the brand damage and $5 billion FTC settlement were devastatingly real, revealing how much goodwill Facebook had burned.",
+        "quote": "the Cambridge Analytica thing in particular was kind of a nothing burger",
+        "timestamp": "4:45:49"
+      },
+      {
+        "title": "The Reality Labs math: iPhone or bust",
+        "summary": "Napkin math shows $60 billion in losses requires replicating the iPhone's entire profit stream — plus a services business — just to break even by 2035, making sense only as a hedge against platform captivity.",
+        "quote": "the most successful and profitable consumer product in history",
+        "timestamp": "5:13:25"
+      },
+      {
+        "title": "Quintessence: a company that moves like water",
+        "summary": "The closing synthesis: Meta's defining trait is shapeshifting — copying, buying, inventing, or reorganizing as each era demands — while remaining, at its core, a Mark Zuckerberg production.",
+        "quote": "the company moves like water",
+        "timestamp": "6:12:27"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Meta's scale has no historical precedent",
+        "summary": "The hosts frame the episode's stakes: Meta reaches half of all living humans, exceeding the Roman and British empires' share of world population, and that reach was engineered, not accidental.",
+        "quote": "Meta has 4 billion monthly active users",
+        "timestamp": "1:35"
+      },
+      {
+        "title": "Civilization, C++, and Zuckerberg's formative obsessions",
+        "summary": "Mark's childhood passions — 4X strategy games, programming, and classics — become the template for how he later runs Facebook: multiple concurrent strategies and marshalling resources toward domination.",
+        "quote": "Explore, Expand, Exploit, Exterminate",
+        "timestamp": "7:34"
+      },
+      {
+        "title": "Thefacebook.com launches with every lesson baked in",
+        "summary": "The February 2004 launch combines CourseMatch, FaceMash, and BuddyZoo lessons into one product built on authentic identity and user-submitted content — the foundation of everything that follows.",
+        "quote": "copyright 2004, the Facebook, a Mark Zuckerberg production",
+        "timestamp": "46:45"
+      },
+      {
+        "title": "Sean Parker engineers permanent founder control",
+        "summary": "Parker's Plaxo scars produce the structural decision that defines Meta's entire history: Zuckerberg can never be fired, enabling every contrarian bet in the decades ahead.",
+        "quote": "you permanently control the board and no one can ever fire you",
+        "timestamp": "1:17:40"
+      },
+      {
+        "title": "Yahoo's billion-dollar offer nearly succeeds",
+        "summary": "Contrary to legend, Mark initially accepted Yahoo's offer; only Terry Semel's repricing to $800 million after a bad quarter gave him the exit — history's most consequential renegotiation failure.",
+        "quote": "that was history turning on a knife point",
+        "timestamp": "1:54:31"
+      },
+      {
+        "title": "News Feed launches to riots, then reshapes social media",
+        "summary": "Ten percent of users join a protest group — discovered via News Feed itself — while engagement data shows people can't stop scrolling. Mark's response becomes the company's crisis playbook.",
+        "quote": "Calm Down, Breathe, We Hear You",
+        "timestamp": "2:16:37"
+      },
+      {
+        "title": "The mobile shift breaks every pillar of the business",
+        "summary": "Platform can't exist inside iOS, right-rail ads have no home in a feed-only app, and Facebook IPOs while admitting it has no mobile monetization — the company's gravest crisis.",
+        "quote": "no way to make money at all on mobile",
+        "timestamp": "3:20:11"
+      },
+      {
+        "title": "Boz's contrarian insight: the only way out is through",
+        "summary": "While Mark pushes to reduce ad load, Boz argues that a massively more liquid ad marketplace enables targeting good enough to make ads feel like content — the insight behind Meta's modern business.",
+        "quote": "We actually need way more ads",
+        "timestamp": "3:52:06"
+      },
+      {
+        "title": "TikTok attacks from outside the social paradigm",
+        "summary": "ByteDance's AI-first approach makes the friend graph irrelevant, blindsiding Facebook and forcing Reels, a ByteDance-style reorganization into centers of excellence, and a fight to stalemate.",
+        "quote": "it's not social media. It's media. There's no social",
+        "timestamp": "4:20:21"
+      },
+      {
+        "title": "Cambridge Analytica reexamined against the record",
+        "summary": "Walking through the UK regulator's findings, the hosts conclude the actual data misuse was oversold — yet the brand damage and $5 billion FTC settlement were devastatingly real, revealing how much goodwill Facebook had burned.",
+        "quote": "the Cambridge Analytica thing in particular was kind of a nothing burger",
+        "timestamp": "4:45:49"
+      },
+      {
+        "title": "The Reality Labs math: iPhone or bust",
+        "summary": "Napkin math shows $60 billion in losses requires replicating the iPhone's entire profit stream — plus a services business — just to break even by 2035, making sense only as a hedge against platform captivity.",
+        "quote": "the most successful and profitable consumer product in history",
+        "timestamp": "5:13:25"
+      },
+      {
+        "title": "Quintessence: a company that moves like water",
+        "summary": "The closing synthesis: Meta's defining trait is shapeshifting — copying, buying, inventing, or reorganizing as each era demands — while remaining, at its core, a Mark Zuckerberg production.",
+        "quote": "the company moves like water",
+        "timestamp": "6:12:27"
+      }
+    ]
+  },
+  {
+    "slug": "acquired-live-from-chase-center-with-daniel-ek-emily-chang-jensen-huang-and-mark-zuckerberg",
+    "guid": "99d7dbec-4709-40d8-acf1-645d2b9e65e6",
+    "title": "Acquired LIVE from Chase Center (with Daniel Ek, Emily Chang, Jensen Huang and Mark Zuckerberg)",
+    "pubDate": "Sun, 29 Sep 2024 22:27:52 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/5e2176c1/21583c01.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/acquired-live-from-chase-center-with-daniel-ek-emily-chang-jensen-huang-and-mark-zuckerberg",
+    "duration": 8722,
+    "episodeUrl": "/poddy-summaries/episodes/acquired-live-from-chase-center-with-daniel-ek-emily-chang-jensen-huang-and-mark-zuckerberg/",
+    "summaryPath": "summaries/acquired-live-from-chase-center-with-daniel-ek-emily-chang-jensen-huang-and-mark-zuckerberg.json",
+    "transcriptPath": "transcripts/acquired-live-from-chase-center-with-daniel-ek-emily-chang-jensen-huang-and-mark-zuckerberg.txt",
+    "transcriptJsonPath": "transcripts/acquired-live-from-chase-center-with-daniel-ek-emily-chang-jensen-huang-and-mark-zuckerberg.json",
+    "overview": [
+      "Recorded live before 6,000 people at San Francisco's Chase Center, Ben and David trade deep history for the present, hosting Daniel Ek, Emily Chang, Jensen Huang, and Mark Zuckerberg. The night's central argument: the most durable companies refuse narrow self-definitions — Spotify is 'just listening,' Meta is human connection, not social media — and they win by out-learning and outlasting rivals rather than out-sprinting them.",
+      "The show builds toward Zuckerberg, whose own ledger of mistakes frames the key tension between fast iteration and long-term control. The HTML5 mobile bet cost eighteen months; misdiagnosing a political crisis as a corporate one cost, by his accounting, twenty years. What let Meta absorb both was the governance he engineered after Yahoo's billion-dollar offer nearly got him fired — control that now funds glasses, Llama, and an open-platform war with Apple."
+    ],
+    "takeaways": [
+      {
+        "title": "Acquired grows one listener referral at a time",
+        "detail": "With zero paid marketing, each listener on average recruits one more per year, doubling the show annually since 2015. Spotify's data shows listening tripled to over 5 million hours in a year, and a single Wall Street Journal article produced the first kink ever in a decade of purely organic growth."
+      },
+      {
+        "title": "Spotify treats talking as cheaper than building",
+        "detail": "Because music-licensing changes could take one or two years to negotiate, Spotify codified deliberation — the internal saying is 'talk is cheap' — debating and game-theorizing before executing. Entering podcasts in 2019 with that playbook, it became market leader in most countries by 2022."
+      },
+      {
+        "title": "YouTube's A-plus grade is strategic insurance",
+        "detail": "Revenue grew from a $5 billion to a $35–40 billion run rate, but paying out 55% of long-form revenue to creators means YouTube may earn little profit. The hosts regrade it A+ anyway: the real calculation was the existential risk to Google of YouTube thriving outside its walls."
+      },
+      {
+        "title": "Taylor Swift generates half a billion in cash",
+        "detail": "Against the old narrative that she earned under $5 million a year from streaming, she reportedly made well over $100 million from Spotify alone, and the Eras Tour grossed $1.1 billion in twelve months. Applying Disney's 20x free-cash-flow multiple to roughly $550 million implies an $11 billion enterprise — ten times Forbes' net-worth estimate."
+      },
+      {
+        "title": "Zuckerberg's political misdiagnosis was a 20-year mistake",
+        "detail": "After 2016 he accepted responsibility for harms he now argues weren't Meta's, treating a political crisis like a corporate one and inviting critics to 'kick you for more stuff.' He contrasts it with the HTML5 mobile bet — an eighteen-month fix — and expects the brand repair to take another decade."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Jamie Dimon opens Acquired Live",
+        "summary": "A surprise video from JPMorgan Chase's CEO kicks off the arena show, establishing the sponsor partnership and the scale of the night before the hosts lay out a three-act format ending with Mark Zuckerberg.",
+        "quote": "I'm happy to kick off the show tonight",
+        "timestamp": "2:24"
+      },
+      {
+        "title": "Daniel Ek presents Acquired's growth data",
+        "summary": "Spotify's founder flips the interview, using platform data to show listening tripled to 5 million-plus hours, followers tripled, and growth turned global — evidence for the show's referral-driven, no-marketing model.",
+        "quote": "you guys have now done over 5 million hours",
+        "timestamp": "12:43"
+      },
+      {
+        "title": "Sean Parker, a barbecue, and Facebook's newsfeed",
+        "summary": "Ek recounts Spotify's origin as a US phenomenon: invite scarcity as social currency, meeting Zuckerberg through Sean Parker, and piping listening activity into the young newsfeed to coincide with the US launch.",
+        "quote": "we went for a barbecue at his house",
+        "timestamp": "24:50"
+      },
+      {
+        "title": "'Talk is cheap': Spotify's deliberate strategy",
+        "summary": "Ek explains why Spotify is the anti-move-fast company: licensing constraints forced it to be right rather than fast, a discipline that later powered its three-year sprint to podcast market leadership and the audiobook expansion seeded by German user behavior.",
+        "quote": "the internal saying that Spotify is talk is cheap",
+        "timestamp": "32:49"
+      },
+      {
+        "title": "Emily Chang regrades YouTube from C to A-plus",
+        "summary": "The hosts confront their 2016 grades and identify what they missed: AI feed recommenders turning YouTube into a destination, and the framing that Google was really paying to eliminate an existential threat.",
+        "quote": "who goes to YouTube and discovers something?",
+        "timestamp": "44:47"
+      },
+      {
+        "title": "Taylor Swift Inc. and the streaming myth",
+        "summary": "The most requested revisit becomes a valuation exercise: $100 million-plus from Spotify streaming alone, a record $1.1 billion Eras Tour year, and a debate over whether a Disney-style 20x multiple belongs on a single artist.",
+        "quote": "There was this myth that streaming doesn't pay",
+        "timestamp": "57:52"
+      },
+      {
+        "title": "Jensen Huang corrects the viral clip",
+        "summary": "Huang addresses the tens-of-millions-view moment where he said he wouldn't start NVIDIA again, reframing it as an argument that entrepreneurial ignorance of coming pain is a founder's superpower — the theme Zuckerberg picks up next.",
+        "quote": "would I start NVIDIA all over again? And I said, absolutely not",
+        "timestamp": "1:07:08"
+      },
+      {
+        "title": "From social apps to holographic glasses",
+        "summary": "Zuckerberg reframes Meta as a 'social connection company' and lays out the decade-long glasses program: novel display stacks, miniaturized hardware, and the Ray-Ban pivot to AI-first after ChatGPT reordered his AR timeline.",
+        "quote": "I think what you ideally have is glasses",
+        "timestamp": "1:15:51"
+      },
+      {
+        "title": "Why Meta survives every existential wave",
+        "summary": "Asked why Meta outlasted MySpace, Snapchat, TikTok, ATT, and now ChatGPT panic, Zuckerberg credits genuinely technical leadership and a strategy of learning faster per iteration than any competitor.",
+        "quote": "we're a technology company that is focused on human connection",
+        "timestamp": "1:25:14"
+      },
+      {
+        "title": "The HTML5 bet and the post-IPO rewrite",
+        "summary": "Zuckerberg dissects the mistake that halved Facebook's market cap: betting on web velocity over native quality, then freezing feature development for a year to rewrite the apps and invent the feed ad while going public.",
+        "quote": "do you have the pain tolerance to go do it",
+        "timestamp": "1:45:49"
+      },
+      {
+        "title": "Yahoo's billion-dollar offer and voting control",
+        "summary": "The 2006 near-sale — management wanting out, the board moving against him, the team leaving within a year — explains the super-voting structure that now lets Zuckerberg fund Reality Labs through 80% drawdowns.",
+        "quote": "the board tried to fire me",
+        "timestamp": "1:56:34"
+      },
+      {
+        "title": "The ideological battle with Apple",
+        "summary": "Closing the night, Zuckerberg names Apple his primary competitor for the next fifteen years and frames Llama and the glasses as a values-driven fight to make open platforms, not closed ones, win the next computing era.",
+        "quote": "build the next generation of open platforms and have the open platforms win",
+        "timestamp": "2:17:00"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Jamie Dimon opens Acquired Live",
+        "summary": "A surprise video from JPMorgan Chase's CEO kicks off the arena show, establishing the sponsor partnership and the scale of the night before the hosts lay out a three-act format ending with Mark Zuckerberg.",
+        "quote": "I'm happy to kick off the show tonight",
+        "timestamp": "2:24"
+      },
+      {
+        "title": "Daniel Ek presents Acquired's growth data",
+        "summary": "Spotify's founder flips the interview, using platform data to show listening tripled to 5 million-plus hours, followers tripled, and growth turned global — evidence for the show's referral-driven, no-marketing model.",
+        "quote": "you guys have now done over 5 million hours",
+        "timestamp": "12:43"
+      },
+      {
+        "title": "Sean Parker, a barbecue, and Facebook's newsfeed",
+        "summary": "Ek recounts Spotify's origin as a US phenomenon: invite scarcity as social currency, meeting Zuckerberg through Sean Parker, and piping listening activity into the young newsfeed to coincide with the US launch.",
+        "quote": "we went for a barbecue at his house",
+        "timestamp": "24:50"
+      },
+      {
+        "title": "'Talk is cheap': Spotify's deliberate strategy",
+        "summary": "Ek explains why Spotify is the anti-move-fast company: licensing constraints forced it to be right rather than fast, a discipline that later powered its three-year sprint to podcast market leadership and the audiobook expansion seeded by German user behavior.",
+        "quote": "the internal saying that Spotify is talk is cheap",
+        "timestamp": "32:49"
+      },
+      {
+        "title": "Emily Chang regrades YouTube from C to A-plus",
+        "summary": "The hosts confront their 2016 grades and identify what they missed: AI feed recommenders turning YouTube into a destination, and the framing that Google was really paying to eliminate an existential threat.",
+        "quote": "who goes to YouTube and discovers something?",
+        "timestamp": "44:47"
+      },
+      {
+        "title": "Taylor Swift Inc. and the streaming myth",
+        "summary": "The most requested revisit becomes a valuation exercise: $100 million-plus from Spotify streaming alone, a record $1.1 billion Eras Tour year, and a debate over whether a Disney-style 20x multiple belongs on a single artist.",
+        "quote": "There was this myth that streaming doesn't pay",
+        "timestamp": "57:52"
+      },
+      {
+        "title": "Jensen Huang corrects the viral clip",
+        "summary": "Huang addresses the tens-of-millions-view moment where he said he wouldn't start NVIDIA again, reframing it as an argument that entrepreneurial ignorance of coming pain is a founder's superpower — the theme Zuckerberg picks up next.",
+        "quote": "would I start NVIDIA all over again? And I said, absolutely not",
+        "timestamp": "1:07:08"
+      },
+      {
+        "title": "From social apps to holographic glasses",
+        "summary": "Zuckerberg reframes Meta as a 'social connection company' and lays out the decade-long glasses program: novel display stacks, miniaturized hardware, and the Ray-Ban pivot to AI-first after ChatGPT reordered his AR timeline.",
+        "quote": "I think what you ideally have is glasses",
+        "timestamp": "1:15:51"
+      },
+      {
+        "title": "Why Meta survives every existential wave",
+        "summary": "Asked why Meta outlasted MySpace, Snapchat, TikTok, ATT, and now ChatGPT panic, Zuckerberg credits genuinely technical leadership and a strategy of learning faster per iteration than any competitor.",
+        "quote": "we're a technology company that is focused on human connection",
+        "timestamp": "1:25:14"
+      },
+      {
+        "title": "The HTML5 bet and the post-IPO rewrite",
+        "summary": "Zuckerberg dissects the mistake that halved Facebook's market cap: betting on web velocity over native quality, then freezing feature development for a year to rewrite the apps and invent the feed ad while going public.",
+        "quote": "do you have the pain tolerance to go do it",
+        "timestamp": "1:45:49"
+      },
+      {
+        "title": "Yahoo's billion-dollar offer and voting control",
+        "summary": "The 2006 near-sale — management wanting out, the board moving against him, the team leaving within a year — explains the super-voting structure that now lets Zuckerberg fund Reality Labs through 80% drawdowns.",
+        "quote": "the board tried to fire me",
+        "timestamp": "1:56:34"
+      },
+      {
+        "title": "The ideological battle with Apple",
+        "summary": "Closing the night, Zuckerberg names Apple his primary competitor for the next fifteen years and frames Llama and the glasses as a values-driven fight to make open platforms, not closed ones, win the next computing era.",
+        "quote": "build the next generation of open platforms and have the open platforms win",
+        "timestamp": "2:17:00"
+      }
+    ]
+  },
+  {
+    "slug": "the-mark-zuckerberg-interview",
+    "guid": "672f2993-b496-4d4b-968f-49f663807244",
+    "title": "The Mark Zuckerberg Interview",
+    "pubDate": "Tue, 17 Sep 2024 22:46:38 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/edc5c37f/ed90b432.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/the-mark-zuckerberg-interview",
+    "duration": 5362,
+    "episodeUrl": "/poddy-summaries/episodes/the-mark-zuckerberg-interview/",
+    "summaryPath": "summaries/the-mark-zuckerberg-interview.json",
+    "transcriptPath": "transcripts/the-mark-zuckerberg-interview.txt",
+    "transcriptJsonPath": "transcripts/the-mark-zuckerberg-interview.json",
+    "overview": [
+      "Recorded live before 6,000 people at Chase Center, this interview argues Meta has survived more existential threats than any major company — MySpace, mobile, Apple's tracking changes, TikTok, now ChatGPT — because Zuckerberg defined it as a technology company for human connection, not any particular app. His formula is explicit: staff the leadership with engineers, ship early, and win by learning faster than every other company.",
+      "The central arc runs from near-death decisions to hard-won control. Yahoo's 2006 billion-dollar offer nearly got Zuckerberg fired and taught him to lock in voting power; the HTML5 mobile bet halved the market cap; misdiagnosing the post-2016 political backlash became, in his words, a 20-year mistake. That accumulated pain tolerance now funds the next fight — Reality Labs, AI glasses, and open platforms against Apple's closed model."
+    ],
+    "takeaways": [
+      {
+        "title": "Learning speed is Meta's entire strategy",
+        "detail": "Zuckerberg defines strategy as learning faster than every other company: ship products near the edge of embarrassment, collect real feedback, and out-iterate rivals by version three or four. He contrasts this explicitly with Apple's polish-first culture, calling Meta 'the opposite of Apple.'"
+      },
+      {
+        "title": "Yahoo's 2006 offer created the voting structure",
+        "detail": "When Yahoo bid $1 billion, the entire management team wanted to sell, the board tried to fire Zuckerberg, and most executives left within a year. He built super voting shares afterward so he could never be fired from his own company for refusing to sell."
+      },
+      {
+        "title": "The political misdiagnosis was a 20-year mistake",
+        "detail": "After 2016, Meta treated a political crisis like a corporate one, taking ownership of harms Zuckerberg believes weren't its fault — which invited more blame rather than resolving it. He estimates another decade of recovery and now funds independent academic research to push back on unfounded claims."
+      },
+      {
+        "title": "Owning platforms could double Meta's profitability",
+        "detail": "Meta estimated the 'taxes' mobile platforms impose — blocked ad models and forbidden product features — might mean the company would be twice as profitable if it owned the platform. That economic case, plus wanting open platforms to beat Apple's closed model, justifies the massive Reality Labs spend."
+      },
+      {
+        "title": "Ray-Ban glasses became an AI device after launch",
+        "detail": "The glasses shipped before the ChatGPT moment with no AI positioning. Once LLMs arrived, Zuckerberg called product lead Alex Himmel on a Saturday to make Meta AI the primary feature, and a prototype existed within days — reversing his prediction that AR holograms would arrive before full-scale AI."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Setting the stage: Zuckerberg live at Chase Center",
+        "summary": "Ben and David frame the interview as a landmark: a rare live arena conversation with the defining founder-CEO of the era, released ahead of the full show.",
+        "quote": "Mark is the iconic founder CEO of our time.",
+        "timestamp": "1:00"
+      },
+      {
+        "title": "Would he start Facebook knowing the pain?",
+        "summary": "Zuckerberg opens with unusual candor, endorsing Jensen Huang's view that founders underestimate suffering — and that this blindness is what makes hard things possible.",
+        "quote": "you can underestimate how painful things are going to be",
+        "timestamp": "7:35"
+      },
+      {
+        "title": "Not social media — a human connection company",
+        "summary": "The key self-definition behind Meta's reinventions: the product is presence, not apps, which leads directly to the ten-year bet on holographic AR glasses.",
+        "quote": "We are a social connection company.",
+        "timestamp": "11:00"
+      },
+      {
+        "title": "The Saturday call that made Ray-Bans an AI device",
+        "summary": "A concrete case study in Meta's speed: glasses shipped pre-LLM were pivoted to an AI-first product with a working prototype inside a week.",
+        "quote": "make it so that meta AI is the primary feature of it",
+        "timestamp": "18:18"
+      },
+      {
+        "title": "Why Meta keeps beating existential threats",
+        "summary": "Asked for the through line across MySpace, Snapchat, TikTok, and ATT, Zuckerberg gives his clearest strategic statement: a genuinely technical company that out-learns everyone.",
+        "quote": "if we can learn faster than every other company, we're going to win",
+        "timestamp": "25:47"
+      },
+      {
+        "title": "Shipping at the edge of embarrassment",
+        "summary": "Zuckerberg articulates the cultural cost of iteration speed — releasing before polish, absorbing brand damage — and positions Meta as the deliberate opposite of Apple.",
+        "quote": "almost at the line of being embarrassed about what you put out",
+        "timestamp": "28:37"
+      },
+      {
+        "title": "The HTML5 disaster and the mobile rewrite",
+        "summary": "The IPO-era crisis in full: a wrong platform bet, a 50% drawdown, and a year of frozen feature development to rewrite the apps natively — with no mobile revenue yet.",
+        "quote": "Well, we were wrong.",
+        "timestamp": "40:26"
+      },
+      {
+        "title": "His biggest regret: misreading the political crisis",
+        "summary": "Zuckerberg's most self-critical answer: accepting blame for things Meta didn't cause turned a political problem into a decades-long brand hole.",
+        "quote": "the political miscalculation was a 20-year mistake",
+        "timestamp": "49:32"
+      },
+      {
+        "title": "Yahoo's billion-dollar offer and the fight for control",
+        "summary": "The origin of Meta's governance structure: the 2006 near-sale, a board revolt, and a management exodus taught Zuckerberg to make himself unfireable.",
+        "quote": "the board tried to fire me",
+        "timestamp": "53:46"
+      },
+      {
+        "title": "Good versus awesome: the next fifteen years",
+        "summary": "Zuckerberg reframes Reality Labs and AI as a values shift — social media has been useful, but the next chapter must inspire, not just serve.",
+        "quote": "a difference between building good things and awesome things",
+        "timestamp": "1:00:09"
+      },
+      {
+        "title": "Apple as the defining ideological rival",
+        "summary": "He names Apple as Meta's primary competitor in a battle over whether the next computing platforms — glasses, AI, Llama — are open or closed.",
+        "quote": "build the next generation of open platforms and have the open platforms win",
+        "timestamp": "1:14:17"
+      },
+      {
+        "title": "Debrief: Meta is engineered to amplify Mark",
+        "summary": "In the post-show reflection, Ben and David land their thesis — the company's misunderstood superpower is that its entire structure exists to scale one founder's judgment.",
+        "quote": "architected from top to bottom legally, financially, organizationally",
+        "timestamp": "1:26:27"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Setting the stage: Zuckerberg live at Chase Center",
+        "summary": "Ben and David frame the interview as a landmark: a rare live arena conversation with the defining founder-CEO of the era, released ahead of the full show.",
+        "quote": "Mark is the iconic founder CEO of our time.",
+        "timestamp": "1:00"
+      },
+      {
+        "title": "Would he start Facebook knowing the pain?",
+        "summary": "Zuckerberg opens with unusual candor, endorsing Jensen Huang's view that founders underestimate suffering — and that this blindness is what makes hard things possible.",
+        "quote": "you can underestimate how painful things are going to be",
+        "timestamp": "7:35"
+      },
+      {
+        "title": "Not social media — a human connection company",
+        "summary": "The key self-definition behind Meta's reinventions: the product is presence, not apps, which leads directly to the ten-year bet on holographic AR glasses.",
+        "quote": "We are a social connection company.",
+        "timestamp": "11:00"
+      },
+      {
+        "title": "The Saturday call that made Ray-Bans an AI device",
+        "summary": "A concrete case study in Meta's speed: glasses shipped pre-LLM were pivoted to an AI-first product with a working prototype inside a week.",
+        "quote": "make it so that meta AI is the primary feature of it",
+        "timestamp": "18:18"
+      },
+      {
+        "title": "Why Meta keeps beating existential threats",
+        "summary": "Asked for the through line across MySpace, Snapchat, TikTok, and ATT, Zuckerberg gives his clearest strategic statement: a genuinely technical company that out-learns everyone.",
+        "quote": "if we can learn faster than every other company, we're going to win",
+        "timestamp": "25:47"
+      },
+      {
+        "title": "Shipping at the edge of embarrassment",
+        "summary": "Zuckerberg articulates the cultural cost of iteration speed — releasing before polish, absorbing brand damage — and positions Meta as the deliberate opposite of Apple.",
+        "quote": "almost at the line of being embarrassed about what you put out",
+        "timestamp": "28:37"
+      },
+      {
+        "title": "The HTML5 disaster and the mobile rewrite",
+        "summary": "The IPO-era crisis in full: a wrong platform bet, a 50% drawdown, and a year of frozen feature development to rewrite the apps natively — with no mobile revenue yet.",
+        "quote": "Well, we were wrong.",
+        "timestamp": "40:26"
+      },
+      {
+        "title": "His biggest regret: misreading the political crisis",
+        "summary": "Zuckerberg's most self-critical answer: accepting blame for things Meta didn't cause turned a political problem into a decades-long brand hole.",
+        "quote": "the political miscalculation was a 20-year mistake",
+        "timestamp": "49:32"
+      },
+      {
+        "title": "Yahoo's billion-dollar offer and the fight for control",
+        "summary": "The origin of Meta's governance structure: the 2006 near-sale, a board revolt, and a management exodus taught Zuckerberg to make himself unfireable.",
+        "quote": "the board tried to fire me",
+        "timestamp": "53:46"
+      },
+      {
+        "title": "Good versus awesome: the next fifteen years",
+        "summary": "Zuckerberg reframes Reality Labs and AI as a values shift — social media has been useful, but the next chapter must inspire, not just serve.",
+        "quote": "a difference between building good things and awesome things",
+        "timestamp": "1:00:09"
+      },
+      {
+        "title": "Apple as the defining ideological rival",
+        "summary": "He names Apple as Meta's primary competitor in a battle over whether the next computing platforms — glasses, AI, Llama — are open or closed.",
+        "quote": "build the next generation of open platforms and have the open platforms win",
+        "timestamp": "1:14:17"
+      },
+      {
+        "title": "Debrief: Meta is engineered to amplify Mark",
+        "summary": "In the post-show reflection, Ben and David land their thesis — the company's misunderstood superpower is that its entire structure exists to scale one founder's judgment.",
+        "quote": "architected from top to bottom legally, financially, organizationally",
+        "timestamp": "1:26:27"
+      }
+    ]
+  },
+  {
+    "slug": "chase-center-summer-update",
+    "guid": "4baddc5c-0bbc-4315-9b27-63ab9e88dabf",
+    "title": "Chase Center + Summer Update",
+    "pubDate": "Thu, 08 Aug 2024 13:39:49 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/db73bbc2/d569819b.mp3",
+    "sourceUrl": "https://share.transistor.fm/s/db73bbc2",
+    "duration": 1313,
+    "episodeUrl": "/poddy-summaries/episodes/chase-center-summer-update/",
+    "summaryPath": "summaries/chase-center-summer-update.json",
+    "transcriptPath": "transcripts/chase-center-summer-update.txt",
+    "transcriptJsonPath": "transcripts/chase-center-summer-update.json",
+    "overview": [
+      "This summer update announces Acquired's September 10 Chase Center show as its biggest event yet: Mark Zuckerberg plus unannounced guests, thousands of listeners, community-organized gatherings, and intentionally accessible $50–$100 all-in tickets. Ben and David explain that their first six-week break from publishing is not a vacation but a concentrated production sprint for the arena show.",
+      "The more revealing arc is Acquired's sudden growth after nearly a decade of steady referrals. A Wall Street Journal profile pushed the show to number one on both Apple and Spotify and added 317,000 followers, yet the hosts conclude that breakout moments remain unplannable. They also sharpen the product boundary: the main feed stays focused on deeply researched company narratives, while standalone interviews move to ACQ2."
+    ],
+    "takeaways": [
+      {
+        "title": "The arena show is priced for community",
+        "detail": "Floor seats cost $100 and other seats cost $50, including Ticketmaster fees. The hosts deliberately chose unusually low arena pricing because they want the event to function as an accessible gathering rather than a premium conference."
+      },
+      {
+        "title": "One profile added 317,000 followers",
+        "detail": "After the Wall Street Journal profile, Acquired reached number one on both Apple Podcasts and Spotify. Platform chart placement then amplified the original article through a self-reinforcing discovery loop."
+      },
+      {
+        "title": "Referral growth shaped the audience quality",
+        "detail": "Before the article, the audience had roughly doubled each year for nine years without paid marketing. Ben frames that as each listener recommending the show to one person who stayed, producing a unusually civil and invested community."
+      },
+      {
+        "title": "Breakout growth cannot be planned reliably",
+        "detail": "The hosts did not pitch the Journal story and could not have predicted its impact. They connect that surprise to Acquired's broader subject matter: extraordinary outcomes are idiosyncratic, so neat playbooks often miss what actually creates an outlier."
+      },
+      {
+        "title": "The main feed now has a clearer boundary",
+        "detail": "Acquired's main show will prioritize the four-hour, two-host format built from separate research and prepared views. Strong interviews that do not fit that format will increasingly live on ACQ2 instead."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "A publishing break built around Chase Center",
+        "summary": "Ben and David explain their first six-week episode hiatus and the arena production consuming that time.",
+        "quote": "the biggest thing that we have ever done",
+        "timestamp": "0:32"
+      },
+      {
+        "title": "Mark Zuckerberg, surprises, and an arena-sized community",
+        "summary": "The hosts preview Zuckerberg and other acts, invite listener-organized events, and explain the accessible ticket strategy.",
+        "quote": "almost like the Omaha for tech",
+        "timestamp": "1:50"
+      },
+      {
+        "title": "The Wall Street Journal growth shock",
+        "summary": "A single profile sends Acquired to the top of Apple and Spotify and brings 317,000 new followers, far beyond the hosts' expectations.",
+        "quote": "317,000 new subscribers or followers",
+        "timestamp": "5:06"
+      },
+      {
+        "title": "Why the outlier cannot become a playbook",
+        "summary": "They contrast nine years of referral-driven compounding with one unplanned leap and connect the pattern to the exceptional companies they study.",
+        "quote": "Every great success story is idiosyncratic",
+        "timestamp": "9:06"
+      },
+      {
+        "title": "Acquired narratives versus ACQ2 interviews",
+        "summary": "The main feed is reserved for deeply researched company stories; interviews that do not fit that distinctive format move to ACQ2.",
+        "quote": "ACQ2 has really become the place where we're doing all of that now",
+        "timestamp": "12:49"
+      },
+      {
+        "title": "Summer recommendations and the final invitation",
+        "summary": "The episode closes with family travel, gear, and sports-documentary recommendations before one last invitation to the September event.",
+        "quote": "we really hope to see you September 10th in San Francisco",
+        "timestamp": "20:33"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "A publishing break built around Chase Center",
+        "summary": "Ben and David explain their first six-week episode hiatus and the arena production consuming that time.",
+        "quote": "the biggest thing that we have ever done",
+        "timestamp": "0:32"
+      },
+      {
+        "title": "Mark Zuckerberg, surprises, and an arena-sized community",
+        "summary": "The hosts preview Zuckerberg and other acts, invite listener-organized events, and explain the accessible ticket strategy.",
+        "quote": "almost like the Omaha for tech",
+        "timestamp": "1:50"
+      },
+      {
+        "title": "The Wall Street Journal growth shock",
+        "summary": "A single profile sends Acquired to the top of Apple and Spotify and brings 317,000 new followers, far beyond the hosts' expectations.",
+        "quote": "317,000 new subscribers or followers",
+        "timestamp": "5:06"
+      },
+      {
+        "title": "Why the outlier cannot become a playbook",
+        "summary": "They contrast nine years of referral-driven compounding with one unplanned leap and connect the pattern to the exceptional companies they study.",
+        "quote": "Every great success story is idiosyncratic",
+        "timestamp": "9:06"
+      },
+      {
+        "title": "Acquired narratives versus ACQ2 interviews",
+        "summary": "The main feed is reserved for deeply researched company stories; interviews that do not fit that distinctive format move to ACQ2.",
+        "quote": "ACQ2 has really become the place where we're doing all of that now",
+        "timestamp": "12:49"
+      },
+      {
+        "title": "Summer recommendations and the final invitation",
+        "summary": "The episode closes with family travel, gear, and sports-documentary recommendations before one last invitation to the September event.",
+        "quote": "we really hope to see you September 10th in San Francisco",
+        "timestamp": "20:33"
+      }
+    ]
   }
 ]

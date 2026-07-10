@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Recorded live before 6,000 people at San Francisco's Chase Center, Ben and David trade deep history for the present, hosting Daniel Ek, Emily Chang, Jensen Huang, and Mark Zuckerberg. The night's central argument: the most durable companies refuse narrow self-definitions — Spotify is 'just listening,' Meta is human connection, not social media — and they win by out-learning and outlasting rivals rather than out-sprinting them.",
+    "The show builds toward Zuckerberg, whose own ledger of mistakes frames the key tension between fast iteration and long-term control. The HTML5 mobile bet cost eighteen months; misdiagnosing a political crisis as a corporate one cost, by his accounting, twenty years. What let Meta absorb both was the governance he engineered after Yahoo's billion-dollar offer nearly got him fired — control that now funds glasses, Llama, and an open-platform war with Apple."
+  ],
+  "takeaways": [
+    {
+      "title": "Acquired grows one listener referral at a time",
+      "detail": "With zero paid marketing, each listener on average recruits one more per year, doubling the show annually since 2015. Spotify's data shows listening tripled to over 5 million hours in a year, and a single Wall Street Journal article produced the first kink ever in a decade of purely organic growth."
+    },
+    {
+      "title": "Spotify treats talking as cheaper than building",
+      "detail": "Because music-licensing changes could take one or two years to negotiate, Spotify codified deliberation — the internal saying is 'talk is cheap' — debating and game-theorizing before executing. Entering podcasts in 2019 with that playbook, it became market leader in most countries by 2022."
+    },
+    {
+      "title": "YouTube's A-plus grade is strategic insurance",
+      "detail": "Revenue grew from a $5 billion to a $35–40 billion run rate, but paying out 55% of long-form revenue to creators means YouTube may earn little profit. The hosts regrade it A+ anyway: the real calculation was the existential risk to Google of YouTube thriving outside its walls."
+    },
+    {
+      "title": "Taylor Swift generates half a billion in cash",
+      "detail": "Against the old narrative that she earned under $5 million a year from streaming, she reportedly made well over $100 million from Spotify alone, and the Eras Tour grossed $1.1 billion in twelve months. Applying Disney's 20x free-cash-flow multiple to roughly $550 million implies an $11 billion enterprise — ten times Forbes' net-worth estimate."
+    },
+    {
+      "title": "Zuckerberg's political misdiagnosis was a 20-year mistake",
+      "detail": "After 2016 he accepted responsibility for harms he now argues weren't Meta's, treating a political crisis like a corporate one and inviting critics to 'kick you for more stuff.' He contrasts it with the HTML5 mobile bet — an eighteen-month fix — and expects the brand repair to take another decade."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Jamie Dimon opens Acquired Live",
+      "summary": "A surprise video from JPMorgan Chase's CEO kicks off the arena show, establishing the sponsor partnership and the scale of the night before the hosts lay out a three-act format ending with Mark Zuckerberg.",
+      "quote": "I'm happy to kick off the show tonight",
+      "timestamp": "2:24"
+    },
+    {
+      "title": "Daniel Ek presents Acquired's growth data",
+      "summary": "Spotify's founder flips the interview, using platform data to show listening tripled to 5 million-plus hours, followers tripled, and growth turned global — evidence for the show's referral-driven, no-marketing model.",
+      "quote": "you guys have now done over 5 million hours",
+      "timestamp": "12:43"
+    },
+    {
+      "title": "Sean Parker, a barbecue, and Facebook's newsfeed",
+      "summary": "Ek recounts Spotify's origin as a US phenomenon: invite scarcity as social currency, meeting Zuckerberg through Sean Parker, and piping listening activity into the young newsfeed to coincide with the US launch.",
+      "quote": "we went for a barbecue at his house",
+      "timestamp": "24:50"
+    },
+    {
+      "title": "'Talk is cheap': Spotify's deliberate strategy",
+      "summary": "Ek explains why Spotify is the anti-move-fast company: licensing constraints forced it to be right rather than fast, a discipline that later powered its three-year sprint to podcast market leadership and the audiobook expansion seeded by German user behavior.",
+      "quote": "the internal saying that Spotify is talk is cheap",
+      "timestamp": "32:49"
+    },
+    {
+      "title": "Emily Chang regrades YouTube from C to A-plus",
+      "summary": "The hosts confront their 2016 grades and identify what they missed: AI feed recommenders turning YouTube into a destination, and the framing that Google was really paying to eliminate an existential threat.",
+      "quote": "who goes to YouTube and discovers something?",
+      "timestamp": "44:47"
+    },
+    {
+      "title": "Taylor Swift Inc. and the streaming myth",
+      "summary": "The most requested revisit becomes a valuation exercise: $100 million-plus from Spotify streaming alone, a record $1.1 billion Eras Tour year, and a debate over whether a Disney-style 20x multiple belongs on a single artist.",
+      "quote": "There was this myth that streaming doesn't pay",
+      "timestamp": "57:52"
+    },
+    {
+      "title": "Jensen Huang corrects the viral clip",
+      "summary": "Huang addresses the tens-of-millions-view moment where he said he wouldn't start NVIDIA again, reframing it as an argument that entrepreneurial ignorance of coming pain is a founder's superpower — the theme Zuckerberg picks up next.",
+      "quote": "would I start NVIDIA all over again? And I said, absolutely not",
+      "timestamp": "1:07:08"
+    },
+    {
+      "title": "From social apps to holographic glasses",
+      "summary": "Zuckerberg reframes Meta as a 'social connection company' and lays out the decade-long glasses program: novel display stacks, miniaturized hardware, and the Ray-Ban pivot to AI-first after ChatGPT reordered his AR timeline.",
+      "quote": "I think what you ideally have is glasses",
+      "timestamp": "1:15:51"
+    },
+    {
+      "title": "Why Meta survives every existential wave",
+      "summary": "Asked why Meta outlasted MySpace, Snapchat, TikTok, ATT, and now ChatGPT panic, Zuckerberg credits genuinely technical leadership and a strategy of learning faster per iteration than any competitor.",
+      "quote": "we're a technology company that is focused on human connection",
+      "timestamp": "1:25:14"
+    },
+    {
+      "title": "The HTML5 bet and the post-IPO rewrite",
+      "summary": "Zuckerberg dissects the mistake that halved Facebook's market cap: betting on web velocity over native quality, then freezing feature development for a year to rewrite the apps and invent the feed ad while going public.",
+      "quote": "do you have the pain tolerance to go do it",
+      "timestamp": "1:45:49"
+    },
+    {
+      "title": "Yahoo's billion-dollar offer and voting control",
+      "summary": "The 2006 near-sale — management wanting out, the board moving against him, the team leaving within a year — explains the super-voting structure that now lets Zuckerberg fund Reality Labs through 80% drawdowns.",
+      "quote": "the board tried to fire me",
+      "timestamp": "1:56:34"
+    },
+    {
+      "title": "The ideological battle with Apple",
+      "summary": "Closing the night, Zuckerberg names Apple his primary competitor for the next fifteen years and frames Llama and the glasses as a values-driven fight to make open platforms, not closed ones, win the next computing era.",
+      "quote": "build the next generation of open platforms and have the open platforms win",
+      "timestamp": "2:17:00"
+    }
+  ],
+  "title": "Acquired Live at Chase Center: Ek, Chang, Huang, and Zuckerberg"
+}

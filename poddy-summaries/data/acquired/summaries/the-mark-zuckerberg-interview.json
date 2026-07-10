@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Recorded live before 6,000 people at Chase Center, this interview argues Meta has survived more existential threats than any major company — MySpace, mobile, Apple's tracking changes, TikTok, now ChatGPT — because Zuckerberg defined it as a technology company for human connection, not any particular app. His formula is explicit: staff the leadership with engineers, ship early, and win by learning faster than every other company.",
+    "The central arc runs from near-death decisions to hard-won control. Yahoo's 2006 billion-dollar offer nearly got Zuckerberg fired and taught him to lock in voting power; the HTML5 mobile bet halved the market cap; misdiagnosing the post-2016 political backlash became, in his words, a 20-year mistake. That accumulated pain tolerance now funds the next fight — Reality Labs, AI glasses, and open platforms against Apple's closed model."
+  ],
+  "takeaways": [
+    {
+      "title": "Learning speed is Meta's entire strategy",
+      "detail": "Zuckerberg defines strategy as learning faster than every other company: ship products near the edge of embarrassment, collect real feedback, and out-iterate rivals by version three or four. He contrasts this explicitly with Apple's polish-first culture, calling Meta 'the opposite of Apple.'"
+    },
+    {
+      "title": "Yahoo's 2006 offer created the voting structure",
+      "detail": "When Yahoo bid $1 billion, the entire management team wanted to sell, the board tried to fire Zuckerberg, and most executives left within a year. He built super voting shares afterward so he could never be fired from his own company for refusing to sell."
+    },
+    {
+      "title": "The political misdiagnosis was a 20-year mistake",
+      "detail": "After 2016, Meta treated a political crisis like a corporate one, taking ownership of harms Zuckerberg believes weren't its fault — which invited more blame rather than resolving it. He estimates another decade of recovery and now funds independent academic research to push back on unfounded claims."
+    },
+    {
+      "title": "Owning platforms could double Meta's profitability",
+      "detail": "Meta estimated the 'taxes' mobile platforms impose — blocked ad models and forbidden product features — might mean the company would be twice as profitable if it owned the platform. That economic case, plus wanting open platforms to beat Apple's closed model, justifies the massive Reality Labs spend."
+    },
+    {
+      "title": "Ray-Ban glasses became an AI device after launch",
+      "detail": "The glasses shipped before the ChatGPT moment with no AI positioning. Once LLMs arrived, Zuckerberg called product lead Alex Himmel on a Saturday to make Meta AI the primary feature, and a prototype existed within days — reversing his prediction that AR holograms would arrive before full-scale AI."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Setting the stage: Zuckerberg live at Chase Center",
+      "summary": "Ben and David frame the interview as a landmark: a rare live arena conversation with the defining founder-CEO of the era, released ahead of the full show.",
+      "quote": "Mark is the iconic founder CEO of our time.",
+      "timestamp": "1:00"
+    },
+    {
+      "title": "Would he start Facebook knowing the pain?",
+      "summary": "Zuckerberg opens with unusual candor, endorsing Jensen Huang's view that founders underestimate suffering — and that this blindness is what makes hard things possible.",
+      "quote": "you can underestimate how painful things are going to be",
+      "timestamp": "7:35"
+    },
+    {
+      "title": "Not social media — a human connection company",
+      "summary": "The key self-definition behind Meta's reinventions: the product is presence, not apps, which leads directly to the ten-year bet on holographic AR glasses.",
+      "quote": "We are a social connection company.",
+      "timestamp": "11:00"
+    },
+    {
+      "title": "The Saturday call that made Ray-Bans an AI device",
+      "summary": "A concrete case study in Meta's speed: glasses shipped pre-LLM were pivoted to an AI-first product with a working prototype inside a week.",
+      "quote": "make it so that meta AI is the primary feature of it",
+      "timestamp": "18:18"
+    },
+    {
+      "title": "Why Meta keeps beating existential threats",
+      "summary": "Asked for the through line across MySpace, Snapchat, TikTok, and ATT, Zuckerberg gives his clearest strategic statement: a genuinely technical company that out-learns everyone.",
+      "quote": "if we can learn faster than every other company, we're going to win",
+      "timestamp": "25:47"
+    },
+    {
+      "title": "Shipping at the edge of embarrassment",
+      "summary": "Zuckerberg articulates the cultural cost of iteration speed — releasing before polish, absorbing brand damage — and positions Meta as the deliberate opposite of Apple.",
+      "quote": "almost at the line of being embarrassed about what you put out",
+      "timestamp": "28:37"
+    },
+    {
+      "title": "The HTML5 disaster and the mobile rewrite",
+      "summary": "The IPO-era crisis in full: a wrong platform bet, a 50% drawdown, and a year of frozen feature development to rewrite the apps natively — with no mobile revenue yet.",
+      "quote": "Well, we were wrong.",
+      "timestamp": "40:26"
+    },
+    {
+      "title": "His biggest regret: misreading the political crisis",
+      "summary": "Zuckerberg's most self-critical answer: accepting blame for things Meta didn't cause turned a political problem into a decades-long brand hole.",
+      "quote": "the political miscalculation was a 20-year mistake",
+      "timestamp": "49:32"
+    },
+    {
+      "title": "Yahoo's billion-dollar offer and the fight for control",
+      "summary": "The origin of Meta's governance structure: the 2006 near-sale, a board revolt, and a management exodus taught Zuckerberg to make himself unfireable.",
+      "quote": "the board tried to fire me",
+      "timestamp": "53:46"
+    },
+    {
+      "title": "Good versus awesome: the next fifteen years",
+      "summary": "Zuckerberg reframes Reality Labs and AI as a values shift — social media has been useful, but the next chapter must inspire, not just serve.",
+      "quote": "a difference between building good things and awesome things",
+      "timestamp": "1:00:09"
+    },
+    {
+      "title": "Apple as the defining ideological rival",
+      "summary": "He names Apple as Meta's primary competitor in a battle over whether the next computing platforms — glasses, AI, Llama — are open or closed.",
+      "quote": "build the next generation of open platforms and have the open platforms win",
+      "timestamp": "1:14:17"
+    },
+    {
+      "title": "Debrief: Meta is engineered to amplify Mark",
+      "summary": "In the post-show reflection, Ben and David land their thesis — the company's misunderstood superpower is that its entire structure exists to scale one founder's judgment.",
+      "quote": "architected from top to bottom legally, financially, organizationally",
+      "timestamp": "1:26:27"
+    }
+  ],
+  "title": "Mark Zuckerberg Live at Chase Center: Suffering, Control, and the Next Open Platform"
+}
