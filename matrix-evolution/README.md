@@ -2,7 +2,7 @@
 
 Browser implementation of the 2D BFF spatial soup from _Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction_.
 
-This directory is the web-facing counterpart to [`artificial-life/main.py`](../artificial-life/main.py), which remains the semantic reference implementation. The browser version keeps the paper's 2D BFF interaction model and default parameters, but uses a compressed visualization so it stays usable in a single page.
+The browser version follows the paper's 2D BFF interaction model and the official [CuBFF reference implementation](https://github.com/paradigms-of-intelligence/cubff), while using a compressed visualization that remains usable on a single web page.
 
 ## What it implements
 
@@ -60,6 +60,6 @@ npm test -- --run matrix-evolution/tests/bff-core.test.js
 
 ## Notes on fidelity
 
-- Source of truth for semantics: the paper and [`artificial-life/main.py`](../artificial-life/main.py).
+- Source of truth for semantics: the paper and the official [CuBFF implementation](https://github.com/paradigms-of-intelligence/cubff).
 - Source of truth for browser architecture: this directory.
 - If browser constraints force future deviation, document it here and in [`CLAUDE.md`](../CLAUDE.md) instead of leaving the relationship implicit.

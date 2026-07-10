@@ -267,6 +267,10 @@ a {
 
 /* Homepage immersive hero */
 .home-hero {
+  --look-x: 0px;
+  --look-y: 0px;
+  --badge-x: 0px;
+  --badge-y: 0px;
   min-height: min(780px, calc(100svh - 92px));
   border-radius: 28px;
   overflow: hidden;
@@ -290,7 +294,7 @@ a {
   height: 100%;
 }
 
-.park-canvas { z-index: -2; touch-action: pan-y; opacity: 0; transition: opacity 650ms ease; }
+.park-canvas { z-index: -2; touch-action: pan-y; opacity: 0; transform: scale(1.045) translate3d(var(--look-x), var(--look-y), 0); transition: opacity 650ms ease; will-change: transform; }
 .has-webgl .park-canvas { opacity: 1; }
 
 .hero-shade {
@@ -318,6 +322,7 @@ a {
   width: 112px;
   aspect-ratio: 1;
   display: grid;
+  grid-template-rows: auto 1fr;
   place-items: center;
   text-align: center;
   border: 1px solid rgba(255,255,255,.55);
@@ -328,10 +333,19 @@ a {
   letter-spacing: .12em;
   line-height: 1.35;
   text-transform: uppercase;
-  transform: rotate(7deg);
+  transform: translate3d(var(--badge-x), var(--badge-y), 0);
+  transition: transform 80ms linear;
 }
 
-.scroll-cue { position: absolute; right: 2rem; bottom: 2rem; writing-mode: vertical-rl; font-size: .66rem; letter-spacing: .15em; text-transform: uppercase; opacity: .8; }
+.hero-badge span { padding-top: .65rem; font-size: .58rem; }
+.hero-badge strong { font: 400 2.1rem/1 var(--font-display); transform: translateY(-.25rem); }
+
+.scroll-cue { position: absolute; right: 2rem; bottom: 2rem; display: inline-flex; align-items: center; gap: .55rem; font-size: .62rem; letter-spacing: .12em; text-transform: uppercase; opacity: 0; visibility: hidden; }
+.has-webgl .scroll-cue { opacity: .82; visibility: visible; }
+.home-hero.is-looking .scroll-cue { opacity: 0; transition: opacity 300ms ease; }
+.scroll-cue i { width: 18px; height: 18px; border: 1px solid rgba(255,255,255,.7); border-radius: 50%; position: relative; }
+.scroll-cue i::after { content: ""; position: absolute; width: 3px; height: 3px; left: 7px; top: 7px; border-radius: 50%; background: currentColor; animation: look-cue 2.2s ease-in-out infinite; }
+@keyframes look-cue { 40% { transform: translate(4px, -2px); } 75% { transform: translate(-3px, 3px); } }
 
 .intro-strip {
   display: grid;
@@ -343,19 +357,33 @@ a {
 
 .intro-strip p { margin: 0; font: 400 clamp(1.55rem, 3.6vw, 3rem)/1.25 var(--font-display); letter-spacing: -.02em; }
 
-/* Project trail cards */
-.project-trail { display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
-.trail-card { background: rgba(247, 242, 221, .94); display: grid; grid-template-columns: 76px minmax(0, 1fr) auto; align-items: center; gap: 1.25rem; min-height: 150px; padding: 1.4rem; text-decoration: none; transition: background 180ms ease, padding 180ms ease; }
-.trail-card:hover { background: var(--snow); padding-left: 1.8rem; }
-.trail-number { align-self: start; color: var(--rust); font: italic 1.7rem/1 var(--font-display); }
-.trail-card h3 { margin: 0 0 .35rem; font: 400 clamp(1.45rem, 3vw, 2.15rem)/1.1 var(--font-display); }
-.trail-card p { margin: 0; color: var(--ink-soft); max-width: 650px; font-size: .92rem; }
-.trail-meta { display: flex; gap: .45rem; flex-wrap: wrap; margin-top: .8rem; }
-.trail-meta span { border: 1px solid var(--line); border-radius: 999px; padding: .23rem .55rem; font-size: .66rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
-.trail-arrow { width: 46px; height: 46px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; font-size: 1.25rem; }
+/* Project trail map */
+.section--trail-map { position: relative; }
+.section--trail-map::before { content: ""; position: absolute; z-index: -1; inset: -3rem 0; opacity: .18; background: repeating-radial-gradient(ellipse at 60% 45%, transparent 0 34px, rgba(23,39,29,.22) 35px 36px, transparent 37px 51px); pointer-events: none; }
+.project-trail { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.trail-card { min-height: 370px; display: grid; grid-template-rows: 145px 1fr; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: rgba(247,242,221,.94); box-shadow: 0 12px 34px rgba(31,49,36,.08); text-decoration: none; transition: transform 200ms ease, box-shadow 200ms ease; }
+.trail-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+.terrain-art { position: relative; overflow: hidden; display: flex; align-items: flex-end; justify-content: space-between; padding: 1rem 1.1rem; color: rgba(255,255,255,.92); background: var(--terrain); }
+.terrain-art::before { content: ""; position: absolute; inset: -80%; opacity: .52; background: repeating-radial-gradient(ellipse at 50% 50%, transparent 0 19px, rgba(255,255,255,.42) 20px 21px, transparent 22px 31px); transform: rotate(-11deg) scale(1.35); transition: transform 600ms cubic-bezier(.2,.8,.2,1); }
+.terrain-art::after { content: ""; position: absolute; inset: auto -8% -45% 12%; height: 100%; border: 1px solid rgba(255,255,255,.35); border-radius: 50%; transform: rotate(-8deg); }
+.trail-card:hover .terrain-art::before { transform: rotate(-5deg) scale(1.5); }
+.terrain-art span, .terrain-art strong { position: relative; z-index: 1; }
+.terrain-art span { font-size: .64rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+.terrain-art strong { font: 400 .72rem/1 ui-monospace, monospace; letter-spacing: .06em; text-transform: uppercase; }
+.trail-card--alpine { --terrain: linear-gradient(135deg, #789aaa, #3b5f68); }
+.trail-card--forest { --terrain: linear-gradient(135deg, #315b3d, #132f24); }
+.trail-card--lake { --terrain: linear-gradient(135deg, #5d9daa, #276c78); }
+.trail-card--canyon { --terrain: linear-gradient(135deg, #b76c48, #6d3528); }
+.trail-card-body { position: relative; display: flex; flex-direction: column; padding: 1.35rem 1.4rem 1.4rem 4.5rem; }
+.trail-number { position: absolute; top: 1.5rem; left: 1.35rem; color: var(--rust); font: italic 1.3rem/1 var(--font-display); }
+.trail-card h3 { margin: 0 0 .55rem; font: 400 clamp(1.55rem, 3vw, 2.25rem)/1.05 var(--font-display); }
+.trail-card p { margin: 0; color: var(--ink-soft); max-width: 560px; font-size: .92rem; }
+.trail-link { margin-top: auto; padding-top: 1.5rem; font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
 
 .field-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
-.field-card { min-height: 260px; padding: 1.4rem; border: 1px solid var(--line); border-radius: var(--radius); display: flex; flex-direction: column; justify-content: space-between; background: rgba(247, 242, 221, .7); }
+.field-card { min-height: 260px; padding: 1.4rem; border: 1px solid var(--line); border-radius: var(--radius); display: flex; flex-direction: column; justify-content: space-between; background: rgba(247, 242, 221, .7); position: relative; overflow: hidden; }
+.field-card::after { content: ""; position: absolute; width: 210px; height: 210px; right: -90px; top: -95px; border: 1px solid currentColor; border-radius: 45% 55% 52% 48%; opacity: .16; box-shadow: 0 0 0 12px currentColor, 0 0 0 25px transparent, 0 0 0 26px currentColor; pointer-events: none; }
+.field-card > * { position: relative; z-index: 1; }
 .field-card:nth-child(2) { background: var(--pine); color: var(--paper); }
 .field-card:nth-child(3) { background: var(--lake); color: #fff; }
 .field-card .eyebrow { color: currentColor; opacity: .72; }
@@ -424,8 +452,7 @@ a {
   .scroll-cue { display: none; }
   .intro-strip { grid-template-columns: 1fr; gap: 1.2rem; }
   .section-heading { grid-template-columns: 1fr; gap: .7rem; }
-  .trail-card { grid-template-columns: 42px minmax(0,1fr); }
-  .trail-arrow { display: none; }
+  .project-trail { grid-template-columns: 1fr; }
   .field-grid, .project-grid { grid-template-columns: 1fr; }
   .field-card { min-height: 220px; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
@@ -438,7 +465,9 @@ a {
   .hero-content { padding: 1.25rem; padding-top: 8rem; }
   .hero-title { font-size: clamp(3.9rem, 19vw, 5.4rem); }
   .hero-actions .button { width: 100%; }
-  .trail-card { padding: 1.15rem .9rem; gap: .7rem; }
+  .trail-card { min-height: 340px; }
+  .trail-card-body { padding: 1.2rem 1.1rem 1.25rem 3.9rem; }
+  .trail-number { left: 1.05rem; top: 1.35rem; }
   .gallery-grid { gap: .4rem; }
 }
 

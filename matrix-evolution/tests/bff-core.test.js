@@ -38,6 +38,20 @@ describe("runTape", () => {
     expect(scratch[2]).toBe(125);
   });
 
+  it(", (44) copies scratch[head1] back to scratch[head0]", () => {
+    // { wraps head1 from 0 to 3; comma then copies byte 7 into head0 at index 0.
+    const scratch = makeScratch(123, 44, 0, 7);
+    runTape(scratch, 2, 100);
+    expect(scratch[0]).toBe(7);
+  });
+
+  it("data heads wrap across the complete concatenated tape", () => {
+    // < wraps head0 to the final byte, where + increments 5 to 6.
+    const scratch = makeScratch(60, 43, 0, 5);
+    runTape(scratch, 2, 100);
+    expect(scratch[3]).toBe(6);
+  });
+
   it("[ (91) skips to matching ] when scratch[head0] === 0", () => {
     // scratch = [0, 91, 43, 93] tapeSize=2
     // PC=0: op=0 (noop), PC=1: [ with scratch[head0=0]=0 → skip to ]

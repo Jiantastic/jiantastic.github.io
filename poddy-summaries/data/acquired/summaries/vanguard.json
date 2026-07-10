@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Vanguard became the largest index-fund provider and the biggest shareholder of most U.S. corporations because of one structural choice: the firm is owned by the investors in its own funds, not outside shareholders. That forces it to operate at cost and relentlessly cut fees, transferring an estimated trillion dollars from Wall Street into individual investors' pockets. Bogle's insight was that fund management is a commodity where the lowest cost wins.",
+    "The arc is Jack Bogle himself—fired from Wellington, he mutualized the funds in equal parts idealism and revenge, then endured two decades of subscale struggle before vindication. The deeper tension is founder purity versus scale: the same zealotry that built Vanguard later constrained it, most visibly when Bogle's refusal to launch ETFs got him forced out and handed rivals a durable lead."
+  ],
+  "takeaways": [
+    {
+      "title": "Customer ownership forces rock-bottom fees",
+      "detail": "Because Vanguard's fund investors own the management company, there are no outside shareholders to enrich, so excess profits return to customers as ever-lower fees. Bogle summarized it as 'strategy follows structure'—the ownership design made low cost the only possible strategy."
+    },
+    {
+      "title": "A 1% fee devours retirement savings",
+      "detail": "Fees are charged on total assets, not gains, so a 1% fee is really about 15% of a 7% return. On $100k compounding for 40 years, that turns a $1.5M outcome into $1M—an extra 50% lost to fees."
+    },
+    {
+      "title": "Investors in aggregate are the market",
+      "detail": "Every winning trade has a losing counterparty, so collectively all active managers equal the market and, after fees, the median one must underperform. Owning the index at near-zero cost therefore beat roughly 85% of active managers over a decade."
+    },
+    {
+      "title": "Rejecting ETFs was Bogle's costly blunder",
+      "detail": "Bogle turned away Nathan Most in 1992, fearing exchange trading would tempt speculation and short-selling. State Street launched the first ETF, the SPDR, and BlackRock's iShares built a lead in a market growing 30% a year that Vanguard still trails."
+    },
+    {
+      "title": "No-profit model starves tech and service",
+      "detail": "With no excess profits to reinvest, Vanguard's technology and customer service lagged—described as 'jank' during the pandemic—while Fidelity and BlackRock subsidize near-free funds using profits from brokerage, 401(k), and international businesses Vanguard doesn't have."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Why Vanguard matters to you",
+      "summary": "Sets the stakes: most listeners hold their net worth in Vanguard or its copycats, and it is the largest shareholder of most U.S. corporations.",
+      "quote": "For most of you, you have most of your net worth tied up in this company",
+      "timestamp": "0:58"
+    },
+    {
+      "title": "Bogle's brutal Depression childhood",
+      "summary": "Explains the formative hardship that shaped Bogle: a family that lost everything and boys left to support themselves.",
+      "quote": "they're kind of left to fend for themselves in the world",
+      "timestamp": "8:21"
+    },
+    {
+      "title": "The thesis on Big Money in Boston",
+      "summary": "A Fortune article on the new mutual-fund industry inspires Bogle's Princeton thesis and his early conviction that fees drag returns.",
+      "quote": "entitled Big Money in Boston",
+      "timestamp": "14:41"
+    },
+    {
+      "title": "The go-go years upend Wellington",
+      "summary": "A speculative new era led by Fidelity's Jerry Tsai renders Wellington's conservative style obsolete just as Bogle takes charge.",
+      "quote": "to what would come to be known as the go-go years",
+      "timestamp": "30:52"
+    },
+    {
+      "title": "Bogle's crisis of conscience",
+      "summary": "As the merger backfires and clients lose money, Bogle begins arguing the whole fee-taking structure is wrong.",
+      "quote": "Jack starts to develop a crisis of conscience",
+      "timestamp": "49:31"
+    },
+    {
+      "title": "The loophole that created Vanguard",
+      "summary": "Fired from the management company, Bogle exploits the funds' separate board to seize control of administration—an untested technicality.",
+      "quote": "They were about to find out just how powerful that technicality was",
+      "timestamp": "55:40"
+    },
+    {
+      "title": "Naming Vanguard",
+      "summary": "The new mutualized subsidiary gets its name from an antique naval print, chosen for its connotation of total victory.",
+      "quote": "he decides Vanguard is the name",
+      "timestamp": "1:08:00"
+    },
+    {
+      "title": "The index fund math",
+      "summary": "Bogle realizes an index run near cost can beat most active managers, the seed of his cost-matters hypothesis.",
+      "quote": "But at scale, actually, you could approach zero cost",
+      "timestamp": "1:19:48"
+    },
+    {
+      "title": "A broken IPO",
+      "summary": "The first retail index fund flops at launch, raising a fraction of its target and forcing a rescue merger to survive.",
+      "quote": "They raise $11.3 million",
+      "timestamp": "1:29:30"
+    },
+    {
+      "title": "Passing on ETFs",
+      "summary": "Bogle's refusal to embrace exchange-traded funds hands the category to State Street and BlackRock and precipitates his second ouster.",
+      "quote": "Jack hates this idea. Absolutely hates it",
+      "timestamp": "2:02:18"
+    },
+    {
+      "title": "Buffett's million-dollar bet",
+      "summary": "Warren Buffett wagers the Vanguard 500 will beat hedge funds over a decade—and wins decisively, cementing indexing's credibility.",
+      "quote": "he would bet $1 million of his own money against any and all takers",
+      "timestamp": "2:31:30"
+    },
+    {
+      "title": "What happened to Wellington",
+      "summary": "The rival partners who fired Bogle rebuilt Wellington into a trillion-dollar active manager that still advises Vanguard funds today.",
+      "quote": "they went on to build their own trillion dollar firm",
+      "timestamp": "3:04:58"
+    }
+  ],
+  "title": "Vanguard: How Jack Bogle Communized a Corner of Capitalism"
+}

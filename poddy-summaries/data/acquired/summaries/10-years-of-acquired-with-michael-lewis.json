@@ -1,11 +1,29 @@
 {
-  "overview": "Michael Lewis joins Ben Gilbert and David Rosenthal in Google’s original garage to examine why Acquired survived ten years while most podcasts disappear. The conversation moves beyond an anniversary retrospective into a practical study of craft: how the show found its real subject, rebuilt its business after a sudden revenue drop, researches company histories, cuts hours of recorded material, and deliberately resists the pressure to become a conventional media company. The result is less a victory lap than a field guide to making unusually deep work sustainable.",
+  "overview": [
+    "Michael Lewis joins Ben Gilbert and David Rosenthal to ask why Acquired survived for ten years when most podcasts disappear. Their answer is not a single breakthrough: the show gradually discovered that its real product was deeply researched company storytelling, not acquisition scorecards.",
+    "The episode follows the choices that made that work sustainable—rebuilding the business after a 40% revenue drop, interviewing primary sources, cutting anything that drags, and resisting pressure to turn a successful creative practice into a larger media company."
+  ],
   "takeaways": [
-    "Acquired found its audience when it stopped treating acquisitions as the product and recognized that listeners wanted story and strategy.",
-    "A 40% revenue drop forced a better model: fewer episodes, far more preparation, and sponsors that value a concentrated audience.",
-    "Research quality comes from triangulating books and archives with dozens of background calls—and publishing corrections when the record is wrong.",
-    "The signature sound is created in the edit: multiple passes remove roughly an hour, including anything that feels slow even after enormous research effort.",
-    "The hosts chose creative freedom over building a larger media enterprise, treating independence and repeatable process as strategic advantages."
+    {
+      "title": "The format followed the audience",
+      "detail": "Listeners cared more about company stories and strategic decisions than acquisition grades. Recognizing that behavior let Acquired become a different—and much stronger—show."
+    },
+    {
+      "title": "A revenue shock improved the model",
+      "detail": "Losing roughly 40% of revenue forced the hosts to publish less often, prepare far more deeply, and work with sponsors that valued a concentrated audience."
+    },
+    {
+      "title": "Primary sources change the record",
+      "detail": "Books provide structure, but dozens of background conversations reveal where familiar stories are incomplete or wrong. Corrections are treated as part of the research product."
+    },
+    {
+      "title": "The show is made in editing",
+      "detail": "The team removes about an hour through repeated listening passes. Material is cut whenever it feels slow, even when it required substantial research to produce."
+    },
+    {
+      "title": "Independence is a strategic choice",
+      "detail": "The hosts repeatedly decline the obvious path toward a larger media company. Protecting creative freedom and a repeatable process matters more than maximizing organizational scale."
+    }
   ],
   "chapters": [
     {

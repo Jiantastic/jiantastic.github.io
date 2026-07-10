@@ -241,21 +241,6 @@ export function computeOpcodePercent(state) {
   return computePopulationMetrics(state).opcodePercent;
 }
 
-// FNV-1a fingerprint per tape → count unique programs
-export function computeUniqueFingerprints(state) {
-  const { programs, numPrograms, tapeSize } = state;
-  const seen = new Set();
-  for (let p = 0; p < numPrograms; p++) {
-    let h = 0x811c9dc5;
-    const off = p * tapeSize;
-    for (let i = 0; i < tapeSize; i++) {
-      h = Math.imul(h ^ programs[off + i], 0x01000193) >>> 0;
-    }
-    seen.add(h);
-  }
-  return seen.size;
-}
-
 // Reused scratch for count array — avoids allocation in hot rendering path
 const _opCounts = new Uint16Array(256);
 const OPCODES = [LT, GT, LB, RB, MINUS, PLUS, DOT, COMMA, LBRACK, RBRACK];

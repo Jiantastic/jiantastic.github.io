@@ -9,84 +9,84 @@ image: /images/national-park-hero.webp
 <section class="home-hero" aria-labelledby="home-title">
   <canvas class="park-canvas" id="park-canvas" aria-hidden="true"></canvas>
   <div class="hero-shade" aria-hidden="true"></div>
-  <div class="hero-badge" aria-hidden="true">Est. on the<br />internet<br />1990s</div>
+  <div class="hero-badge" aria-hidden="true"><span>N</span><strong>✦</strong></div>
   <div class="hero-content">
-    <p class="eyebrow">Welcome to the trailhead</p>
+    <p class="eyebrow">Software · science · art</p>
     <h1 class="hero-title" id="home-title">Wei<br />Wong</h1>
     <p class="hero-subtitle">
-      I build small, curious worlds across software, science, and art—places
-      designed to reward wandering off the marked trail.
+      I’m a software engineer and SaaS operator. This is where I share the
+      experiments, tools, and art I make.
     </p>
     <div class="hero-actions">
-      <a class="button" href="#projects">Explore the projects <span aria-hidden="true">↓</span></a>
-      <a class="button button--ghost" href="/work.html">View the field guide</a>
+      <a class="button" href="#projects">See the projects <span aria-hidden="true">↓</span></a>
+      <a class="button button--ghost" href="#about">About me</a>
     </div>
   </div>
-  <span class="scroll-cue" aria-hidden="true">Move to look around</span>
+  <span class="scroll-cue" aria-hidden="true"><i></i> Move your cursor</span>
 </section>
 
-<section class="intro-strip" aria-label="About Wei">
-  <p class="eyebrow">About this place</p>
+<section class="intro-strip" id="about" aria-label="About Wei">
+  <p class="eyebrow">About me</p>
   <p>
-    Part software engineer, part SaaS operator, full-time student of whatever
-    looks interesting. I’ve lived across Asia, Europe, and the United States
-    and bring that wide-angle view to everything I make.
+    I build software, run SaaS products, and follow interesting questions into
+    AI, biology, games, and digital art. I’ve lived in Asia, Europe, and the
+    United States. This site is a record of what I’m learning and making.
   </p>
 </section>
 
-<section class="section" id="projects">
+<section class="section section--trail-map" id="projects">
   <div class="section-heading">
-    <h2 class="section-title">Choose a trail</h2>
-    <p class="section-kicker">Four experiments, each with its own terrain.</p>
+    <h2 class="section-title">Projects</h2>
+    <p class="section-kicker">Four different places to explore.</p>
   </div>
 
   <div class="project-trail">
-    <a href="/alphafold/" class="trail-card">
-      <span class="trail-number" aria-hidden="true">01</span>
-      <div>
+    <a href="/alphafold/" class="trail-card trail-card--alpine">
+      <div class="terrain-art" aria-hidden="true"><span>High country</span><strong>8,120 ft</strong></div>
+      <div class="trail-card-body">
+        <span class="trail-number" aria-hidden="true">01</span>
         <h3>AlphaFold Made Simple</h3>
-        <p>Turn a protein ID into an explorable 3D structure, confidence map, and plain-language field guide.</p>
-        <div class="trail-meta"><span>Biology</span><span>3D viewer</span><span>Live data</span></div>
+        <p>Paste a protein ID and explore its predicted 3D structure and confidence.</p>
+        <span class="trail-link">Open project ↗</span>
       </div>
-      <span class="trail-arrow" aria-hidden="true">↗</span>
     </a>
 
-    <a href="/matrix-evolution/" class="trail-card">
-      <span class="trail-number" aria-hidden="true">02</span>
-      <div>
+    <a href="/matrix-evolution/" class="trail-card trail-card--forest">
+      <div class="terrain-art" aria-hidden="true"><span>Forest floor</span><strong>2,048 bytes</strong></div>
+      <div class="trail-card-body">
+        <span class="trail-number" aria-hidden="true">02</span>
         <h3>BFF Primordial Soup</h3>
-        <p>Watch tiny programs mutate, interact, and occasionally discover self-replication in a browser-sized ecosystem.</p>
-        <div class="trail-meta"><span>Artificial life</span><span>Simulation</span><span>Web Worker</span></div>
+        <p>Watch tiny programs mutate and interact in a digital ecosystem inspired by artificial-life research.</p>
+        <span class="trail-link">Open project ↗</span>
       </div>
-      <span class="trail-arrow" aria-hidden="true">↗</span>
     </a>
 
-    <a href="/poddy-summaries/" class="trail-card">
-      <span class="trail-number" aria-hidden="true">03</span>
-      <div>
+    <a href="/poddy-summaries/" class="trail-card trail-card--lake">
+      <div class="terrain-art" aria-hidden="true"><span>Lakeside</span><strong>6 guides</strong></div>
+      <div class="trail-card-body">
+        <span class="trail-number" aria-hidden="true">03</span>
         <h3>Poddy Summaries</h3>
-        <p>A timestamped listening companion for long-form Acquired episodes, built from a local transcription pipeline.</p>
-        <div class="trail-meta"><span>Audio</span><span>ML pipeline</span><span>Transcripts</span></div>
+        <p>Readable overviews, key ideas, chapter jumps, and full transcripts for long Acquired episodes.</p>
+        <span class="trail-link">Open project ↗</span>
       </div>
-      <span class="trail-arrow" aria-hidden="true">↗</span>
     </a>
 
-    <a href="https://battleroyale.pages.dev" target="_blank" rel="noopener" class="trail-card">
-      <span class="trail-number" aria-hidden="true">04</span>
-      <div>
+    <a href="https://battleroyale.pages.dev" target="_blank" rel="noopener" class="trail-card trail-card--canyon">
+      <div class="terrain-art" aria-hidden="true"><span>Backcountry</span><strong>WebGL</strong></div>
+      <div class="trail-card-body">
+        <span class="trail-number" aria-hidden="true">04</span>
         <h3>3D Battle Royale</h3>
-        <p>A flying, DOOM-flavored browser game built with Three.js. Best explored with a keyboard and a little nerve.</p>
-        <div class="trail-meta"><span>Game</span><span>Three.js</span><span>WebGL</span></div>
+        <p>A fast browser game where you fly, fight, and explore a 3D arena.</p>
+        <span class="trail-link">Open game ↗</span>
       </div>
-      <span class="trail-arrow" aria-hidden="true">↗</span>
     </a>
   </div>
 </section>
 
 <section class="section">
   <div class="section-heading">
-    <h2 class="section-title">Basecamp</h2>
-    <p class="section-kicker">A few more places to wander.</p>
+    <h2 class="section-title">More</h2>
+    <p class="section-kicker">Art and writing.</p>
   </div>
   <div class="field-grid">
     <article class="field-card">
@@ -108,22 +108,12 @@ image: /images/national-park-hero.webp
     <article class="field-card">
       <p class="eyebrow">Field notes</p>
       <div>
-        <h3>Rabbit holes, documented.</h3>
-        <p>Writing about AI, biology, astrophotography, and whatever comes next.</p>
+        <h3>Notes and essays</h3>
+        <p>Writing about AI, biology, astrophotography, and other things I’m learning.</p>
       </div>
       <a href="https://weiwong.substack.com/" target="_blank" rel="noopener">Read on Substack →</a>
     </article>
   </div>
 </section>
-
-<aside class="newsletter-cta">
-  <p class="eyebrow">Postcards from the trail</p>
-  <h3>Stay curious.</h3>
-  <p>
-    Occasional notes on AI, strange technologies, and the useful ideas found by
-    taking the long way around.
-  </p>
-  <a href="https://weiwong.substack.com/" target="_blank" rel="noopener">Subscribe on Substack</a>
-</aside>
 
 <script type="module" src="/assets/js/park-scene.js"></script>

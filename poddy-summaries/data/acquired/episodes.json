@@ -1,23 +1,1022 @@
 [
   {
+    "slug": "the-walt-disney-company",
+    "guid": "9ed84917-8571-497e-b7d0-55fe85470301",
+    "title": "The Walt Disney Company",
+    "pubDate": "Sun, 21 Jun 2026 22:54:28 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/04eefe71/39c635fd.mp3",
+    "duration": "16289",
+    "summaryPath": "summaries/the-walt-disney-company.json",
+    "transcriptPath": "transcripts/the-walt-disney-company.txt",
+    "transcriptJsonPath": "transcripts/the-walt-disney-company.json",
+    "overview": [
+      "Disney outearns every classic Hollywood studio not by making movies, but because Walt accidentally invented the intellectual-property flywheel: create genuinely beloved, fully-owned animated characters, saturate their primary medium, then feed that IP into merchandise, comics, clubs, television, parks, and periodic vault re-releases. Animation is the key—characters never age, always work, demand no star fees, and let audiences form lifelong relationships that live-action IP rarely sustains.",
+      "The through-line is Walt's compulsion to bet the entire company on each technical leap—synchronized sound, feature animation, Disneyland, and an unbuilt Epcot city. He survived repeated flops and the losses of Oswald and his animators. The 1941 strike permanently severed him from animation and the studio he loved, pushing him toward parks and television, which ultimately became Disney's most profitable and durable engine."
+    ],
+    "takeaways": [
+      {
+        "title": "Owning your IP outright is existential",
+        "detail": "Distributor Charles Mintz secretly signed away Disney's animators and Universal owned the Oswald character, so Walt Disney Studios' enterprise value collapsed to effectively zero overnight. Walt made certain he owned Mickey Mouse, and that lesson shaped every future deal."
+      },
+      {
+        "title": "Synchronized sound gave cartoons personality",
+        "detail": "Before Steamboat Willie, silent cartoons could only do slapstick gags. Sound synced exactly to on-screen action made characters feel alive and emotionally relatable, transforming animation from a fading novelty into durable IP audiences could bond with."
+      },
+      {
+        "title": "Merchandise outearned films by 1934",
+        "detail": "Kay Kamen professionalized licensing to roughly $70 million in gross merchandise sales within two years, and royalty income exceeded film rental revenue as early as 1934. The near-pure-margin merch business dwarfed the risky, film-by-film economics of the cartoons themselves."
+      },
+      {
+        "title": "The vault renews each new generation",
+        "detail": "During a 1944 cash crunch, Disney re-released Snow White and earned $3 million on a few hundred thousand in cost. A roughly seven-year gap let a fresh generation of children discover the film without diluting the evergreen IP, becoming a permanent cadence."
+      },
+      {
+        "title": "ABC bought a theme park for a show",
+        "detail": "Third-place ABC invested $500,000 and guaranteed $4.5 million in loans for Disneyland in exchange for Walt's weekly television series. The Disneyland TV show then became a year-long marketing engine that primed nearly half of America for opening day."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Marceline: where art met commerce",
+        "summary": "Walt's boyhood on a Missouri farm fused two forces—art and money—that would drive his entire career and the company's model.",
+        "quote": "my hobby, my art, it can make me money",
+        "timestamp": "8:33"
+      },
+      {
+        "title": "Oswald stolen: the bitter lesson",
+        "summary": "Distributor Mintz poached Disney's animators and controlled the Oswald IP, teaching Walt the defining lesson to always own his characters.",
+        "quote": "the entire value of Walt Disney Studios is effectively zero",
+        "timestamp": "37:45"
+      },
+      {
+        "title": "Mickey Mouse is born",
+        "summary": "Reeling from the Oswald loss, Walt and Ub create a new mouse they will own outright, seeding the entire company.",
+        "quote": "And thus Mickey Mouse is born",
+        "timestamp": "43:24"
+      },
+      {
+        "title": "Sound and Steamboat Willie",
+        "summary": "Betting everything on synchronized sound, Disney gives cartoons genuine personality and leapfrogs bigger, better-distributed rivals.",
+        "quote": "Walt kept crying, this is it. This is it. We've got it",
+        "timestamp": "48:47"
+      },
+      {
+        "title": "The Mickey Mouse Club and the flywheel",
+        "summary": "An accidental theater club reveals a wholly new business model built on licensing and fandom rather than film rentals.",
+        "quote": "The intellectual property flywheel",
+        "timestamp": "56:19"
+      },
+      {
+        "title": "Kay Kamen and the merch machine",
+        "summary": "Professional licensing scales merchandise into a bigger, higher-margin business than the films, overtaking film rentals by 1934.",
+        "quote": "royalty income from merchandise had exceeded revenue from film rentals",
+        "timestamp": "1:07:11"
+      },
+      {
+        "title": "Snow White: Disney's Folly",
+        "summary": "Walt bets the studio on the first feature-length animated film, a $1.5 million gamble that becomes the highest-grossing film ever.",
+        "quote": "Disney's Folly",
+        "timestamp": "1:23:04"
+      },
+      {
+        "title": "The 1941 strike",
+        "summary": "A cash crunch, salary cuts, and layoffs trigger a shattering strike that permanently severs Walt from animation and the studio.",
+        "quote": "the darkest moment of Walt's life",
+        "timestamp": "2:04:28"
+      },
+      {
+        "title": "Television buys a theme park",
+        "summary": "Walt embraces TV as movie studios fear it, and third-place ABC funds Disneyland in exchange for his weekly show.",
+        "quote": "ABC needed the show so badly that they bought the amusement park",
+        "timestamp": "2:57:27"
+      },
+      {
+        "title": "Disneyland opens",
+        "summary": "After a chaotic opening day, a live broadcast primed by a year of TV draws nearly half of America and launches a new business.",
+        "quote": "83 million people tuned in to watch from home",
+        "timestamp": "3:18:50"
+      },
+      {
+        "title": "The Epcot dream",
+        "summary": "Restless again, Walt plans a domed, self-governing city of the future in Florida—his most audacious, ultimately unbuilt bet.",
+        "quote": "a living blueprint of the future where people actually live",
+        "timestamp": "3:50:22"
+      },
+      {
+        "title": "Parks eclipse a rotting core",
+        "summary": "After Walt's death, films stop generating hits and profits, and Disney survives as a parks-and-merchandise company while American myth-making moves elsewhere.",
+        "quote": "American myth-making moved on. It moved elsewhere",
+        "timestamp": "4:05:21"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Marceline: where art met commerce",
+        "summary": "Walt's boyhood on a Missouri farm fused two forces—art and money—that would drive his entire career and the company's model.",
+        "quote": "my hobby, my art, it can make me money",
+        "timestamp": "8:33"
+      },
+      {
+        "title": "Oswald stolen: the bitter lesson",
+        "summary": "Distributor Mintz poached Disney's animators and controlled the Oswald IP, teaching Walt the defining lesson to always own his characters.",
+        "quote": "the entire value of Walt Disney Studios is effectively zero",
+        "timestamp": "37:45"
+      },
+      {
+        "title": "Mickey Mouse is born",
+        "summary": "Reeling from the Oswald loss, Walt and Ub create a new mouse they will own outright, seeding the entire company.",
+        "quote": "And thus Mickey Mouse is born",
+        "timestamp": "43:24"
+      },
+      {
+        "title": "Sound and Steamboat Willie",
+        "summary": "Betting everything on synchronized sound, Disney gives cartoons genuine personality and leapfrogs bigger, better-distributed rivals.",
+        "quote": "Walt kept crying, this is it. This is it. We've got it",
+        "timestamp": "48:47"
+      },
+      {
+        "title": "The Mickey Mouse Club and the flywheel",
+        "summary": "An accidental theater club reveals a wholly new business model built on licensing and fandom rather than film rentals.",
+        "quote": "The intellectual property flywheel",
+        "timestamp": "56:19"
+      },
+      {
+        "title": "Kay Kamen and the merch machine",
+        "summary": "Professional licensing scales merchandise into a bigger, higher-margin business than the films, overtaking film rentals by 1934.",
+        "quote": "royalty income from merchandise had exceeded revenue from film rentals",
+        "timestamp": "1:07:11"
+      },
+      {
+        "title": "Snow White: Disney's Folly",
+        "summary": "Walt bets the studio on the first feature-length animated film, a $1.5 million gamble that becomes the highest-grossing film ever.",
+        "quote": "Disney's Folly",
+        "timestamp": "1:23:04"
+      },
+      {
+        "title": "The 1941 strike",
+        "summary": "A cash crunch, salary cuts, and layoffs trigger a shattering strike that permanently severs Walt from animation and the studio.",
+        "quote": "the darkest moment of Walt's life",
+        "timestamp": "2:04:28"
+      },
+      {
+        "title": "Television buys a theme park",
+        "summary": "Walt embraces TV as movie studios fear it, and third-place ABC funds Disneyland in exchange for his weekly show.",
+        "quote": "ABC needed the show so badly that they bought the amusement park",
+        "timestamp": "2:57:27"
+      },
+      {
+        "title": "Disneyland opens",
+        "summary": "After a chaotic opening day, a live broadcast primed by a year of TV draws nearly half of America and launches a new business.",
+        "quote": "83 million people tuned in to watch from home",
+        "timestamp": "3:18:50"
+      },
+      {
+        "title": "The Epcot dream",
+        "summary": "Restless again, Walt plans a domed, self-governing city of the future in Florida—his most audacious, ultimately unbuilt bet.",
+        "quote": "a living blueprint of the future where people actually live",
+        "timestamp": "3:50:22"
+      },
+      {
+        "title": "Parks eclipse a rotting core",
+        "summary": "After Walt's death, films stop generating hits and profits, and Disney survives as a parks-and-merchandise company while American myth-making moves elsewhere.",
+        "quote": "American myth-making moved on. It moved elsewhere",
+        "timestamp": "4:05:21"
+      }
+    ]
+  },
+  {
+    "slug": "vanguard",
+    "guid": "465f9bb3-6d71-49ed-a233-de82bc41b034",
+    "title": "Vanguard",
+    "pubDate": "Sun, 17 May 2026 20:26:52 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/ee9d0817/c12627bd.mp3",
+    "duration": "13685",
+    "summaryPath": "summaries/vanguard.json",
+    "transcriptPath": "transcripts/vanguard.txt",
+    "transcriptJsonPath": "transcripts/vanguard.json",
+    "overview": [
+      "Vanguard became the largest index-fund provider and the biggest shareholder of most U.S. corporations because of one structural choice: the firm is owned by the investors in its own funds, not outside shareholders. That forces it to operate at cost and relentlessly cut fees, transferring an estimated trillion dollars from Wall Street into individual investors' pockets. Bogle's insight was that fund management is a commodity where the lowest cost wins.",
+      "The arc is Jack Bogle himself—fired from Wellington, he mutualized the funds in equal parts idealism and revenge, then endured two decades of subscale struggle before vindication. The deeper tension is founder purity versus scale: the same zealotry that built Vanguard later constrained it, most visibly when Bogle's refusal to launch ETFs got him forced out and handed rivals a durable lead."
+    ],
+    "takeaways": [
+      {
+        "title": "Customer ownership forces rock-bottom fees",
+        "detail": "Because Vanguard's fund investors own the management company, there are no outside shareholders to enrich, so excess profits return to customers as ever-lower fees. Bogle summarized it as 'strategy follows structure'—the ownership design made low cost the only possible strategy."
+      },
+      {
+        "title": "A 1% fee devours retirement savings",
+        "detail": "Fees are charged on total assets, not gains, so a 1% fee is really about 15% of a 7% return. On $100k compounding for 40 years, that turns a $1.5M outcome into $1M—an extra 50% lost to fees."
+      },
+      {
+        "title": "Investors in aggregate are the market",
+        "detail": "Every winning trade has a losing counterparty, so collectively all active managers equal the market and, after fees, the median one must underperform. Owning the index at near-zero cost therefore beat roughly 85% of active managers over a decade."
+      },
+      {
+        "title": "Rejecting ETFs was Bogle's costly blunder",
+        "detail": "Bogle turned away Nathan Most in 1992, fearing exchange trading would tempt speculation and short-selling. State Street launched the first ETF, the SPDR, and BlackRock's iShares built a lead in a market growing 30% a year that Vanguard still trails."
+      },
+      {
+        "title": "No-profit model starves tech and service",
+        "detail": "With no excess profits to reinvest, Vanguard's technology and customer service lagged—described as 'jank' during the pandemic—while Fidelity and BlackRock subsidize near-free funds using profits from brokerage, 401(k), and international businesses Vanguard doesn't have."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Why Vanguard matters to you",
+        "summary": "Sets the stakes: most listeners hold their net worth in Vanguard or its copycats, and it is the largest shareholder of most U.S. corporations.",
+        "quote": "For most of you, you have most of your net worth tied up in this company",
+        "timestamp": "0:58"
+      },
+      {
+        "title": "Bogle's brutal Depression childhood",
+        "summary": "Explains the formative hardship that shaped Bogle: a family that lost everything and boys left to support themselves.",
+        "quote": "they're kind of left to fend for themselves in the world",
+        "timestamp": "8:21"
+      },
+      {
+        "title": "The thesis on Big Money in Boston",
+        "summary": "A Fortune article on the new mutual-fund industry inspires Bogle's Princeton thesis and his early conviction that fees drag returns.",
+        "quote": "entitled Big Money in Boston",
+        "timestamp": "14:41"
+      },
+      {
+        "title": "The go-go years upend Wellington",
+        "summary": "A speculative new era led by Fidelity's Jerry Tsai renders Wellington's conservative style obsolete just as Bogle takes charge.",
+        "quote": "to what would come to be known as the go-go years",
+        "timestamp": "30:52"
+      },
+      {
+        "title": "Bogle's crisis of conscience",
+        "summary": "As the merger backfires and clients lose money, Bogle begins arguing the whole fee-taking structure is wrong.",
+        "quote": "Jack starts to develop a crisis of conscience",
+        "timestamp": "49:31"
+      },
+      {
+        "title": "The loophole that created Vanguard",
+        "summary": "Fired from the management company, Bogle exploits the funds' separate board to seize control of administration—an untested technicality.",
+        "quote": "They were about to find out just how powerful that technicality was",
+        "timestamp": "55:40"
+      },
+      {
+        "title": "Naming Vanguard",
+        "summary": "The new mutualized subsidiary gets its name from an antique naval print, chosen for its connotation of total victory.",
+        "quote": "he decides Vanguard is the name",
+        "timestamp": "1:08:00"
+      },
+      {
+        "title": "The index fund math",
+        "summary": "Bogle realizes an index run near cost can beat most active managers, the seed of his cost-matters hypothesis.",
+        "quote": "But at scale, actually, you could approach zero cost",
+        "timestamp": "1:19:48"
+      },
+      {
+        "title": "A broken IPO",
+        "summary": "The first retail index fund flops at launch, raising a fraction of its target and forcing a rescue merger to survive.",
+        "quote": "They raise $11.3 million",
+        "timestamp": "1:29:30"
+      },
+      {
+        "title": "Passing on ETFs",
+        "summary": "Bogle's refusal to embrace exchange-traded funds hands the category to State Street and BlackRock and precipitates his second ouster.",
+        "quote": "Jack hates this idea. Absolutely hates it",
+        "timestamp": "2:02:18"
+      },
+      {
+        "title": "Buffett's million-dollar bet",
+        "summary": "Warren Buffett wagers the Vanguard 500 will beat hedge funds over a decade—and wins decisively, cementing indexing's credibility.",
+        "quote": "he would bet $1 million of his own money against any and all takers",
+        "timestamp": "2:31:30"
+      },
+      {
+        "title": "What happened to Wellington",
+        "summary": "The rival partners who fired Bogle rebuilt Wellington into a trillion-dollar active manager that still advises Vanguard funds today.",
+        "quote": "they went on to build their own trillion dollar firm",
+        "timestamp": "3:04:58"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Why Vanguard matters to you",
+        "summary": "Sets the stakes: most listeners hold their net worth in Vanguard or its copycats, and it is the largest shareholder of most U.S. corporations.",
+        "quote": "For most of you, you have most of your net worth tied up in this company",
+        "timestamp": "0:58"
+      },
+      {
+        "title": "Bogle's brutal Depression childhood",
+        "summary": "Explains the formative hardship that shaped Bogle: a family that lost everything and boys left to support themselves.",
+        "quote": "they're kind of left to fend for themselves in the world",
+        "timestamp": "8:21"
+      },
+      {
+        "title": "The thesis on Big Money in Boston",
+        "summary": "A Fortune article on the new mutual-fund industry inspires Bogle's Princeton thesis and his early conviction that fees drag returns.",
+        "quote": "entitled Big Money in Boston",
+        "timestamp": "14:41"
+      },
+      {
+        "title": "The go-go years upend Wellington",
+        "summary": "A speculative new era led by Fidelity's Jerry Tsai renders Wellington's conservative style obsolete just as Bogle takes charge.",
+        "quote": "to what would come to be known as the go-go years",
+        "timestamp": "30:52"
+      },
+      {
+        "title": "Bogle's crisis of conscience",
+        "summary": "As the merger backfires and clients lose money, Bogle begins arguing the whole fee-taking structure is wrong.",
+        "quote": "Jack starts to develop a crisis of conscience",
+        "timestamp": "49:31"
+      },
+      {
+        "title": "The loophole that created Vanguard",
+        "summary": "Fired from the management company, Bogle exploits the funds' separate board to seize control of administration—an untested technicality.",
+        "quote": "They were about to find out just how powerful that technicality was",
+        "timestamp": "55:40"
+      },
+      {
+        "title": "Naming Vanguard",
+        "summary": "The new mutualized subsidiary gets its name from an antique naval print, chosen for its connotation of total victory.",
+        "quote": "he decides Vanguard is the name",
+        "timestamp": "1:08:00"
+      },
+      {
+        "title": "The index fund math",
+        "summary": "Bogle realizes an index run near cost can beat most active managers, the seed of his cost-matters hypothesis.",
+        "quote": "But at scale, actually, you could approach zero cost",
+        "timestamp": "1:19:48"
+      },
+      {
+        "title": "A broken IPO",
+        "summary": "The first retail index fund flops at launch, raising a fraction of its target and forcing a rescue merger to survive.",
+        "quote": "They raise $11.3 million",
+        "timestamp": "1:29:30"
+      },
+      {
+        "title": "Passing on ETFs",
+        "summary": "Bogle's refusal to embrace exchange-traded funds hands the category to State Street and BlackRock and precipitates his second ouster.",
+        "quote": "Jack hates this idea. Absolutely hates it",
+        "timestamp": "2:02:18"
+      },
+      {
+        "title": "Buffett's million-dollar bet",
+        "summary": "Warren Buffett wagers the Vanguard 500 will beat hedge funds over a decade—and wins decisively, cementing indexing's credibility.",
+        "quote": "he would bet $1 million of his own money against any and all takers",
+        "timestamp": "2:31:30"
+      },
+      {
+        "title": "What happened to Wellington",
+        "summary": "The rival partners who fired Bogle rebuilt Wellington into a trillion-dollar active manager that still advises Vanguard funds today.",
+        "quote": "they went on to build their own trillion dollar firm",
+        "timestamp": "3:04:58"
+      }
+    ]
+  },
+  {
+    "slug": "ferrari",
+    "guid": "5ad38cec-40ac-43e1-bc70-1c32617e4573",
+    "title": "Ferrari",
+    "pubDate": "Sun, 12 Apr 2026 20:33:59 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/9ca1df08/e400ba0d.mp3",
+    "duration": "14360",
+    "summaryPath": "summaries/ferrari.json",
+    "transcriptPath": "transcripts/ferrari.txt",
+    "transcriptJsonPath": "transcripts/ferrari.json",
+    "overview": [
+      "Ferrari is not a car company but an apex luxury brand disguised as one. It ships roughly 14,000 cars a year, sells about 80% of them to existing owners, and yet commands mass cultural awareness and the highest margins in the auto industry. Its value comes from selling dreams, scarcity, and racing heritage—engineering desire, not transportation—making it uniquely both exclusive like Hermès and inclusive like a global sports team.",
+      "The arc runs on a paradox: tragedy fuels the myth. Enzo Ferrari built the brand around death, speed, and passion, then Luca di Montezemolo reframed the company as a disciplined luxury business. The tension is between the racer's romance and the financier's rigor—culminating in Sergio Marchionne's IPO, which unlocked enormous value while threatening the flexibility and restraint that made Ferrari special in the first place."
+    ],
+    "takeaways": [
+      {
+        "title": "Scarcity is engineered, not accidental",
+        "detail": "Ferrari deliberately delivers one car fewer than market demand and caps the Purosangue SUV at 20% of volume. Selling roughly 80% of cars to existing owners keeps units locked in collectors' garages, preserving the rarity of even seeing one on the street."
+      },
+      {
+        "title": "Supercars generate outsized profits",
+        "detail": "The 799-unit F80 at a ~$4M average price represents about $3.2 billion in sales, and Icona and supercar models carry 80-90% gross margins. One supercar can drive roughly 30% of annual profits in its first year."
+      },
+      {
+        "title": "Racing feeds the myth, not direct sales",
+        "detail": "Montezemolo argued victories don't directly sell cars, but sustained losing starves the fire. The F1 team is both the best marketing spend and, thanks to Liberty Media, now a profit center valued near $6.5 billion."
+      },
+      {
+        "title": "Bespoke manufacturing enables constant new models",
+        "detail": "Because any car can be built on any line with minimal tooling investment, Ferrari launches about four new models yearly and discontinues them fast. This nimbleness lets them keep every unit exclusive—impossible for platform-sharing rivals like Lamborghini."
+      },
+      {
+        "title": "The pyramid keeps clients climbing",
+        "detail": "Ferrari builds infrastructure—clubs, track days, Classiche certification, ever-rarer models—so owners always have something to graduate toward. In luxury, a customer must never feel they've done it all, from first used car to invited-only Icona."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "The Ferrari Paradox",
+        "summary": "Establishes how a company selling to almost nobody achieves near-universal recognition and the industry's highest margins, framing Ferrari as a dream-seller rather than a carmaker.",
+        "quote": "over a billion people know what a Ferrari is",
+        "timestamp": "2:15"
+      },
+      {
+        "title": "Enzo's Origins in Modena",
+        "summary": "Introduces Enzo Ferrari's birth, his difficult family, and the early deaths that would haunt him and shape the company's romance with mortality.",
+        "quote": "the second of two sons",
+        "timestamp": "6:08"
+      },
+      {
+        "title": "The Scuderia Is Born",
+        "summary": "Enzo turns his Alfa Romeo dealership into a private racing team, the first iteration of the Ferrari business and the SF that still adorns the shield.",
+        "quote": "the first iteration of the Ferrari business is born",
+        "timestamp": "20:37"
+      },
+      {
+        "title": "The Prancing Horse",
+        "summary": "The origin of Ferrari's logo, gifted by a war hero's mother, showing Enzo's genius for weaving national myth into brand identity.",
+        "quote": "why don't you paint the black horse on your car?",
+        "timestamp": "26:33"
+      },
+      {
+        "title": "Winning Le Mans, 1949",
+        "summary": "A privately owned Ferrari wins Le Mans, validating the business model: a Ferrari victory sells cars whether or not the factory team runs it.",
+        "quote": "they win. They win Le Mans",
+        "timestamp": "44:41"
+      },
+      {
+        "title": "Tragedy and the Mille Miglia",
+        "summary": "After his son Dino's death, a fatal crash kills spectators and the Vatican condemns Enzo, yet the darkness only deepens the brand's forbidden allure.",
+        "quote": "a modern Saturn become industrial tycoon. He continues to devour his sons",
+        "timestamp": "1:09:31"
+      },
+      {
+        "title": "Ford Versus Ferrari",
+        "summary": "Enzo blows up Ford's acquisition at the finish line, provoking a racing war that only burnishes Ferrari's exclusivity and signals his terms for any deal.",
+        "quote": "we will go to Le Mans and beat his ass",
+        "timestamp": "1:17:49"
+      },
+      {
+        "title": "Selling to Fiat",
+        "summary": "Facing illness and death, Enzo sells to Gianni Agnelli at a rock-bottom valuation while retaining racing control—the moment the 'just a racer' myth crystallizes.",
+        "quote": "there's only one correct buyer for Ferrari. And it's Gianni Agnelli",
+        "timestamp": "1:21:29"
+      },
+      {
+        "title": "Montezemolo's Turnaround",
+        "summary": "Luca returns to a Ferrari beaten by a Honda NSX, and rebuilds the team, the technology, and above all the luxury strategy and the myth.",
+        "quote": "the Ferrari 348 was a shit car",
+        "timestamp": "1:51:59"
+      },
+      {
+        "title": "The IPO and Luca's Exit",
+        "summary": "Marchionne fires Montezemolo and takes Ferrari public to pay down Chrysler debt, unlocking massive value but ending the car-first era.",
+        "quote": "Luca leaving is for me the same as Mr. Enzo dying",
+        "timestamp": "2:33:37"
+      },
+      {
+        "title": "The Electric Ferrari",
+        "summary": "The upcoming Elettrica, designed with Jony Ive, represents a daring bet on a new audience and a parallel universe to Ferrari's petrol-head core.",
+        "quote": "Ferrari's first electric vehicle designed in collaboration with Love From, Johnny Ive",
+        "timestamp": "3:07:28"
+      },
+      {
+        "title": "Margins of a Luxury House",
+        "summary": "The numbers prove the thesis: 50% average gross margins and ~$170,000 profit per car place Ferrari alongside Hermès, not Ford.",
+        "quote": "Ferrari is 50% gross margins. That is a luxury brand",
+        "timestamp": "3:19:21"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "The Ferrari Paradox",
+        "summary": "Establishes how a company selling to almost nobody achieves near-universal recognition and the industry's highest margins, framing Ferrari as a dream-seller rather than a carmaker.",
+        "quote": "over a billion people know what a Ferrari is",
+        "timestamp": "2:15"
+      },
+      {
+        "title": "Enzo's Origins in Modena",
+        "summary": "Introduces Enzo Ferrari's birth, his difficult family, and the early deaths that would haunt him and shape the company's romance with mortality.",
+        "quote": "the second of two sons",
+        "timestamp": "6:08"
+      },
+      {
+        "title": "The Scuderia Is Born",
+        "summary": "Enzo turns his Alfa Romeo dealership into a private racing team, the first iteration of the Ferrari business and the SF that still adorns the shield.",
+        "quote": "the first iteration of the Ferrari business is born",
+        "timestamp": "20:37"
+      },
+      {
+        "title": "The Prancing Horse",
+        "summary": "The origin of Ferrari's logo, gifted by a war hero's mother, showing Enzo's genius for weaving national myth into brand identity.",
+        "quote": "why don't you paint the black horse on your car?",
+        "timestamp": "26:33"
+      },
+      {
+        "title": "Winning Le Mans, 1949",
+        "summary": "A privately owned Ferrari wins Le Mans, validating the business model: a Ferrari victory sells cars whether or not the factory team runs it.",
+        "quote": "they win. They win Le Mans",
+        "timestamp": "44:41"
+      },
+      {
+        "title": "Tragedy and the Mille Miglia",
+        "summary": "After his son Dino's death, a fatal crash kills spectators and the Vatican condemns Enzo, yet the darkness only deepens the brand's forbidden allure.",
+        "quote": "a modern Saturn become industrial tycoon. He continues to devour his sons",
+        "timestamp": "1:09:31"
+      },
+      {
+        "title": "Ford Versus Ferrari",
+        "summary": "Enzo blows up Ford's acquisition at the finish line, provoking a racing war that only burnishes Ferrari's exclusivity and signals his terms for any deal.",
+        "quote": "we will go to Le Mans and beat his ass",
+        "timestamp": "1:17:49"
+      },
+      {
+        "title": "Selling to Fiat",
+        "summary": "Facing illness and death, Enzo sells to Gianni Agnelli at a rock-bottom valuation while retaining racing control—the moment the 'just a racer' myth crystallizes.",
+        "quote": "there's only one correct buyer for Ferrari. And it's Gianni Agnelli",
+        "timestamp": "1:21:29"
+      },
+      {
+        "title": "Montezemolo's Turnaround",
+        "summary": "Luca returns to a Ferrari beaten by a Honda NSX, and rebuilds the team, the technology, and above all the luxury strategy and the myth.",
+        "quote": "the Ferrari 348 was a shit car",
+        "timestamp": "1:51:59"
+      },
+      {
+        "title": "The IPO and Luca's Exit",
+        "summary": "Marchionne fires Montezemolo and takes Ferrari public to pay down Chrysler debt, unlocking massive value but ending the car-first era.",
+        "quote": "Luca leaving is for me the same as Mr. Enzo dying",
+        "timestamp": "2:33:37"
+      },
+      {
+        "title": "The Electric Ferrari",
+        "summary": "The upcoming Elettrica, designed with Jony Ive, represents a daring bet on a new audience and a parallel universe to Ferrari's petrol-head core.",
+        "quote": "Ferrari's first electric vehicle designed in collaboration with Love From, Johnny Ive",
+        "timestamp": "3:07:28"
+      },
+      {
+        "title": "Margins of a Luxury House",
+        "summary": "The numbers prove the thesis: 50% average gross margins and ~$170,000 profit per car place Ferrari alongside Hermès, not Ford.",
+        "quote": "Ferrari is 50% gross margins. That is a luxury brand",
+        "timestamp": "3:19:21"
+      }
+    ]
+  },
+  {
+    "slug": "formula-1",
+    "guid": "82044eb3-e350-42c5-a799-2a2afc150e99",
+    "title": "Formula 1",
+    "pubDate": "Mon, 02 Mar 2026 14:18:59 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/93e7bac7/9d4b12b6.mp3",
+    "duration": "16171",
+    "summaryPath": "summaries/formula-1.json",
+    "transcriptPath": "transcripts/formula-1.txt",
+    "transcriptJsonPath": "transcripts/formula-1.json",
+    "overview": [
+      "Formula One spent decades as a glamorous but ruinous hobby — over 100 teams have entered the sport and mostly gone bankrupt — before professional management turned it into a real business. The episode argues the sport's value was unlocked in two acts: Bernie Ecclestone centralizing race fees and television rights from the 1970s onward, then Liberty Media's 2017 acquisition finally aligning teams, tracks, and fans so every stakeholder makes money.",
+      "The central tension is Bernie Ecclestone himself: the street-fighting dealmaker who made F1 viable while routing its riches through companies he personally owned — taking 8% while promising 2%, selling the sport four times without ever truly owning it. Liberty's takeover inverts his control-over-growth playbook: cost caps make teams profitable, race promoters become partners, and Drive to Survive manufactures millions of fans who never watch a race."
+    ],
+    "takeaways": [
+      {
+        "title": "Cost caps turned money-losing teams into billion-dollar assets",
+        "detail": "Liberty's Concorde Agreement capped car spending at $145M (now ~$170M) while average team revenue is around $430M, so teams that once burned $400–500M a year now approach or exceed profitability. Average team valuations hit $3.6B in 2025 — up 89% in two years — with Haas the floor at $1.5B."
+      },
+      {
+        "title": "Bernie got rich on rights he never owned",
+        "detail": "Ecclestone verbally promised the teams a 2% fee but took 8%, bought out the FIA's 30% share of TV money for a flat $5–9M a year, and secured F1's 100-year commercial rights in a no-bid deal for $360M. Through the 'Bernie bonds' and repeated stake sales he extracted over $3 billion."
+      },
+      {
+        "title": "Drive to Survive built fans who skip races",
+        "detail": "U.S. fandom doubled to 52 million and the female audience grew from 7% to roughly 40%, yet an average U.S. race draws only 1.3 million viewers (3.1M peak for Miami). The fandom monetizes anyway: Oracle's rumored $500M Red Bull sponsorship was directly attributed to the show."
+      },
+      {
+        "title": "Tighter rules shifted competition to loophole exploitation",
+        "detail": "As the FIA banned ground effects (1983) and electronic driver aids (1994), durable advantage moved to gray areas of the rulebook: Ferrari's exclusive custom Bridgestone tire program powered Schumacher's dynasty, and Brawn GP's double diffuser won both 2009 championships before rivals copied it mid-season."
+      },
+      {
+        "title": "F1 monetizes fans at $7 versus NFL's $127",
+        "detail": "830 million global fans generate about $5.5B across the league and teams, while the NFL earns $23B from just 180 million fans. With only 22 races of inventory and no way to add more, growth depends on making each race a Super Bowl and cracking the U.S. media market."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "A sport named after its rulebook",
+        "summary": "The origins: European auto clubs unify their Grand Prix rules under the FIA, and the championship that launches in 1950 is literally named for that shared formula — foreshadowing seventy years of fighting over regulations.",
+        "quote": "the sport is literally named after the rule book",
+        "timestamp": "7:46"
+      },
+      {
+        "title": "Chapman invents sponsorship — and cigarette liveries",
+        "summary": "Colin Chapman, the ex-RAF engineer who realized lightness beat horsepower, breaks the national-racing-colors tradition by painting his Lotus in Gold Leaf Tobacco colors, creating the sponsorship economics that still fund every team.",
+        "quote": "fast cars and cigarette companies",
+        "timestamp": "15:34"
+      },
+      {
+        "title": "Ferrari is Formula One",
+        "summary": "Enzo Ferrari is the only early owner with real business sense, building a luxury brand on racing heritage that legitimizes the whole series — and the quote's author, Bernie Ecclestone, enters as the man who would out-earn the Ferrari mystique.",
+        "quote": "Formula One is Ferrari, and Ferrari is Formula One",
+        "timestamp": "27:40"
+      },
+      {
+        "title": "Bernie's handshake takeover of the money",
+        "summary": "Ecclestone centralizes race-fee negotiations on behalf of the teams, quadrupling payouts in a single year while quietly taking 8% instead of the 2% he promised — the template for his entire 45-year reign.",
+        "quote": "nobody writes anything down because Bernie never writes anything down",
+        "timestamp": "44:59"
+      },
+      {
+        "title": "Ground effects suck the car onto the track",
+        "summary": "The Lotus 79's Venturi tunnels show F1's real contest is engineering: a fluid-dynamics insight — shaping the car like an upside-down wing — wins championships until the FIA bans it as a safety hazard.",
+        "quote": "it cornered as if it was painted to the road",
+        "timestamp": "1:12:40"
+      },
+      {
+        "title": "Selling F1 four times without owning it",
+        "summary": "Eddie Jordan's line captures the financial machinations: a shelved IPO, the $1.4B 'Bernie bonds' issued days before his triple bypass, and dot-com buyers going bankrupt, ending with CVC's ownership and Bernie still in charge.",
+        "quote": "sold Formula One four times, has never bought it back",
+        "timestamp": "1:30:40"
+      },
+      {
+        "title": "Red Bull replaces the cigarette companies",
+        "summary": "As the EU forces tobacco out, an energy-drink marketer buys the failing Jaguar team from Ford for one pound and rewrites what a team can be: a near-zero-profit marketing spectacle that becomes a genuine engineering dynasty.",
+        "quote": "It was a match made in marketing heaven",
+        "timestamp": "2:07:12"
+      },
+      {
+        "title": "The Brawn GP miracle season",
+        "summary": "Ross Brawn buys Honda's abandoned team for one pound, its leftover double-diffuser design wins both 2009 championships, and the team he sells on becomes the Mercedes dynasty — the outlier of outliers in F1 history.",
+        "quote": "he wins six of the first seven races of the season",
+        "timestamp": "2:30:33"
+      },
+      {
+        "title": "Liberty's cost cap fixes the teams",
+        "summary": "Liberty's first Concorde Agreement caps car spending at $145 million, converting teams that torched hundreds of millions a year into real businesses and setting off the explosion in team valuations.",
+        "quote": "It instantly makes every team at least close to break even",
+        "timestamp": "2:51:13"
+      },
+      {
+        "title": "Drive to Survive: office politics as content",
+        "summary": "Netflix's series works by treating F1 as human drama rather than racing — full creative control, a season's delay, and the bottom eight teams — and it remakes the sport's demographics in America almost overnight.",
+        "quote": "the most impactful piece of sports media in history",
+        "timestamp": "3:04:16"
+      },
+      {
+        "title": "The $7 fan and the growth case",
+        "summary": "The bull case in one comparison: F1's 830 million fans are monetized at a twentieth of an NFL fan, so U.S. penetration, competitive media-rights bidding, and a smarter calendar are the remaining levers.",
+        "quote": "Formula One monetizes a fan at $7 per year",
+        "timestamp": "4:08:36"
+      },
+      {
+        "title": "A sport its fans never watch",
+        "summary": "The closing reflection: F1 may be the only sport where a majority of fans engage through a Netflix show, merch, and storylines rather than live races — the strangest and most durable legacy of Liberty's transformation.",
+        "quote": "durably popular with a giant group of people who never watch the sport",
+        "timestamp": "4:16:39"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "A sport named after its rulebook",
+        "summary": "The origins: European auto clubs unify their Grand Prix rules under the FIA, and the championship that launches in 1950 is literally named for that shared formula — foreshadowing seventy years of fighting over regulations.",
+        "quote": "the sport is literally named after the rule book",
+        "timestamp": "7:46"
+      },
+      {
+        "title": "Chapman invents sponsorship — and cigarette liveries",
+        "summary": "Colin Chapman, the ex-RAF engineer who realized lightness beat horsepower, breaks the national-racing-colors tradition by painting his Lotus in Gold Leaf Tobacco colors, creating the sponsorship economics that still fund every team.",
+        "quote": "fast cars and cigarette companies",
+        "timestamp": "15:34"
+      },
+      {
+        "title": "Ferrari is Formula One",
+        "summary": "Enzo Ferrari is the only early owner with real business sense, building a luxury brand on racing heritage that legitimizes the whole series — and the quote's author, Bernie Ecclestone, enters as the man who would out-earn the Ferrari mystique.",
+        "quote": "Formula One is Ferrari, and Ferrari is Formula One",
+        "timestamp": "27:40"
+      },
+      {
+        "title": "Bernie's handshake takeover of the money",
+        "summary": "Ecclestone centralizes race-fee negotiations on behalf of the teams, quadrupling payouts in a single year while quietly taking 8% instead of the 2% he promised — the template for his entire 45-year reign.",
+        "quote": "nobody writes anything down because Bernie never writes anything down",
+        "timestamp": "44:59"
+      },
+      {
+        "title": "Ground effects suck the car onto the track",
+        "summary": "The Lotus 79's Venturi tunnels show F1's real contest is engineering: a fluid-dynamics insight — shaping the car like an upside-down wing — wins championships until the FIA bans it as a safety hazard.",
+        "quote": "it cornered as if it was painted to the road",
+        "timestamp": "1:12:40"
+      },
+      {
+        "title": "Selling F1 four times without owning it",
+        "summary": "Eddie Jordan's line captures the financial machinations: a shelved IPO, the $1.4B 'Bernie bonds' issued days before his triple bypass, and dot-com buyers going bankrupt, ending with CVC's ownership and Bernie still in charge.",
+        "quote": "sold Formula One four times, has never bought it back",
+        "timestamp": "1:30:40"
+      },
+      {
+        "title": "Red Bull replaces the cigarette companies",
+        "summary": "As the EU forces tobacco out, an energy-drink marketer buys the failing Jaguar team from Ford for one pound and rewrites what a team can be: a near-zero-profit marketing spectacle that becomes a genuine engineering dynasty.",
+        "quote": "It was a match made in marketing heaven",
+        "timestamp": "2:07:12"
+      },
+      {
+        "title": "The Brawn GP miracle season",
+        "summary": "Ross Brawn buys Honda's abandoned team for one pound, its leftover double-diffuser design wins both 2009 championships, and the team he sells on becomes the Mercedes dynasty — the outlier of outliers in F1 history.",
+        "quote": "he wins six of the first seven races of the season",
+        "timestamp": "2:30:33"
+      },
+      {
+        "title": "Liberty's cost cap fixes the teams",
+        "summary": "Liberty's first Concorde Agreement caps car spending at $145 million, converting teams that torched hundreds of millions a year into real businesses and setting off the explosion in team valuations.",
+        "quote": "It instantly makes every team at least close to break even",
+        "timestamp": "2:51:13"
+      },
+      {
+        "title": "Drive to Survive: office politics as content",
+        "summary": "Netflix's series works by treating F1 as human drama rather than racing — full creative control, a season's delay, and the bottom eight teams — and it remakes the sport's demographics in America almost overnight.",
+        "quote": "the most impactful piece of sports media in history",
+        "timestamp": "3:04:16"
+      },
+      {
+        "title": "The $7 fan and the growth case",
+        "summary": "The bull case in one comparison: F1's 830 million fans are monetized at a twentieth of an NFL fan, so U.S. penetration, competitive media-rights bidding, and a smarter calendar are the remaining levers.",
+        "quote": "Formula One monetizes a fan at $7 per year",
+        "timestamp": "4:08:36"
+      },
+      {
+        "title": "A sport its fans never watch",
+        "summary": "The closing reflection: F1 may be the only sport where a majority of fans engage through a Netflix show, merch, and storylines rather than live races — the strangest and most durable legacy of Liberty's transformation.",
+        "quote": "durably popular with a giant group of people who never watch the sport",
+        "timestamp": "4:16:39"
+      }
+    ]
+  },
+  {
+    "slug": "the-nfl",
+    "guid": "772a1689-5d6a-4d66-8469-95b8eb41dfd3",
+    "title": "The NFL",
+    "pubDate": "Mon, 26 Jan 2026 18:50:40 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/87d6503d/b2af8272.mp3",
+    "duration": "15438",
+    "summaryPath": "summaries/the-nfl.json",
+    "transcriptPath": "transcripts/the-nfl.txt",
+    "transcriptJsonPath": "transcripts/the-nfl.json",
+    "overview": [
+      "The NFL became America's dominant media property through 'league-first' communist capitalism: owners repeatedly sacrificed individual revenue — pooling national TV rights, merchandise, and gate splits — to fund engineered parity where any team can win on any given Sunday. That parity keeps every game dramatic, which makes football the last content that reliably gathers a mass audience, letting the league extract ever-larger sums from networks and now tech platforms.",
+      "The episode's central arc is that competition and crisis, not foresight, built the league: the AAFC forced expansion and parity, and the AFL forced pooled TV rights and the merger that created the Super Bowl. The unresolved tension is whether the collective ethos survives — unshared local revenue, the CTE coverup, and stagnant domestic reach strain it, even as gambling, streaming, Taylor Swift, and private equity push values to records."
+    ],
+    "takeaways": [
+      {
+        "title": "Competition repeatedly forced the NFL's best moves",
+        "detail": "The league only moved west, integrated, and embraced parity after the AAFC threatened it in 1946, and only pooled national TV rights after the AFL's 1960 ABC deal. Each existential rival left the NFL structurally stronger once beaten or absorbed."
+      },
+      {
+        "title": "Engineered parity makes every game watchable television",
+        "detail": "Burt Bell stacked schedules so records converged and created the reverse-order draft after the Browns' AAFC dominance proved a foregone conclusion kills attendance. Equal sharing of TV and merchandise money means Green Bay, roughly the 200th US media market, remains viable alongside Dallas."
+      },
+      {
+        "title": "Congressional antitrust exemptions underpin the NFL's moat",
+        "detail": "Courts struck down the first pooled CBS contract, so the Kennedy-backed 1961 Sports Broadcasting Act legalized league-wide TV deals — the foundation of every rights package since. The 1966 merger needed a second exemption, traded for promising New Orleans a franchise."
+      },
+      {
+        "title": "The NFL outsources production but captures profits",
+        "detail": "Broadcasters pay roughly $44 million per game in rights, shoulder all production costs, then compete each other's margins toward zero because football is the last content viewers reliably watch. The league even resells those same broadcasts again through Sunday Ticket for about $2 billion a year."
+      },
+      {
+        "title": "Betting and streaming reignited stagnant viewership growth",
+        "detail": "Legal sports betting grew from 46 million to 76 million American bettors in three years, with Nielsen estimating a $2.3 billion annual indirect benefit to the league. Ratings hit a 36-year high while YouTube and Netflix opened free, global distribution the broadcast networks never could."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Mob football comes to Rutgers, 1869",
+        "summary": "Football begins as a violent, nearly rule-less college rite of passage, which explains why professional play was long viewed as profaning an amateur ideal — the cultural obstacle the NFL spent decades overcoming.",
+        "quote": "We start on November 6th, 1869, on the campus of Rutgers University",
+        "timestamp": "5:41"
+      },
+      {
+        "title": "Founding the NFL around Jim Thorpe",
+        "summary": "The 1920 Canton meeting sets a three-part legitimacy plan — never raid the college game, standardize rules, and install the world's greatest athlete as president — that still shapes the league a century later.",
+        "quote": "they're going to make Jim Thorpe the president of the league",
+        "timestamp": "17:25"
+      },
+      {
+        "title": "The Browns teach the parity lesson",
+        "summary": "The rival AAFC folds because Paul Brown's team wins everything, proving dominance is boring. This counterexample becomes the NFL's core doctrine that competitive balance is the product.",
+        "quote": "the football that people will watch is the most entertaining game",
+        "timestamp": "35:41"
+      },
+      {
+        "title": "Lamar Hunt's eureka creates the AFL",
+        "summary": "Rebuffed by NFL owners, Hunt realizes the rejected buyers can form their own league — the challenge that forces the NFL into national television and eventually the merger.",
+        "quote": "Why don't I call them and we'll start our own league?",
+        "timestamp": "56:09"
+      },
+      {
+        "title": "Pete Rozelle, the accidental visionary commissioner",
+        "summary": "After 23 deadlocked votes, owners settle on a 33-year-old PR man who moves headquarters to New York, manufactures the league's narrative machine, and builds NFL Films and Enterprises within years.",
+        "quote": "nobody better embodied everything about America in the 50s and 60s",
+        "timestamp": "1:04:17"
+      },
+      {
+        "title": "Kennedy signs the Sports Broadcasting Act",
+        "summary": "Courts void Rozelle's pooled CBS deal as antitrust, so his political cultivation delivers a bespoke congressional exemption — the legal bedrock of every NFL media contract since 1961.",
+        "quote": "he literally hosts a party at the White House for the NFL",
+        "timestamp": "1:14:18"
+      },
+      {
+        "title": "Al Davis's war forces the merger",
+        "summary": "A poached kicker triggers all-out quarterback signing raids, and Davis's escalation hands the AFL leverage to merge for $18 million total instead of the $50 million per team the NFL first demanded.",
+        "quote": "we will destroy them and they will come begging to the table",
+        "timestamp": "1:45:05"
+      },
+      {
+        "title": "Monday Night Football invents primetime showbiz",
+        "summary": "Rozelle and Roone Arledge treat football as show business — highlights, a three-man booth, 17 cameras — drawing 60 million households and proving sports could own primetime.",
+        "quote": "They totally invented a weekly holiday.",
+        "timestamp": "2:16:40"
+      },
+      {
+        "title": "The CTE coverup breaks trust",
+        "summary": "The league buried its own concussion research for decades before acknowledging the link in 2016, a betrayal that dents youth participation and threatens Gen Z's attachment to the sport.",
+        "quote": "the NFL knew it, and they covered it up",
+        "timestamp": "2:40:35"
+      },
+      {
+        "title": "Power analysis: the ultimate cornered resource",
+        "summary": "The hosts conclude the NFL's moat isn't brand but exclusive control of the world's best players, which is why rival leagues fail regardless of funding and why the antitrust exemptions matter so much.",
+        "quote": "this is like maybe the most clear cornered resource that we've ever had",
+        "timestamp": "3:09:41"
+      },
+      {
+        "title": "The Taylor Swift effect, quantified",
+        "summary": "The 2026 update shows the crossover measurably expanded the fan base — especially women under 35, a demographic the league had never cracked — flipping the Chiefs' audience to majority female.",
+        "quote": "the NFL added 4 million female fans",
+        "timestamp": "3:45:09"
+      },
+      {
+        "title": "Private equity enters — and pays carry",
+        "summary": "The Commanders' distressed sale exposes the limits of the family-ownership model, so the league admits four anointed firms at a 10% cap while skimming their exit profits for all 32 owners, driving valuations up 62% in three years.",
+        "quote": "The NFL invented a way to charge carry on investor ownership",
+        "timestamp": "4:06:35"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Mob football comes to Rutgers, 1869",
+        "summary": "Football begins as a violent, nearly rule-less college rite of passage, which explains why professional play was long viewed as profaning an amateur ideal — the cultural obstacle the NFL spent decades overcoming.",
+        "quote": "We start on November 6th, 1869, on the campus of Rutgers University",
+        "timestamp": "5:41"
+      },
+      {
+        "title": "Founding the NFL around Jim Thorpe",
+        "summary": "The 1920 Canton meeting sets a three-part legitimacy plan — never raid the college game, standardize rules, and install the world's greatest athlete as president — that still shapes the league a century later.",
+        "quote": "they're going to make Jim Thorpe the president of the league",
+        "timestamp": "17:25"
+      },
+      {
+        "title": "The Browns teach the parity lesson",
+        "summary": "The rival AAFC folds because Paul Brown's team wins everything, proving dominance is boring. This counterexample becomes the NFL's core doctrine that competitive balance is the product.",
+        "quote": "the football that people will watch is the most entertaining game",
+        "timestamp": "35:41"
+      },
+      {
+        "title": "Lamar Hunt's eureka creates the AFL",
+        "summary": "Rebuffed by NFL owners, Hunt realizes the rejected buyers can form their own league — the challenge that forces the NFL into national television and eventually the merger.",
+        "quote": "Why don't I call them and we'll start our own league?",
+        "timestamp": "56:09"
+      },
+      {
+        "title": "Pete Rozelle, the accidental visionary commissioner",
+        "summary": "After 23 deadlocked votes, owners settle on a 33-year-old PR man who moves headquarters to New York, manufactures the league's narrative machine, and builds NFL Films and Enterprises within years.",
+        "quote": "nobody better embodied everything about America in the 50s and 60s",
+        "timestamp": "1:04:17"
+      },
+      {
+        "title": "Kennedy signs the Sports Broadcasting Act",
+        "summary": "Courts void Rozelle's pooled CBS deal as antitrust, so his political cultivation delivers a bespoke congressional exemption — the legal bedrock of every NFL media contract since 1961.",
+        "quote": "he literally hosts a party at the White House for the NFL",
+        "timestamp": "1:14:18"
+      },
+      {
+        "title": "Al Davis's war forces the merger",
+        "summary": "A poached kicker triggers all-out quarterback signing raids, and Davis's escalation hands the AFL leverage to merge for $18 million total instead of the $50 million per team the NFL first demanded.",
+        "quote": "we will destroy them and they will come begging to the table",
+        "timestamp": "1:45:05"
+      },
+      {
+        "title": "Monday Night Football invents primetime showbiz",
+        "summary": "Rozelle and Roone Arledge treat football as show business — highlights, a three-man booth, 17 cameras — drawing 60 million households and proving sports could own primetime.",
+        "quote": "They totally invented a weekly holiday.",
+        "timestamp": "2:16:40"
+      },
+      {
+        "title": "The CTE coverup breaks trust",
+        "summary": "The league buried its own concussion research for decades before acknowledging the link in 2016, a betrayal that dents youth participation and threatens Gen Z's attachment to the sport.",
+        "quote": "the NFL knew it, and they covered it up",
+        "timestamp": "2:40:35"
+      },
+      {
+        "title": "Power analysis: the ultimate cornered resource",
+        "summary": "The hosts conclude the NFL's moat isn't brand but exclusive control of the world's best players, which is why rival leagues fail regardless of funding and why the antitrust exemptions matter so much.",
+        "quote": "this is like maybe the most clear cornered resource that we've ever had",
+        "timestamp": "3:09:41"
+      },
+      {
+        "title": "The Taylor Swift effect, quantified",
+        "summary": "The 2026 update shows the crossover measurably expanded the fan base — especially women under 35, a demographic the league had never cracked — flipping the Chiefs' audience to majority female.",
+        "quote": "the NFL added 4 million female fans",
+        "timestamp": "3:45:09"
+      },
+      {
+        "title": "Private equity enters — and pays carry",
+        "summary": "The Commanders' distressed sale exposes the limits of the family-ownership model, so the league admits four anointed firms at a 10% cap while skimming their exit profits for all 32 owners, driving valuations up 62% in three years.",
+        "quote": "The NFL invented a way to charge carry on investor ownership",
+        "timestamp": "4:06:35"
+      }
+    ]
+  },
+  {
     "slug": "10-years-of-acquired-with-michael-lewis",
     "guid": "c9b69067-78a8-43f4-9a12-b4522af47d1b",
     "title": "10 Years of Acquired (with Michael Lewis)",
     "pubDate": "Sun, 14 Dec 2025 20:19:45 -0800",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/0f470567/18269289.mp3",
-    "duration": "10057",
+    "duration": "9474",
     "summaryPath": "summaries/10-years-of-acquired-with-michael-lewis.json",
     "transcriptPath": "transcripts/10-years-of-acquired-with-michael-lewis.txt",
     "transcriptJsonPath": "transcripts/10-years-of-acquired-with-michael-lewis.json",
-    "overview": "Michael Lewis joins Ben Gilbert and David Rosenthal in Google’s original garage to examine why Acquired survived ten years while most podcasts disappear. The conversation moves beyond an anniversary retrospective into a practical study of craft: how the show found its real subject, rebuilt its business after a sudden revenue drop, researches company histories, cuts hours of recorded material, and deliberately resists the pressure to become a conventional media company. The result is less a victory lap than a field guide to making unusually deep work sustainable.",
+    "overview": [
+      "Michael Lewis joins Ben Gilbert and David Rosenthal to ask why Acquired survived for ten years when most podcasts disappear. Their answer is not a single breakthrough: the show gradually discovered that its real product was deeply researched company storytelling, not acquisition scorecards.",
+      "The episode follows the choices that made that work sustainable—rebuilding the business after a 40% revenue drop, interviewing primary sources, cutting anything that drags, and resisting pressure to turn a successful creative practice into a larger media company."
+    ],
     "takeaways": [
-      "Acquired found its audience when it stopped treating acquisitions as the product and recognized that listeners wanted story and strategy.",
-      "A 40% revenue drop forced a better model: fewer episodes, far more preparation, and sponsors that value a concentrated audience.",
-      "Research quality comes from triangulating books and archives with dozens of background calls—and publishing corrections when the record is wrong.",
-      "The signature sound is created in the edit: multiple passes remove roughly an hour, including anything that feels slow even after enormous research effort.",
-      "The hosts chose creative freedom over building a larger media enterprise, treating independence and repeatable process as strategic advantages."
+      {
+        "title": "The format followed the audience",
+        "detail": "Listeners cared more about company stories and strategic decisions than acquisition grades. Recognizing that behavior let Acquired become a different—and much stronger—show."
+      },
+      {
+        "title": "A revenue shock improved the model",
+        "detail": "Losing roughly 40% of revenue forced the hosts to publish less often, prepare far more deeply, and work with sponsors that valued a concentrated audience."
+      },
+      {
+        "title": "Primary sources change the record",
+        "detail": "Books provide structure, but dozens of background conversations reveal where familiar stories are incomplete or wrong. Corrections are treated as part of the research product."
+      },
+      {
+        "title": "The show is made in editing",
+        "detail": "The team removes about an hour through repeated listening passes. Material is cut whenever it feels slow, even when it required substantial research to produce."
+      },
+      {
+        "title": "Independence is a strategic choice",
+        "detail": "The hosts repeatedly decline the obvious path toward a larger media company. Protecting creative freedom and a repeatable process matters more than maximizing organizational scale."
+      }
     ],
     "chapters": [
+      {
+        "title": "Why this podcast made it to ten",
+        "summary": "From Google’s first garage office, the hosts bring in Michael Lewis to reverse-engineer why Acquired endured when nearly every podcast does not.",
+        "quote": "Why Acquired worked when 99% of podcasts do not",
+        "timestamp": "0:40"
+      },
+      {
+        "title": "The early show was a different creature",
+        "summary": "Lewis listens back to the first episodes and pushes the hosts to name what they learned as the format grew beyond acquisition scorecards.",
+        "quote": "That first episode, you're almost like different people",
+        "timestamp": "18:38"
+      },
+      {
+        "title": "The audience wanted story and strategy",
+        "summary": "A painful revenue shock and repeated listener feedback reveal the real product: deeply reported narratives about important companies and the choices that shaped them.",
+        "quote": "They want to hear the story and strategy",
+        "timestamp": "37:17"
+      },
+      {
+        "title": "Research means correcting the record",
+        "summary": "Books remain the foundation, but background interviews become essential for finding misunderstood events, challenging inherited errors, and publishing errata.",
+        "quote": "What incorrect stories are out there?",
+        "timestamp": "55:57"
+      },
+      {
+        "title": "The edit is where the show becomes Acquired",
+        "summary": "After recording, the team makes hundreds of additional cuts over several days. Listening at normal speed exposes drag that a transcript alone cannot reveal.",
+        "quote": "You have to feel where you get bored",
+        "timestamp": "1:13:55"
+      },
+      {
+        "title": "Avoiding a successful prison",
+        "summary": "The hosts question whether they should build a larger media company. Advice from a renowned investor reframes restraint as an achievement rather than a lack of ambition.",
+        "quote": "Founders become trapped in prisons of their own making",
+        "timestamp": "1:32:36"
+      },
+      {
+        "title": "The Costco lesson: find the right source",
+        "summary": "After over-researching Nike, the Costco episode succeeds with one strong book and an extraordinary primary-source meeting—proof that volume is not the same as insight.",
+        "quote": "Let's find the one book—the right book",
+        "timestamp": "1:50:26"
+      },
+      {
+        "title": "Process power is the hidden moat",
+        "summary": "Applying the Seven Powers framework to Acquired surfaces a less visible advantage: a production process that is hard to describe, repeat, or copy quickly.",
+        "quote": "We kind of fail to articulate how an episode comes together",
+        "timestamp": "2:09:26"
+      },
+      {
+        "title": "Why long audio becomes place-specific memory",
+        "summary": "The final stretch turns to listening habits and the intimacy of podcasts—the peculiar way a long episode becomes tied to where the listener heard it.",
+        "quote": "You remember a place",
+        "timestamp": "2:27:28"
+      }
+    ],
+    "bullets": [
       {
         "title": "Why this podcast made it to ten",
         "summary": "From Google’s first garage office, the hosts bring in Michael Lewis to reverse-engineer why Acquired endured when nearly every podcast does not.",

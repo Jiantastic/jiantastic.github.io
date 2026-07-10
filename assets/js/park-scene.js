@@ -47,11 +47,12 @@ if (canvas && hero) {
 
     void main() {
       vec2 uv = coverUv(v_uv);
+      uv = (uv - 0.5) * 0.965 + 0.5;
 
-      // Foreground shifts most, mountains least: a restrained 2.5D depth cue.
+      // Foreground shifts most, mountains least: a readable 2.5D depth cue.
       float foreground = pow(1.0 - v_uv.y, 2.1);
       float midground = smoothstep(0.18, 0.68, 1.0 - v_uv.y);
-      uv += u_pointer * (0.003 + foreground * 0.014 + midground * 0.003);
+      uv += u_pointer * (0.007 + foreground * 0.028 + midground * 0.006);
 
       // Only the lake region receives a minute animated refraction.
       float waterX = smoothstep(0.40, 0.62, v_uv.x);
@@ -123,6 +124,7 @@ if (canvas && hero) {
         const texture = gl.createTexture();
         const photo = new Image();
         const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+        const coarsePointer = window.matchMedia("(pointer: coarse)");
         const pointer = { x: 0, y: 0, targetX: 0, targetY: 0 };
         let visible = !document.hidden;
         let animationFrame = 0;
@@ -151,6 +153,10 @@ if (canvas && hero) {
           resize();
           pointer.x += (pointer.targetX - pointer.x) * 0.075;
           pointer.y += (pointer.targetY - pointer.y) * 0.075;
+          hero.style.setProperty("--look-x", `${(-pointer.x * 10).toFixed(2)}px`);
+          hero.style.setProperty("--look-y", `${(pointer.y * 8).toFixed(2)}px`);
+          hero.style.setProperty("--badge-x", `${(pointer.x * 17).toFixed(2)}px`);
+          hero.style.setProperty("--badge-y", `${(-pointer.y * 13).toFixed(2)}px`);
           gl.uniform2f(pointerLocation, pointer.x, pointer.y);
           gl.uniform1f(timeLocation, reducedMotion.matches ? 0 : timestamp / 1000);
           gl.drawArrays(gl.TRIANGLES, 0, 6);
@@ -173,15 +179,30 @@ if (canvas && hero) {
         }, { once: true });
 
         hero.addEventListener("pointermove", (event) => {
-          if (event.pointerType === "touch") return;
           const bounds = hero.getBoundingClientRect();
-          pointer.targetX = ((event.clientX - bounds.left) / bounds.width - 0.5) * 1.2;
-          pointer.targetY = (0.5 - (event.clientY - bounds.top) / bounds.height) * 0.9;
+          const strength = event.pointerType === "touch" ? 0.55 : 1.2;
+          pointer.targetX = ((event.clientX - bounds.left) / bounds.width - 0.5) * strength;
+          if (event.pointerType !== "touch") {
+            pointer.targetY = (0.5 - (event.clientY - bounds.top) / bounds.height) * 0.9;
+          }
+          hero.classList.add("is-looking");
         }, { passive: true });
         hero.addEventListener("pointerleave", () => {
+          if (coarsePointer.matches) return;
           pointer.targetX = 0;
           pointer.targetY = 0;
         });
+
+        function updateScrollLook() {
+          if (!coarsePointer.matches || reducedMotion.matches) return;
+          const bounds = hero.getBoundingClientRect();
+          const travel = bounds.height + window.innerHeight;
+          const progress = Math.min(1, Math.max(0, (window.innerHeight - bounds.top) / travel));
+          pointer.targetY = (0.5 - progress) * 0.42;
+          pointer.targetX = Math.sin(progress * Math.PI * 1.5) * 0.14;
+        }
+        updateScrollLook();
+        window.addEventListener("scroll", updateScrollLook, { passive: true });
 
         document.addEventListener("visibilitychange", () => {
           visible = !document.hidden;

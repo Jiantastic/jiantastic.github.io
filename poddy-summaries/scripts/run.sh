@@ -104,10 +104,10 @@ while IFS= read -r ep; do
 
   IFS= read -r -d '' prompt <<'EOF' || true
 You are producing a useful full-episode listening guide.
-The transcript below has inline timestamps in [MM:SS] format.
+The transcript below is grouped into timestamped paragraphs.
 Return JSON with:
-- `overview`: one accurate paragraph, under 120 words.
-- `takeaways`: exactly five durable insights, each one sentence.
+- `overview`: exactly two concise paragraphs as an array of strings. The first states the episode's central argument; the second explains the most important arc or tension. Each paragraph must be under 80 words.
+- `takeaways`: exactly five objects shaped as {"title":"","detail":""}. The title is a specific claim of no more than eight words. The detail explains the evidence, mechanism, or consequence in one or two concrete sentences. Avoid generic lessons.
 - `chapters`: 8-12 items distributed across the entire runtime, including the beginning, middle, and final quarter. Do not cluster chapters in the introduction.
 Each chapter: {"title":"","summary":"","quote":"","timestamp":"H:MM:SS"}
 - `title`: a specific, useful chapter heading.
@@ -130,8 +130,11 @@ EOF
 
   if ! jq -e '
     type == "object" and
-    (.overview | type == "string" and length > 0) and
-    (.takeaways | type == "array" and length == 5 and all(.[]; type == "string" and length > 0)) and
+    (.overview | type == "array" and length == 2 and all(.[]; type == "string" and length > 0)) and
+    (.takeaways | type == "array" and length == 5 and all(.[];
+      (.title | type == "string" and length > 0) and
+      (.detail | type == "string" and length > 0)
+    )) and
     (.chapters | type == "array" and length >= 8 and length <= 12 and all(.[];
       (.title | type == "string" and length > 0) and
       (.summary | type == "string" and length > 0) and

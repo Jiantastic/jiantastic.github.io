@@ -1,12 +1,10 @@
 const DATA_BASE = "./data/acquired";
-const TRANSCRIPT_PAGE_SIZE = 120;
 
 const state = {
   episodes: [],
   current: null,
-  transcriptSegments: [],
+  transcriptParagraphs: [],
   transcriptLoadedSlug: "",
-  transcriptLimit: TRANSCRIPT_PAGE_SIZE,
   activeTab: "overview",
 };
 
@@ -71,10 +69,43 @@ function initDom() {
     totalTime: "audio-total",
     rate: "playback-rate",
     transcriptBox: "transcript-box",
-    transcriptSearch: "transcript-search",
     transcriptStatus: "transcript-status",
-    transcriptMore: "transcript-more",
   })) dom[key] = document.getElementById(id);
+}
+
+function groupTranscriptSegments(segments, options = {}) {
+  const targetWords = options.targetWords ?? 80;
+  const maxWords = options.maxWords ?? 125;
+  const maxSeconds = options.maxSeconds ?? 75;
+  const paragraphs = [];
+  let current = null;
+
+  const flush = () => {
+    if (current?.parts.length) {
+      paragraphs.push({
+        start: current.start,
+        end: current.end,
+        text: current.parts.join(" "),
+      });
+    }
+    current = null;
+  };
+
+  (Array.isArray(segments) ? segments : []).forEach((segment) => {
+    const text = String(segment?.text || "").trim().replace(/\s+/g, " ");
+    if (!text) return;
+    const start = Number(segment.start) || 0;
+    const end = Number(segment.end) || start;
+    if (!current) current = { start, end, parts: [], words: 0 };
+    current.end = end;
+    current.parts.push(text);
+    current.words += text.split(/\s+/).length;
+    const elapsed = Math.max(0, current.end - current.start);
+    const endsSentence = /[.!?]["”’]?$/u.test(text);
+    if ((current.words >= targetWords && endsSentence) || current.words >= maxWords || elapsed >= maxSeconds) flush();
+  });
+  flush();
+  return paragraphs;
 }
 
 async function loadEpisodes() {
@@ -114,9 +145,8 @@ function setEpisode(slug) {
   const episode = state.episodes.find((item) => item.slug === slug);
   if (!episode) return;
   state.current = episode;
-  state.transcriptSegments = [];
+  state.transcriptParagraphs = [];
   state.transcriptLoadedSlug = "";
-  state.transcriptLimit = TRANSCRIPT_PAGE_SIZE;
   dom.select.value = episode.slug;
   dom.title.textContent = episode.title;
   dom.date.textContent = formatEpisodeDate(episode.pubDate);
@@ -133,9 +163,7 @@ function setEpisode(slug) {
   renderOverview(episode);
   renderChapters(episode);
   dom.transcriptBox.replaceChildren();
-  dom.transcriptSearch.value = "";
   dom.transcriptStatus.textContent = "Open this tab to load the transcript.";
-  dom.transcriptMore.hidden = true;
   if (state.activeTab === "transcript") loadTranscript(episode);
 
   if ("mediaSession" in navigator && "MediaMetadata" in window) {
@@ -148,12 +176,30 @@ function setEpisode(slug) {
 }
 
 function renderOverview(episode) {
-  dom.overview.textContent = episode.overview || "A chaptered guide is not available for this episode yet.";
+  dom.overview.replaceChildren();
+  const overview = Array.isArray(episode.overview)
+    ? episode.overview
+    : [episode.overview || "A guide is not available for this episode yet."];
+  overview.filter(Boolean).forEach((paragraph) => {
+    const text = document.createElement("p");
+    text.textContent = paragraph;
+    dom.overview.appendChild(text);
+  });
   dom.takeaways.replaceChildren();
   const takeaways = Array.isArray(episode.takeaways) ? episode.takeaways : [];
   takeaways.forEach((takeaway) => {
     const item = document.createElement("li");
-    item.textContent = takeaway;
+    if (takeaway && typeof takeaway === "object") {
+      const title = document.createElement("strong");
+      const detail = document.createElement("span");
+      title.textContent = takeaway.title || "Key idea";
+      detail.textContent = takeaway.detail || "";
+      item.append(title, detail);
+    } else {
+      const detail = document.createElement("span");
+      detail.textContent = takeaway;
+      item.appendChild(detail);
+    }
     dom.takeaways.appendChild(item);
   });
 }
@@ -251,41 +297,36 @@ async function loadTranscript(episode) {
     if (!response.ok) throw new Error("Transcript fetch failed.");
     const data = await response.json();
     if (state.current?.slug !== episode.slug) return;
-    state.transcriptSegments = Array.isArray(data.segments) ? data.segments : [];
-    state.transcriptLimit = TRANSCRIPT_PAGE_SIZE;
+    state.transcriptParagraphs = Array.isArray(data.paragraphs) && data.paragraphs.length
+      ? data.paragraphs
+      : groupTranscriptSegments(data.segments);
     renderTranscript();
   } catch (error) {
     state.transcriptLoadedSlug = "";
-    state.transcriptSegments = [];
+    state.transcriptParagraphs = [];
     dom.transcriptStatus.textContent = "Transcript unavailable.";
   }
 }
 
 function renderTranscript() {
-  const query = dom.transcriptSearch.value.trim().toLocaleLowerCase();
-  const matches = query
-    ? state.transcriptSegments.filter((segment) => segment.text?.toLocaleLowerCase().includes(query))
-    : state.transcriptSegments;
-  const visible = matches.slice(0, state.transcriptLimit);
   const fragment = document.createDocumentFragment();
-  visible.forEach((segment) => {
+  state.transcriptParagraphs.forEach((paragraph) => {
     const row = document.createElement("article");
     const time = document.createElement("button");
     const text = document.createElement("p");
     row.className = "transcript-segment";
     time.type = "button";
-    time.textContent = formatTimestamp(segment.start);
-    time.setAttribute("aria-label", `Play from ${formatTimestamp(segment.start)}`);
-    time.addEventListener("click", () => playFrom(Number(segment.start)));
-    text.textContent = segment.text?.trim() || "";
+    time.textContent = formatTimestamp(paragraph.start);
+    time.setAttribute("aria-label", `Play from ${formatTimestamp(paragraph.start)}`);
+    time.addEventListener("click", () => playFrom(Number(paragraph.start)));
+    text.textContent = paragraph.text?.trim() || "";
     row.append(time, text);
     fragment.appendChild(row);
   });
   dom.transcriptBox.replaceChildren(fragment);
-  dom.transcriptStatus.textContent = matches.length
-    ? `Showing ${visible.length.toLocaleString()} of ${matches.length.toLocaleString()} transcript segments.`
-    : `No transcript results for “${dom.transcriptSearch.value.trim()}”.`;
-  dom.transcriptMore.hidden = visible.length >= matches.length;
+  dom.transcriptStatus.textContent = state.transcriptParagraphs.length
+    ? `${state.transcriptParagraphs.length.toLocaleString()} timestamped paragraphs. Use Control-F or Command-F to find anything.`
+    : "Transcript unavailable.";
 }
 
 function bindEvents() {
@@ -319,15 +360,6 @@ function bindEvents() {
       next.focus();
     });
   });
-  dom.transcriptSearch.addEventListener("input", () => {
-    state.transcriptLimit = TRANSCRIPT_PAGE_SIZE;
-    renderTranscript();
-  });
-  dom.transcriptMore.addEventListener("click", () => {
-    state.transcriptLimit += TRANSCRIPT_PAGE_SIZE;
-    renderTranscript();
-  });
-
   if ("mediaSession" in navigator) {
     const setMediaAction = (action, handler) => {
       try { navigator.mediaSession.setActionHandler(action, handler); } catch (error) { /* Unsupported action on this browser. */ }
@@ -349,4 +381,4 @@ function initApp() {
 
 if (typeof document !== "undefined") initApp();
 
-export { formatDuration, formatEpisodeDate, formatTimestamp, parseTimestamp };
+export { formatDuration, formatEpisodeDate, formatTimestamp, groupTranscriptSegments, parseTimestamp };

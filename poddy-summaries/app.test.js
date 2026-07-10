@@ -1,5 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { formatDuration, formatEpisodeDate, formatTimestamp, parseTimestamp } from "./app.js";
+import {
+  formatDuration,
+  formatEpisodeDate,
+  formatTimestamp,
+  groupTranscriptSegments,
+  parseTimestamp,
+} from "./app.js";
 
 describe("Poddy helpers", () => {
   it("parses minute and hour timestamps", () => {
@@ -18,5 +24,17 @@ describe("Poddy helpers", () => {
     expect(formatTimestamp(754)).toBe("12:34");
     expect(formatTimestamp(7384)).toBe("2:03:04");
     expect(formatDuration(10057)).toBe("2 hr 48 min");
+  });
+
+  it("groups short transcript segments into timestamped paragraphs", () => {
+    const segments = [
+      { start: 0, end: 8, text: "The first thought starts here." },
+      { start: 8, end: 15, text: "It continues with useful context." },
+      { start: 15, end: 25, text: "Then the idea reaches a conclusion." },
+    ];
+    const paragraphs = groupTranscriptSegments(segments, { targetWords: 10 });
+    expect(paragraphs).toHaveLength(2);
+    expect(paragraphs[0]).toMatchObject({ start: 0, end: 15 });
+    expect(paragraphs[0].text).toContain("useful context");
   });
 });

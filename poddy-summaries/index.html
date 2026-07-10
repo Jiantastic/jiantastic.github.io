@@ -10,24 +10,19 @@ permalink: /poddy-summaries/
 <div class="poddy-page">
   <header class="page-header">
     <div>
-      <p class="eyebrow">Audio field station</p>
+      <p class="eyebrow">Poddy</p>
       <h1>Poddy<br />Summaries</h1>
       <p class="lede">
-        Long-form podcasts, mapped. Listen with a chapter guide, scan the real
-        takeaways, or search the full timestamped transcript.
+        The useful version of a long podcast: a clear overview, the ideas worth
+        keeping, chapter jumps, and a transcript you can actually read.
       </p>
-    </div>
-    <div class="meta" aria-label="Project features">
-      <div class="pill">Feed · Acquired</div>
-      <div class="pill">Local transcription</div>
-      <div class="pill">Full-episode chapters</div>
     </div>
   </header>
 
   <section class="episode-shell" aria-labelledby="episode-title">
     <div class="episode-header">
       <div>
-        <p class="eyebrow">Now at the listening lodge</p>
+        <p class="eyebrow">Episode guide</p>
         <h2 id="episode-title">Loading episodes…</h2>
         <p class="episode-byline">
           <span id="episode-date"></span>
@@ -81,18 +76,19 @@ permalink: /poddy-summaries/
     </div>
 
     <div class="tab-content" id="tab-overview" role="tabpanel" aria-labelledby="overview-tab">
-      <p class="summary-lead" id="summary-overview"></p>
-      <h3 class="content-label">Five things worth remembering</h3>
+      <p class="content-label">In brief</p>
+      <div class="summary-lead" id="summary-overview"></div>
+      <h3 class="content-label">Key insights</h3>
       <ol class="takeaway-list" id="takeaway-list"></ol>
     </div>
 
     <div class="tab-content hidden" id="tab-chapters" role="tabpanel" aria-labelledby="chapters-tab" hidden>
       <div class="chapter-intro">
         <div>
-          <p class="eyebrow">Full-episode map</p>
-          <h3>Jump to the part you came for.</h3>
+          <p class="eyebrow">Chapters</p>
+          <h3>Jump to the important parts.</h3>
         </div>
-        <p>Every chapter starts the player at that moment. The guide spans the beginning, middle, and end—not just the opening minute.</p>
+        <p>Select any timestamp to start listening from that moment.</p>
       </div>
       <ol class="chapter-list" id="chapter-list"></ol>
     </div>
@@ -100,13 +96,12 @@ permalink: /poddy-summaries/
     <div class="tab-content hidden" id="tab-transcript" role="tabpanel" aria-labelledby="transcript-tab" hidden>
       <div class="transcript-tools">
         <div>
-          <label for="transcript-search">Search this episode</label>
-          <input id="transcript-search" type="search" placeholder="Try “Costco”, “editing”, or “Berkshire”" autocomplete="off" />
+          <p class="eyebrow">Transcript</p>
+          <h3>Paragraph by paragraph.</h3>
         </div>
         <p id="transcript-status" role="status" aria-live="polite">Open this tab to load the transcript.</p>
       </div>
       <div class="transcript-box" id="transcript-box"></div>
-      <button id="transcript-more" class="load-more" type="button" hidden>Load more transcript</button>
     </div>
   </section>
 </div>

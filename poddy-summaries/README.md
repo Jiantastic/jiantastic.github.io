@@ -1,6 +1,6 @@
 # Poddy Summaries
 
-Automated podcast summaries with timestamped quotes. Currently processing the [Acquired](https://www.acquired.fm/) podcast feed.
+Readable episode guides for the [Acquired](https://www.acquired.fm/) podcast: concise overviews, five evidence-backed insights, chapter jumps, and paragraph-form transcripts.
 
 ## How It Works
 
@@ -9,9 +9,9 @@ RSS Feed → Download Audio → Transcribe (Whisper) → Summarize (Claude) → 
 ```
 
 1. **Fetch** - Pull new episodes from RSS, skip already-processed
-2. **Transcribe** - MLX Whisper generates timestamped segments
-3. **Summarize** - Claude extracts key quotes with accurate timestamps
-4. **Display** - Web UI with clickable timestamps that seek the audio player
+2. **Transcribe** - MLX Whisper generates timed segments, then groups them into readable paragraphs
+3. **Summarize** - Claude produces a validated overview, key insights, and full-episode chapters
+4. **Display** - The UI renders the complete transcript so browser Find works, with timestamps that seek the audio player
 
 ## Quick Start
 
@@ -28,8 +28,8 @@ bundle exec jekyll serve
 
 Each episode generates:
 
-- **Summary bullets** - Key takeaways with verbatim quotes and `MM:SS` timestamps
-- **Full transcript** - Searchable text with segment timing
+- **Episode guide** - Two-paragraph overview, five key insights, and 8–12 chapters
+- **Full transcript** - Searchable paragraphs with one seekable timestamp per paragraph
 - **Audio player** - Stream from source, seek via timestamp clicks
 
 ## Stack
