@@ -2,7 +2,7 @@
 
 ## Pipeline
 
-`run.sh` fetches the RSS feed, skips GUIDs already recorded in `state.json`, downloads each selected episode to a temporary file, runs MLX Whisper, asks Claude for a structured guide, validates the result with `jq`, and rebuilds `episodes.json`.
+`run.sh` fetches the RSS feed, skips GUIDs already recorded in `state.json`, downloads each selected episode to a temporary file, runs MLX Whisper, asks Claude for a structured guide, validates the result with `jq`, and rebuilds `episodes.json` plus the static search-facing pages.
 
 The source audio is never committed. Only text, timestamps, summary data, and RSS metadata live in the site.
 
@@ -51,6 +51,16 @@ The plain-text transcript separates paragraphs with blank lines. The timed trans
 
 The pipeline requires exactly two overview paragraphs, five takeaways, and 8–12 valid chapters. Claude writes plain JSON with `--output-format text`; `jq` validates the content before the existing summary is replaced. This avoids saving the Claude CLI's JSON response envelope as episode data.
 
+## Search-facing pages
+
+`build_episodes.py` produces three related surfaces from the same validated data:
+
+- `data/acquired/episodes.json` for the interactive archive
+- `_includes/poddy-episode-directory.html` for a server-rendered list of every completed guide
+- `episodes/<slug>/index.html` for a permanent episode URL containing the full overview, insights, chapters, transcript, canonical metadata, and `PodcastEpisode` JSON-LD
+
+Run `build_episodes.py --offline` to regenerate the static pages without fetching RSS. Jekyll's sitemap plugin includes every generated episode route automatically.
+
 ## Commands
 
 ```bash
@@ -59,6 +69,12 @@ The pipeline requires exactly two overview paragraphs, five takeaways, and 8–1
 
 # Process five new episodes
 ./scripts/run.sh --limit 5
+
+# Process every remaining episode, newest first; safe to resume after interruption
+./scripts/run.sh --all
+
+# Rebuild permanent pages without touching the feed
+./scripts/build_episodes.py --offline
 
 # Run browser/unit checks
 npm test -- --run poddy-summaries/app.test.js

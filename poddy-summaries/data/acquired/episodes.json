@@ -5,7 +5,9 @@
     "title": "The Walt Disney Company",
     "pubDate": "Sun, 21 Jun 2026 22:54:28 -0700",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/04eefe71/39c635fd.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/the-walt-disney-company",
     "duration": "16289",
+    "episodeUrl": "/poddy-summaries/episodes/the-walt-disney-company/",
     "summaryPath": "summaries/the-walt-disney-company.json",
     "transcriptPath": "transcripts/the-walt-disney-company.txt",
     "transcriptJsonPath": "transcripts/the-walt-disney-company.json",
@@ -190,7 +192,9 @@
     "title": "Vanguard",
     "pubDate": "Sun, 17 May 2026 20:26:52 -0700",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/ee9d0817/c12627bd.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/vanguard",
     "duration": "13685",
+    "episodeUrl": "/poddy-summaries/episodes/vanguard/",
     "summaryPath": "summaries/vanguard.json",
     "transcriptPath": "transcripts/vanguard.txt",
     "transcriptJsonPath": "transcripts/vanguard.json",
@@ -375,7 +379,9 @@
     "title": "Ferrari",
     "pubDate": "Sun, 12 Apr 2026 20:33:59 -0700",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/9ca1df08/e400ba0d.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/ferrari",
     "duration": "14360",
+    "episodeUrl": "/poddy-summaries/episodes/ferrari/",
     "summaryPath": "summaries/ferrari.json",
     "transcriptPath": "transcripts/ferrari.txt",
     "transcriptJsonPath": "transcripts/ferrari.json",
@@ -560,7 +566,9 @@
     "title": "Formula 1",
     "pubDate": "Mon, 02 Mar 2026 14:18:59 -0800",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/93e7bac7/9d4b12b6.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/formula-1",
     "duration": "16171",
+    "episodeUrl": "/poddy-summaries/episodes/formula-1/",
     "summaryPath": "summaries/formula-1.json",
     "transcriptPath": "transcripts/formula-1.txt",
     "transcriptJsonPath": "transcripts/formula-1.json",
@@ -745,7 +753,9 @@
     "title": "The NFL",
     "pubDate": "Mon, 26 Jan 2026 18:50:40 -0800",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/87d6503d/b2af8272.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/the-nfl",
     "duration": "15438",
+    "episodeUrl": "/poddy-summaries/episodes/the-nfl/",
     "summaryPath": "summaries/the-nfl.json",
     "transcriptPath": "transcripts/the-nfl.txt",
     "transcriptJsonPath": "transcripts/the-nfl.json",
@@ -925,12 +935,388 @@
     ]
   },
   {
+    "slug": "rolex",
+    "guid": "94dbf581-80c8-4b90-aff2-fa649cd90edd",
+    "title": "Rolex",
+    "pubDate": "Fri, 02 Jan 2026 20:34:00 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/7bea4e45/0aa48fa3.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/rolex",
+    "duration": "17485",
+    "episodeUrl": "/poddy-summaries/episodes/rolex/",
+    "summaryPath": "summaries/rolex.json",
+    "transcriptPath": "transcripts/rolex.txt",
+    "transcriptJsonPath": "transcripts/rolex.json",
+    "overview": [
+      "Rolex became the world's dominant watchmaker not by inventing anything first but by out-commercializing everyone: Hans Wilsdorf, a German orphan working in London, assembled Aegler's miniature movements and a purchased screw-down-crown patent into the waterproof, self-winding, certified wristwatch, then built the category's greatest brand around it. Today the secretive, foundation-owned company sells over a million watches a year for roughly $11 billion — about 30% of all Swiss watch revenue.",
+      "The defining arc is the quartz crisis: by 1979 cheap, accurate quartz made mechanical watches functionally obsolete and gutted the Swiss industry. While Omega panicked into quartz and price cuts, Rolex held its lineup steady and repositioned the mechanical watch as a luxury status object — helped by the accidental Paul Newman Daytona collector craze. The unresolved tension is engineered scarcity: waitlists protect century-scale stability while alienating the very customers who want in."
+    ],
+    "takeaways": [
+      {
+        "title": "Wilsdorf commercialized inventions he didn't create",
+        "detail": "The Oyster's screw-down crown came from a 1925 patent by two Swiss casemakers that Wilsdorf, who read the patent register daily, bought and made exclusive; the movements came from Aegler on a handshake deal that lasted 99 years until Rolex bought the firm in 2004. Rolex's edge was spotting, branding, and marketing breakthroughs before competitors moved."
+      },
+      {
+        "title": "Wars built the market Rolex needed",
+        "detail": "Boer War soldiers wearing wristwatches inspired Wilsdorf's five-times-his-capital order of miniature movements, WWI made wristwatches mainstream, and Britain's 33% import tax plus a gold ban pushed the company to neutral Switzerland. WWII's technical warfare — pilots, synchronized attacks, navigation — then made precision wristwatches essential equipment."
+      },
+      {
+        "title": "Quartz killed timekeeping but created luxury",
+        "detail": "Quartz rode a semiconductor cost curve down 1,000x, and Swiss firms collapsed from about 2,500 companies to under 500. Rolex followed the Blancpain playbook — selling craftsmanship and status instead of accuracy — and Swiss mechanicals now capture roughly 40% of global watch revenue from just 2% of units produced."
+      },
+      {
+        "title": "Scarcity management protects century-long stability",
+        "detail": "Rolex never cuts prices or ramps production to chase demand spikes: in 2008 it held prices and doubled US marketing spend while rivals slashed both. The hosts argue underproduction is less luxury posturing than insurance — a brand that ramps 20% in a boom must discount in the bust, which is how watch brands destroy themselves."
+      },
+      {
+        "title": "Rolex multiplies two big numbers together",
+        "detail": "About 1.1–1.2 million watches a year at a $13,000 average price yields roughly $11 billion — 30% of Swiss industry revenue, versus 7.5% each for Cartier and Omega. Patek Philippe averages $40,000 but sells one-fifteenth the units; Rolex sits deliberately at the 'edge of unreasonable' price a successful professional can still justify."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Rolex as a cascade of paradoxes",
+        "summary": "The hosts frame the episode's puzzle: one of the world's best-known brands is among its least-known companies, selling a functionally obsolete product at enormous scale and profit.",
+        "quote": "Rolex is a cascade of paradoxes.",
+        "timestamp": "1:56"
+      },
+      {
+        "title": "The Boer War inspires the wristwatch bet",
+        "summary": "Reading about soldiers wearing watches on their wrists, Wilsdorf bets his young company on wristwatches — an order five times its capital — a decade before World War I proves him right.",
+        "quote": "He places the largest order in Agler's company history",
+        "timestamp": "32:07"
+      },
+      {
+        "title": "World War I forces the Rolex rename",
+        "summary": "Anti-German sentiment, a 33% import tax, and a gold ban push Wilsdorf and Davis to rebrand as Rolex and relocate to Switzerland, creating the 'Swiss' company by accident of geopolitics.",
+        "quote": "you're not building a strong consumer brand in Britain in 1914 called Wilsdorf",
+        "timestamp": "41:29"
+      },
+      {
+        "title": "Mercedes Gleitze and the Oyster launch",
+        "summary": "Rolex turns a channel swimmer's vindication attempt into the first brand-ambassador stunt, launching the waterproof Oyster with a purchased front page — the template for a century of testimony marketing.",
+        "quote": "he buys the front page of the Daily Mail newspaper",
+        "timestamp": "1:07:39"
+      },
+      {
+        "title": "The Perpetual rotor completes the product",
+        "summary": "Rolex's first true in-house invention, the self-winding rotor, solves the Oyster's fatal flaw — users forgetting to screw down the crown — and locks in the accurate, waterproof, self-winding trinity.",
+        "quote": "Rolex finally cracks it and patents their own rotor",
+        "timestamp": "1:32:43"
+      },
+      {
+        "title": "Engineering Eisenhower's wrist",
+        "summary": "The three-step gifting scheme from a Swiss general to Churchill to Eisenhower puts a Datejust on a sitting US president and crystallizes Rolex's positioning around power and achievement.",
+        "quote": "men who guide the destinies of the world wear Rolex watches",
+        "timestamp": "1:51:13"
+      },
+      {
+        "title": "Sport watches and Bond's Submariner",
+        "summary": "The 1950s professional watches — Explorer, Submariner, GMT Master — shift Rolex from selling product features to selling identity, with the Submariner becoming a franchise via Sean Connery's James Bond.",
+        "quote": "It was Sean Connery's watch even before he started playing James Bond",
+        "timestamp": "2:06:38"
+      },
+      {
+        "title": "Paul Newman gives away a $17.5M Daytona",
+        "summary": "A casually gifted watch becomes the most expensive ever auctioned after Italian dealers ignite a craze, accidentally creating the modern collector market that underpins Rolex's luxury status.",
+        "quote": "here, take this one. It keeps good time",
+        "timestamp": "2:33:32"
+      },
+      {
+        "title": "The quartz crisis makes mechanicals obsolete",
+        "summary": "A semiconductor-driven cost curve lets Japan and Hong Kong run the table in a decade, collapsing Swiss market share and eliminating any practical reason to buy a mechanical watch.",
+        "quote": "mechanical watches are, for the vast majority of scenarios, functionally obsolete",
+        "timestamp": "2:55:01"
+      },
+      {
+        "title": "Choosing romance over quartz",
+        "summary": "While Omega diluted its brand chasing quartz, André Heiniger bet that handcrafted mechanical exclusivity would outlast cheap accuracy — the pivotal decision that made Rolex a luxury company.",
+        "quote": "Wealthy people don't need an instrument that tells time",
+        "timestamp": "3:20:45"
+      },
+      {
+        "title": "Why Rolex won't ramp production",
+        "summary": "The hosts argue the waitlists are less about luxury positioning than about never having to shrink: overproducing in a boom forces the brand-destroying discounts that ruined competitors like Cartier in 2016.",
+        "quote": "they don't want to destabilize the business",
+        "timestamp": "3:54:06"
+      },
+      {
+        "title": "Quintessence: the perfect point on the curve",
+        "summary": "The closing analysis lands the thesis: Rolex uniquely multiplies high volume by high price — Porsche to Patek's Ferrari, a mirror image of Apple — making it perhaps the best-positioned company the show has covered.",
+        "quote": "the most optimally positioned supply-demand curve company I think we've ever covered",
+        "timestamp": "4:44:53"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Rolex as a cascade of paradoxes",
+        "summary": "The hosts frame the episode's puzzle: one of the world's best-known brands is among its least-known companies, selling a functionally obsolete product at enormous scale and profit.",
+        "quote": "Rolex is a cascade of paradoxes.",
+        "timestamp": "1:56"
+      },
+      {
+        "title": "The Boer War inspires the wristwatch bet",
+        "summary": "Reading about soldiers wearing watches on their wrists, Wilsdorf bets his young company on wristwatches — an order five times its capital — a decade before World War I proves him right.",
+        "quote": "He places the largest order in Agler's company history",
+        "timestamp": "32:07"
+      },
+      {
+        "title": "World War I forces the Rolex rename",
+        "summary": "Anti-German sentiment, a 33% import tax, and a gold ban push Wilsdorf and Davis to rebrand as Rolex and relocate to Switzerland, creating the 'Swiss' company by accident of geopolitics.",
+        "quote": "you're not building a strong consumer brand in Britain in 1914 called Wilsdorf",
+        "timestamp": "41:29"
+      },
+      {
+        "title": "Mercedes Gleitze and the Oyster launch",
+        "summary": "Rolex turns a channel swimmer's vindication attempt into the first brand-ambassador stunt, launching the waterproof Oyster with a purchased front page — the template for a century of testimony marketing.",
+        "quote": "he buys the front page of the Daily Mail newspaper",
+        "timestamp": "1:07:39"
+      },
+      {
+        "title": "The Perpetual rotor completes the product",
+        "summary": "Rolex's first true in-house invention, the self-winding rotor, solves the Oyster's fatal flaw — users forgetting to screw down the crown — and locks in the accurate, waterproof, self-winding trinity.",
+        "quote": "Rolex finally cracks it and patents their own rotor",
+        "timestamp": "1:32:43"
+      },
+      {
+        "title": "Engineering Eisenhower's wrist",
+        "summary": "The three-step gifting scheme from a Swiss general to Churchill to Eisenhower puts a Datejust on a sitting US president and crystallizes Rolex's positioning around power and achievement.",
+        "quote": "men who guide the destinies of the world wear Rolex watches",
+        "timestamp": "1:51:13"
+      },
+      {
+        "title": "Sport watches and Bond's Submariner",
+        "summary": "The 1950s professional watches — Explorer, Submariner, GMT Master — shift Rolex from selling product features to selling identity, with the Submariner becoming a franchise via Sean Connery's James Bond.",
+        "quote": "It was Sean Connery's watch even before he started playing James Bond",
+        "timestamp": "2:06:38"
+      },
+      {
+        "title": "Paul Newman gives away a $17.5M Daytona",
+        "summary": "A casually gifted watch becomes the most expensive ever auctioned after Italian dealers ignite a craze, accidentally creating the modern collector market that underpins Rolex's luxury status.",
+        "quote": "here, take this one. It keeps good time",
+        "timestamp": "2:33:32"
+      },
+      {
+        "title": "The quartz crisis makes mechanicals obsolete",
+        "summary": "A semiconductor-driven cost curve lets Japan and Hong Kong run the table in a decade, collapsing Swiss market share and eliminating any practical reason to buy a mechanical watch.",
+        "quote": "mechanical watches are, for the vast majority of scenarios, functionally obsolete",
+        "timestamp": "2:55:01"
+      },
+      {
+        "title": "Choosing romance over quartz",
+        "summary": "While Omega diluted its brand chasing quartz, André Heiniger bet that handcrafted mechanical exclusivity would outlast cheap accuracy — the pivotal decision that made Rolex a luxury company.",
+        "quote": "Wealthy people don't need an instrument that tells time",
+        "timestamp": "3:20:45"
+      },
+      {
+        "title": "Why Rolex won't ramp production",
+        "summary": "The hosts argue the waitlists are less about luxury positioning than about never having to shrink: overproducing in a boom forces the brand-destroying discounts that ruined competitors like Cartier in 2016.",
+        "quote": "they don't want to destabilize the business",
+        "timestamp": "3:54:06"
+      },
+      {
+        "title": "Quintessence: the perfect point on the curve",
+        "summary": "The closing analysis lands the thesis: Rolex uniquely multiplies high volume by high price — Porsche to Patek's Ferrari, a mirror image of Apple — making it perhaps the best-positioned company the show has covered.",
+        "quote": "the most optimally positioned supply-demand curve company I think we've ever covered",
+        "timestamp": "4:44:53"
+      }
+    ]
+  },
+  {
+    "slug": "costco",
+    "guid": "14ef00c6-30ba-44cc-9869-33d3d92828a3",
+    "title": "Costco",
+    "pubDate": "Thu, 01 Jan 2026 21:46:00 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/fcf31c71/acf1c31d.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/costco",
+    "duration": "10409",
+    "episodeUrl": "/poddy-summaries/episodes/costco/",
+    "summaryPath": "summaries/costco.json",
+    "transcriptPath": "transcripts/costco.txt",
+    "transcriptJsonPath": "transcripts/costco.json",
+    "overview": [
+      "Costco is not a simple bulk retailer but roughly fifty interlocking tradeoffs — a paid membership, only 3,800 SKUs, a hard 14% markup cap, supplier-financed inventory, and high-wage labor — all tuned over decades toward one goal: the lowest possible prices on high-quality goods. Break any single piece and the machine fails; together they produce the durable, competitor-proof business Charlie Munger famously adored.",
+      "The central arc runs through Sol Price, who invented both the discounter (FedMart) and the warehouse club (Price Club) yet admitted he was better at creating businesses than running them. His protégé Jim Sinegal — a FedMart bagger who rose to run its warehouses — cloned Price Club as Costco, out-executed his mentor, and reunited the companies in the 1993 merger, fusing Price's principled model with disciplined scale execution."
+    ],
+    "takeaways": [
+      {
+        "title": "Suppliers finance Costco's inventory at standard terms",
+        "detail": "Inventory turns 12.4 times a year — a 26-27 day sell-through against net-30 invoices — so goods are often sold before Costco pays for them. This negative cash conversion cycle is achieved with ordinary payment terms, not by squeezing vendors."
+      },
+      {
+        "title": "Membership fees drive 70% of operating income",
+        "detail": "About $4 billion in near-100%-margin fees from 124 million members, renewing at 93% in the US, generate most of the profit on $230 billion of revenue. The prepaid fee also selects affluent shoppers ($125k median household income) and psychologically pulls them back into stores."
+      },
+      {
+        "title": "A hard 14% markup cap compounds trust",
+        "detail": "Walmart marks up around 25% and department stores 100%; Costco caps everything at 14% (15% for Kirkland). Sinegal likens raising prices to heroin, and the cap means roughly 89 cents of every dollar squeezed from a supplier passes straight to members."
+      },
+      {
+        "title": "3,800 SKUs unlock the entire machine",
+        "detail": "Against Walmart's 100,000-plus SKUs, Costco's tiny catalog yields about 10x the revenue per item, giving it top-buyer leverage with nearly every supplier, enabling 92% cross-docked pallet logistics, and letting buyers pre-select quality so members accept the loss of choice."
+      },
+      {
+        "title": "High wages make labor cheaper per dollar",
+        "detail": "Paying $26 an hour versus Walmart's $19.50 produces 7% attrition (typical retail is 20%), shrinkage of just 0.15% of sales, and about $730,000 of revenue per employee — a third to half of Walmart's revenue with nearly an order of magnitude fewer people."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "The thesis: nothing at Costco is accidental",
+        "summary": "The hosts frame the episode: Costco's extreme value comes from dozens of deliberate, interlocking innovations refined like an orchestra over decades, not from the simple idea of selling in bulk.",
+        "quote": "nothing about Costco is an accident",
+        "timestamp": "1:57"
+      },
+      {
+        "title": "Sol Price, the father of modern retail",
+        "summary": "The story begins decades before 1983 with Sol Price, whose Bronx upbringing amid the garment-factory labor movement shaped the principled ethos that Jim Sinegal would absorb completely.",
+        "quote": "I didn't learn a lot. I learned everything.",
+        "timestamp": "9:19"
+      },
+      {
+        "title": "FedMart's membership loophole invents the discounter",
+        "summary": "Laws let manufacturers set minimum retail prices, making discounting to the general public illegal; membership clubs skirted them, birthing the format Walmart, Kmart, and Target all copied.",
+        "quote": "if you are a membership club, you're not open to the general public",
+        "timestamp": "23:38"
+      },
+      {
+        "title": "Price Club: the warehouse becomes the business",
+        "summary": "Fired from his own company at 60, Price re-founds around FedMart's most profitable slice — the warehouse operation Sinegal ran — where suppliers deliver directly to the point of sale, and a credit union deal soon proves consumers will buy this way too.",
+        "quote": "If you're operating a wholesale warehouse, you don't have to operate any logistics.",
+        "timestamp": "46:40"
+      },
+      {
+        "title": "The negative cash conversion cycle",
+        "summary": "Goods sell in roughly 26 days against net-30 invoices, so Costco holds effectively zero dollars in inventory — the cash-flow engine that made expansion self-funding and capital-light.",
+        "quote": "vendors effectively finance Costco's inventory for them",
+        "timestamp": "58:14"
+      },
+      {
+        "title": "Jim Sinegal clones Price Club as Costco",
+        "summary": "After Price Club rejects the Brotmans' franchise offer, a tip routes them to Sinegal; his veteran team hits $3 billion in under six years and reunites with Price Club in the 1993 merger.",
+        "quote": "the business plan is really pretty much exactly just clone Price Club",
+        "timestamp": "1:09:33"
+      },
+      {
+        "title": "The 14% markup cap and member trust",
+        "summary": "Costco refuses margin it could invisibly take because the whole model depends on members trusting that every price is the best available — the discipline that separates it from every competitor.",
+        "quote": "You could raise the price of a bottle of ketchup to $1.03",
+        "timestamp": "1:22:35"
+      },
+      {
+        "title": "Kirkland Signature, the $52 billion anti-brand",
+        "summary": "With so few SKUs, the house brand faces almost no shelf competition and exists to add member value rather than capture margin — becoming America's largest consumer packaged brand, bigger than Nike.",
+        "quote": "$52 billion of Kirkland Signature sales were done last year",
+        "timestamp": "1:37:03"
+      },
+      {
+        "title": "Two businesses: thin retail, rich membership",
+        "summary": "Financially, Costco is a near-100%-margin membership annuity attached to a breakeven retailer — a split that explains why retention, not sales growth, is the metric that matters most.",
+        "quote": "membership fees represent about 70% of the company's operating income",
+        "timestamp": "1:49:32"
+      },
+      {
+        "title": "Scale economies shared with customers",
+        "summary": "The power analysis lands on Nick Sleep's flywheel — use scale to win better supplier prices, pass the savings to members, grow, repeat — plus rare incumbent counter-positioning against Amazon's convenience-first model.",
+        "quote": "scale economies shared with customers",
+        "timestamp": "2:11:06"
+      },
+      {
+        "title": "Vertical integration on Costco's terms: chickens",
+        "summary": "Costco accepts operational complexity only when concentrated suppliers threaten member value, building its own Nebraska plant processing 2 million chickens a week to keep the four big processors honest on price.",
+        "quote": "They sell 500 million chickens a year. Not pounds. Chickens.",
+        "timestamp": "2:28:45"
+      },
+      {
+        "title": "The bull case: China and endless runway",
+        "summary": "Management keeps being surprised by unsaturated US demand, and the first China store signed 400,000 members against a 68,000 US-store average at maturity — evidence the physical-growth constraint, not demand, sets the pace.",
+        "quote": "popped to 400,000 members within two years",
+        "timestamp": "2:44:13"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "The thesis: nothing at Costco is accidental",
+        "summary": "The hosts frame the episode: Costco's extreme value comes from dozens of deliberate, interlocking innovations refined like an orchestra over decades, not from the simple idea of selling in bulk.",
+        "quote": "nothing about Costco is an accident",
+        "timestamp": "1:57"
+      },
+      {
+        "title": "Sol Price, the father of modern retail",
+        "summary": "The story begins decades before 1983 with Sol Price, whose Bronx upbringing amid the garment-factory labor movement shaped the principled ethos that Jim Sinegal would absorb completely.",
+        "quote": "I didn't learn a lot. I learned everything.",
+        "timestamp": "9:19"
+      },
+      {
+        "title": "FedMart's membership loophole invents the discounter",
+        "summary": "Laws let manufacturers set minimum retail prices, making discounting to the general public illegal; membership clubs skirted them, birthing the format Walmart, Kmart, and Target all copied.",
+        "quote": "if you are a membership club, you're not open to the general public",
+        "timestamp": "23:38"
+      },
+      {
+        "title": "Price Club: the warehouse becomes the business",
+        "summary": "Fired from his own company at 60, Price re-founds around FedMart's most profitable slice — the warehouse operation Sinegal ran — where suppliers deliver directly to the point of sale, and a credit union deal soon proves consumers will buy this way too.",
+        "quote": "If you're operating a wholesale warehouse, you don't have to operate any logistics.",
+        "timestamp": "46:40"
+      },
+      {
+        "title": "The negative cash conversion cycle",
+        "summary": "Goods sell in roughly 26 days against net-30 invoices, so Costco holds effectively zero dollars in inventory — the cash-flow engine that made expansion self-funding and capital-light.",
+        "quote": "vendors effectively finance Costco's inventory for them",
+        "timestamp": "58:14"
+      },
+      {
+        "title": "Jim Sinegal clones Price Club as Costco",
+        "summary": "After Price Club rejects the Brotmans' franchise offer, a tip routes them to Sinegal; his veteran team hits $3 billion in under six years and reunites with Price Club in the 1993 merger.",
+        "quote": "the business plan is really pretty much exactly just clone Price Club",
+        "timestamp": "1:09:33"
+      },
+      {
+        "title": "The 14% markup cap and member trust",
+        "summary": "Costco refuses margin it could invisibly take because the whole model depends on members trusting that every price is the best available — the discipline that separates it from every competitor.",
+        "quote": "You could raise the price of a bottle of ketchup to $1.03",
+        "timestamp": "1:22:35"
+      },
+      {
+        "title": "Kirkland Signature, the $52 billion anti-brand",
+        "summary": "With so few SKUs, the house brand faces almost no shelf competition and exists to add member value rather than capture margin — becoming America's largest consumer packaged brand, bigger than Nike.",
+        "quote": "$52 billion of Kirkland Signature sales were done last year",
+        "timestamp": "1:37:03"
+      },
+      {
+        "title": "Two businesses: thin retail, rich membership",
+        "summary": "Financially, Costco is a near-100%-margin membership annuity attached to a breakeven retailer — a split that explains why retention, not sales growth, is the metric that matters most.",
+        "quote": "membership fees represent about 70% of the company's operating income",
+        "timestamp": "1:49:32"
+      },
+      {
+        "title": "Scale economies shared with customers",
+        "summary": "The power analysis lands on Nick Sleep's flywheel — use scale to win better supplier prices, pass the savings to members, grow, repeat — plus rare incumbent counter-positioning against Amazon's convenience-first model.",
+        "quote": "scale economies shared with customers",
+        "timestamp": "2:11:06"
+      },
+      {
+        "title": "Vertical integration on Costco's terms: chickens",
+        "summary": "Costco accepts operational complexity only when concentrated suppliers threaten member value, building its own Nebraska plant processing 2 million chickens a week to keep the four big processors honest on price.",
+        "quote": "They sell 500 million chickens a year. Not pounds. Chickens.",
+        "timestamp": "2:28:45"
+      },
+      {
+        "title": "The bull case: China and endless runway",
+        "summary": "Management keeps being surprised by unsaturated US demand, and the first China store signed 400,000 members against a 68,000 US-store average at maturity — evidence the physical-growth constraint, not demand, sets the pace.",
+        "quote": "popped to 400,000 members within two years",
+        "timestamp": "2:44:13"
+      }
+    ]
+  },
+  {
     "slug": "10-years-of-acquired-with-michael-lewis",
     "guid": "c9b69067-78a8-43f4-9a12-b4522af47d1b",
     "title": "10 Years of Acquired (with Michael Lewis)",
     "pubDate": "Sun, 14 Dec 2025 20:19:45 -0800",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/0f470567/18269289.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/10-years-of-acquired-with-michael-lewis",
     "duration": "9474",
+    "episodeUrl": "/poddy-summaries/episodes/10-years-of-acquired-with-michael-lewis/",
     "summaryPath": "summaries/10-years-of-acquired-with-michael-lewis.json",
     "transcriptPath": "transcripts/10-years-of-acquired-with-michael-lewis.txt",
     "transcriptJsonPath": "transcripts/10-years-of-acquired-with-michael-lewis.json",
@@ -1070,6 +1456,567 @@
         "summary": "The final stretch turns to listening habits and the intimacy of podcasts—the peculiar way a long episode becomes tied to where the listener heard it.",
         "quote": "You remember a place",
         "timestamp": "2:27:28"
+      }
+    ]
+  },
+  {
+    "slug": "coca-cola",
+    "guid": "4537f61d-0ec1-4837-92e0-9270d140e6d2",
+    "title": "Coca-Cola",
+    "pubDate": "Sun, 23 Nov 2025 19:00:17 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/95f9fcf7/68ea94eb.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/coca-cola",
+    "duration": "14015",
+    "episodeUrl": "/poddy-summaries/episodes/coca-cola/",
+    "summaryPath": "summaries/coca-cola.json",
+    "transcriptPath": "transcripts/coca-cola.txt",
+    "transcriptJsonPath": "transcripts/coca-cola.json",
+    "overview": [
+      "Coca-Cola is the near-perfect execution of Charlie Munger's thought experiment: take cheap commodity ingredients, wrap them in a fiercely protected trademark, price the product at a nickel everywhere on Earth, and market it as happiness itself. The hosts argue the real invention wasn't the syrup but the system — franchised bottlers, aligned retailers, and amortized advertising that let a tiny head office capture outsized margins from a global operation funded by other people's capital.",
+      "The central arc is the war with Pepsi over what 'the real thing' means. Coke privately knew from the 1950s that consumers preferred Pepsi's taste, absorbed fifteen years of share losses after the Pepsi Challenge, then destroyed and accidentally resurrected its own brand with New Coke. That episode revealed the product was childhood and national identity, not flavor — a brand so strong it now traps the company defending sugary soda in a health-conscious world."
+    ],
+    "takeaways": [
+      {
+        "title": "The $1-per-gallon contract forced Coke's scale strategy",
+        "detail": "The 1899 bottling deal had no term and fixed syrup at $1 per gallon forever, so Coke's only path to profit growth was manufacturing scale that outpaced inflation. Franchised bottlers supplied all the capital, growing to 1,200 local operations by 1925 with no company investment."
+      },
+      {
+        "title": "Coke knew Pepsi won taste tests",
+        "detail": "McCann Erickson's blind taste tests in the late 1950s showed a statistically significant preference for Pepsi; Robert Woodruff ordered the result buried and the test never rerun. Twenty years later Pepsi's grassroots, camcorder-filmed Pepsi Challenge weaponized the same fact against Coke."
+      },
+      {
+        "title": "World War II compressed 25 years of expansion",
+        "detail": "Coca-Cola employees received 'technical observer' status with the U.S. military, installing 64 portable bottling plants and serving over 5 billion bottles to troops. The company estimated the war opened foreign markets that would otherwise have taken 25 years and untold millions of dollars."
+      },
+      {
+        "title": "New Coke's failure reversed fifteen years of decline",
+        "detail": "Coca-Cola Classic returned just 79 days after the 1985 launch, and within a year sales surged past pre-debacle levels. The furious backlash — thousands of letters and calls daily — proved consumers valued Coke as identity and memory rather than taste, finally halting Pepsi's momentum."
+      },
+      {
+        "title": "Buffett's Coke stake trails the S&P 500",
+        "detail": "Berkshire's $1.3 billion investment has returned roughly $40 billion including about $12 billion of dividends — only about a 10% IRR over 40 years, versus roughly 11% annually for the S&P 500 with dividends over the same period."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Munger's $2 trillion beverage thought experiment",
+        "summary": "The hosts open by reverse-engineering Coca-Cola as Charlie Munger's famous exercise: a trademarked, universally refreshing, stimulant-laced drink sold cheaply everywhere with someone else's capital. It frames every strategic move the rest of the episode explains.",
+        "quote": "build a company from scratch that eventually becomes worth $2 trillion",
+        "timestamp": "0:55"
+      },
+      {
+        "title": "Snake oil births the American consumer brand",
+        "summary": "Post-Civil War patent medicines created national brands, newspaper advertising, and the drugstore soda fountain — the commercial soil Coca-Cola grew from, with morphine-addicted veterans as the first mass market.",
+        "quote": "whenever there's a big problem, American capitalism sees a big opportunity",
+        "timestamp": "8:51"
+      },
+      {
+        "title": "Prohibition forces Pemberton's five-cent formula",
+        "summary": "Atlanta's 1885 prohibition kills Pemberton's cocaine-fortified wine, so he boils up a 'soft' drink of sugar, synthetic caffeine, citrus oils, and coca extract priced at a nickel for everyone, not just the ailing.",
+        "quote": "At last he stood on the verge of inventing Coca-Cola",
+        "timestamp": "19:52"
+      },
+      {
+        "title": "The best and worst deal in history",
+        "summary": "Candler grants perpetual bottling rights with syrup fixed at $1 per gallon — a terrible contract that accidentally became Coke's second great business-model innovation, blanketing America through entrepreneur bottlers at zero capital cost.",
+        "quote": "He gives away the right to bottle and sell Coca-Cola for free",
+        "timestamp": "41:55"
+      },
+      {
+        "title": "The contour bottle and the imitator wars",
+        "summary": "Facing thousands of copycat colas, the company and its bottlers commission a bottle recognizable by feel in the dark, then chain patents into a rare packaging trademark to make 'the real thing' instantly identifiable.",
+        "quote": "We are not building Coca-Cola alone for today. We are building Coca-Cola forever.",
+        "timestamp": "1:04:00"
+      },
+      {
+        "title": "Inventing the modern Santa Claus",
+        "summary": "Haddon Sundblom's 1931 campaign standardizes Santa as big, jolly, and Coca-Cola red, completing the leap from product claims to pure lifestyle advertising and killing Coke's summer-only seasonality.",
+        "quote": "the greatest lifestyle advertising success in human history",
+        "timestamp": "1:22:54"
+      },
+      {
+        "title": "World War II takes Coke global",
+        "summary": "Sugar-ration exemptions and technical-observer status let Coke build 64 bottling plants alongside the advancing military, seeding international markets that delivered a third of profits by 1950.",
+        "quote": "the greatest sampling program in the history of the world",
+        "timestamp": "1:52:05"
+      },
+      {
+        "title": "Hilltop: co-opting the counterculture",
+        "summary": "The 1971 'I'd Like to Buy the World a Coke' ad, born on a napkin in a grounded-flight lounge and rescued after rain-soaked reshoots, turns hippie harmony into the era's defining commercial.",
+        "quote": "I'd like to buy the world a Coke",
+        "timestamp": "2:18:40"
+      },
+      {
+        "title": "The Pepsi Challenge lands its punch",
+        "summary": "John Sculley scales a Dallas bottler's discovery into camcorder-filmed grassroots taste tests on local TV; Coke's unified national marketing machine cannot respond, and its share falls every year for a decade.",
+        "quote": "it wouldn't have worked if it wasn't true",
+        "timestamp": "2:36:20"
+      },
+      {
+        "title": "New Coke: the 79-day disaster",
+        "summary": "Weeks after Woodruff's death, Coke replaces its 99-year-old formula; Pepsi hijacks the launch, outrage floods in, and the retreat to Coca-Cola Classic accidentally becomes the greatest publicity event in brand history.",
+        "quote": "the other guy just blinked",
+        "timestamp": "2:57:58"
+      },
+      {
+        "title": "Trapped by sugar: the total beverage pivot",
+        "summary": "With markets saturated and obesity rising, Coke must diversify into water, sports, and energy drinks without admitting its namesake product is unhealthy — yet sparkling sodas still drive 69% of revenue.",
+        "quote": "A 12-ounce can of Coca-Cola contains 39 grams of sugar",
+        "timestamp": "3:17:32"
+      },
+      {
+        "title": "Quintessence: a system where everyone profits",
+        "summary": "The closing analysis lands on scale economies fused with brand power, sustained by a system in which bottlers, retailers, and even billboard owners all make money selling Coke — Woodruff's motto turned durable strategy.",
+        "quote": "everyone who has anything to do with Coca-Cola should make money",
+        "timestamp": "3:51:27"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Munger's $2 trillion beverage thought experiment",
+        "summary": "The hosts open by reverse-engineering Coca-Cola as Charlie Munger's famous exercise: a trademarked, universally refreshing, stimulant-laced drink sold cheaply everywhere with someone else's capital. It frames every strategic move the rest of the episode explains.",
+        "quote": "build a company from scratch that eventually becomes worth $2 trillion",
+        "timestamp": "0:55"
+      },
+      {
+        "title": "Snake oil births the American consumer brand",
+        "summary": "Post-Civil War patent medicines created national brands, newspaper advertising, and the drugstore soda fountain — the commercial soil Coca-Cola grew from, with morphine-addicted veterans as the first mass market.",
+        "quote": "whenever there's a big problem, American capitalism sees a big opportunity",
+        "timestamp": "8:51"
+      },
+      {
+        "title": "Prohibition forces Pemberton's five-cent formula",
+        "summary": "Atlanta's 1885 prohibition kills Pemberton's cocaine-fortified wine, so he boils up a 'soft' drink of sugar, synthetic caffeine, citrus oils, and coca extract priced at a nickel for everyone, not just the ailing.",
+        "quote": "At last he stood on the verge of inventing Coca-Cola",
+        "timestamp": "19:52"
+      },
+      {
+        "title": "The best and worst deal in history",
+        "summary": "Candler grants perpetual bottling rights with syrup fixed at $1 per gallon — a terrible contract that accidentally became Coke's second great business-model innovation, blanketing America through entrepreneur bottlers at zero capital cost.",
+        "quote": "He gives away the right to bottle and sell Coca-Cola for free",
+        "timestamp": "41:55"
+      },
+      {
+        "title": "The contour bottle and the imitator wars",
+        "summary": "Facing thousands of copycat colas, the company and its bottlers commission a bottle recognizable by feel in the dark, then chain patents into a rare packaging trademark to make 'the real thing' instantly identifiable.",
+        "quote": "We are not building Coca-Cola alone for today. We are building Coca-Cola forever.",
+        "timestamp": "1:04:00"
+      },
+      {
+        "title": "Inventing the modern Santa Claus",
+        "summary": "Haddon Sundblom's 1931 campaign standardizes Santa as big, jolly, and Coca-Cola red, completing the leap from product claims to pure lifestyle advertising and killing Coke's summer-only seasonality.",
+        "quote": "the greatest lifestyle advertising success in human history",
+        "timestamp": "1:22:54"
+      },
+      {
+        "title": "World War II takes Coke global",
+        "summary": "Sugar-ration exemptions and technical-observer status let Coke build 64 bottling plants alongside the advancing military, seeding international markets that delivered a third of profits by 1950.",
+        "quote": "the greatest sampling program in the history of the world",
+        "timestamp": "1:52:05"
+      },
+      {
+        "title": "Hilltop: co-opting the counterculture",
+        "summary": "The 1971 'I'd Like to Buy the World a Coke' ad, born on a napkin in a grounded-flight lounge and rescued after rain-soaked reshoots, turns hippie harmony into the era's defining commercial.",
+        "quote": "I'd like to buy the world a Coke",
+        "timestamp": "2:18:40"
+      },
+      {
+        "title": "The Pepsi Challenge lands its punch",
+        "summary": "John Sculley scales a Dallas bottler's discovery into camcorder-filmed grassroots taste tests on local TV; Coke's unified national marketing machine cannot respond, and its share falls every year for a decade.",
+        "quote": "it wouldn't have worked if it wasn't true",
+        "timestamp": "2:36:20"
+      },
+      {
+        "title": "New Coke: the 79-day disaster",
+        "summary": "Weeks after Woodruff's death, Coke replaces its 99-year-old formula; Pepsi hijacks the launch, outrage floods in, and the retreat to Coca-Cola Classic accidentally becomes the greatest publicity event in brand history.",
+        "quote": "the other guy just blinked",
+        "timestamp": "2:57:58"
+      },
+      {
+        "title": "Trapped by sugar: the total beverage pivot",
+        "summary": "With markets saturated and obesity rising, Coke must diversify into water, sports, and energy drinks without admitting its namesake product is unhealthy — yet sparkling sodas still drive 69% of revenue.",
+        "quote": "A 12-ounce can of Coca-Cola contains 39 grams of sugar",
+        "timestamp": "3:17:32"
+      },
+      {
+        "title": "Quintessence: a system where everyone profits",
+        "summary": "The closing analysis lands on scale economies fused with brand power, sustained by a system in which bottlers, retailers, and even billboard owners all make money selling Coke — Woodruff's motto turned durable strategy.",
+        "quote": "everyone who has anything to do with Coca-Cola should make money",
+        "timestamp": "3:51:27"
+      }
+    ]
+  },
+  {
+    "slug": "trader-joe-s",
+    "guid": "9602cea2-2491-4587-90f6-7bf7f7988dd7",
+    "title": "Trader Joe’s",
+    "pubDate": "Sun, 26 Oct 2025 20:07:10 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/8d72cb9c/19650029.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/trader-joes",
+    "duration": "11869",
+    "episodeUrl": "/poddy-summaries/episodes/trader-joe-s/",
+    "summaryPath": "summaries/trader-joe-s.json",
+    "transcriptPath": "transcripts/trader-joe-s.txt",
+    "transcriptJsonPath": "transcripts/trader-joe-s.json",
+    "overview": [
+      "Trader Joe's succeeds not by being the best grocery store but by aligning every trade-off — tiny stores, roughly 4,000 SKUs, no e-commerce, no coupons, no national brands — into one self-reinforcing system built for a single customer: the 'overeducated and underpaid.' Ben and David argue its cult following comes from counter-positioning, designing a store with no direct competition rather than racing Walmart, Kroger, or 7-Eleven on scale and price.",
+      "The central arc is Joe Coulombe reinventing the business under existential pressure: a 7-Eleven clone doomed when its dairy lender sold to Southland, saved by hard liquor, transformed by California wine, then health food and private label after fair-trade repeal destroyed protected margins. The lasting tension is differentiation versus scale — Joe sold to Theo Albrecht in 1979 yet stayed CEO, and successors expanded assortment and footprint while trying to keep the one-of-one soul."
+    ],
+    "takeaways": [
+      {
+        "title": "Liquor licenses were the first real moat",
+        "detail": "When Southland bought Ador Milk Farms and brought 7-Eleven to California, Joe pivoted Pronto Markets to hard liquor because Depression-era fair trade laws guaranteed a fixed profit on every bottle. Scarce, expensive licenses were an annuity that neither out-of-state 7-Eleven nor supermarkets would pursue."
+      },
+      {
+        "title": "Everything is merchandised like small-batch wine",
+        "detail": "Starting with 17 Napa wines in the late 1960s, Trader Joe's became California's largest wine retailer by 1970 and learned to sell finite, storied treasures — when they're gone, they're gone. The Fearless Flyer began as the Wine Insiders Report, and that long-form product storytelling replaced conventional advertising."
+      },
+      {
+        "title": "Private label means differentiated, never cheaper generic",
+        "detail": "Joe's rule was that no private label product could exist just to undercut a brand; it had to differ on product, packaging, price, or story — the opposite of Great Value or Amazon Basics. Examples include inventing packaged almond butter from almond-processing leftovers and a Wolfgang Puck pizza sized to fit a toaster oven."
+      },
+      {
+        "title": "Overpaying employees is a designed system",
+        "detail": "Crew members earn roughly 40 to 150 percent above retail averages, rotate through every job, and turn over at about 5 to 6 percent annually versus an industry rate near 65 percent. That retention funds the social, high-knowledge store experience, and 100 percent of store captains are promoted from within."
+      },
+      {
+        "title": "Dense small stores double industry sales efficiency",
+        "detail": "Roughly 4,000 SKUs packed into ~15,000 square feet, with inventory turning about 60 times a year, produce over $2,000 in sales per square foot — the highest in grocery and twice Whole Foods. Dan Bain revealed revenue passed $20 billion by 2023, far above public estimates."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "The grocer that breaks every rule",
+        "summary": "The hosts frame the episode's puzzle: Trader Joe's rejects convenience, delivery, brands, and discounts, yet Americans are obsessed with it. The answer previewed is trade-offs aligned into a self-reinforcing system.",
+        "quote": "they break every rule in grocery retailing",
+        "timestamp": "1:33"
+      },
+      {
+        "title": "Texas ice docks invent the convenience store",
+        "summary": "Southland's 1927 pivot from selling ice to stocking milk and eggs creates 7-Eleven, the model Joe Coulombe will clone in California as Pronto Markets — and the giant that will later threaten him.",
+        "quote": "I really wish you stocked milk in addition to your ice",
+        "timestamp": "10:31"
+      },
+      {
+        "title": "The Malibu dairy bombshell",
+        "summary": "Over four gin cocktails, Joe learns his lender and key supplier Ador is selling to Southland — because the family's real asset was Malibu land, not cows. 7-Eleven is coming, and Pronto is toast.",
+        "quote": "The cows are grazing in Malibu",
+        "timestamp": "28:24"
+      },
+      {
+        "title": "Hard liquor as a regulatory moat",
+        "summary": "Fair trade laws set legally guaranteed margins on alcohol, and liquor licenses were scarce annuities that 7-Eleven and supermarkets wouldn't chase. This pivot buys Joe years to invent the real plan.",
+        "quote": "if you have a liquor license, then it's like an annuity",
+        "timestamp": "36:17"
+      },
+      {
+        "title": "Two articles spark the Trader Joe's idea",
+        "summary": "A Scientific American piece on the GI Bill's education boom and a Wall Street Journal story on the 747 convince Joe a new customer is emerging: well-educated, soon-to-be well-traveled, and underserved.",
+        "quote": "Dimly, I saw an opportunity to differentiate ourselves radically from mainstream retailing",
+        "timestamp": "48:26"
+      },
+      {
+        "title": "Wine becomes the company's operating system",
+        "summary": "Wine is the ultimate non-commodity, letting a merchant sell curation and trust instead of restocking Cheerios. Trader Joe's rides Napa's ascent to become California's largest wine retailer with single-digit stores.",
+        "quote": "you can't sell wine. You have to sell wines",
+        "timestamp": "1:05:43"
+      },
+      {
+        "title": "Whole Earth Harry and the private label birth",
+        "summary": "Years before Whole Foods, Joe grafts the health food movement onto his liquor store, launching granola, nuts, and almond butter as the first Trader Joe's-branded products — the foundation of everything that follows.",
+        "quote": "We prepared to marry the health food store to the liquor store",
+        "timestamp": "1:19:58"
+      },
+      {
+        "title": "Mack the Knife: engineering away competition",
+        "summary": "California's 1977 fair trade repeal erases protected margins and bankrupts retailers, so Joe responds by making every product one-of-one. Private label shifts from opportunity to survival strategy.",
+        "quote": "The answer is to design a store that has no competition",
+        "timestamp": "1:42:26"
+      },
+      {
+        "title": "A one-page sale to Theo Albrecht",
+        "summary": "A failed ESOP and a 73 percent marginal tax rate push Joe to sell in 1979 — on his terms: full autonomy, triple the earlier offer, no Aldi integration, and he stays CEO another decade. The compounding never pauses.",
+        "quote": "I have a marginal tax rate of 73 percent",
+        "timestamp": "1:58:14"
+      },
+      {
+        "title": "Two Buck Chuck and the 2001 wine glut",
+        "summary": "Fred Franzia's Bronco Wines bought the bankrupt Charles Shaw label for $27,000, then bottled California's surplus wine for $1.99 at Trader Joe's — billions of bottles that democratized daily wine drinking in America.",
+        "quote": "don't you get it they're overcharging for the water",
+        "timestamp": "2:31:32"
+      },
+      {
+        "title": "The ballet: how every trade-off reinforces the rest",
+        "summary": "The hosts assemble the full flywheel: few SKUs concentrate buying power, enabling direct sourcing, cash-on-delivery payments, low overhead, and lower prices — all resting on customer trust instead of complete assortment.",
+        "quote": "we don't need to stock everything people just need to trust us",
+        "timestamp": "2:52:45"
+      },
+      {
+        "title": "No broken promises in the chain",
+        "summary": "David's quintessence: every element — real estate, products, labor, pricing — is a kept promise to customers, and fifty years of refusing the CPG-supermarket complex bought Trader Joe's rare independence and resilience.",
+        "quote": "there are no broken promises in the chain",
+        "timestamp": "3:09:24"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "The grocer that breaks every rule",
+        "summary": "The hosts frame the episode's puzzle: Trader Joe's rejects convenience, delivery, brands, and discounts, yet Americans are obsessed with it. The answer previewed is trade-offs aligned into a self-reinforcing system.",
+        "quote": "they break every rule in grocery retailing",
+        "timestamp": "1:33"
+      },
+      {
+        "title": "Texas ice docks invent the convenience store",
+        "summary": "Southland's 1927 pivot from selling ice to stocking milk and eggs creates 7-Eleven, the model Joe Coulombe will clone in California as Pronto Markets — and the giant that will later threaten him.",
+        "quote": "I really wish you stocked milk in addition to your ice",
+        "timestamp": "10:31"
+      },
+      {
+        "title": "The Malibu dairy bombshell",
+        "summary": "Over four gin cocktails, Joe learns his lender and key supplier Ador is selling to Southland — because the family's real asset was Malibu land, not cows. 7-Eleven is coming, and Pronto is toast.",
+        "quote": "The cows are grazing in Malibu",
+        "timestamp": "28:24"
+      },
+      {
+        "title": "Hard liquor as a regulatory moat",
+        "summary": "Fair trade laws set legally guaranteed margins on alcohol, and liquor licenses were scarce annuities that 7-Eleven and supermarkets wouldn't chase. This pivot buys Joe years to invent the real plan.",
+        "quote": "if you have a liquor license, then it's like an annuity",
+        "timestamp": "36:17"
+      },
+      {
+        "title": "Two articles spark the Trader Joe's idea",
+        "summary": "A Scientific American piece on the GI Bill's education boom and a Wall Street Journal story on the 747 convince Joe a new customer is emerging: well-educated, soon-to-be well-traveled, and underserved.",
+        "quote": "Dimly, I saw an opportunity to differentiate ourselves radically from mainstream retailing",
+        "timestamp": "48:26"
+      },
+      {
+        "title": "Wine becomes the company's operating system",
+        "summary": "Wine is the ultimate non-commodity, letting a merchant sell curation and trust instead of restocking Cheerios. Trader Joe's rides Napa's ascent to become California's largest wine retailer with single-digit stores.",
+        "quote": "you can't sell wine. You have to sell wines",
+        "timestamp": "1:05:43"
+      },
+      {
+        "title": "Whole Earth Harry and the private label birth",
+        "summary": "Years before Whole Foods, Joe grafts the health food movement onto his liquor store, launching granola, nuts, and almond butter as the first Trader Joe's-branded products — the foundation of everything that follows.",
+        "quote": "We prepared to marry the health food store to the liquor store",
+        "timestamp": "1:19:58"
+      },
+      {
+        "title": "Mack the Knife: engineering away competition",
+        "summary": "California's 1977 fair trade repeal erases protected margins and bankrupts retailers, so Joe responds by making every product one-of-one. Private label shifts from opportunity to survival strategy.",
+        "quote": "The answer is to design a store that has no competition",
+        "timestamp": "1:42:26"
+      },
+      {
+        "title": "A one-page sale to Theo Albrecht",
+        "summary": "A failed ESOP and a 73 percent marginal tax rate push Joe to sell in 1979 — on his terms: full autonomy, triple the earlier offer, no Aldi integration, and he stays CEO another decade. The compounding never pauses.",
+        "quote": "I have a marginal tax rate of 73 percent",
+        "timestamp": "1:58:14"
+      },
+      {
+        "title": "Two Buck Chuck and the 2001 wine glut",
+        "summary": "Fred Franzia's Bronco Wines bought the bankrupt Charles Shaw label for $27,000, then bottled California's surplus wine for $1.99 at Trader Joe's — billions of bottles that democratized daily wine drinking in America.",
+        "quote": "don't you get it they're overcharging for the water",
+        "timestamp": "2:31:32"
+      },
+      {
+        "title": "The ballet: how every trade-off reinforces the rest",
+        "summary": "The hosts assemble the full flywheel: few SKUs concentrate buying power, enabling direct sourcing, cash-on-delivery payments, low overhead, and lower prices — all resting on customer trust instead of complete assortment.",
+        "quote": "we don't need to stock everything people just need to trust us",
+        "timestamp": "2:52:45"
+      },
+      {
+        "title": "No broken promises in the chain",
+        "summary": "David's quintessence: every element — real estate, products, labor, pricing — is a kept promise to customers, and fifty years of refusing the CPG-supermarket complex bought Trader Joe's rare independence and resilience.",
+        "quote": "there are no broken promises in the chain",
+        "timestamp": "3:09:24"
+      }
+    ]
+  },
+  {
+    "slug": "google-part-iii-the-ai-company",
+    "guid": "b0014fa0-de13-4d3e-b5f3-cbe3fc463bb1",
+    "title": "Google Part III: The AI Company",
+    "pubDate": "Sun, 05 Oct 2025 18:35:54 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/701dc613/9f822931.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/google-the-ai-company",
+    "duration": "14165",
+    "episodeUrl": "/poddy-summaries/episodes/google-part-iii-the-ai-company/",
+    "summaryPath": "summaries/google-part-iii-the-ai-company.json",
+    "transcriptPath": "transcripts/google-part-iii-the-ai-company.txt",
+    "transcriptJsonPath": "transcripts/google-part-iii-the-ai-company.json",
+    "overview": [
+      "Google is the textbook innovator's dilemma: its own researchers invented the transformer that powers the entire AI revolution, yet commercializing it threatens a 90%-share search monopoly whose profits AI has not come close to replacing. Ben and David argue Google still holds every strategic AI asset — a frontier model, its own chips, a $50 billion cloud, and the internet's front door — making the race Google's to lose.",
+      "The arc is a two-decade talent story: Google assembled nearly every AI pioneer, from Jeff Dean's early language models to Brain and DeepMind, then watched key people leave to found OpenAI and Anthropic after it hesitated to ship. The tension after ChatGPT's code red is whether Sundar can thread the needle — merging labs, standardizing on Gemini, protecting search economics — without caution around cannibalization costing Google the platform shift it made possible."
+    ],
+    "takeaways": [
+      {
+        "title": "Every major AI lab traces back to Google",
+        "detail": "A decade before ChatGPT, Ilya Sutskever, Dario Amodei, Noam Shazeer, Demis Hassabis, and Mustafa Suleyman were all Google employees. OpenAI only got started when seven researchers were pried loose at the 2015 Rosewood dinner — and most attendees still refused to leave."
+      },
+      {
+        "title": "The AI era actually began in 2012",
+        "detail": "The cat paper and AlexNet proved neural networks could classify unlabeled data, powering the recommendation feeds of YouTube, Facebook, and TikTok. Those classifiers drove hundreds of billions of dollars in revenue a full decade before chatbots arrived."
+      },
+      {
+        "title": "Google built ChatGPT first and shelved it",
+        "detail": "Noam Shazeer's Meena chatbot existed years before ChatGPT, but it lacked safety post-training, and replacing ten blue links with direct answers threatened ad revenue and publisher relationships. He quit to found Character AI, and Google later paid roughly $2.7 billion to bring him back."
+      },
+      {
+        "title": "TPUs make Google the low-cost token producer",
+        "detail": "Rivals pay NVIDIA roughly 80% gross margins while Google pays Broadcom about 50%, and chips are over half the cost of an AI data center. With two to three million TPUs and inference approaching a quadrillion tokens per month, that cost edge could decide a market where model margins are thin."
+      },
+      {
+        "title": "AI monetization still can't match search economics",
+        "detail": "Search earns Google roughly $400 per US user per year from a free product, while AI chat currently monetizes through subscriptions few will buy. Longer, higher-intent queries should eventually support better ad rates, but that ad model does not exist yet."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "The innovator's dilemma framing",
+        "summary": "The cold open sets the episode's thesis: Google invented the technology that spawned its own disruptors and must decide whether to cannibalize a 90%-share search monopoly.",
+        "quote": "the most classic textbook case of the innovators dilemma ever",
+        "timestamp": "2:02"
+      },
+      {
+        "title": "A lunch theory: compression equals understanding",
+        "summary": "Georges Herrick's micro-kitchen claim hooks a young Noam Shazeer, launching Google's first language models — the intellectual seed of today's LLMs, 25 years early.",
+        "quote": "compressing data is actually technically equivalent to understanding it",
+        "timestamp": "9:58"
+      },
+      {
+        "title": "The cat paper proves scale works",
+        "summary": "Google Brain's nine-layer network learns what a cat is from unlabeled YouTube frames on 16,000 CPU cores, unlocking recommender feeds — the result Sundar cites as a turning point.",
+        "quote": "everyone just calls it the cat paper",
+        "timestamp": "41:15"
+      },
+      {
+        "title": "AlexNet's big bang on gaming GPUs",
+        "summary": "Hinton, Krizhevsky, and Sutskever crush ImageNet with two off-the-shelf GTX 580s, setting NVIDIA's trajectory and triggering a four-way auction Google wins at $44 million.",
+        "quote": "the big bang moment of artificial intelligence",
+        "timestamp": "50:46"
+      },
+      {
+        "title": "Demis flips Elon's bit on AI risk",
+        "summary": "DeepMind's rebuttal to Musk's Mars backup plan converts him into an investor and AI believer — the butterfly-wings moment that later cascades into OpenAI, Anthropic, and xAI.",
+        "quote": "what if AI was the thing that went wrong here",
+        "timestamp": "1:11:24"
+      },
+      {
+        "title": "The Rosewood dinner that founded OpenAI",
+        "summary": "Musk and Altman pitch Google's researchers on leaving and nearly everyone refuses — until Ilya Sutskever's yes provides the activation energy the new lab needs.",
+        "quote": "nothing you could tell us that would cause us to leave Google",
+        "timestamp": "1:32:01"
+      },
+      {
+        "title": "Speech recognition forces the TPU into existence",
+        "summary": "Jeff Dean calculates that one voice feature on every Android phone would require doubling Google's data centers, so Google designs and deploys a custom AI chip in 15 months.",
+        "quote": "we need another Google",
+        "timestamp": "1:43:06"
+      },
+      {
+        "title": "Publishing the transformer, losing the authors",
+        "summary": "The 2017 paper becomes the seventh most cited of the century and arms Google's competitors; every author departs, beginning five years of squandered advantage.",
+        "quote": "all eight authors of the Transformer paper had left Google",
+        "timestamp": "2:01:01"
+      },
+      {
+        "title": "ChatGPT triggers the code red",
+        "summary": "Overnight, AI flips from strengthening Google's products to threatening their existence; Sundar responds by merging Brain with DeepMind and standardizing on one Gemini model.",
+        "quote": "AI shifts from being a sustaining innovation to a disruptive innovation",
+        "timestamp": "2:32:35"
+      },
+      {
+        "title": "Waymo's safety data changes the math",
+        "summary": "With dramatically fewer serious crashes and bookings surpassing Lyft in San Francisco, Waymo's $10-15 billion cost — one month of Google profit — looks cheap against a $470 billion accident problem.",
+        "quote": "91% fewer crashes with serious injuries or worse",
+        "timestamp": "3:01:11"
+      },
+      {
+        "title": "The only company with all four AI pillars",
+        "summary": "Cloud turns out to be AI's distribution mechanism, and Google uniquely owns application, model, chip, and cloud — while every rival holds at most one apiece.",
+        "quote": "Google is trying to have all four of those",
+        "timestamp": "3:27:18"
+      },
+      {
+        "title": "Bull, bear, and the needle Google must thread",
+        "summary": "The closing analysis lands on value capture: AI's value creation is proven but its monetization isn't, and the founders' stated willingness to go broke pursuing AI will be tested against the best business ever.",
+        "quote": "they would rather go bankrupt than lose at AI",
+        "timestamp": "3:50:04"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "The innovator's dilemma framing",
+        "summary": "The cold open sets the episode's thesis: Google invented the technology that spawned its own disruptors and must decide whether to cannibalize a 90%-share search monopoly.",
+        "quote": "the most classic textbook case of the innovators dilemma ever",
+        "timestamp": "2:02"
+      },
+      {
+        "title": "A lunch theory: compression equals understanding",
+        "summary": "Georges Herrick's micro-kitchen claim hooks a young Noam Shazeer, launching Google's first language models — the intellectual seed of today's LLMs, 25 years early.",
+        "quote": "compressing data is actually technically equivalent to understanding it",
+        "timestamp": "9:58"
+      },
+      {
+        "title": "The cat paper proves scale works",
+        "summary": "Google Brain's nine-layer network learns what a cat is from unlabeled YouTube frames on 16,000 CPU cores, unlocking recommender feeds — the result Sundar cites as a turning point.",
+        "quote": "everyone just calls it the cat paper",
+        "timestamp": "41:15"
+      },
+      {
+        "title": "AlexNet's big bang on gaming GPUs",
+        "summary": "Hinton, Krizhevsky, and Sutskever crush ImageNet with two off-the-shelf GTX 580s, setting NVIDIA's trajectory and triggering a four-way auction Google wins at $44 million.",
+        "quote": "the big bang moment of artificial intelligence",
+        "timestamp": "50:46"
+      },
+      {
+        "title": "Demis flips Elon's bit on AI risk",
+        "summary": "DeepMind's rebuttal to Musk's Mars backup plan converts him into an investor and AI believer — the butterfly-wings moment that later cascades into OpenAI, Anthropic, and xAI.",
+        "quote": "what if AI was the thing that went wrong here",
+        "timestamp": "1:11:24"
+      },
+      {
+        "title": "The Rosewood dinner that founded OpenAI",
+        "summary": "Musk and Altman pitch Google's researchers on leaving and nearly everyone refuses — until Ilya Sutskever's yes provides the activation energy the new lab needs.",
+        "quote": "nothing you could tell us that would cause us to leave Google",
+        "timestamp": "1:32:01"
+      },
+      {
+        "title": "Speech recognition forces the TPU into existence",
+        "summary": "Jeff Dean calculates that one voice feature on every Android phone would require doubling Google's data centers, so Google designs and deploys a custom AI chip in 15 months.",
+        "quote": "we need another Google",
+        "timestamp": "1:43:06"
+      },
+      {
+        "title": "Publishing the transformer, losing the authors",
+        "summary": "The 2017 paper becomes the seventh most cited of the century and arms Google's competitors; every author departs, beginning five years of squandered advantage.",
+        "quote": "all eight authors of the Transformer paper had left Google",
+        "timestamp": "2:01:01"
+      },
+      {
+        "title": "ChatGPT triggers the code red",
+        "summary": "Overnight, AI flips from strengthening Google's products to threatening their existence; Sundar responds by merging Brain with DeepMind and standardizing on one Gemini model.",
+        "quote": "AI shifts from being a sustaining innovation to a disruptive innovation",
+        "timestamp": "2:32:35"
+      },
+      {
+        "title": "Waymo's safety data changes the math",
+        "summary": "With dramatically fewer serious crashes and bookings surpassing Lyft in San Francisco, Waymo's $10-15 billion cost — one month of Google profit — looks cheap against a $470 billion accident problem.",
+        "quote": "91% fewer crashes with serious injuries or worse",
+        "timestamp": "3:01:11"
+      },
+      {
+        "title": "The only company with all four AI pillars",
+        "summary": "Cloud turns out to be AI's distribution mechanism, and Google uniquely owns application, model, chip, and cloud — while every rival holds at most one apiece.",
+        "quote": "Google is trying to have all four of those",
+        "timestamp": "3:27:18"
+      },
+      {
+        "title": "Bull, bear, and the needle Google must thread",
+        "summary": "The closing analysis lands on value capture: AI's value creation is proven but its monetization isn't, and the founders' stated willingness to go broke pursuing AI will be tested against the best business ever.",
+        "quote": "they would rather go bankrupt than lose at AI",
+        "timestamp": "3:50:04"
       }
     ]
   }

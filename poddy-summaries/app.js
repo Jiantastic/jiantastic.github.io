@@ -52,6 +52,7 @@ function formatEpisodeDate(value) {
 function initDom() {
   for (const [key, id] of Object.entries({
     select: "episode-select",
+    permalink: "episode-permalink",
     title: "episode-title",
     date: "episode-date",
     duration: "episode-duration",
@@ -148,6 +149,7 @@ function setEpisode(slug) {
   state.transcriptParagraphs = [];
   state.transcriptLoadedSlug = "";
   dom.select.value = episode.slug;
+  dom.permalink.href = episode.episodeUrl || `/poddy-summaries/episodes/${episode.slug}/`;
   dom.title.textContent = episode.title;
   dom.date.textContent = formatEpisodeDate(episode.pubDate);
   dom.duration.textContent = formatDuration(episode.duration);

@@ -22,10 +22,29 @@ require_cmd() {
   fi
 }
 
+valid_summary() {
+  jq -e '
+    type == "object" and
+    (.overview | type == "array" and length == 2 and all(.[]; type == "string" and length > 0)) and
+    (.takeaways | type == "array" and length == 5 and all(.[];
+      (.title | type == "string" and length > 0) and
+      (.detail | type == "string" and length > 0)
+    )) and
+    (.chapters | type == "array" and length >= 8 and length <= 12 and all(.[];
+      (.title | type == "string" and length > 0) and
+      (.summary | type == "string" and length > 0) and
+      (.quote | type == "string") and
+      (.timestamp | type == "string" and test("^([0-9]+:)?[0-5]?[0-9]:[0-5][0-9]$"))
+    ))
+  ' "$1" >/dev/null 2>&1
+}
+
 while [ "$#" -gt 0 ]; do
   case "$1" in
     --limit)
       LIMIT="$2"; shift 2 ;;
+    --all)
+      LIMIT=999999; shift ;;
     --feed)
       FEED="$2"; shift 2 ;;
     --dry-run)
@@ -89,6 +108,9 @@ while IFS= read -r ep; do
   title=$(jq -r '.title' <<<"$ep")
   slug=$(jq -r '.slug' <<<"$ep")
   audio_url=$(jq -r '.audioUrl' <<<"$ep")
+  summary_path="$DATA/summaries/$slug.json"
+  transcript_json="$DATA/transcripts/$slug.json"
+  timed_transcript="$DATA/transcripts/$slug-timed.txt"
   log "[$index] ${title}"
 
   if [ "$DRY_RUN" -eq 1 ]; then
@@ -96,11 +118,16 @@ while IFS= read -r ep; do
     continue
   fi
 
-  temp_audio=$(mktemp /tmp/poddy-audio-XXXXXX.mp3)
-  log "Downloading audio -> $temp_audio"
-  curl -L --fail --retry 3 --retry-delay 2 -o "$temp_audio" "$audio_url"
-
-  python3 "$DIR/transcribe.py" --audio "$temp_audio" --slug "$slug" --title "$title" --data-dir "$DATA"
+  if [ -s "$transcript_json" ] && [ -s "$timed_transcript" ]; then
+    log "Reusing existing transcript for $slug"
+  else
+    temp_audio=$(mktemp /tmp/poddy-audio-XXXXXX)
+    log "Downloading audio -> $temp_audio"
+    curl -L --fail --retry 3 --retry-delay 2 -o "$temp_audio" "$audio_url"
+    python3 "$DIR/transcribe.py" --audio "$temp_audio" --slug "$slug" --title "$title" --data-dir "$DATA"
+    cleanup
+    temp_audio=""
+  fi
 
   IFS= read -r -d '' prompt <<'EOF' || true
 You are producing a useful full-episode listening guide.
@@ -119,37 +146,26 @@ Only output valid JSON with no commentary or markdown fences.
 Transcript:
 EOF
 
-  summary_path="$DATA/summaries/$slug.json"
-  timed_transcript="$DATA/transcripts/$slug-timed.txt"
-  log "Summarizing via claude -p -> $summary_path"
-  temp_summary=$(mktemp /tmp/poddy-summary-XXXXXX.json)
-  {
-    printf '%s\n' "$prompt"
-    cat "$timed_transcript"
-  } | claude -p --output-format text > "$temp_summary"
+  if [ -s "$summary_path" ] && valid_summary "$summary_path"; then
+    log "Reusing existing summary for $slug"
+  else
+    log "Summarizing via claude -p -> $summary_path"
+    temp_summary=$(mktemp /tmp/poddy-summary-XXXXXX)
+    {
+      printf '%s\n' "$prompt"
+      cat "$timed_transcript"
+    } | claude -p --output-format text > "$temp_summary"
 
-  if ! jq -e '
-    type == "object" and
-    (.overview | type == "array" and length == 2 and all(.[]; type == "string" and length > 0)) and
-    (.takeaways | type == "array" and length == 5 and all(.[];
-      (.title | type == "string" and length > 0) and
-      (.detail | type == "string" and length > 0)
-    )) and
-    (.chapters | type == "array" and length >= 8 and length <= 12 and all(.[];
-      (.title | type == "string" and length > 0) and
-      (.summary | type == "string" and length > 0) and
-      (.quote | type == "string") and
-      (.timestamp | type == "string" and test("^([0-9]+:)?[0-5]?[0-9]:[0-5][0-9]$"))
-    ))
-  ' "$temp_summary" >/dev/null; then
-    echo "Claude returned an invalid episode summary for $slug; leaving existing data unchanged." >&2
-    exit 1
+    if ! valid_summary "$temp_summary"; then
+      echo "Claude returned an invalid episode summary for $slug; leaving existing data unchanged." >&2
+      exit 1
+    fi
+    mv "$temp_summary" "$summary_path"
+    temp_summary=""
   fi
-  mv "$temp_summary" "$summary_path"
-  temp_summary=""
 
   log "Updating state"
-  tmp_state=$(mktemp /tmp/poddy-state-XXXXXX.json)
+  tmp_state=$(mktemp /tmp/poddy-state-XXXXXX)
   jq --arg guid "$guid" '.processed += [$guid] | .processed |= unique' "$STATE" > "$tmp_state"
   mv "$tmp_state" "$STATE"
 
@@ -157,6 +173,11 @@ EOF
   temp_audio=""
   temp_summary=""
 done < <(jq -c '.[]' <<<"$process_list")
+
+if [ "$DRY_RUN" -eq 1 ]; then
+  log "Dry-run complete"
+  exit 0
+fi
 
 log "Rebuilding episodes.json"
 python3 "$DIR/build_episodes.py" --feed "$FEED" --data-dir "$DATA"

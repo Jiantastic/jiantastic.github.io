@@ -36,6 +36,7 @@ def parse_feed(url: str):
                 "guid": str(guid),
                 "title": title,
                 "audioUrl": audio_url,
+                "sourceUrl": entry.get("link") or "https://www.acquired.fm/episodes",
                 "pubDate": published,
                 "duration": duration,
                 "slug": slugify(title),

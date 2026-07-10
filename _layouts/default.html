@@ -3,44 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
-    </title>
-    <meta
-      name="description"
-      content="{{ page.description | default: site.description }}"
-    />
-
-    <!-- Open Graph -->
-    <meta
-      property="og:title"
-      content="{{ page.title | default: site.title }}"
-    />
-    <meta
-      property="og:description"
-      content="{{ page.description | default: site.description }}"
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ page.url | absolute_url }}" />
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@{{ site.twitter_username }}" />
-    <meta
-      name="twitter:title"
-      content="{{ page.title | default: site.title }}"
-    />
-    <meta
-      name="twitter:description"
-      content="{{ page.description | default: site.description }}"
-    />
+    {% seo %}
 
     <link rel="icon" href="/favicon.ico" />
+    {% if page.rss_url %}
+    <link rel="alternate" type="application/rss+xml" title="{{ page.rss_title | default: page.title | escape }}" href="{{ page.rss_url }}" />
+    {% endif %}
     {% if page.hero_image %}
     <link rel="preload" as="image" href="{{ page.hero_image }}" fetchpriority="high" />
     {% endif %}
     <link rel="stylesheet" href="/assets/css/main.css" />
-    {% seo %}
   </head>
   <body class="page-{{ page.title | default: 'site' | slugify }}">
     <a class="skip-link" href="#main-content">Skip to content</a>

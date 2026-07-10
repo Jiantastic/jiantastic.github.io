@@ -1,8 +1,15 @@
 ---
 layout: default
-title: Poddy Summaries
-description: A chaptered listening companion for the Acquired podcast.
+title: Acquired Podcast Summaries & Transcripts
+description: Independent Acquired podcast summaries with key insights, chapter timestamps, audio, and searchable full transcripts for every completed episode.
 permalink: /poddy-summaries/
+image:
+  path: /images/poddy-acquired-og-wide.webp
+  width: 1200
+  height: 630
+  alt: Acquired Podcast Summaries and Transcripts
+rss_url: https://feeds.transistor.fm/acquired
+rss_title: Acquired Podcast RSS Feed
 ---
 
 <link rel="stylesheet" href="./styles.css" />
@@ -10,12 +17,14 @@ permalink: /poddy-summaries/
 <div class="poddy-page">
   <header class="page-header">
     <div>
-      <p class="eyebrow">Poddy</p>
-      <h1>Poddy<br />Summaries</h1>
+      <p class="eyebrow">Poddy · Independent companion</p>
+      <h1>Acquired Podcast<br />Summaries</h1>
       <p class="lede">
-        The useful version of a long podcast: a clear overview, the ideas worth
-        keeping, chapter jumps, and a transcript you can actually read.
+        Clear, independent guides to the <a href="https://www.acquired.fm/" target="_blank" rel="noopener">Acquired podcast</a>:
+        the central argument, five key insights, chapter jumps, and searchable
+        full transcripts.
       </p>
+      <p class="poddy-disclaimer">Poddy is not affiliated with Acquired. Episode names and source audio belong to Acquired.</p>
     </div>
   </header>
 
@@ -33,6 +42,7 @@ permalink: /poddy-summaries/
       <div class="episode-picker">
         <label for="episode-select">Choose episode</label>
         <select id="episode-select"></select>
+        <a class="episode-permalink" id="episode-permalink" href="/poddy-summaries/">Open the permanent episode page ↗</a>
       </div>
     </div>
 
@@ -104,6 +114,8 @@ permalink: /poddy-summaries/
       <div class="transcript-box" id="transcript-box"></div>
     </div>
   </section>
+
+  {% include poddy-episode-directory.html %}
 </div>
 
 <script type="module" src="./app.js"></script>
