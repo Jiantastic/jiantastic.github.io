@@ -1,0 +1,102 @@
+{
+  "overview": [
+    "Nintendo's first century is the story of a playing-card company that repeatedly carried distribution, product judgment, and technical talent into adjacent forms of play. Under Hiroshi Yamauchi it moved from Yakuza-supplied Hanafuda cards to Disney toys, novelty gadgets, arcades, and finally a tightly integrated console platform that revived the American video-game market after its 97% collapse.",
+    "The decisive tension is quality versus abundance. Atari's open cartridge gold rush destroyed consumer trust; Nintendo rebuilt it through superior hardware, Miyamoto's character-driven games, a cryptographic lockout chip, restrictive developer contracts, and direct customer media. The result was not merely better games but control of hardware, software, retail, marketing, and intellectual property—enough to reach 95% global share."
+  ],
+  "takeaways": [
+    {
+      "title": "Distribution survived every Nintendo reinvention",
+      "detail": "Nintendo's recurring asset was access to customers: Yakuza gambling parlors consumed fresh card decks, Disney licenses opened legitimate toy retailers, bowling alleys became arcade test beds, and Nintendo of America eventually built direct retail and consumer relationships. Each new business looked different while reusing the channel built by the last one."
+    },
+    {
+      "title": "Time was Nintendo's strategic constraint release",
+      "detail": "Yamauchi demanded a console one year ahead of competitors, profitable at roughly $75, and chose to relax speed rather than quality or price. Game & Watch profits financed the multi-year Famicom effort while Moore's Law improved what Nintendo could ship."
+    },
+    {
+      "title": "Donkey Kong made games into stories",
+      "detail": "Miyamoto was an artist in an engineering-dominated industry and designed the first major narrative-driven arcade game from a failed RadarScope inventory problem. Losing the Popeye license forced Nintendo to create Jumpman, Donkey Kong, and ultimately Mario—owned IP worth far more than the borrowed franchise."
+    },
+    {
+      "title": "The seal of quality enforced monopoly",
+      "detail": "Nintendo framed its NES lockout chip as protection from the low-quality software that caused the crash. Behind that consumer promise were five-game annual limits, two-year exclusivity, Nintendo-controlled cartridge manufacturing, and platform royalties that converted quality control into extraordinary bargaining power."
+    },
+    {
+      "title": "Owned games strengthened the entire platform",
+      "detail": "Super Mario Bros., Duck Hunt, and Zelda gave the NES demand no third party could withhold, while the resulting install base made every outside game more valuable on Nintendo. First-party IP, scale economies, and network effects reinforced one another until developers had little practical alternative."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Atari creates three consumer industries",
+      "summary": "Cheap silicon and Nolan Bushnell's arcade instincts turn computer graphics into commercial entertainment. The same moment produces arcade games, home consoles, and personal computers—but the console gold rush soon rewards volume over quality.",
+      "quote": "not one, not two, but three industries",
+      "timestamp": "23:58"
+    },
+    {
+      "title": "The market collapses ninety-seven percent",
+      "summary": "Fifteen consoles, rushed cartridges, and billions in unsold physical inventory destroy trust. The U.S. home-console category falls from $3.2 billion to $100 million in two years, leaving a valuable market mistaken for a dead toy fad.",
+      "quote": "a 97% drop in market size",
+      "timestamp": "37:25"
+    },
+    {
+      "title": "Playing cards build an unusual channel",
+      "summary": "Founded in 1889, Nintendo becomes Japan's leading Hanafuda producer by serving gambling parlors that require fresh cards every game. The Yakuza relationship creates both risk and a powerful nationwide distribution capability.",
+      "quote": "It's organized crime",
+      "timestamp": "50:35"
+    },
+    {
+      "title": "Disney carries Nintendo into legitimate retail",
+      "summary": "Licensed Disney cards and toys open the children's market. Nintendo then conditions access to scarce Disney products on retailers also carrying its own inventions, turning borrowed brand power into a durable channel.",
+      "quote": "they get power over the distributors",
+      "timestamp": "59:53"
+    },
+    {
+      "title": "Yamauchi discovers Gunpei Yokoi",
+      "summary": "A playing-card assembly technician builds the Ultra Hand as a gag; Yamauchi recognizes a million-unit product and elevates Yokoi into Nintendo's chief inventor. Yokoi later creates Game & Watch and Game Boy and mentors Miyamoto.",
+      "quote": "you are now the chief designer",
+      "timestamp": "1:01:51"
+    },
+    {
+      "title": "Light guns lead circuitously to consoles",
+      "summary": "Failed bowling alleys become shooting ranges, which pull Nintendo into arcades and a Magnavox partnership. Supplying the Odyssey's light gun gives the company a privileged view of the first American home console before it launches its own Japanese systems.",
+      "quote": "who made the light gun",
+      "timestamp": "1:05:18"
+    },
+    {
+      "title": "Nintendo chooses patience over launch speed",
+      "summary": "Yamauchi orders a programmable console that is technologically ahead, inexpensive, and profitable per unit. Nintendo spends years building it while Game & Watch supplies cash and arcade development identifies the games worth bringing home.",
+      "quote": "the constraint I'm going to relax here is time",
+      "timestamp": "1:13:23"
+    },
+    {
+      "title": "RadarScope failure produces Donkey Kong",
+      "summary": "Nintendo needs a conversion kit for unsold American arcade cabinets and gives the problem to young artist Shigeru Miyamoto. His story-first design introduces Jumpman and turns a warehouse liability into Nintendo's creative foundation.",
+      "quote": "We have Jumpman",
+      "timestamp": "1:30:16"
+    },
+    {
+      "title": "Famicom quality earns a costly recall",
+      "summary": "After a defective chip appears, Nintendo replaces every motherboard rather than only failed components. The credibility sacrifice precedes explosive Japanese demand and a three-million-unit semiconductor commitment.",
+      "quote": "replace every motherboard on every single unit",
+      "timestamp": "2:02:07"
+    },
+    {
+      "title": "Two years create a killer library",
+      "summary": "Waiting from the 1983 Famicom launch to the 1985 NES launch gives Nintendo cash and first-party firepower. Super Mario Bros., Duck Hunt, and Zelda arrive before America is asked to trust consoles again.",
+      "quote": "they've got so much firepower",
+      "timestamp": "2:13:46"
+    },
+    {
+      "title": "The lockout chip becomes consumer protection",
+      "summary": "Nintendo technically blocks unapproved cartridges, then markets the restriction as a seal protecting families from another software glut. Annual game limits and exclusivity transform trust into control over publishers.",
+      "quote": "This is our seal of quality",
+      "timestamp": "2:21:16"
+    },
+    {
+      "title": "Nintendo Power completes the customer loop",
+      "summary": "Warranty registrations become a free fan club and then a magazine with 1.5 million immediate subscriptions and six million circulation. Nintendo gains a direct CRM, a profitable media product, and a channel for manufacturing demand for its games.",
+      "quote": "They instantly get a million and a half subscriptions",
+      "timestamp": "2:37:06"
+    }
+  ]
+}

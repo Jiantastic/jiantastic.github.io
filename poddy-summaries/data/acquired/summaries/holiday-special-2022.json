@@ -1,0 +1,102 @@
+{
+  "overview": [
+    "Acquired's 2022 retrospective uses the year's episodes and technology shocks to refine a theory of durable media and business strategy. Taylor Swift demonstrates internet-scale demand, NVIDIA demonstrates repeated company-saving technical bets, Walmart shows technology must improve financial structure, and Benchmark shows that a distinctive format comes from trade-offs rather than merely working harder.",
+    "The hosts also confront the cost of credibility after interviewing Sam Bankman-Fried, explain why they answered FTX through evergreen Enron history instead of real-time commentary, and assess the first ChatGPT moment with excitement but uncertainty. Their conclusion about Acquired is equally disciplined: remain small, infrequent, long-form, selective, and willing to reject attractive opportunities that weaken the product's differentiated promise."
+  ],
+  "takeaways": [
+    {
+      "title": "The internet enlarges hits and niches",
+      "detail": "Taylor Swift generated an estimated 900 stadiums of Ticketmaster demand, while specialist products such as Stratechery and Acquired can reach unexpectedly large global audiences. Internet distribution simultaneously supports far more creators and concentrates unprecedented attention around the biggest stars."
+    },
+    {
+      "title": "Credibility creates responsibility after failure",
+      "detail": "The hosts acknowledge that featuring Bankman-Fried may have helped legitimize FTX for listeners, even though they could not have known about the fraud. Their response was to apologize directly and produce an Enron history that supplied durable patterns without pretending to offer definitive real-time reporting."
+    },
+    {
+      "title": "Technology must change business economics",
+      "detail": "Calling a company tech-enabled is meaningful only when technology reduces a previously large cost or expands distribution on the same cost base. Walmart qualifies because logistics coordination enabled structurally lower prices and greater volume; superficial software layered onto unchanged economics does not."
+    },
+    {
+      "title": "Strategy is a chosen set of trade-offs",
+      "detail": "Doing more research than other interviewers is operational excellence, not strategy. Acquired's strategy is publishing infrequently, making unusually long episodes, staying a two-person operation, and earning enough trust to combine a deeply researched history with access to its protagonists."
+    },
+    {
+      "title": "ChatGPT revealed capability before applications",
+      "detail": "DALL-E 2, GPT-3, and stateful ChatGPT made a computing shift visible before the hosts could name its largest market. They compare the moment to the early App Store: obvious platform power, many small first-order ideas, and only a few entrepreneurs capable of seeing the defining applications."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Taylor Swift exposes internet-scale demand",
+      "summary": "The Eras Tour ticket failure becomes a lesson in distribution and career strategy. Swift could clear the market with extreme pricing, but doing so would sacrifice reach, goodwill, and the long-term fan relationship that makes a fifty-year career possible.",
+      "quote": "900 stadiums worth of demand",
+      "timestamp": "5:11"
+    },
+    {
+      "title": "Twitter remains an information compression machine",
+      "summary": "Imagining Twitter's disappearance reveals its unusual job: rapidly showing what distributed groups are discussing and when consensus shifts. TikTok offers cultural discovery but communicates fewer independent facts per minute.",
+      "quote": "Where do you go to find out",
+      "timestamp": "10:47"
+    },
+    {
+      "title": "Acquired asks what it uniquely adds",
+      "summary": "Amazon's popularity despite extensive existing coverage clarifies the editorial test. The show should cover familiar or timely companies only when its historical synthesis adds something that reporters and daily analysts are not already providing.",
+      "quote": "what can we add by doing it",
+      "timestamp": "16:33"
+    },
+    {
+      "title": "The hosts apologize for legitimizing FTX",
+      "summary": "Bankman-Fried's earlier appearance forces an explicit credibility reckoning. The hosts cannot claim they should have detected concealed fraud, but accept that their platform may have influenced listeners who later lost money.",
+      "quote": "We lent our platform to Sam",
+      "timestamp": "20:40"
+    },
+    {
+      "title": "NVIDIA survives three company-sized bets",
+      "summary": "NVIDIA's history is reduced to three existential commitments: an accelerated first chip, programmable shaders, and seven years funding CUDA before the AI market existed. ChatGPT's arrival makes the last wager newly legible.",
+      "quote": "Jensen bet the company three separate times",
+      "timestamp": "21:51"
+    },
+    {
+      "title": "ChatGPT changes the interaction modality",
+      "summary": "The model's stateful conversation interface matters as much as its underlying capability. Like the original App Store, it makes a platform shift feel inevitable before its Uber-scale application can be identified.",
+      "quote": "this unlocks a whole world of possibilities",
+      "timestamp": "25:22"
+    },
+    {
+      "title": "Walmart proves technology through financial statements",
+      "summary": "The hosts debate what makes a company genuinely technology-enabled. Their practical test is whether technology collapses a major cost or expands revenue capacity enough to produce meaningfully better mature economics.",
+      "quote": "what are you actually using technology for",
+      "timestamp": "34:13"
+    },
+    {
+      "title": "Benchmark reveals Acquired's ideal format",
+      "summary": "Telling a firm's history and then bringing its protagonists into the conversation produces something more defensible than a well-prepared interview. The historical work changes both the questions and the guest's willingness to engage.",
+      "quote": "the platonic ideal of an acquired",
+      "timestamp": "35:48"
+    },
+    {
+      "title": "Operational excellence is not strategy",
+      "summary": "More preparation can be copied; an interlocking set of costly trade-offs is harder to imitate. Acquired's low release frequency, long runtime, selectivity, and trust all sacrifice conventional podcast growth tactics to strengthen one product.",
+      "quote": "real strategy which is trade-offs",
+      "timestamp": "36:54"
+    },
+    {
+      "title": "Live shows create the wrong optimization",
+      "summary": "Arena and international events produced unforgettable moments but more operational risk, weaker recorded audio, and compromises for the much larger later audience. The hosts decide most live opportunities belong in the strategic 'too hard' pile.",
+      "quote": "the juice is almost never worth the squeeze",
+      "timestamp": "47:10"
+    },
+    {
+      "title": "Audience size and business value diverge",
+      "summary": "Acquired's revenue sometimes grew tenfold while audience doubled because the existing asset was under-monetized. The hosts prefer improving sponsor integration and other differentiated economics over simply adding more advertisements.",
+      "quote": "the audience would 2x but revenue would 10x",
+      "timestamp": "1:13:57"
+    },
+    {
+      "title": "Financial optimization must include happiness",
+      "summary": "Morgan Housel's Psychology of Money reframes investment performance around the life it supports. The deliberately boring prescription—buy broad index funds early and avoid selling—can outperform cleverness while reducing the psychological cost of constant decisions.",
+      "quote": "just never sell anything",
+      "timestamp": "1:57:43"
+    }
+  ]
+}
