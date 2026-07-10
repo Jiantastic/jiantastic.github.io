@@ -4457,5 +4457,940 @@
         "timestamp": "20:33"
       }
     ]
+  },
+  {
+    "slug": "microsoft-volume-ii",
+    "guid": "a9f28baa-853a-47bb-a600-059d0067691e",
+    "title": "Microsoft Volume II",
+    "pubDate": "Sun, 21 Jul 2024 19:43:05 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/54402842/6376d479.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/microsoft-volume-ii",
+    "duration": 17385,
+    "episodeUrl": "/poddy-summaries/episodes/microsoft-volume-ii/",
+    "summaryPath": "summaries/microsoft-volume-ii.json",
+    "transcriptPath": "transcripts/microsoft-volume-ii.txt",
+    "transcriptJsonPath": "transcripts/microsoft-volume-ii.json",
+    "overview": [
+      "Ben and David argue that Microsoft's so-called lost era — from Windows 95 in 1995 to Satya Nadella's promotion in 2014 — was actually when the company won. Consumer efforts like Zune, Windows Phone, and Vista failed, yet revenue grew from $6 billion to $80 billion as Microsoft cracked the code on enterprise software and secretly built Azure, the foundation of its return to being the world's most valuable company.",
+      "The episode's arc runs from peak consumer power — crushing Netscape with a free, bundled Internet Explorer — into the DOJ antitrust trial that briefly ordered a breakup, sidelined Bill Gates, and traumatized the culture. Steve Ballmer then rebuilt Microsoft around enterprise agreements and the cloud, but the stock sat flat near $30 for his entire tenure because the company tripled profits while completely failing to tell its story."
+    ],
+    "takeaways": [
+      {
+        "title": "Bundling free Internet Explorer destroyed Netscape",
+        "detail": "Netscape sold server software on the strength of client dominance, so when Gates made IE free in every copy of Windows on December 7, 1995, Netscape's stock fell a third and never recovered. IE rode Windows distribution from zero to effectively 100% browser share by 2000."
+      },
+      {
+        "title": "Antitrust's real cost was cultural, not legal",
+        "detail": "The 2002 settlement imposed only mild terms — API documentation, no exclusionary OEM contracts, a complaints committee — but 16 months under an active breakup order, the leaked Gates deposition tapes, and 21 years of scrutiny broke morale, changed Gates permanently, and distracted the company through the internet transition."
+      },
+      {
+        "title": "Enterprise agreements turned software into growing annuities",
+        "detail": "Three-year per-device EAs bundling Windows, Office, SQL Server, Exchange, and Active Directory made everything sticky without any product needing to be best-of-breed. By 2007, 55% of Microsoft's revenue flowed from EAs, versus the 29% gross margins of the abandoned retail-box model."
+      },
+      {
+        "title": "Google's less-than-free Android doomed Windows Phone",
+        "detail": "Because Google monetized search, it could give OEMs Android for free — even pay carriers to push it — while Microsoft asked several dollars per handset in a pennies-driven industry. The hosts trace a direct line from Google's search economics to Microsoft's inevitable mobile loss, independent of the iPhone."
+      },
+      {
+        "title": "Azure was built under Ballmer, not Satya",
+        "detail": "Ray Ozzie's 2005 Internet Services Disruption memo launched Red Dog outside the server-and-tools division, with Dave Cutler writing a hypervisor from scratch, seven years before Nadella became CEO. Ballmer funded billions in data centers against internal incentives, then handpicked Nadella to lead the cloud transition."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Reframing Microsoft's 'lost years' narrative",
+        "summary": "The hosts open by questioning the standard story that Microsoft was winning, then sucked, then was saved by Satya — after dozens of interviews, they argue it isn't that straightforward.",
+        "quote": "Microsoft was winning, and then it sucked for a long time",
+        "timestamp": "3:02"
+      },
+      {
+        "title": "Jay Allard's memo spots the internet tidal wave",
+        "summary": "Months before Netscape even existed, a young engineer's January 1994 memo about Mosaic laid out the entire winning strategy — and coined the phrase competitors would turn into 'embrace, extend, extinguish.'",
+        "quote": "embrace and extend the internet into Windows itself",
+        "timestamp": "14:03"
+      },
+      {
+        "title": "Netscape's IPO makes the browser existential",
+        "summary": "Netscape's $3 billion IPO and Andreessen's taunt crystallize the threat: if the web becomes the application platform, Windows loses all its power — which is why Microsoft had to win the browser.",
+        "quote": "Netscape will soon reduce Windows to a poorly debugged set of device drivers",
+        "timestamp": "35:24"
+      },
+      {
+        "title": "Free Internet Explorer cuts off Netscape's air supply",
+        "summary": "Gates's December 1995 decision to bundle IE free with every copy of Windows marks the high watermark for Netscape and the lesson that when your distribution competes with you, your business is over.",
+        "quote": "Netscape stock drops by about a third and never recovers",
+        "timestamp": "40:46"
+      },
+      {
+        "title": "The Gates deposition backfires on video",
+        "summary": "Gates's never-give-an-inch strategy was tailored for written transcripts, but the judge reversed course and allowed videotape — letting David Boies drip out clips that destroyed Microsoft's credibility and Gates's public image.",
+        "quote": "they argue over the definition of definition",
+        "timestamp": "1:06:28"
+      },
+      {
+        "title": "Judge Jackson orders Microsoft broken in two",
+        "summary": "The June 2000 ruling — separate operating system and applications companies, with Gates and Ballmer forced apart — stood for 16 months while Microsoft's market cap fell 55%, before Jackson's press leaks got him removed.",
+        "quote": "Microsoft will be split up by order of the United States government",
+        "timestamp": "1:12:17"
+      },
+      {
+        "title": "Building the enterprise flywheel",
+        "summary": "SQL Server, Exchange, and Active Directory work best with Windows and Office and vice versa, giving enterprises a full-system solution from one vendor — the post-DOJ offense that redefined the company.",
+        "quote": "the most incredible three-sided technology flywheel ever built",
+        "timestamp": "1:38:03"
+      },
+      {
+        "title": "Longhorn collapses into the Vista disaster",
+        "summary": "WinFS and years of architecture reviews produced an operating system that never compiled, drained Microsoft's best engineers to Amazon, and handed Apple the opening that set up the iPhone era.",
+        "quote": "the company smoking their own supply",
+        "timestamp": "2:23:34"
+      },
+      {
+        "title": "Android's less-than-free model dooms Windows Phone",
+        "summary": "Because Google only cared about capturing search volume, it gave Android away and paid for distribution — a business model Microsoft's per-license fees structurally could not answer.",
+        "quote": "unless Microsoft adopts Google's business model, they're immediately screwed",
+        "timestamp": "3:13:27"
+      },
+      {
+        "title": "Red Dog: Azure incubated outside the divisions",
+        "summary": "Ray Ozzie recruits Dave Cutler to build Azure in secret because the cloud threatened Windows Server's business model, go-to-market partners, and every internal KPI — with Ballmer's full backing.",
+        "quote": "a secret project within Microsoft, incubated outside any of the existing divisions",
+        "timestamp": "3:36:25"
+      },
+      {
+        "title": "Grading Ballmer: revenue tripled, stock flat",
+        "summary": "Ballmer inherited a 75x P/E at the top of the bubble and grew revenue 3.5x, but multiple compression erased it all — investors wrongly assumed Windows and Office weren't durable.",
+        "quote": "you could have bought Microsoft in 2009 for 2.1X annual revenue",
+        "timestamp": "4:11:08"
+      },
+      {
+        "title": "Landing the plane: the story Microsoft never told",
+        "summary": "The hosts' final takeaway is that Microsoft's biggest failure of the era was narrative — unlike Amazon, whose failures became a virtue, Microsoft let 'they can't get anything right' calcify while quietly building the foundation to win cloud and AI.",
+        "quote": "They did not tell their story",
+        "timestamp": "4:36:05"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Reframing Microsoft's 'lost years' narrative",
+        "summary": "The hosts open by questioning the standard story that Microsoft was winning, then sucked, then was saved by Satya — after dozens of interviews, they argue it isn't that straightforward.",
+        "quote": "Microsoft was winning, and then it sucked for a long time",
+        "timestamp": "3:02"
+      },
+      {
+        "title": "Jay Allard's memo spots the internet tidal wave",
+        "summary": "Months before Netscape even existed, a young engineer's January 1994 memo about Mosaic laid out the entire winning strategy — and coined the phrase competitors would turn into 'embrace, extend, extinguish.'",
+        "quote": "embrace and extend the internet into Windows itself",
+        "timestamp": "14:03"
+      },
+      {
+        "title": "Netscape's IPO makes the browser existential",
+        "summary": "Netscape's $3 billion IPO and Andreessen's taunt crystallize the threat: if the web becomes the application platform, Windows loses all its power — which is why Microsoft had to win the browser.",
+        "quote": "Netscape will soon reduce Windows to a poorly debugged set of device drivers",
+        "timestamp": "35:24"
+      },
+      {
+        "title": "Free Internet Explorer cuts off Netscape's air supply",
+        "summary": "Gates's December 1995 decision to bundle IE free with every copy of Windows marks the high watermark for Netscape and the lesson that when your distribution competes with you, your business is over.",
+        "quote": "Netscape stock drops by about a third and never recovers",
+        "timestamp": "40:46"
+      },
+      {
+        "title": "The Gates deposition backfires on video",
+        "summary": "Gates's never-give-an-inch strategy was tailored for written transcripts, but the judge reversed course and allowed videotape — letting David Boies drip out clips that destroyed Microsoft's credibility and Gates's public image.",
+        "quote": "they argue over the definition of definition",
+        "timestamp": "1:06:28"
+      },
+      {
+        "title": "Judge Jackson orders Microsoft broken in two",
+        "summary": "The June 2000 ruling — separate operating system and applications companies, with Gates and Ballmer forced apart — stood for 16 months while Microsoft's market cap fell 55%, before Jackson's press leaks got him removed.",
+        "quote": "Microsoft will be split up by order of the United States government",
+        "timestamp": "1:12:17"
+      },
+      {
+        "title": "Building the enterprise flywheel",
+        "summary": "SQL Server, Exchange, and Active Directory work best with Windows and Office and vice versa, giving enterprises a full-system solution from one vendor — the post-DOJ offense that redefined the company.",
+        "quote": "the most incredible three-sided technology flywheel ever built",
+        "timestamp": "1:38:03"
+      },
+      {
+        "title": "Longhorn collapses into the Vista disaster",
+        "summary": "WinFS and years of architecture reviews produced an operating system that never compiled, drained Microsoft's best engineers to Amazon, and handed Apple the opening that set up the iPhone era.",
+        "quote": "the company smoking their own supply",
+        "timestamp": "2:23:34"
+      },
+      {
+        "title": "Android's less-than-free model dooms Windows Phone",
+        "summary": "Because Google only cared about capturing search volume, it gave Android away and paid for distribution — a business model Microsoft's per-license fees structurally could not answer.",
+        "quote": "unless Microsoft adopts Google's business model, they're immediately screwed",
+        "timestamp": "3:13:27"
+      },
+      {
+        "title": "Red Dog: Azure incubated outside the divisions",
+        "summary": "Ray Ozzie recruits Dave Cutler to build Azure in secret because the cloud threatened Windows Server's business model, go-to-market partners, and every internal KPI — with Ballmer's full backing.",
+        "quote": "a secret project within Microsoft, incubated outside any of the existing divisions",
+        "timestamp": "3:36:25"
+      },
+      {
+        "title": "Grading Ballmer: revenue tripled, stock flat",
+        "summary": "Ballmer inherited a 75x P/E at the top of the bubble and grew revenue 3.5x, but multiple compression erased it all — investors wrongly assumed Windows and Office weren't durable.",
+        "quote": "you could have bought Microsoft in 2009 for 2.1X annual revenue",
+        "timestamp": "4:11:08"
+      },
+      {
+        "title": "Landing the plane: the story Microsoft never told",
+        "summary": "The hosts' final takeaway is that Microsoft's biggest failure of the era was narrative — unlike Amazon, whose failures became a virtue, Microsoft let 'they can't get anything right' calcify while quietly building the foundation to win cloud and AI.",
+        "quote": "They did not tell their story",
+        "timestamp": "4:36:05"
+      }
+    ]
+  },
+  {
+    "slug": "starbucks-with-howard-schultz",
+    "guid": "5bb96f28-43cb-4e0d-909a-f1ff11a5d881",
+    "title": "Starbucks (with Howard Schultz)",
+    "pubDate": "Mon, 03 Jun 2024 22:32:06 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/d666b03b/9d34db72.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/starbucks-with-howard-schultz",
+    "duration": 11699,
+    "episodeUrl": "/poddy-summaries/episodes/starbucks-with-howard-schultz/",
+    "summaryPath": "summaries/starbucks-with-howard-schultz.json",
+    "transcriptPath": "transcripts/starbucks-with-howard-schultz.txt",
+    "transcriptJsonPath": "transcripts/starbucks-with-howard-schultz.json",
+    "overview": [
+      "Howard Schultz argues Starbucks won by transforming a commodity into a premium experience: an 80% gross-margin store business with two-year paybacks and zero marketing spend, powered by a culture that exceeded employees' expectations — stock options and health insurance for part-timers — so they would exceed customers'. The company he built from six bean stores is, in his telling, a coffee company serving people, not a beverage company serving coffee.",
+      "The defining tension is scale versus intimacy. Schultz calls ubiquity the enemy of Starbucks: every era of runaway growth — pre-2008 efficiency shortcuts, the mobile app's unchecked convenience, post-2018 underinvestment — diluted the third-place experience, and each crisis pulled him back as CEO. The episode closes with Schultz out of operational power, insisting he will not return, yet publicly warning leadership against a drift toward mediocrity."
+    ],
+    "takeaways": [
+      {
+        "title": "Store economics beat any restaurant model",
+        "detail": "Wall Street had never seen the formula Schultz pitched at the 1992 IPO: a 2-to-1 sales-to-investment ratio with 20%+ operating profit, meaning each store paid back its build cost in under two years. Loyal customers visiting up to 18 times a month on 80% gross-margin beverages made the flywheel compound."
+      },
+      {
+        "title": "Bill Gates Sr. saved the Starbucks acquisition",
+        "detail": "When investor Sam Strom lodged an all-cash bid to take the $3.8M Starbucks deal away from Schultz, Gates Sr. walked into Strom's office, declared 'it's not going to happen,' and helped raise the money. He never told anyone — including his son, who first heard the story decades later."
+      },
+      {
+        "title": "Employee equity came deliberately before the IPO",
+        "detail": "The 1991 Beanstalk program gave stock options worth 14% of base pay to all employees working 20+ hours a week, over the objections of two VC board members. Those $6-strike grants have appreciated roughly 800x, and Starbucks' employee turnover ran about half the industry rate."
+      },
+      {
+        "title": "Zero marketing; partnerships were the billboards",
+        "detail": "Starbucks never paid for advertising. Costco bean sales, United Airlines coffee, bottled Frappuccino via a 50-50 Pepsi JV sketched on a napkin, and Barnes & Noble cafés put billions of logos into circulation, while the cup itself became a status badge customers carried through the streets."
+      },
+      {
+        "title": "Mobile ordering became the biggest Achilles heel",
+        "detail": "The app now drives about a third of orders and holds roughly $1.8B in interest-free customer float, but Schultz says letting it run 24/7 without governors created 'mosh pit' pickup counters and depersonalized the third-place experience — the core asset the brand was built on."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Starbucks prehistory: Pete's coffee in Starbucks bags",
+        "summary": "Schultz reveals the three founders opened the 1971 Pike Place store selling Alfred Pete's coffee under the Starbucks name — beans only, no beverages — a detail he says has never been told publicly.",
+        "quote": "they were using Pete's Coffee",
+        "timestamp": "5:14"
+      },
+      {
+        "title": "The Milan epiphany of 1983",
+        "summary": "At a housewares trade show in Italy, Schultz stumbles into espresso bar culture and races home convinced this is the business Starbucks must be in — only to be rejected by the founders for two years.",
+        "quote": "all of a sudden everything was color",
+        "timestamp": "19:22"
+      },
+      {
+        "title": "Sherry's resolve keeps Il Giornale alive",
+        "summary": "Broke, salary-less, and humiliated by his father-in-law's demand that he get a real job, Schultz is saved by his pregnant wife's refusal to quit — the moment the whole venture could have ended.",
+        "quote": "there's no way we're turning around we are going",
+        "timestamp": "26:20"
+      },
+      {
+        "title": "Bill Gates Sr. confronts Sam Strom",
+        "summary": "When a wealthy investor tries to snatch the Starbucks acquisition out from under him, Bill Gates Sr. personally kills the rival bid and helps Schultz raise the $3.8 million — then never speaks of it.",
+        "quote": "whatever it is, it's not going to happen",
+        "timestamp": "33:31"
+      },
+      {
+        "title": "The economic model Wall Street had never seen",
+        "summary": "Schultz lays out the store-level math — two-year paybacks, 20%+ operating profit, 80% gross margins — that made Starbucks a retail machine rather than a restaurant, funding decades of self-financed expansion.",
+        "quote": "a sales to investment ratio of two to one",
+        "timestamp": "42:44"
+      },
+      {
+        "title": "Beanstalk: options for every barista",
+        "summary": "A year before the IPO, Schultz fights his VC board members to grant stock options to all employees working 20+ hours — the moment employees became 'partners' and the culture's turning point.",
+        "quote": "give equity in a form of stock options to every single employee",
+        "timestamp": "1:03:04"
+      },
+      {
+        "title": "Tokyo opening defies the consultants",
+        "summary": "Against a board-commissioned study declaring Japan a non-starter, Starbucks opens in the Ginza to lines around the block, proving the brand traveled and unlocking the international business.",
+        "quote": "double tall latte. As God is my witness, just like that",
+        "timestamp": "1:31:42"
+      },
+      {
+        "title": "2008: seven months from insolvency",
+        "summary": "Returning as CEO amid the financial crisis, Schultz closes a thousand stores, tells 10,000 managers the unvarnished truth in New Orleans, and reduces the turnaround to ten incremental customers per store per day.",
+        "quote": "literally, we were trying to save Starbucks",
+        "timestamp": "1:43:41"
+      },
+      {
+        "title": "The mobile app as runaway train",
+        "summary": "Schultz delivers the episode's sharpest self-criticism: the app that created convenience, float, and a third of orders also depersonalized the experience and overwhelmed stores — and he would have slow-rolled it.",
+        "quote": "It is the biggest Achilles heel for Starbucks",
+        "timestamp": "1:58:05"
+      },
+      {
+        "title": "Belinda Wong turns China around",
+        "summary": "After a decade of losses and internal pressure to exit, one operator demanding full decentralized control rebuilds China into 18% of company revenue — Schultz's case study in trusting local leadership.",
+        "quote": "She single-handedly built the China business",
+        "timestamp": "2:14:31"
+      },
+      {
+        "title": "Conquering Italy via the Milan roastery",
+        "summary": "Fifty years after the epiphany, Starbucks enters Italy through a Willy Wonka-inspired roastery in a former post office bought from Blackstone — and Italians make straight espresso the top-selling drink.",
+        "quote": "Espresso is the number one beverage",
+        "timestamp": "2:34:34"
+      },
+      {
+        "title": "The letter: no return, but a warning",
+        "summary": "Schultz explains why he wrote publicly to Starbucks leadership during the 2024 slump — refusing to come back a fourth time while holding the board responsible for restoring the experience over transactions.",
+        "quote": "the company is in a drift towards mediocrity",
+        "timestamp": "3:08:49"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Starbucks prehistory: Pete's coffee in Starbucks bags",
+        "summary": "Schultz reveals the three founders opened the 1971 Pike Place store selling Alfred Pete's coffee under the Starbucks name — beans only, no beverages — a detail he says has never been told publicly.",
+        "quote": "they were using Pete's Coffee",
+        "timestamp": "5:14"
+      },
+      {
+        "title": "The Milan epiphany of 1983",
+        "summary": "At a housewares trade show in Italy, Schultz stumbles into espresso bar culture and races home convinced this is the business Starbucks must be in — only to be rejected by the founders for two years.",
+        "quote": "all of a sudden everything was color",
+        "timestamp": "19:22"
+      },
+      {
+        "title": "Sherry's resolve keeps Il Giornale alive",
+        "summary": "Broke, salary-less, and humiliated by his father-in-law's demand that he get a real job, Schultz is saved by his pregnant wife's refusal to quit — the moment the whole venture could have ended.",
+        "quote": "there's no way we're turning around we are going",
+        "timestamp": "26:20"
+      },
+      {
+        "title": "Bill Gates Sr. confronts Sam Strom",
+        "summary": "When a wealthy investor tries to snatch the Starbucks acquisition out from under him, Bill Gates Sr. personally kills the rival bid and helps Schultz raise the $3.8 million — then never speaks of it.",
+        "quote": "whatever it is, it's not going to happen",
+        "timestamp": "33:31"
+      },
+      {
+        "title": "The economic model Wall Street had never seen",
+        "summary": "Schultz lays out the store-level math — two-year paybacks, 20%+ operating profit, 80% gross margins — that made Starbucks a retail machine rather than a restaurant, funding decades of self-financed expansion.",
+        "quote": "a sales to investment ratio of two to one",
+        "timestamp": "42:44"
+      },
+      {
+        "title": "Beanstalk: options for every barista",
+        "summary": "A year before the IPO, Schultz fights his VC board members to grant stock options to all employees working 20+ hours — the moment employees became 'partners' and the culture's turning point.",
+        "quote": "give equity in a form of stock options to every single employee",
+        "timestamp": "1:03:04"
+      },
+      {
+        "title": "Tokyo opening defies the consultants",
+        "summary": "Against a board-commissioned study declaring Japan a non-starter, Starbucks opens in the Ginza to lines around the block, proving the brand traveled and unlocking the international business.",
+        "quote": "double tall latte. As God is my witness, just like that",
+        "timestamp": "1:31:42"
+      },
+      {
+        "title": "2008: seven months from insolvency",
+        "summary": "Returning as CEO amid the financial crisis, Schultz closes a thousand stores, tells 10,000 managers the unvarnished truth in New Orleans, and reduces the turnaround to ten incremental customers per store per day.",
+        "quote": "literally, we were trying to save Starbucks",
+        "timestamp": "1:43:41"
+      },
+      {
+        "title": "The mobile app as runaway train",
+        "summary": "Schultz delivers the episode's sharpest self-criticism: the app that created convenience, float, and a third of orders also depersonalized the experience and overwhelmed stores — and he would have slow-rolled it.",
+        "quote": "It is the biggest Achilles heel for Starbucks",
+        "timestamp": "1:58:05"
+      },
+      {
+        "title": "Belinda Wong turns China around",
+        "summary": "After a decade of losses and internal pressure to exit, one operator demanding full decentralized control rebuilds China into 18% of company revenue — Schultz's case study in trusting local leadership.",
+        "quote": "She single-handedly built the China business",
+        "timestamp": "2:14:31"
+      },
+      {
+        "title": "Conquering Italy via the Milan roastery",
+        "summary": "Fifty years after the epiphany, Starbucks enters Italy through a Willy Wonka-inspired roastery in a former post office bought from Blackstone — and Italians make straight espresso the top-selling drink.",
+        "quote": "Espresso is the number one beverage",
+        "timestamp": "2:34:34"
+      },
+      {
+        "title": "The letter: no return, but a warning",
+        "summary": "Schultz explains why he wrote publicly to Starbucks leadership during the 2024 slump — refusing to come back a fourth time while holding the board responsible for restoring the experience over transactions.",
+        "quote": "the company is in a drift towards mediocrity",
+        "timestamp": "3:08:49"
+      }
+    ]
+  },
+  {
+    "slug": "microsoft-volume-i",
+    "guid": "c4a8c088-76af-4a04-b6ab-db7bad44cf04",
+    "title": "Microsoft Volume I",
+    "pubDate": "Sun, 21 Apr 2024 17:54:18 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/9096dcf8/9f4e0983.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/microsoft",
+    "duration": 15879,
+    "episodeUrl": "/poddy-summaries/episodes/microsoft-volume-i/",
+    "summaryPath": "summaries/microsoft-volume-i.json",
+    "transcriptPath": "transcripts/microsoft-volume-i.txt",
+    "transcriptJsonPath": "transcripts/microsoft-volume-i.json",
+    "overview": [
+      "This episode argues that Microsoft's real invention was not any single product but the software-only business model itself: zero-marginal-cost code, licensed per machine to hardware makers, riding two 'freak laws of nature' — Moore's Law and software's infinite replicability. Gates and Allen saw exponential cheapening of compute meant 'a computer on every desk and in every home,' and positioned Microsoft as the point of integration an entire industry would have to pay.",
+      "The central arc is Microsoft's climb from dependent little brother to emperor. A capped, exclusive MITS contract and rampant piracy taught Gates to control distribution; the fixed-fee IBM deal that retained DOS rights let clones make Microsoft rich; and 'riding the bear' through OS/2 ended when Windows 3.0 — the unloved plan B — took off, letting Microsoft pass IBM in market cap by 1993 and stage the glorious Windows 95 coronation."
+    ],
+    "takeaways": [
+      {
+        "title": "Fixed-fee IBM deal, but Microsoft kept DOS",
+        "detail": "Microsoft took only $430,000 total from IBM with no royalties, but retained the right to license DOS to anyone on any terms. When Compaq and the clones reverse-engineered the BIOS and built to the same spec, every one of them paid Microsoft per machine — IBM generated the demand, Microsoft captured the value."
+      },
+      {
+        "title": "Piracy forced the per-machine OEM licensing model",
+        "detail": "MITS sold thousands of Altairs monthly while only a few hundred copies of BASIC sold, because hobbyists copied it freely — software wasn't even clearly copyrightable until Congress amended Title 17 in 1980. Gates concluded software must be bundled into the hardware maker's purchase price, the royalty model that built the company."
+      },
+      {
+        "title": "Cheap BASIC licenses bought the industry standard",
+        "detail": "Gates deliberately underpriced deals — Apple got eight years of BASIC for $31,000 — so every manufacturer bundled Microsoft's version rather than writing a rival. His 'success reinforces success' spiral worked because five employees carried almost no fixed cost, letting Microsoft play for standard-setting instead of near-term revenue."
+      },
+      {
+        "title": "Hedged bets beat conviction during platform shifts",
+        "detail": "Microsoft simultaneously toed the IBM OS/2 party line, built Excel first for the Macintosh, and kept a 65-person misfit team on Windows. When Windows 3.0 was unexpectedly loved, an executive offsite flipped plan B to plan A — a pivot possible only because every outcome had a Microsoft product waiting."
+      },
+      {
+        "title": "Gates still owned 49 percent at IPO",
+        "detail": "The only dilution ever was 5% to TVI at a $20 million post-money — roughly 1x revenue — plus Ballmer's 8.5% and a small option pool. Microsoft never spent its $45 million IPO proceeds; that capital efficiency gave Gates founder control to bet the company repeatedly, unlike any modern venture-backed firm."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "A power-couple household breeds a business prodigy",
+        "summary": "Bill Gates grew up absorbing dinner-table conversations with CEOs and senators; his mother sat on major corporate boards and his father co-founded what became K&L Gates. The episode frames Microsoft as bred from this unusual mix of privilege, competitiveness, and business fluency.",
+        "quote": "one of the most powerful business people in the Pacific Northwest",
+        "timestamp": "5:33"
+      },
+      {
+        "title": "Lakeside's teletype and the luck of 1968",
+        "summary": "A Mothers Club fundraiser gave 13-year-old Gates access to a PDP-10 when computers meant room-sized mainframes, making him one of perhaps dozens of Americans so positioned. The hosts establish luck as a load-bearing ingredient alongside brilliance.",
+        "quote": "tremendous intelligence, brilliant strategy, fierce competition, and an unbelievable amount of luck",
+        "timestamp": "11:39"
+      },
+      {
+        "title": "Paul Allen brings Moore's Law to Bill Gates",
+        "summary": "Allen's insight that semiconductor improvements would compound stuns Gates, who grasps that exponentially cheaper computing changes everything. This conversation is the genesis of the 'computer on every desk and in every home' vision.",
+        "quote": "we can think of computing as free",
+        "timestamp": "30:18"
+      },
+      {
+        "title": "The Altair cover launches Microsoft",
+        "summary": "Allen sees the Altair 8800 on Popular Electronics and sprints to Gates's dorm; they cold-call MITS claiming a finished BASIC they haven't written, then build it on an emulator. The starting gun for the PC era fires and only they run.",
+        "quote": "Oh, my God, it's happening without us.",
+        "timestamp": "37:56"
+      },
+      {
+        "title": "The MITS trap and the discovery of piracy",
+        "summary": "An exclusive license capped at $180,000 leaves Microsoft's revenue below what the founders earned in high school, while hobbyists freely copy BASIC before software copyright exists. These misaligned incentives teach Gates the lesson that shapes Microsoft's entire business model.",
+        "quote": "This is the discovery of software piracy",
+        "timestamp": "57:28"
+      },
+      {
+        "title": "Underpricing BASIC to set the standard",
+        "summary": "After winning arbitration against MITS, Microsoft licenses BASIC cheaply to Apple, Commodore, and Tandy so no competitor gets oxygen. Gates articulates the positive-spiral theory that a slight advantage in a growing market compounds into dominance.",
+        "quote": "success reinforces success",
+        "timestamp": "1:11:16"
+      },
+      {
+        "title": "The IBM PC contract: history's greatest deal",
+        "summary": "Microsoft buys QDOS for $75,000, gives IBM a fixed fee with no royalties, and retains the right to license DOS to everyone else. IBM assumes it will dominate PCs; Gates bets the Altair clone dynamic will repeat, and he's right.",
+        "quote": "the greatest deal in at least computer industry history, if not all business history",
+        "timestamp": "1:52:56"
+      },
+      {
+        "title": "Compaq and the clones make Microsoft rich",
+        "summary": "Once Compaq legally reverse-engineers the BIOS, undifferentiated hardware races to the bottom while every clone pays Microsoft per machine for DOS. Revenue jumps from $25 million to $98 million in eighteen months at essentially 100% gross margin.",
+        "quote": "it's just like a geyser of money",
+        "timestamp": "2:00:39"
+      },
+      {
+        "title": "Windows 3.0: plan B becomes the company",
+        "summary": "After years of politically toeing the OS/2 line while 'riding the bear' of IBM, the unexpected love for Windows 3.0 triggers an executive offsite that bets the company on Windows. The misfit 65-person team suddenly owns Microsoft's future.",
+        "quote": "Windows had always been plan B, and now suddenly it was plan A",
+        "timestamp": "2:50:21"
+      },
+      {
+        "title": "Windows 95: software's iPhone moment",
+        "summary": "Jay Leno co-hosts, the Rolling Stones license Start Me Up, people queue around blocks worldwide, and Coca-Cola calls Microsoft for marketing advice. The launch marks the peak of unabashed mainstream celebration of software, selling seven million copies in a month.",
+        "quote": "There is no other word to describe the Windows 95 launch besides glorious",
+        "timestamp": "3:16:41"
+      },
+      {
+        "title": "Analysis: the bootstrapped monopoly's cap table",
+        "summary": "Gates held 49% at IPO after the only dilution ever — 5% to TVI at a ludicrous 1x-revenue valuation — and Microsoft never spent its IPO proceeds. The hosts argue this capital efficiency, unrepeatable today, is what let the founders control their destiny.",
+        "quote": "the most valuable company in the world that was entirely bootstrapped",
+        "timestamp": "3:35:32"
+      },
+      {
+        "title": "Splinters: Project Chess's deep irony",
+        "summary": "The closing takeaways center on how Microsoft converted IBM's dominance into its own for the next generation, with the value chain's point of integration shifting from hardware to the operating system. Both hosts land on the IBM deal as the thing they can't unsee.",
+        "quote": "Bill Gates was playing chess and they played checkers",
+        "timestamp": "4:04:34"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "A power-couple household breeds a business prodigy",
+        "summary": "Bill Gates grew up absorbing dinner-table conversations with CEOs and senators; his mother sat on major corporate boards and his father co-founded what became K&L Gates. The episode frames Microsoft as bred from this unusual mix of privilege, competitiveness, and business fluency.",
+        "quote": "one of the most powerful business people in the Pacific Northwest",
+        "timestamp": "5:33"
+      },
+      {
+        "title": "Lakeside's teletype and the luck of 1968",
+        "summary": "A Mothers Club fundraiser gave 13-year-old Gates access to a PDP-10 when computers meant room-sized mainframes, making him one of perhaps dozens of Americans so positioned. The hosts establish luck as a load-bearing ingredient alongside brilliance.",
+        "quote": "tremendous intelligence, brilliant strategy, fierce competition, and an unbelievable amount of luck",
+        "timestamp": "11:39"
+      },
+      {
+        "title": "Paul Allen brings Moore's Law to Bill Gates",
+        "summary": "Allen's insight that semiconductor improvements would compound stuns Gates, who grasps that exponentially cheaper computing changes everything. This conversation is the genesis of the 'computer on every desk and in every home' vision.",
+        "quote": "we can think of computing as free",
+        "timestamp": "30:18"
+      },
+      {
+        "title": "The Altair cover launches Microsoft",
+        "summary": "Allen sees the Altair 8800 on Popular Electronics and sprints to Gates's dorm; they cold-call MITS claiming a finished BASIC they haven't written, then build it on an emulator. The starting gun for the PC era fires and only they run.",
+        "quote": "Oh, my God, it's happening without us.",
+        "timestamp": "37:56"
+      },
+      {
+        "title": "The MITS trap and the discovery of piracy",
+        "summary": "An exclusive license capped at $180,000 leaves Microsoft's revenue below what the founders earned in high school, while hobbyists freely copy BASIC before software copyright exists. These misaligned incentives teach Gates the lesson that shapes Microsoft's entire business model.",
+        "quote": "This is the discovery of software piracy",
+        "timestamp": "57:28"
+      },
+      {
+        "title": "Underpricing BASIC to set the standard",
+        "summary": "After winning arbitration against MITS, Microsoft licenses BASIC cheaply to Apple, Commodore, and Tandy so no competitor gets oxygen. Gates articulates the positive-spiral theory that a slight advantage in a growing market compounds into dominance.",
+        "quote": "success reinforces success",
+        "timestamp": "1:11:16"
+      },
+      {
+        "title": "The IBM PC contract: history's greatest deal",
+        "summary": "Microsoft buys QDOS for $75,000, gives IBM a fixed fee with no royalties, and retains the right to license DOS to everyone else. IBM assumes it will dominate PCs; Gates bets the Altair clone dynamic will repeat, and he's right.",
+        "quote": "the greatest deal in at least computer industry history, if not all business history",
+        "timestamp": "1:52:56"
+      },
+      {
+        "title": "Compaq and the clones make Microsoft rich",
+        "summary": "Once Compaq legally reverse-engineers the BIOS, undifferentiated hardware races to the bottom while every clone pays Microsoft per machine for DOS. Revenue jumps from $25 million to $98 million in eighteen months at essentially 100% gross margin.",
+        "quote": "it's just like a geyser of money",
+        "timestamp": "2:00:39"
+      },
+      {
+        "title": "Windows 3.0: plan B becomes the company",
+        "summary": "After years of politically toeing the OS/2 line while 'riding the bear' of IBM, the unexpected love for Windows 3.0 triggers an executive offsite that bets the company on Windows. The misfit 65-person team suddenly owns Microsoft's future.",
+        "quote": "Windows had always been plan B, and now suddenly it was plan A",
+        "timestamp": "2:50:21"
+      },
+      {
+        "title": "Windows 95: software's iPhone moment",
+        "summary": "Jay Leno co-hosts, the Rolling Stones license Start Me Up, people queue around blocks worldwide, and Coca-Cola calls Microsoft for marketing advice. The launch marks the peak of unabashed mainstream celebration of software, selling seven million copies in a month.",
+        "quote": "There is no other word to describe the Windows 95 launch besides glorious",
+        "timestamp": "3:16:41"
+      },
+      {
+        "title": "Analysis: the bootstrapped monopoly's cap table",
+        "summary": "Gates held 49% at IPO after the only dilution ever — 5% to TVI at a ludicrous 1x-revenue valuation — and Microsoft never spent its IPO proceeds. The hosts argue this capital efficiency, unrepeatable today, is what let the founders control their destiny.",
+        "quote": "the most valuable company in the world that was entirely bootstrapped",
+        "timestamp": "3:35:32"
+      },
+      {
+        "title": "Splinters: Project Chess's deep irony",
+        "summary": "The closing takeaways center on how Microsoft converted IBM's dominance into its own for the next generation, with the value chain's point of integration shifting from hardware to the operating system. Both hosts land on the IBM deal as the thing they can't unsee.",
+        "quote": "Bill Gates was playing chess and they played checkers",
+        "timestamp": "4:04:34"
+      }
+    ]
+  },
+  {
+    "slug": "renaissance-technologies",
+    "guid": "88f34088-9b5d-43fe-ac5f-d5a233647de5",
+    "title": "Renaissance Technologies",
+    "pubDate": "Sun, 17 Mar 2024 17:54:40 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/fb475478/8b97c4da.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/renaissance-technologies",
+    "duration": 11329,
+    "episodeUrl": "/poddy-summaries/episodes/renaissance-technologies/",
+    "summaryPath": "summaries/renaissance-technologies.json",
+    "transcriptPath": "transcripts/renaissance-technologies.txt",
+    "transcriptJsonPath": "transcripts/renaissance-technologies.json",
+    "overview": [
+      "The episode argues that Renaissance Technologies' Medallion fund is proof the market can be beaten: 66% gross annual returns over three decades, with no losing year since 1990. Crucially, it was built by outsiders — codebreaker Jim Simons and PhD scientists with no investing background — who treated markets as a signal-processing problem, using hidden Markov models to trade on statistical patterns while ignoring fundamentals entirely.",
+      "The central arc is the 25-year gap between the idea and the machine: from the 1964 IDA paper through gut-driven currency trading, near-blowups, and spinouts, until clean data, one unified model, and leverage made it work. The tension is that the money machine only survives by staying small and secret — kicking out all outside investors, capping fund size against slippage, and engineering incentives so the world's smartest people never leave."
+    ],
+    "takeaways": [
+      {
+        "title": "Code breaking and trading are the same problem",
+        "detail": "Both mine faint signal from apparently random noise using hidden Markov models — predicting future states from observed patterns without understanding underlying causes. Simons and his IDA colleagues laid out the entire Rentech approach in a 1964 paper, twenty years before the firm existed."
+      },
+      {
+        "title": "A tiny edge, massively repeated, prints billions",
+        "detail": "Mercer's line — 'we're 100% right 50.75% of the time' — captures the model: Kelly-criterion bet sizing across 150,000–300,000 trades a day. Basket options leverage amplified it, letting Medallion control $60 billion of positions on $5 billion of capital in 2002."
+      },
+      {
+        "title": "One shared model makes collaboration self-interested",
+        "detail": "Unlike Citadel or multi-strategy funds where pods compete, all of Rentech's ~200 researchers work on a single model and see the whole codebase, so anyone's improvement pays everyone. Combined with a ~14-year median tenure, credit-hoarding loses its logic."
+      },
+      {
+        "title": "Refusing to scale is what preserved the returns",
+        "detail": "Slippage — moving the market with your own trades — caps how big the strategy can get. Rentech closed Medallion in 1993, expelled outside LPs from 2003, and kept it near $10–15 billion, sustaining 30%+ gross returns every year while institutional funds absorbed outside demand."
+      },
+      {
+        "title": "The 44% carry transfers wealth to current staff",
+        "detail": "With no outside LPs, charging yourself 5-and-44 seems absurd — until you see it as routing roughly half of each year's gains from the tenured investor base to the people currently working on the model, a retention mechanism structured like academic tenure."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "The best track record nobody knows",
+        "summary": "Sets up the puzzle: Medallion's 66% annual returns beat Buffett, Soros, and everyone else, yet the firm is nearly invisible — staffed by scientists, closed to outsiders, bound by lifetime NDAs.",
+        "quote": "their eye-popping performance is matched only by their extreme secrecy",
+        "timestamp": "1:59"
+      },
+      {
+        "title": "Jim Simons discovers taste beats raw genius",
+        "summary": "Struggling in an MIT grad seminar teaches Simons he isn't the smartest in the room — but his knack for picking important problems and relating to geniuses becomes Rentech's foundation.",
+        "quote": "Taste in science is very important.",
+        "timestamp": "10:21"
+      },
+      {
+        "title": "Cold War codebreaking at the IDA",
+        "summary": "The Princeton defense think tank gives Simons the template for Rentech: double salaries, no bureaucracy, and free time for research — and the 1964 paper proposing stock prediction is written here.",
+        "quote": "employees had to spend 50% of their time doing code breaking",
+        "timestamp": "19:30"
+      },
+      {
+        "title": "Hidden Markov models: predicting without understanding",
+        "summary": "Lenny Baum's expertise supplies the core method — model observable states and their transitions instead of trying to comprehend the system — the same idea that later underpins modern machine learning.",
+        "quote": "let's abandon any attempt to actually understand what is going on",
+        "timestamp": "26:43"
+      },
+      {
+        "title": "Renaissance is founded — half venture capital",
+        "summary": "The little-known origin: Simons and Howard Morgan launch Renaissance Technologies in 1982 as half quant trading, half tech investing — the seed of what later becomes First Round Capital.",
+        "quote": "that is why Rentech is called Rentech",
+        "timestamp": "46:31"
+      },
+      {
+        "title": "Berlekamp's insight: trade far more often",
+        "summary": "Shorter horizons are more predictable, and a small statistical edge only compounds through volume and disciplined bet sizing — the conceptual turn that makes Medallion work.",
+        "quote": "we're 100% right 50.75% of the time",
+        "timestamp": "1:02:11"
+      },
+      {
+        "title": "The historic run begins",
+        "summary": "After Simons buys out Berlekamp and centralizes everything at Stony Brook, the machine locks in: three decades without a losing year and never below 30% gross.",
+        "quote": "From 1990 onward, they never lose money",
+        "timestamp": "1:13:17"
+      },
+      {
+        "title": "Brown and Mercer unify everything into one model",
+        "summary": "The IBM speech-recognition hires push into equities and make Rentech's defining architectural choice — a single model for all markets that forces firm-wide collaboration no competitor replicates.",
+        "quote": "we should just have one model for everything here",
+        "timestamp": "1:23:02"
+      },
+      {
+        "title": "Raising carry and expelling outside investors",
+        "summary": "After doubling money in the 2000 crash, Rentech hikes fees to 5-and-44 and kicks out all outside LPs by 2003 — because slippage means the strategy can't absorb more capital.",
+        "quote": "they raise the carry to 44%",
+        "timestamp": "1:37:27"
+      },
+      {
+        "title": "Why insiders charge themselves 44% carry",
+        "summary": "David's hypothesis for the episode's teased mystery: the fee structure shifts roughly half of each year's gains to the current team, functioning like academic tenure to retain talent who hold the keys.",
+        "quote": "This is a value transfer mechanism within the firm",
+        "timestamp": "2:05:15"
+      },
+      {
+        "title": "Not investors — the house at the casino",
+        "summary": "The value-capture verdict: Medallion extracts a small edge from emotional counterparties at massive scale, a zero-sum game whose defensible societal contribution is market liquidity and tighter spreads.",
+        "quote": "They are in the gambling business. And in particular, they're the house.",
+        "timestamp": "2:46:30"
+      },
+      {
+        "title": "A machine that predicts the unpredictable",
+        "summary": "The closing takeaway: Rentech's system maps relationships in a complex adaptive system no human can explain — and the bear case is that modern AI may finally let competitors catch up.",
+        "quote": "Renaissance actually has built a large-scale computer system that discovers relationships",
+        "timestamp": "2:58:33"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "The best track record nobody knows",
+        "summary": "Sets up the puzzle: Medallion's 66% annual returns beat Buffett, Soros, and everyone else, yet the firm is nearly invisible — staffed by scientists, closed to outsiders, bound by lifetime NDAs.",
+        "quote": "their eye-popping performance is matched only by their extreme secrecy",
+        "timestamp": "1:59"
+      },
+      {
+        "title": "Jim Simons discovers taste beats raw genius",
+        "summary": "Struggling in an MIT grad seminar teaches Simons he isn't the smartest in the room — but his knack for picking important problems and relating to geniuses becomes Rentech's foundation.",
+        "quote": "Taste in science is very important.",
+        "timestamp": "10:21"
+      },
+      {
+        "title": "Cold War codebreaking at the IDA",
+        "summary": "The Princeton defense think tank gives Simons the template for Rentech: double salaries, no bureaucracy, and free time for research — and the 1964 paper proposing stock prediction is written here.",
+        "quote": "employees had to spend 50% of their time doing code breaking",
+        "timestamp": "19:30"
+      },
+      {
+        "title": "Hidden Markov models: predicting without understanding",
+        "summary": "Lenny Baum's expertise supplies the core method — model observable states and their transitions instead of trying to comprehend the system — the same idea that later underpins modern machine learning.",
+        "quote": "let's abandon any attempt to actually understand what is going on",
+        "timestamp": "26:43"
+      },
+      {
+        "title": "Renaissance is founded — half venture capital",
+        "summary": "The little-known origin: Simons and Howard Morgan launch Renaissance Technologies in 1982 as half quant trading, half tech investing — the seed of what later becomes First Round Capital.",
+        "quote": "that is why Rentech is called Rentech",
+        "timestamp": "46:31"
+      },
+      {
+        "title": "Berlekamp's insight: trade far more often",
+        "summary": "Shorter horizons are more predictable, and a small statistical edge only compounds through volume and disciplined bet sizing — the conceptual turn that makes Medallion work.",
+        "quote": "we're 100% right 50.75% of the time",
+        "timestamp": "1:02:11"
+      },
+      {
+        "title": "The historic run begins",
+        "summary": "After Simons buys out Berlekamp and centralizes everything at Stony Brook, the machine locks in: three decades without a losing year and never below 30% gross.",
+        "quote": "From 1990 onward, they never lose money",
+        "timestamp": "1:13:17"
+      },
+      {
+        "title": "Brown and Mercer unify everything into one model",
+        "summary": "The IBM speech-recognition hires push into equities and make Rentech's defining architectural choice — a single model for all markets that forces firm-wide collaboration no competitor replicates.",
+        "quote": "we should just have one model for everything here",
+        "timestamp": "1:23:02"
+      },
+      {
+        "title": "Raising carry and expelling outside investors",
+        "summary": "After doubling money in the 2000 crash, Rentech hikes fees to 5-and-44 and kicks out all outside LPs by 2003 — because slippage means the strategy can't absorb more capital.",
+        "quote": "they raise the carry to 44%",
+        "timestamp": "1:37:27"
+      },
+      {
+        "title": "Why insiders charge themselves 44% carry",
+        "summary": "David's hypothesis for the episode's teased mystery: the fee structure shifts roughly half of each year's gains to the current team, functioning like academic tenure to retain talent who hold the keys.",
+        "quote": "This is a value transfer mechanism within the firm",
+        "timestamp": "2:05:15"
+      },
+      {
+        "title": "Not investors — the house at the casino",
+        "summary": "The value-capture verdict: Medallion extracts a small edge from emotional counterparties at massive scale, a zero-sum game whose defensible societal contribution is market liquidity and tighter spreads.",
+        "quote": "They are in the gambling business. And in particular, they're the house.",
+        "timestamp": "2:46:30"
+      },
+      {
+        "title": "A machine that predicts the unpredictable",
+        "summary": "The closing takeaway: Rentech's system maps relationships in a complex adaptive system no human can explain — and the bear case is that modern AI may finally let competitors catch up.",
+        "quote": "Renaissance actually has built a large-scale computer system that discovers relationships",
+        "timestamp": "2:58:33"
+      }
+    ]
+  },
+  {
+    "slug": "hermes",
+    "guid": "7fa2f476-fe1f-4c73-916a-6db4c935a47b",
+    "title": "Hermès",
+    "pubDate": "Mon, 19 Feb 2024 17:56:41 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/2955b2d1/eddac77d.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/hermes",
+    "duration": 14926,
+    "episodeUrl": "/poddy-summaries/episodes/hermes/",
+    "summaryPath": "summaries/hermes.json",
+    "transcriptPath": "transcripts/hermes.txt",
+    "transcriptJsonPath": "transcripts/hermes.json",
+    "overview": [
+      "Hermès became luxury's crown jewel — a $200-billion-plus company — by rejecting nearly every rule of modern business: no outsourcing, no celebrity endorsements, no consultants, and production deliberately capped by how fast master artisans can be trained. Six generations of one family have run it since 1837, each apprenticing at the workbench before leading, so the craft and the business remain inseparable — the deep contrast with LVMH's model of pairing executives with creatives.",
+      "The episode's central arc is a repeating cycle: at nearly every generational handoff the company faces an existential threat — the automobile killing the harness trade, 1970s fashion brands making it irrelevant, Bernard Arnault's stealth raid — and each heir modernizes without breaking the craft constraints. The unresolved tension is whether today's reach for accessibility, embodied by a machine-sewn $540 Apple Watch strap, plants the seeds of the next crisis."
+    ],
+    "takeaways": [
+      {
+        "title": "Scarcity is a byproduct, not a strategy",
+        "detail": "Hermès holds three constraints as fixed: no workshop exceeds 250-300 craftspeople, training takes two-plus years, and one artisan makes each bag end to end (a Kelly takes 20 hours across 36 leather pieces). Work backward from those constraints and limited supply, waiting lists, and mystique are the mathematical result, not a marketing tactic."
+      },
+      {
+        "title": "Birkins sell below the market-clearing price",
+        "detail": "A new Birkin can be resold immediately for more than retail, defying Econ 101 — Hermès raises prices only about 7% a year while revenue compounds at 15%. The gap functions as brand investment: customers buy across other métiers to build the relationship that might earn them a bag allocation."
+      },
+      {
+        "title": "Hermès scaled a dead craft by building schools",
+        "detail": "Because no competitor trains saddle-stitch artisans, Hermès built its own pipeline: trade schools in high-unemployment rural France, a government-sanctioned degree program, and roughly 500 new artisans a year toward a 7,000-strong workforce. Adding new 250-person workshops horizontally is how a handmade business grows 7% capacity annually — the hosts compare it to AWS adding data centers."
+      },
+      {
+        "title": "H51 locked up family control for decades",
+        "detail": "After LVMH secretly amassed 22.6% using equity-swap derivatives, over 50 of the 80 family heirs pooled 50.2% of shares into the H51 vehicle with a 20-year lockup, ending the takeover. Arnault still won: courts forced distribution of the stake, which he swapped tax-free into full control of Dior and a 10-point boost in his LVMH ownership."
+      },
+      {
+        "title": "The Apple Watch strap tests brand purity",
+        "detail": "The $540 band is machine-sewn and priced far below Hermès norms — a luggage tag costs $640 — quietly compromising the handmade promise that justifies everything else. The hosts note that each generation sows the seeds of the next crisis, and this partnership may be this generation's."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "The anti-LVMH thesis",
+        "summary": "Ben and David frame the paradox that drives the whole episode: a saddle maker worth over $200 billion that rejects economies of scale and stayed independent while every rival consolidated.",
+        "quote": "a handbag company that won't sell you a handbag",
+        "timestamp": "1:05"
+      },
+      {
+        "title": "Napoleon orphans the founder",
+        "summary": "Thierry Hermès loses his entire family to the Napoleonic Wars, yet the same upheaval creates the new status economy — and the rebuilt Paris — that makes a master harness maker's business possible.",
+        "quote": "both the very best thing that could happen to young Thierry",
+        "timestamp": "6:14"
+      },
+      {
+        "title": "Émile sees the future in Detroit",
+        "summary": "Sent to America during World War I, Émile Hermès visits Henry Ford, realizes the horse era is ending, and brings back both the zipper and the conviction to pivot the company toward the automobile age.",
+        "quote": "there is a Model T rolling off the assembly line every three minutes",
+        "timestamp": "28:19"
+      },
+      {
+        "title": "Wartime shortage creates the orange box",
+        "summary": "Robert Dumas's generation injects whimsy and art into the house — and a WWII packaging shortage of cream boxes accidentally produces the most recognizable signature in luxury.",
+        "quote": "Robert embraces it. And the Hermes orange box is born.",
+        "timestamp": "54:52"
+      },
+      {
+        "title": "Grace Kelly makes the Kelly bag",
+        "summary": "A 1956 paparazzi photo of the Princess of Monaco shielding her midsection with her Sac à Dépêches turns a functional bag into a dream object, and Robert later renames it in her honor.",
+        "quote": "she's trying to hide her pregnancy from the paparazzi",
+        "timestamp": "1:05:47"
+      },
+      {
+        "title": "The 1970s crisis and the consultants",
+        "summary": "As fashion-first rivals surge, consultants tell Hermès to close the atelier, outsource, and cut prices — advice so antithetical to the company that rejecting it became permanent policy.",
+        "quote": "Hermes has a corporate policy of no consultants",
+        "timestamp": "1:16:21"
+      },
+      {
+        "title": "A diaper bag sketched at 30,000 feet",
+        "summary": "Jean-Louis Dumas sits next to actress Jane Birkin on a flight, hears her complain about her wicker basket, and designs the bag that would take five slow years to become the ultimate Veblen good.",
+        "quote": "sketching out designs on the plane and voila, the Birkin is born",
+        "timestamp": "1:47:25"
+      },
+      {
+        "title": "Arnault's decade of secret accumulation",
+        "summary": "Starting in 2001 when Hermès traded below $10 billion, Bernard Arnault builds a hidden stake that stuns the family when LVMH reveals 14.2% ownership — the setup for luxury's greatest takeover fight.",
+        "quote": "He continues buying for the next 10 years using equity swap derivatives",
+        "timestamp": "2:08:54"
+      },
+      {
+        "title": "H51: the family circles the wagons",
+        "summary": "Despite 80 heirs and enormous liquidity temptation, more than 50 family members lock 50.2% of shares into a cooperative vehicle for 20 years, permanently ending the raid — the company's finest non-product moment.",
+        "quote": "You will never, never, never, you or anybody else have control of Hermes",
+        "timestamp": "2:31:46"
+      },
+      {
+        "title": "The Apple Watch partnership paradox",
+        "summary": "Axel Dumas frames the Apple deal as craftsmanship meeting a contemporary object, but the hosts find the machine-sewn, under-priced strap a possible violation of the brand promise — and the episode's open question.",
+        "quote": "It was not a master plan of global domination",
+        "timestamp": "2:55:20"
+      },
+      {
+        "title": "Why Hermès leaves money on the table",
+        "summary": "The hosts work out that price rises average only about 7% a year despite proven $100,000 demand, concluding the restraint is deliberate stewardship for the twelfth generation rather than lost revenue.",
+        "quote": "we're leaving consumer surplus on the table here",
+        "timestamp": "3:17:06"
+      },
+      {
+        "title": "The splinter in the mind: joy over winning",
+        "summary": "Closing their analysis, Ben and David argue the six-generation endurance comes from a culture that prizes fun, identity, and craft over maximizing any numerical game — the lesson they take for Acquired itself.",
+        "quote": "I think it's because they have fun",
+        "timestamp": "3:51:40"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "The anti-LVMH thesis",
+        "summary": "Ben and David frame the paradox that drives the whole episode: a saddle maker worth over $200 billion that rejects economies of scale and stayed independent while every rival consolidated.",
+        "quote": "a handbag company that won't sell you a handbag",
+        "timestamp": "1:05"
+      },
+      {
+        "title": "Napoleon orphans the founder",
+        "summary": "Thierry Hermès loses his entire family to the Napoleonic Wars, yet the same upheaval creates the new status economy — and the rebuilt Paris — that makes a master harness maker's business possible.",
+        "quote": "both the very best thing that could happen to young Thierry",
+        "timestamp": "6:14"
+      },
+      {
+        "title": "Émile sees the future in Detroit",
+        "summary": "Sent to America during World War I, Émile Hermès visits Henry Ford, realizes the horse era is ending, and brings back both the zipper and the conviction to pivot the company toward the automobile age.",
+        "quote": "there is a Model T rolling off the assembly line every three minutes",
+        "timestamp": "28:19"
+      },
+      {
+        "title": "Wartime shortage creates the orange box",
+        "summary": "Robert Dumas's generation injects whimsy and art into the house — and a WWII packaging shortage of cream boxes accidentally produces the most recognizable signature in luxury.",
+        "quote": "Robert embraces it. And the Hermes orange box is born.",
+        "timestamp": "54:52"
+      },
+      {
+        "title": "Grace Kelly makes the Kelly bag",
+        "summary": "A 1956 paparazzi photo of the Princess of Monaco shielding her midsection with her Sac à Dépêches turns a functional bag into a dream object, and Robert later renames it in her honor.",
+        "quote": "she's trying to hide her pregnancy from the paparazzi",
+        "timestamp": "1:05:47"
+      },
+      {
+        "title": "The 1970s crisis and the consultants",
+        "summary": "As fashion-first rivals surge, consultants tell Hermès to close the atelier, outsource, and cut prices — advice so antithetical to the company that rejecting it became permanent policy.",
+        "quote": "Hermes has a corporate policy of no consultants",
+        "timestamp": "1:16:21"
+      },
+      {
+        "title": "A diaper bag sketched at 30,000 feet",
+        "summary": "Jean-Louis Dumas sits next to actress Jane Birkin on a flight, hears her complain about her wicker basket, and designs the bag that would take five slow years to become the ultimate Veblen good.",
+        "quote": "sketching out designs on the plane and voila, the Birkin is born",
+        "timestamp": "1:47:25"
+      },
+      {
+        "title": "Arnault's decade of secret accumulation",
+        "summary": "Starting in 2001 when Hermès traded below $10 billion, Bernard Arnault builds a hidden stake that stuns the family when LVMH reveals 14.2% ownership — the setup for luxury's greatest takeover fight.",
+        "quote": "He continues buying for the next 10 years using equity swap derivatives",
+        "timestamp": "2:08:54"
+      },
+      {
+        "title": "H51: the family circles the wagons",
+        "summary": "Despite 80 heirs and enormous liquidity temptation, more than 50 family members lock 50.2% of shares into a cooperative vehicle for 20 years, permanently ending the raid — the company's finest non-product moment.",
+        "quote": "You will never, never, never, you or anybody else have control of Hermes",
+        "timestamp": "2:31:46"
+      },
+      {
+        "title": "The Apple Watch partnership paradox",
+        "summary": "Axel Dumas frames the Apple deal as craftsmanship meeting a contemporary object, but the hosts find the machine-sewn, under-priced strap a possible violation of the brand promise — and the episode's open question.",
+        "quote": "It was not a master plan of global domination",
+        "timestamp": "2:55:20"
+      },
+      {
+        "title": "Why Hermès leaves money on the table",
+        "summary": "The hosts work out that price rises average only about 7% a year despite proven $100,000 demand, concluding the restraint is deliberate stewardship for the twelfth generation rather than lost revenue.",
+        "quote": "we're leaving consumer surplus on the table here",
+        "timestamp": "3:17:06"
+      },
+      {
+        "title": "The splinter in the mind: joy over winning",
+        "summary": "Closing their analysis, Ben and David argue the six-generation endurance comes from a culture that prizes fun, identity, and craft over maximizing any numerical game — the lesson they take for Acquired itself.",
+        "quote": "I think it's because they have fun",
+        "timestamp": "3:51:40"
+      }
+    ]
   }
 ]
