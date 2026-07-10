@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Ho Nam describes Altos Ventures as Berkshire-style value investing applied to private technology companies. Early-stage checks are a discovery mechanism, not the finished investment: partners look for capital-efficient ‘hedgehog’ founders with a durable mission, then spend years learning which businesses truly work. When evidence compounds, Altos keeps investing across funds, buys employee and investor secondaries, and uses special-purpose vehicles rather than treating ownership limits, fund vintages, or a missed round as permanent constraints.",
+    "Roblox embodies the approach. Altos invested $1.5 million after seeing 7% weekly engagement growth, early subscriptions, user-created videos, and David Baszucki's long-term purpose; it later became Roblox's largest shareholder by repeatedly buying at higher prices. Woowa Brothers helped Altos test cross-fund investing, Korean specialization, and RIA registration. Nam pairs concentration with downside control: businesses should approach self-sufficiency, preserve founder control, develop internal talent, possess a moat, and justify a close relationship before Altos accepts decades of volatility."
+  ],
+  "takeaways": [
+    {
+      "title": "Venture is discovery, not completion",
+      "detail": "An initial investment buys years of access to people, operating data, and market learning. Altos commits its largest dollars only after a company demonstrates that its machinery works, reversing the conventional pattern of making the boldest judgment when information is scarcest."
+    },
+    {
+      "title": "Keep buying proven compounding",
+      "detail": "Altos bought Roblox in primary rounds, six secondary transactions, later SPVs, and a pre-IPO financing. Higher price alone was not evidence of lower value because business progress and the range of possible outcomes had also changed. Selling 15% for fund optics became a billion-dollar lesson."
+    },
+    {
+      "title": "Capital efficiency protects founder control",
+      "detail": "Running out of cash transfers bargaining power to the next investor and can remove a mission-driven founder. Altos accepts heavy investment when unit economics and infrastructure demand it, but pushes companies toward self-sustaining economics so financing remains a choice rather than an emergency."
+    },
+    {
+      "title": "Concentration requires proprietary understanding",
+      "detail": "Nam's three tests are earnings, a defensible moat, and a deep relationship. The relationship matters because knowledge decays once an investor becomes an outsider. Altos concentrates where years of collaboration create insight and reduces exposure when that informational advantage disappears."
+    },
+    {
+      "title": "Fund structure should serve investing",
+      "detail": "Cross-fund checks, RIA registration, Korea-specific vehicles, and zero-management-fee rollover SPVs were operationally inconvenient but prevented artificial fund boundaries from forcing sales. Altos designed the management business around long-duration ownership instead of optimizing investments for fee collection or fundraising optics."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Engagement converts a skeptical partnership",
+      "summary": "A partner's Club Penguin thesis opens the door, while 7% weekly engagement growth, subscription revenue, and laborious fan videos prove authentic creation and pride. Baszucki's educational mission supplies the final qualitative evidence.",
+      "quote": "a classic exponential curve",
+      "timestamp": "8:29"
+    },
+    {
+      "title": "Hedgehog founders outlast polished foxes",
+      "summary": "Altos prefers founders organized around one enduring purpose over charismatic serial entrepreneurs optimized for networking and fundraising. Sam Walton, Warren Buffett, and Baszucki illustrate work that continues after money no longer motivates it.",
+      "quote": "one big mission in life",
+      "timestamp": "13:11"
+    },
+    {
+      "title": "Every liquidity event becomes another decision",
+      "summary": "Altos repeatedly purchases Roblox shares as prices rise. When acquisition bids arrive below its estimate of value, the firm treats the rejected sale price as a buying opportunity rather than merely waiting.",
+      "quote": "at that price, we should be buyers",
+      "timestamp": "18:00"
+    },
+    {
+      "title": "Selling for DPI creates a costly lesson",
+      "summary": "The firm sells 15% of its position to return cash and support future fundraising, despite expecting a $200 million opportunity cost. The eventual loss exceeds $1 billion and strengthens its resolve to separate fund-management needs from investment judgment.",
+      "quote": "more than a billion dollar mistake",
+      "timestamp": "21:52"
+    },
+    {
+      "title": "SPVs extend ownership beyond fund limits",
+      "summary": "RIA registration enables Altos to create secondary vehicles and offer LPs liquidity or fee-free rollover. Successive $125 million Roblox SPVs let informed existing investors increase exposure without requiring operating capital from the company.",
+      "quote": "we never run out of money",
+      "timestamp": "26:21"
+    },
+    {
+      "title": "Woowa teaches Altos to lean in",
+      "summary": "A non-consensus Korean designer grows a food platform from $10 million toward $1 billion while repeatedly doubting his CEO readiness. Altos rejects an early IPO, supports internal growth, and sees founder confidence compound with company scale.",
+      "quote": "I think this is really starting to work",
+      "timestamp": "31:48"
+    },
+    {
+      "title": "Korea specialization breaks institutional convention",
+      "summary": "Altos exceeds geographic limits to keep backing Woowa, raises a dedicated Korea fund whose first deal is a cross-fund investment, and registers as an RIA for a fully secondary SPV despite LP and peer resistance.",
+      "quote": "literally doing everything... to make LPs nervous",
+      "timestamp": "38:44"
+    },
+    {
+      "title": "Internal talent compounds with the business",
+      "summary": "Altos upgrades management as companies grow but values early employees who develop into leaders. Long relationships across organizational layers improve cultural continuity and give the investor deeper evidence than gold-plated late-stage résumés alone.",
+      "quote": "we're trying to develop the talent",
+      "timestamp": "55:51"
+    },
+    {
+      "title": "Constraints preserve control and creativity",
+      "summary": "Coupang justifies infrastructure investment and Toss initially loses money per transfer, yet Altos seeks deliberate routes toward better economics. Self-sufficiency keeps founders from becoming dependent on investors who can seize control.",
+      "quote": "creativity loves constraints",
+      "timestamp": "1:00:53"
+    },
+    {
+      "title": "Deep knowledge replaces simple valuation multiples",
+      "summary": "Revenue multiples are rough tools when Altos does not know a company. Years of operating exposure reveal latent monetization, competitive machinery, and growth durability, making private holdings the firm's narrow circle of competence.",
+      "quote": "growth just a component of value",
+      "timestamp": "1:05:16"
+    },
+    {
+      "title": "Patient ownership captures the out years",
+      "summary": "Discovering a winner begins another 10 to 20 years of building rather than triggering an exit. Nam studies Geico's 70-year relationship and argues that passing or missing is temporary because an investor can buy again whenever understanding and price align.",
+      "quote": "You can always invest",
+      "timestamp": "1:09:42"
+    },
+    {
+      "title": "Three tests justify lasting concentration",
+      "summary": "A special holding must make money, possess a defensible moat, and maintain a relationship that gives Altos genuine understanding. When that relationship fades, proprietary knowledge decays and concentrated ownership becomes harder to justify.",
+      "quote": "make money, have a moat",
+      "timestamp": "1:25:33"
+    }
+  ],
+  "title": "Ho Nam and Altos Ventures: Berkshire-Style Technology Investing"
+}
