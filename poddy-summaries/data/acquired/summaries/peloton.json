@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Peloton transformed scarce boutique fitness into an integrated, time-shifted media service: a premium connected bike gave members unlimited access to elite instructors regardless of geography, schedule, or studio capacity. John Foley initially imagined separate hardware, tablets, and SoulCycle or Flywheel content, but learned that controlling bike, software, production, retail trial, talent, and subscription created the experience. Raising the bike's price from $1,200 to $2,245 increased demand by making it aspirational, while hardware ownership selected committed users whose monthly churn stayed below 1%.",
+    "COVID validated connected fitness but broke Peloton's forecasting discipline. Membership jumped from roughly 700,000 to nearly three million, waitlists exploded, and management treated pulled-forward demand as a permanent new baseline. It spent more than $800 million on Precor and a planned Ohio factory, doubled headcount, then faced slowing growth and $1.3 billion of inventory. Founder John Foley moved to executive chair while retaining decisive voting control, and subscription veteran Barry McCarthy inherited the challenge: preserve brand, instructors, content scale, and loyalty while rebuilding financial and operational credibility."
+  ],
+  "takeaways": [
+    {
+      "title": "Peloton removed three boutique-fitness constraints",
+      "detail": "Streaming made class size effectively infinite, delivered New York's best instructors worldwide, and let members exercise on demand. The result was not simply a home bike but a new market that combined boutique motivation, software convenience, television production, and recurring access."
+    },
+    {
+      "title": "Premium pricing improved product credibility",
+      "detail": "At $1,200, customers assumed the bike could not be exceptional; at $2,245, it became a luxury object comparable to years of studio classes. The higher price also produced roughly 40% hardware gross margin and selected affluent, motivated users unlikely to cancel the subscription after making a large sunk investment."
+    },
+    {
+      "title": "Content scale attracts scarce instructor talent",
+      "detail": "A Peloton instructor can reach thousands per class, build a million-follower brand, earn substantial compensation, and create a valuable back catalog. The largest subscriber base funds better production and talent, while instructor relationships and accumulated classes take competitors years to reproduce."
+    },
+    {
+      "title": "Engagement carries non-software variable costs",
+      "detail": "Peloton needs performance and synchronization rights for music, making subscription gross margin closer to 66% than SaaS economics. Frequent workouts may increase royalties, and artist partnerships become both content differentiation and cost structure—important constraints on a seemingly pure digital recurring-revenue story."
+    },
+    {
+      "title": "Pandemic acceleration corrupted capacity planning",
+      "detail": "Management correctly expanded delivery during shortages but wrongly assumed demand would only rise. Buying Precor, planning a $400 million factory, growing from 4,000 to roughly 9,000 employees, and holding $1.3 billion in inventory turned a temporary supply problem into a balance-sheet and governance crisis."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "McCarthy arrives for a post-COVID comeback",
+      "summary": "After 2,800 layoffs and collapsing expectations, the Netflix and Spotify subscription veteran frames Peloton's reset as an opportunity to engineer a comeback rather than merely shrink.",
+      "quote": "do we engineer the great comeback story",
+      "timestamp": "2:20"
+    },
+    {
+      "title": "Netflix teaches strategic subscription finance",
+      "summary": "McCarthy helps convert Netflix from per-rental transactions to subscriptions, models competitive pricing wars, remains through crises, and later builds Spotify's free business and direct listing expertise.",
+      "quote": "the number one world expert in managing subscription businesses",
+      "timestamp": "21:29"
+    },
+    {
+      "title": "Boutique fitness exposes an access bottleneck",
+      "summary": "SoulCycle and Flywheel create cult instructors and prestige classes, but fixed rooms, weekly booking scrambles, geography, and parents' schedules prevent demand from reaching the best talent.",
+      "quote": "noon on Monday",
+      "timestamp": "28:55"
+    },
+    {
+      "title": "Streaming makes the best class infinitely scalable",
+      "summary": "Foley's model removes class size and location while adding time shifting, turning one instructor's performance into a reusable global experience instead of replicating average local studios.",
+      "quote": "infinite class size and geography agnostic",
+      "timestamp": "29:50"
+    },
+    {
+      "title": "Integration replaces the original partnership plan",
+      "summary": "Peloton begins with bring-your-own-iPad hardware and licensed studio content, then learns it must own bike, screen, software, instructors, and production to control quality and incentives.",
+      "quote": "we really do need to unify it",
+      "timestamp": "33:22"
+    },
+    {
+      "title": "A weak Kickstarter hides the finished product",
+      "summary": "Peloton raises only $307,332 in 2013—half from existing investors—even though the pictured bike is already nearly identical to the eventual multibillion-dollar product.",
+      "quote": "essentially a failed Kickstarter",
+      "timestamp": "38:48"
+    },
+    {
+      "title": "Physical trial makes premium hardware legible",
+      "summary": "Counterintuitive mall showrooms and hotel placement let prospects feel magnetic resistance, production quality, and instructor energy that descriptions and recommendations fail to communicate.",
+      "quote": "until you try this thing... you don't understand",
+      "timestamp": "41:24"
+    },
+    {
+      "title": "A higher price unlocks demand and retention",
+      "summary": "Raising the bike from $1,200 to $2,245 turns perceived cheapness into aspirational luxury; the committed buyers who cross that threshold later exhibit roughly 0.6% monthly churn.",
+      "quote": "if they raised the price",
+      "timestamp": "44:34"
+    },
+    {
+      "title": "COVID pulls years of adoption into weeks",
+      "summary": "A three-month digital trial grows signups from about 100,000 to 1.2 million in 45 days, while physical demand, delivery requirements, and manufacturing constraints overwhelm the company.",
+      "quote": "a 10x increase in weeks",
+      "timestamp": "50:29"
+    },
+    {
+      "title": "Music rights cap digital subscription margins",
+      "summary": "A $300 million publisher lawsuit reveals missing sync licenses. Performance, composition, master, and synchronization economics consume roughly a third of subscription revenue despite fixed production scale.",
+      "quote": "a third of that goes to cost of revenue",
+      "timestamp": "53:14"
+    },
+    {
+      "title": "Capacity expansion outlives the demand spike",
+      "summary": "Peloton buys Precor, commits $400 million to an Ohio factory, and doubles employment, only to halt production with $1.3 billion of unsold inventory as quarterly growth falls to single digits.",
+      "quote": "they were just completely wrong",
+      "timestamp": "1:30:50"
+    },
+    {
+      "title": "The turnaround requires a second growth engine",
+      "summary": "Financial discipline can stabilize Peloton, but independence at its former valuation requires finding demand beyond the first three million connected subscribers—through broader affluent and aspirational segments, digital-only fitness, or adjacent products.",
+      "quote": "meaningfully find demand in concentric circles",
+      "timestamp": "2:13:19"
+    }
+  ],
+  "title": "Peloton: Connected Fitness, Pandemic Growth, and the Reckoning"
+}
