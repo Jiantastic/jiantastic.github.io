@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Brad Gerstner built Altimeter around a lifecycle-investing thesis: the public/private boundary is an institutional artifact, not a useful boundary for understanding great companies. His founder and online-travel experience suggested internet businesses would scale faster, remain private longer, and require deeper growth capital. Altimeter therefore combined hedge-fund research and daily accountability with dedicated long-duration venture pools, concentrating on companies it could understand before an IPO and continue owning afterward rather than discarding years of accumulated knowledge at listing.",
+    "Snowflake embodies the model. Altimeter evaluated the non-GA product by replacing its own data warehouse, invested near a $175 million enterprise value despite respected firms passing, helped build the company, and retained major public-market conviction. Gerstner argues concentration, founder empathy, scalable capital, and capital-markets expertise can improve both investment returns and founder outcomes. Yet increased crossover competition will compress average venture returns, making reputation with founders and funders decisive. His broader mission, Invest America, seeks to extend ownership and compounding to every child."
+  ],
+  "takeaways": [
+    {
+      "title": "Lifecycle investing preserves accumulated knowledge",
+      "detail": "An analyst who has studied a company privately should not stop thinking at the IPO, nor should a public investor ignore a great private opportunity. Separate public and long-duration private pools match liquidity promises while allowing one research culture and relationship to span the company's life."
+    },
+    {
+      "title": "Operating experience can become diligence advantage",
+      "detail": "Altimeter did not evaluate Snowflake only through presentations. Its team replaced the hedge fund's own data warehouse with the pre-release product over Christmas, creating firsthand evidence about usability and performance that supported a contrarian, concentrated investment."
+    },
+    {
+      "title": "Concentration must follow differentiated conviction",
+      "detail": "Gerstner rejects venture portfolios designed merely to reproduce a vintage average: a fund needs positions capable of returning the vehicle. Altimeter's concentration is paired with active recruiting, board-building, customer introductions, financing support, and capital-markets help at high-leverage moments."
+    },
+    {
+      "title": "Public markets supply discipline and participation",
+      "detail": "Later IPOs transfer much of a company's compounding to private funds and exclude ordinary investors. Gerstner argues innovative companies can thrive publicly, and competition among traditional IPOs, direct listings, and SPACs can improve pricing—provided the company, reference valuation, and sponsor fit the chosen route."
+    },
+    {
+      "title": "Ownership broadens capitalism's social contract",
+      "detail": "Technology concentrates wealth because software serves billions at low marginal cost, while only a minority owns equities. Invest America would give every child a funded, locked investment account and financial education, using decades of compounding and psychological ownership to make innovation feel like a shared system."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Family bankruptcy makes entrepreneurial risk concrete",
+      "summary": "Gerstner's father mortgaged the family's assets to rescue local manufacturing jobs and still failed, giving Brad a visceral contrast with venture-backed founders whose investors absorb financial loss.",
+      "quote": "The business goes under",
+      "timestamp": "9:27"
+    },
+    {
+      "title": "Online travel survives the dot-com collapse",
+      "summary": "National Leisure Group built infrastructure for vacation packages and cruises, surpassed $1 billion in bookings within a rapidly scaling operation, and found real demand even as speculative internet capital vanished.",
+      "quote": "people were actually buying this stuff online",
+      "timestamp": "23:48"
+    },
+    {
+      "title": "Negative unit economics create terminal financing risk",
+      "summary": "The 2000 crash and September 11 taught Gerstner that genuine internet adoption can coexist with deadly capital cycles; when risk premiums change, high-burn companies cannot finance their way to eventual quality.",
+      "quote": "you cease to exist",
+      "timestamp": "28:11"
+    },
+    {
+      "title": "Rich Barton redirects a probabilistic thinker",
+      "summary": "Barton tells Gerstner that founders suspend disbelief to will possibilities into existence, while Gerstner instinctively maps what could go wrong and weighs probability distributions—the temperament of an investor.",
+      "quote": "investors think about distribution of probabilities",
+      "timestamp": "31:21"
+    },
+    {
+      "title": "Altimeter removes the artificial IPO boundary",
+      "summary": "Inspired by investors who owned public and private assets, Gerstner forms a Silicon Valley crossover firm combining founder empathy with hedge-fund analysis and capital that can follow companies into public markets.",
+      "quote": "the best crossover fund in the world",
+      "timestamp": "45:51"
+    },
+    {
+      "title": "Dedicated pools match different time horizons",
+      "summary": "A liquid long-short fund can hold some private assets, but venture and growth positions need separate long-duration capital; structure must respect what each LP actually funded rather than forcing perpetual ownership.",
+      "quote": "we needed a longer duration pool of capital",
+      "timestamp": "46:56"
+    },
+    {
+      "title": "Snowflake diligence becomes a live deployment",
+      "summary": "After a prominent firm passed, an Altimeter analyst replaced the fund's data warehouse with Snowflake's non-GA product, turning operational experience into conviction for a round near $175 million enterprise value.",
+      "quote": "I'll replace our data warehouse with... Snowflake",
+      "timestamp": "1:02:10"
+    },
+    {
+      "title": "Lifecycle capital preserves a generational winner",
+      "summary": "Snowflake grows from early venture value to roughly $100 billion; Altimeter distributes its venture-fund gains while its public and personal capital can keep backing a company Gerstner expects to compound further.",
+      "quote": "it's kind of a tragedy if you can't continue",
+      "timestamp": "1:05:16"
+    },
+    {
+      "title": "Later IPOs privatize historic upside",
+      "summary": "Salesforce and Amazon once entered public markets below $1 billion, but modern winners such as ByteDance create hundreds of billions privately, denying retail investors both early gains and ownership participation.",
+      "quote": "we've largely deprived the public markets",
+      "timestamp": "1:07:41"
+    },
+    {
+      "title": "Founder craft remains distinct from scaled capital",
+      "summary": "Altimeter does not claim to replace specialist seed firms: it partners after early company formation, combining founder empathy with concentrated capital, recruiting, governance, financing, and public-market expertise.",
+      "quote": "early stage venture... is craft building",
+      "timestamp": "1:15:31"
+    },
+    {
+      "title": "Three listing doors compete on execution",
+      "summary": "Traditional IPOs, direct listings, and SPACs all transfer ownership into public markets. Gerstner argues each can work when pricing and fit are sound, and Altimeter's buyer-side experience gives founders incentive-neutral guidance.",
+      "quote": "it's just a third door into the public market",
+      "timestamp": "1:20:54"
+    },
+    {
+      "title": "Invest America makes every child an owner",
+      "summary": "Gerstner proposes means-tested investment accounts at birth, locked for long-term compounding and paired with school curriculum, so children gain both financial assets and a sense of participation in American innovation.",
+      "quote": "every child in this country owns their tiny little slice",
+      "timestamp": "1:40:56"
+    }
+  ],
+  "title": "Altimeter with Brad Gerstner: The Lifecycle Investing Model"
+}

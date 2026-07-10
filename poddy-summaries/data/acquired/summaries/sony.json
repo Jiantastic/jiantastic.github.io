@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Sony emerged from bombed-out postwar Tokyo as Masaru Ibuka's haven for engineers and Akio Morita's mission to transform “Made in Japan” from a mark of cheapness into global quality. The company repeatedly commercialized frontier technology—magnetic tape, transistor radios, Trinitron televisions, compact discs, and the Walkman—by pairing Ibuka's engineering ambition with Morita's product instinct, branding, and cultural fluency. At its peak, Sony did not merely sell electronics; it taught consumers to expect entirely new categories of personal experience.",
+    "Its later history reveals the limits of that formula. Betamax's defeat encouraged Sony to buy CBS Records and Columbia Pictures, but owning content rarely improved its devices and conglomerate complexity diluted the brand. The great exception was PlayStation: after Nintendo publicly abandoned their partnership, Sony backed Ken Kutaragi, used CDs and PC-based development to court neglected third-party studios, subsidized hardware, and captured licensing economics. Gaming became Sony's strongest platform, while electronics shifted from an overarching source of Power to one capable business among many."
+  ],
+  "takeaways": [
+    {
+      "title": "Engineering joy can precede a product idea",
+      "detail": "Ibuka founded a workplace where engineers could pursue technology and social obligation before knowing what to sell. Failed rice cookers and blankets gave way to radio repair, tape recorders, and eventually category-defining products because the institution was organized around technical curiosity and user benefit."
+    },
+    {
+      "title": "Brand discipline created global pricing power",
+      "detail": "Morita rejected Bulova's enormous 100,000-radio order because it required replacing Sony's unknown name. That short-term sacrifice helped build a brand synonymous with innovation and quality across languages, enabling premium prices and changing Western perceptions of Japanese manufacturing."
+    },
+    {
+      "title": "Superior formats can lose ecosystem wars",
+      "detail": "Betamax offered excellent technology and pioneered time shifting, but its short recording time and antagonism with Hollywood helped MCA and Matsushita rally content behind VHS. Technical performance mattered less than licensing, available programming, participant incentives, and control of the broader value chain."
+    },
+    {
+      "title": "Content ownership did not guarantee device synergy",
+      "detail": "CBS Records was an excellent standalone financial acquisition, producing billions in annual cash flow decades later. Columbia Pictures was far more expensive and did not give Sony's hardware durable leverage; combining “hardware and software” sounded coherent without creating a shared customer experience or operating model."
+    },
+    {
+      "title": "PlayStation won by serving complementors",
+      "detail": "Sony used CD capacity, inexpensive PC development tools, generous third-party relations, and loss-leading hardware to attract developers Nintendo undervalued. The resulting network grew from zero first-party franchises to 8,000 games and more than 100 million consoles, making licensing rather than hardware the economic center."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Two reluctant military engineers meet in wartime",
+      "summary": "Ibuka and Morita work on a failed heat-seeking missile project while recognizing America's overwhelming technological advantage, forming the relationship that will help rebuild Japanese industry after surrender.",
+      "quote": "America has the best technology in the world",
+      "timestamp": "7:59"
+    },
+    {
+      "title": "Ibuka creates an engineering refuge amid ruin",
+      "summary": "With nearly half of Tokyo homeless and consumers lacking disposable income, Ibuka starts a company devoted to engineers' joy in technology and social responsibility before it has a viable product.",
+      "quote": "a stable workplace where engineers could work",
+      "timestamp": "22:01"
+    },
+    {
+      "title": "Tape recording becomes the first real business",
+      "summary": "Sony builds both machines and scarce magnetic tape, initially selling to courts short of stenographers; vertical product ambition replaces radio repair with a scalable domestic category.",
+      "quote": "we should also make the tape",
+      "timestamp": "30:30"
+    },
+    {
+      "title": "Bell Labs doubts the transistor-radio vision",
+      "summary": "Western Electric recommends hearing aids because germanium transistors lack radio power, but Sony spends two years solving the engineering problem and launches its TR-55 portable radio.",
+      "quote": "we're going to make miniature radios",
+      "timestamp": "36:02"
+    },
+    {
+      "title": "Morita rejects scale to preserve Sony's name",
+      "summary": "Bulova offers to buy 100,000 TR-63 radios under its own label; Morita refuses the transformational order, prioritizing a globally pronounceable Sony brand over immediate manufacturing volume.",
+      "quote": "we refuse this order",
+      "timestamp": "44:13"
+    },
+    {
+      "title": "Trinitron turns costly invention into category leadership",
+      "summary": "Ibuka isolates a handpicked color-television team, tolerates disastrous initial yields, and develops the electron-gun system that makes Sony the premium television leader for decades.",
+      "quote": "make a color TV that is mind-blowing",
+      "timestamp": "56:07"
+    },
+    {
+      "title": "Betamax awakens Hollywood's ecosystem power",
+      "summary": "Sony markets consumer time shifting, prompting Universal to treat recording as a copyright and bargaining threat; Hollywood support and Matsushita's VHS relationship outweigh Betamax's technical quality.",
+      "quote": "we're going to go full on scorched earth",
+      "timestamp": "1:01:22"
+    },
+    {
+      "title": "CD collaboration creates an enduring standard",
+      "summary": "Sony and Philips combine patents and precision-laser research, recruit broad licensees, and introduce the first commercial CD player—showing open industry coordination where proprietary Betamax failed.",
+      "quote": "Sony brings the first CD player to market",
+      "timestamp": "1:08:14"
+    },
+    {
+      "title": "The Walkman invents private mobile listening",
+      "summary": "Morita overrides internal skepticism about a cassette player with no recording function; the first 30,000 units sell out in a month and the product eventually reaches a quarter-billion sales.",
+      "quote": "This is Morita's folly",
+      "timestamp": "1:10:19"
+    },
+    {
+      "title": "Media acquisitions confuse assets with synergy",
+      "summary": "Sony buys CBS Records for $2 billion and earns a durable cash generator, then spends roughly $6 billion on Columbia Pictures seeking format leverage that never materially strengthens its electronics.",
+      "quote": "they felt that if they owned a studio",
+      "timestamp": "1:33:01"
+    },
+    {
+      "title": "Nintendo's betrayal creates the independent PlayStation",
+      "summary": "One day after Sony announces a joint CD console, Nintendo publicly selects Philips. Sony's board wants to quit, but Oga protects Kutaragi's project inside the music division and authorizes competition.",
+      "quote": "the ultimate betrayal",
+      "timestamp": "1:45:36"
+    },
+    {
+      "title": "PlayStation becomes Sony's surviving network economy",
+      "summary": "Sony's developer-friendly launch compounds into a durable two-sided platform: more games attract more players, the installed base attracts more studios, and 8,000 PlayStation titles dwarf the N64's 400.",
+      "quote": "8000 games on the PlayStation versus 400 on the N64",
+      "timestamp": "2:37:19"
+    }
+  ],
+  "title": "Sony: From Postwar Radios to the PlayStation Platform"
+}
