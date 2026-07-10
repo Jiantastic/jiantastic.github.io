@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Katherine Boyle defines American Dynamism as venture-backed companies supporting the national interest across defense, aerospace, manufacturing, public safety, housing, education, transportation, and infrastructure. These sectors are large precisely because they touch everyone, but regulation, legacy incumbents, physical operations, procurement, and capital needs kept software investors away. COVID exposed the cost and fragility of institutions technology had not modernized, while a broader founder class emerged with firsthand experience as teachers, procurement officers, operators, and public servants.",
+    "The thesis is both investment strategy and institutional repair: modern tools can lower the cost of civic goods, private companies can supply software government should not rebuild internally, and distributed startup formation can return talent and jobs to more American communities. Flock Safety shows a community product growing into public-sector infrastructure; Hadrian shows automated factories rebuilding an aerospace supply base while upskilling machinists; Anduril shows modern defense becoming strategically unavoidable. Boyle argues these are not concessionary ESG investments but potential power-law companies in enormous, neglected markets."
+  ],
+  "takeaways": [
+    {
+      "title": "National-interest markets extend far beyond defense",
+      "detail": "The category includes any foundational system shaped by government, whether government buys, regulates, funds, or competes with it. Housing and education belong beside aerospace because poor technology, regulatory capture, and aging operating models make them expensive, universal, and open to transformation."
+    },
+    {
+      "title": "Hard companies descend deeper before compounding",
+      "detail": "Physical products, certification, procurement, factories, and technical risk make early economics look worse than pure software. Yet finite specialized talent and difficult execution may collapse competition later: successful companies become broad platforms or holding companies competing mainly against legacy incumbents and their own ambitions."
+    },
+    {
+      "title": "Government must learn to buy, not rebuild",
+      "detail": "Employees use modern cloud and consumer tools privately, then enter workplaces where systems take minutes to start. Companies already specialize by purchasing best-in-class infrastructure; government budgets bloat when agencies insist on internal development and procurement cannot accommodate continuously improving commercial software."
+    },
+    {
+      "title": "Domain outsiders are becoming technology founders",
+      "detail": "Cheap startup infrastructure lets people who understand a civic problem but are not career engineers form companies around it. Former teachers, defense procurement officers, journalists, immigrants, and manufacturing operators bring the customer knowledge that general-purpose software founders historically lacked."
+    },
+    {
+      "title": "Geographic decentralization changes which problems get solved",
+      "detail": "Remote work and internet-native networks let founders remain in Atlanta, Miami, Los Angeles, or smaller communities near their customers. Keeping ambitious people in their home regions reduces brain drain, broadens startup employment, and surfaces problems invisible to a narrow coastal founder population."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "American Dynamism defines a new venture category",
+      "summary": "Boyle groups companies that support national interests, sell to or compete with government, or modernize heavily regulated civic systems outside conventional consumer, enterprise, and health-tech labels.",
+      "quote": "companies that support the national interest",
+      "timestamp": "5:19"
+    },
+    {
+      "title": "Physical markets sit deeper on the J-curve",
+      "summary": "Entrenched interests, hardware, capital, regulation, and long technical timelines make these businesses unattractive early, but their difficulty and scarce talent can ultimately reduce competition and concentrate value.",
+      "quote": "these companies go deeper down the J curve",
+      "timestamp": "9:21"
+    },
+    {
+      "title": "Silicon Valley forgot its government-funded origin",
+      "summary": "Modern investors learned to avoid Washington despite defense investment creating the original semiconductor ecosystem; SpaceX, Palantir, cloud providers, and mobility platforms already demonstrate that the separation is artificial.",
+      "quote": "Silicon Valley was built on defense investment",
+      "timestamp": "12:36"
+    },
+    {
+      "title": "Government remains software's last major holdout",
+      "summary": "Agencies employ people who use modern services at home but rely on antiquated systems at work, while internal builds and rigid procurement prevent specialization from lowering the cost of public services.",
+      "quote": "it takes 30 minutes to start their computer",
+      "timestamp": "16:38"
+    },
+    {
+      "title": "A wider founder class brings domain knowledge",
+      "summary": "As startup formation became culturally legitimate and technically cheaper, teachers, procurement officers, and other operators began choosing company-building over slow institutional career ladders.",
+      "quote": "they're not the normal people... founders of 10 years ago",
+      "timestamp": "21:13"
+    },
+    {
+      "title": "Downturns remove tourists and reset institutions",
+      "summary": "Boyle sees market corrections as self-cleansing: easy-money participants leave, constrained companies rethink inherited playbooks, and early-stage founders with genuine insight gain relative advantage.",
+      "quote": "the most innovative thinkers will win",
+      "timestamp": "25:23"
+    },
+    {
+      "title": "Journalism teaches cultural edge detection",
+      "summary": "Boyle's Washington Post experience trained her to notice strange social movements before their meaning was clear, a skill analogous to venture investors finding internet-born behavior before it becomes consensus.",
+      "quote": "talk to these weirdos and these random people",
+      "timestamp": "34:09"
+    },
+    {
+      "title": "Flock Safety grows from neighborhoods to police",
+      "summary": "An Atlanta founder built inexpensive license-plate cameras for homeowner associations; real crime-solving results generated local news and inbound demand from law enforcement across dozens of states.",
+      "quote": "built for their community",
+      "timestamp": "50:58"
+    },
+    {
+      "title": "Hadrian rebuilds an eroding machine-shop base",
+      "summary": "Chris Power abandoned a private-equity rollup after discovering legacy shops could not absorb enough software, returned capital, and built automated factories plus a new technically capable machinist workforce from scratch.",
+      "quote": "we have to build new machine shops with automation",
+      "timestamp": "56:00"
+    },
+    {
+      "title": "Small tech attacks the country's largest problems",
+      "summary": "Washington treats technology as a handful of dominant platforms, but early companies and enabling tools form a distributed small-business revolution capable of creating jobs and solving local needs nationwide.",
+      "quote": "small tech companies... trying to solve the country's big problems",
+      "timestamp": "1:02:05"
+    },
+    {
+      "title": "Anduril moves from unpopular to strategically obvious",
+      "summary": "Boyle backed modern defense when the mission was culturally rejected in San Francisco; Russia's invasion of Ukraine made the need for software-native contractors tangible to a much broader audience.",
+      "quote": "we need modern defense contractors",
+      "timestamp": "1:07:32"
+    },
+    {
+      "title": "A successful thesis should become ordinary",
+      "summary": "Boyle's desired outcome is for every major venture firm to recognize national-interest sectors as a core category with exceptional returns, not impact investing that accepts weaker economics.",
+      "quote": "it's not impact investing it's not ESG",
+      "timestamp": "1:12:00"
+    }
+  ],
+  "title": "American Dynamism with Katherine Boyle: Rebuilding Critical Industries"
+}

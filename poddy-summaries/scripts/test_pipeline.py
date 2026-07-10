@@ -5,7 +5,7 @@ import unittest
 from pathlib import Path
 
 from build_episodes import effective_duration, refresh_existing_episodes
-from feed_fetch import slugify
+from feed_fetch import canonical_source_url, slugify
 from validate_data import chapter_bounds
 
 
@@ -20,6 +20,20 @@ class PipelineHelpersTest(unittest.TestCase):
         for title, expected in cases.items():
             with self.subTest(title=title):
                 self.assertEqual(slugify(title), expected)
+
+    def test_canonical_source_url_repairs_generic_legacy_feed_links(self):
+        self.assertEqual(
+            canonical_source_url(
+                "http://acquired.fm/", "the-playbook-lessons-from-200-company-stories"
+            ),
+            "https://www.acquired.fm/episodes/the-playbook-lessons-from-200-company-stories",
+        )
+        self.assertEqual(
+            canonical_source_url(
+                "https://www.acquired.fm/episodes/walmart", "walmart"
+            ),
+            "https://www.acquired.fm/episodes/walmart",
+        )
 
     def test_effective_duration_uses_transcribed_media_end(self):
         transcript = {

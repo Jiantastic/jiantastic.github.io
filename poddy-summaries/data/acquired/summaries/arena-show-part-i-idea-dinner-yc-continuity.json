@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Acquired's first arena show combines a time-stamped May 2022 investment debate with a deep look at Y Combinator's evolution beyond its accelerator. Mario Gabriele pitches Snowflake's data-platform growth, Packy McCormick treats Opendoor as a venture-scale wager on fixing home transactions, Ben Gilbert frames Coinbase as a cheap cash-generating gateway to crypto, and David Rosenthal argues Amazon's retail operation is undervalued beside AWS. Judge Shu Nyatta's decisive critique: compelling narratives are useful, but every presenter neglected downside risk.",
+    "Anu Hariharan then explains YC Continuity as the growth-stage and educational extension of YC's founder community. It invests selectively from Series B onward while operating Series A, post-A, growth, pre-IPO, and public-company programming. Its advantage is longitudinal knowledge: YC observes founders from their earliest batch, teaches fundraising and scaling, and evaluates growth investments through founder inputs—shipping speed, hiring quality, and clarity of thought—rather than polished metrics alone. The model resembles a global startup university whose network compounds only while the institution protects community trust."
+  ],
+  "takeaways": [
+    {
+      "title": "A thesis needs downside, timing, and price",
+      "detail": "The four pitches pair strong secular narratives with compressed valuations, but Nyatta notes that venture-style upside storytelling omitted what could permanently impair each investment. His framework scores upside, downside, timing, novelty, and flair—and warns that cheap-looking companies and expensive-looking companies can both produce great or terrible returns."
+    },
+    {
+      "title": "Infrastructure scale can outgrow competitive anxiety",
+      "detail": "Snowflake's pitch rests on expanding data workloads and exceptional net retention; Amazon's rests on owning both cloud infrastructure and the largest U.S. e-commerce channel. In both, rivals may grow faster from smaller bases while the leader compounds across an expanding underlying market."
+    },
+    {
+      "title": "YC extends education across founder transitions",
+      "detail": "Continuity is not only follow-on capital. YC rebatches founders for Series A preparation, post-A organizational building, growth-stage CEO training, pre-IPO readiness, and public-company peer support, transferring lessons from experienced founders and functional executives to the next cohort."
+    },
+    {
+      "title": "Longitudinal access reveals operating inputs",
+      "detail": "A conventional growth investor may spend a few hours with a founder and receive optimized metrics. YC can observe years of decisions, crises, and learning. Hariharan prioritizes iteration speed, hiring rigor, and a clear written path to a multibillion-dollar outcome because those controllable inputs should eventually produce the desired metrics."
+    },
+    {
+      "title": "Community trust is YC's compounding power",
+      "detail": "Founders treat YC more like a parent or university than an investor, returning for help long after Demo Day and teaching later cohorts. That relationship creates information, selection, and support advantages, but it is also the central failure risk: violating community values could reverse network effects quickly."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Snowflake packages the growth-data thesis",
+      "summary": "Gabriele argues that separating storage and compute created an elegant managed warehouse whose revenue growth, 178% net retention, free cash flow, and experienced leadership support years of compounding after a valuation reset.",
+      "quote": "a play that summarizes the growth of data",
+      "timestamp": "14:24"
+    },
+    {
+      "title": "Opendoor becomes a venture bet in public markets",
+      "summary": "McCormick sees a $5 billion leader attacking the enormous, painful housing transaction market after Zillow's exit, with operational discipline—“bips for breakfast”—as the key to extracting margin from homes.",
+      "quote": "doubling down on my biggest loser",
+      "timestamp": "22:25"
+    },
+    {
+      "title": "Coinbase offers centralized leverage to crypto",
+      "summary": "Gilbert frames Coinbase's then-$34 billion valuation against $10 billion in trailing free cash flow, leading brand and network effects, plus options on new products—while acknowledging take-rate compression and FTX competition.",
+      "quote": "a crypto value investment",
+      "timestamp": "25:48"
+    },
+    {
+      "title": "Amazon owns two layers of the internet",
+      "summary": "Rosenthal argues AWS's scale matters more than smaller rivals' faster growth, while retail's logistics, advertising, payments, Prime, and third-party infrastructure are valuable even when forward investment suppresses profits.",
+      "quote": "This is the picks and shovels of the internet",
+      "timestamp": "33:28"
+    },
+    {
+      "title": "The judge finds every missing bear case",
+      "summary": "Nyatta praises narrative skill but observes that all four presenters think like venture investors, focus on upside and apparent cheapness, and fail to quantify permanent downside such as Coinbase's unusually high consumer pricing.",
+      "quote": "Nobody talked about downside",
+      "timestamp": "37:57"
+    },
+    {
+      "title": "Continuity answers founders' post-accelerator needs",
+      "summary": "YC alumni asked why support stopped after 12 weeks, leading to a multistage program that primarily invests in YC companies from Series B onward and aims to remain a lifelong partner.",
+      "quote": "Why do you stop at the accelerator?",
+      "timestamp": "49:34"
+    },
+    {
+      "title": "Fundraising education continues after Demo Day",
+      "summary": "YC prepares founders months before Series A with readiness metrics, decks, investor selection, and term-sheet negotiation, while thousands of alumni exchange support through an unusually active internal network.",
+      "quote": "Are you ready to raise the Series A?",
+      "timestamp": "51:05"
+    },
+    {
+      "title": "Mission constrains follow-on investing behavior",
+      "summary": "Continuity protects the parent-like founder relationship by accepting when another investor is better for a round; YC believes helping enduring companies first will earn, rather than coerce, access to exceptional returns.",
+      "quote": "you have to earn the right to win",
+      "timestamp": "58:45"
+    },
+    {
+      "title": "Selectivity meets a massive internal pipeline",
+      "summary": "Continuity completed only 35 investments among roughly 3,500 YC companies over seven years, reflecting a deliberately small team, evolving strategy, and chronic undercapitalization relative to alumni success.",
+      "quote": "we've done less than one percent",
+      "timestamp": "1:00:41"
+    },
+    {
+      "title": "YC operates as a startup university",
+      "summary": "Open applications, cohorts, peer learning, and successive Series A, post-A, and growth programs resemble undergraduate and graduate education, with experienced alumni transferring hard-won scaling knowledge.",
+      "quote": "YC is university for startups",
+      "timestamp": "1:04:50"
+    },
+    {
+      "title": "Founder inputs outrank polished growth outputs",
+      "summary": "Hariharan evaluates how quickly founders ship and learn, how rigorously they hire, and whether they can clearly explain the path to a $5–10 billion company—signals longitudinal access makes harder to manufacture.",
+      "quote": "How fast do they ship? How fast do they iterate?",
+      "timestamp": "1:16:46"
+    },
+    {
+      "title": "Network effects depend on community stewardship",
+      "summary": "YC's ambition is global, lifecycle-long founder support at far greater scale, but its platform exists because alumni trust shared values; damaging that community is Hariharan's clearest failure scenario.",
+      "quote": "if we mess up the YC community",
+      "timestamp": "1:20:27"
+    }
+  ],
+  "title": "Arena Show Part I: Investment Ideas and YC Continuity"
+}

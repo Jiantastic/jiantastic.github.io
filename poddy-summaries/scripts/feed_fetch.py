@@ -16,6 +16,14 @@ def slugify(text: str) -> str:
     return text or "episode"
 
 
+def canonical_source_url(link: str, slug: str) -> str:
+    """Return an episode-specific HTTPS source when an old feed link is generic."""
+    link = str(link or "").strip()
+    if link.startswith("https://") and "/episodes/" in link:
+        return link
+    return f"https://www.acquired.fm/episodes/{slug}"
+
+
 def parse_feed(url: str):
     feed = feedparser.parse(url)
     if feed.bozo and not feed.entries:
@@ -34,15 +42,16 @@ def parse_feed(url: str):
         published = entry.get("published") or entry.get("updated") or ""
         published_parsed = entry.get("published_parsed") or entry.get("updated_parsed")
         duration = entry.get("itunes_duration") or ""
+        slug = slugify(title)
         episodes.append(
             {
                 "guid": str(guid),
                 "title": title,
                 "audioUrl": audio_url,
-                "sourceUrl": entry.get("link") or "https://www.acquired.fm/episodes",
+                "sourceUrl": canonical_source_url(entry.get("link"), slug),
                 "pubDate": published,
                 "duration": duration,
-                "slug": slugify(title),
+                "slug": slug,
                 "published_ts": mktime(published_parsed) if published_parsed else 0,
             }
         )

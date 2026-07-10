@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Zoom founder Eric Yuan and Veeva founder Peter Gassner show that capital efficiency is not a funding statistic or a lucky cash-flow cycle; it is a company-wide operating philosophy. Veeva reached roughly $2 billion in revenue and 30% profit after consuming only angel capital, while Zoom left major venture rounds largely untouched. Both founders began in supposedly settled markets, heard repeated investor rejection, and won through product excellence, intense focus, direct customer contact, and an instinct that every person and dollar must matter.",
+    "Their models diverged—Zoom used a low-priced horizontal product and viral adoption, while Veeva sold multimillion-dollar vertical contracts—but the disciplines converged. Product quality compressed sales costs, early users mattered more than vanity scale, customer revenue financed development where possible, annual contracts preserved pricing and accountability, and marketing expanded only after measurable demand appeared. The discussion also exposes where frugality must evolve: scaling companies need experienced leaders alongside internal talent, and durable growth requires risky second products planned years before the first one matures."
+  ],
+  "takeaways": [
+    {
+      "title": "Capital efficiency begins as a mindset",
+      "detail": "Gassner's profitable-lemonade-stand test treats cash generation as long-term safety, while Yuan treats invested money as entrusted capital rather than permission to spend. Their different sales motions produced the same behavior: concentrate resources on product and customers, remove optional activity, and preserve strategic freedom."
+    },
+    {
+      "title": "Product excellence lowers every downstream cost",
+      "detail": "A product that is dramatically better reduces persuasion, sales staffing, onboarding friction, support, and churn. Zoom could compete against free incumbents through reliability, ease of use, price, and service; Veeva could win Pfizer with a tiny team because it offered the customer's best chance at a great outcome."
+    },
+    {
+      "title": "Listen beneath customers' stated answers",
+      "detail": "Prospects told Gassner they did not need Veeva, but their lack of attachment to existing tools revealed an opening. Both founders preferred conversations with early adopters over dashboards: Zoom could lose 49,900 of its first 50,000 users and still have a foundation if the remaining 100 became intensely happy advocates."
+    },
+    {
+      "title": "Revenue design can finance the roadmap",
+      "detail": "Veeva treated Pfizer's prepaid annual contract like a nondilutive financing round, while Zoom's $9.99 subscriptions could not fund development as predictably. Yet Veeva rejected discounted multiyear lock-ins, choosing to earn renewal annually, preserve fair pricing across a concentrated market, and expand through many products sold into trusted relationships."
+    },
+    {
+      "title": "Efficiency must evolve after product-market fit",
+      "detail": "Zoom initially benefited from self-motivated leaders growing with the company, but pandemic demand outpaced their experience. Yuan's correction is a mixed leadership bench: develop loyal internal talent while adding executives who have already operated at the next scale. The same forward planning applies to products—new growth engines must begin years before they are needed."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Two enormous companies consume little capital",
+      "summary": "Veeva used about $3 million of angel funding and nearly none of Emergence's $4 million before going public; Zoom similarly built the business without consuming its later $130 million in venture rounds.",
+      "quote": "We never actually used the Emergence four million",
+      "timestamp": "7:07"
+    },
+    {
+      "title": "Rejected markets create non-obvious opportunity",
+      "summary": "Investors considered vertical life-sciences software too small and video conferencing already settled, but Gassner argues an outlier must begin where consensus predicts failure—provided the founder is correct.",
+      "quote": "it has an opportunity to be really good",
+      "timestamp": "15:15"
+    },
+    {
+      "title": "Customer emotion reveals hidden dissatisfaction",
+      "summary": "Gassner ignored prospects' literal rejection and tested whether they valued or felt loyal to incumbent tools; Yuan drew on years of hearing WebEx customers' frustration from inside the company.",
+      "quote": "listen to what they feel, not what they say",
+      "timestamp": "17:06"
+    },
+    {
+      "title": "Investor dollars are entrusted, not owned",
+      "summary": "Yuan's desire to repair WebEx became a survival discipline when financing proved difficult: each dollar represented another person's trust, so Zoom continually operated as though survival were uncertain.",
+      "quote": "every dollar matters",
+      "timestamp": "18:42"
+    },
+    {
+      "title": "Zoom builds the product before the organization",
+      "summary": "The first 40-person team consisted of Yuan and 39 engineers; he handled product, design, facilities, accounting, and culture while deferring sales and marketing until the product could carry demand.",
+      "quote": "No product managers, no marketing, no sales",
+      "timestamp": "21:05"
+    },
+    {
+      "title": "A loyal hundred beats fleeting scale",
+      "summary": "A favorable Walt Mossberg review brought Zoom 50,000 users overnight, but Yuan focused on the small cohort that stayed, personally contacting customers and cancellations to turn satisfaction into network-driven growth.",
+      "quote": "Even 100 are good enough",
+      "timestamp": "23:15"
+    },
+    {
+      "title": "Pfizer becomes nondilutive growth capital",
+      "summary": "Veeva won a multimillion-dollar Pfizer contract through conviction, harder-working people, and a promise of greatness; the prepaid annual invoice funded product work like a financing round without dilution.",
+      "quote": "we've just raised a three million dollar round",
+      "timestamp": "28:12"
+    },
+    {
+      "title": "Annual renewal prevents pricing and product laziness",
+      "summary": "Rather than maximize upfront cash with discounted multiyear lock-ins, Veeva protected annual customer value, maintained fairness in its small vertical, and forced itself to earn the business each year.",
+      "quote": "I wanted us to earn the business every year",
+      "timestamp": "32:06"
+    },
+    {
+      "title": "Internal efficiency funds a better customer offer",
+      "summary": "Zoom could offer better product, price, and service only by operating with fewer salespeople and less organizational overhead; product excellence then shortened sales cycles and compounded those savings.",
+      "quote": "Efficiency translates to capital efficiency",
+      "timestamp": "37:25"
+    },
+    {
+      "title": "Pandemic scale breaks one hiring doctrine",
+      "summary": "Yuan admits that exclusively promoting self-learning internal talent failed when usage grew 15–20 times and revenue sevenfold; after product-market fit, companies need both developing leaders and veterans of larger scale.",
+      "quote": "Mix is much better",
+      "timestamp": "43:35"
+    },
+    {
+      "title": "Marketing follows proof and demands optimization",
+      "summary": "Zoom waited years to form a marketing team, then scrutinized programs rather than accepting standard SaaS payback. When customer and employee reactions proved billboards worked, Yuan multiplied them instead of spending by convention.",
+      "quote": "If it works, you'll have to double down",
+      "timestamp": "48:01"
+    },
+    {
+      "title": "Second products require an early, risky leap",
+      "summary": "Veeva deliberately built a second product for a different buyer and codebase, accepting damage to its first rocket ship to become a true multiproduct company; Zoom learned that such decisions must precede need by years.",
+      "quote": "it'll either make us or it'll break us",
+      "timestamp": "54:19"
+    }
+  ],
+  "title": "Capital-Efficient Growth: Zoom and Veeva's Operating Playbook"
+}

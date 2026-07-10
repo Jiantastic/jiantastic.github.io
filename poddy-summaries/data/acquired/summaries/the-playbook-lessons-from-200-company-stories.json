@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "After more than 200 company stories, Acquired's playbook begins with a macro conviction: optimism is rational because builders create progress even in terrible conditions, while falling compute costs continually enlarge the markets technology can address. The company-level corollary is endurance. Great outcomes concentrate late, so investors must let rare winners compound and founders must preserve the will to survive long enough for strategy, product, and timing to converge.",
+    "The remaining lessons concern leverage and focus. Strong resources can acquire stronger ones; each technology wave creates fresh entry points regardless of age; early venture investments are options on outcomes but founders are people in a repeated game. Companies should outsource infrastructure unrelated to customer value, then either dominate a scaled market or own a narrow niche. Creators should retain their business, leaders should state long-term intentions clearly, and genuine enjoyment supplies an endurance and recruiting advantage competitors cannot counterfeit."
+  ],
+  "takeaways": [
+    {
+      "title": "Compute deflation expands entrepreneurial possibility",
+      "detail": "Moore's Law does more than improve processors: it lowers the cost of serving each user and lets software attack progressively larger industries and populations. Mike Moritz used that logic to see why Sequoia's future outcomes could exceed Apple, Cisco, and Oracle rather than regress toward the mean."
+    },
+    {
+      "title": "Duration creates most of an outlier's value",
+      "detail": "Amazon looked mature after nearly 20 years, yet its following decade dwarfed everything before it. Because compounding pushes value into distant years, selling a truly exceptional company early can destroy more return than choosing an ordinary investment in the first place."
+    },
+    {
+      "title": "Resources are recursive strategic instruments",
+      "detail": "Capital, customers, hires, brand, and distribution increase a company's present capability; exceptional leaders immediately use that stronger position to secure the next advantage. Tesla's elevated share price financed more than $10 billion with limited dilution, turning market perception into real balance-sheet strength."
+    },
+    {
+      "title": "Outsource everything customers cannot taste",
+      "detail": "A brewery gains nothing from generating its own electricity, just as a startup gains little from undifferentiated infrastructure. Focus internal effort on attributes customers value. Conversely, supplying mission-critical outsourced infrastructure can produce a utility-like, defensible business such as AWS, Shopify, or Square."
+    },
+    {
+      "title": "The internet rewards extremes, not middles",
+      "detail": "Brooks abandoned broad athletic footwear to own performance running; the New York Times paid the fixed cost to become a global institution. Digital distribution aggregates both enormous platforms and globally reachable niches, while undifferentiated mid-scale companies inherit neither low costs nor category authority."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Optimism wins even from historical ruin",
+      "summary": "Sony began in 1946 Japan with almost no technology, consumer market, or intact housing, yet its founders helped rebuild an industry and inspired the product philosophy that ultimately shaped Apple.",
+      "quote": "it's the optimists who drive the world forward",
+      "timestamp": "8:37"
+    },
+    {
+      "title": "Moore's Law enlarges technology outcomes",
+      "summary": "Exponentially cheaper compute expands the population and industries software can reach, explaining why successive generations of venture-backed companies can create larger markets and returns than the apparent legends before them.",
+      "quote": "the markets that technology can attack should keep getting bigger",
+      "timestamp": "12:04"
+    },
+    {
+      "title": "Let exceptional winners keep compounding",
+      "summary": "Amazon's first 13 post-IPO years produced a remarkable return, but the next decade dwarfed it; most value in durable compounders arrives after the company already appears mature and obviously successful.",
+      "quote": "all of the value tends to show up in the out years",
+      "timestamp": "18:18"
+    },
+    {
+      "title": "A will to survive creates another move",
+      "summary": "NVIDIA abandoned its original architecture, laid off 70%, emulated chips rather than prototyping them, and shipped aggressively because Jensen Huang treated quitting — not adversity — as the only definitive end state.",
+      "quote": "game over only happens when you decide to quit",
+      "timestamp": "20:26"
+    },
+    {
+      "title": "Strength should immediately acquire more strength",
+      "summary": "A new customer, executive, brand signal, or financing makes the company more capable. Tesla and Andreessen Horowitz turned favorable perception into tangible capital, then used the new resource to reinforce the position.",
+      "quote": "How do we get stronger?",
+      "timestamp": "28:53"
+    },
+    {
+      "title": "Every technology wave creates another entry",
+      "summary": "Andreessen arrived too late for the PC but exactly on time for the web; Morris Chang founded TSMC at 56. Paradigm shifts reward readiness and insight, not a universal founder age or single historic window.",
+      "quote": "you are always right on the cusp of the next generation",
+      "timestamp": "32:59"
+    },
+    {
+      "title": "Venture options are not lottery tickets",
+      "summary": "Seed valuations reflect ranges and probabilities of future outcomes rather than discounted current cash flow, but the founders behind those options are people in a repeated ecosystem game who deserve responsible treatment.",
+      "quote": "these founders are real people with families and lives",
+      "timestamp": "39:42"
+    },
+    {
+      "title": "Focus on what makes the beer taste better",
+      "summary": "AWS let startups rent the equivalent of electricity rather than build generators. Companies should own differentiating customer value and outsource necessary infrastructure that only increases cost and distraction.",
+      "quote": "focus on what makes your beer taste better",
+      "timestamp": "44:26"
+    },
+    {
+      "title": "Scale up or own a narrow niche",
+      "summary": "Brooks cut revenue in half to specialize in performance running while the New York Times invested to become global. Internet economics support massive fixed-cost leaders and focused long tails but punish the middle.",
+      "quote": "you really don't want to get caught in the middle",
+      "timestamp": "50:32"
+    },
+    {
+      "title": "Do not be talent; own the business",
+      "summary": "Oprah and Taylor Swift paired irreplaceable creative work with control of the underlying rights. Direct internet distribution now lets creators retain economics that legacy networks and labels historically captured.",
+      "quote": "don't be talent, own the business",
+      "timestamp": "56:15"
+    },
+    {
+      "title": "Declare the long game and choose aligned stakeholders",
+      "summary": "Amazon's first shareholder letter explicitly prioritized scale and future cash flow over near-term profit, attracting owners willing to fund two decades of reinvestment and discouraging incompatible expectations early.",
+      "quote": "if you're not on my bus, get off",
+      "timestamp": "58:22"
+    },
+    {
+      "title": "Genuine fun produces durable competitive energy",
+      "summary": "People who enjoy the work naturally persist longer, improve faster, recruit more authentically, and evangelize without performance. Joy is therefore not a soft afterthought but a difficult-to-copy operating advantage.",
+      "quote": "joy is not something you can really fake",
+      "timestamp": "1:00:48"
+    }
+  ],
+  "title": "The Acquired Playbook: 12 Lessons from 200+ Company Stories"
+}
