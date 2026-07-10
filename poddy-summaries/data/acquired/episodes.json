@@ -22186,5 +22186,1127 @@
         "timestamp": "1:44:29"
       }
     ]
+  },
+  {
+    "slug": "sequoia-capital-part-ii-with-doug-leone",
+    "guid": "4b508c22-2ba3-4e1e-936c-9031e1082682",
+    "title": "Sequoia Capital Part II (with Doug Leone)",
+    "pubDate": "Mon, 17 Feb 2020 21:50:01 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/c8aaf764/94b0a17a.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/sequoia-capital-part-ii-with-doug-leone",
+    "duration": 4082,
+    "episodeUrl": "/poddy-summaries/episodes/sequoia-capital-part-ii-with-doug-leone/",
+    "summaryPath": "summaries/sequoia-capital-part-ii-with-doug-leone.json",
+    "transcriptPath": "transcripts/sequoia-capital-part-ii-with-doug-leone.txt",
+    "transcriptJsonPath": "transcripts/sequoia-capital-part-ii-with-doug-leone.json",
+    "overview": [
+      "Doug Leone joins to tell Sequoia's modern story, and the episode's central argument is that the firm's dominance since 1996 comes from culture rather than deal-picking: hungry immigrant outsiders with something to prove, a refusal to ever lose limited partners' money, and constant reinvention — expanding from a single early-stage fund into a global, full-lifecycle platform spanning seed to hedge fund across the US, China, and India.",
+      "The defining arc is Leone's rise from cold-calling Don Valentine to running the firm, and the tension is success versus hunger. When the dot-com crash left Sequoia owing clawbacks larger than the partners' net worth, Moritz and Leone rejected the industry's 'Mulligan,' spending a decade rebuilding 0.3x funds to nearly 2x — the crucible that forged the take-the-shot, we've-done-nothing culture Leone still enforces."
+    ],
+    "takeaways": [
+      {
+        "title": "Refusing the Mulligan became Sequoia's proudest moment",
+        "detail": "In 2000 Sequoia's war-room clawback liabilities exceeded the partners' net worth, yet instead of writing off crash-era funds like the rest of the industry, the firm gave up fees and reinvested every gain for ten years. Funds worth 0.3x were brought back to nearly 2x so no client lost money."
+      },
+      {
+        "title": "Hire local teams; flyover investing gets China wrong",
+        "detail": "Citing a Hogan's Heroes scene, Leone was certain he and Moritz would get China wrong themselves, so after 20 trips they did a handshake deal with Neil Shen's team in four days and had a PPM ready by Monday. The ridiculed $160 million Sequoia China I led to ByteDance, Meituan, Pinduoduo, and some 50-60 IPOs."
+      },
+      {
+        "title": "Grow with companies instead of specializing by stage",
+        "detail": "Because startups must now launch in Europe six months after the US and raise ever-larger rounds, Sequoia vertically integrated — seed, venture, growth, global growth, hedge fund, and heritage. A stage-specialized firm can't support a company through its inevitable 'bump' round, while full-lifecycle capital defends ownership and signals conviction to new investors."
+      },
+      {
+        "title": "Investors can't help before product-market fit",
+        "detail": "Sequoia didn't know what Google did for a long time and deliberately sat on its hands, just as it left Meraki's founders alone to figure out direction. Leone tells founders that finding product-market fit is theirs alone; Sequoia can help with everything that comes after."
+      },
+      {
+        "title": "Without performance, Sequoia's other nine tenets don't matter",
+        "detail": "The firm recruits quirky, shunned overachievers who had shocks to their systems, flattens carry so comp is off the table, and hunts for 'the truth in the middle of the table.' Success is treated as a drug: posters came off the walls, and the mindset is 20 chickens, a reputation, and nothing else."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Dedicating part two to Don Valentine",
+        "summary": "The episode frames Sequoia's modern era: since Don Valentine handed the firm to Moritz and Leone in 1996, it has backed a staggering roster of defining companies.",
+        "quote": "the investing partner behind an absurd number of the industry-defining companies",
+        "timestamp": "0:45"
+      },
+      {
+        "title": "An immigrant childhood forges two-sided toughness",
+        "summary": "Leone's move from Italy to New York at 11 and brutal high-school years produced the combination he says defines him — warmth plus refusing to give an inch.",
+        "quote": "the very warm side, the very big heart, and the super tough side",
+        "timestamp": "7:03"
+      },
+      {
+        "title": "Selling Sun to Wall Street",
+        "summary": "A budgetary quote to Bear Stearns turned into a purchase order while Leone was on vacation — the hustle that got Vinod Khosla and Scott McNealy asking who he was.",
+        "quote": "there was a purchase order on my desk for $2.8 million",
+        "timestamp": "13:53"
+      },
+      {
+        "title": "One question from Don Valentine",
+        "summary": "After writing letters to 80 venture firms and charming Don's assistant, Leone faced an interview of one question and long silences; Don bet he could be reprogrammed.",
+        "quote": "Can we break him down to pieces and will he build himself up?",
+        "timestamp": "17:49"
+      },
+      {
+        "title": "Three IPOs, then the abyss",
+        "summary": "Early wins with Arbor, INS, and Renaissance built false confidence; Leone argues investors only become terrific after pulling themselves out of the abyss, as he did in 2001.",
+        "quote": "oh my God, there's not a winner there",
+        "timestamp": "19:01"
+      },
+      {
+        "title": "The handoff: Moritz as one, Leone as 1A",
+        "summary": "Don never anointed successors — he flattened carry, pushed across a green sheet of what he'd still do, and let Moritz and Leone run the firm as equals in comp until 2012.",
+        "quote": "Mike was really one and I was 1A",
+        "timestamp": "26:17"
+      },
+      {
+        "title": "Refusing the Mulligan after the crash",
+        "summary": "Owing clawbacks larger than their net worth after 2000, the partners gave up fees and reinvested gains for a decade — what Leone calls Sequoia's proudest chapter.",
+        "quote": "No one was going to lose money at Sequoia Capital",
+        "timestamp": "29:37"
+      },
+      {
+        "title": "Patience with Google, restraint with founders",
+        "summary": "Sequoia held smart founders aimed at the internet and sat on its hands; Leone's rule is that founders create during product-market fit and Sequoia helps with everything after.",
+        "quote": "We didn't know what Google did for a long time",
+        "timestamp": "34:33"
+      },
+      {
+        "title": "Hogan's Heroes logic for entering China",
+        "summary": "Certain that flyover investing would fail, Leone shopped for a local team, closed a handshake deal with Neil Shen's group in days, and raised a fund LPs ridiculed.",
+        "quote": "Mike Moritz and I, if we make investments in China, we'll get it wrong",
+        "timestamp": "41:15"
+      },
+      {
+        "title": "Walnuts, peanuts, cashews: one global team",
+        "summary": "Seed stays strategic while growth, hedge fund, and heritage vehicles extend founder relationships for life; blended profits financially intertwine every geography without anyone earning more.",
+        "quote": "we all get a share of mixed nuts but no one gets more nuts",
+        "timestamp": "51:21"
+      },
+      {
+        "title": "Twenty chickens and a reputation",
+        "summary": "Leone lays out the playbook: recruit shunned overachievers, treat past success as the enemy, and operate as if the firm is a week from going out of business.",
+        "quote": "we'd rather go out of business in a week than in five years",
+        "timestamp": "56:33"
+      },
+      {
+        "title": "Grading the misses: Facebook earns a G",
+        "summary": "Leone grades Sequoia a B to B-plus overall — an A for the 1999 war room, F's for misses that came through the conference room, and worse for sleeping through Facebook's big rounds.",
+        "quote": "I don't know what's lower than that. I'd give us a G.",
+        "timestamp": "1:05:10"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Dedicating part two to Don Valentine",
+        "summary": "The episode frames Sequoia's modern era: since Don Valentine handed the firm to Moritz and Leone in 1996, it has backed a staggering roster of defining companies.",
+        "quote": "the investing partner behind an absurd number of the industry-defining companies",
+        "timestamp": "0:45"
+      },
+      {
+        "title": "An immigrant childhood forges two-sided toughness",
+        "summary": "Leone's move from Italy to New York at 11 and brutal high-school years produced the combination he says defines him — warmth plus refusing to give an inch.",
+        "quote": "the very warm side, the very big heart, and the super tough side",
+        "timestamp": "7:03"
+      },
+      {
+        "title": "Selling Sun to Wall Street",
+        "summary": "A budgetary quote to Bear Stearns turned into a purchase order while Leone was on vacation — the hustle that got Vinod Khosla and Scott McNealy asking who he was.",
+        "quote": "there was a purchase order on my desk for $2.8 million",
+        "timestamp": "13:53"
+      },
+      {
+        "title": "One question from Don Valentine",
+        "summary": "After writing letters to 80 venture firms and charming Don's assistant, Leone faced an interview of one question and long silences; Don bet he could be reprogrammed.",
+        "quote": "Can we break him down to pieces and will he build himself up?",
+        "timestamp": "17:49"
+      },
+      {
+        "title": "Three IPOs, then the abyss",
+        "summary": "Early wins with Arbor, INS, and Renaissance built false confidence; Leone argues investors only become terrific after pulling themselves out of the abyss, as he did in 2001.",
+        "quote": "oh my God, there's not a winner there",
+        "timestamp": "19:01"
+      },
+      {
+        "title": "The handoff: Moritz as one, Leone as 1A",
+        "summary": "Don never anointed successors — he flattened carry, pushed across a green sheet of what he'd still do, and let Moritz and Leone run the firm as equals in comp until 2012.",
+        "quote": "Mike was really one and I was 1A",
+        "timestamp": "26:17"
+      },
+      {
+        "title": "Refusing the Mulligan after the crash",
+        "summary": "Owing clawbacks larger than their net worth after 2000, the partners gave up fees and reinvested gains for a decade — what Leone calls Sequoia's proudest chapter.",
+        "quote": "No one was going to lose money at Sequoia Capital",
+        "timestamp": "29:37"
+      },
+      {
+        "title": "Patience with Google, restraint with founders",
+        "summary": "Sequoia held smart founders aimed at the internet and sat on its hands; Leone's rule is that founders create during product-market fit and Sequoia helps with everything after.",
+        "quote": "We didn't know what Google did for a long time",
+        "timestamp": "34:33"
+      },
+      {
+        "title": "Hogan's Heroes logic for entering China",
+        "summary": "Certain that flyover investing would fail, Leone shopped for a local team, closed a handshake deal with Neil Shen's group in days, and raised a fund LPs ridiculed.",
+        "quote": "Mike Moritz and I, if we make investments in China, we'll get it wrong",
+        "timestamp": "41:15"
+      },
+      {
+        "title": "Walnuts, peanuts, cashews: one global team",
+        "summary": "Seed stays strategic while growth, hedge fund, and heritage vehicles extend founder relationships for life; blended profits financially intertwine every geography without anyone earning more.",
+        "quote": "we all get a share of mixed nuts but no one gets more nuts",
+        "timestamp": "51:21"
+      },
+      {
+        "title": "Twenty chickens and a reputation",
+        "summary": "Leone lays out the playbook: recruit shunned overachievers, treat past success as the enemy, and operate as if the firm is a week from going out of business.",
+        "quote": "we'd rather go out of business in a week than in five years",
+        "timestamp": "56:33"
+      },
+      {
+        "title": "Grading the misses: Facebook earns a G",
+        "summary": "Leone grades Sequoia a B to B-plus overall — an A for the 1999 war room, F's for misses that came through the conference room, and worse for sleeping through Facebook's big rounds.",
+        "quote": "I don't know what's lower than that. I'd give us a G.",
+        "timestamp": "1:05:10"
+      }
+    ]
+  },
+  {
+    "slug": "whatsapp",
+    "guid": "68e93747-1bbf-479e-98e3-1b7f7d2478a2",
+    "title": "WhatsApp",
+    "pubDate": "Tue, 28 Jan 2020 20:48:30 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/af2cab93/bc877db5.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/whatsapp",
+    "duration": 6746,
+    "episodeUrl": "/poddy-summaries/episodes/whatsapp/",
+    "summaryPath": "summaries/whatsapp.json",
+    "transcriptPath": "transcripts/whatsapp.txt",
+    "transcriptJsonPath": "transcripts/whatsapp.json",
+    "overview": [
+      "Facebook's $22 billion WhatsApp acquisition looks like a failure — six years on, the app generates essentially no revenue and Facebook just abandoned plans to put ads in it. The hosts argue it was actually a rational defensive takeout: by spending roughly ten percent of its equity, Facebook removed the only other billion-user global network that could have shifted the world's attention away from its properties, whether independently or in Google's or Tencent's hands.",
+      "The episode's central tension is the collision between the founders' anti-advertising ethos and Facebook's business model. Jan Koum's surveillance-state childhood in Soviet Ukraine and both founders' disillusionment at ad-compromised Yahoo shaped a private, utility-first product — a $1 fee instead of ads, then end-to-end encryption. Facebook agreed to a no-ads clause to close the deal, then pushed data sharing and monetization until both founders walked away, leaving over a billion dollars in unvested stock behind."
+    ],
+    "takeaways": [
+      {
+        "title": "Phone-number identity solved messaging's cold-start problem",
+        "detail": "Instead of usernames, WhatsApp read the iPhone address book so everyone you might message was already findable. Combined with roughly 250,000 users accumulated from early growth hacks, the network had instant density that AIM ports, Meebo, and BlackBerry Messenger could never match."
+      },
+      {
+        "title": "SMS pricing arbitrage powered WhatsApp's global takeover",
+        "detail": "Carriers charged $10 monthly add-ons or steep per-message and cross-border fees for texts that piggybacked on cell-tower heartbeat pings at near-zero marginal cost. Once 3G data spread, WhatsApp spoofed SMS over the data layer with no character limit, making even a paid app dramatically cheaper than texting."
+      },
+      {
+        "title": "The dollar fee throttled growth, not revenue",
+        "detail": "The 99-cent charge existed to cover servers and SMS verification costs, not to capture value. The team toggled the fee on and off to slow signups whenever the Erlang backend needed to catch up — a signal of overwhelming product-market fit that helped convince Sequoia."
+      },
+      {
+        "title": "A no-ads clause let the founders walk",
+        "detail": "The deal documents granted full vesting acceleration if Facebook ever implemented advertising on WhatsApp. When Facebook pushed ad targeting and data sharing anyway, Acton left $850 million on the table, gave $50 million to Signal, and tweeted #deleteFacebook; Koum followed, forfeiting roughly $400 million."
+      },
+      {
+        "title": "Twenty-two billion bought a defensive takeout",
+        "detail": "Facebook booked $15.3 billion of the price as goodwill and has earned essentially nothing from WhatsApp, yet the hosts grade the deal B+ and A. If there was even a 10% chance WhatsApp could displace Facebook as the world's attention platform, paying a year's profit was break even."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Cold open: Facebook is a cash machine",
+        "summary": "The hosts frame the stakes before the story begins: Facebook's 45% operating margin makes it a money printer, which explains both how it could pay $22 billion and why protecting attention share is existential.",
+        "quote": "for every dollar they bring in house, they keep 45 cents",
+        "timestamp": "0:00"
+      },
+      {
+        "title": "Jan Koum's childhood in Soviet Ukraine",
+        "summary": "Koum's upbringing outside Kiev — poverty, antisemitism, and a surveillance state — is the origin of the privacy absolutism that later defines WhatsApp and ultimately breaks the Facebook relationship.",
+        "quote": "living there was experiencing it",
+        "timestamp": "6:15"
+      },
+      {
+        "title": "Yahoo disillusionment plants the anti-ad ethos",
+        "summary": "Acton and Koum watch Yahoo compromise its product for advertisers while Google rises, leaving both burned out on attention monetization — and then Facebook rejects both of their job applications in 2008.",
+        "quote": "did some work, period",
+        "timestamp": "16:40"
+      },
+      {
+        "title": "An iPhone, an address book, and WhatsApp Inc.",
+        "summary": "Koum's away-message idea becomes WhatsApp, built on the key insight of using phone numbers from the iPhone address book as identity — solving messaging's cold-start problem before anyone else.",
+        "quote": "the answer to what's up",
+        "timestamp": "23:24"
+      },
+      {
+        "title": "'You'd be an idiot to quit now'",
+        "summary": "With the status app failing horribly, Acton talks Koum out of quitting just months before WWDC 2009 delivers third-party push notifications — the knife-point moment that lets away messages evolve into real messaging.",
+        "quote": "you'd be an idiot to quit now",
+        "timestamp": "31:15"
+      },
+      {
+        "title": "A dollar a year as a growth throttle",
+        "summary": "The fee wasn't value capture; it paid server bills and was switched on and off to slow signups so the backend could keep up — evidence of product-market fit so strong they had to ration it.",
+        "quote": "toggling the dollar on and off when they wanted to throttle growth",
+        "timestamp": "45:35"
+      },
+      {
+        "title": "Sequoia finds a startup already paying taxes",
+        "summary": "After rejecting a rival's blank term sheet as callous with other people's money, the founders choose Jim Goetz and Sequoia — who discover a consumer startup that is already profitable at Series A.",
+        "quote": "They were already paying corporate income taxes",
+        "timestamp": "51:51"
+      },
+      {
+        "title": "Pricing off Twitter's market cap",
+        "summary": "With Tencent's acquisition nearly finalized and a Larry Page meeting on the calendar, the founders benchmark against Twitter's $30 billion valuation — and Zuckerberg, desperate to block Google, bites within days.",
+        "quote": "We've got to be worth at least $20 billion",
+        "timestamp": "1:03:31"
+      },
+      {
+        "title": "The no-ads clause enters the deal documents",
+        "summary": "During the Valentine's Day weekend paperwork, the founders' lawyers insert full vesting acceleration if Facebook ever puts advertising in WhatsApp — the clause that later governs both founders' exits.",
+        "quote": "if Facebook ever implements advertising on WhatsApp",
+        "timestamp": "1:05:32"
+      },
+      {
+        "title": "Acton funds Signal and tweets #deleteFacebook",
+        "summary": "As Facebook pushes data sharing and story ads, Acton walks away from $850 million, bankrolls Signal, and publicly tells users to delete Facebook during Cambridge Analytica; Koum leaves months later.",
+        "quote": "I sold my user's privacy to a larger benefit",
+        "timestamp": "1:16:24"
+      },
+      {
+        "title": "Categorizing the deal: a takeout acquisition",
+        "summary": "Facebook's own accounting booked $15.3 billion as goodwill, and the hosts conclude the purchase wasn't about people, technology, or a business line — it was about ending WhatsApp's independent existence.",
+        "quote": "this thing was a takeout acquisition",
+        "timestamp": "1:25:53"
+      },
+      {
+        "title": "Grading: break-even insurance against obsolescence",
+        "summary": "Ben grades the deal an A: Facebook's core risk is fading attention, not regulation, so spending a year's profit to neutralize the one global-scale threat was worth it even at zero revenue.",
+        "quote": "a 10% chance that WhatsApp could have totally wiped out Facebook",
+        "timestamp": "1:43:36"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Cold open: Facebook is a cash machine",
+        "summary": "The hosts frame the stakes before the story begins: Facebook's 45% operating margin makes it a money printer, which explains both how it could pay $22 billion and why protecting attention share is existential.",
+        "quote": "for every dollar they bring in house, they keep 45 cents",
+        "timestamp": "0:00"
+      },
+      {
+        "title": "Jan Koum's childhood in Soviet Ukraine",
+        "summary": "Koum's upbringing outside Kiev — poverty, antisemitism, and a surveillance state — is the origin of the privacy absolutism that later defines WhatsApp and ultimately breaks the Facebook relationship.",
+        "quote": "living there was experiencing it",
+        "timestamp": "6:15"
+      },
+      {
+        "title": "Yahoo disillusionment plants the anti-ad ethos",
+        "summary": "Acton and Koum watch Yahoo compromise its product for advertisers while Google rises, leaving both burned out on attention monetization — and then Facebook rejects both of their job applications in 2008.",
+        "quote": "did some work, period",
+        "timestamp": "16:40"
+      },
+      {
+        "title": "An iPhone, an address book, and WhatsApp Inc.",
+        "summary": "Koum's away-message idea becomes WhatsApp, built on the key insight of using phone numbers from the iPhone address book as identity — solving messaging's cold-start problem before anyone else.",
+        "quote": "the answer to what's up",
+        "timestamp": "23:24"
+      },
+      {
+        "title": "'You'd be an idiot to quit now'",
+        "summary": "With the status app failing horribly, Acton talks Koum out of quitting just months before WWDC 2009 delivers third-party push notifications — the knife-point moment that lets away messages evolve into real messaging.",
+        "quote": "you'd be an idiot to quit now",
+        "timestamp": "31:15"
+      },
+      {
+        "title": "A dollar a year as a growth throttle",
+        "summary": "The fee wasn't value capture; it paid server bills and was switched on and off to slow signups so the backend could keep up — evidence of product-market fit so strong they had to ration it.",
+        "quote": "toggling the dollar on and off when they wanted to throttle growth",
+        "timestamp": "45:35"
+      },
+      {
+        "title": "Sequoia finds a startup already paying taxes",
+        "summary": "After rejecting a rival's blank term sheet as callous with other people's money, the founders choose Jim Goetz and Sequoia — who discover a consumer startup that is already profitable at Series A.",
+        "quote": "They were already paying corporate income taxes",
+        "timestamp": "51:51"
+      },
+      {
+        "title": "Pricing off Twitter's market cap",
+        "summary": "With Tencent's acquisition nearly finalized and a Larry Page meeting on the calendar, the founders benchmark against Twitter's $30 billion valuation — and Zuckerberg, desperate to block Google, bites within days.",
+        "quote": "We've got to be worth at least $20 billion",
+        "timestamp": "1:03:31"
+      },
+      {
+        "title": "The no-ads clause enters the deal documents",
+        "summary": "During the Valentine's Day weekend paperwork, the founders' lawyers insert full vesting acceleration if Facebook ever puts advertising in WhatsApp — the clause that later governs both founders' exits.",
+        "quote": "if Facebook ever implements advertising on WhatsApp",
+        "timestamp": "1:05:32"
+      },
+      {
+        "title": "Acton funds Signal and tweets #deleteFacebook",
+        "summary": "As Facebook pushes data sharing and story ads, Acton walks away from $850 million, bankrolls Signal, and publicly tells users to delete Facebook during Cambridge Analytica; Koum leaves months later.",
+        "quote": "I sold my user's privacy to a larger benefit",
+        "timestamp": "1:16:24"
+      },
+      {
+        "title": "Categorizing the deal: a takeout acquisition",
+        "summary": "Facebook's own accounting booked $15.3 billion as goodwill, and the hosts conclude the purchase wasn't about people, technology, or a business line — it was about ending WhatsApp's independent existence.",
+        "quote": "this thing was a takeout acquisition",
+        "timestamp": "1:25:53"
+      },
+      {
+        "title": "Grading: break-even insurance against obsolescence",
+        "summary": "Ben grades the deal an A: Facebook's core risk is fading attention, not regulation, so spending a year's profit to neutralize the one global-scale threat was worth it even at zero revenue.",
+        "quote": "a 10% chance that WhatsApp could have totally wiped out Facebook",
+        "timestamp": "1:43:36"
+      }
+    ]
+  },
+  {
+    "slug": "the-lean-startup-and-the-long-term-stock-exchange-with-eric-ries",
+    "guid": "8627ee40-4ffc-4380-82c5-393db59b4b58",
+    "title": "The Lean Startup and the Long-Term Stock Exchange (with Eric Ries)",
+    "pubDate": "Sun, 29 Dec 2019 21:11:41 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/96b41af3/3e197d80.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/the-lean-startup-and-the-long-term-stock-exchange-with-eric-ries",
+    "duration": 5130,
+    "episodeUrl": "/poddy-summaries/episodes/the-lean-startup-and-the-long-term-stock-exchange-with-eric-ries/",
+    "summaryPath": "summaries/the-lean-startup-and-the-long-term-stock-exchange-with-eric-ries.json",
+    "transcriptPath": "transcripts/the-lean-startup-and-the-long-term-stock-exchange-with-eric-ries.txt",
+    "transcriptJsonPath": "transcripts/the-lean-startup-and-the-long-term-stock-exchange-with-eric-ries.json",
+    "overview": [
+      "Eric Ries argues that short-termism is not a law of nature but a flaw in human-made financial infrastructure — and infrastructure can be rebuilt. The Long-Term Stock Exchange, SEC-approved as only the fifth national securities exchange, operationalizes that belief: companies make binding, enforceable pledges to long-term principles, long-tenured shareholders can earn superior voting rights or dividends, and the exchange earns money by serving companies rather than traders.",
+      "The arc traces how Ries repeatedly backs polarizing ideas that later become consensus — a test reader begged him to cut the exchange idea from The Lean Startup, just as VCs once yelled at him for describing continuous deployment. The unresolved tension is whether LTSE can survive entrenched incumbents who profit from the status quo and persuade any company to list first, when maybe everybody would like to go second."
+    ],
+    "takeaways": [
+      {
+        "title": "Broken LTSE pledges become securities violations",
+        "detail": "Listed companies must register binding operational commitments for each long-term principle, and violating one carries real enforcement penalties. This makes the standards self-selecting: only companies genuinely serious about long-termism would rationally sign up, unlike aspirational S-1 language investors ignore."
+      },
+      {
+        "title": "Long-term holders can earn superior voting rights",
+        "detail": "Ries's middle ground on dual-class stock — which he compares to feudalism when perpetual — lets investors earn into the privileged class through holding tenure, via vote multipliers or progressive dividends. LTSE software tracks long-term ownership in real time, so rewards adjust automatically when holders trade out."
+      },
+      {
+        "title": "Algorithmic and passive trading drained price information",
+        "detail": "Most trades are now machines hitting buttons and much ownership sits in index funds, so far fewer active human voices set prices and a single activist can drag passive money with them. One quant with a ten-minute average holding period still had to vote proxies — governance assigned to someone who says shorting cattle futures doesn't bother the cows."
+      },
+      {
+        "title": "Staying private longer follows from policy choices",
+        "detail": "Ries reframes a VC's case for staying private — unlimited capital, any terms, no disclosure — as a bit field of switches that flip when conditions change, citing a thermostatic equilibrium between private and public markets. WeWork proved the point: its last-gasp rescue attempt was an IPO, and undisclosed secondary transactions echo the fraud his grandparents' Depression-era rules were built to stop."
+      },
+      {
+        "title": "LTSE sells software to companies, not trades",
+        "detail": "Instead of per-trade take rates that reward volume, LTSE monetizes tools like captable.io, hiringplan.io, and startuprunway.io from seed through IPO, plus services such as placing large blocks with long-term investors after market close. This inverts the incumbent model where investors are the customer and companies are merely 'issuers.'"
+      }
+    ],
+    "chapters": [
+      {
+        "title": "The page a test reader begged him to cut",
+        "summary": "The LTSE began as the final idea in The Lean Startup manuscript, and a test reader warned it would destroy the book's credibility. Ries treats that hostility as validation, setting the episode's theme that his polarizing ideas precede consensus.",
+        "quote": "you basically piss away the credibility you've carefully built up",
+        "timestamp": "2:37"
+      },
+      {
+        "title": "There.com's waterfall launch to absent customers",
+        "summary": "The virtual-world startup raised $50 million, hired nearly 200 people, and staffed a warehouse of support reps before launch — the formative failure that later crystallized into Lean Startup vocabulary.",
+        "quote": "the customers never read the business plan",
+        "timestamp": "13:26"
+      },
+      {
+        "title": "Steve Blank's customer development class at Berkeley",
+        "summary": "Blank invested in IMVU on the condition that the founders audit his class, where MBAs argued his ideas were nonsense. This is the intellectual lineage of Lean Startup: marketing-side rigor meeting Ries's engineering practice.",
+        "quote": "you need to aggressively listen to your customers",
+        "timestamp": "18:19"
+      },
+      {
+        "title": "Short-termism treated as a law of gravity",
+        "summary": "Ries's decade of consulting revealed that every organization complains about quarter-to-quarter thinking yet treats capital markets as unchangeable facts of nature. Recognizing them as human creations is the founding insight of LTSE.",
+        "quote": "It's like asking, what are we going to do about gravity?",
+        "timestamp": "31:51"
+      },
+      {
+        "title": "Binding pledges instead of S-1 platitudes",
+        "summary": "The core mechanism distinguishing LTSE: companies operationalize each principle in an enforceable registered commitment, with the exchange as certifying body. Flexibility in implementation avoids one-size-fits-all while keeping the pledge real.",
+        "quote": "every company has to do something real",
+        "timestamp": "34:56"
+      },
+      {
+        "title": "Machines, index funds, and vanishing market voices",
+        "summary": "David maps the structural trends motivating LTSE — algorithmic trading, passive index ownership, and abstraction on abstraction — which mute information flow and let short-term arrivals swing control of companies.",
+        "quote": "It's machines hitting buttons and they hit them a lot faster",
+        "timestamp": "38:13"
+      },
+      {
+        "title": "A middle path between feudalism and one-share-one-vote",
+        "summary": "Rather than perpetual founder control that a successor CEO can ignore, Ries proposes letting long-term investors earn superior rights over time — solving the succession flaw in dual-class structures.",
+        "quote": "They have to be able to earn their way into the better class",
+        "timestamp": "42:32"
+      },
+      {
+        "title": "The quant who shorts cattle futures",
+        "summary": "Ries's story of a trader baffled that his artificial short sent 3,000 middle managers scrambling shows short-term traders are amoral, not immoral — and would happily hand governance to someone else.",
+        "quote": "When I short cattle futures, the cows don't care",
+        "timestamp": "47:17"
+      },
+      {
+        "title": "The bit field keeping companies private",
+        "summary": "Ries dissects a VC's argument that private markets make IPOs pointless, predicting the switches would flip — and WeWork's failed IPO-as-rescue, plus opaque secondary sales, suggest the reckoning has begun.",
+        "quote": "why don't you call me back when the bleep hits the fan",
+        "timestamp": "53:30"
+      },
+      {
+        "title": "A stock exchange where companies are the customer",
+        "summary": "LTSE inverts the exchange business model: revenue comes from software and services sold to companies and long-term investors — including block placements after market close — rather than from trading volume.",
+        "quote": "the only stock exchange you will ever meet where you're the customer",
+        "timestamp": "1:01:25"
+      },
+      {
+        "title": "Grading the A-plus case: value created, maybe not captured",
+        "summary": "Ries concedes LTSE could fix a trillion-dollar problem in capitalism while capturing little of the value, and says he warns IRR-driven investors away — the mission is the return.",
+        "quote": "create that order of magnitude of value or die trying",
+        "timestamp": "1:06:44"
+      },
+      {
+        "title": "The failure modes: entrenched enemies and the go-first problem",
+        "summary": "Beyond regulators and sabotage by incumbents profiting from the status quo, the existential risk is that every company waits for another to list first — a risk concierge MVPs and letters of intent can only partially retire.",
+        "quote": "Maybe everybody would like to go second",
+        "timestamp": "1:10:42"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "The page a test reader begged him to cut",
+        "summary": "The LTSE began as the final idea in The Lean Startup manuscript, and a test reader warned it would destroy the book's credibility. Ries treats that hostility as validation, setting the episode's theme that his polarizing ideas precede consensus.",
+        "quote": "you basically piss away the credibility you've carefully built up",
+        "timestamp": "2:37"
+      },
+      {
+        "title": "There.com's waterfall launch to absent customers",
+        "summary": "The virtual-world startup raised $50 million, hired nearly 200 people, and staffed a warehouse of support reps before launch — the formative failure that later crystallized into Lean Startup vocabulary.",
+        "quote": "the customers never read the business plan",
+        "timestamp": "13:26"
+      },
+      {
+        "title": "Steve Blank's customer development class at Berkeley",
+        "summary": "Blank invested in IMVU on the condition that the founders audit his class, where MBAs argued his ideas were nonsense. This is the intellectual lineage of Lean Startup: marketing-side rigor meeting Ries's engineering practice.",
+        "quote": "you need to aggressively listen to your customers",
+        "timestamp": "18:19"
+      },
+      {
+        "title": "Short-termism treated as a law of gravity",
+        "summary": "Ries's decade of consulting revealed that every organization complains about quarter-to-quarter thinking yet treats capital markets as unchangeable facts of nature. Recognizing them as human creations is the founding insight of LTSE.",
+        "quote": "It's like asking, what are we going to do about gravity?",
+        "timestamp": "31:51"
+      },
+      {
+        "title": "Binding pledges instead of S-1 platitudes",
+        "summary": "The core mechanism distinguishing LTSE: companies operationalize each principle in an enforceable registered commitment, with the exchange as certifying body. Flexibility in implementation avoids one-size-fits-all while keeping the pledge real.",
+        "quote": "every company has to do something real",
+        "timestamp": "34:56"
+      },
+      {
+        "title": "Machines, index funds, and vanishing market voices",
+        "summary": "David maps the structural trends motivating LTSE — algorithmic trading, passive index ownership, and abstraction on abstraction — which mute information flow and let short-term arrivals swing control of companies.",
+        "quote": "It's machines hitting buttons and they hit them a lot faster",
+        "timestamp": "38:13"
+      },
+      {
+        "title": "A middle path between feudalism and one-share-one-vote",
+        "summary": "Rather than perpetual founder control that a successor CEO can ignore, Ries proposes letting long-term investors earn superior rights over time — solving the succession flaw in dual-class structures.",
+        "quote": "They have to be able to earn their way into the better class",
+        "timestamp": "42:32"
+      },
+      {
+        "title": "The quant who shorts cattle futures",
+        "summary": "Ries's story of a trader baffled that his artificial short sent 3,000 middle managers scrambling shows short-term traders are amoral, not immoral — and would happily hand governance to someone else.",
+        "quote": "When I short cattle futures, the cows don't care",
+        "timestamp": "47:17"
+      },
+      {
+        "title": "The bit field keeping companies private",
+        "summary": "Ries dissects a VC's argument that private markets make IPOs pointless, predicting the switches would flip — and WeWork's failed IPO-as-rescue, plus opaque secondary sales, suggest the reckoning has begun.",
+        "quote": "why don't you call me back when the bleep hits the fan",
+        "timestamp": "53:30"
+      },
+      {
+        "title": "A stock exchange where companies are the customer",
+        "summary": "LTSE inverts the exchange business model: revenue comes from software and services sold to companies and long-term investors — including block placements after market close — rather than from trading volume.",
+        "quote": "the only stock exchange you will ever meet where you're the customer",
+        "timestamp": "1:01:25"
+      },
+      {
+        "title": "Grading the A-plus case: value created, maybe not captured",
+        "summary": "Ries concedes LTSE could fix a trillion-dollar problem in capitalism while capturing little of the value, and says he warns IRR-driven investors away — the mission is the return.",
+        "quote": "create that order of magnitude of value or die trying",
+        "timestamp": "1:06:44"
+      },
+      {
+        "title": "The failure modes: entrenched enemies and the go-first problem",
+        "summary": "Beyond regulators and sabotage by incumbents profiting from the status quo, the existential risk is that every company waits for another to list first — a risk concierge MVPs and letters of intent can only partially retire.",
+        "quote": "Maybe everybody would like to go second",
+        "timestamp": "1:10:42"
+      }
+    ]
+  },
+  {
+    "slug": "convoy-with-ceo-dan-lewis",
+    "guid": "57d6d0e3-6060-4103-aac9-bd3a71dc18be",
+    "title": "Convoy (with CEO Dan Lewis)",
+    "pubDate": "Thu, 19 Dec 2019 06:34:12 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/732d28a5/1850d297.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/convoy-with-ceo-dan-lewis",
+    "duration": 6115,
+    "episodeUrl": "/poddy-summaries/episodes/convoy-with-ceo-dan-lewis/",
+    "summaryPath": "summaries/convoy-with-ceo-dan-lewis.json",
+    "transcriptPath": "transcripts/convoy-with-ceo-dan-lewis.txt",
+    "transcriptJsonPath": "transcripts/convoy-with-ceo-dan-lewis.json",
+    "overview": [
+      "Recorded live at the University of Washington, this episode argues that the next wave of great tech companies will apply consumer-marketplace playbooks from Amazon and Uber to enormous, antiquated B2B industries. Trucking is the proof case: over a million carriers, 90% with six or fewer trucks, and one in four trucks driving empty. Convoy CEO Dan Lewis explains how a digital freight network replaces the zero-sum broker middleman by aggregating that long tail onto one optimizing platform.",
+      "The central arc is how Convoy bootstrapped a two-sided B2B marketplace after its supply-first launch flopped — truckers refused to trust a day-old broker's app. Flipping to demand-first, adding one-day payment, and deliberately sacrificing unit economics bought network density, while a codified obsession with speed let Convoy define the 'digital freight network' category. The unresolved tension: whether liquidity and batching can widen margins faster than the company burns its $668 million in capital."
+    ],
+    "takeaways": [
+      {
+        "title": "Demand, not supply, bootstraps freight marketplaces",
+        "detail": "Truckers wouldn't download an app from an unknown broker on vision alone, so onboarding conversion was near zero. Because freight picks up 24–72 hours after booking, Convoy could win the shipment first and offer it to a driver, flipping conversion to roughly 95% and making rapid carrier onboarding the secret sauce."
+      },
+      {
+        "title": "One-day payment converted truckers into app users",
+        "detail": "Brokers typically pay carriers around 30 days out — and sometimes vanish without paying at all. Convoy paid within a day of delivery if drivers used the app and uploaded paperwork, and the financing cost was far less than the value of the location data, visibility, and operational efficiency that app usage generated."
+      },
+      {
+        "title": "Driver smartphones opened the disruption window",
+        "detail": "Earlier innovators like Coyote Logistics (2006) couldn't fully digitize freight because you can't mail hardware to a driver four states away when the load picks up in 48 hours. Broad smartphone adoption by truckers around 2014–2015 enabled instant onboarding and passive location tracking, which is why Convoy raced to move first."
+      },
+      {
+        "title": "Trucking has bulk surplus, not bulk discount",
+        "detail": "Each additional load on a lane must be covered by a progressively worse-matched, more expensive truck, so growing volume worsens unit economics before it improves them. Convoy knowingly overpaid to attract carriers, betting that density would eventually let it match jobs better than phone-based brokers ever could."
+      },
+      {
+        "title": "Being early lets you write category rules",
+        "detail": "Reaching roughly top-15 brokerage scale in 4.5 years made shippers, conference organizers, and analysts treat 'digital freight network' as the industry's future while incumbents dismissed Convoy as taking scraps. That perception advantage — plus inventions like instant committed pricing, quick pay, and facility performance data — became self-fulfilling."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Trucking's staggering fragmentation problem",
+        "summary": "The cold open frames why Convoy exists: a quarter of trucks run completely empty, and the carrier base is overwhelmingly mom-and-pop operations with no way to source freight directly.",
+        "quote": "90% of trucking companies have six or fewer trucks",
+        "timestamp": "0:50"
+      },
+      {
+        "title": "What a digital freight network replaces",
+        "summary": "Dan Lewis defines the business: aggregating the long tail of tiny carriers onto one technology platform so routes can be optimized, replacing human brokers who each see a minuscule slice of the market.",
+        "quote": "we're replacing the traditional brokerage model",
+        "timestamp": "8:07"
+      },
+      {
+        "title": "Losing everything in the 2008 crash",
+        "summary": "Dan returns from a round-the-world trip to find Washington Mutual dead, his savings gone, and no job market. Living through two downturns explains his refusal to take Convoy's capital for granted.",
+        "quote": "came back to Seattle basically with nothing, no job, no money",
+        "timestamp": "20:23"
+      },
+      {
+        "title": "Why Amazon manufactures CEOs",
+        "summary": "Dan attributes the 'CEO factory' to single-threaded ownership and a culture where data beats hierarchy — he wrote five six-pagers in his first months and got three business ideas funded.",
+        "quote": "it expects a lot of ownership from the people that are in the role",
+        "timestamp": "29:12"
+      },
+      {
+        "title": "The Prime insight that pointed to supply chain",
+        "summary": "Two-day delivery let customers be both lazy and procrastinate, silently shifting purchasing behavior to Amazon. Seeing that data convinced Dan the next great businesses would be built in logistics.",
+        "quote": "wow, the supply chain just dominated",
+        "timestamp": "35:07"
+      },
+      {
+        "title": "Recruiting the team before the company existed",
+        "summary": "Unable to check the 'can build it' box himself, Dan locked in co-founder Grant Goodale and engineers who committed independent of the idea, working from a Techstars table at UW before incorporating.",
+        "quote": "I need to get the best engineers around the table",
+        "timestamp": "38:02"
+      },
+      {
+        "title": "The failed supply-first launch and the flip",
+        "summary": "Truckers burned by phantom loads and shady brokers ignored Convoy's app, so the team inverted marketplace orthodoxy: win real shipments first, then offer them to drivers, sending conversion from zero to near 95%.",
+        "quote": "the best way to build the flywheel was not to go start with supply",
+        "timestamp": "52:09"
+      },
+      {
+        "title": "Fast pay as the adoption engine",
+        "summary": "Paying carriers within a day of delivery — versus the industry's 30-day norm — cost less in financing than the data, visibility, and efficiency Convoy gained from drivers actually using the app.",
+        "quote": "it created an incentive for them to use the technology",
+        "timestamp": "53:48"
+      },
+      {
+        "title": "Speed codified into the company's DNA",
+        "summary": "Convoy assumed it was behind from day one, doubling volume roughly every quarter for eight quarters and even marking deliberately hacky code so urgency stayed visible in the codebase.",
+        "quote": "they would comment it out with CTFU, which was catch the F up",
+        "timestamp": "1:03:16"
+      },
+      {
+        "title": "The Unilever Hail Mary and national expansion",
+        "summary": "A surprise pilot invitation from Unilever pulled hyper-local Convoy into Texas, and disciplined lane and equipment 'buckets' let it expand without fragmenting its young marketplace.",
+        "quote": "we need all your freight on the West Coast",
+        "timestamp": "1:10:57"
+      },
+      {
+        "title": "Bulk surplus and the density investment",
+        "summary": "Dan explains trucking's inverted economics: every extra load requires a worse-fit, pricier truck, so Convoy deliberately sacrificed unit economics to build carrier density on its lanes.",
+        "quote": "you don't get a bulk discount in trucking",
+        "timestamp": "1:16:48"
+      },
+      {
+        "title": "Batching, empty miles, and the endgame",
+        "summary": "Automatically stitching jobs into round trips cut empty running from roughly 35% to 19% and slashed emissions — the mechanism behind the A-plus scenario of widening margins before the capital runs out.",
+        "quote": "run empty about 19% of the time",
+        "timestamp": "1:35:56"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Trucking's staggering fragmentation problem",
+        "summary": "The cold open frames why Convoy exists: a quarter of trucks run completely empty, and the carrier base is overwhelmingly mom-and-pop operations with no way to source freight directly.",
+        "quote": "90% of trucking companies have six or fewer trucks",
+        "timestamp": "0:50"
+      },
+      {
+        "title": "What a digital freight network replaces",
+        "summary": "Dan Lewis defines the business: aggregating the long tail of tiny carriers onto one technology platform so routes can be optimized, replacing human brokers who each see a minuscule slice of the market.",
+        "quote": "we're replacing the traditional brokerage model",
+        "timestamp": "8:07"
+      },
+      {
+        "title": "Losing everything in the 2008 crash",
+        "summary": "Dan returns from a round-the-world trip to find Washington Mutual dead, his savings gone, and no job market. Living through two downturns explains his refusal to take Convoy's capital for granted.",
+        "quote": "came back to Seattle basically with nothing, no job, no money",
+        "timestamp": "20:23"
+      },
+      {
+        "title": "Why Amazon manufactures CEOs",
+        "summary": "Dan attributes the 'CEO factory' to single-threaded ownership and a culture where data beats hierarchy — he wrote five six-pagers in his first months and got three business ideas funded.",
+        "quote": "it expects a lot of ownership from the people that are in the role",
+        "timestamp": "29:12"
+      },
+      {
+        "title": "The Prime insight that pointed to supply chain",
+        "summary": "Two-day delivery let customers be both lazy and procrastinate, silently shifting purchasing behavior to Amazon. Seeing that data convinced Dan the next great businesses would be built in logistics.",
+        "quote": "wow, the supply chain just dominated",
+        "timestamp": "35:07"
+      },
+      {
+        "title": "Recruiting the team before the company existed",
+        "summary": "Unable to check the 'can build it' box himself, Dan locked in co-founder Grant Goodale and engineers who committed independent of the idea, working from a Techstars table at UW before incorporating.",
+        "quote": "I need to get the best engineers around the table",
+        "timestamp": "38:02"
+      },
+      {
+        "title": "The failed supply-first launch and the flip",
+        "summary": "Truckers burned by phantom loads and shady brokers ignored Convoy's app, so the team inverted marketplace orthodoxy: win real shipments first, then offer them to drivers, sending conversion from zero to near 95%.",
+        "quote": "the best way to build the flywheel was not to go start with supply",
+        "timestamp": "52:09"
+      },
+      {
+        "title": "Fast pay as the adoption engine",
+        "summary": "Paying carriers within a day of delivery — versus the industry's 30-day norm — cost less in financing than the data, visibility, and efficiency Convoy gained from drivers actually using the app.",
+        "quote": "it created an incentive for them to use the technology",
+        "timestamp": "53:48"
+      },
+      {
+        "title": "Speed codified into the company's DNA",
+        "summary": "Convoy assumed it was behind from day one, doubling volume roughly every quarter for eight quarters and even marking deliberately hacky code so urgency stayed visible in the codebase.",
+        "quote": "they would comment it out with CTFU, which was catch the F up",
+        "timestamp": "1:03:16"
+      },
+      {
+        "title": "The Unilever Hail Mary and national expansion",
+        "summary": "A surprise pilot invitation from Unilever pulled hyper-local Convoy into Texas, and disciplined lane and equipment 'buckets' let it expand without fragmenting its young marketplace.",
+        "quote": "we need all your freight on the West Coast",
+        "timestamp": "1:10:57"
+      },
+      {
+        "title": "Bulk surplus and the density investment",
+        "summary": "Dan explains trucking's inverted economics: every extra load requires a worse-fit, pricier truck, so Convoy deliberately sacrificed unit economics to build carrier density on its lanes.",
+        "quote": "you don't get a bulk discount in trucking",
+        "timestamp": "1:16:48"
+      },
+      {
+        "title": "Batching, empty miles, and the endgame",
+        "summary": "Automatically stitching jobs into round trips cut empty running from roughly 35% to 19% and slashed emissions — the mechanism behind the A-plus scenario of widening margins before the capital runs out.",
+        "quote": "run empty about 19% of the time",
+        "timestamp": "1:35:56"
+      }
+    ]
+  },
+  {
+    "slug": "tiktok",
+    "guid": "5801e589-b6cf-4fe9-9cd6-f16da7cac595",
+    "title": "TikTok",
+    "pubDate": "Sun, 08 Dec 2019 21:54:05 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/58cf7ab6/65b2ccf1.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/tiktok",
+    "duration": 6190,
+    "episodeUrl": "/poddy-summaries/episodes/tiktok/",
+    "summaryPath": "summaries/tiktok.json",
+    "transcriptPath": "transcripts/tiktok.txt",
+    "transcriptJsonPath": "transcripts/tiktok.json",
+    "overview": [
+      "TikTok was not an overnight algorithmic miracle but the fusion of two companies: Musical.ly, which iterated from a failed short-form education app into America's lip-syncing phenomenon, and ByteDance, whose Toutiao recommendation engine was the best in the world. Ben and David argue the 2017 acquisition — $800 million to $1 billion for roughly 100 million users — created the first credible post-Facebook social giant by replacing the follow graph with pure content matching.",
+      "The central tension is cross-border. Musical.ly conquered the West but spent 2017 failing to enter China, where ByteDance fast-followed with Douyin and effectively forced the sale; the combined app then rocketed to 800 million users. But the acquirer's Chinese ownership becomes the story's coda — a retroactive CFIUS review, censorship questions around Hong Kong, and Zuckerberg fanning the flames — leaving the hosts' unanimous 'A' grade explicitly contingent on geopolitics."
+    ],
+    "takeaways": [
+      {
+        "title": "Algorithmic feeds break the follow-graph assumption",
+        "detail": "Musical.ly, borrowing from China's Kuaishou, surfaced content by predicted engagement rather than social connections — new users saw great videos from strangers immediately. Ben notes that following his friends for a week didn't improve his TikTok feed at all, and the hosts argue this makes Metcalfe's law genuinely apply: every new user adds value for every other user."
+      },
+      {
+        "title": "Lip Sync Battle revealed Musical.ly's wedge",
+        "detail": "App-store keyword stuffing meant viewers of the Thursday-night TV show searched 'lip sync' and found Musical.ly, producing weekly download spikes the team spotted in their data. They went all-in — redesigning onboarding, surfacing the best lip-sync videos, and pushing daily challenge notifications — and hit number one in the US iOS App Store two months later, never leaving the top 40 since."
+      },
+      {
+        "title": "Platform economies centralize first, then decentralize",
+        "detail": "Alex Zhu's nation-building analogy: a new platform must first put its hand on the scale to make early star creators visibly rich, then decentralize so newcomers believe a cold start can still lead to discovery — the 'American dream' Facebook and Instagram failed to preserve. The algorithmic feed is the mechanism, finding each creator's niche audience automatically."
+      },
+      {
+        "title": "ByteDance paid roughly $10 per monthly user",
+        "detail": "The $800 million to $1 billion price for Musical.ly's 100 million MAUs compares to the $25–30 Facebook earns per US user annually, making it 'kind of a steal.' ByteDance then spent an estimated $1.5 billion — more than the acquisition itself — on advertising to migrate users to the merged TikTok app, which required downloading an entirely new app."
+      },
+      {
+        "title": "TikTok is media, not a social network",
+        "detail": "Because users don't know the people in their feed, the hosts argue the right comp is YouTube, not Facebook — all-of-internet distribution with 15-second instant gratification. The bear case follows directly: without a bedrock of real relationships, staying power depends on a never-ending firehose of fresh content, since an old-video library goes stale far faster than digitized friendships."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "The world's most valuable startup you haven't heard of",
+        "summary": "Ben and David frame the episode: privately held ByteDance, valued near $80 billion, changed how a generation uses phones — and launched Lil Nas X to a record 17 weeks at number one.",
+        "quote": "the most valuable tech startup in the world, ByteDance",
+        "timestamp": "0:00"
+      },
+      {
+        "title": "An SAP futurist discovers why MOOCs fail",
+        "summary": "Alex Zhu, a mid-30s enterprise-software designer — the anti-Evan-Spiegel — researches online education and finds the fatal flaw that leads him to short-form video and the doomed Cicada Education startup.",
+        "quote": "nobody even finishes like a single video of a single lecture",
+        "timestamp": "8:44"
+      },
+      {
+        "title": "The Caltrain epiphany that became Musical.ly",
+        "summary": "After burning most of his $250K seed round, Alex watches teens collaboratively shooting selfie videos with music and overlays on the train — the exact use case for the pivot to Musical.ly.",
+        "quote": "he sees a group of teenagers on the train",
+        "timestamp": "16:54"
+      },
+      {
+        "title": "Thursday-night download spikes crack the code",
+        "summary": "Digging into their data, the team traces mysterious weekly download surges to the Lip Sync Battle TV show finding their keyword-stuffed app — the signal to go all-in on lip syncing.",
+        "quote": "every Thursday night, there's a big spike in downloads",
+        "timestamp": "27:03"
+      },
+      {
+        "title": "Content-fit beats person-fit: the algorithmic feed",
+        "summary": "Borrowed from Kuaishou, Musical.ly's feed ignores who you follow and serves what the algorithm predicts you'll like — the core design choice that separates it from every Western social network.",
+        "quote": "it prioritizes content that you have no connection to",
+        "timestamp": "30:39"
+      },
+      {
+        "title": "Building a social platform like founding a nation",
+        "summary": "Alex Zhu's Greylock talk analogizes platform-building to statecraft: promise fame as a proxy economy, make early creators rich, then decentralize so newcomers still believe in upward mobility.",
+        "quote": "the first thing they're looking for is fame",
+        "timestamp": "38:32"
+      },
+      {
+        "title": "Zuckerberg nearly buys Musical.ly",
+        "summary": "In August 2016, amid Facebook's China ambitions, serious acquisition talks begin — a Facebook team even visits Shanghai — before the deal mysteriously falls apart, reshaping social media history.",
+        "quote": "Zuck invites Alex to come meet with him in Menlo park",
+        "timestamp": "45:51"
+      },
+      {
+        "title": "Douyin: ByteDance fast-follows in Musical.ly's homeland",
+        "summary": "While Musical.ly struggles to enter China, ByteDance leverages Toutiao's algorithm and distribution to launch Douyin, reaching 100 million users in nine months and boxing Musical.ly out of its home market.",
+        "quote": "Now I can hear vibrating sounds everywhere, making me uncomfortable",
+        "timestamp": "51:56"
+      },
+      {
+        "title": "The billion-dollar deal that created TikTok",
+        "summary": "With Tencent and Kuaishou also circling, ByteDance wins on November 10, 2017 — then merges the platforms via a surprising forced re-download, backed by an ad blitz costing more than the acquisition itself.",
+        "quote": "ByteDance, not Kwaisho or Tencent, is acquiring Musical.ly",
+        "timestamp": "1:01:20"
+      },
+      {
+        "title": "National security, Hong Kong, and the CFIUS review",
+        "summary": "Military users' data, suspiciously quiet Hong Kong protest coverage, and Chinese data-disclosure law turn TikTok into a geopolitical flashpoint — with Zuckerberg conveniently fanning the flames as Facebook launches Reels.",
+        "quote": "Huawei sized problem",
+        "timestamp": "1:07:55"
+      },
+      {
+        "title": "Playbook: new canvases bootstrap new networks",
+        "summary": "The hosts distill the narrative violation — a new consumer social network emerging post-Facebook — into a theory: give people a creative format with low effort and high variance, and a network follows.",
+        "quote": "create a new canvas for people to easily be creative within",
+        "timestamp": "1:21:46"
+      },
+      {
+        "title": "Grading it an A, pending geopolitics",
+        "summary": "Both hosts grade the acquisition an A — ByteDance couldn't have cracked the West without it — but withhold the A+ and caveat everything on the CFIUS review not unwinding the deal.",
+        "quote": "they would have been completely fine without Musical.ly",
+        "timestamp": "1:33:20"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "The world's most valuable startup you haven't heard of",
+        "summary": "Ben and David frame the episode: privately held ByteDance, valued near $80 billion, changed how a generation uses phones — and launched Lil Nas X to a record 17 weeks at number one.",
+        "quote": "the most valuable tech startup in the world, ByteDance",
+        "timestamp": "0:00"
+      },
+      {
+        "title": "An SAP futurist discovers why MOOCs fail",
+        "summary": "Alex Zhu, a mid-30s enterprise-software designer — the anti-Evan-Spiegel — researches online education and finds the fatal flaw that leads him to short-form video and the doomed Cicada Education startup.",
+        "quote": "nobody even finishes like a single video of a single lecture",
+        "timestamp": "8:44"
+      },
+      {
+        "title": "The Caltrain epiphany that became Musical.ly",
+        "summary": "After burning most of his $250K seed round, Alex watches teens collaboratively shooting selfie videos with music and overlays on the train — the exact use case for the pivot to Musical.ly.",
+        "quote": "he sees a group of teenagers on the train",
+        "timestamp": "16:54"
+      },
+      {
+        "title": "Thursday-night download spikes crack the code",
+        "summary": "Digging into their data, the team traces mysterious weekly download surges to the Lip Sync Battle TV show finding their keyword-stuffed app — the signal to go all-in on lip syncing.",
+        "quote": "every Thursday night, there's a big spike in downloads",
+        "timestamp": "27:03"
+      },
+      {
+        "title": "Content-fit beats person-fit: the algorithmic feed",
+        "summary": "Borrowed from Kuaishou, Musical.ly's feed ignores who you follow and serves what the algorithm predicts you'll like — the core design choice that separates it from every Western social network.",
+        "quote": "it prioritizes content that you have no connection to",
+        "timestamp": "30:39"
+      },
+      {
+        "title": "Building a social platform like founding a nation",
+        "summary": "Alex Zhu's Greylock talk analogizes platform-building to statecraft: promise fame as a proxy economy, make early creators rich, then decentralize so newcomers still believe in upward mobility.",
+        "quote": "the first thing they're looking for is fame",
+        "timestamp": "38:32"
+      },
+      {
+        "title": "Zuckerberg nearly buys Musical.ly",
+        "summary": "In August 2016, amid Facebook's China ambitions, serious acquisition talks begin — a Facebook team even visits Shanghai — before the deal mysteriously falls apart, reshaping social media history.",
+        "quote": "Zuck invites Alex to come meet with him in Menlo park",
+        "timestamp": "45:51"
+      },
+      {
+        "title": "Douyin: ByteDance fast-follows in Musical.ly's homeland",
+        "summary": "While Musical.ly struggles to enter China, ByteDance leverages Toutiao's algorithm and distribution to launch Douyin, reaching 100 million users in nine months and boxing Musical.ly out of its home market.",
+        "quote": "Now I can hear vibrating sounds everywhere, making me uncomfortable",
+        "timestamp": "51:56"
+      },
+      {
+        "title": "The billion-dollar deal that created TikTok",
+        "summary": "With Tencent and Kuaishou also circling, ByteDance wins on November 10, 2017 — then merges the platforms via a surprising forced re-download, backed by an ad blitz costing more than the acquisition itself.",
+        "quote": "ByteDance, not Kwaisho or Tencent, is acquiring Musical.ly",
+        "timestamp": "1:01:20"
+      },
+      {
+        "title": "National security, Hong Kong, and the CFIUS review",
+        "summary": "Military users' data, suspiciously quiet Hong Kong protest coverage, and Chinese data-disclosure law turn TikTok into a geopolitical flashpoint — with Zuckerberg conveniently fanning the flames as Facebook launches Reels.",
+        "quote": "Huawei sized problem",
+        "timestamp": "1:07:55"
+      },
+      {
+        "title": "Playbook: new canvases bootstrap new networks",
+        "summary": "The hosts distill the narrative violation — a new consumer social network emerging post-Facebook — into a theory: give people a creative format with low effort and high variance, and a network follows.",
+        "quote": "create a new canvas for people to easily be creative within",
+        "timestamp": "1:21:46"
+      },
+      {
+        "title": "Grading it an A, pending geopolitics",
+        "summary": "Both hosts grade the acquisition an A — ByteDance couldn't have cracked the West without it — but withhold the A+ and caveat everything on the CFIUS review not unwinding the deal.",
+        "quote": "they would have been completely fine without Musical.ly",
+        "timestamp": "1:33:20"
+      }
+    ]
+  },
+  {
+    "slug": "disney-plus",
+    "guid": "825958f0-e4c5-43b8-b281-8d71eef1721b",
+    "title": "Disney, Plus",
+    "pubDate": "Mon, 25 Nov 2019 06:37:23 -0800",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/045f2ed5/affdd9aa.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/disney-plus",
+    "duration": 8344,
+    "episodeUrl": "/poddy-summaries/episodes/disney-plus/",
+    "summaryPath": "summaries/disney-plus.json",
+    "transcriptPath": "transcripts/disney-plus.txt",
+    "transcriptJsonPath": "transcripts/disney-plus.json",
+    "overview": [
+      "Disney+ is the culmination of Bob Iger's fifteen-year plan—high-quality branded content, embracing technology, and global reach—executed through the Pixar, Marvel, Lucasfilm, BAMTech, and Fox acquisitions. Ben and David argue this is one of history's boldest attempts to beat the innovator's dilemma: Disney is forgoing hundreds of millions in pure-margin Netflix licensing revenue to own distribution and a direct digital relationship with fans, protecting the flywheel where parks and products earn twice what the studios do.",
+      "The episode's arc is Iger's improbable rise—from $150-a-week ABC gopher through the Eisner-era collapse, Ovitz debacle, and shareholder revolt—to a CEO trusted enough to bet the company. The unresolved tension: the bull case of rebundling entertainment and sports globally at cable-replacing prices versus the bear case of $740 million quarterly losses, an $11 billion projected hole, and whether the $71.3 billion Fox deal is strategic necessity or Eisner-style overreach."
+    ],
+    "takeaways": [
+      {
+        "title": "The flywheel earns double the studio revenue",
+        "detail": "Studio Entertainment did about $11 billion in revenue while parks, experiences, products, and licensing did over $26 billion. That down-funnel monetization of film IP is Disney's moat—and exactly what leaks away if Netflix owns the customer relationship."
+      },
+      {
+        "title": "Disney+ trades guaranteed profit for customer ownership",
+        "detail": "Netflix licensing paid Disney hundreds of millions a year in essentially pure-margin cash for already-produced content. Iger cut it off, spent $2.6 billion on BAMTech, and accepted $740 million quarterly losses to convert loosely connected fans into identified digital customers with emails and data."
+      },
+      {
+        "title": "Buy unique assets, pay prices others won't",
+        "detail": "The $7.4 billion Pixar deal set the blueprint: a few very large pros can outweigh a hundred cons. Marvel at $4 billion was mocked as overpaying for a comic book company whose best characters were already licensed away, and became arguably the purchase of the century."
+      },
+      {
+        "title": "ESPN's $9 carriage fee may never repeat",
+        "detail": "Every cable household paid roughly $9 per month directly to ESPN, versus $6.99 for all of Disney+. The 2015 earnings call revealing subscriber losses cracked that model, yet ESPN+ sits at only 2 million subscribers because Disney deliberately withholds major sports to protect the roughly 25% of revenue still coming from affiliate fees."
+      },
+      {
+        "title": "Fox is the bet that could sink it",
+        "detail": "At $71.3 billion—bid up from $52.4 billion to deliver a knockout punch against Comcast—Fox cost many times all the other acquisitions combined. It supplies the content depth and international reach (Hotstar, India) Disney+ needs, but the studio slate is weaker than expected and the price echoes Eisner's late-career overreach."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "This time it's different: the thesis",
+        "summary": "Frames the entire episode: Disney+ is an attempt at the content-plus-distribution combination that wrecked AOL Time Warner, and a live test of whether Iger can beat the innovator's dilemma.",
+        "quote": "combining content and distribution under one roof",
+        "timestamp": "0:45"
+      },
+      {
+        "title": "Iger's start: $150-a-week ABC gopher",
+        "summary": "Iger's origin story—fetching mouthwash for Frank Sinatra, no elite pedigree—establishes the prodigious work ethic and low ego that later win him the CEO fight.",
+        "quote": "I never viewed myself as exceptional",
+        "timestamp": "12:32"
+      },
+      {
+        "title": "Roone Arledge: storytelling and innovate-or-die",
+        "summary": "The two lessons that define Iger's career—sports as storytelling and relentless technology adoption—come from ABC Sports, mirroring Walt Disney's own technology-driven founding.",
+        "quote": "a mantra around this, which he called innovate or die",
+        "timestamp": "18:09"
+      },
+      {
+        "title": "Eisner's unraveling: the Ovitz disaster",
+        "summary": "Eisner's brilliant first decade curdles: Michael Ovitz lasts 14 months and leaves with a $140 million golden parachute, and Disney becomes a corporate laughingstock.",
+        "quote": "This is the WeWork of the mid 90s",
+        "timestamp": "32:43"
+      },
+      {
+        "title": "Save Disney and the no-confidence vote",
+        "summary": "The Jobs feud, Roy Disney's proxy campaign, and Comcast's $64 billion hostile bid converge; the shareholder revolt strips Eisner's chairmanship and opens the succession race.",
+        "quote": "43% of Disney shareholders vote no confidence in Eisner",
+        "timestamp": "49:55"
+      },
+      {
+        "title": "The three-pillar pitch that won the job",
+        "summary": "Quality branded content, embrace technology, grow globally—Iger's 2005 board pitch is, fifteen years early, the exact strategic blueprint that ends in Disney+.",
+        "quote": "we needed to bet on the fact that quality will matter more",
+        "timestamp": "53:44"
+      },
+      {
+        "title": "'Crazy idea': buying Pixar to save animation",
+        "summary": "With Disney animation $400 million in the red and Pixar overtaking Disney's brand with parents, Iger phones Steve Jobs with the acquisition that becomes the template for everything after.",
+        "quote": "that's not the craziest idea in the world",
+        "timestamp": "1:10:33"
+      },
+      {
+        "title": "BAMTech and the 2017 all-in announcement",
+        "summary": "After the Twitter deal collapses, Disney buys pure distribution technology with no channel conflict and publicly commits to ending its Netflix licensing—giving up pure-margin cash flow.",
+        "quote": "We're taking our content off of Netflix",
+        "timestamp": "1:23:52"
+      },
+      {
+        "title": "Fox: the $71.3 billion knockout punch",
+        "summary": "The Comcast bidding war pushes the price from $52.4 billion; the hosts debate whether Fox is essential content depth for Disney+ or Eisner-style empire building.",
+        "quote": "betting the farm on bringing in Fox",
+        "timestamp": "1:27:34"
+      },
+      {
+        "title": "Launch week: $6.99 and ten million sign-ups",
+        "summary": "Priced at nearly half of Netflix to chase 60–90 million subscribers in five years, though the headline number is flattered by Verizon's free-year giveaway.",
+        "quote": "they get 10 million subscribers in the first week",
+        "timestamp": "1:38:26"
+      },
+      {
+        "title": "The bear case: billions in streaming losses",
+        "summary": "Direct-to-consumer lost $740 million in a single quarter as Disney's only unprofitable segment, and profitability isn't projected until 2024—after Iger's planned 2021 departure.",
+        "quote": "lose a combined 11 billion over the next four years",
+        "timestamp": "1:50:30"
+      },
+      {
+        "title": "Grading it: rebundling as the A-plus",
+        "summary": "The A+ scenario is Disney+, ESPN+, and Hulu replacing the $100-a-month cable-plus-movies stack globally with Disney keeping all the margin; the F is Fox becoming an albatross.",
+        "quote": "replaces the full gamut of the cable bundle",
+        "timestamp": "2:06:03"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "This time it's different: the thesis",
+        "summary": "Frames the entire episode: Disney+ is an attempt at the content-plus-distribution combination that wrecked AOL Time Warner, and a live test of whether Iger can beat the innovator's dilemma.",
+        "quote": "combining content and distribution under one roof",
+        "timestamp": "0:45"
+      },
+      {
+        "title": "Iger's start: $150-a-week ABC gopher",
+        "summary": "Iger's origin story—fetching mouthwash for Frank Sinatra, no elite pedigree—establishes the prodigious work ethic and low ego that later win him the CEO fight.",
+        "quote": "I never viewed myself as exceptional",
+        "timestamp": "12:32"
+      },
+      {
+        "title": "Roone Arledge: storytelling and innovate-or-die",
+        "summary": "The two lessons that define Iger's career—sports as storytelling and relentless technology adoption—come from ABC Sports, mirroring Walt Disney's own technology-driven founding.",
+        "quote": "a mantra around this, which he called innovate or die",
+        "timestamp": "18:09"
+      },
+      {
+        "title": "Eisner's unraveling: the Ovitz disaster",
+        "summary": "Eisner's brilliant first decade curdles: Michael Ovitz lasts 14 months and leaves with a $140 million golden parachute, and Disney becomes a corporate laughingstock.",
+        "quote": "This is the WeWork of the mid 90s",
+        "timestamp": "32:43"
+      },
+      {
+        "title": "Save Disney and the no-confidence vote",
+        "summary": "The Jobs feud, Roy Disney's proxy campaign, and Comcast's $64 billion hostile bid converge; the shareholder revolt strips Eisner's chairmanship and opens the succession race.",
+        "quote": "43% of Disney shareholders vote no confidence in Eisner",
+        "timestamp": "49:55"
+      },
+      {
+        "title": "The three-pillar pitch that won the job",
+        "summary": "Quality branded content, embrace technology, grow globally—Iger's 2005 board pitch is, fifteen years early, the exact strategic blueprint that ends in Disney+.",
+        "quote": "we needed to bet on the fact that quality will matter more",
+        "timestamp": "53:44"
+      },
+      {
+        "title": "'Crazy idea': buying Pixar to save animation",
+        "summary": "With Disney animation $400 million in the red and Pixar overtaking Disney's brand with parents, Iger phones Steve Jobs with the acquisition that becomes the template for everything after.",
+        "quote": "that's not the craziest idea in the world",
+        "timestamp": "1:10:33"
+      },
+      {
+        "title": "BAMTech and the 2017 all-in announcement",
+        "summary": "After the Twitter deal collapses, Disney buys pure distribution technology with no channel conflict and publicly commits to ending its Netflix licensing—giving up pure-margin cash flow.",
+        "quote": "We're taking our content off of Netflix",
+        "timestamp": "1:23:52"
+      },
+      {
+        "title": "Fox: the $71.3 billion knockout punch",
+        "summary": "The Comcast bidding war pushes the price from $52.4 billion; the hosts debate whether Fox is essential content depth for Disney+ or Eisner-style empire building.",
+        "quote": "betting the farm on bringing in Fox",
+        "timestamp": "1:27:34"
+      },
+      {
+        "title": "Launch week: $6.99 and ten million sign-ups",
+        "summary": "Priced at nearly half of Netflix to chase 60–90 million subscribers in five years, though the headline number is flattered by Verizon's free-year giveaway.",
+        "quote": "they get 10 million subscribers in the first week",
+        "timestamp": "1:38:26"
+      },
+      {
+        "title": "The bear case: billions in streaming losses",
+        "summary": "Direct-to-consumer lost $740 million in a single quarter as Disney's only unprofitable segment, and profitability isn't projected until 2024—after Iger's planned 2021 departure.",
+        "quote": "lose a combined 11 billion over the next four years",
+        "timestamp": "1:50:30"
+      },
+      {
+        "title": "Grading it: rebundling as the A-plus",
+        "summary": "The A+ scenario is Disney+, ESPN+, and Hulu replacing the $100-a-month cable-plus-movies stack globally with Disney keeping all the margin; the F is Fox becoming an albatross.",
+        "quote": "replaces the full gamut of the cable bundle",
+        "timestamp": "2:06:03"
+      }
+    ]
   }
 ]

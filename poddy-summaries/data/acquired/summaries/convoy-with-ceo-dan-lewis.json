@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Recorded live at the University of Washington, this episode argues that the next wave of great tech companies will apply consumer-marketplace playbooks from Amazon and Uber to enormous, antiquated B2B industries. Trucking is the proof case: over a million carriers, 90% with six or fewer trucks, and one in four trucks driving empty. Convoy CEO Dan Lewis explains how a digital freight network replaces the zero-sum broker middleman by aggregating that long tail onto one optimizing platform.",
+    "The central arc is how Convoy bootstrapped a two-sided B2B marketplace after its supply-first launch flopped — truckers refused to trust a day-old broker's app. Flipping to demand-first, adding one-day payment, and deliberately sacrificing unit economics bought network density, while a codified obsession with speed let Convoy define the 'digital freight network' category. The unresolved tension: whether liquidity and batching can widen margins faster than the company burns its $668 million in capital."
+  ],
+  "takeaways": [
+    {
+      "title": "Demand, not supply, bootstraps freight marketplaces",
+      "detail": "Truckers wouldn't download an app from an unknown broker on vision alone, so onboarding conversion was near zero. Because freight picks up 24–72 hours after booking, Convoy could win the shipment first and offer it to a driver, flipping conversion to roughly 95% and making rapid carrier onboarding the secret sauce."
+    },
+    {
+      "title": "One-day payment converted truckers into app users",
+      "detail": "Brokers typically pay carriers around 30 days out — and sometimes vanish without paying at all. Convoy paid within a day of delivery if drivers used the app and uploaded paperwork, and the financing cost was far less than the value of the location data, visibility, and operational efficiency that app usage generated."
+    },
+    {
+      "title": "Driver smartphones opened the disruption window",
+      "detail": "Earlier innovators like Coyote Logistics (2006) couldn't fully digitize freight because you can't mail hardware to a driver four states away when the load picks up in 48 hours. Broad smartphone adoption by truckers around 2014–2015 enabled instant onboarding and passive location tracking, which is why Convoy raced to move first."
+    },
+    {
+      "title": "Trucking has bulk surplus, not bulk discount",
+      "detail": "Each additional load on a lane must be covered by a progressively worse-matched, more expensive truck, so growing volume worsens unit economics before it improves them. Convoy knowingly overpaid to attract carriers, betting that density would eventually let it match jobs better than phone-based brokers ever could."
+    },
+    {
+      "title": "Being early lets you write category rules",
+      "detail": "Reaching roughly top-15 brokerage scale in 4.5 years made shippers, conference organizers, and analysts treat 'digital freight network' as the industry's future while incumbents dismissed Convoy as taking scraps. That perception advantage — plus inventions like instant committed pricing, quick pay, and facility performance data — became self-fulfilling."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Trucking's staggering fragmentation problem",
+      "summary": "The cold open frames why Convoy exists: a quarter of trucks run completely empty, and the carrier base is overwhelmingly mom-and-pop operations with no way to source freight directly.",
+      "quote": "90% of trucking companies have six or fewer trucks",
+      "timestamp": "0:50"
+    },
+    {
+      "title": "What a digital freight network replaces",
+      "summary": "Dan Lewis defines the business: aggregating the long tail of tiny carriers onto one technology platform so routes can be optimized, replacing human brokers who each see a minuscule slice of the market.",
+      "quote": "we're replacing the traditional brokerage model",
+      "timestamp": "8:07"
+    },
+    {
+      "title": "Losing everything in the 2008 crash",
+      "summary": "Dan returns from a round-the-world trip to find Washington Mutual dead, his savings gone, and no job market. Living through two downturns explains his refusal to take Convoy's capital for granted.",
+      "quote": "came back to Seattle basically with nothing, no job, no money",
+      "timestamp": "20:23"
+    },
+    {
+      "title": "Why Amazon manufactures CEOs",
+      "summary": "Dan attributes the 'CEO factory' to single-threaded ownership and a culture where data beats hierarchy — he wrote five six-pagers in his first months and got three business ideas funded.",
+      "quote": "it expects a lot of ownership from the people that are in the role",
+      "timestamp": "29:12"
+    },
+    {
+      "title": "The Prime insight that pointed to supply chain",
+      "summary": "Two-day delivery let customers be both lazy and procrastinate, silently shifting purchasing behavior to Amazon. Seeing that data convinced Dan the next great businesses would be built in logistics.",
+      "quote": "wow, the supply chain just dominated",
+      "timestamp": "35:07"
+    },
+    {
+      "title": "Recruiting the team before the company existed",
+      "summary": "Unable to check the 'can build it' box himself, Dan locked in co-founder Grant Goodale and engineers who committed independent of the idea, working from a Techstars table at UW before incorporating.",
+      "quote": "I need to get the best engineers around the table",
+      "timestamp": "38:02"
+    },
+    {
+      "title": "The failed supply-first launch and the flip",
+      "summary": "Truckers burned by phantom loads and shady brokers ignored Convoy's app, so the team inverted marketplace orthodoxy: win real shipments first, then offer them to drivers, sending conversion from zero to near 95%.",
+      "quote": "the best way to build the flywheel was not to go start with supply",
+      "timestamp": "52:09"
+    },
+    {
+      "title": "Fast pay as the adoption engine",
+      "summary": "Paying carriers within a day of delivery — versus the industry's 30-day norm — cost less in financing than the data, visibility, and efficiency Convoy gained from drivers actually using the app.",
+      "quote": "it created an incentive for them to use the technology",
+      "timestamp": "53:48"
+    },
+    {
+      "title": "Speed codified into the company's DNA",
+      "summary": "Convoy assumed it was behind from day one, doubling volume roughly every quarter for eight quarters and even marking deliberately hacky code so urgency stayed visible in the codebase.",
+      "quote": "they would comment it out with CTFU, which was catch the F up",
+      "timestamp": "1:03:16"
+    },
+    {
+      "title": "The Unilever Hail Mary and national expansion",
+      "summary": "A surprise pilot invitation from Unilever pulled hyper-local Convoy into Texas, and disciplined lane and equipment 'buckets' let it expand without fragmenting its young marketplace.",
+      "quote": "we need all your freight on the West Coast",
+      "timestamp": "1:10:57"
+    },
+    {
+      "title": "Bulk surplus and the density investment",
+      "summary": "Dan explains trucking's inverted economics: every extra load requires a worse-fit, pricier truck, so Convoy deliberately sacrificed unit economics to build carrier density on its lanes.",
+      "quote": "you don't get a bulk discount in trucking",
+      "timestamp": "1:16:48"
+    },
+    {
+      "title": "Batching, empty miles, and the endgame",
+      "summary": "Automatically stitching jobs into round trips cut empty running from roughly 35% to 19% and slashed emissions — the mechanism behind the A-plus scenario of widening margins before the capital runs out.",
+      "quote": "run empty about 19% of the time",
+      "timestamp": "1:35:56"
+    }
+  ],
+  "title": "Convoy with CEO Dan Lewis (Live at UW)"
+}
