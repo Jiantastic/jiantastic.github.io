@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Visa is the eleventh most valuable company on earth, worth more than any bank, yet it extends no credit, issues no cards, and bears no risk — it is a network connecting 16,000 banks. The episode argues its real invention was organizational: Dee Hock's 'democratic communist capitalism' got thousands of competing banks to cooperate, turning Bank of America's 1958 Fresno experiment into a zero-marginal-cost toll booth on global commerce.",
+    "The central arc is Bank of America's overreach and Dee Hock's coup: a botched franchising scheme bred chaos until an obscure Seattle banker persuaded B of A to surrender its crown jewel to a member-owned cooperative no one could sell or leave. The unresolved tension is value creation versus capture — merchants now pay $93 billion a year into a five-sided network so entrenched that consumers, banks, and even regulators end up defending it."
+  ],
+  "takeaways": [
+    {
+      "title": "Secrecy suppressed competition for six profitable years",
+      "detail": "After absorbing $20 million in fraud and 22% delinquency from the Fresno drop, Bank of America's card turned profitable in 1961 but the bank kept it quiet. Only 10 new credit cards launched nationwide from 1960 to 1966, versus roughly 440 in the two years after the licensing program revealed the economics."
+    },
+    {
+      "title": "Non-transferable ownership made the network unbreakable",
+      "detail": "Hock's for-profit non-stock membership corporation tied ownership to transaction volume, forbade selling stakes, and required 80% votes to change rules, so no bank could cash out or defect. All 200-plus franchisees signed, and a DOJ letter blessed the collaboration in advance."
+    },
+    {
+      "title": "Interchange bribes consumers with merchants' own money",
+      "detail": "Issuers keep roughly 1.6% of a 2% merchant fee and recycle it into rewards, making the wealthiest cardholders the system's defenders. The Boston Fed found cash-paying households absorb about $149 a year in inflated prices while card households receive about $1,100 in value."
+    },
+    {
+      "title": "Full digitization created 98% gross margins",
+      "detail": "BASE I authorization, BASE II overnight settlement (saving banks $15 million in labor and postage in year one), and mag-stripe terminals cut chargebacks 82% and removed marginal cost. The result is 50% net income margins on $29 billion in revenue — ahead of Microsoft at 34%, Apple at 25%, and Google at 21%."
+    },
+    {
+      "title": "Open-loop scaling beat Amex's closed loop",
+      "detail": "Signing one bank brought Visa that bank's entire merchant and cardholder base, while Amex had to build both sides itself and become a bank in each new country. The 1977 rebrand triggered an arms race that grew member banks 20% and cardholders 45% in a single year, vaulting Visa past Master Charge."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "The network nobody can explain",
+      "summary": "Frames the episode's puzzle: Visa is the 11th most valuable company in the world, yet it issues no cards, extends no credit, and bears no risk — it only connects banks to other banks.",
+      "quote": "worth more than any bank in the world",
+      "timestamp": "1:35"
+    },
+    {
+      "title": "The Fresno Drop of 1958",
+      "summary": "Bank of America mails 65,000 unsolicited credit cards into a city of 250,000, the audacious experiment that creates the modern credit card industry and only B of A could afford to run.",
+      "quote": "It simply arrived one day with no advance warning",
+      "timestamp": "7:19"
+    },
+    {
+      "title": "Fraud, secrecy, and a hidden cash gusher",
+      "summary": "Unsecured lending produces 22% delinquency and huge losses, but B of A absorbs them, quietly reaches profitability by 1961, and lets rivals believe the program failed for five more years.",
+      "quote": "$20 million of fraud within the first pilot program",
+      "timestamp": "31:57"
+    },
+    {
+      "title": "Dee Hock hijacks the Columbus summit",
+      "summary": "When furious franchisees confront B of A's two mid-level emissaries in 1968, an obscure Seattle banker converts a face-saving grievance committee into a mandate to redesign the whole system.",
+      "quote": "he just got authorization to go create Visa",
+      "timestamp": "1:01:35"
+    },
+    {
+      "title": "Designing the non-stock membership corporation",
+      "summary": "The Sausalito rules — ownership through non-transferable participation rights, 80% vote thresholds, binding regulations — solve how fierce competitors can cooperate without anyone able to cash out or defect.",
+      "quote": "a for-profit non-stock membership corporation",
+      "timestamp": "1:17:29"
+    },
+    {
+      "title": "Gold cufflinks close the global deal",
+      "summary": "Hock's theatrical farewell dinner and engraved cufflinks — the will to succeed, the grace to compromise — flip the international holdout banks overnight, making Visa global from essentially day one.",
+      "quote": "Dee, you miserable bastard",
+      "timestamp": "1:28:30"
+    },
+    {
+      "title": "BASE I: building VisaNet in nine months",
+      "summary": "After vendor bids come back over budget and over time, Visa poaches Aram Tatulian from TRW and builds its own authorization network, telecom links, and San Mateo data center in-house.",
+      "quote": "They do it in nine months and it works",
+      "timestamp": "1:57:22"
+    },
+    {
+      "title": "The Olympics and the anti-Amex campaign",
+      "summary": "After Amex declines the IOC's $14 million founding sponsorship, Visa spends $40 million to take it, positioning against American Express to erase the social stigma of paying with a credit card.",
+      "quote": "remember to take your Visa card because they don't take American Express",
+      "timestamp": "2:21:13"
+    },
+    {
+      "title": "Interchange as an envelope of value",
+      "summary": "A concrete breakdown of who gets what in a 2% merchant discount, and why flexible interchange lets Visa and the banks reward every constituent in the five-sided network — with merchants footing the bill.",
+      "quote": "an envelope of value that the whole ecosystem can sort of play with",
+      "timestamp": "2:34:17"
+    },
+    {
+      "title": "The most profitable large company on earth",
+      "summary": "The numbers land: $14 trillion in annual volume, 17.3% compounded growth for 51 years, and 50% net income margins that no other business at this scale approaches.",
+      "quote": "Their gross margins are 98%",
+      "timestamp": "2:50:07"
+    },
+    {
+      "title": "Bear cases: Apple, super apps, real-time rails",
+      "summary": "The hosts stress-test the disruption scenarios — Apple Pay disintermediation, closed-loop super apps like Alipay, and government real-time networks like Pix and UPI — and weigh why each has stopped short of breaking the network.",
+      "quote": "who really cares what's in your wallet when your wallet is your phone",
+      "timestamp": "3:28:55"
+    },
+    {
+      "title": "The final irony: BofA runs on MasterCard",
+      "summary": "The closing punchline ties a bow on the whole saga: today's Bank of America credit card rides the rival rails that its own Fresno drop ultimately provoked into existence.",
+      "quote": "the Bank of America credit card by Bank of America runs on MasterCard's network",
+      "timestamp": "3:38:58"
+    }
+  ],
+  "title": "Visa: How a Fresno Card Drop Became the World's Payment Network"
+}

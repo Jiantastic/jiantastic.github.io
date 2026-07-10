@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Novo Nordisk became Europe's most valuable company by staying obsessively focused on one interrelated field—metabolic disease—for a full century. What began as insulin for type 1 diabetes became the GLP-1 drugs Ozempic and Wegovy. A nonprofit foundation that still controls the company, not a diversified pharma strategy, is what made that century of single-minded focus possible.",
+    "The defining tension is between short-term commercial logic and the foundation's mandate for stability. For over a decade, management tried to sell into pharma megamergers; in 2004 the foundation board vetoed a deal, forcing independence. That single decision preserved the small internal GLP-1 program that became semaglutide—meaning the ownership structure, not managerial vision, is ultimately why Ozempic exists at all."
+  ],
+  "takeaways": [
+    {
+      "title": "Foundation control saved the company from acquisition",
+      "detail": "In 2004 management had a deal to merge with Switzerland's Serono, but the controlling foundation board rejected it, pointing to 15 years of 20%-plus compounding growth. Without that veto, the small internal program that produced Ozempic would likely have been dissolved."
+    },
+    {
+      "title": "Bitter local rivalry drove a century of innovation",
+      "detail": "The Peterson brothers, fired after a dispute, founded Novo down the street from Nordisk, and the two hated each other for 65 years. That competition produced shelf-stable liquid insulin, NPH, and the insulin pen before they finally merged in 1989."
+    },
+    {
+      "title": "GLP-1's short half-life stalled it for decades",
+      "detail": "Native GLP-1 breaks down in about five minutes, so the industry abandoned it as a drug candidate. Lotte Bjerre Knudsen grafted a fatty acid onto the molecule so it binds albumin, extending the half-life to 13 hours and enabling a once-daily drug."
+    },
+    {
+      "title": "A 10% weight-loss threshold defined the market",
+      "detail": "Liraglutide (Saxenda) delivered only about an 8% BMI reduction and flopped commercially. Semaglutide crossed 15%, past the informal threshold where patients and doctors judge a weight-loss drug worth the trouble, which is why it became a blockbuster while its predecessor did not."
+    },
+    {
+      "title": "Middlemen sever the healthcare demand signal",
+      "detail": "A patient's drug passes through manufacturer, distributor, pharmacy, PBM, insurer, and employer, with rebates reaching 75% of sticker price. Because insurers churn patients every ~3.7 years, they have no incentive to fund long-term preventive drugs, leaving Medicare and taxpayers to hold the bag."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "The unlikely giant: Europe's largest company",
+      "summary": "Sets up the central surprise—a pure-play diabetes and obesity company, controlled by a nonprofit, is now bigger than LVMH and one of the world's most valuable firms.",
+      "quote": "Novo Nordisk has become Europe's largest company, surpassing even LVMH last year",
+      "timestamp": "2:11"
+    },
+    {
+      "title": "1921: Insulin discovered in Toronto",
+      "summary": "The Banting and Best breakthrough turned type 1 diabetes from a death sentence into a manageable condition and set up the industry Novo Nordisk would build a century around.",
+      "quote": "the discovery and extraction of the pancreatic hormone insulin by a laboratory group",
+      "timestamp": "4:38"
+    },
+    {
+      "title": "A foundation, not a company",
+      "summary": "The founders set up an operating company wholly owned by a charitable foundation, a governance structure that would shape every major decision for the next hundred years.",
+      "quote": "The future blueprint of the next 100 years is laid right here",
+      "timestamp": "33:11"
+    },
+    {
+      "title": "The Petersons split off to found Novo",
+      "summary": "A management dispute sent two employees down the street to start a rival insulin maker, launching a 65-year blood feud that drove innovation at both firms.",
+      "quote": "for the next 65 years, these two companies would compete in blood sport",
+      "timestamp": "39:17"
+    },
+    {
+      "title": "World War II makes Novo dominant",
+      "summary": "Ordered by occupying Germany to expand production for all of occupied Europe, Novo emerged from the war as the continent's leading insulin producer while Nordisk sat idle.",
+      "quote": "the official Nazi-sanctioned insulin provider for all of Nazi-occupied Europe",
+      "timestamp": "52:25"
+    },
+    {
+      "title": "Genentech's recombinant DNA revolution",
+      "summary": "Genetically engineered human insulin (with Eli Lilly) ended reliance on animal pancreases, removed the supply ceiling, and finally made treating exploding type 2 diabetes feasible.",
+      "quote": "changed everything with recombinant DNA and genetic engineering of drugs",
+      "timestamp": "1:11:20"
+    },
+    {
+      "title": "Untangling the US pharma value chain",
+      "summary": "A tour of manufacturers, distributors, pharmacies, PBMs, insurers, and employers explains why American drug pricing is opaque and why real demand signals get lost.",
+      "quote": "this is how the U.S. market functions",
+      "timestamp": "1:20:03"
+    },
+    {
+      "title": "2004: The foundation blocks the sale",
+      "summary": "Management wanted to merge Novo Nordisk into a larger pharma giant, but the foundation board refused, preserving the independence that let GLP-1 development pay off.",
+      "quote": "they fail to convince the foundation board. So they block the merger",
+      "timestamp": "1:36:15"
+    },
+    {
+      "title": "Cracking GLP-1: the fatty-acid breakthrough",
+      "summary": "Lotte Bjerre Knudsen solved GLP-1's five-minute half-life problem by attaching a fatty acid, turning a rejected idea into liraglutide and eventually a new drug class.",
+      "quote": "Lyraglutide ends up having a half-life in the human body of 13 hours",
+      "timestamp": "1:45:41"
+    },
+    {
+      "title": "Semaglutide becomes Ozempic and Wegovy",
+      "summary": "A longer-acting, twice-as-effective molecule crossed the weight-loss threshold and, marketed as Ozempic and Wegovy, transformed Novo Nordisk into a GLP-1 company.",
+      "quote": "this GLP-1 agonist, semaglutide, is, of course, Ozempic and Wegev",
+      "timestamp": "2:12:28"
+    },
+    {
+      "title": "Pharma as the venture business",
+      "summary": "Drug development mirrors venture capital at extreme scale—about 10% of candidates reach market and one drug can supply half the profits—explaining consolidation and risk-pooling.",
+      "quote": "Pharma is the most classic example of the venture business",
+      "timestamp": "3:10:39"
+    },
+    {
+      "title": "Who actually takes risk in healthcare",
+      "summary": "Comparing spiky pharma profits to consistently rising insurer profits, the hosts argue drugmakers are the ones truly innovating and bearing risk across the value chain.",
+      "quote": "pharma are the guys in the arena. They're out there trying things",
+      "timestamp": "3:29:43"
+    }
+  ],
+  "title": "Novo Nordisk: A Century of Focus from Insulin to Ozempic"
+}
