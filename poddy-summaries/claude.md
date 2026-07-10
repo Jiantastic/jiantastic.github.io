@@ -49,7 +49,7 @@ The plain-text transcript separates paragraphs with blank lines. The timed trans
 }
 ```
 
-The pipeline requires exactly two overview paragraphs, five takeaways, and 8–12 valid chapters. Claude writes plain JSON with `--output-format text`; `jq` validates the content before the existing summary is replaced. This avoids saving the Claude CLI's JSON response envelope as episode data.
+The pipeline requires exactly two overview paragraphs, five takeaways, and a duration-aware chapter count: 1–3 for items under five minutes, 3–6 for items under thirty minutes, and 8–12 for full episodes. Claude writes plain JSON with `--output-format text`; `jq` validates the content before the existing summary is replaced. This avoids padding short announcements with repeated timestamps or saving the Claude CLI's JSON response envelope as episode data.
 
 ## Search-facing pages
 
@@ -58,6 +58,8 @@ The pipeline requires exactly two overview paragraphs, five takeaways, and 8–1
 - `data/acquired/episodes.json` for the interactive archive
 - `_includes/poddy-episode-directory.html` for a server-rendered list of every completed guide
 - `episodes/<slug>/index.html` for a permanent episode URL containing the full overview, insights, chapters, transcript, canonical metadata, and `PodcastEpisode` JSON-LD
+
+Published duration uses the later of the RSS duration and the transcribed media end. This keeps chapter validation and structured data accurate when dynamically inserted ads make the downloaded audio longer than the feed metadata.
 
 Run `build_episodes.py --offline` to regenerate the static pages without fetching RSS. Jekyll's sitemap plugin includes every generated episode route automatically.
 

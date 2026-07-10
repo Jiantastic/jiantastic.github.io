@@ -17,6 +17,14 @@ def timestamp_seconds(value):
     raise ValueError(f"Invalid timestamp: {value}")
 
 
+def chapter_bounds(duration):
+    if duration <= 300:
+        return 1, 3
+    if duration <= 1800:
+        return 3, 6
+    return 8, 12
+
+
 def main():
     parser = argparse.ArgumentParser(description="Validate Poddy episode artifacts")
     parser.add_argument(
@@ -55,13 +63,16 @@ def main():
         ):
             errors.append(f"{slug}: malformed takeaway")
 
+        duration = int(float(episode.get("duration") or 0))
+        chapter_min, chapter_max = chapter_bounds(duration)
         chapters = summary.get("chapters")
-        if not isinstance(chapters, list) or not 8 <= len(chapters) <= 12:
-            errors.append(f"{slug}: must contain 8–12 chapters")
+        if not isinstance(chapters, list) or not chapter_min <= len(chapters) <= chapter_max:
+            errors.append(
+                f"{slug}: must contain {chapter_min}–{chapter_max} chapters for its runtime"
+            )
         else:
             try:
                 chapter_times = [timestamp_seconds(item["timestamp"]) for item in chapters]
-                duration = int(float(episode.get("duration") or 0))
                 if chapter_times != sorted(chapter_times):
                     errors.append(f"{slug}: chapter timestamps are not ordered")
                 if duration and chapter_times[-1] > duration + 30:

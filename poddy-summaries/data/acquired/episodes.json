@@ -6,7 +6,7 @@
     "pubDate": "Sun, 21 Jun 2026 22:54:28 -0700",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/04eefe71/39c635fd.mp3",
     "sourceUrl": "https://www.acquired.fm/episodes/the-walt-disney-company",
-    "duration": "16289",
+    "duration": 16289,
     "episodeUrl": "/poddy-summaries/episodes/the-walt-disney-company/",
     "summaryPath": "summaries/the-walt-disney-company.json",
     "transcriptPath": "transcripts/the-walt-disney-company.txt",
@@ -193,7 +193,7 @@
     "pubDate": "Sun, 17 May 2026 20:26:52 -0700",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/ee9d0817/c12627bd.mp3",
     "sourceUrl": "https://www.acquired.fm/episodes/vanguard",
-    "duration": "13685",
+    "duration": 13685,
     "episodeUrl": "/poddy-summaries/episodes/vanguard/",
     "summaryPath": "summaries/vanguard.json",
     "transcriptPath": "transcripts/vanguard.txt",
@@ -380,7 +380,7 @@
     "pubDate": "Sun, 12 Apr 2026 20:33:59 -0700",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/9ca1df08/e400ba0d.mp3",
     "sourceUrl": "https://www.acquired.fm/episodes/ferrari",
-    "duration": "14360",
+    "duration": 14360,
     "episodeUrl": "/poddy-summaries/episodes/ferrari/",
     "summaryPath": "summaries/ferrari.json",
     "transcriptPath": "transcripts/ferrari.txt",
@@ -567,7 +567,7 @@
     "pubDate": "Mon, 02 Mar 2026 14:18:59 -0800",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/93e7bac7/9d4b12b6.mp3",
     "sourceUrl": "https://www.acquired.fm/episodes/formula-1",
-    "duration": "16171",
+    "duration": 16196,
     "episodeUrl": "/poddy-summaries/episodes/formula-1/",
     "summaryPath": "summaries/formula-1.json",
     "transcriptPath": "transcripts/formula-1.txt",
@@ -754,7 +754,7 @@
     "pubDate": "Mon, 26 Jan 2026 18:50:40 -0800",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/87d6503d/b2af8272.mp3",
     "sourceUrl": "https://www.acquired.fm/episodes/the-nfl",
-    "duration": "15438",
+    "duration": 15446,
     "episodeUrl": "/poddy-summaries/episodes/the-nfl/",
     "summaryPath": "summaries/the-nfl.json",
     "transcriptPath": "transcripts/the-nfl.txt",
@@ -941,7 +941,7 @@
     "pubDate": "Fri, 02 Jan 2026 20:34:00 -0800",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/7bea4e45/0aa48fa3.mp3",
     "sourceUrl": "https://www.acquired.fm/episodes/rolex",
-    "duration": "17485",
+    "duration": 17995,
     "episodeUrl": "/poddy-summaries/episodes/rolex/",
     "summaryPath": "summaries/rolex.json",
     "transcriptPath": "transcripts/rolex.txt",
@@ -1128,7 +1128,7 @@
     "pubDate": "Thu, 01 Jan 2026 21:46:00 -0800",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/fcf31c71/acf1c31d.mp3",
     "sourceUrl": "https://www.acquired.fm/episodes/costco",
-    "duration": "10409",
+    "duration": 10919,
     "episodeUrl": "/poddy-summaries/episodes/costco/",
     "summaryPath": "summaries/costco.json",
     "transcriptPath": "transcripts/costco.txt",
@@ -1315,7 +1315,7 @@
     "pubDate": "Sun, 14 Dec 2025 20:19:45 -0800",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/0f470567/18269289.mp3",
     "sourceUrl": "https://www.acquired.fm/episodes/10-years-of-acquired-with-michael-lewis",
-    "duration": "9474",
+    "duration": 10057,
     "episodeUrl": "/poddy-summaries/episodes/10-years-of-acquired-with-michael-lewis/",
     "summaryPath": "summaries/10-years-of-acquired-with-michael-lewis.json",
     "transcriptPath": "transcripts/10-years-of-acquired-with-michael-lewis.txt",
@@ -1466,7 +1466,7 @@
     "pubDate": "Sun, 23 Nov 2025 19:00:17 -0800",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/95f9fcf7/68ea94eb.mp3",
     "sourceUrl": "https://www.acquired.fm/episodes/coca-cola",
-    "duration": "14015",
+    "duration": 14530,
     "episodeUrl": "/poddy-summaries/episodes/coca-cola/",
     "summaryPath": "summaries/coca-cola.json",
     "transcriptPath": "transcripts/coca-cola.txt",
@@ -1653,7 +1653,7 @@
     "pubDate": "Sun, 26 Oct 2025 20:07:10 -0700",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/8d72cb9c/19650029.mp3",
     "sourceUrl": "https://www.acquired.fm/episodes/trader-joes",
-    "duration": "11869",
+    "duration": 12341,
     "episodeUrl": "/poddy-summaries/episodes/trader-joe-s/",
     "summaryPath": "summaries/trader-joe-s.json",
     "transcriptPath": "transcripts/trader-joe-s.txt",
@@ -1840,7 +1840,7 @@
     "pubDate": "Sun, 05 Oct 2025 18:35:54 -0700",
     "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/701dc613/9f822931.mp3",
     "sourceUrl": "https://www.acquired.fm/episodes/google-the-ai-company",
-    "duration": "14165",
+    "duration": 14673,
     "episodeUrl": "/poddy-summaries/episodes/google-part-iii-the-ai-company/",
     "summaryPath": "summaries/google-part-iii-the-ai-company.json",
     "transcriptPath": "transcripts/google-part-iii-the-ai-company.txt",
@@ -2017,6 +2017,833 @@
         "summary": "The closing analysis lands on value capture: AI's value creation is proven but its monetization isn't, and the founders' stated willingness to go broke pursuing AI will be tested against the best business ever.",
         "quote": "they would rather go bankrupt than lose at AI",
         "timestamp": "3:50:04"
+      }
+    ]
+  },
+  {
+    "slug": "acquired-live-at-radio-city-music-hall-presented-by-j-p-morgan",
+    "guid": "f936519e-86fa-4621-9f05-523aa77ab2f3",
+    "title": "Acquired Live at Radio City Music Hall (Presented by J.P. Morgan)",
+    "pubDate": "Tue, 30 Sep 2025 20:08:00 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/6f730593/d29fa674.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/acquired-live-at-radio-city-music-hall-presented-by-j-p-morgan",
+    "duration": 78,
+    "episodeUrl": "/poddy-summaries/episodes/acquired-live-at-radio-city-music-hall-presented-by-j-p-morgan/",
+    "summaryPath": "summaries/acquired-live-at-radio-city-music-hall-presented-by-j-p-morgan.json",
+    "transcriptPath": "transcripts/acquired-live-at-radio-city-music-hall-presented-by-j-p-morgan.txt",
+    "transcriptJsonPath": "transcripts/acquired-live-at-radio-city-music-hall-presented-by-j-p-morgan.json",
+    "overview": [
+      "This short feed drop announces that Acquired's Radio City Music Hall live show is finally available as a full video special. The hosts argue the venue's grandeur demanded more than a standard podcast episode, so after months of post-production they built something closer to a concert film or standup comedy special, presented by JP Morgan and headlined by Jamie Dimon.",
+      "The arc is a podcast graduating into event cinema: an ambitious production upgrade paired with a new distribution path. Spotify can now deliver full video to podcast listeners, so the special sits in the regular Acquired feed, watchable on any device, alongside a guest lineup spanning Meredith Kopit Levien, Barry Diller, and Andrew Ross Sorkin."
+    ],
+    "takeaways": [
+      {
+        "title": "Venue grandeur drove a concert-film treatment",
+        "detail": "The hosts say Radio City Music Hall deserved more than a standard podcast episode, so they spent months producing something akin to a concert film or standup comedy special."
+      },
+      {
+        "title": "Spotify now supports full video for podcasts",
+        "detail": "The special is released on Spotify because the platform can now deliver full video to podcast listeners, letting it live in the feed and play on any device."
+      },
+      {
+        "title": "Jamie Dimon anchors a multi-CEO lineup",
+        "detail": "Beyond the Dimon conversation, the special features New York Times CEO Meredith Kopit Levien, Barry Diller, Andrew Ross Sorkin, and audience cameos."
+      },
+      {
+        "title": "JP Morgan presents the branded live special",
+        "detail": "The full title is Acquired Live at Radio City Music Hall presented by JP Morgan, tying the bank's sponsorship to the show's biggest live production."
+      },
+      {
+        "title": "The show positions itself as event cinema",
+        "detail": "The hosts describe the event as the physical embodiment of the Acquired cinematic universe, gathering major New York companies and CEOs in one production."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Why the live show became a video special",
+        "summary": "The hosts announce the finished Radio City production and explain why the venue called for a concert-film treatment rather than a standard episode.",
+        "quote": "more akin to a concert film or a standup comedy special",
+        "timestamp": "0:00"
+      },
+      {
+        "title": "The guests in Acquired's New York lineup",
+        "summary": "Jamie Dimon headlines a roster that also includes Meredith Kopit Levien, Barry Diller, Andrew Ross Sorkin, and audience cameos.",
+        "quote": "the physical embodiment of the acquired cinematic universe",
+        "timestamp": "0:32"
+      },
+      {
+        "title": "Where to watch the complete production",
+        "summary": "The announcement directs listeners to Spotify, where the full video sits inside the regular Acquired podcast feed.",
+        "quote": "It lives right in the feed alongside every episode of Acquired",
+        "timestamp": "1:15"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Why the live show became a video special",
+        "summary": "The hosts announce the finished Radio City production and explain why the venue called for a concert-film treatment rather than a standard episode.",
+        "quote": "more akin to a concert film or a standup comedy special",
+        "timestamp": "0:00"
+      },
+      {
+        "title": "The guests in Acquired's New York lineup",
+        "summary": "Jamie Dimon headlines a roster that also includes Meredith Kopit Levien, Barry Diller, Andrew Ross Sorkin, and audience cameos.",
+        "quote": "the physical embodiment of the acquired cinematic universe",
+        "timestamp": "0:32"
+      },
+      {
+        "title": "Where to watch the complete production",
+        "summary": "The announcement directs listeners to Spotify, where the full video sits inside the regular Acquired podcast feed.",
+        "quote": "It lives right in the feed alongside every episode of Acquired",
+        "timestamp": "1:15"
+      }
+    ]
+  },
+  {
+    "slug": "google-part-ii-alphabet",
+    "guid": "ab5cd9d1-109d-49fd-9dc7-e01238da38ea",
+    "title": "Google Part II: Alphabet",
+    "pubDate": "Tue, 26 Aug 2025 03:19:06 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/8296b628/7f670b87.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/alphabet-inc",
+    "duration": 15018,
+    "episodeUrl": "/poddy-summaries/episodes/google-part-ii-alphabet/",
+    "summaryPath": "summaries/google-part-ii-alphabet.json",
+    "transcriptPath": "transcripts/google-part-ii-alphabet.txt",
+    "transcriptJsonPath": "transcripts/google-part-ii-alphabet.json",
+    "overview": [
+      "Ben and David argue that Google's seemingly scattered 2000s product spree—Gmail, Maps, Docs, YouTube, Chrome, Android—was one coherent strategy: every free product grew web usage, feeding the search-ads money printer, while building moats against Microsoft's control of the browser and operating system. What Wall Street read as a drunken juggler was an innovation factory protecting the best business model of all time.",
+      "The tension runs between bottom-up genius and top-down force. Organic, technically-driven products—Gmail, Maps, Chrome, Android—let Google become the only dominant company to survive a major platform shift, into mobile. The one commanded effort, Google Plus, poisoned the culture, cost Google messaging and cloud, and triggered the unifying Alphabet reorg—just as the company quietly amassed the data and talent that would define the AI era."
+    ],
+    "takeaways": [
+      {
+        "title": "Web apps were Google's moat against Microsoft",
+        "detail": "Over 90% of searches happened in Internet Explorer on Windows, so Google existed at Microsoft's pleasure. Gmail, Maps, and Docs got consumers hooked on browser applications Microsoft couldn't kill without a revolt, and Chrome finished the job—cutting IE from roughly 70% share to 15% by 2014."
+      },
+      {
+        "title": "Android's less-than-free model won mobile",
+        "detail": "Where Microsoft charged OEMs for Windows Mobile, Google gave Android away open source and paid carriers and handset makers a search revenue share. Market share went from about 5% in late 2009 to 80% by 2013, keeping Google search default on billions of devices."
+      },
+      {
+        "title": "YouTube regraded from C to A+",
+        "detail": "Bought for $1.65 billion in stock plus roughly $5 billion of operating losses, YouTube now does over $50 billion in revenue—more than Netflix and second only to Disney among media companies—with an estimated $8 billion in operating income and a $500 billion standalone valuation."
+      },
+      {
+        "title": "Successful Google products embed a core technical insight",
+        "detail": "PageRank, Gmail's Ajax, real-time collaboration in Docs, and Chrome's V8 engine each turned a technology breakthrough directly into the user experience; Eric Schmidt refused to fund projects without one. Google Plus, Wave, and Buzz had no such insight and all failed."
+      },
+      {
+        "title": "Google Plus's real cost was missed opportunities",
+        "detail": "The top-down, bonus-tied social push was Google's Vista: it soured the culture and distracted leadership, plausibly costing Google messaging (WhatsApp) and years of cloud investment. Between Plus and Gemini, the hosts can't name a single breakthrough consumer product Google shipped."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Wall Street punishes the drunken juggler",
+        "summary": "After 2005 earnings showed flat profits amid heavy spending on Gmail, Maps, and YouTube, the stock fell 27% because investors wanted a search pure play. This sets up the question the whole episode answers: why did Google do all this?",
+        "quote": "tossing balls into the air like a drunken juggler",
+        "timestamp": "5:57"
+      },
+      {
+        "title": "Gmail and the birth of Ajax",
+        "summary": "Paul Buchheit's use of the obscure XMLHttpRequest feature turned email into the first mass-market dynamic web application, proving browsers could replace installed software and setting the template for everything Google built afterward.",
+        "quote": "And this is the birth of Ajax",
+        "timestamp": "14:42"
+      },
+      {
+        "title": "Everything flows through Microsoft",
+        "summary": "With over 90% of searches running through Internet Explorer on Windows, Google's money machine sat on a rival's platform. Getting consumers to love web apps was the only defense against being kneecapped.",
+        "quote": "They exist at the pleasure of Microsoft at this point in history",
+        "timestamp": "18:26"
+      },
+      {
+        "title": "The Maps API kicks off Web 2.0",
+        "summary": "Releasing the Maps API in 2006 spawned the mashup era and enabled Zillow, Uber, and Airbnb—deepening the entire ecosystem's lock-in to the web, which is exactly the wind Google wanted at its back.",
+        "quote": "companies that just couldn't exist without the Google Maps API",
+        "timestamp": "38:38"
+      },
+      {
+        "title": "Docs and Sheets: users versus dollars",
+        "summary": "Real-time collaboration, impossible in desktop Office, let Google take the majority of productivity users while conceding enterprise dollars to Microsoft—a cheap masterstroke that forced Microsoft to drag its crown jewels onto the web.",
+        "quote": "Microsoft still has the vast majority of dollars",
+        "timestamp": "49:55"
+      },
+      {
+        "title": "YouTube has to sell",
+        "summary": "Copyright suits and bandwidth costs that scaled with every view meant YouTube couldn't survive standalone in 2006; Google's cheap infrastructure and legal muscle made it the only rational owner.",
+        "quote": "Google buys YouTube for $1.65 billion in stock",
+        "timestamp": "1:10:26"
+      },
+      {
+        "title": "The definitive YouTube regrade",
+        "summary": "With over $50 billion in revenue—bigger than Netflix and closing in on all of Disney—and an estimated $500 billion standalone value, the hosts reverse the worst grade in Acquired history.",
+        "quote": "I am raising my grade from a C to an A+",
+        "timestamp": "1:29:06"
+      },
+      {
+        "title": "Ballmer's blank check for DoubleClick",
+        "summary": "Google paid $3.1 billion with a hell-or-high-water clause largely to keep the number-one display-ad exchange and its agency money pipes out of Microsoft's hands, pushing Microsoft to pay double for the number-two player.",
+        "quote": "Without saying so, Ballmer was communicating, here's a blank check",
+        "timestamp": "1:44:06"
+      },
+      {
+        "title": "Chrome liberates Google from Internet Explorer",
+        "summary": "Launched a week before Lehman collapsed, Chrome's V8 engine, sandboxed tabs, and omnibox arrived just as Bing did—demolishing IE's 70% share and ensuring no platform owner could redirect search traffic away from Google.",
+        "quote": "Chrome kept the web alive",
+        "timestamp": "2:13:00"
+      },
+      {
+        "title": "Less than free: how Android ran the table",
+        "summary": "Android inverted Microsoft's licensing model—free, open source, plus a search revenue share to carriers and OEMs—the counter-positioning Bill Gurley famously described. It carried Google's business model across the mobile platform shift, something no dominant tech company had done before.",
+        "quote": "It's actually less than free. We're actually going to pay you.",
+        "timestamp": "2:58:52"
+      },
+      {
+        "title": "Google Plus poisons the culture",
+        "summary": "The top-down, OKR- and bonus-enforced social push broke Google's bottom-up culture and distracted it from messaging and cloud—though the wreckage left unified Google accounts, Photos, and Hangouts behind.",
+        "quote": "the culture around the company at Google had become deeply poisonous",
+        "timestamp": "3:24:29"
+      },
+      {
+        "title": "The groundwork for AI was already laid",
+        "summary": "By 2015-16 nearly every future AI leader—Hinton, Sutskever, Amodei, Hassabis, and the Transformer authors—worked at Google, fulfilling Larry Page's 2000 prediction about search's ultimate form and teeing up the next episode.",
+        "quote": "artificial intelligence would be the ultimate version of Google",
+        "timestamp": "3:41:48"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Wall Street punishes the drunken juggler",
+        "summary": "After 2005 earnings showed flat profits amid heavy spending on Gmail, Maps, and YouTube, the stock fell 27% because investors wanted a search pure play. This sets up the question the whole episode answers: why did Google do all this?",
+        "quote": "tossing balls into the air like a drunken juggler",
+        "timestamp": "5:57"
+      },
+      {
+        "title": "Gmail and the birth of Ajax",
+        "summary": "Paul Buchheit's use of the obscure XMLHttpRequest feature turned email into the first mass-market dynamic web application, proving browsers could replace installed software and setting the template for everything Google built afterward.",
+        "quote": "And this is the birth of Ajax",
+        "timestamp": "14:42"
+      },
+      {
+        "title": "Everything flows through Microsoft",
+        "summary": "With over 90% of searches running through Internet Explorer on Windows, Google's money machine sat on a rival's platform. Getting consumers to love web apps was the only defense against being kneecapped.",
+        "quote": "They exist at the pleasure of Microsoft at this point in history",
+        "timestamp": "18:26"
+      },
+      {
+        "title": "The Maps API kicks off Web 2.0",
+        "summary": "Releasing the Maps API in 2006 spawned the mashup era and enabled Zillow, Uber, and Airbnb—deepening the entire ecosystem's lock-in to the web, which is exactly the wind Google wanted at its back.",
+        "quote": "companies that just couldn't exist without the Google Maps API",
+        "timestamp": "38:38"
+      },
+      {
+        "title": "Docs and Sheets: users versus dollars",
+        "summary": "Real-time collaboration, impossible in desktop Office, let Google take the majority of productivity users while conceding enterprise dollars to Microsoft—a cheap masterstroke that forced Microsoft to drag its crown jewels onto the web.",
+        "quote": "Microsoft still has the vast majority of dollars",
+        "timestamp": "49:55"
+      },
+      {
+        "title": "YouTube has to sell",
+        "summary": "Copyright suits and bandwidth costs that scaled with every view meant YouTube couldn't survive standalone in 2006; Google's cheap infrastructure and legal muscle made it the only rational owner.",
+        "quote": "Google buys YouTube for $1.65 billion in stock",
+        "timestamp": "1:10:26"
+      },
+      {
+        "title": "The definitive YouTube regrade",
+        "summary": "With over $50 billion in revenue—bigger than Netflix and closing in on all of Disney—and an estimated $500 billion standalone value, the hosts reverse the worst grade in Acquired history.",
+        "quote": "I am raising my grade from a C to an A+",
+        "timestamp": "1:29:06"
+      },
+      {
+        "title": "Ballmer's blank check for DoubleClick",
+        "summary": "Google paid $3.1 billion with a hell-or-high-water clause largely to keep the number-one display-ad exchange and its agency money pipes out of Microsoft's hands, pushing Microsoft to pay double for the number-two player.",
+        "quote": "Without saying so, Ballmer was communicating, here's a blank check",
+        "timestamp": "1:44:06"
+      },
+      {
+        "title": "Chrome liberates Google from Internet Explorer",
+        "summary": "Launched a week before Lehman collapsed, Chrome's V8 engine, sandboxed tabs, and omnibox arrived just as Bing did—demolishing IE's 70% share and ensuring no platform owner could redirect search traffic away from Google.",
+        "quote": "Chrome kept the web alive",
+        "timestamp": "2:13:00"
+      },
+      {
+        "title": "Less than free: how Android ran the table",
+        "summary": "Android inverted Microsoft's licensing model—free, open source, plus a search revenue share to carriers and OEMs—the counter-positioning Bill Gurley famously described. It carried Google's business model across the mobile platform shift, something no dominant tech company had done before.",
+        "quote": "It's actually less than free. We're actually going to pay you.",
+        "timestamp": "2:58:52"
+      },
+      {
+        "title": "Google Plus poisons the culture",
+        "summary": "The top-down, OKR- and bonus-enforced social push broke Google's bottom-up culture and distracted it from messaging and cloud—though the wreckage left unified Google accounts, Photos, and Hangouts behind.",
+        "quote": "the culture around the company at Google had become deeply poisonous",
+        "timestamp": "3:24:29"
+      },
+      {
+        "title": "The groundwork for AI was already laid",
+        "summary": "By 2015-16 nearly every future AI leader—Hinton, Sutskever, Amodei, Hassabis, and the Transformer authors—worked at Google, fulfilling Larry Page's 2000 prediction about search's ultimate form and teeing up the next episode.",
+        "quote": "artificial intelligence would be the ultimate version of Google",
+        "timestamp": "3:41:48"
+      }
+    ]
+  },
+  {
+    "slug": "the-jamie-dimon-interview",
+    "guid": "2a660c44-6ee2-4c68-b107-9c4a1e1704f3",
+    "title": "The Jamie Dimon Interview",
+    "pubDate": "Wed, 16 Jul 2025 07:18:04 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/621b1ddd/5b08fc34.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/the-jamie-dimon-interview",
+    "duration": 4123,
+    "episodeUrl": "/poddy-summaries/episodes/the-jamie-dimon-interview/",
+    "summaryPath": "summaries/the-jamie-dimon-interview.json",
+    "transcriptPath": "transcripts/the-jamie-dimon-interview.txt",
+    "transcriptJsonPath": "transcripts/the-jamie-dimon-interview.json",
+    "overview": [
+      "Jamie Dimon argues that JPMorgan Chase became the world's most valuable bank — an $800 billion market cap, twice its nearest competitor — not by chasing peak returns but by refusing to blow up. The fortress balance sheet, conservative accounting, worst-ever stress testing, and incentive plans that never reward hidden leverage let the bank stay strong through every crisis and buy Bear Stearns, WaMu, and First Republic when rivals failed.",
+      "The arc runs from humiliation to vindication: fired in 1998 by mentor Sandy Weill just as Citigroup's crown seemed his, Dimon rebuilt from troubled Bank One and merged his way back atop Wall Street. The central tension is that his crisis rescues — bailing out Bear Stearns and WaMu at the government's request — were repaid with a $5 billion penalty, leaving him a self-described patriot who no longer trusts Washington's word."
+    ],
+    "takeaways": [
+      {
+        "title": "Fortress balance sheets trade peak returns for survival",
+        "detail": "Before 2007 many banks earned 30% returns on equity and most of them later went bankrupt; JPMorgan never matched those returns but was fine in 2008-09. Staying solvent when others weren't is what let it buy Bear Stearns, WaMu, and First Republic at crisis prices."
+      },
+      {
+        "title": "Stress test to worst-ever, not plausible scenarios",
+        "detail": "JPMorgan's inherited stress test assumed high-yield spreads would move 40%; Dimon reset it to the worst level in history (17%), and in 2008 spreads hit 20% while the bond market froze entirely. The bank now runs roughly 100 stress tests a week against fat tails it assumes will happen."
+      },
+      {
+        "title": "Incentive design, not foresight, kept JPMorgan safe",
+        "detail": "With a 20% profit pool, a banker at 30x leverage will push to 40x because it adds 25% to the bonus. Dimon eliminated side deals, private comp arrangements, and per-deal profit shares before 2008 — losing some people, but removing the reward for hidden leverage that sank rival firms."
+      },
+      {
+        "title": "Interlocking businesses drive the 15-cent efficiency edge",
+        "detail": "JPMorgan keeps about 15 cents more of every revenue dollar than competitors. Dimon credits a community-bank model at global scale — consumer, commercial, wealth, and investment banking all feed each other with nothing extraneous — plus continuous investment rather than stop-start cost cutting."
+      },
+      {
+        "title": "Crisis rescues earn reputation but invite government punishment",
+        "detail": "Bear Stearns effectively cost JPMorgan about $1 billion upfront, but the government later extracted $5 billion, roughly 80% of it for mortgages Bear and WaMu wrote before the rescue. Dimon says he wouldn't trust the government again, yet concedes he would still answer the call as a patriot — with protections negotiated up front."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "The premise: banking's most remarkable 25-year run",
+        "summary": "Ben frames the puzzle the whole episode answers: banks blow up and big organizations bloat, yet Dimon built an $800 billion bank worth twice its nearest competitor out of beleaguered parts.",
+        "quote": "one of the most remarkable runs in banking history",
+        "timestamp": "1:37"
+      },
+      {
+        "title": "1998: fired by his mentor at Citigroup",
+        "summary": "After 13 years building the Citigroup conglomerate with Sandy Weill, Dimon is dismissed in a pre-arranged board decision — the press release already written — and responds with striking equanimity.",
+        "quote": "we want you to resign",
+        "timestamp": "7:08"
+      },
+      {
+        "title": "Going all-in on troubled Bank One",
+        "summary": "After turning down Amazon, Home Depot, and AIG, Dimon takes the troubled Chicago bank and buys $60 million of stock — half his net worth — to show shareholders he'll go down with the ship.",
+        "quote": "I put half my money in the stock at the time",
+        "timestamp": "12:49"
+      },
+      {
+        "title": "Repricing Bank One's hidden credit risk",
+        "summary": "Aggressive accounting had labeled money-losing loans profitable. Dimon marked every loan down, raised reserves, cut the balance sheet by $50 billion, and demanded more revenue per dollar of risk just before the recession hit.",
+        "quote": "Bank One had more U.S. corporate credit risk than Citibank did",
+        "timestamp": "19:08"
+      },
+      {
+        "title": "Stress testing to worst-ever, not to comfort",
+        "summary": "Dimon explains the philosophy behind not blowing up: assume the fat tails will happen and size the bank to survive all of them, because leverage, aggressive accounting, and lost confidence kill financial firms.",
+        "quote": "in 08, it hit 20% and you couldn't have sold a bond",
+        "timestamp": "23:23"
+      },
+      {
+        "title": "The 2004 merger of equals with JPMorgan",
+        "summary": "Bank One shareholders got 42% of the combined company and Dimon got near-guaranteed succession. He judged the deal on business logic, ability to execute, and price — assigning the Tiffany brand no value.",
+        "quote": "75% of the board would have to vote me out",
+        "timestamp": "30:01"
+      },
+      {
+        "title": "2006: pulling back while Wall Street levers up",
+        "summary": "As investment banks went from 12x to 35x leverage and the Street's bridge book hit $450 billion, Dimon cut subprime, hoarded liquidity, and stripped out the comp structures that paid people to add leverage.",
+        "quote": "in 2006, I started to stockpile liquidity",
+        "timestamp": "33:21"
+      },
+      {
+        "title": "The Bear Stearns birthday call",
+        "summary": "At his birthday dinner in March 2008, Bear's CEO calls needing rescue before Asia opens. JPMorgan concocts a one-day Fed pass-through loan, runs real due diligence over a weekend, and buys Bear at $2 a share.",
+        "quote": "Jamie, I need $30 billion tonight before Asia opens",
+        "timestamp": "37:18"
+      },
+      {
+        "title": "The $5 billion price of playing rescuer",
+        "summary": "The government later pursued JPMorgan largely for mortgages Bear and WaMu wrote before the rescues. Dimon's account of telling Eric Holder he couldn't fight a federal indictment explains why he says he wouldn't trust the government again.",
+        "quote": "Eric, I am here to surrender",
+        "timestamp": "41:46"
+      },
+      {
+        "title": "WaMu: the crisis deal that actually worked",
+        "summary": "A week after Lehman failed, JPMorgan took WaMu's 2,300 branches in healthy new states, left the debt behind, wrote the mortgage book down — then raised $11 billion of equity it didn't strictly need to keep the fortress intact.",
+        "quote": "We bought it for a $30 billion discount to tangible book value",
+        "timestamp": "46:14"
+      },
+      {
+        "title": "2023: SVB, First Republic, and concentrated deposits",
+        "summary": "Dimon diagnoses the regional-bank failures as concentrated deposits plus held-to-maturity accounting that hid interest-rate risk. He warned Janet Yellen early, bought First Republic late, and turned its concierge model into J.P. Morgan Financial Centers.",
+        "quote": "It was kind of a little melting ice cube",
+        "timestamp": "53:53"
+      },
+      {
+        "title": "Why he's still here: family, country, purpose",
+        "summary": "Asked why he outlasted every peer from the 2008 era, Dimon lays out his hierarchy — family, country, then purpose — and says the job is his contribution to both for as long as he has the energy.",
+        "quote": "this is my contribution through this company",
+        "timestamp": "1:04:50"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "The premise: banking's most remarkable 25-year run",
+        "summary": "Ben frames the puzzle the whole episode answers: banks blow up and big organizations bloat, yet Dimon built an $800 billion bank worth twice its nearest competitor out of beleaguered parts.",
+        "quote": "one of the most remarkable runs in banking history",
+        "timestamp": "1:37"
+      },
+      {
+        "title": "1998: fired by his mentor at Citigroup",
+        "summary": "After 13 years building the Citigroup conglomerate with Sandy Weill, Dimon is dismissed in a pre-arranged board decision — the press release already written — and responds with striking equanimity.",
+        "quote": "we want you to resign",
+        "timestamp": "7:08"
+      },
+      {
+        "title": "Going all-in on troubled Bank One",
+        "summary": "After turning down Amazon, Home Depot, and AIG, Dimon takes the troubled Chicago bank and buys $60 million of stock — half his net worth — to show shareholders he'll go down with the ship.",
+        "quote": "I put half my money in the stock at the time",
+        "timestamp": "12:49"
+      },
+      {
+        "title": "Repricing Bank One's hidden credit risk",
+        "summary": "Aggressive accounting had labeled money-losing loans profitable. Dimon marked every loan down, raised reserves, cut the balance sheet by $50 billion, and demanded more revenue per dollar of risk just before the recession hit.",
+        "quote": "Bank One had more U.S. corporate credit risk than Citibank did",
+        "timestamp": "19:08"
+      },
+      {
+        "title": "Stress testing to worst-ever, not to comfort",
+        "summary": "Dimon explains the philosophy behind not blowing up: assume the fat tails will happen and size the bank to survive all of them, because leverage, aggressive accounting, and lost confidence kill financial firms.",
+        "quote": "in 08, it hit 20% and you couldn't have sold a bond",
+        "timestamp": "23:23"
+      },
+      {
+        "title": "The 2004 merger of equals with JPMorgan",
+        "summary": "Bank One shareholders got 42% of the combined company and Dimon got near-guaranteed succession. He judged the deal on business logic, ability to execute, and price — assigning the Tiffany brand no value.",
+        "quote": "75% of the board would have to vote me out",
+        "timestamp": "30:01"
+      },
+      {
+        "title": "2006: pulling back while Wall Street levers up",
+        "summary": "As investment banks went from 12x to 35x leverage and the Street's bridge book hit $450 billion, Dimon cut subprime, hoarded liquidity, and stripped out the comp structures that paid people to add leverage.",
+        "quote": "in 2006, I started to stockpile liquidity",
+        "timestamp": "33:21"
+      },
+      {
+        "title": "The Bear Stearns birthday call",
+        "summary": "At his birthday dinner in March 2008, Bear's CEO calls needing rescue before Asia opens. JPMorgan concocts a one-day Fed pass-through loan, runs real due diligence over a weekend, and buys Bear at $2 a share.",
+        "quote": "Jamie, I need $30 billion tonight before Asia opens",
+        "timestamp": "37:18"
+      },
+      {
+        "title": "The $5 billion price of playing rescuer",
+        "summary": "The government later pursued JPMorgan largely for mortgages Bear and WaMu wrote before the rescues. Dimon's account of telling Eric Holder he couldn't fight a federal indictment explains why he says he wouldn't trust the government again.",
+        "quote": "Eric, I am here to surrender",
+        "timestamp": "41:46"
+      },
+      {
+        "title": "WaMu: the crisis deal that actually worked",
+        "summary": "A week after Lehman failed, JPMorgan took WaMu's 2,300 branches in healthy new states, left the debt behind, wrote the mortgage book down — then raised $11 billion of equity it didn't strictly need to keep the fortress intact.",
+        "quote": "We bought it for a $30 billion discount to tangible book value",
+        "timestamp": "46:14"
+      },
+      {
+        "title": "2023: SVB, First Republic, and concentrated deposits",
+        "summary": "Dimon diagnoses the regional-bank failures as concentrated deposits plus held-to-maturity accounting that hid interest-rate risk. He warned Janet Yellen early, bought First Republic late, and turned its concierge model into J.P. Morgan Financial Centers.",
+        "quote": "It was kind of a little melting ice cube",
+        "timestamp": "53:53"
+      },
+      {
+        "title": "Why he's still here: family, country, purpose",
+        "summary": "Asked why he outlasted every peer from the 2008 era, Dimon lays out his hierarchy — family, country, then purpose — and says the job is his contribution to both for as long as he has the energy.",
+        "quote": "this is my contribution through this company",
+        "timestamp": "1:04:50"
+      }
+    ]
+  },
+  {
+    "slug": "google-part-i-origins-of-search",
+    "guid": "3c13a02f-2836-484e-a29e-c6829e462e8f",
+    "title": "Google Part I: Origins of Search",
+    "pubDate": "Sun, 29 Jun 2025 20:11:14 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/d927288f/d5b2a4ff.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/google",
+    "duration": 13056,
+    "episodeUrl": "/poddy-summaries/episodes/google-part-i-origins-of-search/",
+    "summaryPath": "summaries/google-part-i-origins-of-search.json",
+    "transcriptPath": "transcripts/google-part-i-origins-of-search.txt",
+    "transcriptJsonPath": "transcripts/google-part-i-origins-of-search.json",
+    "overview": [
+      "Google became the greatest business of all time not because it was the first search engine but because it was the last: PageRank delivered dramatically better relevance, home-built commodity infrastructure made serving results radically cheap, and an auction-based ad model matched high-intent queries to advertisers so efficiently that Alphabet now generates more profit than any other U.S. company.",
+      "The episode's central arc is the search for a business model: for years Google had adoring users and exploding costs but almost no revenue, and incumbents rejected its technology because relevance destroyed banner-ad page views. Salvation came from copying Overture's pay-per-click auction, improving it with click-through relevance and second-price mechanics, then betting the company on a $100 million AOL guarantee that turned scale into rising revenue per search."
+    ],
+    "takeaways": [
+      {
+        "title": "Google's revenue per search rises with scale",
+        "detail": "More advertisers bidding on each keyword improves price discovery and monetizes long-tail queries, so scale raises revenue per query even as unit costs fall. That let Google offer distribution partners revenue shares of 85 to even 100 percent that no competitor could economically match."
+      },
+      {
+        "title": "Portals rejected PageRank to protect page views",
+        "detail": "Excite's CEO killed a roughly $1 million license after a side-by-side demo because relevant results sent users away from his site, destroying CPM banner impressions. Yahoo likewise treated search as good-enough backfill for its hand-curated directory, which is why Google ultimately beat them all."
+      },
+      {
+        "title": "Commodity hardware enabled 85 percent gross margins",
+        "detail": "Google mounted caseless motherboards on corkboard, leased data-center space by square footage, and tolerated hardware failure rates over 10 percent by replicating everything three to five times in software. Next door, competitor Inktomi paid for gleaming enterprise Sun servers."
+      },
+      {
+        "title": "AdWords was Overture's model plus relevance",
+        "detail": "GoTo pioneered pay-per-click keyword auctions and did $100 million in first-year revenue; Google grafted on click-through rate (AdRank) and second-price auctions, mathematically maximizing expected revenue while rewarding better ads with cheaper clicks. Google later paid Overture $360 million for patent infringement."
+      },
+      {
+        "title": "The AOL guarantee was bet-the-company leverage",
+        "detail": "In 2002 Google guaranteed AOL $100 million it did not have, plus an 85 percent revenue share and warrants; Sergey Brin admitted 'we could have gone bankrupt.' AOL instead earned $35 million in the first half-year and $200 million in 2003, making Google the major paid-search player overnight."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Why understanding AI requires understanding Google",
+        "summary": "The hosts frame the series: Google built the technical foundation of AI and is the most profitable U.S. company, a government-declared monopoly with 90 percent search share.",
+        "quote": "Artificial intelligence is the story of our time",
+        "timestamp": "0:52"
+      },
+      {
+        "title": "Dispelling the accidental-founders myth",
+        "summary": "Larry Page and Sergey Brin are introduced not as bumbling academics but as fiercely ambitious builders raised by mathematicians and computer scientists, who intended to build a world-changing company all along.",
+        "quote": "Google did not happen by accident",
+        "timestamp": "8:06"
+      },
+      {
+        "title": "PageRank grows out of a web annotation idea",
+        "summary": "Larry's dissertation plan to annotate web pages fails until ranking itself becomes the project — applying academic citation analysis to hyperlinks at the only moment the web was still small enough to copy.",
+        "quote": "It wasn't that we intended to build a search engine",
+        "timestamp": "17:58"
+      },
+      {
+        "title": "Excite rejects better search to protect page views",
+        "summary": "Shopping BackRub around exposes the industry's fatal conflict: relevant results send users away from portals, breaking the CPM banner-ad model — the exact reason Google would later beat Yahoo.",
+        "quote": "I make money when people stay on my site",
+        "timestamp": "31:31"
+      },
+      {
+        "title": "A $100,000 check forces Google to incorporate",
+        "summary": "Andy Bechtolsheim writes a check to a company that doesn't exist yet, and Jeff Bezos quietly takes a quarter of the four-investor seed round — a stake worth roughly $20 billion today.",
+        "quote": "Jeff Bezos does a quarter of Google's seed round",
+        "timestamp": "46:20"
+      },
+      {
+        "title": "Corkboard servers and commodity-hardware economics",
+        "summary": "Broke and scaling fast, Google builds distributed systems on cheap, failure-prone parts and optimizes for square footage, creating the cost structure behind search's 85 percent gross margins.",
+        "quote": "They just mount the motherboards directly on corkboard",
+        "timestamp": "1:06:17"
+      },
+      {
+        "title": "GoTo invents the paid-search auction",
+        "summary": "Bill Gross is booed at TED for ranking results by paid auction, yet GoTo does $100 million in first-year revenue — and never patents the pay-per-click ideas Google will borrow.",
+        "quote": "The best search results should be determined by the free market with dollars",
+        "timestamp": "1:50:52"
+      },
+      {
+        "title": "AdRank adds click-through rate to the auction",
+        "summary": "Google one-ups Overture by weighting ads by click-through rate and charging second price, aligning users, advertisers, and its own expected revenue in a single formula.",
+        "quote": "Click-through rates are a proxy for relevance",
+        "timestamp": "2:07:05"
+      },
+      {
+        "title": "Betting the company on the AOL guarantee",
+        "summary": "With AdWords barely proven, Google guarantees AOL $100 million it doesn't have to win 34 million users' search inventory — the deal that makes it the dominant paid-search player overnight.",
+        "quote": "we could have gone bankrupt",
+        "timestamp": "2:25:37"
+      },
+      {
+        "title": "Toolbar: buying distribution inside Internet Explorer",
+        "summary": "Realizing Toolbar users are seven times more valuable, Google pays Adobe, Dell, and others to bundle it — aggressively purchasing distribution inside Microsoft's own browser before Microsoft wakes up.",
+        "quote": "a user averaged seven times the number of searches",
+        "timestamp": "2:41:10"
+      },
+      {
+        "title": "AdSense monetizes the internet beyond the query",
+        "summary": "Jeff Dean builds AdSense in six weeks, extending Google's ad marketplace from search queries to publishers' content pages and creating the precursor to YouTube's creator economy.",
+        "quote": "it's doing over a million dollars a day in revenue",
+        "timestamp": "2:53:10"
+      },
+      {
+        "title": "The Dutch auction IPO misprices Google anyway",
+        "summary": "The 2004 IPO prices at $85 against a $108–135 range, pops 18 percent on day one, and nearly 5x's within 16 months — while Google's dual-class share structure becomes the tech-industry standard.",
+        "quote": "This thing was not at all priced correctly",
+        "timestamp": "3:09:12"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Why understanding AI requires understanding Google",
+        "summary": "The hosts frame the series: Google built the technical foundation of AI and is the most profitable U.S. company, a government-declared monopoly with 90 percent search share.",
+        "quote": "Artificial intelligence is the story of our time",
+        "timestamp": "0:52"
+      },
+      {
+        "title": "Dispelling the accidental-founders myth",
+        "summary": "Larry Page and Sergey Brin are introduced not as bumbling academics but as fiercely ambitious builders raised by mathematicians and computer scientists, who intended to build a world-changing company all along.",
+        "quote": "Google did not happen by accident",
+        "timestamp": "8:06"
+      },
+      {
+        "title": "PageRank grows out of a web annotation idea",
+        "summary": "Larry's dissertation plan to annotate web pages fails until ranking itself becomes the project — applying academic citation analysis to hyperlinks at the only moment the web was still small enough to copy.",
+        "quote": "It wasn't that we intended to build a search engine",
+        "timestamp": "17:58"
+      },
+      {
+        "title": "Excite rejects better search to protect page views",
+        "summary": "Shopping BackRub around exposes the industry's fatal conflict: relevant results send users away from portals, breaking the CPM banner-ad model — the exact reason Google would later beat Yahoo.",
+        "quote": "I make money when people stay on my site",
+        "timestamp": "31:31"
+      },
+      {
+        "title": "A $100,000 check forces Google to incorporate",
+        "summary": "Andy Bechtolsheim writes a check to a company that doesn't exist yet, and Jeff Bezos quietly takes a quarter of the four-investor seed round — a stake worth roughly $20 billion today.",
+        "quote": "Jeff Bezos does a quarter of Google's seed round",
+        "timestamp": "46:20"
+      },
+      {
+        "title": "Corkboard servers and commodity-hardware economics",
+        "summary": "Broke and scaling fast, Google builds distributed systems on cheap, failure-prone parts and optimizes for square footage, creating the cost structure behind search's 85 percent gross margins.",
+        "quote": "They just mount the motherboards directly on corkboard",
+        "timestamp": "1:06:17"
+      },
+      {
+        "title": "GoTo invents the paid-search auction",
+        "summary": "Bill Gross is booed at TED for ranking results by paid auction, yet GoTo does $100 million in first-year revenue — and never patents the pay-per-click ideas Google will borrow.",
+        "quote": "The best search results should be determined by the free market with dollars",
+        "timestamp": "1:50:52"
+      },
+      {
+        "title": "AdRank adds click-through rate to the auction",
+        "summary": "Google one-ups Overture by weighting ads by click-through rate and charging second price, aligning users, advertisers, and its own expected revenue in a single formula.",
+        "quote": "Click-through rates are a proxy for relevance",
+        "timestamp": "2:07:05"
+      },
+      {
+        "title": "Betting the company on the AOL guarantee",
+        "summary": "With AdWords barely proven, Google guarantees AOL $100 million it doesn't have to win 34 million users' search inventory — the deal that makes it the dominant paid-search player overnight.",
+        "quote": "we could have gone bankrupt",
+        "timestamp": "2:25:37"
+      },
+      {
+        "title": "Toolbar: buying distribution inside Internet Explorer",
+        "summary": "Realizing Toolbar users are seven times more valuable, Google pays Adobe, Dell, and others to bundle it — aggressively purchasing distribution inside Microsoft's own browser before Microsoft wakes up.",
+        "quote": "a user averaged seven times the number of searches",
+        "timestamp": "2:41:10"
+      },
+      {
+        "title": "AdSense monetizes the internet beyond the query",
+        "summary": "Jeff Dean builds AdSense in six weeks, extending Google's ad marketplace from search queries to publishers' content pages and creating the precursor to YouTube's creator economy.",
+        "quote": "it's doing over a million dollars a day in revenue",
+        "timestamp": "2:53:10"
+      },
+      {
+        "title": "The Dutch auction IPO misprices Google anyway",
+        "summary": "The 2004 IPO prices at $85 against a $108–135 range, pops 18 percent on day one, and nearly 5x's within 16 months — while Google's dual-class share structure becomes the tech-industry standard.",
+        "quote": "This thing was not at all priced correctly",
+        "timestamp": "3:09:12"
+      }
+    ]
+  },
+  {
+    "slug": "the-steve-ballmer-interview",
+    "guid": "d1855fd5-833e-4ec3-8e2f-c610be0aa6ca",
+    "title": "The Steve Ballmer Interview",
+    "pubDate": "Sun, 01 Jun 2025 18:54:06 -0700",
+    "audioUrl": "https://pscrb.fm/rss/p/media.transistor.fm/6a598848/caeda411.mp3",
+    "sourceUrl": "https://www.acquired.fm/episodes/the-steve-ballmer-interview",
+    "duration": 10612,
+    "episodeUrl": "/poddy-summaries/episodes/the-steve-ballmer-interview/",
+    "summaryPath": "summaries/the-steve-ballmer-interview.json",
+    "transcriptPath": "transcripts/the-steve-ballmer-interview.txt",
+    "transcriptJsonPath": "transcripts/the-steve-ballmer-interview.json",
+    "overview": [
+      "Steve Ballmer — worth $130 billion eleven years after leaving Microsoft, almost entirely from holding his stock — returns to respond to Acquired's Microsoft series, arguing the company's success came from deliberately built capabilities: the enterprise business he fathered out of fear of IBM, the recurring-revenue enterprise agreement, and Azure. Great companies, he insists, are at best two-trick ponies, and Microsoft's two tricks — desktop and enterprise — both had to be carried into the cloud.",
+      "The through-line is Microsoft's relationship with its own franchise: decades spent riding the bear of IBM gave way to a fear-plus-overconfidence instinct to put Windows everywhere, which doomed phone and search even as it worked for servers. That tension ran through Ballmer's fraying partnership with Bill Gates — a year of silence, the Longhorn mistake of mistakes, hardware fights — and ended when the board rejected his phone plan and he resigned, staying loyal by never selling."
+    ],
+    "takeaways": [
+      {
+        "title": "Just holding Microsoft grew $20B to $130B",
+        "detail": "Ballmer's one investment decision since 2014 was keeping substantially all his Microsoft stock, on the logic that selling only wins if Microsoft underperforms the index by roughly the capital-gains rate. Dividend checks alone roughly cover his family's near-billion-dollar annual philanthropy."
+      },
+      {
+        "title": "Non-exclusive DOS licensing was the pivotal luck",
+        "detail": "Microsoft paid about $45,000-$49,000 to Seattle Computer Products for an operating system it didn't yet own, then licensed it to IBM one-time and non-exclusively. When Compaq and other clones standardized on DOS, Microsoft — not IBM — became the ecosystem's point of integration."
+      },
+      {
+        "title": "Enterprise agreements fixed a halving-revenue problem",
+        "detail": "Under Select licensing, upgrades cost less than half the price of new licenses, so Microsoft's revenue base was structurally shrinking. The three-year, per-machine, everything-included enterprise agreement created recurring revenue and sold IT departments peace of mind, like an insurance policy."
+      },
+      {
+        "title": "Microsoft forced Windows where it didn't belong",
+        "detail": "Ballmer rejects the claim that Microsoft stuck with Windows too long; the mistake was Windows-izing the phone's UI and processor choice out of combined fear and overconfidence. Only two phone models won — Apple's hardware-profit model and Android's ad-monetized giveaway — and Microsoft missed Verizon's window to Android around Christmas 2008."
+      },
+      {
+        "title": "Satya's ego-free Chi Lu offer sealed succession",
+        "detail": "During the recruiting meeting, Satya Nadella proposed hiring Chi Lu as his own boss, inverting the reporting chain on the spot. Ballmer read that as proof Satya would put the company first, then rotated him into Server and Tools to build the experience needed to become CEO."
+      }
+    ],
+    "chapters": [
+      {
+        "title": "Framing Ballmer as the best investor alive",
+        "summary": "Ben and David set up the episode's hook: Ballmer's net worth went from $20 billion to $130 billion after leaving Microsoft, driven by a single decision to keep holding the stock.",
+        "quote": "arguably the very best investor of the last 20 years",
+        "timestamp": "0:33"
+      },
+      {
+        "title": "Fathering the enterprise, losing the consumer",
+        "summary": "Ballmer accepts credit as founder of Microsoft's enterprise business but immediately names his biggest regret — the company let its original consumer strength atrophy while the enterprise muscle got 'muy macho.'",
+        "quote": "we lost the consumer muscle along the way",
+        "timestamp": "5:09"
+      },
+      {
+        "title": "IBM comes calling: the DOS deal",
+        "summary": "Ballmer retells the origin of the greatest business deal ever — buying a CP/M clone for under $50,000, licensing it non-exclusively to IBM, and accidentally creating the modern software industry.",
+        "quote": "the single greatest business deal in history",
+        "timestamp": "10:49"
+      },
+      {
+        "title": "The divorce: IBM cuts Microsoft loose",
+        "summary": "Ballmer learns from the Wall Street Journal mid-run that IBM is ending the OS/2 partnership, leaving a pipsqueak Microsoft with no enterprise presence facing the company it called the bear.",
+        "quote": "oh my God, now we have to confront the bear",
+        "timestamp": "29:15"
+      },
+      {
+        "title": "Inventing the enterprise agreement",
+        "summary": "The move from counting disks to three-year, per-machine, everything-included licensing solved a structural revenue decline and defined how enterprise software is sold — as insurance for IT departments.",
+        "quote": "When you sell the enterprise, you have to provide peace of mind",
+        "timestamp": "45:33"
+      },
+      {
+        "title": "Windows everywhere: fear plus overconfidence",
+        "summary": "Ballmer reframes the mobile miss — not sticking with Windows too long, but forcing its UI and model into places like phones and cars where it never naturally fit.",
+        "quote": "we tried to put Windows in places that it didn't naturally go",
+        "timestamp": "58:51"
+      },
+      {
+        "title": "Azure begins: go get Cutler",
+        "summary": "Eight years before Ballmer left, he pulled Dave Cutler and Amitabh Srivastava onto a separate incubation to build Microsoft's cloud platform, deliberately shielding it from the Server and Tools organization.",
+        "quote": "Let's just go get Cutler",
+        "timestamp": "1:17:53"
+      },
+      {
+        "title": "Trick-pony accounting of great companies",
+        "summary": "Ballmer lays out his taxonomy: most businesses are zero-trick, one-trick ponies deserve awe, and Microsoft's desktop and enterprise businesses make it a rare two-and-a-half-trick company — no three-trick pony exists.",
+        "quote": "Now, two-trick ponies. Ooh, la, la.",
+        "timestamp": "1:30:11"
+      },
+      {
+        "title": "The year Bill and Steve didn't speak",
+        "summary": "Becoming Gates's boss broke their working relationship for roughly a year until their wives pushed them back together, and the lack of healthy contention enabled the Longhorn 'mistake of mistakes.'",
+        "quote": "Bill and I went through a year where we didn't speak",
+        "timestamp": "1:53:59"
+      },
+      {
+        "title": "The phone fight that ended his tenure",
+        "summary": "Ballmer explains his resignation: he believed Microsoft had to build phone hardware, the board said no, and the way the decision was handled — entangled with his relationship with Gates — broke the camel's back.",
+        "quote": "I just didn't find the process very respectful",
+        "timestamp": "2:11:15"
+      },
+      {
+        "title": "Why he never sold a share",
+        "summary": "Ballmer describes nearly selling everything for full emotional detachment, until a colleague's conviction and his own loyalty — famously defended to Charlie Munger — kept him Microsoft's largest individual shareholder.",
+        "quote": "my loyalty trumps my emotional attachment",
+        "timestamp": "2:20:01"
+      },
+      {
+        "title": "Intuit Dome: engineering home-court advantage",
+        "summary": "Ballmer's clearest product vision ever — a basketball-only arena with the standing-room Wall placed over the visitor's huddle, which now produces the league's lowest visiting free-throw percentage.",
+        "quote": "I mean, it worked. That's what I wanted.",
+        "timestamp": "2:48:11"
+      }
+    ],
+    "bullets": [
+      {
+        "title": "Framing Ballmer as the best investor alive",
+        "summary": "Ben and David set up the episode's hook: Ballmer's net worth went from $20 billion to $130 billion after leaving Microsoft, driven by a single decision to keep holding the stock.",
+        "quote": "arguably the very best investor of the last 20 years",
+        "timestamp": "0:33"
+      },
+      {
+        "title": "Fathering the enterprise, losing the consumer",
+        "summary": "Ballmer accepts credit as founder of Microsoft's enterprise business but immediately names his biggest regret — the company let its original consumer strength atrophy while the enterprise muscle got 'muy macho.'",
+        "quote": "we lost the consumer muscle along the way",
+        "timestamp": "5:09"
+      },
+      {
+        "title": "IBM comes calling: the DOS deal",
+        "summary": "Ballmer retells the origin of the greatest business deal ever — buying a CP/M clone for under $50,000, licensing it non-exclusively to IBM, and accidentally creating the modern software industry.",
+        "quote": "the single greatest business deal in history",
+        "timestamp": "10:49"
+      },
+      {
+        "title": "The divorce: IBM cuts Microsoft loose",
+        "summary": "Ballmer learns from the Wall Street Journal mid-run that IBM is ending the OS/2 partnership, leaving a pipsqueak Microsoft with no enterprise presence facing the company it called the bear.",
+        "quote": "oh my God, now we have to confront the bear",
+        "timestamp": "29:15"
+      },
+      {
+        "title": "Inventing the enterprise agreement",
+        "summary": "The move from counting disks to three-year, per-machine, everything-included licensing solved a structural revenue decline and defined how enterprise software is sold — as insurance for IT departments.",
+        "quote": "When you sell the enterprise, you have to provide peace of mind",
+        "timestamp": "45:33"
+      },
+      {
+        "title": "Windows everywhere: fear plus overconfidence",
+        "summary": "Ballmer reframes the mobile miss — not sticking with Windows too long, but forcing its UI and model into places like phones and cars where it never naturally fit.",
+        "quote": "we tried to put Windows in places that it didn't naturally go",
+        "timestamp": "58:51"
+      },
+      {
+        "title": "Azure begins: go get Cutler",
+        "summary": "Eight years before Ballmer left, he pulled Dave Cutler and Amitabh Srivastava onto a separate incubation to build Microsoft's cloud platform, deliberately shielding it from the Server and Tools organization.",
+        "quote": "Let's just go get Cutler",
+        "timestamp": "1:17:53"
+      },
+      {
+        "title": "Trick-pony accounting of great companies",
+        "summary": "Ballmer lays out his taxonomy: most businesses are zero-trick, one-trick ponies deserve awe, and Microsoft's desktop and enterprise businesses make it a rare two-and-a-half-trick company — no three-trick pony exists.",
+        "quote": "Now, two-trick ponies. Ooh, la, la.",
+        "timestamp": "1:30:11"
+      },
+      {
+        "title": "The year Bill and Steve didn't speak",
+        "summary": "Becoming Gates's boss broke their working relationship for roughly a year until their wives pushed them back together, and the lack of healthy contention enabled the Longhorn 'mistake of mistakes.'",
+        "quote": "Bill and I went through a year where we didn't speak",
+        "timestamp": "1:53:59"
+      },
+      {
+        "title": "The phone fight that ended his tenure",
+        "summary": "Ballmer explains his resignation: he believed Microsoft had to build phone hardware, the board said no, and the way the decision was handled — entangled with his relationship with Gates — broke the camel's back.",
+        "quote": "I just didn't find the process very respectful",
+        "timestamp": "2:11:15"
+      },
+      {
+        "title": "Why he never sold a share",
+        "summary": "Ballmer describes nearly selling everything for full emotional detachment, until a colleague's conviction and his own loyalty — famously defended to Charlie Munger — kept him Microsoft's largest individual shareholder.",
+        "quote": "my loyalty trumps my emotional attachment",
+        "timestamp": "2:20:01"
+      },
+      {
+        "title": "Intuit Dome: engineering home-court advantage",
+        "summary": "Ballmer's clearest product vision ever — a basketball-only arena with the standing-room Wall placed over the visitor's huddle, which now produces the league's lowest visiting free-throw percentage.",
+        "quote": "I mean, it worked. That's what I wanted.",
+        "timestamp": "2:48:11"
       }
     ]
   }

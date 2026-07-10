@@ -48,6 +48,21 @@ def iso_duration(value):
     return "".join(parts)
 
 
+def effective_duration(feed_duration, transcript):
+    """Prefer the transcribed media's actual end when dynamic ads extend the RSS runtime."""
+    try:
+        duration = max(0.0, float(feed_duration))
+    except (TypeError, ValueError):
+        duration = 0.0
+    for collection_name in ("segments", "paragraphs"):
+        for item in transcript.get(collection_name) or []:
+            try:
+                duration = max(duration, float(item.get("end") or 0))
+            except (TypeError, ValueError):
+                continue
+    return int(round(duration))
+
+
 def display_date(value):
     try:
         return parsedate_to_datetime(value).strftime("%B %-d, %Y")
@@ -369,6 +384,7 @@ def main():
         summary = load_json(summary_path, {})
         transcript = load_json(transcript_json_path, {})
         episode_url = f"/poddy-summaries/episodes/{slug}/"
+        duration = effective_duration(ep.get("duration"), transcript)
 
         episodes_out.append(
             {
@@ -378,7 +394,7 @@ def main():
                 "pubDate": ep.get("pubDate"),
                 "audioUrl": ep.get("audioUrl"),
                 "sourceUrl": ep.get("sourceUrl"),
-                "duration": ep.get("duration"),
+                "duration": duration,
                 "publishedTs": ep.get("published_ts", 0),
                 "episodeUrl": episode_url,
                 "summaryPath": str(summary_path.relative_to(data_dir)),

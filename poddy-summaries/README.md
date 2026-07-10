@@ -34,7 +34,7 @@ python3 scripts/validate_data.py
 
 Each episode generates:
 
-- **Episode guide** - Two-paragraph overview, five key insights, and 8–12 chapters
+- **Episode guide** - Two-paragraph overview, five key insights, and duration-aware chapters (1–3 for trailers, 3–6 for short episodes, 8–12 for full episodes)
 - **Full transcript** - Searchable paragraphs with one seekable timestamp per paragraph
 - **Audio player** - Stream from source, seek via timestamp clicks
 - **Permanent episode page** - Crawlable summary/transcript URL with PodcastEpisode structured data

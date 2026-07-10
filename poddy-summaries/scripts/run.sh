@@ -23,20 +23,42 @@ require_cmd() {
 }
 
 valid_summary() {
-  jq -e '
+  local summary_path="$1"
+  local chapter_min="$2"
+  local chapter_max="$3"
+  jq -e --argjson chapter_min "$chapter_min" --argjson chapter_max "$chapter_max" '
     type == "object" and
     (.overview | type == "array" and length == 2 and all(.[]; type == "string" and length > 0)) and
     (.takeaways | type == "array" and length == 5 and all(.[];
       (.title | type == "string" and length > 0) and
       (.detail | type == "string" and length > 0)
     )) and
-    (.chapters | type == "array" and length >= 8 and length <= 12 and all(.[];
+    (.chapters | type == "array" and length >= $chapter_min and length <= $chapter_max and all(.[];
       (.title | type == "string" and length > 0) and
       (.summary | type == "string" and length > 0) and
       (.quote | type == "string") and
       (.timestamp | type == "string" and test("^([0-9]+:)?[0-5]?[0-9]:[0-5][0-9]$"))
     ))
-  ' "$1" >/dev/null 2>&1
+  ' "$summary_path" >/dev/null 2>&1
+}
+
+duration_seconds() {
+  local value="$1"
+  local first=""
+  local second=""
+  local third=""
+  if [[ "$value" =~ ^[0-9]+$ ]]; then
+    echo "$value"
+    return
+  fi
+  IFS=: read -r first second third <<<"$value"
+  if [ -n "$third" ]; then
+    echo $((10#$first * 3600 + 10#$second * 60 + 10#$third))
+  elif [ -n "$second" ]; then
+    echo $((10#$first * 60 + 10#$second))
+  else
+    echo 0
+  fi
 }
 
 while [ "$#" -gt 0 ]; do
@@ -108,6 +130,21 @@ while IFS= read -r ep; do
   title=$(jq -r '.title' <<<"$ep")
   slug=$(jq -r '.slug' <<<"$ep")
   audio_url=$(jq -r '.audioUrl' <<<"$ep")
+  duration_raw=$(jq -r '.duration // ""' <<<"$ep")
+  duration=$(duration_seconds "$duration_raw")
+  if [ "$duration" -le 300 ]; then
+    chapter_min=1
+    chapter_max=3
+    chapter_guidance="1-3 items covering the complete short announcement or trailer without repeating the same moment."
+  elif [ "$duration" -le 1800 ]; then
+    chapter_min=3
+    chapter_max=6
+    chapter_guidance="3-6 items distributed across the complete short episode, including the beginning and ending."
+  else
+    chapter_min=8
+    chapter_max=12
+    chapter_guidance="8-12 items distributed across the entire runtime, including the beginning, middle, and final quarter. Do not cluster chapters in the introduction."
+  fi
   summary_path="$DATA/summaries/$slug.json"
   transcript_json="$DATA/transcripts/$slug.json"
   timed_transcript="$DATA/transcripts/$slug-timed.txt"
@@ -135,7 +172,7 @@ The transcript below is grouped into timestamped paragraphs.
 Return JSON with:
 - `overview`: exactly two concise paragraphs as an array of strings. The first states the episode's central argument; the second explains the most important arc or tension. Each paragraph must be under 80 words.
 - `takeaways`: exactly five objects shaped as {"title":"","detail":""}. The title is a specific claim of no more than eight words. The detail explains the evidence, mechanism, or consequence in one or two concrete sentences. Avoid generic lessons.
-- `chapters`: 8-12 items distributed across the entire runtime, including the beginning, middle, and final quarter. Do not cluster chapters in the introduction.
+- `chapters`: __CHAPTER_GUIDANCE__
 Each chapter: {"title":"","summary":"","quote":"","timestamp":"H:MM:SS"}
 - `title`: a specific, useful chapter heading.
 - `summary`: 1-2 sentences explaining why the section matters.
@@ -145,8 +182,9 @@ Only output valid JSON with no commentary or markdown fences.
 
 Transcript:
 EOF
+  prompt=${prompt/__CHAPTER_GUIDANCE__/$chapter_guidance}
 
-  if [ -s "$summary_path" ] && valid_summary "$summary_path"; then
+  if [ -s "$summary_path" ] && valid_summary "$summary_path" "$chapter_min" "$chapter_max"; then
     log "Reusing existing summary for $slug"
   else
     log "Summarizing via claude -p -> $summary_path"
@@ -156,7 +194,7 @@ EOF
       cat "$timed_transcript"
     } | claude -p --output-format text > "$temp_summary"
 
-    if ! valid_summary "$temp_summary"; then
+    if ! valid_summary "$temp_summary" "$chapter_min" "$chapter_max"; then
       echo "Claude returned an invalid episode summary for $slug; leaving existing data unchanged." >&2
       exit 1
     fi
