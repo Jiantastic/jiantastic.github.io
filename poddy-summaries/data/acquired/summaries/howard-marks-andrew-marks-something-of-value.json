@@ -1,0 +1,103 @@
+{
+  "overview": [
+    "Howard and Andrew Marks dissolve the false boundary between value and growth investing. Every equity is worth the discounted value of its future cash flows; companies differ only in when those cash flows arrive and how reliably they can be forecast. Traditional screens can miss Amazon's optionality, reinvestment economics, and favorable cash conversion, while growth enthusiasm can mistake spending for value creation. The common discipline is understanding the business deeply, judging the future, and comparing value with price.",
+    "Their generational contrast produces a practical philosophy: remain open-minded without abandoning a circle of competence, seek non-consensus insight without contrarian theater, and combine conviction with humility. Howard's high-yield career shows that acknowledged, analyzable, diversified, well-paid risk can be safer than fashionable quality purchased expensively. Andrew's compounding framework explains why great businesses should not be sold merely because they rose. Buying and 'unbuying' must both follow fundamentals, opportunity cost, and what the investor originally expected to earn."
+  ],
+  "takeaways": [
+    {
+      "title": "Value and growth share one equation",
+      "detail": "All stocks represent future cash flows discounted to today. A mature company concentrates those flows in the near term; a growth company pushes them farther out, increasing dependence on qualitative judgments. Labels are less useful than asking what must happen, how predictable it is, and what that stream is worth."
+    },
+    {
+      "title": "Reinvestment is neither automatically good nor bad",
+      "detail": "Amazon's reported losses concealed a sound cash cycle and deliberate spending to lower prices, gain scale, and create options such as AWS. Yet not every loss is productive. Investors must distinguish optional profitability and high-return reinvestment from businesses simply consuming capital without improving future economics."
+    },
+    {
+      "title": "Risk becomes investable through four conditions",
+      "detail": "Howard compares high-yield bonds with life insurance: the adverse event must be known, analyzable, diversified across many exposures, and priced with a margin of safety. A low-quality asset can be a safe investment at the right price, just as an excellent company can be dangerous at an extreme valuation."
+    },
+    {
+      "title": "Second-level thinking must also be correct",
+      "detail": "Merely disagreeing with consensus is easy. Superior results require a variant perception grounded in better knowledge, context, judgment, and intellectual humility. Howard looks for 'smart eyes' — people who identify what matters beyond readily available numbers and know where they cannot responsibly opine."
+    },
+    {
+      "title": "Selling should be a decision to unbuy",
+      "detail": "Price movement alone says nothing about whether an investment thesis remains attractive. A dollar bought for fifty cents may be sold at intrinsic value, while a rare company compounding value near 20% may remain valuable even above a static estimate. Compare revised fundamentals and opportunity cost, not fear of losing a gain."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "A pandemic debate becomes a joint memo",
+      "summary": "Living together in 2020 let a traditional credit investor and a technology-growth investor repeatedly test their differences, producing Howard's most widely read memo from roughly 160 written over his career.",
+      "quote": "we have a lot of differences",
+      "timestamp": "7:34"
+    },
+    {
+      "title": "Growth investing evolves from owner earnings",
+      "summary": "Andrew's path moved gradually from current cash flows to businesses reinvesting through new stores, sales, engineering, and R&D — expenditures that can create valuable future cash flows rather than merely depress present profit.",
+      "quote": "you can also make them out of the income statement",
+      "timestamp": "11:18"
+    },
+    {
+      "title": "Amazon demonstrates management optionality",
+      "summary": "An investor underwriting only retail could not have forecast AWS; backing an exceptional founder and organization introduced valuable future businesses that a static model could not explicitly contain.",
+      "quote": "you could have never dreamed of AWS",
+      "timestamp": "12:15"
+    },
+    {
+      "title": "Cash flow contradicts the loss-making narrative",
+      "summary": "Amazon's income statement looked structurally unprofitable, but its favorable cash-conversion cycle showed a much sounder enterprise funding deliberate scale investments — proof that superficial accounting labels can mislead.",
+      "quote": "the business was much more sound",
+      "timestamp": "13:54"
+    },
+    {
+      "title": "Open-mindedness bridges investing styles",
+      "summary": "Howard identifies the memo's core lesson as evolving one's thinking: even Graham's greatest outcome, GEICO, did not fit a simplistic deep-value template, and Howard's own high-yield work began outside accepted practice.",
+      "quote": "open-mindedness was really the most important single theme",
+      "timestamp": "16:43"
+    },
+    {
+      "title": "Life insurance explains compensated risk",
+      "summary": "Defaults need not make junk bonds reckless if losses are expected, analyzed, diversified, and more than covered by yield — the same logic insurers use while knowing every policyholder eventually dies.",
+      "quote": "it's risk they're well paid to take",
+      "timestamp": "20:18"
+    },
+    {
+      "title": "The Nifty Fifty proves quality has a price",
+      "summary": "Investors declared America's best companies immune to harm and paid 60–90 times earnings; disruption and multiple compression then caused devastating losses, showing asset quality cannot rescue an unlimited purchase price.",
+      "quote": "both stances are wrong",
+      "timestamp": "21:09"
+    },
+    {
+      "title": "Judgment lives between contradictory rules",
+      "summary": "Investors need confidence but not stubbornness, concentration but protection from the unforeseen, and an enduring style plus willingness to change — tensions that cannot be reduced to one mechanical algorithm.",
+      "quote": "the things we're talking about can't be reduced to an algorithm",
+      "timestamp": "55:25"
+    },
+    {
+      "title": "Second-level thinking requires correct divergence",
+      "summary": "Consensus disagreement is not itself an edge. The investor must perceive something differently and more accurately through insight, knowledge, context, and humility about what remains unknowable.",
+      "quote": "not always easy to diverge correctly",
+      "timestamp": "57:52"
+    },
+    {
+      "title": "Exceptional founders are useful weirdos",
+      "summary": "Andrew looks for people several standard deviations from normal in a capability relevant to the company; exceptional outcomes cannot emerge from following the same roadmap as everyone else.",
+      "quote": "are they a weirdo?",
+      "timestamp": "1:03:11"
+    },
+    {
+      "title": "A compounder changes the selling equation",
+      "summary": "A static bargain should be sold when price reaches value, but a business increasing intrinsic value near 20% annually may justify holding through apparent overvaluation because the future compounding right is rare.",
+      "quote": "you shouldn't sell it",
+      "timestamp": "1:16:01"
+    },
+    {
+      "title": "Oaktree raises most when opportunity expands",
+      "summary": "Rather than declare every moment ideal for its strategy, Oaktree increases funds ahead of distressed cycles and deliberately follows successful crisis vintages with smaller vehicles when bargains become scarce.",
+      "quote": "We tend to increase our AUM in bad times.",
+      "timestamp": "1:24:44"
+    }
+  ],
+  "title": "Howard and Andrew Marks: Value, Growth, Risk, and When to Sell"
+}
