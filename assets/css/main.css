@@ -124,16 +124,64 @@ a {
 }
 
 .brand-mark {
-  width: 38px;
-  height: 38px;
+  position: relative;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
   display: grid;
   place-items: center;
-  border: 1px solid var(--pine);
+  border: 1px solid rgba(24, 63, 43, 0.55);
   border-radius: 50%;
-  background: var(--pine);
-  color: var(--paper);
-  font: 700 0.68rem/1 var(--font-body);
-  letter-spacing: 0.08em;
+  background:
+    radial-gradient(circle at 35% 28%, rgba(255,255,255,.55), transparent 34%),
+    var(--sun);
+  color: var(--pine-dark);
+  box-shadow:
+    inset 0 0 0 3px rgba(244, 239, 217, 0.75),
+    0 3px 12px rgba(31, 49, 36, 0.12);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.brand-glyph {
+  font-family: "Songti SC", STSong, "Noto Serif CJK SC", "Yu Mincho", serif;
+  font-size: 1.42rem;
+  font-weight: 700;
+  line-height: 1;
+  transform: translateY(-0.02em);
+}
+
+.brand-mark::before {
+  content: "";
+  position: absolute;
+  right: -9px;
+  bottom: -2px;
+  width: 18px;
+  height: 13px;
+  border-right: 1.5px solid var(--moss);
+  border-bottom: 1.5px solid var(--moss);
+  border-radius: 0 0 14px 0;
+  transform: rotate(-18deg);
+  transform-origin: left center;
+}
+
+.brand-mark::after {
+  content: "";
+  position: absolute;
+  right: -8px;
+  bottom: 7px;
+  width: 6px;
+  height: 10px;
+  border-radius: 100% 0 100% 0;
+  background: var(--moss);
+  box-shadow: -8px 7px 0 -1px var(--moss);
+  transform: rotate(38deg);
+}
+
+.nav-brand:hover .brand-mark {
+  transform: rotate(-4deg) scale(1.04);
+  box-shadow:
+    inset 0 0 0 3px rgba(244, 239, 217, 0.82),
+    0 5px 16px rgba(31, 49, 36, 0.18);
 }
 
 .nav-links {
