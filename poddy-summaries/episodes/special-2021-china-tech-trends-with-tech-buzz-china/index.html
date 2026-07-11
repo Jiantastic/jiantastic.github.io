@@ -9,6 +9,9 @@ image:
   height: 630
   alt: "Special: 2021 China Tech Trends (with Tech Buzz China) Acquired podcast summary and transcript"
 date: 2021-05-05T12:53:00-07:00
+episode_title: "Special: 2021 China Tech Trends (with Tech Buzz China)"
+episode_audio_url: "https://pscrb.fm/rss/p/media.transistor.fm/19028f0f/6c30df3f.mp3"
+episode_audio_duration: "1:20:44"
 ---
 
 <link rel="stylesheet" href="/poddy-summaries/styles.css" />
@@ -24,7 +27,7 @@ date: 2021-05-05T12:53:00-07:00
     <a class="episode-source-link" href="https://www.acquired.fm/episodes/special-2021-china-tech-trends-with-tech-buzz-china" target="_blank" rel="noopener">View the original episode on Acquired ↗</a>
   </header>
 
-  <audio class="episode-native-audio" id="episode-audio" controls preload="metadata" src="https://pscrb.fm/rss/p/media.transistor.fm/19028f0f/6c30df3f.mp3"></audio>
+  {% include poddy-audio-player.html title=page.episode_title src=page.episode_audio_url duration=page.episode_audio_duration %}
   <nav class="episode-jump-nav" aria-label="On this page">
     <a href="#summary">Summary</a><a href="#insights">Key insights</a><a href="#chapters">Chapters</a><a href="#transcript">Transcript</a>
   </nav>

@@ -1,0 +1,32 @@
+<div class="audio-deck" aria-label="Audio player">
+  <div class="audio-title">
+    <span class="audio-pulse" aria-hidden="true"></span>
+    <div>
+      <span class="audio-label">Listen to the episode</span>
+      <strong id="audio-title">{{ include.title | default: "Waiting for episode" }}</strong>
+    </div>
+  </div>
+  <div class="transport">
+    <button id="skip-back" class="transport-small" type="button" aria-label="Skip back 15 seconds">−15</button>
+    <button id="play-toggle" class="play-toggle" type="button" aria-label="Play episode">▶</button>
+    <button id="skip-forward" class="transport-small" type="button" aria-label="Skip forward 15 seconds">+15</button>
+  </div>
+  <div class="timeline">
+    <span id="audio-current">0:00</span>
+    <label class="visually-hidden" for="audio-progress">Episode position</label>
+    <input id="audio-progress" type="range" min="0" max="1000" step="1" value="0" />
+    <span id="audio-total">{{ include.duration | default: "0:00" }}</span>
+  </div>
+  <label class="speed-control" for="playback-rate">
+    <span>Speed</span>
+    <select id="playback-rate">
+      <option value="0.75">0.75×</option>
+      <option value="1" selected>1×</option>
+      <option value="1.25">1.25×</option>
+      <option value="1.5">1.5×</option>
+      <option value="2">2×</option>
+    </select>
+  </label>
+  <audio id="audio-player" preload="metadata"{% if include.src %} src="{{ include.src | escape }}"{% endif %}></audio>
+  <p id="audio-status" class="audio-status" role="status" aria-live="polite"></p>
+</div>

@@ -227,6 +227,9 @@ image:
   height: 630
   alt: {json.dumps(f"{title} Acquired podcast summary and transcript", ensure_ascii=False)}
 date: {iso_date(ep.get("pubDate")) or ""}
+episode_title: {json.dumps(title, ensure_ascii=False)}
+episode_audio_url: {json.dumps(str(ep.get("audioUrl") or ""), ensure_ascii=False)}
+episode_audio_duration: {json.dumps(format_timestamp(ep.get("duration")), ensure_ascii=False)}
 ---
 
 <link rel="stylesheet" href="/poddy-summaries/styles.css" />
@@ -242,7 +245,7 @@ date: {iso_date(ep.get("pubDate")) or ""}
     <a class="episode-source-link" href="{escape(str(ep.get("sourceUrl") or PODCAST_URL), quote=True)}" target="_blank" rel="noopener">View the original episode on Acquired ↗</a>
   </header>
 
-  <audio class="episode-native-audio" id="episode-audio" controls preload="metadata" src="{escape(str(ep.get("audioUrl") or ""), quote=True)}"></audio>
+  {{% include poddy-audio-player.html title=page.episode_title src=page.episode_audio_url duration=page.episode_audio_duration %}}
   <nav class="episode-jump-nav" aria-label="On this page">
     <a href="#summary">Summary</a><a href="#insights">Key insights</a><a href="#chapters">Chapters</a><a href="#transcript">Transcript</a>
   </nav>

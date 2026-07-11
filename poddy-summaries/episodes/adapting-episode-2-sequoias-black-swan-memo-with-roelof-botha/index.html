@@ -9,6 +9,9 @@ image:
   height: 630
   alt: "Adapting Episode 2: Sequoia’s Black Swan Memo (with Roelof Botha) Acquired podcast summary and transcript"
 date: 2020-03-30T21:14:03-07:00
+episode_title: "Adapting Episode 2: Sequoia’s Black Swan Memo (with Roelof Botha)"
+episode_audio_url: "https://pscrb.fm/rss/p/media.transistor.fm/02875aa1/54b8aa52.mp3"
+episode_audio_duration: "44:11"
 ---
 
 <link rel="stylesheet" href="/poddy-summaries/styles.css" />
@@ -24,7 +27,7 @@ date: 2020-03-30T21:14:03-07:00
     <a class="episode-source-link" href="https://www.acquired.fm/episodes/adapting-episode-2-sequoias-black-swan-memo-with-roelof-botha" target="_blank" rel="noopener">View the original episode on Acquired ↗</a>
   </header>
 
-  <audio class="episode-native-audio" id="episode-audio" controls preload="metadata" src="https://pscrb.fm/rss/p/media.transistor.fm/02875aa1/54b8aa52.mp3"></audio>
+  {% include poddy-audio-player.html title=page.episode_title src=page.episode_audio_url duration=page.episode_audio_duration %}
   <nav class="episode-jump-nav" aria-label="On this page">
     <a href="#summary">Summary</a><a href="#insights">Key insights</a><a href="#chapters">Chapters</a><a href="#transcript">Transcript</a>
   </nav>

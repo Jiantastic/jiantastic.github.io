@@ -9,6 +9,9 @@ image:
   height: 630
   alt: "7 Powers with Hamilton Helmer Acquired podcast summary and transcript"
 date: 2021-12-07T21:46:20-08:00
+episode_title: "7 Powers with Hamilton Helmer"
+episode_audio_url: "https://pscrb.fm/rss/p/media.transistor.fm/eed24a19/e927d442.mp3"
+episode_audio_duration: "1:04:03"
 ---
 
 <link rel="stylesheet" href="/poddy-summaries/styles.css" />
@@ -24,7 +27,7 @@ date: 2021-12-07T21:46:20-08:00
     <a class="episode-source-link" href="https://www.acquired.fm/episodes/7-powers-with-hamilton-helmer" target="_blank" rel="noopener">View the original episode on Acquired ↗</a>
   </header>
 
-  <audio class="episode-native-audio" id="episode-audio" controls preload="metadata" src="https://pscrb.fm/rss/p/media.transistor.fm/eed24a19/e927d442.mp3"></audio>
+  {% include poddy-audio-player.html title=page.episode_title src=page.episode_audio_url duration=page.episode_audio_duration %}
   <nav class="episode-jump-nav" aria-label="On this page">
     <a href="#summary">Summary</a><a href="#insights">Key insights</a><a href="#chapters">Chapters</a><a href="#transcript">Transcript</a>
   </nav>

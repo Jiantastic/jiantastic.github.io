@@ -9,6 +9,9 @@ image:
   height: 630
   alt: "Charlie Munger Acquired podcast summary and transcript"
 date: 2023-10-29T18:49:26-07:00
+episode_title: "Charlie Munger"
+episode_audio_url: "https://pscrb.fm/rss/p/media.transistor.fm/c100f364/6ce4bb67.mp3"
+episode_audio_duration: "1:07:08"
 ---
 
 <link rel="stylesheet" href="/poddy-summaries/styles.css" />
@@ -24,7 +27,7 @@ date: 2023-10-29T18:49:26-07:00
     <a class="episode-source-link" href="https://www.acquired.fm/episodes/charlie-munger" target="_blank" rel="noopener">View the original episode on Acquired ↗</a>
   </header>
 
-  <audio class="episode-native-audio" id="episode-audio" controls preload="metadata" src="https://pscrb.fm/rss/p/media.transistor.fm/c100f364/6ce4bb67.mp3"></audio>
+  {% include poddy-audio-player.html title=page.episode_title src=page.episode_audio_url duration=page.episode_audio_duration %}
   <nav class="episode-jump-nav" aria-label="On this page">
     <a href="#summary">Summary</a><a href="#insights">Key insights</a><a href="#chapters">Chapters</a><a href="#transcript">Transcript</a>
   </nav>

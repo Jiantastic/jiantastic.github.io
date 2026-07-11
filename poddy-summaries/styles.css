@@ -103,7 +103,7 @@
 .episode-detail-header h1 { max-width: 900px; margin: .5rem 0 1rem; font: 400 clamp(2.8rem, 8vw, 6.5rem)/.96 Georgia, serif; letter-spacing: -.045em; }
 .episode-disclaimer { margin: .8rem 0 0; color: var(--poddy-muted); font-size: .76rem; }
 .episode-source-link { display: inline-flex; margin-top: .55rem; color: var(--poddy-rust); font-size: .76rem; font-weight: 800; text-decoration: none; }
-.episode-native-audio { width: 100%; margin: 1.5rem 0 1rem; }
+.poddy-episode-detail .audio-deck { margin: 1.5rem 0 1rem; }
 .episode-jump-nav { display: flex; flex-wrap: wrap; gap: .5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--poddy-line); }
 .episode-jump-nav a { padding: .45rem .75rem; border: 1px solid var(--poddy-line); border-radius: 999px; font-size: .72rem; font-weight: 800; text-decoration: none; }
 .episode-content-section { padding: clamp(2.5rem, 6vw, 5rem) 0; border-bottom: 1px solid var(--poddy-line); scroll-margin-top: 2rem; }
